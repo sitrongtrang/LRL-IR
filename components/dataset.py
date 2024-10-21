@@ -13,12 +13,11 @@ SupportLanguage: TypeAlias = Literal[
 ]
 
 
-class LanguageProcessingInterface(ABC):
+class LanguageProcessing:
     """
-    Base class for language processing. This class can be inherited, so that the model
-    can be scale to every languages. You just need to provided appropriate function
-    as decribe in the constructor for the language. Vietnamese and Khmer are supported
-    by default, so no function need to be provided.
+    Class for language processing. This class help the model can be scale to every languages. 
+    You just need to provided appropriate function as decribe in the constructor for the language.
+    Vietnamese and Khmer are supported by default, so no function need to be provided.
     """
 
     def __init__(
@@ -109,7 +108,7 @@ class LanguageProcessingInterface(ABC):
                 f"The language {self.language} is not supported by default. You have to implement encoder by yourself!")
 
 
-class DocumentDataset(Dataset, LanguageProcessingInterface):
+class DocumentDataset(Dataset, LanguageProcessing):
     def __init__(
             self,
             document_dir: str,
@@ -138,7 +137,7 @@ class DocumentDataset(Dataset, LanguageProcessingInterface):
             If not provided, use default (Vietnamese and Khmer support only).\
             Vietnamese and Khmer are supported by default, so no need to pass this parameter.
         """
-        LanguageProcessingInterface.__init__(
+        LanguageProcessing.__init__(
             self, language, word_segment, tokenizer, encoder)
         Dataset.__init__(self)
         self.document_dir: str = document_dir
@@ -234,7 +233,7 @@ class DocumentDataset(Dataset, LanguageProcessingInterface):
         return title_segmented, content_segmented, topic, file_path
 
 
-class QADataset(Dataset, LanguageProcessingInterface):
+class QADataset(Dataset, LanguageProcessing):
     def __init__(
             self,
             qa_dir: str,
@@ -263,7 +262,7 @@ class QADataset(Dataset, LanguageProcessingInterface):
             If not provided, use default (Vietnamese and Khmer support only).\
             Vietnamese and Khmer are supported by default, so no need to pass this parameter.
         """
-        LanguageProcessingInterface.__init__(
+        LanguageProcessing.__init__(
             self, language, word_segment, tokenizer, encoder)
         Dataset.__init__(self)
         self.qa_dir: str = qa_dir
@@ -278,7 +277,7 @@ class QADataset(Dataset, LanguageProcessingInterface):
         Attention: The corresponding answer documents for each question is just a list of file path
         to where the documents is stored. So if you just use this path to retrive the document,
         this document will be raw (pure text, no word segmentation or any technique applied). 
-        You should do it yourself (this class inherits from LanguageProcessingInterface, so it already has requied methods), 
+        You should do it yourself (this class inherits from LanguageProcessing, so it already has requied methods), 
         or use this path to find the document from DocumentDataset.
 
         Returns:
@@ -316,22 +315,22 @@ class ParallelDataset(Dataset):
     def __init__(
         self,
         parallel_dir: str,
-        teacher_language_processing: LanguageProcessingInterface,
-        student_language_processing: LanguageProcessingInterface
+        teacher_language_processing: LanguageProcessing,
+        student_language_processing: LanguageProcessing
     ):
         """
         Args:
             parallel_dir (str): Path to the folder containing CSV files with parallel sentences.
 
-            teacher_language_processing (LanguageProcessingInterface): Language processing object\
+            teacher_language_processing (LanguageProcessing): Language processing object\
             for the teacher language.
 
-            student_language_processing (LanguageProcessingInterface): Language processing object\
+            student_language_processing (LanguageProcessing): Language processing object\
             for the student language.
         """
         self.parallel_dir: str = parallel_dir
-        self.teacher_language_processing: LanguageProcessingInterface = teacher_language_processing,
-        self.student_language_processing: LanguageProcessingInterface = student_language_processing,
+        self.teacher_language_processing: LanguageProcessing = teacher_language_processing,
+        self.student_language_processing: LanguageProcessing = student_language_processing,
         self.pairs = self._load_pairs()
 
     def _load_pairs(self) -> list[tuple[list[str], list[str]]]:
@@ -340,7 +339,7 @@ class ParallelDataset(Dataset):
         Then, word-segment the two sentences in each pair.
 
         Returns:
-            list: A list of tuples containing pairs of sentences.
+            list: A list of tuples containing pairs of word-segmented sentences.
         """
         pairs: list[tuple[list[str], list[str]]] = []
         for file_name in os.listdir(self.parallel_dir):
@@ -365,5 +364,6 @@ class ParallelDataset(Dataset):
         return len(self.pairs)
 
     def __getitem__(self, idx: int) -> tuple[list[str], list[str]]:
-        sentence1, sentence2 = self.pairs[idx]
-        return sentence1, sentence2
+        segmented_teacher_language_sentence, segmented_student_language_sentence = self.pairs[
+            idx]
+        return segmented_teacher_language_sentence, segmented_student_language_sentence
