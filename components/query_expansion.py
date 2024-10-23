@@ -61,7 +61,7 @@ class QueryExpansion:
         Tokenize the title and content of each document in the dataset
 
         Returns:
-            tuple[list[list[str]], list[list[str]]]: Tuple contains list of tokenized title and list of tokenized content for each document.
+            tuple[list[list[str]], list[list[str]]]: Tuple contains list of tokenized titles and list of tokenized contents for each document.
             The index is correspond to each other, which mean tokenize_title_lst[i] is the title of the document whose content is tokenize_content_lst[i]
         """
         tokenize_title_lst: list[list[str]] = []
@@ -199,7 +199,7 @@ class QueryExpansion:
         Calculate the log likelihood value for the observation sequence.
 
         Args:
-            observation_sequence (set[str]): The term set of the source that is considered to be observation sequence. 
+            observation_sequence (set[str]): The term set of the source that is considered to be observation sequence.\
             For ease of understanding, this term set is all the words from relevant set (title) or relevant set (content),
             depends on which relevant set you are calculating.
 
@@ -236,7 +236,7 @@ class QueryExpansion:
         probability an expansion term represents a source, and then save them.
 
         Args:
-            observation_sequence (set[str]): The term set of the source that is considered to be observation sequence. 
+            observation_sequence (set[str]): The term set of the source that is considered to be observation sequence.\ 
             For ease of understanding, this term set is all the words from relevant set (title) or relevant set (content),
             depends on which relevant set you are calculating.
         """
@@ -264,7 +264,7 @@ class QueryExpansion:
         Args:
             source_to_maximize (SourceForExpansion): Name of the source you want to calculate new probability
 
-            observation_sequence (set[str]): The term set of the source that is considered to be observation sequence. 
+            observation_sequence (set[str]): The term set of the source that is considered to be observation sequence.\
             For ease of understanding, this term set is all the words from relevant set (title) or relevant set (content),
             depends on which relevant set you are calculating.
 
@@ -303,7 +303,7 @@ class QueryExpansion:
 
             expansion_term_to_maximize (str): The term you want to calculate new probability
 
-            observation_sequence (set[str]): The term set of the source that is considered to be observation sequence. 
+            observation_sequence (set[str]): The term set of the source that is considered to be observation sequence.\ 
             For ease of understanding, this term set is all the words from relevant set (title) or relevant set (content),
             depends on which relevant set you are calculating.
 
@@ -339,7 +339,7 @@ class QueryExpansion:
         and then save it
 
         Args:
-            observation_sequence (set[str]): The term set of the source that is considered to be observation sequence. 
+            observation_sequence (set[str]): The term set of the source that is considered to be observation sequence.\ 
             For ease of understanding, this term set is all the words from relevant set (title) or relevant set (content),
             depends on which relevant set you are calculating.
         """
