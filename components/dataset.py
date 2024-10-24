@@ -244,7 +244,7 @@ class QADataset(Dataset, LanguageProcessing):
     ):
         """
         Args:
-            qa_dir (str): Path to the folder containing CSV files with questions and corresponding answer documents.
+            qa_dir (str): Path to the folder containing CSV files with questions and corresponding answer document file paths (ABSOLUTE path).
 
             language (SupportLanguage): Language of the QA set. Default is Vietnamese (Khmer has not been implemented yet).
 
@@ -274,14 +274,14 @@ class QADataset(Dataset, LanguageProcessing):
         Load questions and their corresponding answer documents from CSV files in the specified folder,
         then word-segment the questions.
 
-        Attention: The corresponding answer documents for each question is just a list of file path
+        Attention: The corresponding answer documents file paths for each question is just a list of file path
         to where the documents is stored. So if you just use this path to retrive the document,
         this document will be raw (pure text, no word segmentation or any technique applied). 
         You should do it yourself (this class inherits from LanguageProcessing, so it already has requied methods), 
         or use this path to find the document from DocumentDataset.
 
         Returns:
-            list[tuple[list[str], list[str]]]: A list of tuples containing (question_segmented, document_filenames).
+            list[tuple[list[str], list[str]]]: A list of tuples containing (question_segmented, document_file_path).
         """
         qa_pairs: list[tuple[list[str], list[str]]] = []
         for file_name in os.listdir(self.qa_dir):
@@ -297,18 +297,18 @@ class QADataset(Dataset, LanguageProcessing):
                             question_segmented: list[str] = self.word_segment(
                                 question)
                             # Collect all subsequent columns as document filenames
-                            document_filenames = [f.strip()
+                            document_file_path = [f.strip()
                                                   for f in row[1:] if f.strip()]
                             qa_pairs.append(
-                                (question_segmented, document_filenames))
+                                (question_segmented, document_file_path))
         return qa_pairs
 
     def __len__(self):
         return len(self.qa_pairs)
 
     def __getitem__(self, idx: int) -> tuple[list[str], list[str]]:
-        question_segmented, document_filenames = self.qa_pairs[idx]
-        return question_segmented, document_filenames
+        question_segmented, document_file_path = self.qa_pairs[idx]
+        return question_segmented, document_file_path
 
 
 class ParallelDataset(Dataset):
