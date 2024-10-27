@@ -224,6 +224,21 @@ class DocumentDataset(Dataset, LanguageProcessing):
 
         # Return the joined content if found, otherwise return the default value
         return '\n'.join(content_lines).strip() if content_lines else default
+    
+    def find_document_by_file_path(self, path_to_find: str):
+        """
+        Return turn the segmented title and content of a document that have its file path match the input.
+
+        Args:
+            path_to_find (str): The path of the document need to be found and retrieved title and content.
+
+        Returns:
+            tuple[list[str], list[str]]: A tuple contains segmented title and content of the found document.
+        """
+        for title_segmented, content_segmented, topic, file_path in self.documents:
+            if path_to_find == file_path:
+                return title_segmented, content_segmented
+        raise FileNotFoundError(f"No document can be found at the path: {path_to_find}")
 
     def __len__(self):
         return len(self.documents)
@@ -278,7 +293,7 @@ class QADataset(Dataset, LanguageProcessing):
         to where the documents is stored. So if you just use this path to retrive the document,
         this document will be raw (pure text, no word segmentation or any technique applied). 
         You should do it yourself (this class inherits from LanguageProcessing, so it already has requied methods), 
-        or use this path to find the document from DocumentDataset.
+        or use this path to find the document from `DocumentDataset` (method `find_document_by_file_path`).
 
         Returns:
             list[tuple[list[str], list[str]]]: A list of tuples containing (question_segmented, document_file_path).
