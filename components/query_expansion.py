@@ -19,7 +19,7 @@ LIMIT_K_DOCS_FOR_RELEVANT_SET = 10
 # The paper also uses this number in experiment
 NUMBER_OF_EXPANSION_TERM = 30
 
-THRESHOLD_FOR_EM_ALGO = 0.0000001
+THRESHOLD_FOR_EM_ALGO = 0.000001
 
 
 class QueryExpansion:
@@ -118,15 +118,19 @@ class QueryExpansion:
             list[str]: The list of tokenized expansion terms
         """
         self._retrive(tokenized_query)
-        return self._expand()
+        return self._expand(tokenized_query)
 
     def _retrive(self, tokenized_query: list[str]) -> None:
         """
-        Get the list of the top highest lexical similarity documents for a query and add these documents to relevant set
+        Get the list of the top highest lexical similarity documents for a query and add these documents to relevant set.
+        This method will also call helper method to clear out the relevant set of the previous query, 
+        and reset all probabiblities before processing current query.
 
         Args:
             tokenized_query (list[str]): Query which has been tokenized with the same tokenizer used for the documents
         """
+        self._clear_previous_result()
+
         tokenized_document_corpus: list[list[str]] = []
         for i in range(len(self.sources['COLLECTION_SET_TITLE'])):
             tokenize_title: list[str] = self.sources['COLLECTION_SET_TITLE'][i]
@@ -144,7 +148,22 @@ class QueryExpansion:
             self.sources['RELEVANT_SET_CONTENT'].append(
                 self.sources['COLLECTION_SET_CONTENT'][index])
 
-    def _expand(self) -> list[str]:
+    def _clear_previous_result(self) -> None:
+        """
+        Helper method to clear out the relevant set of the previous query, and reset all probabiblities.
+        """
+        self.sources['RELEVANT_SET_TITLE'].clear()
+        self.sources['RELEVANT_SET_CONTENT'].clear()
+        self.prob_of_selecting_source = {
+            'COLLECTION_SET_TITLE': 0.25,
+            'COLLECTION_SET_CONTENT': 0.25,
+            'RELEVANT_SET_TITLE': 0.25,
+            'RELEVANT_SET_CONTENT': 0.25
+        }
+        self.prob_expansion_term_represents_source.clear()
+        self.prob_term_belongs_to_source.clear()
+
+    def _expand(self, tokenized_query: list[str]) -> list[str]:
         """
         Get the list of tokenized expansion terms by performing EM algorithm for each observation sequence:
         relevant set (title) and relevant set (content), then combining their expansion term list to form final list.
@@ -166,7 +185,7 @@ class QueryExpansion:
             self._maximization_step(observation_sequence_title)
 
         title_expansion_prob_dict: dict[tuple[str, SourceForExpansion], float] = {
-            k: v for k, v in self.prob_expansion_term_represents_source.items() if k[1] == "RELEVANT_SET_TITLE"}
+            k: v for k, v in self.prob_expansion_term_represents_source.items() if k[1] == "RELEVANT_SET_TITLE" and k[0] not in tokenized_query}
         sorted_title_expansion_prob: list[tuple[tuple[str, SourceForExpansion], float]] = sorted(
             title_expansion_prob_dict.items(), key=lambda item: item[1], reverse=True)
         expansion_term_with_prob_from_title_relevant_set: list[tuple[str, float]] = [
@@ -179,7 +198,7 @@ class QueryExpansion:
             self._maximization_step(observation_sequence_content)
 
         content_expansion_prob_dict: dict[tuple[str, SourceForExpansion], float] = {
-            k: v for k, v in self.prob_expansion_term_represents_source.items() if k[1] == "RELEVANT_SET_CONTENT"}
+            k: v for k, v in self.prob_expansion_term_represents_source.items() if k[1] == "RELEVANT_SET_CONTENT" and k[0] not in tokenized_query}
         sorted_content_expansion_prob: list[tuple[tuple[str, SourceForExpansion], float]] = sorted(
             content_expansion_prob_dict.items(), key=lambda item: item[1], reverse=True)
         expansion_term_with_prob_from_content_relevant_set: list[tuple[str, float]] = [
@@ -275,7 +294,8 @@ class QueryExpansion:
         denominator: float = 0.0
 
         for term in observation_sequence:
-            term_source_to_maximize_pair = (term, source_to_maximize)
+            term_source_to_maximize_pair: tuple[str, SourceForExpansion] = (
+                term, source_to_maximize)
             numerator += self.prob_term_belongs_to_source.get(
                 term_source_to_maximize_pair, 0.5)
 
@@ -315,20 +335,20 @@ class QueryExpansion:
 
         for term in observation_sequence:
             indicator = 1 if term == expansion_term_to_maximize else 0
-            expansion_term_to_maximize_source_to_maximize_pair = (
-                expansion_term_to_maximize, source_to_maximize)
+            term_source_to_maximize_pair: tuple[str, SourceForExpansion] = (
+                term, source_to_maximize)
             numerator += indicator * \
                 self.prob_term_belongs_to_source.get(
-                    expansion_term_to_maximize_source_to_maximize_pair, 0.5)
+                    term_source_to_maximize_pair, 0.5)
 
             relation_prob_term_whole_collection_set: float = 0.0
             for expansion_term in self.collection_set:
                 expansion_term_indicator = 1 if term == expansion_term else 0
-                expansion_term_source_to_maximize_pair: tuple[str, SourceForExpansion] = (
-                    expansion_term, source_to_maximize)
+                term_source_to_maximize_pair: tuple[str, SourceForExpansion] = (
+                    term, source_to_maximize)
                 relation_prob_term_whole_collection_set += expansion_term_indicator * \
                     self.prob_term_belongs_to_source.get(
-                        expansion_term_source_to_maximize_pair, 0.5)
+                        term_source_to_maximize_pair, 0.5)
             denominator += relation_prob_term_whole_collection_set
 
         return numerator / denominator
