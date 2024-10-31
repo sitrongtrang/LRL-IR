@@ -225,7 +225,7 @@ class DocumentDataset(Dataset, LanguageProcessing):
         # Return the joined content if found, otherwise return the default value
         return '\n'.join(content_lines).strip() if content_lines else default
     
-    def find_document_by_file_path(self, path_to_find: str):
+    def find_document_by_file_path(self, path_to_find: str) -> tuple[list[str], list[str]]:
         """
         Return turn the segmented title and content of a document that have its file path match the input.
 
