@@ -113,9 +113,7 @@ class DocumentDataset(Dataset, LanguageProcessing):
             self,
             document_dir: str,
             language: SupportLanguage = 'vie',
-            word_segment: Callable[[str], list[str]] | None = None,
-            tokenizer: Callable[[str], list[str]] | None = None,
-            encoder: Callable[[str | list[str]], list[int]] | None = None
+            language_processing: LanguageProcessing = LanguageProcessing('vie')
     ):
         """
         Args:
@@ -123,22 +121,10 @@ class DocumentDataset(Dataset, LanguageProcessing):
 
             language (SupportLanguage): Language of the documents. Default is Vietnamese (Khmer has not been implemented yet).
 
-            word_segment (Callable[[str], list[str]] | None): Word segmentation function for the language.\
-            If not provided, use default (Vietnamese and Khmer support only).\
-            Vietnamese and Khmer are supported by default, so no need to pass this parameter.
-
-            tokenizer (Callable[[str], list[str]] | None): Tokenizer for the language.\
-            If not provided, use default (Vietnamese and Khmer support only).\
-            Vietnamese and Khmer are supported by default, so no need to pass this parameter.
-
-            encoder (Callable[[str | list[str]], list[int]] | None): Function to converts\
-            a word-segmented string or list of tokenized string\
-            to a sequence of ids (integer) for the language.\
-            If not provided, use default (Vietnamese and Khmer support only).\
-            Vietnamese and Khmer are supported by default, so no need to pass this parameter.
+            language_processing (LanguageProcessing): Language processing object for the language of the documents.
         """
-        LanguageProcessing.__init__(
-            self, language, word_segment, tokenizer, encoder)
+        LanguageProcessing.__init__(self, language, language_processing.word_segment,
+                                    language_processing.tokenizer, language_processing.encoder)
         Dataset.__init__(self)
         self.document_dir: str = document_dir
         self.documents: list[tuple[list[str],
@@ -224,7 +210,7 @@ class DocumentDataset(Dataset, LanguageProcessing):
 
         # Return the joined content if found, otherwise return the default value
         return '\n'.join(content_lines).strip() if content_lines else default
-    
+
     def find_document_by_file_path(self, path_to_find: str) -> tuple[list[str], list[str]]:
         """
         Return turn the segmented title and content of a document that have its file path match the input.
@@ -238,7 +224,8 @@ class DocumentDataset(Dataset, LanguageProcessing):
         for title_segmented, content_segmented, topic, file_path in self.documents:
             if path_to_find == file_path:
                 return title_segmented, content_segmented
-        raise FileNotFoundError(f"No document can be found at the path: {path_to_find}")
+        raise FileNotFoundError(
+            f"No document can be found at the path: {path_to_find}")
 
     def __len__(self):
         return len(self.documents)
@@ -253,9 +240,7 @@ class QADataset(Dataset, LanguageProcessing):
             self,
             qa_dir: str,
             language: SupportLanguage = 'vie',
-            word_segment: Callable[[str], list[str]] | None = None,
-            tokenizer: Callable[[str], list[str]] | None = None,
-            encoder: Callable[[str | list[str]], list[int]] | None = None
+            language_processing: LanguageProcessing = LanguageProcessing('vie')
     ):
         """
         Args:
@@ -263,22 +248,10 @@ class QADataset(Dataset, LanguageProcessing):
 
             language (SupportLanguage): Language of the QA set. Default is Vietnamese (Khmer has not been implemented yet).
 
-            word_segment (Callable[[str], list[str]] | None): Word segmentation function for the language.\
-            If not provided, use default (Vietnamese and Khmer support only).\
-            Vietnamese and Khmer are supported by default, so no need to pass this parameter.
-
-            tokenizer (Callable[[str], list[str]] | None): Tokenizer for the language.\
-            If not provided, use default (Vietnamese and Khmer support only).\
-            Vietnamese and Khmer are supported by default, so no need to pass this parameter.
-
-            encoder (Callable[[str | list[str]], list[int]] | None): Function to converts\
-            a word-segmented string or list of tokenized string\
-            to a sequence of ids (integer) for the language.\
-            If not provided, use default (Vietnamese and Khmer support only).\
-            Vietnamese and Khmer are supported by default, so no need to pass this parameter.
+            language_processing (LanguageProcessing): Language processing object for the language of the QA set.
         """
-        LanguageProcessing.__init__(
-            self, language, word_segment, tokenizer, encoder)
+        LanguageProcessing.__init__(self, language, language_processing.word_segment,
+                                    language_processing.tokenizer, language_processing.encoder)
         Dataset.__init__(self)
         self.qa_dir: str = qa_dir
         self.qa_pairs: list[tuple[list[str], list[str]]
