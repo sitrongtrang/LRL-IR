@@ -9,7 +9,7 @@ class ChunkSeperator:
     def __init__(
             self,
             document_dataset: DocumentDataset,
-            chunk_length_limit: int = 255,
+            chunk_length_limit: int = 128,
             random_length: bool = False
     ) -> None:
         """

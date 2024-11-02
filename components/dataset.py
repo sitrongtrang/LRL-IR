@@ -1,9 +1,10 @@
+from functools import reduce
 import os
 from torch.utils.data import Dataset
 import csv
 from typing import Literal, Callable, TypeAlias
 import py_vncorenlp
-from transformers import AutoTokenizer
+from transformers import AutoTokenizer, PreTrainedTokenizer, PreTrainedTokenizerFast, BatchEncoding
 from abc import ABC
 
 
@@ -23,6 +24,7 @@ class LanguageProcessing:
     def __init__(
             self,
             language: str = 'vie',
+            pre_trained_tokenizer_model: PreTrainedTokenizer | PreTrainedTokenizerFast | None = None,
             word_segment: Callable[[str], list[str]] | None = None,
             tokenizer: Callable[[str], list[str]] | None = None,
             encoder: Callable[[str | list[str]], list[int]] | None = None
@@ -31,30 +33,49 @@ class LanguageProcessing:
         Args:
             language (str): Language that needs to be processed. Default is Vietnamese.
 
+            pre_trained_tokenizer_model (PreTrainedTokenizer | PreTrainedTokenizerFast | None):\
+            An instance of `PreTrainedTokenizer`/`PreTrainedTokenizerFast` class, include all common methods for\
+            processing and encoding string input. If not provided, use default (Vietnamese and Khmer support only).\
+            Vietnamese and Khmer are supported by default, so no need to pass this parameter.
+
             word_segment (Callable[[str], list[str]] | None): Word segmentation function for the language.\
             If not provided, use default (Vietnamese and Khmer support only).\
             Vietnamese and Khmer are supported by default, so no need to pass this parameter.
 
-            tokenizer (Callable[[str], list[str]] | None): Tokenizer for the language.\
-            If not provided, use default (Vietnamese and Khmer support only).\
+            tokenizer (Callable[[str], list[str]] | None): Function to converts a string into a sequence of tokens.\
+            If not provided, the method `pre_trained_tokenizer_model.tokenize` will be used instead\
+            (This method has been implemented in PreTrainedTokenizer/PreTrainedTokenizerFast class definition).\
             Vietnamese and Khmer are supported by default, so no need to pass this parameter.
 
             encoder (Callable[[str | list[str]], list[int]] | None): Function to converts\
-            a word-segmented string or list of tokenized string\
-            to a sequence of ids (integer) for the language.\
-            If not provided, use default (Vietnamese and Khmer support only).\
+            a word-segmented string or list of tokenized string to a sequence of ids (integer) for the language.\
+            If not provided, the method `pre_trained_tokenizer_model.encode` will be used instead\
+            (This method has been implemented in PreTrainedTokenizer/PreTrainedTokenizerFast class definition).\
             Vietnamese and Khmer are supported by default, so no need to pass this parameter.
         """
         self.language: str = language
 
+        self.pre_trained_tokenizer_model: PreTrainedTokenizer | PreTrainedTokenizerFast = self._load_pre_trained_tokenizer_model(
+        ) if pre_trained_tokenizer_model is None else pre_trained_tokenizer_model
+
         self.word_segment: Callable[[str], list[str]] = self._load_word_segment(
         ) if word_segment is None else word_segment
 
-        self.tokenizer: Callable[[str], list[str]] = self._load_tokenizer(
-        ) if tokenizer is None else tokenizer
+        self.tokenizer: Callable[[
+            str], list[str]] = self.pre_trained_tokenizer_model.tokenize if tokenizer is None else tokenizer
 
         self.encoder: Callable[[str | list[str]], list[int]
-                               ] = self._load_encoder() if encoder is None else encoder
+                               ] = self.pre_trained_tokenizer_model.encode if encoder is None else encoder
+
+    def _load_pre_trained_tokenizer_model(self):
+        if self.language == "vie":
+            tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base-v2")
+            return tokenizer
+        elif self.language == "khmer":
+            raise NotImplementedError("Khmer has not been implemented yet")
+        else:
+            raise NotImplementedError(
+                f"The language {self.language} is not supported by default. You have to pass your own PreTrainedTokenizer object!")
 
     def _load_word_segment(self) -> Callable[[str], list[str]]:
         """
@@ -72,40 +93,6 @@ class LanguageProcessing:
         else:
             raise NotImplementedError(
                 f"The language {self.language} is not supported by default. You have to implement word segmentation by yourself!")
-
-    def _load_tokenizer(self) -> Callable[[str], list[str]]:
-        """
-        Load appropriate tokenizer for the language
-
-        Returns:
-            Callable[[str], list[str]]: A function receives a word-segmented string and return a list of tokenized string.
-        """
-        if self.language == "vie":
-            tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base-v2")
-            return tokenizer.tokenize
-        elif self.language == "khmer":
-            raise NotImplementedError("Khmer has not been implemented yet")
-        else:
-            raise NotImplementedError(
-                f"The language {self.language} is not supported by default. You have to implement tokenizer by yourself!")
-
-    def _load_encoder(self) -> Callable[[str | list[str]], list[int]]:
-        """
-        Load appropriate function to converts a word-segmented string or list of tokenized string
-        to a sequence of ids (integer) for the language
-
-        Returns:
-            Callable[[str | list[str]], list[int]]: A function receives a word-segmented string or list of tokenized string,
-            return sequence of token IDs
-        """
-        if self.language == "vie":
-            tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base-v2")
-            return tokenizer.encode
-        elif self.language == "khmer":
-            raise NotImplementedError("Khmer has not been implemented yet")
-        else:
-            raise NotImplementedError(
-                f"The language {self.language} is not supported by default. You have to implement encoder by yourself!")
 
 
 class DocumentDataset(Dataset, LanguageProcessing):
@@ -355,3 +342,38 @@ class ParallelDataset(Dataset):
         segmented_teacher_language_sentence, segmented_student_language_sentence = self.pairs[
             idx]
         return segmented_teacher_language_sentence, segmented_student_language_sentence
+
+
+class MLMFineTuneDataset(Dataset):
+    def __init__(self, document_dataset: DocumentDataset) -> None:
+        self.document_dataset = document_dataset
+        self.samples: list[dict] = self._create_samples()
+
+    def _create_samples(self):
+        samples: list[dict] = []
+        for title_segmented, content_segmented, topic, file_path in self.document_dataset:
+            tokenize_content: list[str] = reduce(
+                lambda prev, curr: prev + self.document_dataset.tokenizer(curr), content_segmented, [])
+            model_max_length: int = self.document_dataset.pre_trained_tokenizer_model.model_max_length
+            stride: int = min(model_max_length // 10, 50)
+            example_lst: BatchEncoding = self.document_dataset.pre_trained_tokenizer_model(
+                tokenize_content,
+                is_split_into_words=True,
+                return_tensors='pt',
+                max_length=model_max_length,
+                truncation=True,
+                stride=stride,
+                padding="max_length")
+            for i in range(len(example_lst["input_ids"])):
+                example = {
+                    "input_ids": example_lst["input_ids"][i],
+                    "attention_mask": example_lst["attention_mask"][i]
+                }
+                samples.append(example)
+        return samples
+
+    def __len__(self):
+        return len(self.samples)
+
+    def __getitem__(self, idx: int) -> dict:
+        return self.samples[idx]
