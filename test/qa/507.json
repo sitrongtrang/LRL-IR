@@ -1,0 +1,128 @@
+[
+  {
+    "answer": "\u17a2\u17d2\u1793\u1780\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784\u1793\u17c3 Epirus \u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e7\u17e2 \u1798\u17bb\u1793\u1782.\u179f.",
+    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179f\u17d2\u1793\u1784\u178f\u17c6\u178e\u17c2\u1784\u179a\u1794\u179f\u17cb Pyrrhus \u1787\u17b6\u179f\u17d2\u178f\u17c1\u1785\u1793\u17c3 Epirus?",
+    "wrong_answers": [
+      "Agathocles",
+      "Antigonus II Gonatas",
+      "Demetrius II of Macedon"
+    ]
+  },
+  {
+    "answer": "Antigonus II Gonatas",
+    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u179f\u17d2\u178f\u17c1\u1785\u1793\u17c3 Macedon \u178a\u17c2\u179b Alexander II \u1794\u17b6\u1793\u1794\u17d2\u179a\u1799\u17bb\u1791\u17d2\u1792\u1793\u17b9\u1784?",
+    "wrong_answers": [
+      "Pyrrhus",
+      "Demetrius II",
+      "Agathocles"
+    ]
+  },
+  {
+    "answer": "Demetrius II of Macedon",
+    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u178e\u17d2\u178a\u17c1\u1789 Alexander II \u1785\u17c1\u1789\u1796\u17b8 Epirus?",
+    "wrong_answers": [
+      "Antigonus II Gonatas",
+      "Pyrrhus",
+      "Agathocles"
+    ]
+  },
+  {
+    "answer": "Acarnanians \u1793\u17b7\u1784\u1794\u17d2\u179a\u1787\u17b6\u1787\u1793 Epirus",
+    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17bd\u1799 Alexander II \u1799\u1780 Epirus \u1798\u1780\u179c\u17b7\u1789?",
+    "wrong_answers": [
+      "Antigonus II Gonatas",
+      "Demetrius II",
+      "Agathocles"
+    ]
+  },
+  {
+    "answer": "Olympias",
+    "question": "\u1794\u17d2\u179a\u1796\u1793\u17d2\u1792\u179a\u1794\u179f\u17cb Alexander II \u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Lanassa",
+      "Phthia",
+      "Agathocles"
+    ]
+  },
+  {
+    "answer": "\u1796\u17b8\u179a",
+    "question": "\u178f\u17be Alexander II \u1798\u17b6\u1793\u1780\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793?",
+    "wrong_answers": [
+      "\u1798\u17bd\u1799",
+      "\u1794\u17b8",
+      "\u1794\u17bd\u1793"
+    ]
+  },
+  {
+    "answer": "\u1794\u17d2\u179a\u17a0\u17c2\u179b 255 \u1798\u17bb\u1793\u1782.\u179f.",
+    "question": "\u178f\u17be Alexander II \u179f\u17c4\u1799\u1791\u17b8\u179c\u1784\u17d2\u179f\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "wrong_answers": [
+      "272 \u1798\u17bb\u1793\u1782.\u179f.",
+      "240 \u1798\u17bb\u1793\u1782.\u179f.",
+      "300 \u1798\u17bb\u1793\u1782.\u179f."
+    ]
+  },
+  {
+    "answer": "Olympias",
+    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784 Epirus \u1794\u1793\u17d2\u1791\u17b6\u1794\u17cb\u1796\u17b8\u1780\u17b6\u179a\u179f\u17c4\u1799\u1791\u17b8\u179c\u1784\u17d2\u179f\u179a\u1794\u179f\u17cb Alexander II?",
+    "wrong_answers": [
+      "Pyrrhus \u0399\u0399",
+      "Ptolemy \u0399\u0399",
+      "Agathocles"
+    ]
+  },
+  {
+    "answer": "Demetrius",
+    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u179a\u17c0\u1794\u1780\u17b6\u179a\u1787\u17b6\u1798\u17bd\u1799 Phthia?",
+    "wrong_answers": [
+      "Agathocles",
+      "Antigonus II Gonatas",
+      "Pyrrhus \u0399\u0399"
+    ]
+  },
+  {
+    "answer": "\u179f\u17d2\u1794\u17c2\u1780\u178a\u17c6\u179a\u17b8",
+    "question": "\u178f\u17be\u1780\u17d2\u1794\u17b6\u179b\u1793\u17c5\u179b\u17be\u1780\u17b6\u1780\u17cb\u179a\u1794\u179f\u17cb Alexander II \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17d2\u179a\u1794\u178a\u178e\u17d2\u178a\u1794\u17cb\u178a\u17c4\u1799\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "\u179f\u17d2\u1794\u17c2\u1780\u1781\u17d2\u179b\u17b6",
+      "\u1798\u1780\u17bb\u178a",
+      "\u179f\u17d2\u1794\u17c2\u1780\u179f\u178f\u17d2\u179c\u178f\u17c4"
+    ]
+  },
+  {
+    "answer": "Pallas \u1780\u17b6\u1793\u17cb\u179b\u17c6\u1796\u17c2\u1784\u1793\u17b7\u1784\u0e42\u0e25\u0e48",
+    "question": "\u178f\u17be\u1795\u17d2\u1793\u17c2\u1780\u1781\u17b6\u1784\u1780\u17d2\u179a\u17c4\u1799\u1793\u17c3\u1780\u17b6\u1780\u17cb\u179a\u1794\u179f\u17cb Alexander II \u1794\u1784\u17d2\u17a0\u17b6\u1789\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Pyrrhus",
+      "Antigonus II Gonatas",
+      "Agathocles"
+    ]
+  },
+  {
+    "answer": "Agathocles",
+    "question": "\u178f\u17be\u1798\u17d2\u178f\u17b6\u1799\u179a\u1794\u179f\u17cb Lanassa \u1787\u17b6\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "wrong_answers": [
+      "Olympias",
+      "Phthia",
+      "Demetrius II of Macedon"
+    ]
+  },
+  {
+    "answer": "Epirus",
+    "question": "\u178f\u17be Alexander II \u1787\u17b6\u179f\u17d2\u178f\u17c1\u1785\u1793\u17c3\u1794\u17d2\u179a\u1791\u17c1\u179f\u178e\u17b6?",
+    "wrong_answers": [
+      "Macedon",
+      "Sicily",
+      "Acarnania"
+    ]
+  },
+  {
+    "answer": "Pyrrhus \u0399\u0399, Ptolemy \u0399\u0399 \u1793\u17b7\u1784 Phthia",
+    "question": "\u178f\u17be Alexander II \u1798\u17b6\u1793\u1780\u17bc\u1793\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "wrong_answers": [
+      "Agathocles",
+      "Antigonus II Gonatas",
+      "Demetrius II of Macedon"
+    ]
+  }
+]

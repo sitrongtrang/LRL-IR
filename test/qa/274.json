@@ -1,0 +1,328 @@
+[
+  {
+    "answer": "\u179f\u1798\u17bb\u1791\u17d2\u179a\u17a2\u17b6\u178f\u17d2\u179b\u1784\u17cb\u1791\u17b7\u1780\u1782\u17ba\u1787\u17b6\u179f\u1798\u17bb\u1791\u17d2\u179a\u1792\u17c6\u1791\u17b8\u1796\u17b8\u179a\u1793\u17c5\u179b\u17be\u1796\u17b7\u1797\u1796\u179b\u17c4\u1780",
+    "question": "\u178f\u17be\u179f\u1798\u17bb\u1791\u17d2\u179a\u17a2\u17b6\u178f\u17d2\u179b\u1784\u17cb\u1791\u17b7\u1780\u1787\u17b6\u179f\u1798\u17bb\u1791\u17d2\u179a\u1792\u17c6\u1794\u17c6\u1795\u17bb\u178f\u1791\u17b8\u1798\u17bd\u1799\u1793\u17c5\u179b\u17be\u1796\u17b7\u1797\u1796\u179b\u17c4\u1780\u17ac?",
+    "wrong_answers": [
+      "\u179f\u1798\u17bb\u1791\u17d2\u179a\u17a2\u17b6\u178f\u17d2\u179b\u1784\u17cb\u1791\u17b7\u1780\u1782\u17ba\u1787\u17b6\u179f\u1798\u17bb\u1791\u17d2\u179a\u1792\u17c6\u1794\u17c6\u1795\u17bb\u178f\u1793\u17c5\u179b\u17be\u1796\u17b7\u1797\u1796\u179b\u17c4\u1780"
+    ]
+  },
+  {
+    "answer": "\u179f\u1798\u17bb\u1791\u17d2\u179a\u17a2\u17b6\u178f\u17d2\u179b\u1784\u17cb\u1791\u17b7\u1780\u1794\u17c6\u1794\u17c2\u1780\u1796\u17b7\u1797\u1796\u179b\u17c4\u1780\u1785\u17b6\u179f\u17cb\u1796\u17b8\u1796\u17b7\u1797\u1796\u179b\u17c4\u1780\u1790\u17d2\u1798\u17b8",
+    "question": "\u178f\u17be\u179f\u1798\u17bb\u1791\u17d2\u179a\u17a2\u17b6\u178f\u17d2\u179b\u1784\u17cb\u1791\u17b7\u1780\u1794\u17c6\u1794\u17c2\u1780\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u17d2\u179c\u17b8\u1796\u17b8\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "\u179f\u1798\u17bb\u1791\u17d2\u179a\u17a2\u17b6\u178f\u17d2\u179b\u1784\u17cb\u1791\u17b7\u1780\u1794\u17c6\u1794\u17c2\u1780\u1791\u17d2\u179c\u17b8\u1794\u17a2\u17b6\u179f\u17ca\u17b8\u1796\u17b8\u1791\u17d2\u179c\u17b8\u1794\u17a2\u17b6\u17a0\u17d2\u179c\u17d2\u179a\u17b7\u1780"
+    ]
+  },
+  {
+    "answer": "\u179f\u1798\u17bb\u1791\u17d2\u179a\u17a2\u17b6\u178f\u17d2\u179b\u1784\u17cb\u1791\u17b7\u1780",
+    "question": "\u178f\u17be\u179f\u1798\u17bb\u1791\u17d2\u179a\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u1794\u17c6\u1794\u17c2\u1780\u1796\u17b7\u1797\u1796\u179b\u17c4\u1780\u1785\u17b6\u179f\u17cb\u1796\u17b8\u1796\u17b7\u1797\u1796\u179b\u17c4\u1780\u1790\u17d2\u1798\u17b8?",
+    "wrong_answers": [
+      "\u179f\u1798\u17bb\u1791\u17d2\u179a\u1794\u17c9\u17b6\u179f\u17ca\u17b8\u17a0\u17d2\u179c\u17b7\u1780",
+      "\u179f\u1798\u17bb\u1791\u17d2\u179a\u17a5\u178e\u17d2\u178c\u17b6"
+    ]
+  },
+  {
+    "answer": "Atlantic, Nova Scotia",
+    "question": "\u178f\u17be\u178f\u17c6\u1794\u1793\u17cb\u178e\u17b6\u1798\u17bd\u1799\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f\u1780\u17b6\u178e\u17b6\u178a\u17b6\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic, California",
+      "Atlantic, Texas"
+    ]
+  },
+  {
+    "answer": "Atlantic, Iowa",
+    "question": "\u178f\u17be\u178f\u17c6\u1794\u1793\u17cb\u178e\u17b6\u1798\u17bd\u1799\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic, Mexico",
+      "Atlantic, Argentina"
+    ]
+  },
+  {
+    "answer": "Atlantic City, New Jersey",
+    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u178e\u17b6\u1798\u17bd\u1799\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic City, California",
+      "Atlantic City, Texas"
+    ]
+  },
+  {
+    "answer": "Atlantic Peak",
+    "question": "\u178f\u17be\u1797\u17d2\u1793\u17c6\u178e\u17b6\u1798\u17bd\u1799\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic Peak, California",
+      "Atlantic Peak, Texas"
+    ]
+  },
+  {
+    "answer": "Atlantic Books",
+    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic Books, France",
+      "Atlantic Books, China"
+    ]
+  },
+  {
+    "answer": "Atlantic Records",
+    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u1795\u179b\u17b7\u178f\u178c\u17b8\u179f\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic Records, France",
+      "Atlantic Records, China"
+    ]
+  },
+  {
+    "answer": "The Atlantics",
+    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "The Atlantics, France",
+      "The Atlantics, China"
+    ]
+  },
+  {
+    "answer": "Atlantic (Dufresne album)",
+    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u1794\u17ca\u17bb\u1798\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic (Dufresne album), France",
+      "Atlantic (Dufresne album), China"
+    ]
+  },
+  {
+    "answer": "Atlantic (song)",
+    "question": "\u178f\u17be\u1794\u1791\u1785\u1798\u17d2\u179a\u17c0\u1784\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic (song), France",
+      "Atlantic (song), China"
+    ]
+  },
+  {
+    "answer": "Atlantic (film)",
+    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic (film), France",
+      "Atlantic (film), China"
+    ]
+  },
+  {
+    "answer": "The Atlantic",
+    "question": "\u178f\u17be\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178f\u17b8\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "The Atlantic, France",
+      "The Atlantic, China"
+    ]
+  },
+  {
+    "answer": "Atlantic (cinema)",
+    "question": "\u178f\u17be\u179a\u17c4\u1784\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic (cinema), France",
+      "Atlantic (cinema), China"
+    ]
+  },
+  {
+    "answer": "Atlantic (toy company)",
+    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u1795\u179b\u17b7\u178f\u1794\u17d2\u179a\u178a\u17b6\u1794\u17cb\u1780\u17d2\u1798\u17c1\u1784\u179b\u17c1\u1784\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic (toy company), France",
+      "Atlantic (toy company), China"
+    ]
+  },
+  {
+    "answer": "Atlantic Broadband",
+    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u1781\u17d2\u179f\u17c2\u1780\u17b6\u1794\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic Broadband, France",
+      "Atlantic Broadband, China"
+    ]
+  },
+  {
+    "answer": "Atlantic City Electric",
+    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u1795\u17d2\u1782\u178f\u17cb\u1795\u17d2\u1782\u1784\u17cb\u17a2\u1782\u17d2\u1782\u17b7\u179f\u1793\u17b8\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic City Electric, France",
+      "Atlantic City Electric, China"
+    ]
+  },
+  {
+    "answer": "Atlantic LNG",
+    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u1795\u179b\u17b7\u178f\u17a7\u179f\u17d2\u1798\u17d0\u1793\u1792\u1798\u17d2\u1798\u1787\u17b6\u178f\u17b7\u179a\u17b6\u179c\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic LNG, France",
+      "Atlantic LNG, China"
+    ]
+  },
+  {
+    "answer": "Atlantic Petroleum",
+    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u1794\u17d2\u179a\u17c1\u1784\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic Petroleum, France",
+      "Atlantic Petroleum, China"
+    ]
+  },
+  {
+    "answer": "Atlantic Philanthropies",
+    "question": "\u178f\u17be\u1798\u17bc\u179b\u1793\u17b7\u1792\u17b7\u17af\u1780\u1787\u1793\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic Philanthropies, France",
+      "Atlantic Philanthropies, China"
+    ]
+  },
+  {
+    "answer": "Atlantic Superstore",
+    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u179f\u1784\u17d2\u179c\u17b6\u1780\u17cb\u17a0\u17b6\u1784\u179b\u1780\u17cb\u1791\u17c6\u1793\u17b7\u1789\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic Superstore, France",
+      "Atlantic Superstore, China"
+    ]
+  },
+  {
+    "answer": "Atlantic Technological University",
+    "question": "\u178f\u17be\u179f\u17b6\u1780\u179b\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179b\u17d0\u1799\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic Technological University, France",
+      "Atlantic Technological University, China"
+    ]
+  },
+  {
+    "answer": "Atlantic University",
+    "question": "\u178f\u17be\u179f\u17b6\u1780\u179b\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179b\u17d0\u1799\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic University, France",
+      "Atlantic University, China"
+    ]
+  },
+  {
+    "answer": "Groupe Atlantic",
+    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u179c\u17b7\u179f\u17d2\u179c\u1780\u1798\u17d2\u1798\u1794\u1785\u17d2\u1785\u17c1\u1780\u179c\u17b7\u1791\u17d2\u1799\u17b6\u1794\u179a\u17b7\u179f\u17d2\u1790\u17b6\u1793\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Groupe Atlantic, France",
+      "Groupe Atlantic, China"
+    ]
+  },
+  {
+    "answer": "Atlantic Championship",
+    "question": "\u178f\u17be\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u1794\u17d2\u179a\u178e\u17b6\u17c6\u1784\u179a\u1790\u1799\u1793\u17d2\u178f\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic Championship, France",
+      "Atlantic Championship, China"
+    ]
+  },
+  {
+    "answer": "Atlantic League of Professional Baseball",
+    "question": "\u178f\u17be\u179b\u17b8\u1782\u1794\u17c1\u179f\u1794\u179b\u17a2\u17b6\u1787\u17b8\u1796\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic League of Professional Baseball, France",
+      "Atlantic League of Professional Baseball, China"
+    ]
+  },
+  {
+    "answer": "Atlantic Building",
+    "question": "\u178f\u17be\u17a2\u1782\u17b6\u179a\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic Building, France",
+      "Atlantic Building, China"
+    ]
+  },
+  {
+    "answer": "Air Atlantic",
+    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u17a2\u17b6\u1780\u17b6\u179f\u1785\u179a\u178e\u17cd\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Air Atlantic, France",
+      "Air Atlantic, China"
+    ]
+  },
+  {
+    "answer": "Atlantic Airways",
+    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u17a2\u17b6\u1780\u17b6\u179f\u1785\u179a\u178e\u17cd\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic Airways, France",
+      "Atlantic Airways, China"
+    ]
+  },
+  {
+    "answer": "Breguet Atlantic",
+    "question": "\u178f\u17be\u1799\u1793\u17d2\u178f\u17a0\u17c4\u17c7\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Breguet Atlantic, France",
+      "Breguet Atlantic, China"
+    ]
+  },
+  {
+    "answer": "Atlantic (1921 automobile)",
+    "question": "\u178f\u17be\u179a\u1790\u1799\u1793\u17d2\u178f\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic (1921 automobile), France",
+      "Atlantic (1921 automobile), China"
+    ]
+  },
+  {
+    "answer": "Austin Atlantic",
+    "question": "\u178f\u17be\u179a\u1790\u1799\u1793\u17d2\u178f\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Austin Atlantic, France",
+      "Austin Atlantic, China"
+    ]
+  },
+  {
+    "answer": "Fisker Atlantic",
+    "question": "\u178f\u17be\u179a\u1790\u1799\u1793\u17d2\u178f\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Fisker Atlantic, France",
+      "Fisker Atlantic, China"
+    ]
+  },
+  {
+    "answer": "Atlantic (locomotive)",
+    "question": "\u178f\u17be\u1798\u17c9\u17b6\u179f\u17ca\u17b8\u1793\u179a\u1790\u1797\u17d2\u179b\u17be\u1784\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic (locomotive), France",
+      "Atlantic (locomotive), China"
+    ]
+  },
+  {
+    "answer": "Atlantic station",
+    "question": "\u178f\u17be\u179f\u17d2\u1790\u17b6\u1793\u17b8\u1799\u179a\u1790\u1797\u17d2\u179b\u17be\u1784\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic station, France",
+      "Atlantic station, China"
+    ]
+  },
+  {
+    "answer": "Atlantic (train)",
+    "question": "\u178f\u17be\u179a\u1790\u1797\u17d2\u179b\u17be\u1784\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic (train), France",
+      "Atlantic (train), China"
+    ]
+  },
+  {
+    "answer": "Atlantic (yacht)",
+    "question": "\u178f\u17be\u1791\u17bc\u1780\u1794\u17d2\u179a\u178e\u17b6\u17c6\u1784\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic (yacht), France",
+      "Atlantic (yacht), China"
+    ]
+  },
+  {
+    "answer": "Atlantic 85-class lifeboats",
+    "question": "\u178f\u17be\u1791\u17bc\u1780\u1787\u17bd\u1799\u179f\u1784\u17d2\u1782\u17d2\u179a\u17c4\u17c7\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic 85-class lifeboats, France",
+      "Atlantic 85-class lifeboats, China"
+    ]
+  },
+  {
+    "answer": "Atlantic languages",
+    "question": "\u178f\u17be\u1797\u17b6\u179f\u17b6\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic languages, France",
+      "Atlantic languages, China"
+    ]
+  },
+  {
+    "answer": "Atlantic (horse)",
+    "question": "\u178f\u17be\u179f\u17c1\u17c7\u178e\u17b6\u1798\u17bd\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atlantic?",
+    "wrong_answers": [
+      "Atlantic (horse), France",
+      "Atlantic (horse), China"
+    ]
+  }
+]

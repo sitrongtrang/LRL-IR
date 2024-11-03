@@ -1,0 +1,64 @@
+[
+  {
+    "answer": "\u17a2\u1792\u17b7\u179a\u17b6\u1787\u179a\u17c9\u17bc\u1798\u17c9\u17b6\u17c6\u1784",
+    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u1792\u17b7\u179a\u17b6\u1787\u179a\u17c9\u17bc\u1798\u17c9\u17b6\u17c6\u1784?",
+    "wrong_answers": [
+      "\u17a2\u17d2\u1793\u1780\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784\u17a2\u17b6\u178e\u17b6\u1793\u17b7\u1782\u1798\u179a\u17c9\u17bc\u1798\u17c9\u17b6\u17c6\u1784",
+      "\u1796\u17d2\u179a\u17c7\u17a2\u1784\u17d2\u1782\u1798\u17d2\u1785\u17b6\u179f\u17cb\u1793\u17c3\u17a2\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u179a\u17c9\u17bc\u1798\u17c9\u17b6\u17c6\u1784"
+    ]
+  },
+  {
+    "answer": "Anastasius I Dicorus",
+    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u1792\u17b7\u179a\u17b6\u1787\u179a\u17c9\u17bc\u1798\u17c9\u17b6\u17c6\u1784\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Anastasius I?",
+    "wrong_answers": [
+      "Anastasius II",
+      "Anastasius III",
+      "Anastasius IV"
+    ]
+  },
+  {
+    "answer": "518",
+    "question": "Anastasius I Dicorus \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "wrong_answers": [
+      "500",
+      "550",
+      "600"
+    ]
+  },
+  {
+    "answer": "599",
+    "question": "Anastasius I of Antioch \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "wrong_answers": [
+      "500",
+      "550",
+      "650"
+    ]
+  },
+  {
+    "answer": "401",
+    "question": "\u1794\u17c9\u17b6\u1794 Anastasius I \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "wrong_answers": [
+      "450",
+      "350",
+      "500"
+    ]
+  },
+  {
+    "answer": "Antioch",
+    "question": "Anastasius I \u1787\u17b6\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1793\u17c5 Antioch?",
+    "wrong_answers": [
+      "\u17a2\u1792\u17b7\u179a\u17b6\u1787",
+      "\u1794\u17c9\u17b6\u1794",
+      "\u17a2\u1797\u17b7\u1794\u17b6\u179b"
+    ]
+  },
+  {
+    "answer": "Rome",
+    "question": "Anastasius I \u1787\u17b6\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1793\u17c5 Rome?",
+    "wrong_answers": [
+      "\u17a2\u1792\u17b7\u179a\u17b6\u1787",
+      "\u1794\u17c9\u17b6\u1794",
+      "\u17a2\u1797\u17b7\u1794\u17b6\u179b"
+    ]
+  }
+]

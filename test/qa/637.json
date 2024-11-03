@@ -1,0 +1,270 @@
+[
+  {
+    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u1788\u17d2\u1798\u17c4\u17c7\u179a\u1794\u179f\u17cb\u179f\u17ca\u17c1\u179a\u17b8\u17a2\u17b6\u1793\u17b8\u1798\u17c1\u1793\u17c1\u17c7\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Alfred?",
+    "wrong_answers": [
+      "Alfred J. Kwak",
+      "Alfred (Arne opera)",
+      "Alfred (Dvo\u0159\u00e1k)"
+    ]
+  },
+  {
+    "answer": "Alfred J. Kwak",
+    "question": "\u178f\u17be\u179f\u17ca\u17c1\u179a\u17b8\u17a2\u17b6\u1793\u17b8\u1798\u17c1\u1793\u17c1\u17c7\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Alfred (Arne opera)",
+      "Alfred (Dvo\u0159\u00e1k)",
+      "Alfred Music"
+    ]
+  },
+  {
+    "answer": "Thomas Arne",
+    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u179f\u179a\u179f\u17c1\u179a\u17a2\u17bc\u1794\u17c9\u17c1\u179a\u17c9\u17b6 Alfred (Arne opera)?",
+    "wrong_answers": [
+      "Anton\u00edn Dvo\u0159\u00e1k",
+      "Eminem",
+      "Alfred the Great"
+    ]
+  },
+  {
+    "answer": "Anton\u00edn Dvo\u0159\u00e1k",
+    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u179f\u179a\u179f\u17c1\u179a\u17a2\u17bc\u1794\u17c9\u17c1\u179a\u17c9\u17b6 Alfred (Dvo\u0159\u00e1k)?",
+    "wrong_answers": [
+      "Thomas Arne",
+      "Eminem",
+      "Alfred the Great"
+    ]
+  },
+  {
+    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u179f\u179a\u179f\u17c1\u179a\u1794\u1791\u1785\u1798\u17d2\u179a\u17c0\u1784 \"Alfred (Interlude)\" \u1793\u17b7\u1784 \"Alfred (Outro)\"?",
+    "wrong_answers": [
+      "Alfred Music",
+      "Alfred the Great",
+      "Eminem"
+    ]
+  },
+  {
+    "answer": "Eminem",
+    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u179f\u179a\u179f\u17c1\u179a\u1794\u1791\u1785\u1798\u17d2\u179a\u17c0\u1784 \"Alfred (Interlude)\" \u1793\u17b7\u1784 \"Alfred (Outro)\"?",
+    "wrong_answers": [
+      "Alfred Music",
+      "Alfred the Great",
+      "Thomas Arne"
+    ]
+  },
+  {
+    "answer": "Shaftesbury, England",
+    "question": "\u178f\u17be\u179f\u17d2\u1790\u17b6\u1793\u17b8\u1799\u17cd\u179c\u17b7\u1791\u17d2\u1799\u17bb Alfred \u1798\u17b6\u1793\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1793\u17c5\u17af\u178e\u17b6?",
+    "wrong_answers": [
+      "Melbourne, Australia",
+      "New York, U.S.",
+      "Alfred, Maine"
+    ]
+  },
+  {
+    "answer": "Alfred Music",
+    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1797\u1795\u17d2\u179f\u17b6\u1799\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780?",
+    "wrong_answers": [
+      "Alfred the Great",
+      "Alfred University",
+      "Alfred Hospital"
+    ]
+  },
+  {
+    "answer": "Alfred University",
+    "question": "\u178f\u17be\u179f\u17b6\u1780\u179b\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179b\u17d0\u1799 Alfred \u1798\u17b6\u1793\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1793\u17c5\u17af\u178e\u17b6?",
+    "wrong_answers": [
+      "Melbourne, Australia",
+      "Shaftesbury, England",
+      "Alfred, Maine"
+    ]
+  },
+  {
+    "answer": "Alfred Hospital",
+    "question": "\u178f\u17be\u1798\u1793\u17d2\u1791\u17b8\u179a\u1796\u17c1\u1791\u17d2\u1799 Alfred \u1798\u17b6\u1793\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1793\u17c5\u17af\u178e\u17b6?",
+    "wrong_answers": [
+      "New York, U.S.",
+      "Shaftesbury, England",
+      "Alfred, Maine"
+    ]
+  },
+  {
+    "answer": "Alfred the Great",
+    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u179f\u17d2\u178f\u17c1\u1785\u1793\u17c3 Anglo-Saxons?",
+    "wrong_answers": [
+      "Alfred University",
+      "Alfred Music",
+      "Alfred Hospital"
+    ]
+  },
+  {
+    "answer": "Alfred the Great",
+    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u179f\u17d2\u178f\u17c1\u1785\u1793\u17c3 West Saxons?",
+    "wrong_answers": [
+      "Alfred Hospital",
+      "Alfred Music",
+      "Alfred University"
+    ]
+  },
+  {
+    "answer": "Mount Alfred",
+    "question": "\u178f\u17be\u1797\u17d2\u1793\u17c6\u1793\u17c5\u17a2\u1784\u17cb\u178f\u17b6\u1780\u17cb\u1791\u17b7\u1780\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Alfredtown",
+      "Alfred and Plantagenet",
+      "Alfred, Maine"
+    ]
+  },
+  {
+    "answer": "Alfredtown",
+    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1793\u17c5 New South Wales \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Mount Alfred",
+      "Alfred and Plantagenet",
+      "Alfred, Maine"
+    ]
+  },
+  {
+    "answer": "County of Alfred",
+    "question": "\u178f\u17be\u1781\u17c1\u178f\u17d2\u178f\u1793\u17c5\u17a2\u17bc\u179f\u17d2\u178f\u17d2\u179a\u17b6\u179b\u17b8\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Alfredtown",
+      "Alfred and Plantagenet",
+      "Alfred, Maine"
+    ]
+  },
+  {
+    "answer": "Alfred and Plantagenet",
+    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1793\u17c5 Ontario \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Alfredtown",
+      "County of Alfred",
+      "Alfred, Maine"
+    ]
+  },
+  {
+    "answer": "Alfred Island",
+    "question": "\u178f\u17be\u1780\u17c4\u17c7\u1793\u17c5 Nunavut \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Alfred and Plantagenet",
+      "County of Alfred",
+      "Alfred, Maine"
+    ]
+  },
+  {
+    "answer": "Mount Alfred",
+    "question": "\u178f\u17be\u1797\u17d2\u1793\u17c6\u1793\u17c5 British Columbia \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Alfred Island",
+      "County of Alfred",
+      "Alfred, Maine"
+    ]
+  },
+  {
+    "answer": "Alfred, Maine",
+    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1793\u17c5 New England \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Alfred, New York",
+      "Alfred, North Dakota",
+      "Alfred, Texas"
+    ]
+  },
+  {
+    "answer": "Alfred (CDP), Maine",
+    "question": "\u178f\u17be\u1797\u17bc\u1798\u17b7\u1793\u17c5 Maine \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Alfred, New York",
+      "Alfred, North Dakota",
+      "Alfred, Texas"
+    ]
+  },
+  {
+    "answer": "Alfred, New York",
+    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1793\u17c5 New York \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Alfred, Maine",
+      "Alfred, North Dakota",
+      "Alfred, Texas"
+    ]
+  },
+  {
+    "answer": "Alfred (village), New York",
+    "question": "\u178f\u17be\u1797\u17bc\u1798\u17b7\u1793\u17c5 New York \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Alfred, Maine",
+      "Alfred, North Dakota",
+      "Alfred, Texas"
+    ]
+  },
+  {
+    "answer": "Alfred, North Dakota",
+    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1793\u17c5 North Dakota \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Alfred, Maine",
+      "Alfred, New York",
+      "Alfred, Texas"
+    ]
+  },
+  {
+    "answer": "Alfred, Texas",
+    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1793\u17c5 Texas \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Alfred, Maine",
+      "Alfred, North Dakota",
+      "Alfred, New York"
+    ]
+  },
+  {
+    "answer": "Lake Alfred",
+    "question": "\u178f\u17be\u1794\u17b9\u1784\u1793\u17c5 Florida \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Alfred, Maine",
+      "Alfred, North Dakota",
+      "Alfred, New York"
+    ]
+  },
+  {
+    "answer": "HMS Alfred",
+    "question": "\u178f\u17be\u1793\u17b6\u179c\u17b6\u179a\u1794\u179f\u17cb Royal Navy \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "USS Alfred",
+      "Alfred (software)",
+      "ALFRED (nuclear reactor)"
+    ]
+  },
+  {
+    "answer": "USS Alfred",
+    "question": "\u178f\u17be\u1793\u17b6\u179c\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u17be\u1780\u178a\u17c6\u178e\u17be\u179a\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e7\u17e7\u17e4 \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "HMS Alfred",
+      "Alfred (software)",
+      "ALFRED (nuclear reactor)"
+    ]
+  },
+  {
+    "answer": "Alfred (software)",
+    "question": "\u178f\u17be\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u1794\u17be\u1780\u178a\u17c6\u178e\u17be\u179a\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb macOS \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "USS Alfred",
+      "ALFRED (nuclear reactor)",
+      "Allele Frequency Database"
+    ]
+  },
+  {
+    "answer": "ALFRED (nuclear reactor)",
+    "question": "\u178f\u17be\u1794\u17d2\u179a\u178f\u17b7\u1780\u1798\u17d2\u1798\u1793\u17bb\u1799\u1780\u17d2\u179b\u17c1\u17a2\u17ca\u17c2\u179a\u178a\u17c2\u179b\u178f\u17d2\u179a\u1787\u17b6\u1780\u17cb\u178a\u17c4\u1799\u179f\u17c6\u178e\u17b6\u1798\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Alfred (software)",
+      "USS Alfred",
+      "Allele Frequency Database"
+    ]
+  },
+  {
+    "answer": "Allele Frequency Database",
+    "question": "\u178f\u17be\u1798\u17bc\u179b\u178a\u17d2\u178b\u17b6\u1793\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799\u17a2\u17c1\u17a1\u17b7\u1785\u178f\u17d2\u179a\u17bc\u1793\u17b7\u1785\u1793\u17c3\u17a2\u17b6\u179b\u17c2\u179b\u17a0\u17d2\u179f\u17c2\u1793\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "wrong_answers": [
+      "Alfred (software)",
+      "USS Alfred",
+      "ALFRED (nuclear reactor)"
+    ]
+  }
+]
