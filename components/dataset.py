@@ -345,11 +345,27 @@ class ParallelDataset(Dataset):
 
 
 class MLMFineTuneDataset(Dataset):
+    """
+    Class for representing the MLM-style samples dataset. This class uses preprocess documents
+    getting from the DocumentDataset instance to generate correspond MLM-style samples.
+    """
     def __init__(self, document_dataset: DocumentDataset) -> None:
+        """
+        Args:
+            document_dataset (DocumentDataset): An object of DocumentDataset class, represent a document dataset use to generate MLM samples
+        """
         self.document_dataset = document_dataset
         self.samples: list[dict] = self._create_samples()
 
-    def _create_samples(self):
+    def _create_samples(self) -> list[dict]:
+        """
+        Generate the list of MLM-style samples from each document in the dataset of document provided in constructor.
+
+        Returns:
+            list[dict]: List of dictionary, each of dictionary is a MLM-style sample with two keys: 
+            `input_ids` represent the sequence of ids of a chunk of token, and 
+            `attention_mask` represent the mask of each corresponding token (1 is normal token, 0 is padding).
+        """
         samples: list[dict] = []
         for title_segmented, content_segmented, topic, file_path in self.document_dataset:
             tokenize_content: list[str] = reduce(
