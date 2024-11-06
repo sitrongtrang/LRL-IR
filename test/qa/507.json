@@ -1,7 +1,7 @@
 [
   {
-    "answer": "\u17a2\u17d2\u1793\u1780\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784\u1793\u17c3 Epirus \u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e7\u17e2 \u1798\u17bb\u1793\u1782.\u179f.",
-    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179f\u17d2\u1793\u1784\u178f\u17c6\u178e\u17c2\u1784\u179a\u1794\u179f\u17cb Pyrrhus \u1787\u17b6\u179f\u17d2\u178f\u17c1\u1785\u1793\u17c3 Epirus?",
+    "answer": "អ្នកគ្រប់គ្រងនៃ Epirus នៅក្នុងឆ្នាំ ២៧២ មុនគ.ស.",
+    "question": "អ្នកណាជាអ្នកស្នងតំណែងរបស់ Pyrrhus ជាស្តេចនៃ Epirus?",
     "wrong_answers": [
       "Agathocles",
       "Antigonus II Gonatas",
@@ -10,7 +10,7 @@
   },
   {
     "answer": "Antigonus II Gonatas",
-    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u179f\u17d2\u178f\u17c1\u1785\u1793\u17c3 Macedon \u178a\u17c2\u179b Alexander II \u1794\u17b6\u1793\u1794\u17d2\u179a\u1799\u17bb\u1791\u17d2\u1792\u1793\u17b9\u1784?",
+    "question": "អ្នកណាជាស្តេចនៃ Macedon ដែល Alexander II បានប្រយុទ្ធនឹង?",
     "wrong_answers": [
       "Pyrrhus",
       "Demetrius II",
@@ -19,7 +19,7 @@
   },
   {
     "answer": "Demetrius II of Macedon",
-    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u178e\u17d2\u178a\u17c1\u1789 Alexander II \u1785\u17c1\u1789\u1796\u17b8 Epirus?",
+    "question": "អ្នកណាជាអ្នកបណ្ដេញ Alexander II ចេញពី Epirus?",
     "wrong_answers": [
       "Antigonus II Gonatas",
       "Pyrrhus",
@@ -27,8 +27,8 @@
     ]
   },
   {
-    "answer": "Acarnanians \u1793\u17b7\u1784\u1794\u17d2\u179a\u1787\u17b6\u1787\u1793 Epirus",
-    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17bd\u1799 Alexander II \u1799\u1780 Epirus \u1798\u1780\u179c\u17b7\u1789?",
+    "answer": "Acarnanians និងប្រជាជន Epirus",
+    "question": "អ្នកណាជួយ Alexander II យក Epirus មកវិញ?",
     "wrong_answers": [
       "Antigonus II Gonatas",
       "Demetrius II",
@@ -37,7 +37,7 @@
   },
   {
     "answer": "Olympias",
-    "question": "\u1794\u17d2\u179a\u1796\u1793\u17d2\u1792\u179a\u1794\u179f\u17cb Alexander II \u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "question": "ប្រពន្ធរបស់ Alexander II ឈ្មោះអ្វី?",
     "wrong_answers": [
       "Lanassa",
       "Phthia",
@@ -45,53 +45,53 @@
     ]
   },
   {
-    "answer": "\u1796\u17b8\u179a",
-    "question": "\u178f\u17be Alexander II \u1798\u17b6\u1793\u1780\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793?",
+    "answer": "ពីរ",
+    "question": "តើ Alexander II មានកូនប្រុសប៉ុន្មាន?",
     "wrong_answers": [
-      "\u1798\u17bd\u1799",
-      "\u1794\u17b8",
-      "\u1794\u17bd\u1793"
+      "មួយ",
+      "បី",
+      "បួន"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u17a0\u17c2\u179b 255 \u1798\u17bb\u1793\u1782.\u179f.",
-    "question": "\u178f\u17be Alexander II \u179f\u17c4\u1799\u1791\u17b8\u179c\u1784\u17d2\u179f\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "answer": "ប្រហែល 255 មុនគ.ស.",
+    "question": "តើ Alexander II សោយទីវង្សនៅឆ្នាំណា?",
     "wrong_answers": [
-      "272 \u1798\u17bb\u1793\u1782.\u179f.",
-      "240 \u1798\u17bb\u1793\u1782.\u179f.",
-      "300 \u1798\u17bb\u1793\u1782.\u179f."
+      "272 មុនគ.ស.",
+      "240 មុនគ.ស.",
+      "300 មុនគ.ស."
     ]
   },
   {
     "answer": "Olympias",
-    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784 Epirus \u1794\u1793\u17d2\u1791\u17b6\u1794\u17cb\u1796\u17b8\u1780\u17b6\u179a\u179f\u17c4\u1799\u1791\u17b8\u179c\u1784\u17d2\u179f\u179a\u1794\u179f\u17cb Alexander II?",
+    "question": "អ្នកណាក្លាយជាអ្នកគ្រប់គ្រង Epirus បន្ទាប់ពីការសោយទីវង្សរបស់ Alexander II?",
     "wrong_answers": [
-      "Pyrrhus \u0399\u0399",
-      "Ptolemy \u0399\u0399",
+      "Pyrrhus ΙΙ",
+      "Ptolemy ΙΙ",
       "Agathocles"
     ]
   },
   {
     "answer": "Demetrius",
-    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u179a\u17c0\u1794\u1780\u17b6\u179a\u1787\u17b6\u1798\u17bd\u1799 Phthia?",
+    "question": "អ្នកណាបានរៀបការជាមួយ Phthia?",
     "wrong_answers": [
       "Agathocles",
       "Antigonus II Gonatas",
-      "Pyrrhus \u0399\u0399"
+      "Pyrrhus ΙΙ"
     ]
   },
   {
-    "answer": "\u179f\u17d2\u1794\u17c2\u1780\u178a\u17c6\u179a\u17b8",
-    "question": "\u178f\u17be\u1780\u17d2\u1794\u17b6\u179b\u1793\u17c5\u179b\u17be\u1780\u17b6\u1780\u17cb\u179a\u1794\u179f\u17cb Alexander II \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17d2\u179a\u1794\u178a\u178e\u17d2\u178a\u1794\u17cb\u178a\u17c4\u1799\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ស្បែកដំរី",
+    "question": "តើក្បាលនៅលើកាក់របស់ Alexander II ត្រូវបានគ្របដណ្ដប់ដោយអ្វី?",
     "wrong_answers": [
-      "\u179f\u17d2\u1794\u17c2\u1780\u1781\u17d2\u179b\u17b6",
-      "\u1798\u1780\u17bb\u178a",
-      "\u179f\u17d2\u1794\u17c2\u1780\u179f\u178f\u17d2\u179c\u178f\u17c4"
+      "ស្បែកខ្លា",
+      "មកុដ",
+      "ស្បែកសត្វតោ"
     ]
   },
   {
-    "answer": "Pallas \u1780\u17b6\u1793\u17cb\u179b\u17c6\u1796\u17c2\u1784\u1793\u17b7\u1784\u0e42\u0e25\u0e48",
-    "question": "\u178f\u17be\u1795\u17d2\u1793\u17c2\u1780\u1781\u17b6\u1784\u1780\u17d2\u179a\u17c4\u1799\u1793\u17c3\u1780\u17b6\u1780\u17cb\u179a\u1794\u179f\u17cb Alexander II \u1794\u1784\u17d2\u17a0\u17b6\u1789\u17a2\u17d2\u179c\u17b8?",
+    "answer": "Pallas កាន់លំពែងនិងโล่",
+    "question": "តើផ្នែកខាងក្រោយនៃកាក់របស់ Alexander II បង្ហាញអ្វី?",
     "wrong_answers": [
       "Pyrrhus",
       "Antigonus II Gonatas",
@@ -100,7 +100,7 @@
   },
   {
     "answer": "Agathocles",
-    "question": "\u178f\u17be\u1798\u17d2\u178f\u17b6\u1799\u179a\u1794\u179f\u17cb Lanassa \u1787\u17b6\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើម្តាយរបស់ Lanassa ជាអ្នកណា?",
     "wrong_answers": [
       "Olympias",
       "Phthia",
@@ -109,7 +109,7 @@
   },
   {
     "answer": "Epirus",
-    "question": "\u178f\u17be Alexander II \u1787\u17b6\u179f\u17d2\u178f\u17c1\u1785\u1793\u17c3\u1794\u17d2\u179a\u1791\u17c1\u179f\u178e\u17b6?",
+    "question": "តើ Alexander II ជាស្តេចនៃប្រទេសណា?",
     "wrong_answers": [
       "Macedon",
       "Sicily",
@@ -117,8 +117,8 @@
     ]
   },
   {
-    "answer": "Pyrrhus \u0399\u0399, Ptolemy \u0399\u0399 \u1793\u17b7\u1784 Phthia",
-    "question": "\u178f\u17be Alexander II \u1798\u17b6\u1793\u1780\u17bc\u1793\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "answer": "Pyrrhus ΙΙ, Ptolemy ΙΙ និង Phthia",
+    "question": "តើ Alexander II មានកូនអ្នកណា?",
     "wrong_answers": [
       "Agathocles",
       "Antigonus II Gonatas",

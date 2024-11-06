@@ -1,34 +1,34 @@
 [
   {
-    "answer": "\u179c\u17b6\u1787\u17b6\u179f\u17d2\u179a\u1791\u17b6\u1794\u17cb\u17a7\u179f\u17d2\u1798\u17d0\u1793\u178a\u17c2\u179b\u1793\u17c5\u1787\u17bb\u17c6\u179c\u17b7\u1789\u179a\u17b6\u1784\u1780\u17b6\u1799\u179f\u17c1\u17a1\u17c1\u179f\u17d2\u1791\u17b6\u179b",
-    "question": "\u178f\u17be\u1794\u179a\u17b7\u1799\u17b6\u1780\u17b6\u179f\u1798\u17b6\u1793\u1793\u17d0\u1799\u1799\u17c9\u17b6\u1784\u178e\u17b6?",
+    "answer": "វាជាស្រទាប់ឧស្ម័នដែលនៅជុំវិញរាងកាយសេឡេស្ទាល",
+    "question": "តើបរិយាកាសមានន័យយ៉ាងណា?",
     "wrong_answers": [
-      "\u179c\u17b6\u1787\u17b6\u179f\u17d2\u179a\u1791\u17b6\u1794\u17cb\u179a\u17b9\u1784\u178a\u17c2\u179b\u1793\u17c5\u1787\u17bb\u17c6\u179c\u17b7\u1789\u179a\u17b6\u1784\u1780\u17b6\u1799\u179f\u17c1\u17a1\u17c1\u179f\u17d2\u1791\u17b6\u179b",
-      "\u179c\u17b6\u1787\u17b6\u179f\u17d2\u179a\u1791\u17b6\u1794\u17cb\u179a\u17b6\u179c\u178a\u17c2\u179b\u1793\u17c5\u1787\u17bb\u17c6\u179c\u17b7\u1789\u179a\u17b6\u1784\u1780\u17b6\u1799\u179f\u17c1\u17a1\u17c1\u179f\u17d2\u1791\u17b6\u179b",
-      "\u179c\u17b6\u1782\u17ba\u1787\u17b6\u1780\u1793\u17d2\u179b\u17c2\u1784\u178a\u17c2\u179b\u179a\u17b6\u1784\u1780\u17b6\u1799\u179f\u17c1\u17a1\u17c1\u179f\u17d2\u1791\u17b6\u179b\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u17a1\u17be\u1784"
+      "វាជាស្រទាប់រឹងដែលនៅជុំវិញរាងកាយសេឡេស្ទាល",
+      "វាជាស្រទាប់រាវដែលនៅជុំវិញរាងកាយសេឡេស្ទាល",
+      "វាគឺជាកន្លែងដែលរាងកាយសេឡេស្ទាលត្រូវបានបង្កើតឡើង"
     ]
   },
   {
-    "answer": "\u1794\u179a\u17b7\u1799\u17b6\u1780\u17b6\u179f\u1795\u17c2\u1793\u178a\u17b8",
-    "question": "\u178f\u17be\u17a7\u1791\u17b6\u17a0\u179a\u178e\u17cd\u1793\u17c3\u1794\u179a\u17b7\u1799\u17b6\u1780\u17b6\u179f\u1798\u17bd\u1799\u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "បរិយាកាសផែនដី",
+    "question": "តើឧទាហរណ៍នៃបរិយាកាសមួយគឺជាអ្វី?",
     "wrong_answers": [
-      "\u179f\u1798\u17bb\u1791\u17d2\u179a",
-      "\u1795\u17d2\u1791\u17c3\u1798\u17c1\u1783",
-      "\u1797\u17d2\u1793\u17c6"
+      "សមុទ្រ",
+      "ផ្ទៃមេឃ",
+      "ភ្នំ"
     ]
   },
   {
-    "answer": "\u1787\u17b6\u17af\u1780\u178f\u17b6\u179f\u1798\u17d2\u1796\u17b6\u1792",
-    "question": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a \u178f\u17be\u1794\u179a\u17b7\u1799\u17b6\u1780\u17b6\u179f\u1798\u17b6\u1793\u1793\u17d0\u1799\u1799\u17c9\u17b6\u1784\u178e\u17b6?",
+    "answer": "ជាឯកតាសម្ពាធ",
+    "question": "នៅក្នុងវិទ្យាសាស្ត្រ តើបរិយាកាសមានន័យយ៉ាងណា?",
     "wrong_answers": [
-      "\u1787\u17b6\u17af\u1780\u178f\u17b6\u179f\u17b8\u178f\u17bb\u178e\u17d2\u17a0\u1797\u17b6\u1796",
-      "\u1787\u17b6\u17af\u1780\u178f\u17b6\u1794\u179a\u17b7\u1798\u17b6\u178e",
-      "\u1787\u17b6\u17af\u1780\u178f\u17b6\u1796\u17c1\u179b\u179c\u17c1\u179b\u17b6"
+      "ជាឯកតាសីតុណ្ហភាព",
+      "ជាឯកតាបរិមាណ",
+      "ជាឯកតាពេលវេលា"
     ]
   },
   {
     "answer": "Atmosphere (music group)",
-    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u1798\u17bd\u1799\u178e\u17b6\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atmosphere?",
+    "question": "តើក្រុមតន្ត្រីអាមេរិកមួយណាដែលមានឈ្មោះថា Atmosphere?",
     "wrong_answers": [
       "The Beatles",
       "The Rolling Stones",
@@ -37,7 +37,7 @@
   },
   {
     "answer": "Atmosphere (Atmosphere album)",
-    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u1794\u17ca\u17bb\u1798\u1798\u17bd\u1799\u178e\u17b6\u178a\u17c2\u179b\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1785\u17c1\u1789\u1795\u17d2\u179f\u17b6\u1799\u178a\u17c4\u1799 Atmosphere?",
+    "question": "តើអាល់ប៊ុមមួយណាដែលត្រូវបានចេញផ្សាយដោយ Atmosphere?",
     "wrong_answers": [
       "Abbey Road",
       "Sgt. Pepper's Lonely Hearts Club Band",
@@ -46,7 +46,7 @@
   },
   {
     "answer": "\"Atmosphere\" (Joy Division song)",
-    "question": "\u178f\u17be\u1794\u1791\u1785\u1798\u17d2\u179a\u17c0\u1784\u1798\u17bd\u1799\u178e\u17b6\u178a\u17c2\u179b\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1785\u17c1\u1789\u1795\u17d2\u179f\u17b6\u1799\u178a\u17c4\u1799 Joy Division \u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 \"Atmosphere\"?",
+    "question": "តើបទចម្រៀងមួយណាដែលត្រូវបានចេញផ្សាយដោយ Joy Division ដែលមានឈ្មោះថា \"Atmosphere\"?",
     "wrong_answers": [
       "\"Love Will Tear Us Apart\"",
       "\"She's Lost Control\"",
@@ -55,7 +55,7 @@
   },
   {
     "answer": "Atmosphere (journal)",
-    "question": "\u178f\u17be\u1793\u17b7\u1791\u17b6\u1793\u1780\u1790\u17b6\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atmosphere?",
+    "question": "តើនិទានកថាអ្វីដែលមានឈ្មោះថា Atmosphere?",
     "wrong_answers": [
       "Nature",
       "Science",
@@ -64,7 +64,7 @@
   },
   {
     "answer": "Atmosphere (magazine)",
-    "question": "\u178f\u17be\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178f\u17b8\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u1787\u17b6\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178f\u17b8\u1793\u17c5\u179b\u17be\u1799\u1793\u17d2\u178f\u17a0\u17c4\u17c7\u179a\u1794\u179f\u17cb Air Transat?",
+    "question": "តើទស្សនាវដ្តីអ្វីដែលជាទស្សនាវដ្តីនៅលើយន្តហោះរបស់ Air Transat?",
     "wrong_answers": [
       "National Geographic",
       "Time",
@@ -73,7 +73,7 @@
   },
   {
     "answer": "Atmospheres (TV series)",
-    "question": "\u178f\u17be\u1788\u17d2\u1798\u17c4\u17c7\u1793\u17c3\u179f\u17ca\u17c1\u179a\u17b8\u1791\u17bc\u179a\u1791\u179f\u17d2\u179f\u1793\u17cd\u1798\u17bd\u1799\u178e\u17b6\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Atmospheres?",
+    "question": "តើឈ្មោះនៃស៊េរីទូរទស្សន៍មួយណាដែលមានឈ្មោះថា Atmospheres?",
     "wrong_answers": [
       "Game of Thrones",
       "Stranger Things",
@@ -82,16 +82,16 @@
   },
   {
     "answer": "Atmosphere (literature)",
-    "question": "\u178f\u17be\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u17a2\u1780\u17d2\u179f\u179a\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a \u178f\u17be\u1794\u179a\u17b7\u1799\u17b6\u1780\u17b6\u179f\u1798\u17b6\u1793\u1793\u17d0\u1799\u1799\u17c9\u17b6\u1784\u178e\u17b6?",
+    "question": "តើនៅក្នុងអក្សរសាស្ត្រ តើបរិយាកាសមានន័យយ៉ាងណា?",
     "wrong_answers": [
-      "\u179a\u1785\u1793\u17b6\u1794\u17d0\u1791\u17d2\u1798",
-      "\u1797\u17b6\u179f\u17b6",
-      "\u1794\u17d2\u179a\u1792\u17b6\u1793\u1794\u1791"
+      "រចនាប័ទ្ម",
+      "ភាសា",
+      "ប្រធានបទ"
     ]
   },
   {
     "answer": "Atmosphere (service)",
-    "question": "\u178f\u17be\u179f\u17c1\u179c\u17b6\u1780\u1798\u17d2\u1798\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u1795\u17d2\u178f\u179b\u17cb\u1793\u17bc\u179c\u1798\u17b6\u178f\u17b7\u1780\u17b6\u179c\u17b8\u178a\u17c1\u17a2\u17bc\u178f\u17b6\u1798\u178f\u1798\u17d2\u179a\u17bc\u179c\u1780\u17b6\u179a?",
+    "question": "តើសេវាកម្មអ្វីដែលផ្តល់នូវមាតិកាវីដេអូតាមតម្រូវការ?",
     "wrong_answers": [
       "Netflix",
       "Hulu",
@@ -100,16 +100,16 @@
   },
   {
     "answer": "Atmosphere (architecture and spatial design)",
-    "question": "\u178f\u17be\u1794\u179a\u17b7\u1799\u17b6\u1780\u17b6\u179f\u1798\u17b6\u1793\u1793\u17d0\u1799\u1799\u17c9\u17b6\u1784\u178e\u17b6\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179f\u17d2\u1790\u17b6\u1794\u178f\u17d2\u1799\u1780\u1798\u17d2\u1798\u1793\u17b7\u1784\u1780\u17b6\u179a\u179a\u1785\u1793\u17b6\u179b\u17c6\u17a0?",
+    "question": "តើបរិយាកាសមានន័យយ៉ាងណានៅក្នុងស្ថាបត្យកម្មនិងការរចនាលំហ?",
     "wrong_answers": [
-      "\u179a\u1785\u1793\u17b6\u179f\u1798\u17d2\u1796\u17d0\u1793\u17d2\u1792",
-      "\u179f\u1798\u17d2\u1797\u17b6\u179a\u17c8",
-      "\u1796\u178e\u17cc"
+      "រចនាសម្ព័ន្ធ",
+      "សម្ភារៈ",
+      "ពណ៌"
     ]
   },
   {
     "answer": "Atmosphere (Kolkata)",
-    "question": "\u178f\u17be\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u1782\u17b6\u179a\u179b\u17c6\u1793\u17c5\u178a\u17d2\u178b\u17b6\u1793\u1798\u17bd\u1799\u178e\u17b6\u1793\u17c5\u17a5\u178e\u17d2\u178c\u17b6?",
+    "question": "តើឈ្មោះអគារលំនៅដ្ឋានមួយណានៅឥណ្ឌា?",
     "wrong_answers": [
       "Taj Mahal",
       "Red Fort",
@@ -118,7 +118,7 @@
   },
   {
     "answer": "Adobe Atmosphere",
-    "question": "\u178f\u17be\u1788\u17d2\u1798\u17c4\u17c7\u179c\u17c1\u1791\u17b7\u1780\u17b6\u1780\u17d2\u179a\u17b6\u17a0\u17d2\u179c\u17b7\u1780\u1780\u17bb\u17c6\u1796\u17d2\u1799\u17bc\u1791\u17d0\u179a\u1798\u17bd\u1799\u178e\u17b6?",
+    "question": "តើឈ្មោះវេទិកាក្រាហ្វិកកុំព្យូទ័រមួយណា?",
     "wrong_answers": [
       "Photoshop",
       "Illustrator",
@@ -127,7 +127,7 @@
   },
   {
     "answer": "Atmosphere Visual Effects",
-    "question": "\u178f\u17be\u1788\u17d2\u1798\u17c4\u17c7\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u1780\u17b6\u178e\u17b6\u178a\u17b6\u1798\u17bd\u1799\u178e\u17b6\u178a\u17c2\u179b\u1795\u17d2\u178f\u179b\u17cb\u179f\u17c1\u179c\u17b6\u1795\u179b\u1794\u17c9\u17c7\u1796\u17b6\u179b\u17cb?",
+    "question": "តើឈ្មោះក្រុមហ៊ុនកាណាដាមួយណាដែលផ្តល់សេវាផលប៉ះពាល់?",
     "wrong_answers": [
       "Pixar",
       "DreamWorks",

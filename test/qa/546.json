@@ -1,24 +1,24 @@
 [
   {
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u179f\u17c0\u179c\u1797\u17c5 \"De Misericordia et Justitia\"?",
+    "question": "តើអ្នកណាជាអ្នកនិពន្ធសៀវភៅ \"De Misericordia et Justitia\"?",
     "wrong_answers": [
       "Rupert of Deutz",
       "Peter of Cluny",
       "Erasmus",
-      "Nicholas of Li\u00e8ge"
+      "Nicholas of Liège"
     ]
   },
   {
-    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u179f\u17c0\u179c\u1797\u17c5 \"De Dignitate Ecclesie Leodiensis\"?",
+    "question": "អ្នកណាជាអ្នកនិពន្ធសៀវភៅ \"De Dignitate Ecclesie Leodiensis\"?",
     "wrong_answers": [
       "Rupert of Deutz",
       "Peter of Cluny",
       "Erasmus",
-      "Nicholas of Li\u00e8ge"
+      "Nicholas of Liège"
     ]
   },
   {
-    "question": "\u178f\u17be\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b Alger of Li\u00e8ge \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb?",
+    "question": "តើនៅឆ្នាំអ្វីដែល Alger of Liège បានស្លាប់?",
     "wrong_answers": [
       "1055",
       "1103",
@@ -27,66 +27,66 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u179f\u179a\u179f\u17c1\u179a\u1787\u17b8\u179c\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179a\u1794\u179f\u17cb Alger of Li\u00e8ge?",
+    "question": "តើអ្នកណាបានសរសេរជីវប្រវត្តិរបស់ Alger of Liège?",
     "wrong_answers": [
       "Rupert of Deutz",
       "Peter of Cluny",
       "Erasmus",
-      "Alger of Li\u00e8ge"
+      "Alger of Liège"
     ]
   },
   {
-    "question": "\u178f\u17be Alger of Li\u00e8ge \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u1787\u17b6\u17a2\u17d2\u179c\u17b8\u1793\u17c5 Li\u00e8ge?",
+    "question": "តើ Alger of Liège បានធ្វើការជាអ្វីនៅ Liège?",
     "wrong_answers": [
-      "\u1787\u17b6\u1794\u17ca\u17b8\u179f\u17d2\u179f\u1796",
-      "\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1793\u1799\u17c4\u1794\u17b6\u1799",
-      "\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792",
-      "\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179f\u17d2\u178f\u17b6\u1794\u17cb"
+      "ជាប៊ីស្សព",
+      "ជាអ្នកនយោបាយ",
+      "ជាអ្នកនិពន្ធ",
+      "ជាអ្នកស្តាប់"
     ]
   },
   {
-    "question": "\u178f\u17be Alger of Li\u00e8ge \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u1787\u17b6\u17a2\u17d2\u179c\u17b8\u1793\u17c5 St. Lambert's Cathedral?",
+    "question": "តើ Alger of Liège បានធ្វើការជាអ្វីនៅ St. Lambert's Cathedral?",
     "wrong_answers": [
-      "\u1787\u17b6\u1794\u17ca\u17b8\u179f\u17d2\u179f\u1796",
-      "\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1793\u1799\u17c4\u1794\u17b6\u1799",
-      "\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792",
-      "\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179f\u17d2\u178f\u17b6\u1794\u17cb"
+      "ជាប៊ីស្សព",
+      "ជាអ្នកនយោបាយ",
+      "ជាអ្នកនិពន្ធ",
+      "ជាអ្នកស្តាប់"
     ]
   },
   {
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1791\u1791\u17bd\u179b\u1781\u17bb\u179f\u178f\u17d2\u179a\u17bc\u179c\u1785\u17c6\u1796\u17c4\u17c7\u1780\u17b6\u179a\u179f\u1798\u17d2\u179a\u17c1\u1785\u1785\u17b7\u178f\u17d2\u178f\u179a\u1794\u179f\u17cb Alger of Li\u00e8ge \u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u1785\u17bc\u179b\u1793\u17b7\u179c\u178f\u17d2\u178f\u1793\u17cd?",
+    "question": "តើអ្នកណាជាអ្នកទទួលខុសត្រូវចំពោះការសម្រេចចិត្តរបស់ Alger of Liège ក្នុងការចូលនិវត្តន៍?",
     "wrong_answers": [
       "Rupert of Deutz",
       "Peter of Cluny",
       "Erasmus",
-      "Nicholas of Li\u00e8ge"
+      "Nicholas of Liège"
     ]
   },
   {
-    "question": "\u178f\u17be Alger of Li\u00e8ge \u1794\u17b6\u1793\u1785\u17bc\u179b\u1793\u17b7\u179c\u178f\u17d2\u178f\u1793\u17cd\u1793\u17c5\u1791\u17b8\u178e\u17b6?",
+    "question": "តើ Alger of Liège បានចូលនិវត្តន៍នៅទីណា?",
     "wrong_answers": [
-      "Li\u00e8ge",
+      "Liège",
       "St. Bartholomew's Church",
       "St. Lambert's Cathedral",
       "St. Bartholomew"
     ]
   },
   {
-    "question": "\u178f\u17be Alger of Li\u00e8ge \u1794\u17b6\u1793\u179f\u179a\u179f\u17c1\u179a\u17a2\u17d2\u179c\u17b8\u1791\u17b6\u1780\u17cb\u1791\u1784\u1793\u17b9\u1784 Rupert of Deutz?",
+    "question": "តើ Alger of Liège បានសរសេរអ្វីទាក់ទងនឹង Rupert of Deutz?",
     "wrong_answers": [
-      "\u179f\u17c0\u179c\u1797\u17c5\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u179a\u17d2\u178f",
-      "\u179f\u17c0\u179c\u1797\u17c5\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u179a\u17d2\u178f\u1793\u17c3\u1794\u17d2\u179a\u1791\u17c1\u179f Li\u00e8ge",
-      "\u179f\u17c0\u179c\u1797\u17c5\u17a2\u17c6\u1796\u17b8\u1780\u17b6\u179a\u1782\u17b6\u17c6\u1791\u17d2\u179a",
-      "\u179f\u17c0\u179c\u1797\u17c5\u17a2\u17c6\u1796\u17b8\u1780\u17b6\u179a\u1794\u17d2\u179a\u17b6\u179a\u1796\u17d2\u1792\u1796\u17b7\u1792\u17b8"
+      "សៀវភៅប្រវត្តិសាស្រ្ត",
+      "សៀវភៅប្រវត្តិសាស្រ្តនៃប្រទេស Liège",
+      "សៀវភៅអំពីការគាំទ្រ",
+      "សៀវភៅអំពីការប្រារព្ធពិធី"
     ]
   },
   {
-    "question": "\u178f\u17be Alger of Li\u00e8ge \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179b\u17c1\u1781\u17b6\u1795\u17d2\u1791\u17b6\u179b\u17cb\u1781\u17d2\u179b\u17bd\u1793\u179a\u1794\u179f\u17cb\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើ Alger of Liège បានធ្វើការជាអ្នកលេខាផ្ទាល់ខ្លួនរបស់អ្នកណា?",
     "wrong_answers": [
       "Rupert of Deutz",
       "Peter of Cluny",
       "Erasmus",
-      "Nicholas of Li\u00e8ge"
+      "Nicholas of Liège"
     ]
   }
 ]

@@ -1,39 +1,39 @@
 [
   {
-    "answer": "Ardipithecus kadabba \u1793\u17b7\u1784 Ardipithecus ramidus",
-    "question": "\u178f\u17be\u1798\u17b6\u1793\u1794\u17d2\u179a\u1797\u17c1\u1791\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7\u1793\u17c3 Ardipithecus?",
+    "answer": "Ardipithecus kadabba និង Ardipithecus ramidus",
+    "question": "តើមានប្រភេទអ្វីខ្លះនៃ Ardipithecus?",
     "wrong_answers": [
-      "Ardipithecus ramidus \u1793\u17b7\u1784 Australopithecus",
-      "Australopithecus \u1793\u17b7\u1784 Homo sapiens"
+      "Ardipithecus ramidus និង Australopithecus",
+      "Australopithecus និង Homo sapiens"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e4.\u17e4 \u179b\u17b6\u1793\u1786\u17d2\u1793\u17b6\u17c6\u1798\u17bb\u1793",
-    "question": "\u178f\u17be Ardipithecus ramidus \u179a\u179f\u17cb\u1793\u17c5\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ប្រហែល ៤.៤ លានឆ្នាំមុន",
+    "question": "តើ Ardipithecus ramidus រស់នៅនៅពេលណា?",
     "wrong_answers": [
-      "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e5.\u17e6 \u179b\u17b6\u1793\u1786\u17d2\u1793\u17b6\u17c6\u1798\u17bb\u1793",
-      "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e3 \u179b\u17b6\u1793\u1786\u17d2\u1793\u17b6\u17c6\u1798\u17bb\u1793"
+      "ប្រហែល ៥.៦ លានឆ្នាំមុន",
+      "ប្រហែល ៣ លានឆ្នាំមុន"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1791\u17b8\u1787\u17d2\u179a\u17c5 Afar \u1793\u17c3\u17a2\u17c1\u178f\u17d2\u1799\u17bc\u1796\u17b8",
-    "question": "\u178f\u17be Ardipithecus \u179a\u179f\u17cb\u1793\u17c5\u1791\u17b8\u178e\u17b6?",
+    "answer": "នៅក្នុងទីជ្រៅ Afar នៃអេត្យូពី",
+    "question": "តើ Ardipithecus រស់នៅទីណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f Kenya",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f Tanzania"
+      "នៅក្នុងប្រទេស Kenya",
+      "នៅក្នុងប្រទេស Tanzania"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u17c1\u178f\u17d2\u1799\u17bc\u1796\u17b8",
-    "question": "\u178f\u17be\u179f\u17c6\u178e\u179b\u17cb Ardipithecus ramidus \u178a\u17c6\u1794\u17bc\u1784\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179a\u1780\u1783\u17be\u1789\u1793\u17c5\u1791\u17b8\u178e\u17b6?",
+    "answer": "នៅក្នុងប្រទេសអេត្យូពី",
+    "question": "តើសំណល់ Ardipithecus ramidus ដំបូងត្រូវបានរកឃើញនៅទីណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f Kenya",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f Tanzania"
+      "នៅក្នុងប្រទេស Kenya",
+      "នៅក្នុងប្រទេស Tanzania"
     ]
   },
   {
     "answer": "Australopithecus",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b Ardipithecus ramidus \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u1782\u17b7\u178f\u1790\u17b6\u1787\u17b6?",
+    "question": "តើប្រភេទសត្វអ្វីដែល Ardipithecus ramidus ត្រូវបានគេគិតថាជា?",
     "wrong_answers": [
       "Homo sapiens",
       "Pan troglodytes"
@@ -41,74 +41,74 @@
   },
   {
     "answer": "Tim White",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u178a\u17b9\u1780\u1793\u17b6\u17c6\u1780\u17d2\u179a\u17bb\u1798\u179f\u17d2\u179a\u17b6\u179c\u1787\u17d2\u179a\u17b6\u179c\u178a\u17c2\u179b\u1794\u17b6\u1793\u179a\u1780\u1783\u17be\u1789\u179f\u17c6\u178e\u179b\u17cb Ardipithecus ramidus \u178a\u17c6\u1794\u17bc\u1784?",
+    "question": "តើអ្នកណាបានដឹកនាំក្រុមស្រាវជ្រាវដែលបានរកឃើញសំណល់ Ardipithecus ramidus ដំបូង?",
     "wrong_answers": [
       "Sileshi Semaw",
       "Donald Johanson"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1787\u17d2\u179a\u179b\u1784\u1791\u1793\u17d2\u179b\u17c1 Awash \u1780\u178e\u17d2\u178f\u17b6\u179b",
-    "question": "\u178f\u17be\u179f\u17c6\u178e\u179b\u17cb Ardipithecus ramidus \u178a\u17c6\u1794\u17bc\u1784\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179a\u1780\u1783\u17be\u1789\u1793\u17c5\u17af\u178e\u17b6?",
+    "answer": "នៅក្នុងជ្រលងទន្លេ Awash កណ្តាល",
+    "question": "តើសំណល់ Ardipithecus ramidus ដំបូងត្រូវបានរកឃើញនៅឯណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u178f\u17c6\u1794\u1793\u17cb Gona",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u178f\u17c6\u1794\u1793\u17cb Hadar"
+      "នៅក្នុងតំបន់ Gona",
+      "នៅក្នុងតំបន់ Hadar"
     ]
   },
   {
-    "answer": "\u1780\u17d2\u179a\u17bb\u1798\u1793\u17b7\u1799\u17b6\u1799\u1791\u17c4\u179f",
-    "question": "\u178f\u17be Ardipithecus \u1798\u17b6\u1793\u179b\u1780\u17d2\u1781\u178e\u17c8\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u1794\u1784\u17d2\u17a0\u17b6\u1789\u1790\u17b6\u1796\u17bd\u1780\u1782\u17c1\u1798\u17b6\u1793\u1797\u17b6\u1796\u1788\u17d2\u179b\u17b6\u1793\u1796\u17b6\u1793\u178f\u17b7\u1785?",
+    "answer": "ក្រុមនិយាយទោស",
+    "question": "តើ Ardipithecus មានលក្ខណៈអ្វីដែលបង្ហាញថាពួកគេមានភាពឈ្លានពានតិច?",
     "wrong_answers": [
-      "\u1792\u17d2\u1798\u17c1\u1789 canine \u1792\u17c6",
-      "\u1797\u17b6\u1796\u1781\u17bb\u179f\u1782\u17d2\u1793\u17b6\u1781\u17d2\u179b\u17b6\u17c6\u1784\u1793\u17c3\u1797\u17c1\u1791\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1792\u17d2\u1798\u17c1\u1789 canine"
+      "ធ្មេញ canine ធំ",
+      "ភាពខុសគ្នាខ្លាំងនៃភេទនៅក្នុងធ្មេញ canine"
     ]
   },
   {
     "answer": "Australopithecus ramidus",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1797\u17c1\u1791\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b Australopithecus \u1798\u17b6\u1793\u1791\u17c6\u1793\u17b6\u1780\u17cb\u1791\u17c6\u1793\u1784\u1787\u17b7\u178f\u179f\u17d2\u1793\u17b7\u1791\u17d2\u1792?",
+    "question": "តើប្រភេទអ្វីដែល Australopithecus មានទំនាក់ទំនងជិតស្និទ្ធ?",
     "wrong_answers": [
       "Ardipithecus kadabba",
       "Homo sapiens"
     ]
   },
   {
-    "answer": "\u17a2\u17d2\u1793\u1780\u1794\u179a\u17b7\u1797\u17c4\u1782\u1795\u17d2\u179b\u17c2\u1788\u17be",
-    "question": "\u178f\u17be Ardipithecus ramidus \u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "អ្នកបរិភោគផ្លែឈើ",
+    "question": "តើ Ardipithecus ramidus ជាអ្វី?",
     "wrong_answers": [
-      "\u17a2\u17d2\u1793\u1780\u1794\u179a\u17b7\u1797\u17c4\u1782\u179f\u17b6\u1785\u17cb",
-      "\u17a2\u17d2\u1793\u1780\u1794\u179a\u17b7\u1797\u17c4\u1782\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7"
+      "អ្នកបរិភោគសាច់",
+      "អ្នកបរិភោគរុក្ខជាតិ"
     ]
   },
   {
-    "answer": "\u1798\u17b6\u1793\u1791\u17c6\u17a0\u17c6\u178f\u17bc\u1785\u1787\u17b6\u1784\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u179f\u17d2\u179c\u17b6\u178a\u1791\u17c3\u1791\u17c0\u178f",
-    "question": "\u178f\u17be\u1792\u17d2\u1798\u17c1\u1789\u179a\u1794\u179f\u17cb Ardipithecus ramidus \u1798\u17b6\u1793\u179b\u1780\u17d2\u1781\u178e\u17c8\u17a2\u17d2\u179c\u17b8?",
+    "answer": "មានទំហំតូចជាងប្រភេទសត្វស្វាដទៃទៀត",
+    "question": "តើធ្មេញរបស់ Ardipithecus ramidus មានលក្ខណៈអ្វី?",
     "wrong_answers": [
-      "\u1798\u17b6\u1793\u1791\u17c6\u17a0\u17c6\u1792\u17c6\u1787\u17b6\u1784\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u179f\u17d2\u179c\u17b6\u178a\u1791\u17c3\u1791\u17c0\u178f",
-      "\u1798\u17b6\u1793\u1791\u17c6\u17a0\u17c6\u178a\u17bc\u1785\u1782\u17d2\u1793\u17b6\u1793\u17b9\u1784\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u179f\u17d2\u179c\u17b6\u178a\u1791\u17c3\u1791\u17c0\u178f"
+      "មានទំហំធំជាងប្រភេទសត្វស្វាដទៃទៀត",
+      "មានទំហំដូចគ្នានឹងប្រភេទសត្វស្វាដទៃទៀត"
     ]
   },
   {
-    "answer": "\u178f\u17bc\u1785\u1787\u17b6\u1784\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u179f\u17d2\u179c\u17b6\u178a\u1791\u17c3\u1791\u17c0\u178f",
-    "question": "\u178f\u17be\u1781\u17bd\u179a\u1780\u17d2\u1794\u17b6\u179b\u179a\u1794\u179f\u17cb Ardipithecus ramidus \u1798\u17b6\u1793\u1791\u17c6\u17a0\u17c6\u1794\u17c9\u17bb\u1793\u178e\u17b6?",
+    "answer": "តូចជាងប្រភេទសត្វស្វាដទៃទៀត",
+    "question": "តើខួរក្បាលរបស់ Ardipithecus ramidus មានទំហំប៉ុនណា?",
     "wrong_answers": [
-      "\u1792\u17c6\u1787\u17b6\u1784\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u179f\u17d2\u179c\u17b6\u178a\u1791\u17c3\u1791\u17c0\u178f",
-      "\u178a\u17bc\u1785\u1782\u17d2\u1793\u17b6\u1793\u17b9\u1784\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u179f\u17d2\u179c\u17b6\u178a\u1791\u17c3\u1791\u17c0\u178f"
+      "ធំជាងប្រភេទសត្វស្វាដទៃទៀត",
+      "ដូចគ្នានឹងប្រភេទសត្វស្វាដទៃទៀត"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u179f\u17d2\u179c\u17b6 bonobos",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b Ardipithecus ramidus \u1798\u17b6\u1793\u179b\u1780\u17d2\u1781\u178e\u17c8\u179f\u17d2\u179a\u178a\u17c0\u1784?",
+    "answer": "ប្រភេទសត្វស្វា bonobos",
+    "question": "តើប្រភេទសត្វអ្វីដែល Ardipithecus ramidus មានលក្ខណៈស្រដៀង?",
     "wrong_answers": [
-      "\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u179f\u17d2\u179c\u17b6 chimpanzees",
-      "\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u179f\u17d2\u179c\u17b6 gorillas"
+      "ប្រភេទសត្វស្វា chimpanzees",
+      "ប្រភេទសត្វស្វា gorillas"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u17c1\u178f\u17d2\u1799\u17bc\u1796\u17b8",
-    "question": "\u178f\u17be\u179f\u17c6\u178e\u179b\u17cb Ardipithecus kadabba \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179a\u1780\u1783\u17be\u1789\u1793\u17c5\u1791\u17b8\u178e\u17b6?",
+    "answer": "នៅក្នុងប្រទេសអេត្យូពី",
+    "question": "តើសំណល់ Ardipithecus kadabba ត្រូវបានរកឃើញនៅទីណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f Kenya",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f Tanzania"
+      "នៅក្នុងប្រទេស Kenya",
+      "នៅក្នុងប្រទេស Tanzania"
     ]
   }
 ]

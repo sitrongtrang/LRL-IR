@@ -1,58 +1,58 @@
 [
   {
-    "answer": "\u1780\u17c6\u178e\u17b6\u1796\u17d2\u1799\u1793\u17c1\u17c7\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e6\u17e6",
-    "question": "\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6\u178a\u17c2\u179b\u1780\u17c6\u178e\u17b6\u1796\u17d2\u1799 \"The Triumph of Time\" \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796?",
+    "answer": "កំណាព្យនេះត្រូវបានបោះពុម្ពក្នុងឆ្នាំ ១៨៦៦",
+    "question": "នៅពេលណាដែលកំណាព្យ \"The Triumph of Time\" ត្រូវបានបោះពុម្ព?",
     "wrong_answers": [
-      "\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e6\u17e5",
-      "\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e6\u17e7"
+      "ឆ្នាំ ១៨៦៥",
+      "ឆ្នាំ ១៨៦៧"
     ]
   },
   {
     "answer": "Algernon Charles Swinburne",
-    "question": "\u1793\u179a\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u1780\u17c6\u178e\u17b6\u1796\u17d2\u1799 \"The Triumph of Time\"?",
+    "question": "នរណាជាអ្នកនិពន្ធកំណាព្យ \"The Triumph of Time\"?",
     "wrong_answers": [
       "Alfred Lord Tennyson",
       "William Wordsworth"
     ]
   },
   {
-    "answer": "\u1780\u17c6\u178e\u17b6\u1796\u17d2\u1799\u1793\u17c1\u17c7\u1798\u17b6\u1793\u179f\u17d2\u1791\u17b8\u179b\u1793\u17c3\u1780\u17c6\u178e\u17b6\u1796\u17d2\u1799 ottava rima",
-    "question": "\u178f\u17be \"The Triumph of Time\" \u1798\u17b6\u1793\u179f\u17d2\u1791\u17b8\u179b\u1780\u17c6\u178e\u17b6\u1796\u17d2\u1799\u17a2\u17d2\u179c\u17b8?",
+    "answer": "កំណាព្យនេះមានស្ទីលនៃកំណាព្យ ottava rima",
+    "question": "តើ \"The Triumph of Time\" មានស្ទីលកំណាព្យអ្វី?",
     "wrong_answers": [
-      "\u179f\u17bc\u178e\u17c1\u178f",
-      "\u1780\u17c6\u178e\u17b6\u1796\u17d2\u1799\u1782\u17c6\u1793\u17bc\u179a"
+      "សូណេត",
+      "កំណាព្យគំនូរ"
     ]
   },
   {
-    "answer": "\u1780\u17c6\u178e\u17b6\u1796\u17d2\u1799\u1793\u17c1\u17c7\u1794\u17d2\u179a\u17be\u17a7\u1794\u1780\u179a\u178e\u17cd\u17a2\u1780\u17d2\u179f\u179a\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u1787\u17b6\u1785\u17d2\u179a\u17be\u1793",
-    "question": "\u178f\u17be \"The Triumph of Time\" \u1794\u17d2\u179a\u17be\u17a7\u1794\u1780\u179a\u178e\u17cd\u17a2\u1780\u17d2\u179f\u179a\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u1794\u17c2\u1794\u178e\u17b6?",
+    "answer": "កំណាព្យនេះប្រើឧបករណ៍អក្សរសាស្ត្រជាច្រើន",
+    "question": "តើ \"The Triumph of Time\" ប្រើឧបករណ៍អក្សរសាស្ត្របែបណា?",
     "wrong_answers": [
-      "\u1798\u17b7\u1793\u1794\u17d2\u179a\u17be\u17a7\u1794\u1780\u179a\u178e\u17cd\u17a2\u1780\u17d2\u179f\u179a\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a",
-      "\u1794\u17d2\u179a\u17be\u17a7\u1794\u1780\u179a\u178e\u17cd\u17a2\u1780\u17d2\u179f\u179a\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u1798\u17bd\u1799\u1785\u17c6\u1793\u17bd\u1793\u178f\u17bc\u1785"
+      "មិនប្រើឧបករណ៍អក្សរសាស្ត្រ",
+      "ប្រើឧបករណ៍អក្សរសាស្ត្រមួយចំនួនតូច"
     ]
   },
   {
-    "answer": "\u179f\u17d2\u1793\u17c1\u17a0\u17b6\u178a\u17c2\u179b\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u178a\u17b7\u179f\u17c1\u1792",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1792\u17b6\u1793\u1794\u1791\u1793\u17c3 \"The Triumph of Time\" \u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ស្នេហាដែលត្រូវបានបដិសេធ",
+    "question": "តើប្រធានបទនៃ \"The Triumph of Time\" គឺជាអ្វី?",
     "wrong_answers": [
-      "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1784\u17d2\u1783\u17b9\u1798",
-      "\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u17bb\u1781"
+      "សេចក្តីសង្ឃឹម",
+      "សេចក្តីសុខ"
     ]
   },
   {
-    "answer": "\u179f\u1798\u17bb\u1791\u17d2\u179a",
-    "question": "\u178f\u17be\u1780\u17c6\u178e\u17b6\u1796\u17d2\u1799\u1793\u17c1\u17c7\u1794\u17d2\u179a\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u1793\u17b7\u1798\u17b7\u178f\u17d2\u178f\u179a\u17bc\u1794\u1793\u17c3\u1797\u17b6\u1796\u1794\u17c6\u1797\u17d2\u179b\u17c1\u1785\u1785\u17c4\u179b?",
+    "answer": "សមុទ្រ",
+    "question": "តើកំណាព្យនេះប្រើអ្វីជានិមិត្តរូបនៃភាពបំភ្លេចចោល?",
     "wrong_answers": [
-      "\u1797\u17d2\u179b\u17be\u1784",
-      "\u1796\u1793\u17d2\u179b\u17ba"
+      "ភ្លើង",
+      "ពន្លឺ"
     ]
   },
   {
     "answer": "Poems and Ballads",
-    "question": "\u178f\u17be \"The Triumph of Time\" \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ \"The Triumph of Time\" ត្រូវបានបោះពុម្ពក្នុងការបោះពុម្ពអ្វី?",
     "wrong_answers": [
-      "\u1780\u17c6\u178e\u17b6\u1796\u17d2\u1799\u1793\u17b7\u1784\u179a\u17bf\u1784\u1793\u17b7\u1791\u17b6\u1793",
-      "\u1780\u17c6\u178e\u17b6\u1796\u17d2\u1799\u1793\u17b7\u1784\u1794\u1791\u1785\u1798\u17d2\u179a\u17c0\u1784"
+      "កំណាព្យនិងរឿងនិទាន",
+      "កំណាព្យនិងបទចម្រៀង"
     ]
   }
 ]

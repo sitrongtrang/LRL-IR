@@ -1,15 +1,15 @@
 [
   {
-    "answer": "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1798\u17a0\u17b6",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba\u1791\u17b8 \u17e1 \u1793\u17c3 \u17a2\u17c1\u1796\u17b8\u179a\u17bc\u179f \u1787\u17b6\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "answer": "អាឡិចសាន់ឌឺ មហា",
+    "question": "តើអាឡិចសាន់ឌឺទី ១ នៃ អេពីរូស ជាអ្នកណា?",
     "wrong_answers": [
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e2 \u1793\u17c3 \u17a2\u17c1\u1796\u17b8\u179a\u17bc\u179f",
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1793\u17c3 \u1798\u17c9\u17b6\u179f\u17c1\u178a\u17c4\u1793"
+      "អាឡិចសាន់ឌឺ ទី ២ នៃ អេពីរូស",
+      "អាឡិចសាន់ឌឺ នៃ ម៉ាសេដោន"
     ]
   },
   {
-    "answer": "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e1 \u1793\u17c3 \u17a2\u17c1\u1796\u17b8\u179a\u17bc\u179f",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u1784\u17d2\u1780\u17be\u178f\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179f\u17d2\u1793\u1784\u1798\u179a\u178f\u1780\u179a\u1794\u179f\u17cb Neoptolemus I?",
+    "answer": "អាឡិចសាន់ឌឺ ទី ១ នៃ អេពីរូស",
+    "question": "តើអ្នកណាជាអ្នកបង្កើតជាអ្នកស្នងមរតករបស់ Neoptolemus I?",
     "wrong_answers": [
       "Arybbas",
       "Olympias"
@@ -17,23 +17,23 @@
   },
   {
     "answer": "Arybbas",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u179f\u17d2\u178f\u17c1\u1785\u1793\u17c3 Epirus \u1794\u1793\u17d2\u1791\u17b6\u1794\u17cb\u1796\u17b8\u1780\u17b6\u179a\u179f\u17d2\u179b\u17b6\u1794\u17cb\u179a\u1794\u179f\u17cb Neoptolemus I?",
+    "question": "តើអ្នកណាបានក្លាយជាស្តេចនៃ Epirus បន្ទាប់ពីការស្លាប់របស់ Neoptolemus I?",
     "wrong_answers": [
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e1 \u1793\u17c3 \u17a2\u17c1\u1796\u17b8\u179a\u17bc\u179f",
+      "អាឡិចសាន់ឌឺ ទី ១ នៃ អេពីរូស",
       "Olympias"
     ]
   },
   {
-    "answer": "\u1796\u17d2\u179a\u17c7\u179a\u17b6\u1787\u17b6 Philip II \u1793\u17c3 Macedon",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1793\u17b6\u17c6\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e1 \u1793\u17c3 \u17a2\u17c1\u1796\u17b8\u179a\u17bc\u179f \u1791\u17c5\u1780\u17b6\u1793\u17cb\u178f\u17bb\u179b\u17b6\u1780\u17b6\u179a\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb?",
+    "answer": "ព្រះរាជា Philip II នៃ Macedon",
+    "question": "តើអ្នកណាបាននាំអាឡិចសាន់ឌឺ ទី ១ នៃ អេពីរូស ទៅកាន់តុលាការរបស់គាត់?",
     "wrong_answers": [
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1798\u17a0\u17b6",
+      "អាឡិចសាន់ឌឺ មហា",
       "Olympias"
     ]
   },
   {
     "answer": "Olympias",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u1784\u179f\u17d2\u179a\u17b8\u179a\u1794\u179f\u17cb\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e1 \u1793\u17c3 \u17a2\u17c1\u1796\u17b8\u179a\u17bc\u179f?",
+    "question": "តើអ្នកណាជាបងស្រីរបស់អាឡិចសាន់ឌឺ ទី ១ នៃ អេពីរូស?",
     "wrong_answers": [
       "Cleopatra",
       "Neoptolemus I"
@@ -41,15 +41,15 @@
   },
   {
     "answer": "Philip II",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1794\u17d2\u179a\u1782\u179b\u17cb\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e1 \u1793\u17c3 \u17a2\u17c1\u1796\u17b8\u179a\u17bc\u179f \u1787\u17b6\u179f\u17d2\u178f\u17c1\u1785\u1793\u17c3 Epirus?",
+    "question": "តើអ្នកណាបានប្រគល់អាឡិចសាន់ឌឺ ទី ១ នៃ អេពីរូស ជាស្តេចនៃ Epirus?",
     "wrong_answers": [
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1798\u17a0\u17b6",
+      "អាឡិចសាន់ឌឺ មហា",
       "Olympias"
     ]
   },
   {
     "answer": "Cleopatra",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e1 \u1793\u17c3 \u17a2\u17c1\u1796\u17b8\u179a\u17bc\u179f \u1794\u17b6\u1793\u179a\u17c0\u1794\u1780\u17b6\u179a\u1787\u17b6\u1798\u17bd\u1799\u1793\u179a\u178e\u17b6?",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ១ នៃ អេពីរូស បានរៀបការជាមួយនរណា?",
     "wrong_answers": [
       "Olympias",
       "Cadmea"
@@ -57,23 +57,23 @@
   },
   {
     "answer": "Pausanias of Orestis",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1783\u17b6\u178f Philip II?",
+    "question": "តើអ្នកណាបានធ្វើឃាត Philip II?",
     "wrong_answers": [
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1798\u17a0\u17b6",
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e1 \u1793\u17c3 \u17a2\u17c1\u1796\u17b8\u179a\u17bc\u179f"
+      "អាឡិចសាន់ឌឺ មហា",
+      "អាឡិចសាន់ឌឺ ទី ១ នៃ អេពីរូស"
     ]
   },
   {
     "answer": "Taras",
-    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u178e\u17b6\u1794\u17b6\u1793\u179f\u17d2\u1793\u17be\u179f\u17bb\u17c6\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e1 \u1793\u17c3 \u17a2\u17c1\u1796\u17b8\u179a\u17bc\u179f \u178a\u17be\u1798\u17d2\u1794\u17b8\u1787\u17bd\u1799?",
+    "question": "តើទីក្រុងណាបានស្នើសុំអាឡិចសាន់ឌឺ ទី ១ នៃ អេពីរូស ដើម្បីជួយ?",
     "wrong_answers": [
       "Heraclea",
       "Pandosia"
     ]
   },
   {
-    "answer": "Lucanians \u1793\u17b7\u1784 Bruttii",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1780\u17bb\u179b\u179f\u1798\u17d2\u1796\u17d0\u1793\u17d2\u1792\u178a\u17c2\u179b\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e1 \u1793\u17c3 \u17a2\u17c1\u1796\u17b8\u179a\u17bc\u179f \u1794\u17b6\u1793\u1794\u17d2\u179a\u1799\u17bb\u1791\u17d2\u1792?",
+    "answer": "Lucanians និង Bruttii",
+    "question": "តើអ្នកណាជាកុលសម្ព័ន្ធដែលអាឡិចសាន់ឌឺ ទី ១ នៃ អេពីរូស បានប្រយុទ្ធ?",
     "wrong_answers": [
       "Samnites",
       "Romans"
@@ -81,7 +81,7 @@
   },
   {
     "answer": "Pandosia",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e1 \u1793\u17c3 \u17a2\u17c1\u1796\u17b8\u179a\u17bc\u179f \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ១ នៃ អេពីរូស បានស្លាប់នៅឯណា?",
     "wrong_answers": [
       "Heraclea",
       "Taras"
@@ -89,7 +89,7 @@
   },
   {
     "answer": "Neoptolemus",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e1 \u1793\u17c3 \u17a2\u17c1\u1796\u17b8\u179a\u17bc\u179f \u1798\u17b6\u1793\u1780\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ១ នៃ អេពីរូស មានកូនប្រុសឈ្មោះអ្វី?",
     "wrong_answers": [
       "Arybbas",
       "Cadmea"
@@ -97,15 +97,15 @@
   },
   {
     "answer": "Livy",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1793\u17b7\u1799\u17b6\u1799\u1790\u17b6\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1798\u17a0\u17b6\u1794\u17b6\u1793\u1794\u17d2\u179a\u1799\u17bb\u1791\u17d2\u1792\u1787\u17b6\u1798\u17bd\u1799\u1793\u17b6\u179a\u17b8?",
+    "question": "តើអ្នកណាបាននិយាយថាអាឡិចសាន់ឌឺ មហាបានប្រយុទ្ធជាមួយនារី?",
     "wrong_answers": [
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e1 \u1793\u17c3 \u17a2\u17c1\u1796\u17b8\u179a\u17bc\u179f",
+      "អាឡិចសាន់ឌឺ ទី ១ នៃ អេពីរូស",
       "Philip II"
     ]
   },
   {
     "answer": "331 BC",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e1 \u1793\u17c3 \u17a2\u17c1\u1796\u17b8\u179a\u17bc\u179f \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ១ នៃ អេពីរូស បានស្លាប់នៅឆ្នាំណា?",
     "wrong_answers": [
       "357 BC",
       "343 BC"

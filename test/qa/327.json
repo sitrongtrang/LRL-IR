@@ -1,25 +1,25 @@
 [
   {
-    "answer": "\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u17b6\u17c6\u1784",
-    "question": "AES \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u17a1\u17be\u1784\u178a\u17c4\u1799\u1793\u179a\u178e\u17b6?",
+    "answer": "អាមេរិកាំង",
+    "question": "AES ត្រូវបានបង្កើតឡើងដោយនរណា?",
     "wrong_answers": [
-      "\u1787\u1793\u1787\u17b6\u178f\u17b7\u1794\u17c2\u179b\u17a0\u17d2\u179f\u17ca\u17b7\u1780",
-      "\u1787\u1793\u1787\u17b6\u178f\u17b7\u1785\u17b7\u1793",
-      "\u1787\u1793\u1787\u17b6\u178f\u17b7\u17a2\u17b6\u17a1\u17ba\u1798\u17c9\u1784\u17cb"
+      "ជនជាតិបែលហ្ស៊ិក",
+      "ជនជាតិចិន",
+      "ជនជាតិអាឡឺម៉ង់"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e0\u17e1",
-    "question": "\u178f\u17be AES \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "នៅឆ្នាំ ២០០១",
+    "question": "តើ AES ត្រូវបានបង្កើតឡើងនៅពេលណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e7\u17e7",
-      "\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e9",
-      "\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e1\u17e0"
+      "នៅឆ្នាំ ១៩៧៧",
+      "នៅឆ្នាំ ១៩៩៩",
+      "នៅឆ្នាំ ២០១០"
     ]
   },
   {
     "answer": "Rijndael",
-    "question": "\u178f\u17be AES \u1787\u17b6\u1780\u17c6\u178e\u17c2\u1798\u17bd\u1799\u179a\u1794\u179f\u17cb\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ AES ជាកំណែមួយរបស់អ្វី?",
     "wrong_answers": [
       "DES",
       "RSA",
@@ -27,35 +27,35 @@
     ]
   },
   {
-    "answer": "Joan Daemen \u1793\u17b7\u1784 Vincent Rijmen",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u1784\u17d2\u1780\u17be\u178f Rijndael?",
+    "answer": "Joan Daemen និង Vincent Rijmen",
+    "question": "តើអ្នកណាជាអ្នកបង្កើត Rijndael?",
     "wrong_answers": [
-      "\u17a2\u17d2\u1793\u1780\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u1780\u17bb\u17c6\u1796\u17d2\u1799\u17bc\u1791\u17d0\u179a\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u17b6\u17c6\u1784",
-      "\u17a2\u17d2\u1793\u1780\u1794\u1785\u17d2\u1785\u17c1\u1780\u179c\u17b7\u1791\u17d2\u1799\u17b6\u1780\u17bb\u17c6\u1796\u17d2\u1799\u17bc\u1791\u17d0\u179a\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u17b6\u17c6\u1784",
-      "\u17a2\u17d2\u1793\u1780\u17a2\u1797\u17b7\u179c\u178c\u17d2\u178d\u1793\u17cd\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u17b6\u17c6\u1784"
+      "អ្នកវិទ្យាសាស្ត្រកុំព្យូទ័រអាមេរិកាំង",
+      "អ្នកបច្ចេកវិទ្យាកុំព្យូទ័រអាមេរិកាំង",
+      "អ្នកអភិវឌ្ឍន៍កម្មវិធីអាមេរិកាំង"
     ]
   },
   {
-    "answer": "\u17e1\u17e2\u17e8 \u1794\u17ca\u17b8\u178f",
-    "question": "\u178f\u17be\u1791\u17c6\u17a0\u17c6\u1794\u17d2\u179b\u17bb\u1780\u179a\u1794\u179f\u17cb AES \u1798\u17b6\u1793\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793?",
+    "answer": "១២៨ ប៊ីត",
+    "question": "តើទំហំប្លុករបស់ AES មានប៉ុន្មាន?",
     "wrong_answers": [
-      "\u17e6\u17e4 \u1794\u17ca\u17b8\u178f",
-      "\u17e2\u17e5\u17e6 \u1794\u17ca\u17b8\u178f",
-      "\u17e5\u17e1\u17e2 \u1794\u17ca\u17b8\u178f"
+      "៦៤ ប៊ីត",
+      "២៥៦ ប៊ីត",
+      "៥១២ ប៊ីត"
     ]
   },
   {
-    "answer": "\u17e1\u17e2\u17e8, \u17e1\u17e9\u17e2, \u1793\u17b7\u1784 \u17e2\u17e5\u17e6 \u1794\u17ca\u17b8\u178f",
-    "question": "\u178f\u17be\u1791\u17c6\u17a0\u17c6\u1782\u1793\u17d2\u179b\u17b9\u17c7\u179a\u1794\u179f\u17cb AES \u1798\u17b6\u1793\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793?",
+    "answer": "១២៨, ១៩២, និង ២៥៦ ប៊ីត",
+    "question": "តើទំហំគន្លឹះរបស់ AES មានប៉ុន្មាន?",
     "wrong_answers": [
-      "\u17e6\u17e4 \u1794\u17ca\u17b8\u178f",
-      "\u17e1\u17e2\u17e8 \u1793\u17b7\u1784 \u17e2\u17e5\u17e6 \u1794\u17ca\u17b8\u178f",
-      "\u17e1\u17e2\u17e8 \u1793\u17b7\u1784 \u17e1\u17e9\u17e2 \u1794\u17ca\u17b8\u178f"
+      "៦៤ ប៊ីត",
+      "១២៨ និង ២៥៦ ប៊ីត",
+      "១២៨ និង ១៩២ ប៊ីត"
     ]
   },
   {
     "answer": "NIST",
-    "question": "\u178f\u17be\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f AES \u1787\u17b6\u179f\u17d2\u178f\u1784\u17cb\u178a\u17b6?",
+    "question": "តើអង្គការណាដែលបានបង្កើត AES ជាស្តង់ដា?",
     "wrong_answers": [
       "NSA",
       "ISO",
@@ -64,7 +64,7 @@
   },
   {
     "answer": "DES",
-    "question": "\u178f\u17be AES \u1794\u17b6\u1793\u1787\u17c6\u1793\u17bd\u179f\u179f\u17d2\u178f\u1784\u17cb\u178a\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ AES បានជំនួសស្តង់ដាអ្វី?",
     "wrong_answers": [
       "RSA",
       "Triple DES",
@@ -72,17 +72,17 @@
     ]
   },
   {
-    "answer": "\u179f\u17ca\u17b8\u1798\u17c1\u1791\u17d2\u179a\u17b8",
-    "question": "\u178f\u17be AES \u1787\u17b6\u17a2\u17b6\u179b\u17cb\u17a0\u17d2\u1782\u17bc\u179a\u17b8\u178f\u1798\u17cd\u1794\u17d2\u179a\u1797\u17c1\u1791\u178e\u17b6?",
+    "answer": "ស៊ីមេទ្រី",
+    "question": "តើ AES ជាអាល់ហ្គូរីតម៍ប្រភេទណា?",
     "wrong_answers": [
-      "\u17a2\u17b6\u179f\u17ca\u17b8\u1798\u17c1\u1791\u17d2\u179a\u17b8",
-      "\u1794\u17be\u1780\u1785\u17c6\u17a0",
-      "\u17af\u1780\u1787\u1793"
+      "អាស៊ីមេទ្រី",
+      "បើកចំហ",
+      "ឯកជន"
     ]
   },
   {
     "answer": "FIPS PUB 197",
-    "question": "\u178f\u17be AES \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u1787\u17b6\u179f\u17d2\u178f\u1784\u17cb\u178a\u17b6\u179a\u179f\u17a0\u179a\u178a\u17d2\u178b\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u1793\u17c5\u1780\u17d2\u179a\u17c4\u1798\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ AES ត្រូវបានបង្កើតជាស្តង់ដារសហរដ្ឋអាមេរិកនៅក្រោមឈ្មោះអ្វី?",
     "wrong_answers": [
       "ISO/IEC 18033-3",
       "Rijndael",
@@ -90,17 +90,17 @@
     ]
   },
   {
-    "answer": "\u17e5 \u1786\u17d2\u1793\u17b6\u17c6",
-    "question": "\u178f\u17be\u178a\u17c6\u178e\u17be\u179a\u1780\u17b6\u179a\u1794\u1784\u17d2\u1780\u17be\u178f\u179f\u17d2\u178f\u1784\u17cb\u178a\u17b6\u179a AES \u1785\u17c6\u178e\u17b6\u1799\u1796\u17c1\u179b\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793?",
+    "answer": "៥ ឆ្នាំ",
+    "question": "តើដំណើរការបង្កើតស្តង់ដារ AES ចំណាយពេលប៉ុន្មាន?",
     "wrong_answers": [
-      "\u17e1 \u1786\u17d2\u1793\u17b6\u17c6",
-      "\u17e1\u17e0 \u1786\u17d2\u1793\u17b6\u17c6",
-      "\u17e2\u17e0 \u1786\u17d2\u1793\u17b6\u17c6"
+      "១ ឆ្នាំ",
+      "១០ ឆ្នាំ",
+      "២០ ឆ្នាំ"
     ]
   },
   {
     "answer": "ISO/IEC 18033-3",
-    "question": "\u178f\u17be AES \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179a\u17bd\u1798\u1794\u1789\u17d2\u1785\u17bc\u179b\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179f\u17d2\u178f\u1784\u17cb\u178a\u17b6\u179a\u17a2\u1793\u17d2\u178f\u179a\u1787\u17b6\u178f\u17b7\u178e\u17b6?",
+    "question": "តើ AES ត្រូវបានរួមបញ្ចូលនៅក្នុងស្តង់ដារអន្តរជាតិណា?",
     "wrong_answers": [
       "FIPS PUB 197",
       "Rijndael",
@@ -108,17 +108,17 @@
     ]
   },
   {
-    "answer": "\u17e2\u17e6 \u17a7\u179f\u1797\u17b6 \u17e2\u17e0\u17e0\u17e2",
-    "question": "\u178f\u17be AES \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u179f\u17d2\u178f\u1784\u17cb\u178a\u17b6\u179a\u179a\u1794\u179f\u17cb\u179a\u178a\u17d2\u178b\u17b6\u1797\u17b7\u1794\u17b6\u179b\u179f\u17a0\u179a\u178a\u17d2\u178b\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "២៦ ឧសភា ២០០២",
+    "question": "តើ AES បានក្លាយជាស្តង់ដាររបស់រដ្ឋាភិបាលសហរដ្ឋអាមេរិកនៅពេលណា?",
     "wrong_answers": [
-      "\u17e2\u17e6 \u179c\u17b7\u1785\u17d2\u1786\u17b7\u1780\u17b6 \u17e2\u17e0\u17e0\u17e1",
-      "\u17e1 \u1798\u1780\u179a\u17b6 \u17e2\u17e0\u17e0\u17e2",
-      "\u17e1 \u17a7\u179f\u1797\u17b6 \u17e2\u17e0\u17e0\u17e2"
+      "២៦ វិច្ឆិកា ២០០១",
+      "១ មករា ២០០២",
+      "១ ឧសភា ២០០២"
     ]
   },
   {
     "answer": "NSA",
-    "question": "\u178f\u17be\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u17a2\u1793\u17bb\u1798\u17d0\u178f AES \u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179f\u1798\u17d2\u1784\u17b6\u178f\u17cb\u1781\u17d2\u1796\u179f\u17cb?",
+    "question": "តើអង្គការណាដែលបានអនុម័ត AES សម្រាប់ព័ត៌មានសម្ងាត់ខ្ពស់?",
     "wrong_answers": [
       "NIST",
       "ISO",
@@ -126,17 +126,17 @@
     ]
   },
   {
-    "answer": "\u1794\u178e\u17d2\u178f\u17b6\u1789\u1787\u17c6\u1793\u17bd\u179f-\u1780\u17b6\u179a\u1795\u17d2\u179b\u17b6\u179f\u17cb\u1794\u17d2\u178f\u17bc\u179a",
-    "question": "\u178f\u17be AES \u1798\u17b6\u1793\u1798\u17bc\u179b\u178a\u17d2\u178b\u17b6\u1793\u179b\u17be\u1782\u17c4\u179b\u1780\u17b6\u179a\u178e\u17cd\u179a\u1785\u1793\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "បណ្តាញជំនួស-ការផ្លាស់ប្តូរ",
+    "question": "តើ AES មានមូលដ្ឋានលើគោលការណ៍រចនាអ្វី?",
     "wrong_answers": [
-      "\u1794\u178e\u17d2\u178f\u17b6\u1789 Feistel",
-      "\u1794\u178e\u17d2\u178f\u17b6\u1789 RSA",
-      "\u1794\u178e\u17d2\u178f\u17b6\u1789 Blowfish"
+      "បណ្តាញ Feistel",
+      "បណ្តាញ RSA",
+      "បណ្តាញ Blowfish"
     ]
   },
   {
     "answer": "DES",
-    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u17a0\u17d2\u1782\u17bc\u179a\u17b8\u178f\u1798\u17cd\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b AES \u1798\u17b7\u1793\u1794\u17d2\u179a\u17be?",
+    "question": "តើអាល់ហ្គូរីតម៍អ្វីដែល AES មិនប្រើ?",
     "wrong_answers": [
       "Rijndael",
       "RSA",
@@ -144,89 +144,89 @@
     ]
   },
   {
-    "answer": "\u17e1\u17e2\u17e8",
-    "question": "\u178f\u17be\u1791\u17c6\u17a0\u17c6\u1794\u17d2\u179b\u17bb\u1780\u179a\u1794\u179f\u17cb AES \u1798\u17b6\u1793\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1794\u17ca\u17b8\u178f?",
+    "answer": "១២៨",
+    "question": "តើទំហំប្លុករបស់ AES មានប៉ុន្មានប៊ីត?",
     "wrong_answers": [
-      "\u17e6\u17e4",
-      "\u17e2\u17e5\u17e6",
-      "\u17e5\u17e1\u17e2"
+      "៦៤",
+      "២៥៦",
+      "៥១២"
     ]
   },
   {
-    "answer": "\u17e1\u17e2\u17e8, \u17e1\u17e9\u17e2, \u1793\u17b7\u1784 \u17e2\u17e5\u17e6",
-    "question": "\u178f\u17be AES \u1798\u17b6\u1793\u1791\u17c6\u17a0\u17c6\u1782\u1793\u17d2\u179b\u17b9\u17c7\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793?",
+    "answer": "១២៨, ១៩២, និង ២៥៦",
+    "question": "តើ AES មានទំហំគន្លឹះប៉ុន្មាន?",
     "wrong_answers": [
-      "\u17e6\u17e4, \u17e1\u17e2\u17e8, \u1793\u17b7\u1784 \u17e2\u17e5\u17e6",
-      "\u17e1\u17e2\u17e8 \u1793\u17b7\u1784 \u17e2\u17e5\u17e6",
-      "\u17e1\u17e2\u17e8 \u1793\u17b7\u1784 \u17e1\u17e9\u17e2"
+      "៦៤, ១២៨, និង ២៥៦",
+      "១២៨ និង ២៥៦",
+      "១២៨ និង ១៩២"
     ]
   },
   {
-    "answer": "\u17e1\u17e0 \u1787\u17bb\u17c6",
-    "question": "\u178f\u17be AES \u1798\u17b6\u1793\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1787\u17bb\u17c6\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e1\u17e2\u17e8 \u1794\u17ca\u17b8\u178f?",
+    "answer": "១០ ជុំ",
+    "question": "តើ AES មានប៉ុន្មានជុំសម្រាប់គន្លឹះ ១២៨ ប៊ីត?",
     "wrong_answers": [
-      "\u17e8 \u1787\u17bb\u17c6",
-      "\u17e1\u17e2 \u1787\u17bb\u17c6",
-      "\u17e1\u17e4 \u1787\u17bb\u17c6"
+      "៨ ជុំ",
+      "១២ ជុំ",
+      "១៤ ជុំ"
     ]
   },
   {
-    "answer": "\u17e1\u17e2 \u1787\u17bb\u17c6",
-    "question": "\u178f\u17be AES \u1798\u17b6\u1793\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1787\u17bb\u17c6\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e1\u17e9\u17e2 \u1794\u17ca\u17b8\u178f?",
+    "answer": "១២ ជុំ",
+    "question": "តើ AES មានប៉ុន្មានជុំសម្រាប់គន្លឹះ ១៩២ ប៊ីត?",
     "wrong_answers": [
-      "\u17e1\u17e0 \u1787\u17bb\u17c6",
-      "\u17e8 \u1787\u17bb\u17c6",
-      "\u17e1\u17e4 \u1787\u17bb\u17c6"
+      "១០ ជុំ",
+      "៨ ជុំ",
+      "១៤ ជុំ"
     ]
   },
   {
-    "answer": "\u17e1\u17e4 \u1787\u17bb\u17c6",
-    "question": "\u178f\u17be AES \u1798\u17b6\u1793\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1787\u17bb\u17c6\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e2\u17e5\u17e6 \u1794\u17ca\u17b8\u178f?",
+    "answer": "១៤ ជុំ",
+    "question": "តើ AES មានប៉ុន្មានជុំសម្រាប់គន្លឹះ ២៥៦ ប៊ីត?",
     "wrong_answers": [
-      "\u17e1\u17e0 \u1787\u17bb\u17c6",
-      "\u17e1\u17e2 \u1787\u17bb\u17c6",
-      "\u17e8 \u1787\u17bb\u17c6"
+      "១០ ជុំ",
+      "១២ ជុំ",
+      "៨ ជុំ"
     ]
   },
   {
-    "answer": "\u1794\u1793\u17d2\u1790\u17c2\u1798\u1782\u1793\u17d2\u179b\u17b9\u17c7\u1787\u17bb\u17c6",
-    "question": "\u178f\u17be\u1787\u17c6\u17a0\u17b6\u1793\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c3 AES \u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "បន្ថែមគន្លឹះជុំ",
+    "question": "តើជំហានដំបូងនៃ AES គឺជាអ្វី?",
     "wrong_answers": [
-      "\u1787\u17c6\u1793\u17bd\u179f",
-      "\u1795\u17d2\u179b\u17b6\u179f\u17cb\u1794\u17d2\u178f\u17bc\u179a",
-      "\u179b\u17b6\u1799"
+      "ជំនួស",
+      "ផ្លាស់ប្តូរ",
+      "លាយ"
     ]
   },
   {
-    "answer": "\u1787\u17c6\u1793\u17bd\u179f",
-    "question": "\u178f\u17be\u1787\u17c6\u17a0\u17b6\u1793\u1798\u17b7\u1793\u179b\u17b8\u1793\u17c1\u17a2\u17ca\u17c2\u179a\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 AES \u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ជំនួស",
+    "question": "តើជំហានមិនលីនេអ៊ែរនៅក្នុង AES គឺជាអ្វី?",
     "wrong_answers": [
-      "\u1794\u1793\u17d2\u1790\u17c2\u1798\u1782\u1793\u17d2\u179b\u17b9\u17c7\u1787\u17bb\u17c6",
-      "\u1795\u17d2\u179b\u17b6\u179f\u17cb\u1794\u17d2\u178f\u17bc\u179a",
-      "\u179b\u17b6\u1799"
+      "បន្ថែមគន្លឹះជុំ",
+      "ផ្លាស់ប្តូរ",
+      "លាយ"
     ]
   },
   {
-    "answer": "\u1795\u17d2\u179b\u17b6\u179f\u17cb\u1794\u17d2\u178f\u17bc\u179a",
-    "question": "\u178f\u17be\u1787\u17c6\u17a0\u17b6\u1793\u178a\u17c2\u179b\u1795\u17d2\u179b\u17b6\u179f\u17cb\u1794\u17d2\u178f\u17bc\u179a\u1787\u17bd\u179a\u1793\u17c3\u179f\u17d2\u1790\u17b6\u1793\u1797\u17b6\u1796\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 AES \u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ផ្លាស់ប្តូរ",
+    "question": "តើជំហានដែលផ្លាស់ប្តូរជួរនៃស្ថានភាពនៅក្នុង AES គឺជាអ្វី?",
     "wrong_answers": [
-      "\u1794\u1793\u17d2\u1790\u17c2\u1798\u1782\u1793\u17d2\u179b\u17b9\u17c7\u1787\u17bb\u17c6",
-      "\u1787\u17c6\u1793\u17bd\u179f",
-      "\u179b\u17b6\u1799"
+      "បន្ថែមគន្លឹះជុំ",
+      "ជំនួស",
+      "លាយ"
     ]
   },
   {
-    "answer": "\u179b\u17b6\u1799",
-    "question": "\u178f\u17be\u1787\u17c6\u17a0\u17b6\u1793\u178a\u17c2\u179b\u179b\u17b6\u1799\u1794\u1789\u17d2\u1785\u17bc\u179b\u1787\u17bd\u179a\u1788\u179a\u1793\u17c3\u179f\u17d2\u1790\u17b6\u1793\u1797\u17b6\u1796\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 AES \u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "លាយ",
+    "question": "តើជំហានដែលលាយបញ្ចូលជួរឈរនៃស្ថានភាពនៅក្នុង AES គឺជាអ្វី?",
     "wrong_answers": [
-      "\u1794\u1793\u17d2\u1790\u17c2\u1798\u1782\u1793\u17d2\u179b\u17b9\u17c7\u1787\u17bb\u17c6",
-      "\u1787\u17c6\u1793\u17bd\u179f",
-      "\u1795\u17d2\u179b\u17b6\u179f\u17cb\u1794\u17d2\u178f\u17bc\u179a"
+      "បន្ថែមគន្លឹះជុំ",
+      "ជំនួស",
+      "ផ្លាស់ប្តូរ"
     ]
   },
   {
     "answer": "S-box",
-    "question": "\u178f\u17be\u17a7\u1794\u1780\u179a\u178e\u17cd\u178a\u17c2\u179b\u1794\u17d2\u179a\u17be\u178a\u17be\u1798\u17d2\u1794\u17b8\u1787\u17c6\u1793\u17bd\u179f\u1794\u17c3\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 AES \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u17a0\u17c5\u1790\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើឧបករណ៍ដែលប្រើដើម្បីជំនួសបៃនៅក្នុង AES ត្រូវបានគេហៅថាអ្វី?",
     "wrong_answers": [
       "Rijndael",
       "DES",
@@ -235,7 +235,7 @@
   },
   {
     "answer": "GF(2^8)",
-    "question": "\u178f\u17be AES \u1794\u17d2\u179a\u17be\u179c\u17b6\u179b\u1780\u17c6\u178e\u178f\u17cb\u178f\u17d2\u179a\u17b9\u1798\u178f\u17d2\u179a\u17bc\u179c\u178e\u17b6?",
+    "question": "តើ AES ប្រើវាលកំណត់ត្រឹមត្រូវណា?",
     "wrong_answers": [
       "GF(2^16)",
       "GF(2^32)",
@@ -243,30 +243,30 @@
     ]
   },
   {
-    "answer": "\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e1\u17e2\u17e8 \u1794\u17ca\u17b8\u178f",
-    "question": "\u178f\u17be\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e1\u17e2\u17e8 \u1794\u17ca\u17b8\u178f\u1793\u17c3 AES \u1794\u17d2\u179a\u17be\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1787\u17bb\u17c6?",
+    "answer": "គន្លឹះ ១២៨ ប៊ីត",
+    "question": "តើគន្លឹះ ១២៨ ប៊ីតនៃ AES ប្រើប៉ុន្មានជុំ?",
     "wrong_answers": [
-      "\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e1\u17e9\u17e2 \u1794\u17ca\u17b8\u178f",
-      "\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e2\u17e5\u17e6 \u1794\u17ca\u17b8\u178f",
-      "\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e5\u17e1\u17e2 \u1794\u17ca\u17b8\u178f"
+      "គន្លឹះ ១៩២ ប៊ីត",
+      "គន្លឹះ ២៥៦ ប៊ីត",
+      "គន្លឹះ ៥១២ ប៊ីត"
     ]
   },
   {
-    "answer": "\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e1\u17e9\u17e2 \u1794\u17ca\u17b8\u178f",
-    "question": "\u178f\u17be\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e1\u17e9\u17e2 \u1794\u17ca\u17b8\u178f\u1793\u17c3 AES \u1794\u17d2\u179a\u17be\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1787\u17bb\u17c6?",
+    "answer": "គន្លឹះ ១៩២ ប៊ីត",
+    "question": "តើគន្លឹះ ១៩២ ប៊ីតនៃ AES ប្រើប៉ុន្មានជុំ?",
     "wrong_answers": [
-      "\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e1\u17e2\u17e8 \u1794\u17ca\u17b8\u178f",
-      "\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e2\u17e5\u17e6 \u1794\u17ca\u17b8\u178f",
-      "\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e5\u17e1\u17e2 \u1794\u17ca\u17b8\u178f"
+      "គន្លឹះ ១២៨ ប៊ីត",
+      "គន្លឹះ ២៥៦ ប៊ីត",
+      "គន្លឹះ ៥១២ ប៊ីត"
     ]
   },
   {
-    "answer": "\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e2\u17e5\u17e6 \u1794\u17ca\u17b8\u178f",
-    "question": "\u178f\u17be\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e2\u17e5\u17e6 \u1794\u17ca\u17b8\u178f\u1793\u17c3 AES \u1794\u17d2\u179a\u17be\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1787\u17bb\u17c6?",
+    "answer": "គន្លឹះ ២៥៦ ប៊ីត",
+    "question": "តើគន្លឹះ ២៥៦ ប៊ីតនៃ AES ប្រើប៉ុន្មានជុំ?",
     "wrong_answers": [
-      "\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e1\u17e2\u17e8 \u1794\u17ca\u17b8\u178f",
-      "\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e1\u17e9\u17e2 \u1794\u17ca\u17b8\u178f",
-      "\u1782\u1793\u17d2\u179b\u17b9\u17c7 \u17e5\u17e1\u17e2 \u1794\u17ca\u17b8\u178f"
+      "គន្លឹះ ១២៨ ប៊ីត",
+      "គន្លឹះ ១៩២ ប៊ីត",
+      "គន្លឹះ ៥១២ ប៊ីត"
     ]
   }
 ]

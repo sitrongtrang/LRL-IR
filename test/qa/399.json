@@ -1,7 +1,7 @@
 [
   {
     "answer": "PlayNET",
-    "question": "\u178f\u17be AOL \u1798\u17b6\u1793\u178a\u17be\u1798\u1780\u17c6\u178e\u17be\u178f\u1798\u1780\u1796\u17b8\u179f\u17c1\u179c\u17b6\u17a2\u1793\u17a1\u17b6\u1789\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ AOL មានដើមកំណើតមកពីសេវាអនឡាញអ្វី?",
     "wrong_answers": [
       "Quantum Link",
       "CompuServe",
@@ -9,17 +9,17 @@
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e8\u17e5",
-    "question": "\u178f\u17be Quantum Link \u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178a\u17be\u1798\u17a2\u1793\u17a1\u17b6\u1789\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "នៅក្នុងឆ្នាំ ១៩៨៥",
+    "question": "តើ Quantum Link បានចាប់ផ្ដើមអនឡាញនៅពេលណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e8\u17e3",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e8\u17e9",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e5"
+      "នៅក្នុងឆ្នាំ ១៩៨៣",
+      "នៅក្នុងឆ្នាំ ១៩៨៩",
+      "នៅក្នុងឆ្នាំ ១៩៩៥"
     ]
   },
   {
     "answer": "America Online",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u179f\u17c1\u179c\u17b6\u17a2\u1793\u17a1\u17b6\u1789\u1792\u17c6\u1787\u17b6\u1784\u1782\u17c1?",
+    "question": "តើអ្នកណាបានក្លាយជាសេវាអនឡាញធំជាងគេ?",
     "wrong_answers": [
       "CompuServe",
       "The Source",
@@ -27,17 +27,17 @@
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e5",
-    "question": "\u178f\u17be AOL \u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u179f\u1780\u1798\u17d2\u1798\u1794\u17d2\u179a\u1798\u17b6\u178e\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e5?",
+    "answer": "នៅក្នុងឆ្នាំ ១៩៩៥",
+    "question": "តើ AOL មានអ្នកប្រើប្រាស់សកម្មប្រមាណប៉ុន្មាននៅក្នុងឆ្នាំ ១៩៩៥?",
     "wrong_answers": [
-      "\u1798\u17bd\u1799\u179b\u17b6\u1793",
-      "\u1794\u17d2\u179a\u17b6\u17c6\u179b\u17b6\u1793",
-      "\u178a\u1794\u17cb\u179b\u17b6\u1793"
+      "មួយលាន",
+      "ប្រាំលាន",
+      "ដប់លាន"
     ]
   },
   {
     "answer": "Netscape",
-    "question": "\u178f\u17be AOL \u1794\u17b6\u1793\u1791\u17b7\u1789\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u17a2\u17d2\u179c\u17b8\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e8?",
+    "question": "តើ AOL បានទិញក្រុមហ៊ុនអ្វីក្នុងឆ្នាំ ១៩៩៨?",
     "wrong_answers": [
       "Time Warner",
       "Yahoo",
@@ -46,7 +46,7 @@
   },
   {
     "answer": "Time Warner",
-    "question": "\u178f\u17be AOL \u1794\u17b6\u1793\u1791\u17b7\u1789\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u17a2\u17d2\u179c\u17b8\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e0\u17e1?",
+    "question": "តើ AOL បានទិញក្រុមហ៊ុនអ្វីក្នុងឆ្នាំ ២០០១?",
     "wrong_answers": [
       "Netscape",
       "Yahoo",
@@ -55,7 +55,7 @@
   },
   {
     "answer": "Tim Armstrong",
-    "question": "\u178f\u17be\u1793\u179a\u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u178f\u17c2\u1784\u178f\u17b6\u17c6\u1784\u1787\u17b6\u1793\u17b6\u1799\u1780\u1794\u17d2\u179a\u178f\u17b7\u1794\u178f\u17d2\u178f\u17b7\u1790\u17d2\u1798\u17b8\u1793\u17c3 AOL \u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e0\u17e9?",
+    "question": "តើនរណាត្រូវបានតែងតាំងជានាយកប្រតិបត្តិថ្មីនៃ AOL ក្នុងឆ្នាំ ២០០៩?",
     "wrong_answers": [
       "Steve Case",
       "Jim Kimsey",
@@ -64,7 +64,7 @@
   },
   {
     "answer": "Verizon Communications",
-    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u178e\u17b6\u1794\u17b6\u1793\u1791\u17b7\u1789 AOL \u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e1\u17e5?",
+    "question": "តើក្រុមហ៊ុនណាបានទិញ AOL ក្នុងឆ្នាំ ២០១៥?",
     "wrong_answers": [
       "Yahoo",
       "Time Warner",
@@ -73,7 +73,7 @@
   },
   {
     "answer": "Apollo Global Management",
-    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u178e\u17b6\u1794\u17b6\u1793\u1791\u17b7\u1789 Yahoo \u1793\u17b7\u1784 AOL \u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e2\u17e1?",
+    "question": "តើក្រុមហ៊ុនណាបានទិញ Yahoo និង AOL ក្នុងឆ្នាំ ២០២១?",
     "wrong_answers": [
       "Verizon Communications",
       "Time Warner",
@@ -82,7 +82,7 @@
   },
   {
     "answer": "Yahoo! Inc.",
-    "question": "\u178f\u17be AOL \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u1795\u17d2\u1793\u17c2\u1780\u1798\u17bd\u1799\u1793\u17c3\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u17a2\u17d2\u179c\u17b8\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e2\u17e1?",
+    "question": "តើ AOL បានក្លាយជាផ្នែកមួយនៃក្រុមហ៊ុនអ្វីក្នុងឆ្នាំ ២០២១?",
     "wrong_answers": [
       "Verizon Communications",
       "Time Warner",
@@ -91,7 +91,7 @@
   },
   {
     "answer": "Control Video Corporation (CVC)",
-    "question": "\u178f\u17be AOL \u1785\u17b6\u1794\u17cb\u1795\u17d2\u178a\u17be\u1798\u178a\u17c6\u1794\u17bc\u1784\u1787\u17b6\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ AOL ចាប់ផ្ដើមដំបូងជាក្រុមហ៊ុនអ្វី?",
     "wrong_answers": [
       "Quantum Computer Services",
       "PlayNet, Inc.",
@@ -100,7 +100,7 @@
   },
   {
     "answer": "GameLine",
-    "question": "\u178f\u17be CVC \u1794\u17b6\u1793\u1795\u17d2\u178a\u179b\u17cb\u1787\u17bc\u1793\u179f\u17c1\u179c\u17b6\u17a2\u1793\u17a1\u17b6\u1789\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ CVC បានផ្ដល់ជូនសេវាអនឡាញអ្វី?",
     "wrong_answers": [
       "Quantum Link",
       "PlayNET",
@@ -109,7 +109,7 @@
   },
   {
     "answer": "Atari 2600",
-    "question": "\u178f\u17be GameLine \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u17a1\u17be\u1784\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a7\u1794\u1780\u179a\u178e\u17cd\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ GameLine ត្រូវបានបង្កើតឡើងសម្រាប់ឧបករណ៍អ្វី?",
     "wrong_answers": [
       "Commodore 64",
       "Apple II",
@@ -118,7 +118,7 @@
   },
   {
     "answer": "Warner Bros.",
-    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u178e\u17b6\u1794\u17b6\u1793\u1794\u178a\u17b7\u179f\u17c1\u1792\u1782\u17c6\u1793\u17b7\u178f\u179a\u1794\u179f\u17cb von Meister \u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u1791\u17b7\u1789\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u178f\u17b6\u1798\u178f\u1798\u17d2\u179a\u17bc\u179c\u1780\u17b6\u179a?",
+    "question": "តើក្រុមហ៊ុនណាបានបដិសេធគំនិតរបស់ von Meister ក្នុងការទិញតន្ត្រីតាមតម្រូវការ?",
     "wrong_answers": [
       "Control Video",
       "Quantum Computer Services",
@@ -127,7 +127,7 @@
   },
   {
     "answer": "Steve Case",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1787\u17bd\u179b\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u17d2\u179a\u17b9\u1780\u17d2\u179f\u17b6\u1791\u17b8\u1795\u17d2\u179f\u17b6\u179a\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb Control Video?",
+    "question": "តើអ្នកណាត្រូវបានជួលជាអ្នកប្រឹក្សាទីផ្សារសម្រាប់ Control Video?",
     "wrong_answers": [
       "Jim Kimsey",
       "William von Meister",
@@ -136,7 +136,7 @@
   },
   {
     "answer": "Jim Kimsey",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u17d2\u179a\u17b9\u1780\u17d2\u179f\u17b6\u1795\u179b\u17b7\u178f\u1780\u1798\u17d2\u1798\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb Control Video?",
+    "question": "តើអ្នកណាបានក្លាយជាអ្នកប្រឹក្សាផលិតកម្មសម្រាប់ Control Video?",
     "wrong_answers": [
       "Steve Case",
       "William von Meister",
@@ -145,7 +145,7 @@
   },
   {
     "answer": "Quantum Computer Services",
-    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u17a1\u17be\u1784\u178a\u17c4\u1799 Kimsey \u1796\u17b8\u179f\u17c6\u178e\u179b\u17cb\u1793\u17c3 Control Video?",
+    "question": "តើក្រុមហ៊ុនណាត្រូវបានបង្កើតឡើងដោយ Kimsey ពីសំណល់នៃ Control Video?",
     "wrong_answers": [
       "PlayNet, Inc.",
       "Control Video Corporation",
@@ -154,7 +154,7 @@
   },
   {
     "answer": "Marc Seriff",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1793\u17b6\u1799\u1780\u1794\u1785\u17d2\u1785\u17c1\u1780\u179c\u17b7\u1791\u17d2\u1799\u17b6\u1793\u17c3 Quantum Computer Services?",
+    "question": "តើអ្នកណាជានាយកបច្ចេកវិទ្យានៃ Quantum Computer Services?",
     "wrong_answers": [
       "Jim Kimsey",
       "Steve Case",
@@ -163,7 +163,7 @@
   },
   {
     "answer": "PlayNet, Inc.",
-    "question": "\u178f\u17be Quantum Link \u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u17a2\u17b6\u1787\u17d2\u1789\u17b6\u1794\u17d0\u178e\u17d2\u178e\u179f\u17bc\u17a0\u17d2\u179c\u179c\u17c2\u179a\u1796\u17b8\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Quantum Link បានទទួលអាជ្ញាប័ណ្ណសូហ្វវែរពីក្រុមហ៊ុនអ្វី?",
     "wrong_answers": [
       "Control Video Corporation",
       "GameLine",
@@ -171,8 +171,8 @@
     ]
   },
   {
-    "answer": "Commodore 64 \u1793\u17b7\u1784 128",
-    "question": "\u178f\u17be Quantum Link \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u17a1\u17be\u1784\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1780\u17bb\u17c6\u1796\u17d2\u1799\u17bc\u1791\u17d0\u179a\u17a2\u17d2\u179c\u17b8?",
+    "answer": "Commodore 64 និង 128",
+    "question": "តើ Quantum Link ត្រូវបានបង្កើតឡើងសម្រាប់កុំព្យូទ័រអ្វី?",
     "wrong_answers": [
       "Atari 2600",
       "IBM PC",
@@ -181,7 +181,7 @@
   },
   {
     "answer": "AppleLink Personal Edition",
-    "question": "\u178f\u17be Quantum \u1793\u17b7\u1784 Apple \u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u179f\u17c1\u179c\u17b6\u17a2\u1793\u17a1\u17b6\u1789\u17a2\u17d2\u179c\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1780\u17bb\u17c6\u1796\u17d2\u1799\u17bc\u1791\u17d0\u179a Apple II \u1793\u17b7\u1784 Macintosh?",
+    "question": "តើ Quantum និង Apple បានបង្កើតសេវាអនឡាញអ្វីសម្រាប់កុំព្យូទ័រ Apple II និង Macintosh?",
     "wrong_answers": [
       "Quantum Link",
       "PC Link",
@@ -190,7 +190,7 @@
   },
   {
     "answer": "PC Link",
-    "question": "\u178f\u17be Quantum \u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u179f\u17c1\u179c\u17b6\u17a2\u1793\u17a1\u17b6\u1789\u17a2\u17d2\u179c\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1780\u17bb\u17c6\u1796\u17d2\u1799\u17bc\u1791\u17d0\u179a IBM?",
+    "question": "តើ Quantum បានបង្កើតសេវាអនឡាញអ្វីសម្រាប់កុំព្យូទ័រ IBM?",
     "wrong_answers": [
       "Quantum Link",
       "AppleLink Personal Edition",

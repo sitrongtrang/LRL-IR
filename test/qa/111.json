@@ -1,63 +1,63 @@
 [
   {
-    "answer": "\u179b\u17c4\u1780 Lyle Rains \u1793\u17b7\u1784\u179b\u17c4\u1780 Ed Logg",
-    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179a\u1785\u1793\u17b6\u17a0\u17d2\u1782\u17c1\u1798 Asteroids?",
+    "answer": "លោក Lyle Rains និងលោក Ed Logg",
+    "question": "អ្នកណាជាអ្នករចនាហ្គេម Asteroids?",
     "wrong_answers": [
-      "\u179b\u17c4\u1780 Howard Delman",
-      "\u17a2\u17d2\u1793\u1780\u1794\u1784\u17d2\u1780\u17be\u178f Atari"
+      "លោក Howard Delman",
+      "អ្នកបង្កើត Atari"
     ]
   },
   {
-    "answer": "\u1781\u17c2\u179c\u17b7\u1785\u17d2\u1786\u17b7\u1780\u17b6 \u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e7\u17e9",
-    "question": "\u178f\u17be\u17a0\u17d2\u1782\u17c1\u1798 Asteroids \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1785\u17c1\u1789\u1795\u17d2\u179f\u17b6\u1799\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ខែវិច្ឆិកា ឆ្នាំ ១៩៧៩",
+    "question": "តើហ្គេម Asteroids ត្រូវបានចេញផ្សាយនៅពេលណា?",
     "wrong_answers": [
-      "\u1781\u17c2\u1798\u17c1\u179f\u17b6 \u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e8\u17e0",
-      "\u1781\u17c2\u1798\u17b7\u1790\u17bb\u1793\u17b6 \u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e7\u17e8"
+      "ខែមេសា ឆ្នាំ ១៩៨០",
+      "ខែមិថុនា ឆ្នាំ ១៩៧៨"
     ]
   },
   {
     "answer": "Atari, Inc.",
-    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1785\u17c1\u1789\u1795\u17d2\u179f\u17b6\u1799\u17a0\u17d2\u1782\u17c1\u1798 Asteroids?",
+    "question": "តើក្រុមហ៊ុនណាដែលបានចេញផ្សាយហ្គេម Asteroids?",
     "wrong_answers": [
       "Nintendo",
       "Sega"
     ]
   },
   {
-    "answer": "\u179b\u17c4\u1780 Howard Delman",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u1794\u1785\u17d2\u1785\u17c1\u1780\u179c\u17b7\u1791\u17d2\u1799\u17b6\u178a\u17c2\u179b\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17d2\u179a\u17be\u1780\u17d2\u1793\u17bb\u1784\u17a0\u17d2\u1782\u17c1\u1798 Asteroids?",
+    "answer": "លោក Howard Delman",
+    "question": "តើអ្នកណាដែលបានបង្កើតបច្ចេកវិទ្យាដែលត្រូវបានប្រើក្នុងហ្គេម Asteroids?",
     "wrong_answers": [
-      "\u179b\u17c4\u1780 Lyle Rains",
-      "\u179b\u17c4\u1780 Ed Logg"
+      "លោក Lyle Rains",
+      "លោក Ed Logg"
     ]
   },
   {
     "answer": "Cosmos",
-    "question": "\u178f\u17be\u17a0\u17d2\u1782\u17c1\u1798\u1798\u17b7\u1793\u1791\u17b6\u1793\u17cb\u1794\u1789\u17d2\u1785\u1794\u17cb\u178a\u17c2\u179b Asteroids \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1795\u17d2\u17a2\u17c2\u1780\u179b\u17be?",
+    "question": "តើហ្គេមមិនទាន់បញ្ចប់ដែល Asteroids ត្រូវបានផ្អែកលើ?",
     "wrong_answers": [
       "Space Invaders",
       "Lunar Lander"
     ]
   },
   {
-    "answer": "Spacewar!, Computer Space, \u1793\u17b7\u1784 Space Invaders",
-    "question": "\u178f\u17be\u17a0\u17d2\u1782\u17c1\u1798\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7\u178a\u17c2\u179b Asteroids \u1794\u17b6\u1793\u1799\u1780\u1782\u17c6\u179a\u17bc\u1796\u17b8?",
+    "answer": "Spacewar!, Computer Space, និង Space Invaders",
+    "question": "តើហ្គេមអ្វីខ្លះដែល Asteroids បានយកគំរូពី?",
     "wrong_answers": [
       "Pac-Man",
       "Donkey Kong"
     ]
   },
   {
-    "answer": "\u1785\u179b\u1793\u17b6\u1793\u17c3\u179c\u178f\u17d2\u1790\u17bb\u1793\u17c5\u179b\u17be\u17a2\u17c1\u1780\u17d2\u179a\u1784\u17cb",
-    "question": "\u178f\u17be Asteroids \u1798\u17b6\u1793\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u1798\u17b6\u1793\u179b\u1780\u17d2\u1781\u178e\u17c8\u1796\u17b7\u179f\u17c1\u179f?",
+    "answer": "ចលនានៃវត្ថុនៅលើអេក្រង់",
+    "question": "តើ Asteroids មានអ្វីដែលមានលក្ខណៈពិសេស?",
     "wrong_answers": [
-      "\u179a\u17bc\u1794\u1797\u17b6\u1796\u1780\u17d2\u179a\u17b6\u17a0\u17d2\u179c\u17b7\u1785\u178a\u17c2\u179b\u1798\u17b6\u1793\u1796\u178e\u17cc",
-      "\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u17a0\u17d2\u1782\u17c1\u1798\u178a\u17c2\u179b\u179f\u17d2\u1798\u17bb\u1782\u179f\u17d2\u1798\u17b6\u1789"
+      "រូបភាពក្រាហ្វិចដែលមានពណ៌",
+      "តន្ត្រីហ្គេមដែលស្មុគស្មាញ"
     ]
   },
   {
     "answer": "47,840",
-    "question": "\u178f\u17be\u1798\u17b6\u1793\u178f\u17bb\u17a0\u17d2\u1782\u17c1\u1798 Asteroids \u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179b\u1780\u17cb\u1785\u17c1\u1789?",
+    "question": "តើមានតុហ្គេម Asteroids ប៉ុន្មានត្រូវបានលក់ចេញ?",
     "wrong_answers": [
       "10,000",
       "100,000"
@@ -65,7 +65,7 @@
   },
   {
     "answer": "Atari VCS",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792\u17a0\u17d2\u1782\u17c1\u1798\u1795\u17d2\u1791\u17c7\u178e\u17b6\u178a\u17c2\u179b Asteroids \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1795\u17d2\u1791\u17c1\u179a?",
+    "question": "តើប្រព័ន្ធហ្គេមផ្ទះណាដែល Asteroids ត្រូវបានផ្ទេរ?",
     "wrong_answers": [
       "Nintendo Entertainment System",
       "Sega Genesis"
@@ -73,66 +73,66 @@
   },
   {
     "answer": "Defender, Gravitar",
-    "question": "\u178f\u17be\u17a0\u17d2\u1782\u17c1\u1798\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7\u178a\u17c2\u179b Asteroids \u1794\u17b6\u1793\u1787\u17c7\u17a5\u1791\u17d2\u1792\u17b7\u1796\u179b\u178a\u179b\u17cb?",
+    "question": "តើហ្គេមអ្វីខ្លះដែល Asteroids បានជះឥទ្ធិពលដល់?",
     "wrong_answers": [
       "Super Mario Bros.",
       "The Legend of Zelda"
     ]
   },
   {
-    "answer": "\u1794\u17c6\u1795\u17d2\u179b\u17b6\u1789\u17a2\u17b6\u1785\u1798\u17cd\u1795\u17d2\u1780\u17b6\u1799 \u1793\u17b7\u1784 saucer",
-    "question": "\u178f\u17be\u1782\u17c4\u179b\u178a\u17c5\u179a\u1794\u179f\u17cb\u17a0\u17d2\u1782\u17c1\u1798 Asteroids \u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "បំផ្លាញអាចម៍ផ្កាយ និង saucer",
+    "question": "តើគោលដៅរបស់ហ្គេម Asteroids គឺជាអ្វី?",
     "wrong_answers": [
-      "\u1794\u17d2\u179a\u1798\u17bc\u179b\u1785\u17c6\u178e\u17bb\u1785",
-      "\u179a\u179f\u17cb\u179a\u17b6\u1793\u1798\u17b6\u1793\u1787\u17b8\u179c\u17b7\u178f\u17b1\u17d2\u1799\u1794\u17b6\u1793\u1799\u17bc\u179a\u178f\u17b6\u1798\u178a\u17c2\u179b\u17a2\u17b6\u1785\u1792\u17d2\u179c\u17be\u1791\u17c5\u1794\u17b6\u1793"
+      "ប្រមូលចំណុច",
+      "រស់រានមានជីវិតឱ្យបានយូរតាមដែលអាចធ្វើទៅបាន"
     ]
   },
   {
-    "answer": "\u178f\u17d2\u179a\u17b8\u1780\u17c4\u178e",
-    "question": "\u178f\u17be\u179a\u17bc\u1794\u179a\u17b6\u1784\u1793\u17c3\u1799\u17b6\u1793\u17a2\u179c\u1780\u17b6\u179f\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 Asteroids \u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ត្រីកោណ",
+    "question": "តើរូបរាងនៃយានអវកាសនៅក្នុង Asteroids គឺជាអ្វី?",
     "wrong_answers": [
-      "\u1785\u178f\u17bb\u1780\u17c4\u178e",
-      "\u179a\u1784\u17d2\u179c\u1784\u17cb"
+      "ចតុកោណ",
+      "រង្វង់"
     ]
   },
   {
-    "answer": "\u1794\u17b6\u1789\u17cb\u1798\u17bb\u1781",
-    "question": "\u178f\u17be\u1799\u17b6\u1793\u17a2\u179c\u1780\u17b6\u179f\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 Asteroids \u17a2\u17b6\u1785\u1794\u17b6\u1789\u17cb\u1791\u17c5\u1791\u17b7\u179f\u178e\u17b6?",
+    "answer": "បាញ់មុខ",
+    "question": "តើយានអវកាសនៅក្នុង Asteroids អាចបាញ់ទៅទិសណា?",
     "wrong_answers": [
-      "\u1794\u17b6\u1789\u17cb\u1781\u17b6\u1784\u1780\u17d2\u179a\u17c4\u1799",
-      "\u1794\u17b6\u1789\u17cb\u1785\u17c6\u17a0\u17c0\u1784"
+      "បាញ់ខាងក្រោយ",
+      "បាញ់ចំហៀង"
     ]
   },
   {
-    "answer": "\u1787\u17c6\u179a\u17bb\u1789\u1791\u17c5\u1798\u17bb\u1781",
-    "question": "\u178f\u17be\u1799\u17b6\u1793\u17a2\u179c\u1780\u17b6\u179f\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 Asteroids \u17a2\u17b6\u1785\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8\u1794\u17b6\u1793?",
+    "answer": "ជំរុញទៅមុខ",
+    "question": "តើយានអវកាសនៅក្នុង Asteroids អាចធ្វើអ្វីបាន?",
     "wrong_answers": [
-      "\u17a0\u17c4\u17c7\u17a0\u17be\u179a\u17a1\u17be\u1784\u179b\u17be",
-      "\u17a0\u17c4\u17c7\u17a0\u17be\u179a\u1785\u17bb\u17c7\u1780\u17d2\u179a\u17c4\u1798"
+      "ហោះហើរឡើងលើ",
+      "ហោះហើរចុះក្រោម"
     ]
   },
   {
     "answer": "hyperspace",
-    "question": "\u178f\u17be\u1799\u17b6\u1793\u17a2\u179c\u1780\u17b6\u179f\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 Asteroids \u17a2\u17b6\u1785\u1794\u17d2\u179a\u17be\u17a2\u17d2\u179c\u17b8\u178a\u17be\u1798\u17d2\u1794\u17b8\u1795\u17d2\u179b\u17b6\u179f\u17cb\u1794\u17d2\u178f\u17bc\u179a\u1791\u17b8\u178f\u17b6\u17c6\u1784?",
+    "question": "តើយានអវកាសនៅក្នុង Asteroids អាចប្រើអ្វីដើម្បីផ្លាស់ប្តូរទីតាំង?",
     "wrong_answers": [
       "teleportation",
       "time travel"
     ]
   },
   {
-    "answer": "\u1792\u17c6 \u1793\u17b7\u1784\u178f\u17bc\u1785",
-    "question": "\u178f\u17be\u1798\u17b6\u1793 saucer \u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1794\u17d2\u179a\u1797\u17c1\u1791\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u17a0\u17d2\u1782\u17c1\u1798 Asteroids?",
+    "answer": "ធំ និងតូច",
+    "question": "តើមាន saucer ប៉ុន្មានប្រភេទនៅក្នុងហ្គេម Asteroids?",
     "wrong_answers": [
-      "\u178f\u17c2\u1798\u17bd\u1799",
-      "\u1794\u17b8"
+      "តែមួយ",
+      "បី"
     ]
   },
   {
-    "answer": "saucer \u1792\u17c6",
-    "question": "\u178f\u17be saucer \u1794\u17d2\u179a\u1797\u17c1\u1791\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1789\u17cb\u1798\u17b7\u1793\u179f\u17bc\u179c\u1785\u17d2\u1794\u17b6\u179f\u17cb?",
+    "answer": "saucer ធំ",
+    "question": "តើ saucer ប្រភេទណាដែលបាញ់មិនសូវច្បាស់?",
     "wrong_answers": [
-      "saucer \u178f\u17bc\u1785",
-      "saucer \u1791\u17b6\u17c6\u1784\u1796\u17b8\u179a"
+      "saucer តូច",
+      "saucer ទាំងពីរ"
     ]
   }
 ]

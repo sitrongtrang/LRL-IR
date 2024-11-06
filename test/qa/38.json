@@ -1,23 +1,23 @@
 [
   {
-    "answer": "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u1793\u17b7\u1784\u1791\u179f\u17d2\u179f\u1793\u179c\u17b7\u1791\u17bc\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f",
-    "question": "\u178f\u17be Aldous Leonard Huxley \u1787\u17b6\u1793\u179a\u178e\u17b6?",
+    "answer": "អ្នកនិពន្ធនិងទស្សនវិទូអង់គ្លេស",
+    "question": "តើ Aldous Leonard Huxley ជានរណា?",
     "wrong_answers": [
-      "\u17a2\u17d2\u1793\u1780\u1793\u1799\u17c4\u1794\u17b6\u1799\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f",
-      "\u17a2\u17d2\u1793\u1780\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f"
+      "អ្នកនយោបាយអង់គ្លេស",
+      "អ្នកវិទ្យាសាស្ត្រអង់គ្លេស"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e5\u17e0 \u1780\u17d2\u1794\u17b6\u179b",
-    "question": "\u178f\u17be Aldous Leonard Huxley \u1794\u17b6\u1793\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1797\u179f\u17c0\u179c\u1797\u17c5\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793?",
+    "answer": "ប្រហែល ៥០ ក្បាល",
+    "question": "តើ Aldous Leonard Huxley បានបោះពុម្ភសៀវភៅប៉ុន្មាន?",
     "wrong_answers": [
-      "\u1785\u17d2\u179a\u17be\u1793\u1787\u17b6\u1784 \u17e1\u17e0\u17e0 \u1780\u17d2\u1794\u17b6\u179b",
-      "\u178f\u17b7\u1785\u1787\u17b6\u1784 \u17e1\u17e0 \u1780\u17d2\u1794\u17b6\u179b"
+      "ច្រើនជាង ១០០ ក្បាល",
+      "តិចជាង ១០ ក្បាល"
     ]
   },
   {
     "answer": "Balliol College, Oxford",
-    "question": "\u178f\u17be Aldous Leonard Huxley \u1794\u17b6\u1793\u1794\u1789\u17d2\u1785\u1794\u17cb\u1780\u17b6\u179a\u179f\u17b7\u1780\u17d2\u179f\u17b6\u1793\u17c5\u17af\u179f\u17b6\u1780\u179b\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179b\u17d0\u1799\u178e\u17b6?",
+    "question": "តើ Aldous Leonard Huxley បានបញ្ចប់ការសិក្សានៅឯសាកលវិទ្យាល័យណា?",
     "wrong_answers": [
       "Cambridge University",
       "University of London"
@@ -25,7 +25,7 @@
   },
   {
     "answer": "Oxford Poetry",
-    "question": "\u178f\u17be Aldous Leonard Huxley \u1794\u17b6\u1793\u1780\u17c2\u179f\u1798\u17d2\u179a\u17bd\u179b\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178f\u17b8\u17a2\u1780\u17d2\u179f\u179a\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Aldous Leonard Huxley បានកែសម្រួលទស្សនាវដ្តីអក្សរសាស្ត្រអ្វី?",
     "wrong_answers": [
       "The New Yorker",
       "Time Magazine"
@@ -33,7 +33,7 @@
   },
   {
     "answer": "Los Angeles",
-    "question": "\u178f\u17be Aldous Leonard Huxley \u179a\u179f\u17cb\u1793\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6\u1793\u17c5\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780?",
+    "question": "តើ Aldous Leonard Huxley រស់នៅទីកន្លែងណានៅអាមេរិក?",
     "wrong_answers": [
       "New York City",
       "San Francisco"
@@ -41,7 +41,7 @@
   },
   {
     "answer": "Brave New World",
-    "question": "\u178f\u17be\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179f\u17c0\u179c\u1797\u17c5\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780\u178e\u17b6\u178a\u17c2\u179b Aldous Leonard Huxley \u1794\u1784\u17d2\u17a0\u17b6\u1789\u1791\u179f\u17d2\u179f\u1793\u179c\u17b7\u179f\u17d0\u1799\u1793\u17c3 dystopia?",
+    "question": "តើនៅក្នុងសៀវភៅប្រលោមលោកណាដែល Aldous Leonard Huxley បង្ហាញទស្សនវិស័យនៃ dystopia?",
     "wrong_answers": [
       "Island",
       "The Doors of Perception"
@@ -49,7 +49,7 @@
   },
   {
     "answer": "The Perennial Philosophy",
-    "question": "\u178f\u17be\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179f\u17c0\u179c\u1797\u17c5\u178e\u17b6\u178a\u17c2\u179b Aldous Leonard Huxley \u1796\u17b7\u1797\u17b6\u1780\u17d2\u179f\u17b6\u17a2\u17c6\u1796\u17b8\u1780\u17b6\u179a\u17a2\u1793\u17bb\u179c\u178f\u17d2\u178f\u1793\u17cd\u1794\u17c2\u1794\u1791\u179f\u17d2\u179f\u1793\u179c\u17b7\u1787\u17d2\u1787\u17b6?",
+    "question": "តើនៅក្នុងសៀវភៅណាដែល Aldous Leonard Huxley ពិភាក្សាអំពីការអនុវត្តន៍បែបទស្សនវិជ្ជា?",
     "wrong_answers": [
       "Brave New World",
       "Island"
@@ -57,7 +57,7 @@
   },
   {
     "answer": "Julian Huxley",
-    "question": "\u178f\u17be\u1793\u179a\u178e\u17b6\u1787\u17b6\u1794\u1784\u1794\u17d2\u179a\u17bb\u179f\u179a\u1794\u179f\u17cb Aldous Leonard Huxley \u178a\u17c2\u179b\u1780\u17cf\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1787\u17b8\u179c\u179c\u17b7\u1791\u17bc\u179b\u17c1\u1785\u1792\u17d2\u179b\u17c4\u1798\u17d2\u1793\u17b6\u1780\u17cb\u178a\u17c2\u179a?",
+    "question": "តើនរណាជាបងប្រុសរបស់ Aldous Leonard Huxley ដែលក៏ជាអ្នកជីវវិទូលេចធ្លោម្នាក់ដែរ?",
     "wrong_answers": [
       "Andrew Huxley",
       "Thomas Henry Huxley"
@@ -65,7 +65,7 @@
   },
   {
     "answer": "Matthew Arnold",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u1799\u17d2\u1799\u1780\u17c4\u179a\u1794\u179f\u17cb Aldous Leonard Huxley \u1793\u17b7\u1784\u1787\u17b6\u1780\u179c\u17b8\u1793\u17b7\u1784\u17a2\u17d2\u1793\u1780\u179a\u17b7\u17c7\u1782\u1793\u17cb?",
+    "question": "តើអ្នកណាជាអយ្យកោរបស់ Aldous Leonard Huxley និងជាកវីនិងអ្នករិះគន់?",
     "wrong_answers": [
       "Thomas Henry Huxley",
       "Leonard Huxley"
@@ -73,7 +73,7 @@
   },
   {
     "answer": "Godalming, Surrey",
-    "question": "\u178f\u17be Aldous Leonard Huxley \u1780\u17be\u178f\u1793\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើ Aldous Leonard Huxley កើតនៅទីកន្លែងណា?",
     "wrong_answers": [
       "London",
       "Oxford"
@@ -81,15 +81,15 @@
   },
   {
     "answer": "Keratitis punctata",
-    "question": "\u178f\u17be\u1787\u17c6\u1784\u17ba\u1797\u17d2\u1793\u17c2\u1780\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b Aldous Leonard Huxley \u1794\u17b6\u1793\u1787\u17bd\u1794\u1794\u17d2\u179a\u1791\u17c7\u1793\u17c5\u1796\u17c1\u179b\u1782\u17b6\u178f\u17cb\u1793\u17c5\u1780\u17d2\u1798\u17c1\u1784?",
+    "question": "តើជំងឺភ្នែកអ្វីដែល Aldous Leonard Huxley បានជួបប្រទះនៅពេលគាត់នៅក្មេង?",
     "wrong_answers": [
-      "\u1787\u17c6\u1784\u17ba\u1797\u17d2\u1793\u17c2\u1780\u17a1\u17be\u1784\u1794\u17b6\u1799",
-      "\u1787\u17c6\u1784\u17ba\u1797\u17d2\u1793\u17c2\u1780\u179f\u17d2\u1784\u17bd\u178f"
+      "ជំងឺភ្នែកឡើងបាយ",
+      "ជំងឺភ្នែកស្ងួត"
     ]
   },
   {
     "answer": "Balliol College, Oxford",
-    "question": "\u178f\u17be Aldous Leonard Huxley \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17c0\u1793\u1793\u17c5\u17af\u179f\u17b6\u1780\u179b\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179b\u17d0\u1799\u178e\u17b6?",
+    "question": "តើ Aldous Leonard Huxley បានចូលរៀននៅឯសាកលវិទ្យាល័យណា?",
     "wrong_answers": [
       "Cambridge University",
       "University of London"
@@ -97,7 +97,7 @@
   },
   {
     "answer": "Eton College",
-    "question": "\u178f\u17be Aldous Leonard Huxley \u1794\u17b6\u1793\u1794\u1784\u17d2\u179a\u17c0\u1793\u1797\u17b6\u179f\u17b6\u1794\u17b6\u179a\u17b6\u17c6\u1784\u1793\u17c5\u17af\u179f\u17b6\u179b\u17b6\u178e\u17b6?",
+    "question": "តើ Aldous Leonard Huxley បានបង្រៀនភាសាបារាំងនៅឯសាលាណា?",
     "wrong_answers": [
       "Hillside School",
       "Prior's Field School"
@@ -105,7 +105,7 @@
   },
   {
     "answer": "George Orwell",
-    "question": "\u178f\u17be\u1793\u179a\u178e\u17b6\u1787\u17b6\u179f\u17b7\u179f\u17d2\u179f\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1793\u17c3 Aldous Leonard Huxley \u1793\u17c5 Eton College?",
+    "question": "តើនរណាជាសិស្សម្នាក់នៃ Aldous Leonard Huxley នៅ Eton College?",
     "wrong_answers": [
       "Steven Runciman",
       "Julian Huxley"
@@ -113,7 +113,7 @@
   },
   {
     "answer": "Brunner and Mond",
-    "question": "\u178f\u17be Aldous Leonard Huxley \u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u1793\u17c5\u17af\u179a\u17c4\u1784\u1785\u1780\u17d2\u179a\u1782\u17b8\u1798\u17b8\u178e\u17b6?",
+    "question": "តើ Aldous Leonard Huxley ធ្វើការនៅឯរោងចក្រគីមីណា?",
     "wrong_answers": [
       "Oxford Poetry",
       "Hillside School"

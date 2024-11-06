@@ -1,15 +1,15 @@
 [
   {
-    "answer": "\u1780\u17b6\u179a\u1794\u17d2\u179a\u1786\u17b6\u17c6\u1784\u1793\u17b9\u1784\u1791\u17b6\u17a0\u17b6\u1793, \u179c\u178f\u17d2\u1790\u17bb\u1793\u17b7\u1799\u1798\u179f\u17c1\u178a\u17d2\u178b\u1780\u17b7\u1785\u17d2\u1785\u1793\u17b7\u1784\u1780\u17b6\u179a\u1794\u1784\u17d2\u1780\u17d2\u179a\u17b6\u1794\u1795\u17d2\u179b\u17bc\u179c\u1797\u17c1\u1791",
-    "question": "\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b Irwin Allen Ginsberg \u1794\u17b6\u1793\u1794\u17d2\u179a\u1786\u17b6\u17c6\u1784\u1799\u17c9\u17b6\u1784\u1781\u17d2\u179b\u17b6\u17c6\u1784?",
+    "answer": "ការប្រឆាំងនឹងទាហាន, វត្ថុនិយមសេដ្ឋកិច្ចនិងការបង្ក្រាបផ្លូវភេទ",
+    "question": "អ្វីដែល Irwin Allen Ginsberg បានប្រឆាំងយ៉ាងខ្លាំង?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u1794\u17d2\u179a\u1786\u17b6\u17c6\u1784\u1793\u17b9\u1784\u179f\u1784\u17d2\u1782\u1798\u1793\u17b7\u1799\u1798, \u1791\u17b6\u17a0\u17b6\u1793\u1793\u17b7\u1784\u17a2\u17c6\u1796\u17be\u17a0\u17b7\u1784\u17d2\u179f\u17b6",
-      "\u1780\u17b6\u179a\u1794\u17d2\u179a\u1786\u17b6\u17c6\u1784\u1793\u17b9\u1784\u179f\u17b6\u179f\u1793\u17b6, \u179c\u178f\u17d2\u1790\u17bb\u1793\u17b7\u1799\u1798\u179f\u17c1\u178a\u17d2\u178b\u1780\u17b7\u1785\u17d2\u1785\u1793\u17b7\u1784\u1780\u17b6\u179a\u1794\u1784\u17d2\u1780\u17d2\u179a\u17b6\u1794\u1795\u17d2\u179b\u17bc\u179c\u1797\u17c1\u1791"
+      "ការប្រឆាំងនឹងសង្គមនិយម, ទាហាននិងអំពើហិង្សា",
+      "ការប្រឆាំងនឹងសាសនា, វត្ថុនិយមសេដ្ឋកិច្ចនិងការបង្ក្រាបផ្លូវភេទ"
     ]
   },
   {
     "answer": "Howl",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1780\u17c6\u178e\u17b6\u1796\u17d2\u1799\u178a\u17cf\u179b\u17d2\u1794\u17b8\u179b\u17d2\u1794\u17b6\u1789\u1794\u17c6\u1795\u17bb\u178f\u179a\u1794\u179f\u17cb Ginsberg?",
+    "question": "តើអ្នកណាជាកំណាព្យដ៏ល្បីល្បាញបំផុតរបស់ Ginsberg?",
     "wrong_answers": [
       "The Fall of America",
       "September on Jessore Road"
@@ -17,15 +17,15 @@
   },
   {
     "answer": "Peter Orlovsky",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u178a\u17c3\u1782\u17bc\u1787\u17b8\u179c\u17b7\u178f\u179a\u1794\u179f\u17cb Ginsberg?",
+    "question": "តើអ្នកណាជាដៃគូជីវិតរបស់ Ginsberg?",
     "wrong_answers": [
       "Jack Kerouac",
       "William S. Burroughs"
     ]
   },
   {
-    "answer": "Ch\u00f6gyam Trungpa",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1782\u17d2\u179a\u17bc\u1794\u1784\u17d2\u179a\u17c0\u1793\u178a\u17cf\u1798\u17b6\u1793\u17a5\u1791\u17d2\u1792\u17b7\u1796\u179b\u1794\u17c6\u1795\u17bb\u178f\u179a\u1794\u179f\u17cb Ginsberg?",
+    "answer": "Chögyam Trungpa",
+    "question": "តើអ្នកណាជាគ្រូបង្រៀនដ៏មានឥទ្ធិពលបំផុតរបស់ Ginsberg?",
     "wrong_answers": [
       "Anne Waldman",
       "Jack Kerouac"
@@ -33,7 +33,7 @@
   },
   {
     "answer": "The Jack Kerouac School of Disembodied Poetics",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u179f\u17b6\u179b\u17b6\u178a\u17c2\u179b Ginsberg \u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178a\u17be\u1798\u1787\u17b6\u1798\u17bd\u1799 Anne Waldman?",
+    "question": "តើអ្នកណាជាសាលាដែល Ginsberg បានចាប់ផ្ដើមជាមួយ Anne Waldman?",
     "wrong_answers": [
       "Naropa Institute",
       "Columbia University"
@@ -41,7 +41,7 @@
   },
   {
     "answer": "The Fall of America",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1784\u17b6\u179a\u179a\u1794\u179f\u17cb Ginsberg \u1798\u17bd\u1799\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7\u1796\u17b6\u1793\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb\u1787\u17b6\u178f\u17b7\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1780\u17c6\u178e\u17b6\u1796\u17d2\u1799?",
+    "question": "តើការងាររបស់ Ginsberg មួយណាដែលបានឈ្នះពានរង្វាន់ជាតិសម្រាប់កំណាព្យ?",
     "wrong_answers": [
       "Howl",
       "September on Jessore Road"
@@ -49,7 +49,7 @@
   },
   {
     "answer": "Louis Ginsberg",
-    "question": "\u178f\u17be\u17aa\u1796\u17bb\u1780\u179a\u1794\u179f\u17cb Ginsberg \u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើឪពុករបស់ Ginsberg ឈ្មោះអ្វី?",
     "wrong_answers": [
       "Jack Kerouac",
       "William S. Burroughs"
@@ -57,15 +57,15 @@
   },
   {
     "answer": "Naomi Levy",
-    "question": "\u178f\u17be\u1798\u17d2\u178f\u17b6\u1799\u179a\u1794\u179f\u17cb Ginsberg \u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើម្តាយរបស់ Ginsberg ឈ្មោះអ្វី?",
     "wrong_answers": [
       "Anne Waldman",
-      "Ch\u00f6gyam Trungpa"
+      "Chögyam Trungpa"
     ]
   },
   {
     "answer": "Newark, New Jersey",
-    "question": "\u178f\u17be Ginsberg \u1780\u17be\u178f\u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើ Ginsberg កើតនៅឯណា?",
     "wrong_answers": [
       "Paterson, New Jersey",
       "New York City"
@@ -73,7 +73,7 @@
   },
   {
     "answer": "Eastside High School",
-    "question": "\u178f\u17be Ginsberg \u1794\u17b6\u1793\u1794\u1789\u17d2\u1785\u1794\u17cb\u1780\u17b6\u179a\u179f\u17b7\u1780\u17d2\u179f\u17b6\u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើ Ginsberg បានបញ្ចប់ការសិក្សានៅឯណា?",
     "wrong_answers": [
       "Montclair State College",
       "Columbia University"
@@ -81,7 +81,7 @@
   },
   {
     "answer": "Columbia University",
-    "question": "\u178f\u17be Ginsberg \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17c0\u1793\u1793\u17c5\u179f\u17b6\u1780\u179b\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179b\u17d0\u1799\u178e\u17b6?",
+    "question": "តើ Ginsberg បានចូលរៀននៅសាកលវិទ្យាល័យណា?",
     "wrong_answers": [
       "Montclair State College",
       "Eastside High School"
@@ -89,7 +89,7 @@
   },
   {
     "answer": "Columbia Review",
-    "question": "\u178f\u17be Ginsberg \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u1787\u17b6\u1798\u17bd\u1799\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178a\u17b8\u178e\u17b6?",
+    "question": "តើ Ginsberg បានចូលរួមជាមួយទស្សនាវដ្ដីណា?",
     "wrong_answers": [
       "Jester",
       "Boar's Head Society"
@@ -97,7 +97,7 @@
   },
   {
     "answer": "Woodberry Poetry Prize",
-    "question": "\u178f\u17be Ginsberg \u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7\u1796\u17b6\u1793\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb\u178e\u17b6\u1793\u17c5 Columbia University?",
+    "question": "តើ Ginsberg បានឈ្នះពានរង្វាន់ណានៅ Columbia University?",
     "wrong_answers": [
       "Philolexian Society",
       "Boar's Head Society"
@@ -105,7 +105,7 @@
   },
   {
     "answer": "Philolexian Society",
-    "question": "\u178f\u17be Ginsberg \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u1794\u17d2\u179a\u1792\u17b6\u1793\u1793\u17c3\u179f\u1784\u17d2\u1782\u1798\u178e\u17b6?",
+    "question": "តើ Ginsberg បានក្លាយជាប្រធាននៃសង្គមណា?",
     "wrong_answers": [
       "Boar's Head Society",
       "Columbia Review"
@@ -113,7 +113,7 @@
   },
   {
     "answer": "Boar's Head Society",
-    "question": "\u178f\u17be Ginsberg \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u1787\u17b6\u1798\u17bd\u1799\u179f\u1784\u17d2\u1782\u1798\u178e\u17b6?",
+    "question": "តើ Ginsberg បានចូលរួមជាមួយសង្គមណា?",
     "wrong_answers": [
       "Philolexian Society",
       "Columbia Review"
@@ -121,7 +121,7 @@
   },
   {
     "answer": "Lionel Trilling",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1782\u17d2\u179a\u17bc\u1794\u1784\u17d2\u179a\u17c0\u1793\u179c\u1782\u17d2\u1782\u179f\u17b7\u1780\u17d2\u179f\u17b6 Great Books \u179a\u1794\u179f\u17cb Ginsberg?",
+    "question": "តើអ្នកណាជាគ្រូបង្រៀនវគ្គសិក្សា Great Books របស់ Ginsberg?",
     "wrong_answers": [
       "Jack Kerouac",
       "William S. Burroughs"
@@ -129,7 +129,7 @@
   },
   {
     "answer": "Hartley Hall",
-    "question": "\u178f\u17be Ginsberg \u179a\u179f\u17cb\u1793\u17c5\u17af\u178e\u17b6\u1793\u17c5 Columbia University?",
+    "question": "តើ Ginsberg រស់នៅឯណានៅ Columbia University?",
     "wrong_answers": [
       "Montclair State College",
       "Eastside High School"
@@ -137,7 +137,7 @@
   },
   {
     "answer": "Merchant Marine",
-    "question": "\u178f\u17be Ginsberg \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u1787\u17b6\u1798\u17bd\u1799\u17a2\u17d2\u179c\u17b8\u178a\u17be\u1798\u17d2\u1794\u17b8\u179a\u1780\u179b\u17bb\u1799?",
+    "question": "តើ Ginsberg បានចូលរួមជាមួយអ្វីដើម្បីរកលុយ?",
     "wrong_answers": [
       "Columbia University",
       "Eastside High School"
@@ -145,7 +145,7 @@
   },
   {
     "answer": "Walt Whitman",
-    "question": "\u178f\u17be Ginsberg \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17c6\u1795\u17bb\u179f\u1782\u17c6\u1793\u17b7\u178f\u178a\u17c4\u1799\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u178e\u17b6?",
+    "question": "តើ Ginsberg ត្រូវបានបំផុសគំនិតដោយអ្នកនិពន្ធណា?",
     "wrong_answers": [
       "Jack Kerouac",
       "William S. Burroughs"

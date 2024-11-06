@@ -1,7 +1,7 @@
 [
   {
     "answer": "ABM Industries, a US facility management provider",
-    "question": "\u178f\u17be ABM \u1787\u17b6\u17a2\u17d2\u179c\u17b8\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179c\u17b7\u179f\u17d0\u1799\u17a2\u17b6\u1787\u17b8\u179c\u1780\u1798\u17d2\u1798?",
+    "question": "តើ ABM ជាអ្វីនៅក្នុងវិស័យអាជីវកម្ម?",
     "wrong_answers": [
       "Advantage Business Media, a US digital marketing and information services company",
       "Agaricus blazei Murill, a species of mushroom"
@@ -9,7 +9,7 @@
   },
   {
     "answer": "Advanced Bit Manipulation",
-    "question": "\u178f\u17be ABM \u1798\u17b6\u1793\u1793\u17d0\u1799\u1799\u17c9\u17b6\u1784\u178e\u17b6\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179c\u17b7\u179f\u17d0\u1799\u1780\u17bb\u17c6\u1796\u17d2\u1799\u17bc\u1791\u17d0\u179a?",
+    "question": "តើ ABM មានន័យយ៉ាងណានៅក្នុងវិស័យកុំព្យូទ័រ?",
     "wrong_answers": [
       "Agent-based model",
       "Anti-ballistic missile"
@@ -17,7 +17,7 @@
   },
   {
     "answer": "Air Battle Manager",
-    "question": "\u178f\u17be ABM \u1798\u17b6\u1793\u1793\u17d0\u1799\u1799\u17c9\u17b6\u1784\u178e\u17b6\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179c\u17b7\u179f\u17d0\u1799\u1799\u17c4\u1792\u17b6?",
+    "question": "តើ ABM មានន័យយ៉ាងណានៅក្នុងវិស័យយោធា?",
     "wrong_answers": [
       "Anti-ballistic missile",
       "Anglican Board of Mission - Australia"
@@ -25,7 +25,7 @@
   },
   {
     "answer": "Abahlali baseMjondolo",
-    "question": "\u178f\u17be ABM \u1798\u17b6\u1793\u1793\u17d0\u1799\u1799\u17c9\u17b6\u1784\u178e\u17b6\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179c\u17b7\u179f\u17d0\u1799\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a?",
+    "question": "តើ ABM មានន័យយ៉ាងណានៅក្នុងវិស័យអង្គការ?",
     "wrong_answers": [
       "Ansar Bait al-Maqdis",
       "Activity-based management"
@@ -33,7 +33,7 @@
   },
   {
     "answer": "Abanyom",
-    "question": "\u178f\u17be ABM \u1798\u17b6\u1793\u1793\u17d0\u1799\u1799\u17c9\u17b6\u1784\u178e\u17b6\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179c\u17b7\u179f\u17d0\u1799\u1797\u17b6\u179f\u17b6?",
+    "question": "តើ ABM មានន័យយ៉ាងណានៅក្នុងវិស័យភាសា?",
     "wrong_answers": [
       "Atmospheric Black Metal",
       "Automated banking machine"

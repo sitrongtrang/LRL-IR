@@ -1,74 +1,74 @@
 [
   {
-    "answer": "Artemis \u1794\u17b6\u1793\u1794\u17d2\u179a\u17c2\u1780\u17d2\u179b\u17b6\u1799\u1782\u17b6\u178f\u17cb\u1791\u17c5\u1787\u17b6\u1781\u17d2\u179b\u17b6\u1783\u17d2\u1798\u17bb\u17c6 \u17a0\u17be\u1799\u1786\u17d2\u1780\u17c2\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1794\u17c6\u1795\u17d2\u179b\u17b6\u1789\u1782\u17b6\u178f\u17cb",
-    "question": "\u178f\u17be Artemis \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8\u1785\u17c6\u1796\u17c4\u17c7 Actaeon?",
+    "answer": "Artemis បានប្រែក្លាយគាត់ទៅជាខ្លាឃ្មុំ ហើយឆ្កែរបស់គាត់បានបំផ្លាញគាត់",
+    "question": "តើ Artemis បានធ្វើអ្វីចំពោះ Actaeon?",
     "wrong_answers": [
-      "Artemis \u1794\u17b6\u1793\u179f\u1798\u17d2\u179b\u17b6\u1794\u17cb\u1782\u17b6\u178f\u17cb\u1787\u17b6\u1798\u17bd\u1799\u1793\u17b9\u1784\u1792\u17d2\u1793\u17bc\u179a\u1794\u179f\u17cb\u1793\u17b6\u1784",
-      "Artemis \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17b1\u17d2\u1799\u1782\u17b6\u178f\u17cb\u1788\u17ba"
+      "Artemis បានសម្លាប់គាត់ជាមួយនឹងធ្នូរបស់នាង",
+      "Artemis បានធ្វើឱ្យគាត់ឈឺ"
     ]
   },
   {
-    "answer": "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1783\u17be\u1789 Artemis \u1784\u17bc\u178f\u1791\u17b9\u1780",
-    "question": "\u178f\u17be Actaeon \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u1792\u17d2\u179c\u17be\u17b1\u17d2\u1799 Artemis \u1781\u17b9\u1784?",
+    "answer": "គាត់បានឃើញ Artemis ងូតទឹក",
+    "question": "តើ Actaeon បានធ្វើអ្វីដែលធ្វើឱ្យ Artemis ខឹង?",
     "wrong_answers": [
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u179b\u17bd\u1785\u1792\u17d2\u1793\u17bc\u179a\u1794\u179f\u17cb Artemis",
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1794\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17d2\u1793\u1780\u1795\u17d2\u179f\u17c1\u1784\u17a2\u17c6\u1796\u17b8 Artemis"
+      "គាត់បានលួចធ្នូរបស់ Artemis",
+      "គាត់បានប្រាប់អ្នកផ្សេងអំពី Artemis"
     ]
   },
   {
     "answer": "Chiron",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1794\u178e\u17d2\u178f\u17bb\u17c7\u1794\u178e\u17d2\u178f\u17b6\u179b Actaeon?",
+    "question": "តើអ្នកណាបានបណ្តុះបណ្តាល Actaeon?",
     "wrong_answers": [
       "Hercules",
       "Zeus"
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f\u1780\u17d2\u179a\u17b7\u1780",
-    "question": "\u178f\u17be\u179a\u17bf\u1784\u179a\u17c9\u17b6\u179c\u179a\u1794\u179f\u17cb Actaeon \u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c5\u17af\u178e\u17b6?",
+    "answer": "ក្នុងប្រទេសក្រិក",
+    "question": "តើរឿងរ៉ាវរបស់ Actaeon កើតឡើងនៅឯណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f\u179a\u17c9\u17bc\u1798",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u17c1\u17a0\u17ca\u17b8\u1794"
+      "ក្នុងប្រទេសរ៉ូម",
+      "ក្នុងប្រទេសអេហ៊ីប"
     ]
   },
   {
     "answer": "Artemis",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1794\u17d2\u179a\u17c2\u1780\u17d2\u179b\u17b6\u1799 Actaeon \u1791\u17c5\u1787\u17b6\u1781\u17d2\u179b\u17b6\u1783\u17d2\u1798\u17bb\u17c6?",
+    "question": "តើអ្នកណាបានប្រែក្លាយ Actaeon ទៅជាខ្លាឃ្មុំ?",
     "wrong_answers": [
       "Zeus",
       "Apollo"
     ]
   },
   {
-    "answer": "\u1786\u17d2\u1780\u17c2\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u179f\u1798\u17d2\u179b\u17b6\u1794\u17cb Actaeon?",
+    "answer": "ឆ្កែរបស់គាត់",
+    "question": "តើអ្នកណាបានសម្លាប់ Actaeon?",
     "wrong_answers": [
       "Artemis",
       "Hercules"
     ]
   },
   {
-    "answer": "\u1793\u17b6\u1784\u1794\u17b6\u1793\u1783\u17be\u1789\u1782\u17b6\u178f\u17cb\u1793\u17c5\u17a2\u17b6\u1784\u1791\u17b9\u1780",
-    "question": "\u178f\u17be Artemis \u1794\u17b6\u1793\u178a\u17b9\u1784\u178a\u17c4\u1799\u179a\u1794\u17c0\u1794\u178e\u17b6\u1790\u17b6 Actaeon \u1780\u17c6\u1796\u17bb\u1784\u1798\u17be\u179b\u1793\u17b6\u1784?",
+    "answer": "នាងបានឃើញគាត់នៅអាងទឹក",
+    "question": "តើ Artemis បានដឹងដោយរបៀបណាថា Actaeon កំពុងមើលនាង?",
     "wrong_answers": [
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1793\u17b7\u1799\u17b6\u1799",
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1795\u17d2\u179b\u17b6\u179f\u17cb\u1791\u17b8"
+      "គាត់បាននិយាយ",
+      "គាត់បានផ្លាស់ទី"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1796\u17c1\u179b\u178a\u17c2\u179b\u1782\u17b6\u178f\u17cb\u1780\u17c6\u1796\u17bb\u1784\u1784\u17bc\u178f\u1791\u17b9\u1780",
-    "question": "\u178f\u17be Artemis \u1780\u17c6\u1796\u17bb\u1784\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8\u1793\u17c5\u1796\u17c1\u179b\u178a\u17c2\u179b Actaeon \u1794\u17b6\u1793\u1783\u17be\u1789\u1793\u17b6\u1784?",
+    "answer": "នៅពេលដែលគាត់កំពុងងូតទឹក",
+    "question": "តើ Artemis កំពុងធ្វើអ្វីនៅពេលដែល Actaeon បានឃើញនាង?",
     "wrong_answers": [
-      "\u1793\u17b6\u1784\u1780\u17c6\u1796\u17bb\u1784\u1794\u17d2\u179a\u1798\u17b6\u1789\u17cb",
-      "\u1793\u17b6\u1784\u1780\u17c6\u1796\u17bb\u1784\u17a2\u1792\u17b7\u179f\u17d2\u178b\u17b6\u1793"
+      "នាងកំពុងប្រមាញ់",
+      "នាងកំពុងអធិស្ឋាន"
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1796\u17d2\u179a\u17c3",
-    "question": "\u178f\u17be Actaeon \u1794\u17b6\u1793\u1783\u17be\u1789 Artemis \u1793\u17c5\u17af\u178e\u17b6?",
+    "answer": "ក្នុងព្រៃ",
+    "question": "តើ Actaeon បានឃើញ Artemis នៅឯណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u17b6\u179f\u17b6\u1791",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784"
+      "នៅក្នុងប្រាសាទ",
+      "នៅក្នុងទីក្រុង"
     ]
   }
 ]

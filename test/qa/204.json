@@ -1,7 +1,7 @@
 [
   {
     "answer": "Arecales",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u1788\u17d2\u1798\u17c4\u17c7\u1795\u17d2\u179b\u17bc\u179c\u1780\u17b6\u179a\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u179b\u17c6\u178a\u17b6\u1794\u17cb\u1793\u17c3\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7\u178a\u17c2\u179b\u1798\u17b6\u1793\u1795\u17d2\u1780\u17b6\u178a\u17c2\u179b\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u179f\u17d2\u1782\u17b6\u179b\u17cb\u1799\u17c9\u17b6\u1784\u1791\u17bc\u179b\u17c6\u1791\u17bc\u179b\u17b6\u1799\u1780\u17d2\u1793\u17bb\u1784\u179a\u1799\u17c8\u1796\u17c1\u179b\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1791\u179f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1785\u17bb\u1784\u1780\u17d2\u179a\u17c4\u1799\u1793\u17c1\u17c7?",
+    "question": "តើអ្វីជាឈ្មោះផ្លូវការសម្រាប់លំដាប់នៃរុក្ខជាតិដែលមានផ្កាដែលត្រូវបានទទួលស្គាល់យ៉ាងទូលំទូលាយក្នុងរយៈពេលប៉ុន្មានទសវត្សរ៍ចុងក្រោយនេះ?",
     "wrong_answers": [
       "Principes",
       "Palmae"
@@ -9,23 +9,23 @@
   },
   {
     "answer": "Dasypogonaceae",
-    "question": "\u178f\u17be\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u1793\u17d2\u1790\u17c2\u1798\u1791\u17c5\u179b\u17c6\u178a\u17b6\u1794\u17cb Arecales \u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 APG IV?",
+    "question": "តើគ្រួសាររុក្ខជាតិណាដែលបានបន្ថែមទៅលំដាប់ Arecales នៅក្នុងប្រព័ន្ធ APG IV?",
     "wrong_answers": [
       "Arecaceae",
       "Palmae"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 APG IV",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792\u1780\u17c6\u178e\u178f\u17cb\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u1794\u17b6\u1793\u178a\u17b6\u1780\u17cb Dasypogonaceae \u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179b\u17c6\u178a\u17b6\u1794\u17cb Arecales?",
+    "answer": "ប្រព័ន្ធ APG IV",
+    "question": "តើប្រព័ន្ធកំណត់ឈ្មោះអ្វីដែលបានដាក់ Dasypogonaceae នៅក្នុងលំដាប់ Arecales?",
     "wrong_answers": [
-      "\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 Cronquist",
-      "\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 Dahlgren"
+      "ប្រព័ន្ធ Cronquist",
+      "ប្រព័ន្ធ Dahlgren"
     ]
   },
   {
     "answer": "Liliopsida",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 Cronquist \u1794\u17b6\u1793\u178a\u17b6\u1780\u17cb\u179b\u17c6\u178a\u17b6\u1794\u17cb Arecales \u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1790\u17d2\u1793\u17b6\u1780\u17cb\u178e\u17b6?",
+    "question": "តើប្រព័ន្ធ Cronquist បានដាក់លំដាប់ Arecales នៅក្នុងថ្នាក់ណា?",
     "wrong_answers": [
       "Arecidae",
       "Areciflorae"
@@ -33,15 +33,15 @@
   },
   {
     "answer": "Areciflorae",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 Thorne \u1794\u17b6\u1793\u178a\u17b6\u1780\u17cb\u179b\u17c6\u178a\u17b6\u1794\u17cb Arecales \u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 superorder \u178e\u17b6?",
+    "question": "តើប្រព័ន្ធ Thorne បានដាក់លំដាប់ Arecales នៅក្នុង superorder ណា?",
     "wrong_answers": [
       "Liliidae",
       "Arecanae"
     ]
   },
   {
-    "answer": "Arecaceae \u17ac Palmae",
-    "question": "\u178f\u17be\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a\u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179a\u17bd\u1798\u1794\u1789\u17d2\u1785\u17bc\u179b\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179b\u17c6\u178a\u17b6\u1794\u17cb Arecales \u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 APG II?",
+    "answer": "Arecaceae ឬ Palmae",
+    "question": "តើគ្រួសារណាត្រូវបានរួមបញ្ចូលនៅក្នុងលំដាប់ Arecales ក្នុងប្រព័ន្ធ APG II?",
     "wrong_answers": [
       "Dasypogonaceae",
       "Principes"
@@ -49,7 +49,7 @@
   },
   {
     "answer": "commelinids",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 APG II \u1794\u17b6\u1793\u178a\u17b6\u1780\u17cb\u179b\u17c6\u178a\u17b6\u1794\u17cb Arecales \u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 clade \u178e\u17b6?",
+    "question": "តើប្រព័ន្ធ APG II បានដាក់លំដាប់ Arecales នៅក្នុង clade ណា?",
     "wrong_answers": [
       "monocots",
       "commelinoids"
@@ -57,15 +57,15 @@
   },
   {
     "answer": "Principes",
-    "question": "\u178f\u17be\u1788\u17d2\u1798\u17c4\u17c7\u1794\u17bb\u179a\u17b6\u178e\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u179b\u17c6\u178a\u17b6\u1794\u17cb Arecales \u1798\u17b6\u1793\u1793\u17d0\u1799\u178a\u17bc\u1785\u1798\u17d2\u178f\u17c1\u1785?",
+    "question": "តើឈ្មោះបុរាណសម្រាប់លំដាប់ Arecales មានន័យដូចម្តេច?",
     "wrong_answers": [
       "the first",
       "the second"
     ]
   },
   {
-    "answer": "Engler \u1793\u17b7\u1784 Kubitzki",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u17d2\u179a\u17be\u1788\u17d2\u1798\u17c4\u17c7 Principes \u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u179b\u17c6\u178a\u17b6\u1794\u17cb\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7?",
+    "answer": "Engler និង Kubitzki",
+    "question": "តើប្រព័ន្ធណាដែលបានប្រើឈ្មោះ Principes សម្រាប់លំដាប់រុក្ខជាតិ?",
     "wrong_answers": [
       "Cronquist",
       "Dahlgren"
@@ -73,7 +73,7 @@
   },
   {
     "answer": "Palms",
-    "question": "\u178f\u17be\u1788\u17d2\u1798\u17c4\u17c7\u1793\u17c3\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178a\u17b8\u1793\u17c3\u179f\u1798\u17b6\u1782\u1798\u1794\u17b6\u178f\u178a\u17c3\u17a2\u1793\u17d2\u178f\u179a\u1787\u17b6\u178f\u17b7\u1794\u17b6\u1793\u1795\u17d2\u179b\u17b6\u179f\u17cb\u1794\u17d2\u178a\u17bc\u179a\u1791\u17c5\u1787\u17b6\u17a2\u17d2\u179c\u17b8\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e9?",
+    "question": "តើឈ្មោះនៃទស្សនាវដ្ដីនៃសមាគមបាតដៃអន្តរជាតិបានផ្លាស់ប្ដូរទៅជាអ្វីនៅឆ្នាំ ១៩៩៩?",
     "wrong_answers": [
       "Principes",
       "Arecales"

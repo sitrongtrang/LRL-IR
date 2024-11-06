@@ -1,25 +1,25 @@
 [
   {
-    "answer": "\u1780\u17b6\u179a\u1794\u1789\u17d2\u1785\u17bc\u179b\u1793\u17c3\u1794\u17d2\u179a\u1791\u17c1\u179f Urgell \u1793\u17b7\u1784\u1791\u17b9\u1780\u178a\u17b8 Athens \u1793\u17b7\u1784 Neopatria \u1791\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1798\u1780\u17bb\u178a Aragon",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784\u179a\u1794\u179f\u17cb Alfonso IV \u1798\u17b6\u1793\u179b\u1780\u17d2\u1781\u178e\u17c8\u1796\u17b7\u179f\u17c1\u179f\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7?",
+    "answer": "ការបញ្ចូលនៃប្រទេស Urgell និងទឹកដី Athens និង Neopatria ទៅក្នុងមកុដ Aragon",
+    "question": "តើការគ្រប់គ្រងរបស់ Alfonso IV មានលក្ខណៈពិសេសអ្វីខ្លះ?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u1794\u1789\u17d2\u1785\u17bc\u179b\u1793\u17c3\u1794\u17d2\u179a\u1791\u17c1\u179f Urgell \u1793\u17b7\u1784\u1791\u17b9\u1780\u178a\u17b8 Athens",
-      "\u1780\u17b6\u179a\u1794\u1789\u17d2\u1785\u17bc\u179b\u1793\u17c3\u1794\u17d2\u179a\u1791\u17c1\u179f Urgell \u1793\u17b7\u1784\u1791\u17b9\u1780\u178a\u17b8 Neopatria",
-      "\u1780\u17b6\u179a\u1794\u1789\u17d2\u1785\u17bc\u179b\u1793\u17c3\u1791\u17b9\u1780\u178a\u17b8 Athens \u1793\u17b7\u1784 Neopatria"
+      "ការបញ្ចូលនៃប្រទេស Urgell និងទឹកដី Athens",
+      "ការបញ្ចូលនៃប្រទេស Urgell និងទឹកដី Neopatria",
+      "ការបញ្ចូលនៃទឹកដី Athens និង Neopatria"
     ]
   },
   {
-    "answer": "\u1793\u17c5 Naples",
-    "question": "\u178f\u17be Alfonso IV \u1780\u17be\u178f\u1793\u17c5\u1791\u17b8\u178e\u17b6?",
+    "answer": "នៅ Naples",
+    "question": "តើ Alfonso IV កើតនៅទីណា?",
     "wrong_answers": [
-      "\u1793\u17c5 Barcelona",
-      "\u1793\u17c5 Aragon",
-      "\u1793\u17c5 Valencia"
+      "នៅ Barcelona",
+      "នៅ Aragon",
+      "នៅ Valencia"
     ]
   },
   {
     "answer": "James II",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17aa\u1796\u17bb\u1780\u179a\u1794\u179f\u17cb Alfonso IV?",
+    "question": "តើអ្នកណាជាឪពុករបស់ Alfonso IV?",
     "wrong_answers": [
       "Ferdinand IV",
       "John IV",
@@ -27,8 +27,8 @@
     ]
   },
   {
-    "answer": "Teresa d'Enten\u00e7a y Cabrera",
-    "question": "\u178f\u17be Alfonso IV \u1794\u17b6\u1793\u179a\u17c0\u1794\u1780\u17b6\u179a\u1787\u17b6\u1798\u17bd\u1799\u1793\u179a\u178e\u17b6?",
+    "answer": "Teresa d'Entença y Cabrera",
+    "question": "តើ Alfonso IV បានរៀបការជាមួយនរណា?",
     "wrong_answers": [
       "Eleanor of Castile",
       "Blanche of Anjou",
@@ -36,17 +36,17 @@
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e1\u17e4",
-    "question": "\u178f\u17be Alfonso IV \u1794\u17b6\u1793\u179a\u17c0\u1794\u1780\u17b6\u179a\u1787\u17b6\u1798\u17bd\u1799 Teresa d'Enten\u00e7a y Cabrera \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ក្នុងឆ្នាំ ១៣១៤",
+    "question": "តើ Alfonso IV បានរៀបការជាមួយ Teresa d'Entença y Cabrera នៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e2\u17e7",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e2\u17e9",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e3\u17e6"
+      "ក្នុងឆ្នាំ ១៣២៧",
+      "ក្នុងឆ្នាំ ១៣២៩",
+      "ក្នុងឆ្នាំ ១៣៣៦"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u1791\u17c1\u179f Urgell",
-    "question": "\u178f\u17be Teresa d'Enten\u00e7a y Cabrera \u1787\u17b6\u17a2\u17d2\u1793\u1780\u179f\u17d2\u1793\u1784\u1798\u179a\u178f\u1780\u1793\u17c3\u1791\u17b9\u1780\u178a\u17b8\u178e\u17b6?",
+    "answer": "ប្រទេស Urgell",
+    "question": "តើ Teresa d'Entença y Cabrera ជាអ្នកស្នងមរតកនៃទឹកដីណា?",
     "wrong_answers": [
       "Athens",
       "Neopatria",
@@ -55,7 +55,7 @@
   },
   {
     "answer": "Ermengol X of Urgell",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u179f\u1793\u17d2\u1799\u17b6\u1790\u17b6\u1793\u17b9\u1784\u1792\u17d2\u179c\u17be\u17b1\u17d2\u1799 Alfonso IV \u1787\u17b6\u17a2\u17d2\u1793\u1780\u179f\u17d2\u1793\u1784\u1798\u179a\u178f\u1780\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb?",
+    "question": "តើអ្នកណាបានសន្យាថានឹងធ្វើឱ្យ Alfonso IV ជាអ្នកស្នងមរតករបស់គាត់?",
     "wrong_answers": [
       "James II",
       "Ferdinand IV",
@@ -63,17 +63,17 @@
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e1\u17e9",
-    "question": "\u178f\u17be Alfonso IV \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179f\u17d2\u1793\u1784\u1798\u179a\u178f\u1780\u1793\u17c3\u1794\u179b\u17d2\u179b\u17d0\u1784\u17d2\u1780\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ក្នុងឆ្នាំ ១៣១៩",
+    "question": "តើ Alfonso IV បានក្លាយជាអ្នកស្នងមរតកនៃបល្ល័ង្កនៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e2\u17e7",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e2\u17e9",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e3\u17e6"
+      "ក្នុងឆ្នាំ ១៣២៧",
+      "ក្នុងឆ្នាំ ១៣២៩",
+      "ក្នុងឆ្នាំ ១៣៣៦"
     ]
   },
   {
     "answer": "James",
-    "question": "\u178f\u17be\u1793\u179a\u178e\u17b6\u1787\u17b6\u1794\u1784\u1794\u17d2\u179a\u17bb\u179f\u179a\u1794\u179f\u17cb Alfonso IV \u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u178a\u17b7\u179f\u17c1\u1792\u179f\u17b7\u1791\u17d2\u1792\u17b7\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb\u178a\u17be\u1798\u17d2\u1794\u17b8\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u1796\u17d2\u179a\u17c7\u179f\u1784\u17d2\u1783?",
+    "question": "តើនរណាជាបងប្រុសរបស់ Alfonso IV ដែលបានបដិសេធសិទ្ធិរបស់គាត់ដើម្បីក្លាយជាព្រះសង្ឃ?",
     "wrong_answers": [
       "Ferdinand",
       "John",
@@ -82,16 +82,16 @@
   },
   {
     "answer": "procurator-general",
-    "question": "\u178f\u17be\u178f\u17bd\u1793\u17b6\u1791\u17b8\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b Alfonso IV \u1794\u17b6\u1793\u1780\u17b6\u1793\u17cb\u1780\u17b6\u1794\u17cb\u1780\u17d2\u1793\u17bb\u1784\u17a2\u17c6\u17a1\u17bb\u1784\u1796\u17c1\u179b\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784\u179a\u1794\u179f\u17cb\u17aa\u1796\u17bb\u1780\u1782\u17b6\u178f\u17cb?",
+    "question": "តើតួនាទីអ្វីដែល Alfonso IV បានកាន់កាប់ក្នុងអំឡុងពេលគ្រប់គ្រងរបស់ឪពុកគាត់?",
     "wrong_answers": [
-      "\u1796\u17d2\u179a\u17c7\u1798\u17a0\u17b6\u1780\u17d2\u179f\u178f\u17d2\u179a",
-      "\u1796\u17d2\u179a\u17c7\u179f\u1784\u17d2\u1783",
-      "\u17a2\u17d2\u1793\u1780\u179f\u17d2\u1793\u1784\u1798\u179a\u178f\u1780"
+      "ព្រះមហាក្សត្រ",
+      "ព្រះសង្ឃ",
+      "អ្នកស្នងមរតក"
     ]
   },
   {
     "answer": "Sardinia",
-    "question": "\u178f\u17be\u1791\u17b9\u1780\u178a\u17b8\u178e\u17b6\u178a\u17c2\u179b Alfonso IV \u1794\u17b6\u1793\u179f\u1789\u17d2\u1787\u17d0\u1799\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e2\u17e3-\u17e1\u17e3\u17e2\u17e4?",
+    "question": "តើទឹកដីណាដែល Alfonso IV បានសញ្ជ័យក្នុងឆ្នាំ ១៣២៣-១៣២៤?",
     "wrong_answers": [
       "Athens",
       "Neopatria",
@@ -99,17 +99,17 @@
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e2\u17e7",
-    "question": "\u178f\u17be Alfonso IV \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u1796\u17d2\u179a\u17c7\u1798\u17a0\u17b6\u1780\u17d2\u179f\u178f\u17d2\u179a\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ក្នុងឆ្នាំ ១៣២៧",
+    "question": "តើ Alfonso IV បានក្លាយជាព្រះមហាក្សត្រនៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e1\u17e9",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e2\u17e9",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e3\u17e6"
+      "ក្នុងឆ្នាំ ១៣១៩",
+      "ក្នុងឆ្នាំ ១៣២៩",
+      "ក្នុងឆ្នាំ ១៣៣៦"
     ]
   },
   {
     "answer": "Genoa",
-    "question": "\u178f\u17be Alfonso IV \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u179f\u1784\u17d2\u1782\u17d2\u179a\u17b6\u1798\u1787\u17b6\u1798\u17bd\u1799\u1793\u179a\u178e\u17b6?",
+    "question": "តើ Alfonso IV បានធ្វើសង្គ្រាមជាមួយនរណា?",
     "wrong_answers": [
       "Athens",
       "Neopatria",
@@ -118,7 +118,7 @@
   },
   {
     "answer": "Sassari",
-    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1785\u17bb\u17c7\u1785\u17b6\u1789\u17cb Alfonso IV \u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e2\u17e3?",
+    "question": "តើទីក្រុងណាដែលបានចុះចាញ់ Alfonso IV ក្នុងឆ្នាំ ១៣២៣?",
     "wrong_answers": [
       "Barcelona",
       "Valencia",
@@ -127,16 +127,16 @@
   },
   {
     "answer": "Eleanor of Castile",
-    "question": "\u178f\u17be Alfonso IV \u1794\u17b6\u1793\u179a\u17c0\u1794\u1780\u17b6\u179a\u179b\u17be\u1780\u1791\u17b8\u17e2\u1787\u17b6\u1798\u17bd\u1799\u1793\u179a\u178e\u17b6?",
+    "question": "តើ Alfonso IV បានរៀបការលើកទី២ជាមួយនរណា?",
     "wrong_answers": [
-      "Teresa d'Enten\u00e7a y Cabrera",
+      "Teresa d'Entença y Cabrera",
       "Blanche of Anjou",
       "Isabella of Portugal"
     ]
   },
   {
     "answer": "Alfonso XI",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u1784\u1794\u17d2\u179a\u17bb\u179f\u179a\u1794\u179f\u17cb Eleanor of Castile?",
+    "question": "តើអ្នកណាជាបងប្រុសរបស់ Eleanor of Castile?",
     "wrong_answers": [
       "Ferdinand IV",
       "John IV",
@@ -145,7 +145,7 @@
   },
   {
     "answer": "James",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u1784\u1794\u17d2\u179a\u17bb\u179f\u179a\u1794\u179f\u17cb Alfonso IV \u178a\u17c2\u179b\u1794\u17b6\u1793\u179a\u17c0\u1794\u1780\u17b6\u179a\u1787\u17b6\u1798\u17bd\u1799 Eleanor of Castile \u1798\u17bb\u1793?",
+    "question": "តើអ្នកណាជាបងប្រុសរបស់ Alfonso IV ដែលបានរៀបការជាមួយ Eleanor of Castile មុន?",
     "wrong_answers": [
       "Ferdinand",
       "John",
@@ -153,17 +153,17 @@
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e2\u17e9",
-    "question": "\u178f\u17be Alfonso IV \u1794\u17b6\u1793\u179a\u17c0\u1794\u1780\u17b6\u179a\u179b\u17be\u1780\u1791\u17b8\u17e2\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ក្នុងឆ្នាំ ១៣២៩",
+    "question": "តើ Alfonso IV បានរៀបការលើកទី២នៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e1\u17e4",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e2\u17e7",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e3\u17e6"
+      "ក្នុងឆ្នាំ ១៣១៤",
+      "ក្នុងឆ្នាំ ១៣២៧",
+      "ក្នុងឆ្នាំ ១៣៣៦"
     ]
   },
   {
     "answer": "Ferdinand",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1780\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f\u179a\u1794\u179f\u17cb Alfonso IV \u1793\u17b7\u1784 Eleanor of Castile?",
+    "question": "តើអ្នកណាជាកូនប្រុសរបស់ Alfonso IV និង Eleanor of Castile?",
     "wrong_answers": [
       "James",
       "John",
@@ -172,7 +172,7 @@
   },
   {
     "answer": "John",
-    "question": "\u178f\u17be\u1793\u179a\u178e\u17b6\u1787\u17b6\u1780\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f\u1791\u17b8\u1796\u17b8\u179a\u179a\u1794\u179f\u17cb Alfonso IV \u1793\u17b7\u1784 Eleanor of Castile?",
+    "question": "តើនរណាជាកូនប្រុសទីពីររបស់ Alfonso IV និង Eleanor of Castile?",
     "wrong_answers": [
       "James",
       "Ferdinand",
@@ -181,7 +181,7 @@
   },
   {
     "answer": "Peter",
-    "question": "\u178f\u17be\u1793\u179a\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179f\u17d2\u1793\u1784\u1798\u179a\u178f\u1780\u179a\u1794\u179f\u17cb Alfonso IV?",
+    "question": "តើនរណាជាអ្នកស្នងមរតករបស់ Alfonso IV?",
     "wrong_answers": [
       "Ferdinand",
       "John",
@@ -190,7 +190,7 @@
   },
   {
     "answer": "Tortosa",
-    "question": "\u178f\u17be\u1791\u17b9\u1780\u178a\u17b8\u178e\u17b6\u178a\u17c2\u179b Alfonso IV \u1794\u17b6\u1793\u1795\u17d2\u178f\u179b\u17cb\u17b1\u17d2\u1799 Ferdinand?",
+    "question": "តើទឹកដីណាដែល Alfonso IV បានផ្តល់ឱ្យ Ferdinand?",
     "wrong_answers": [
       "Athens",
       "Neopatria",
@@ -199,7 +199,7 @@
   },
   {
     "answer": "Huesca",
-    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u178e\u17b6\u178a\u17c2\u179b Eleanor of Castile \u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u1793\u17c5\u1796\u17c1\u179b\u179a\u17c0\u1794\u1780\u17b6\u179a?",
+    "question": "តើទីក្រុងណាដែល Eleanor of Castile បានទទួលនៅពេលរៀបការ?",
     "wrong_answers": [
       "Barcelona",
       "Valencia",
@@ -207,21 +207,21 @@
     ]
   },
   {
-    "answer": "X\u00e0tiva, Alzira, Sagunto, Morella, Burriana and Castell\u00f3n de la Plana",
-    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u178e\u17b6\u178a\u17c2\u179b Alfonso IV \u1794\u17b6\u1793\u1796\u17d2\u1799\u17b6\u1799\u17b6\u1798\u1795\u17d2\u178f\u179b\u17cb\u17b1\u17d2\u1799 Ferdinand \u1794\u17c9\u17bb\u1793\u17d2\u178f\u17c2\u1794\u17b6\u1793\u179b\u17bb\u1794\u1785\u17c4\u179b?",
+    "answer": "Xàtiva, Alzira, Sagunto, Morella, Burriana and Castellón de la Plana",
+    "question": "តើទីក្រុងណាដែល Alfonso IV បានព្យាយាមផ្តល់ឱ្យ Ferdinand ប៉ុន្តែបានលុបចោល?",
     "wrong_answers": [
       "Barcelona, Valencia, Aragon",
       "Athens, Neopatria, Sardinia",
-      "Tortosa, Albarrac\u00edn, Orihuela"
+      "Tortosa, Albarracín, Orihuela"
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1781\u17c2\u1798\u1780\u179a\u17b6 \u17e1\u17e3\u17e3\u17e6",
-    "question": "\u178f\u17be Alfonso IV \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ក្នុងខែមករា ១៣៣៦",
+    "question": "តើ Alfonso IV បានស្លាប់នៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e1\u17e4",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e2\u17e7",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e2\u17e9"
+      "ក្នុងឆ្នាំ ១៣១៤",
+      "ក្នុងឆ្នាំ ១៣២៧",
+      "ក្នុងឆ្នាំ ១៣២៩"
     ]
   }
 ]

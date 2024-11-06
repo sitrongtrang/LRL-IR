@@ -1,25 +1,25 @@
 [
   {
-    "answer": "\u1797\u17d2\u1793\u17c6 Cumberland Plateau \u17ac\u178f\u17c6\u1794\u1793\u17cb Tennessee Valley \u178a\u17c2\u179b\u1798\u17b6\u1793\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1793\u17c5\u1795\u17d2\u1793\u17c2\u1780\u1781\u17b6\u1784\u1787\u17be\u1784\u1793\u17c3\u179a\u178a\u17d2\u178b\u17a2\u17b6\u17a1\u17b6\u1794\u17b6\u1798\u17c9\u17b6",
-    "question": "\u178f\u17be\u178f\u17c6\u1794\u1793\u17cb\u178e\u17b6\u178a\u17c2\u179b\u1798\u17b6\u1793\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1793\u17c5\u1795\u17d2\u1793\u17c2\u1780\u1781\u17b6\u1784\u1787\u17be\u1784\u1793\u17c3\u179a\u178a\u17d2\u178b\u17a2\u17b6\u17a1\u17b6\u1794\u17b6\u1798\u17c9\u17b6?",
+    "answer": "ភ្នំ Cumberland Plateau ឬតំបន់ Tennessee Valley ដែលមានទីតាំងនៅផ្នែកខាងជើងនៃរដ្ឋអាឡាបាម៉ា",
+    "question": "តើតំបន់ណាដែលមានទីតាំងនៅផ្នែកខាងជើងនៃរដ្ឋអាឡាបាម៉ា?",
     "wrong_answers": [
-      "\u178f\u17c6\u1794\u1793\u17cb Coastal Plain",
-      "\u178f\u17c6\u1794\u1793\u17cb Piedmont Plateau",
-      "\u178f\u17c6\u1794\u1793\u17cb Appalachian Valley"
+      "តំបន់ Coastal Plain",
+      "តំបន់ Piedmont Plateau",
+      "តំបន់ Appalachian Valley"
     ]
   },
   {
-    "answer": "\u1781\u17d2\u1796\u1784\u17cb\u179a\u17b6\u1794\u1793\u17b7\u1784\u1787\u17d2\u179a\u179b\u1784\u1797\u17d2\u1793\u17c6",
-    "question": "\u178f\u17be\u179b\u1780\u17d2\u1781\u178e\u17c8\u1797\u17bc\u1798\u17b7\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u1785\u1798\u17d2\u1794\u1784\u1793\u17c3\u179a\u178a\u17d2\u178b\u17a2\u17b6\u17a1\u17b6\u1794\u17b6\u1798\u17c9\u17b6\u1798\u17b6\u1793\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7?",
+    "answer": "ខ្ពង់រាបនិងជ្រលងភ្នំ",
+    "question": "តើលក្ខណៈភូមិសាស្ត្រចម្បងនៃរដ្ឋអាឡាបាម៉ាមានអ្វីខ្លះ?",
     "wrong_answers": [
-      "\u1791\u1793\u17d2\u179b\u17c1\u1793\u17b7\u1784\u1794\u17b9\u1784",
-      "\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7\u1793\u17b7\u1784\u179f\u178f\u17d2\u179c\u1796\u17d2\u179a\u17c3",
-      "\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1793\u17b7\u1784\u1797\u17bc\u1798\u17b7"
+      "ទន្លេនិងបឹង",
+      "រុក្ខជាតិនិងសត្វព្រៃ",
+      "ទីក្រុងនិងភូមិ"
     ]
   },
   {
-    "answer": "Mississippi, Tennessee, Georgia \u1793\u17b7\u1784 Florida",
-    "question": "\u178f\u17be\u179a\u178a\u17d2\u178b\u17a2\u17b6\u17a1\u17b6\u1794\u17b6\u1798\u17c9\u17b6\u1798\u17b6\u1793\u1796\u17d2\u179a\u17c6\u1794\u17d2\u179a\u1791\u179b\u17cb\u1787\u17b6\u1798\u17bd\u1799\u179a\u178a\u17d2\u178b\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u178e\u17b6\u1781\u17d2\u179b\u17c7?",
+    "answer": "Mississippi, Tennessee, Georgia និង Florida",
+    "question": "តើរដ្ឋអាឡាបាម៉ាមានព្រំប្រទល់ជាមួយរដ្ឋអាមេរិកណាខ្លះ?",
     "wrong_answers": [
       "Texas, Louisiana, Arkansas",
       "California, Nevada, Arizona",
@@ -27,44 +27,44 @@
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u1785\u17d2\u179a\u17c4\u17c7\u1793\u17c3\u1791\u1793\u17d2\u179b\u17c1",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17b1\u17d2\u1799\u1797\u17d2\u1793\u17c6 Cumberland Plateau \u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179a\u178a\u17d2\u178b\u17a2\u17b6\u17a1\u17b6\u1794\u17b6\u1798\u17c9\u17b6\u1798\u17b6\u1793\u1780\u17b6\u179a\u1794\u17c2\u1784\u1785\u17c2\u1780\u1787\u17b6\u1781\u17d2\u1796\u1784\u17cb\u179a\u17b6\u1794\u1792\u17c6\u17d7?",
+    "answer": "ការច្រោះនៃទន្លេ",
+    "question": "តើអ្វីបានធ្វើឱ្យភ្នំ Cumberland Plateau នៅក្នុងរដ្ឋអាឡាបាម៉ាមានការបែងចែកជាខ្ពង់រាបធំៗ?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u1795\u17d2\u1791\u17bb\u17c7\u1797\u17d2\u1793\u17c6\u1797\u17d2\u179b\u17be\u1784",
-      "\u1780\u17b6\u179a\u179a\u1789\u17d2\u1787\u17bd\u1799\u178a\u17b8",
-      "\u1780\u17b6\u179a\u1795\u17d2\u179b\u17b6\u179f\u17cb\u1794\u17d2\u178f\u17bc\u179a\u17a2\u17b6\u1780\u17b6\u179f\u1792\u17b6\u178f\u17bb"
+      "ការផ្ទុះភ្នំភ្លើង",
+      "ការរញ្ជួយដី",
+      "ការផ្លាស់ប្តូរអាកាសធាតុ"
     ]
   },
   {
-    "answer": "\u1798\u17b6\u1793\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1793\u17c5\u178f\u17c6\u1794\u1793\u17cb Coastal Plain",
-    "question": "\u178f\u17be\u178f\u17c6\u1794\u1793\u17cb\u1791\u17c6\u1793\u17b6\u1794\u1793\u17c3\u179a\u178a\u17d2\u178b\u17a2\u17b6\u17a1\u17b6\u1794\u17b6\u1798\u17c9\u17b6\u1798\u17b6\u1793\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1793\u17c5\u17af\u178e\u17b6?",
+    "answer": "មានទីតាំងនៅតំបន់ Coastal Plain",
+    "question": "តើតំបន់ទំនាបនៃរដ្ឋអាឡាបាម៉ាមានទីតាំងនៅឯណា?",
     "wrong_answers": [
-      "\u1798\u17b6\u1793\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1793\u17c5\u178f\u17c6\u1794\u1793\u17cb Cumberland Plateau",
-      "\u1798\u17b6\u1793\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1793\u17c5\u178f\u17c6\u1794\u1793\u17cb Piedmont Plateau",
-      "\u1798\u17b6\u1793\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1793\u17c5\u178f\u17c6\u1794\u1793\u17cb Appalachian Valley"
+      "មានទីតាំងនៅតំបន់ Cumberland Plateau",
+      "មានទីតាំងនៅតំបន់ Piedmont Plateau",
+      "មានទីតាំងនៅតំបន់ Appalachian Valley"
     ]
   },
   {
-    "answer": "\u1791\u1793\u17d2\u179b\u17c1 Coosa",
-    "question": "\u178f\u17be\u1791\u1793\u17d2\u179b\u17c1\u1798\u17bd\u1799\u178e\u17b6\u178a\u17c2\u179b\u1787\u17b6\u1791\u1793\u17d2\u179b\u17c1\u179f\u17c6\u1781\u17b6\u1793\u17cb\u1793\u17c5\u178f\u17c6\u1794\u1793\u17cb Appalachian Valley?",
+    "answer": "ទន្លេ Coosa",
+    "question": "តើទន្លេមួយណាដែលជាទន្លេសំខាន់នៅតំបន់ Appalachian Valley?",
     "wrong_answers": [
-      "\u1791\u1793\u17d2\u179b\u17c1 Tennessee",
-      "\u1791\u1793\u17d2\u179b\u17c1 Alabama",
-      "\u1791\u1793\u17d2\u179b\u17c1 Tombigbee"
+      "ទន្លេ Tennessee",
+      "ទន្លេ Alabama",
+      "ទន្លេ Tombigbee"
     ]
   },
   {
-    "answer": "\u1798\u17b6\u1793\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179a\u178a\u17d2\u178b\u17a2\u17b6\u17a1\u17b6\u1794\u17b6\u1798\u17c9\u17b6",
-    "question": "\u178f\u17be\u1791\u1793\u17d2\u179b\u17c1 Alabama \u1798\u17b6\u1793\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1793\u17c5\u17af\u178e\u17b6?",
+    "answer": "មានទីតាំងនៅក្នុងរដ្ឋអាឡាបាម៉ា",
+    "question": "តើទន្លេ Alabama មានទីតាំងនៅឯណា?",
     "wrong_answers": [
-      "\u1798\u17b6\u1793\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1793\u17c5\u179a\u178a\u17d2\u178b Tennessee",
-      "\u1798\u17b6\u1793\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1793\u17c5\u179a\u178a\u17d2\u178b Georgia",
-      "\u1798\u17b6\u1793\u1791\u17b8\u178f\u17b6\u17c6\u1784\u1793\u17c5\u179a\u178a\u17d2\u178b Florida"
+      "មានទីតាំងនៅរដ្ឋ Tennessee",
+      "មានទីតាំងនៅរដ្ឋ Georgia",
+      "មានទីតាំងនៅរដ្ឋ Florida"
     ]
   },
   {
     "answer": "Tallapoosa",
-    "question": "\u178f\u17be\u1791\u1793\u17d2\u179b\u17c1\u178e\u17b6\u178a\u17c2\u179b\u17a0\u17bc\u179a\u1780\u17b6\u178f\u17cb\u178f\u17c6\u1794\u1793\u17cb Piedmont Plateau?",
+    "question": "តើទន្លេណាដែលហូរកាត់តំបន់ Piedmont Plateau?",
     "wrong_answers": [
       "Tombigbee",
       "Alabama",
@@ -73,7 +73,7 @@
   },
   {
     "answer": "Chattahoochee",
-    "question": "\u178f\u17be\u1791\u1793\u17d2\u179b\u17c1\u178e\u17b6\u178a\u17c2\u179b\u1794\u1784\u17d2\u1780\u17be\u178f\u1787\u17b6\u1796\u17d2\u179a\u17c6\u178a\u17c2\u1793\u179a\u179c\u17b6\u1784\u179a\u178a\u17d2\u178b\u17a2\u17b6\u17a1\u17b6\u1794\u17b6\u1798\u17c9\u17b6\u1793\u17b7\u1784\u179a\u178a\u17d2\u178b Georgia?",
+    "question": "តើទន្លេណាដែលបង្កើតជាព្រំដែនរវាងរដ្ឋអាឡាបាម៉ានិងរដ្ឋ Georgia?",
     "wrong_answers": [
       "Tombigbee",
       "Alabama",
@@ -81,39 +81,39 @@
     ]
   },
   {
-    "answer": "Tombigbee \u1793\u17b7\u1784 Alabama",
-    "question": "\u178f\u17be\u1791\u1793\u17d2\u179b\u17c1\u178e\u17b6\u178a\u17c2\u179b\u1785\u17d2\u179a\u1780\u1785\u17bc\u179b\u1791\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1788\u17bc\u1784\u179f\u1798\u17bb\u1791\u17d2\u179a Mobile?",
+    "answer": "Tombigbee និង Alabama",
+    "question": "តើទន្លេណាដែលច្រកចូលទៅក្នុងឈូងសមុទ្រ Mobile?",
     "wrong_answers": [
-      "Tennessee \u1793\u17b7\u1784 Coosa",
-      "Alabama \u1793\u17b7\u1784 Chattahoochee",
-      "Tombigbee \u1793\u17b7\u1784 Chattahoochee"
+      "Tennessee និង Coosa",
+      "Alabama និង Chattahoochee",
+      "Tombigbee និង Chattahoochee"
     ]
   },
   {
-    "answer": "\u1791\u1793\u17d2\u179b\u17c1 Black Warrior",
-    "question": "\u178f\u17be\u1791\u1793\u17d2\u179b\u17c1\u178e\u17b6\u178a\u17c2\u179b\u1785\u17bc\u179b\u179a\u17bd\u1798\u1787\u17b6\u1798\u17bd\u1799\u1791\u1793\u17d2\u179b\u17c1 Tombigbee?",
+    "answer": "ទន្លេ Black Warrior",
+    "question": "តើទន្លេណាដែលចូលរួមជាមួយទន្លេ Tombigbee?",
     "wrong_answers": [
-      "\u1791\u1793\u17d2\u179b\u17c1 Tennessee",
-      "\u1791\u1793\u17d2\u179b\u17c1 Coosa",
-      "\u1791\u1793\u17d2\u179b\u17c1 Chattahoochee"
+      "ទន្លេ Tennessee",
+      "ទន្លេ Coosa",
+      "ទន្លេ Chattahoochee"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1787\u17d2\u179a\u179b\u1784\u1797\u17d2\u1793\u17c6\u1793\u17c3\u178f\u17c6\u1794\u1793\u17cb Coastal Plain",
-    "question": "\u178f\u17be\u1787\u17d2\u179a\u179b\u1784\u1797\u17d2\u1793\u17c6\u1793\u17c5\u178f\u17c6\u1794\u1793\u17cb Coastal Plain \u1798\u17b6\u1793\u179b\u1780\u17d2\u1781\u178e\u17c8\u1794\u17c2\u1794\u178e\u17b6?",
+    "answer": "នៅជ្រលងភ្នំនៃតំបន់ Coastal Plain",
+    "question": "តើជ្រលងភ្នំនៅតំបន់ Coastal Plain មានលក្ខណៈបែបណា?",
     "wrong_answers": [
-      "\u1787\u17d2\u179a\u179b\u1784\u1797\u17d2\u1793\u17c6\u1782\u17ba\u1787\u17d2\u179a\u17c5\u1793\u17b7\u1784\u178f\u17bc\u1785\u1785\u1784\u17d2\u17a2\u17c0\u178f",
-      "\u1787\u17d2\u179a\u179b\u1784\u1797\u17d2\u1793\u17c6\u1782\u17ba\u1787\u17d2\u179a\u17c5\u1793\u17b7\u1784\u1792\u17c6\u1791\u17bc\u179b\u17b6\u1799",
-      "\u1787\u17d2\u179a\u179b\u1784\u1797\u17d2\u1793\u17c6\u1782\u17ba\u179a\u17b6\u1794\u179f\u17d2\u1798\u17be\u1793\u17b7\u1784\u1791\u17b6\u1794"
+      "ជ្រលងភ្នំគឺជ្រៅនិងតូចចង្អៀត",
+      "ជ្រលងភ្នំគឺជ្រៅនិងធំទូលាយ",
+      "ជ្រលងភ្នំគឺរាបស្មើនិងទាប"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u179b\u17b7\u1785\u1793\u17c3\u1795\u17d2\u1793\u17c2\u1780\u1781\u17b6\u1784\u1780\u17d2\u179a\u17c4\u1798\u1793\u17c3\u1787\u17d2\u179a\u179b\u1784\u1797\u17d2\u1793\u17c6\u1793\u17c3\u1791\u1793\u17d2\u179b\u17c1 Alabama \u1793\u17b7\u1784 Tombigbee",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1794\u17b6\u1793\u1794\u178e\u17d2\u178f\u17b6\u179b\u17b1\u17d2\u1799\u1798\u17b6\u1793\u1780\u17c6\u1796\u1784\u17cb\u1795\u17c2 Mobile?",
+    "answer": "ការលិចនៃផ្នែកខាងក្រោមនៃជ្រលងភ្នំនៃទន្លេ Alabama និង Tombigbee",
+    "question": "តើអ្វីបានបណ្តាលឱ្យមានកំពង់ផែ Mobile?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u1795\u17d2\u1791\u17bb\u17c7\u1797\u17d2\u1793\u17c6\u1797\u17d2\u179b\u17be\u1784",
-      "\u1780\u17b6\u179a\u179a\u1789\u17d2\u1787\u17bd\u1799\u178a\u17b8",
-      "\u1780\u17b6\u179a\u179a\u179b\u17b6\u1780\u1791\u17b9\u1780\u1780\u1780"
+      "ការផ្ទុះភ្នំភ្លើង",
+      "ការរញ្ជួយដី",
+      "ការរលាកទឹកកក"
     ]
   }
 ]

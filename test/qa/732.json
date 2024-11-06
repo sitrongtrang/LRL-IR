@@ -1,34 +1,34 @@
 [
   {
-    "answer": "Aotus \u1782\u17ba\u1787\u17b6\u1788\u17d2\u1798\u17c4\u17c7\u178a\u17c2\u179b\u1798\u1780\u1796\u17b8\u1797\u17b6\u179f\u17b6\u1780\u17d2\u179a\u17b7\u1780\u1794\u17bb\u179a\u17b6\u178e\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\"\u1782\u17d2\u1798\u17b6\u1793\u178f\u17d2\u179a\u1785\u17c0\u1780\" ",
-    "question": "\u178f\u17be\u1788\u17d2\u1798\u17c4\u17c7 Aotus \u1798\u1780\u1796\u17b8\u178e\u17b6?",
+    "answer": "Aotus គឺជាឈ្មោះដែលមកពីភាសាក្រិកបុរាណសម្រាប់\"គ្មានត្រចៀក\" ",
+    "question": "តើឈ្មោះ Aotus មកពីណា?",
     "wrong_answers": [
-      "\u1788\u17d2\u1798\u17c4\u17c7 Aotus \u1798\u1780\u1796\u17b8\u1797\u17b6\u179f\u17b6\u17a1\u17b6\u178f\u17b6\u17c6\u1784",
-      "\u1788\u17d2\u1798\u17c4\u17c7 Aotus \u1798\u1780\u1796\u17b8\u1797\u17b6\u179f\u17b6\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f"
+      "ឈ្មោះ Aotus មកពីភាសាឡាតាំង",
+      "ឈ្មោះ Aotus មកពីភាសាអង់គ្លេស"
     ]
   },
   {
-    "answer": "Aotus (\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7) \u1782\u17ba\u1787\u17b6\u1794\u17d2\u179a\u1797\u17c1\u1791\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7\u178a\u17c2\u179b\u1782\u17c1\u179f\u17d2\u1782\u17b6\u179b\u17cb\u1790\u17b6\u1787\u17b6\u179f\u178e\u17d2\u178f\u17c2\u1780\u1798\u17b6\u179f",
-    "question": "\u178f\u17be Aotus (\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7) \u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "Aotus (រុក្ខជាតិ) គឺជាប្រភេទរុក្ខជាតិដែលគេស្គាល់ថាជាសណ្តែកមាស",
+    "question": "តើ Aotus (រុក្ខជាតិ) គឺជាអ្វី?",
     "wrong_answers": [
-      "Aotus (\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7) \u1782\u17ba\u1787\u17b6\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u179b\u17d2\u17a2\u17b7\u178f",
-      "Aotus (\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7) \u1782\u17ba\u1787\u17b6\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u179f\u17d2\u179b\u17b6\u1794"
+      "Aotus (រុក្ខជាតិ) គឺជាប្រភេទសត្វល្អិត",
+      "Aotus (រុក្ខជាតិ) គឺជាប្រភេទសត្វស្លាប"
     ]
   },
   {
-    "answer": "Aotus (\u179f\u178f\u17d2\u179c) \u1782\u17ba\u1787\u17b6\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u179b\u17d2\u1784\u17b6\u1785",
-    "question": "\u178f\u17be Aotus (\u179f\u178f\u17d2\u179c) \u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "Aotus (សត្វ) គឺជាប្រភេទសត្វល្ងាច",
+    "question": "តើ Aotus (សត្វ) គឺជាអ្វី?",
     "wrong_answers": [
-      "Aotus (\u179f\u178f\u17d2\u179c) \u1782\u17ba\u1787\u17b6\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u179f\u17d2\u179b\u17b6\u1794",
-      "Aotus (\u179f\u178f\u17d2\u179c) \u1782\u17ba\u1787\u17b6\u1794\u17d2\u179a\u1797\u17c1\u1791\u179f\u178f\u17d2\u179c\u179b\u17d2\u17a2\u17b7\u178f"
+      "Aotus (សត្វ) គឺជាប្រភេទសត្វស្លាប",
+      "Aotus (សត្វ) គឺជាប្រភេទសត្វល្អិត"
     ]
   },
   {
-    "answer": "AOTUS \u1782\u17ba\u1787\u17b6\u17a2\u1780\u17d2\u179f\u179a\u1780\u17b6\u178f\u17cb\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb Archivist of the United States",
-    "question": "\u178f\u17be AOTUS \u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "AOTUS គឺជាអក្សរកាត់សម្រាប់ Archivist of the United States",
+    "question": "តើ AOTUS គឺជាអ្វី?",
     "wrong_answers": [
-      "AOTUS \u1782\u17ba\u1787\u17b6\u17a2\u1780\u17d2\u179f\u179a\u1780\u17b6\u178f\u17cb\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb American Organization of Teachers of the United States",
-      "AOTUS \u1782\u17ba\u1787\u17b6\u17a2\u1780\u17d2\u179f\u179a\u1780\u17b6\u178f\u17cb\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb Association of Outstanding Teachers of the United States"
+      "AOTUS គឺជាអក្សរកាត់សម្រាប់ American Organization of Teachers of the United States",
+      "AOTUS គឺជាអក្សរកាត់សម្រាប់ Association of Outstanding Teachers of the United States"
     ]
   }
 ]

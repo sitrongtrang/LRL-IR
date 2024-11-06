@@ -1,25 +1,25 @@
 [
   {
-    "answer": "\u1793\u17c5\u1785\u17bb\u1784\u1791\u179f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e8\u17e0 \u1793\u17c5\u1797\u17b6\u1782\u1781\u17b6\u1784\u1780\u17be\u178f\u1793\u17c3\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 Los Angeles",
-    "question": "\u178f\u17be Aztlan Underground \u1798\u17b6\u1793\u178a\u17be\u1798\u1780\u17c6\u178e\u17be\u178f\u1793\u17c5\u1791\u17b8\u178e\u17b6?",
+    "answer": "នៅចុងទសវត្សរ៍ឆ្នាំ ១៩៨០ នៅភាគខាងកើតនៃទីក្រុង Los Angeles",
+    "question": "តើ Aztlan Underground មានដើមកំណើតនៅទីណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 New York",
-      "\u1793\u17c5\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 San Francisco",
-      "\u1793\u17c5\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 Chicago"
+      "នៅទីក្រុង New York",
+      "នៅទីក្រុង San Francisco",
+      "នៅទីក្រុង Chicago"
     ]
   },
   {
-    "answer": "Chicano \u1793\u17b7\u1784 Native American",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u1789\u17d2\u1785\u17bc\u179b\u1794\u17d2\u179a\u1792\u17b6\u1793\u1794\u1791\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7\u1785\u17bc\u179b\u1791\u17c5\u1780\u17d2\u1793\u17bb\u1784\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u179a\u1794\u179f\u17cb\u1796\u17bd\u1780\u1782\u17c1?",
+    "answer": "Chicano និង Native American",
+    "question": "តើ Aztlan Underground បញ្ចូលប្រធានបទអ្វីខ្លះចូលទៅក្នុងតន្ត្រីរបស់ពួកគេ?",
     "wrong_answers": [
-      "Hip-Hop \u1793\u17b7\u1784 Punk Rock",
-      "Jazz \u1793\u17b7\u1784 Electronic Music",
-      "Indie \u1793\u17b7\u1784 Rock"
+      "Hip-Hop និង Punk Rock",
+      "Jazz និង Electronic Music",
+      "Indie និង Rock"
     ]
   },
   {
     "answer": "Chicano rap",
-    "question": "\u178f\u17be Aztlan Underground \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u1785\u17b6\u178f\u17cb\u1791\u17bb\u1780\u1790\u17b6\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Aztlan Underground ត្រូវបានគេចាត់ទុកថាជាអ្វី?",
     "wrong_answers": [
       "Pop rap",
       "Trap",
@@ -27,26 +27,26 @@
     ]
   },
   {
-    "answer": "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1795\u17d2\u179f\u1796\u17d2\u179c\u1795\u17d2\u179f\u17b6\u1799\u1796\u17b8\u1794\u1789\u17d2\u17a0\u17b6\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a \u1793\u17b7\u1784\u179f\u17c1\u178a\u17d2\u178b\u1780\u17b7\u1785\u17d2\u1785\u178a\u17c2\u179b\u179f\u17a0\u1782\u1798\u1793\u17cd Chicano \u1780\u17c6\u1796\u17bb\u1784\u1787\u17bd\u1794\u1794\u17d2\u179a\u1791\u17c7",
-    "question": "\u178f\u17be\u17a2\u178f\u17d2\u1790\u1793\u17d0\u1799\u1793\u17c3\u1791\u17c6\u1793\u17bb\u1780\u1785\u17d2\u179a\u17c0\u1784\u179a\u1794\u179f\u17cb Aztlan Underground \u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ដើម្បីផ្សព្វផ្សាយពីបញ្ហាគ្រួសារ និងសេដ្ឋកិច្ចដែលសហគមន៍ Chicano កំពុងជួបប្រទះ",
+    "question": "តើអត្ថន័យនៃទំនុកច្រៀងរបស់ Aztlan Underground ជាអ្វី?",
     "wrong_answers": [
-      "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1794\u1784\u17d2\u1780\u17be\u178f\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u178a\u17be\u1798",
-      "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1795\u17d2\u179f\u1796\u17d2\u179c\u1795\u17d2\u179f\u17b6\u1799\u17a2\u17c6\u1796\u17b8\u179c\u1794\u17d2\u1794\u1792\u1798\u17cc Chicano",
-      "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1794\u1784\u17d2\u17a0\u17b6\u1789\u179f\u17d2\u1791\u17b8\u179b\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1790\u17d2\u1798\u17b8"
+      "ដើម្បីបង្កើតតន្ត្រីដើម",
+      "ដើម្បីផ្សព្វផ្សាយអំពីវប្បធម៌ Chicano",
+      "ដើម្បីបង្ហាញស្ទីលតន្ត្រីថ្មី"
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e9",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u1785\u17bb\u17c7\u1780\u17b7\u1785\u17d2\u1785\u179f\u1793\u17d2\u1799\u17b6\u1787\u17b6\u1798\u17bd\u1799 Esan Ozenki \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ក្នុងឆ្នាំ ១៩៩៩",
+    "question": "តើ Aztlan Underground បានចុះកិច្ចសន្យាជាមួយ Esan Ozenki នៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e5",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e8",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e0\u17e9"
+      "ក្នុងឆ្នាំ ១៩៩៥",
+      "ក្នុងឆ្នាំ ១៩៩៨",
+      "ក្នុងឆ្នាំ ២០០៩"
     ]
   },
   {
     "answer": "Xicano Records and Film",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u179f\u17d2\u179b\u17b6\u1780\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1795\u17d2\u1791\u17b6\u179b\u17cb\u1781\u17d2\u179b\u17bd\u1793\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Aztlan Underground បានបង្កើតស្លាកតន្ត្រីផ្ទាល់ខ្លួនអ្វី?",
     "wrong_answers": [
       "Esan Ozenki",
       "Universal",
@@ -54,17 +54,17 @@
     ]
   },
   {
-    "answer": "\u1794\u17bd\u1793",
-    "question": "\u178f\u17be Aztlan Underground \u1791\u1791\u17bd\u179b\u1794\u17b6\u1793\u1780\u17b6\u179a\u178f\u17c2\u1784\u178f\u17b6\u17c6\u1784\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb Native American Music Award \u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793?",
+    "answer": "បួន",
+    "question": "តើ Aztlan Underground ទទួលបានការតែងតាំងសម្រាប់ Native American Music Award ប៉ុន្មាន?",
     "wrong_answers": [
-      "\u1798\u17bd\u1799",
-      "\u1796\u17b8\u179a",
-      "\u1794\u17b8"
+      "មួយ",
+      "ពីរ",
+      "បី"
     ]
   },
   {
     "answer": "Decolonize",
-    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u1794\u17ca\u17bb\u1798\u178a\u17c6\u1794\u17bc\u1784\u179a\u1794\u179f\u17cb Aztlan Underground \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើអាល់ប៊ុមដំបូងរបស់ Aztlan Underground មានឈ្មោះអ្វី?",
     "wrong_answers": [
       "Sub-Verses",
       "Aztlan Underground",
@@ -73,7 +73,7 @@
   },
   {
     "answer": "Moztlitta",
-    "question": "\u178f\u17be\u1794\u1791\u1785\u1798\u17d2\u179a\u17c0\u1784\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c5\u179b\u17be\u17a2\u17b6\u179b\u17cb\u1794\u17ca\u17bb\u1798 ",
+    "question": "តើបទចម្រៀងដំបូងនៅលើអាល់ប៊ុម ",
     "wrong_answers": [
       "Be God",
       "Light Shines",
@@ -81,26 +81,26 @@
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e0\u17e9",
-    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u1794\u17ca\u17bb\u1798 ",
+    "answer": "នៅក្នុងឆ្នាំ ២០០៩",
+    "question": "តើអាល់ប៊ុម ",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e5",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e8",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e1\u17e0"
+      "នៅក្នុងឆ្នាំ ១៩៩៥",
+      "នៅក្នុងឆ្នាំ ១៩៩៨",
+      "នៅក្នុងឆ្នាំ ២០១០"
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e3",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u179b\u17c1\u1785\u1798\u17bb\u1781\u1793\u17c5 Culture Clash \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ក្នុងឆ្នាំ ១៩៩៣",
+    "question": "តើ Aztlan Underground បានលេចមុខនៅ Culture Clash នៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e5",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e8",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e0\u17e9"
+      "ក្នុងឆ្នាំ ១៩៩៥",
+      "ក្នុងឆ្នាំ ១៩៩៨",
+      "ក្នុងឆ្នាំ ២០០៩"
     ]
   },
   {
     "answer": "Breaking Out",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u1780\u17d2\u1793\u17bb\u1784\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u1794\u1784\u17d2\u17a0\u17b6\u1789\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Aztlan Underground បានចូលរួមក្នុងកម្មវិធីបង្ហាញតន្ត្រីអ្វី?",
     "wrong_answers": [
       "Culture Clash",
       "The Farce of July",
@@ -108,8 +108,8 @@
     ]
   },
   {
-    "answer": "Algun Dia \u1793\u17b7\u1784 Frontierland",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u179b\u17c1\u1785\u1798\u17bb\u1781\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u17af\u1780\u179a\u17b6\u1787\u17d2\u1799\u178e\u17b6?",
+    "answer": "Algun Dia និង Frontierland",
+    "question": "តើ Aztlan Underground បានលេចមុខនៅក្នុងខ្សែភាពយន្តឯករាជ្យណា?",
     "wrong_answers": [
       "Studio 49",
       "Culture Clash",
@@ -118,7 +118,7 @@
   },
   {
     "answer": "Los Angeles Times",
-    "question": "\u178f\u17be Aztlan Underground \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179b\u17be\u1780\u17a1\u17be\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179f\u17c2\u178f\u178e\u17b6?",
+    "question": "តើ Aztlan Underground ត្រូវបានលើកឡើងនៅក្នុងកាសែតណា?",
     "wrong_answers": [
       "Vancouver Sun",
       "New Times",
@@ -127,7 +127,7 @@
   },
   {
     "answer": "It's Not About a Salary",
-    "question": "\u178f\u17be\u179f\u17c0\u179c\u1797\u17c5\u178e\u17b6\u178a\u17c2\u179b\u1798\u17b6\u1793\u1795\u17d2\u1793\u17c2\u1780\u1798\u17bd\u1799\u178a\u17c2\u179b\u1793\u17b7\u1799\u17b6\u1799\u17a2\u17c6\u1796\u17b8 Aztlan Underground?",
+    "question": "តើសៀវភៅណាដែលមានផ្នែកមួយដែលនិយាយអំពី Aztlan Underground?",
     "wrong_answers": [
       "The Farce of July",
       "Indigenous People's Day",
@@ -136,7 +136,7 @@
   },
   {
     "answer": "The Farce of July",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u1780\u17d2\u1793\u17bb\u1784\u1796\u17d2\u179a\u17b9\u178f\u17d2\u178f\u17b7\u1780\u17b6\u179a\u178e\u17cd\u1794\u17d2\u179a\u1785\u17b6\u17c6\u1786\u17d2\u1793\u17b6\u17c6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Aztlan Underground បានចូលរួមក្នុងព្រឹត្តិការណ៍ប្រចាំឆ្នាំអ្វី?",
     "wrong_answers": [
       "Breaking Out",
       "Indigenous People's Day",
@@ -145,7 +145,7 @@
   },
   {
     "answer": "Spain",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u178a\u17c6\u178e\u17be\u179a\u1791\u17c5\u1794\u17d2\u179a\u1791\u17c1\u179f\u178e\u17b6?",
+    "question": "តើ Aztlan Underground បានធ្វើដំណើរទៅប្រទេសណា?",
     "wrong_answers": [
       "France",
       "Portugal",
@@ -154,16 +154,16 @@
   },
   {
     "answer": "Best Latin Influenced",
-    "question": "\u178f\u17be Aztlan Underground \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u178f\u17c2\u1784\u178f\u17b6\u17c6\u1784\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1797\u17c1\u1791\u17a2\u17d2\u179c\u17b8\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 New Times?",
+    "question": "តើ Aztlan Underground ត្រូវបានតែងតាំងក្នុងប្រភេទអ្វីនៅក្នុង New Times?",
     "wrong_answers": [
-      "Best Rock en Espa\u00f1ol",
+      "Best Rock en Español",
       "Best Hip Hop",
       "Best Native American Music"
     ]
   },
   {
     "answer": "BAM Magazine",
-    "question": "\u178f\u17be Aztlan Underground \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u178f\u17c2\u1784\u178f\u17b6\u17c6\u1784\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1797\u17c1\u1791 ",
+    "question": "តើ Aztlan Underground ត្រូវបានតែងតាំងក្នុងប្រភេទ ",
     "wrong_answers": [
       "New Times",
       "LA Weekly",
@@ -172,7 +172,7 @@
   },
   {
     "answer": "LA Weekly",
-    "question": "\u178f\u17be Aztlan Underground \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u178f\u17c2\u1784\u178f\u17b6\u17c6\u1784\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1797\u17c1\u1791 ",
+    "question": "តើ Aztlan Underground ត្រូវបានតែងតាំងក្នុងប្រភេទ ",
     "wrong_answers": [
       "New Times",
       "BAM Magazine",
@@ -181,7 +181,7 @@
   },
   {
     "answer": "Native American Music Award",
-    "question": "\u178f\u17be Aztlan Underground \u1791\u1791\u17bd\u179b\u1794\u17b6\u1793\u1780\u17b6\u179a\u178f\u17c2\u1784\u178f\u17b6\u17c6\u1784\u1796\u17b8\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Aztlan Underground ទទួលបានការតែងតាំងពីអ្វី?",
     "wrong_answers": [
       "New Times",
       "BAM Magazine",
@@ -190,7 +190,7 @@
   },
   {
     "answer": "Chicano rap",
-    "question": "\u178f\u17be Aztlan Underground \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1785\u17b6\u178f\u17cb\u1791\u17bb\u1780\u1790\u17b6\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Aztlan Underground ត្រូវបានចាត់ទុកថាជាអ្វី?",
     "wrong_answers": [
       "Punk Rock",
       "Jazz",
@@ -198,8 +198,8 @@
     ]
   },
   {
-    "answer": "Hip-Hop, Punk Rock, Jazz, \u1793\u17b7\u1784 Electronic Music",
-    "question": "\u178f\u17be Aztlan Underground \u179a\u17bd\u1798\u1794\u1789\u17d2\u1785\u17bc\u179b\u1794\u17d2\u179a\u1797\u17c1\u1791\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7?",
+    "answer": "Hip-Hop, Punk Rock, Jazz, និង Electronic Music",
+    "question": "តើ Aztlan Underground រួមបញ្ចូលប្រភេទតន្ត្រីអ្វីខ្លះ?",
     "wrong_answers": [
       "Chicano",
       "Native American",
@@ -207,8 +207,8 @@
     ]
   },
   {
-    "answer": "Indigenous drums, flutes, \u1793\u17b7\u1784 rattles",
-    "question": "\u178f\u17be\u17a7\u1794\u1780\u179a\u178e\u17cd\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u17a2\u17d2\u179c\u17b8\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u1787\u17b6\u1791\u17bc\u1791\u17c5\u1780\u17d2\u1793\u17bb\u1784\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u179a\u1794\u179f\u17cb Aztlan Underground?",
+    "answer": "Indigenous drums, flutes, និង rattles",
+    "question": "តើឧបករណ៍តន្ត្រីអ្វីត្រូវបានប្រើប្រាស់ជាទូទៅក្នុងតន្ត្រីរបស់ Aztlan Underground?",
     "wrong_answers": [
       "Guitar",
       "Bass",
@@ -217,7 +217,7 @@
   },
   {
     "answer": "Los Angeles",
-    "question": "\u178f\u17be Aztlan Underground \u1798\u1780\u1796\u17b8\u1791\u17b8\u178e\u17b6?",
+    "question": "តើ Aztlan Underground មកពីទីណា?",
     "wrong_answers": [
       "New York",
       "San Francisco",
@@ -226,7 +226,7 @@
   },
   {
     "answer": "Culture Clash",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u179b\u17c1\u1785\u1798\u17bb\u1781\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u1794\u1784\u17d2\u17a0\u17b6\u1789\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Aztlan Underground បានលេចមុខនៅក្នុងកម្មវិធីបង្ហាញតន្ត្រីអ្វី?",
     "wrong_answers": [
       "Breaking Out",
       "The Farce of July",
@@ -235,7 +235,7 @@
   },
   {
     "answer": "Studio 49",
-    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b Aztlan Underground \u1793\u17b9\u1784\u179b\u17c1\u1785\u1798\u17bb\u1781?",
+    "question": "តើខ្សែភាពយន្តអ្វីដែល Aztlan Underground នឹងលេចមុខ?",
     "wrong_answers": [
       "Algun Dia",
       "Frontierland",
@@ -244,7 +244,7 @@
   },
   {
     "answer": "Esan Ozenki",
-    "question": "\u178f\u17be\u179f\u17d2\u179b\u17b6\u1780\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u178e\u17b6\u178a\u17c2\u179b Aztlan Underground \u1794\u17b6\u1793\u1785\u17bb\u17c7\u1780\u17b7\u1785\u17d2\u1785\u179f\u1793\u17d2\u1799\u17b6?",
+    "question": "តើស្លាកតន្ត្រីណាដែល Aztlan Underground បានចុះកិច្ចសន្យា?",
     "wrong_answers": [
       "Xicano Records and Film",
       "Universal",
@@ -253,7 +253,7 @@
   },
   {
     "answer": "The Farce of July",
-    "question": "\u178f\u17be\u1796\u17d2\u179a\u17b9\u178f\u17d2\u178f\u17b7\u1780\u17b6\u179a\u178e\u17cd\u1794\u17d2\u179a\u1785\u17b6\u17c6\u1786\u17d2\u1793\u17b6\u17c6\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b Aztlan Underground \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798?",
+    "question": "តើព្រឹត្តិការណ៍ប្រចាំឆ្នាំអ្វីដែល Aztlan Underground បានចូលរួម?",
     "wrong_answers": [
       "Breaking Out",
       "Indigenous People's Day",
@@ -261,8 +261,8 @@
     ]
   },
   {
-    "answer": "Spain, France, \u1793\u17b7\u1784 Portugal",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u178a\u17c6\u178e\u17be\u179a\u1791\u17c5\u1794\u17d2\u179a\u1791\u17c1\u179f\u178e\u17b6\u1781\u17d2\u179b\u17c7?",
+    "answer": "Spain, France, និង Portugal",
+    "question": "តើ Aztlan Underground បានធ្វើដំណើរទៅប្រទេសណាខ្លះ?",
     "wrong_answers": [
       "Canada",
       "Australia",
@@ -271,16 +271,16 @@
   },
   {
     "answer": "Best Latin Influenced",
-    "question": "\u178f\u17be Aztlan Underground \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u178f\u17c2\u1784\u178f\u17b6\u17c6\u1784\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1797\u17c1\u1791\u17a2\u17d2\u179c\u17b8\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 New Times?",
+    "question": "តើ Aztlan Underground ត្រូវបានតែងតាំងក្នុងប្រភេទអ្វីនៅក្នុង New Times?",
     "wrong_answers": [
-      "Best Rock en Espa\u00f1ol",
+      "Best Rock en Español",
       "Best Hip Hop",
       "Best Native American Music"
     ]
   },
   {
     "answer": "Native American Music Award",
-    "question": "\u178f\u17be Aztlan Underground \u1791\u1791\u17bd\u179b\u1794\u17b6\u1793\u1780\u17b6\u179a\u178f\u17c2\u1784\u178f\u17b6\u17c6\u1784\u1796\u17b8\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Aztlan Underground ទទួលបានការតែងតាំងពីអ្វី?",
     "wrong_answers": [
       "New Times",
       "BAM Magazine",
@@ -289,7 +289,7 @@
   },
   {
     "answer": "Decolonize",
-    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u1794\u17ca\u17bb\u1798\u178a\u17c6\u1794\u17bc\u1784\u179a\u1794\u179f\u17cb Aztlan Underground \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើអាល់ប៊ុមដំបូងរបស់ Aztlan Underground មានឈ្មោះអ្វី?",
     "wrong_answers": [
       "Sub-Verses",
       "Aztlan Underground",
@@ -298,7 +298,7 @@
   },
   {
     "answer": "Moztlitta",
-    "question": "\u178f\u17be\u1794\u1791\u1785\u1798\u17d2\u179a\u17c0\u1784\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c5\u179b\u17be\u17a2\u17b6\u179b\u17cb\u1794\u17ca\u17bb\u1798 ",
+    "question": "តើបទចម្រៀងដំបូងនៅលើអាល់ប៊ុម ",
     "wrong_answers": [
       "Be God",
       "Light Shines",
@@ -307,7 +307,7 @@
   },
   {
     "answer": "Aztlan Underground",
-    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u1794\u17ca\u17bb\u1798\u1791\u17b8\u1794\u17b8\u179a\u1794\u179f\u17cb Aztlan Underground \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើអាល់ប៊ុមទីបីរបស់ Aztlan Underground មានឈ្មោះអ្វី?",
     "wrong_answers": [
       "Decolonize",
       "Sub-Verses",
@@ -316,7 +316,7 @@
   },
   {
     "answer": "It's Not About a Salary",
-    "question": "\u178f\u17be\u179f\u17c0\u179c\u1797\u17c5\u178e\u17b6\u178a\u17c2\u179b\u1798\u17b6\u1793\u1795\u17d2\u1793\u17c2\u1780\u1798\u17bd\u1799\u178a\u17c2\u179b\u1793\u17b7\u1799\u17b6\u1799\u17a2\u17c6\u1796\u17b8 Aztlan Underground?",
+    "question": "តើសៀវភៅណាដែលមានផ្នែកមួយដែលនិយាយអំពី Aztlan Underground?",
     "wrong_answers": [
       "The Farce of July",
       "Indigenous People's Day",
@@ -324,8 +324,8 @@
     ]
   },
   {
-    "answer": "Indigenous drums, flutes, \u1793\u17b7\u1784 rattles",
-    "question": "\u178f\u17be\u17a7\u1794\u1780\u179a\u178e\u17cd\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u17a2\u17d2\u179c\u17b8\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u1787\u17b6\u1791\u17bc\u1791\u17c5\u1780\u17d2\u1793\u17bb\u1784\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u179a\u1794\u179f\u17cb Aztlan Underground?",
+    "answer": "Indigenous drums, flutes, និង rattles",
+    "question": "តើឧបករណ៍តន្ត្រីអ្វីត្រូវបានប្រើប្រាស់ជាទូទៅក្នុងតន្ត្រីរបស់ Aztlan Underground?",
     "wrong_answers": [
       "Guitar",
       "Bass",
@@ -334,7 +334,7 @@
   },
   {
     "answer": "The Farce of July",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u1780\u17d2\u1793\u17bb\u1784\u1796\u17d2\u179a\u17b9\u178f\u17d2\u178f\u17b7\u1780\u17b6\u179a\u178e\u17cd\u1794\u17d2\u179a\u1785\u17b6\u17c6\u1786\u17d2\u1793\u17b6\u17c6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Aztlan Underground បានចូលរួមក្នុងព្រឹត្តិការណ៍ប្រចាំឆ្នាំអ្វី?",
     "wrong_answers": [
       "Breaking Out",
       "Indigenous People's Day",
@@ -343,7 +343,7 @@
   },
   {
     "answer": "Los Angeles",
-    "question": "\u178f\u17be Aztlan Underground \u1798\u1780\u1796\u17b8\u1791\u17b8\u178e\u17b6?",
+    "question": "តើ Aztlan Underground មកពីទីណា?",
     "wrong_answers": [
       "New York",
       "San Francisco",
@@ -351,17 +351,17 @@
     ]
   },
   {
-    "answer": "Chicano \u1793\u17b7\u1784 Native American",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u1789\u17d2\u1785\u17bc\u179b\u1794\u17d2\u179a\u1792\u17b6\u1793\u1794\u1791\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7\u1785\u17bc\u179b\u1791\u17c5\u1780\u17d2\u1793\u17bb\u1784\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u179a\u1794\u179f\u17cb\u1796\u17bd\u1780\u1782\u17c1?",
+    "answer": "Chicano និង Native American",
+    "question": "តើ Aztlan Underground បញ្ចូលប្រធានបទអ្វីខ្លះចូលទៅក្នុងតន្ត្រីរបស់ពួកគេ?",
     "wrong_answers": [
-      "Hip-Hop \u1793\u17b7\u1784 Punk Rock",
-      "Jazz \u1793\u17b7\u1784 Electronic Music",
-      "Indie \u1793\u17b7\u1784 Rock"
+      "Hip-Hop និង Punk Rock",
+      "Jazz និង Electronic Music",
+      "Indie និង Rock"
     ]
   },
   {
     "answer": "Chicano rap",
-    "question": "\u178f\u17be Aztlan Underground \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u1785\u17b6\u178f\u17cb\u1791\u17bb\u1780\u1790\u17b6\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Aztlan Underground ត្រូវបានគេចាត់ទុកថាជាអ្វី?",
     "wrong_answers": [
       "Pop rap",
       "Trap",
@@ -369,8 +369,8 @@
     ]
   },
   {
-    "answer": "Hip-Hop, Punk Rock, Jazz, \u1793\u17b7\u1784 Electronic Music",
-    "question": "\u178f\u17be Aztlan Underground \u179a\u17bd\u1798\u1794\u1789\u17d2\u1785\u17bc\u179b\u1794\u17d2\u179a\u1797\u17c1\u1791\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7?",
+    "answer": "Hip-Hop, Punk Rock, Jazz, និង Electronic Music",
+    "question": "តើ Aztlan Underground រួមបញ្ចូលប្រភេទតន្ត្រីអ្វីខ្លះ?",
     "wrong_answers": [
       "Chicano",
       "Native American",
@@ -378,26 +378,26 @@
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1785\u17bb\u1784\u1791\u179f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e8\u17e0 \u1793\u17c5\u1797\u17b6\u1782\u1781\u17b6\u1784\u1780\u17be\u178f\u1793\u17c3\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 Los Angeles",
-    "question": "\u178f\u17be Aztlan Underground \u1798\u17b6\u1793\u178a\u17be\u1798\u1780\u17c6\u178e\u17be\u178f\u1793\u17c5\u1791\u17b8\u178e\u17b6?",
+    "answer": "នៅចុងទសវត្សរ៍ឆ្នាំ ១៩៨០ នៅភាគខាងកើតនៃទីក្រុង Los Angeles",
+    "question": "តើ Aztlan Underground មានដើមកំណើតនៅទីណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 New York",
-      "\u1793\u17c5\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 San Francisco",
-      "\u1793\u17c5\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 Chicago"
+      "នៅទីក្រុង New York",
+      "នៅទីក្រុង San Francisco",
+      "នៅទីក្រុង Chicago"
     ]
   },
   {
-    "answer": "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1795\u17d2\u179f\u1796\u17d2\u179c\u1795\u17d2\u179f\u17b6\u1799\u1796\u17b8\u1794\u1789\u17d2\u17a0\u17b6\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a \u1793\u17b7\u1784\u179f\u17c1\u178a\u17d2\u178b\u1780\u17b7\u1785\u17d2\u1785\u178a\u17c2\u179b\u179f\u17a0\u1782\u1798\u1793\u17cd Chicano \u1780\u17c6\u1796\u17bb\u1784\u1787\u17bd\u1794\u1794\u17d2\u179a\u1791\u17c7",
-    "question": "\u178f\u17be\u17a2\u178f\u17d2\u1790\u1793\u17d0\u1799\u1793\u17c3\u1791\u17c6\u1793\u17bb\u1780\u1785\u17d2\u179a\u17c0\u1784\u179a\u1794\u179f\u17cb Aztlan Underground \u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ដើម្បីផ្សព្វផ្សាយពីបញ្ហាគ្រួសារ និងសេដ្ឋកិច្ចដែលសហគមន៍ Chicano កំពុងជួបប្រទះ",
+    "question": "តើអត្ថន័យនៃទំនុកច្រៀងរបស់ Aztlan Underground ជាអ្វី?",
     "wrong_answers": [
-      "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1794\u1784\u17d2\u1780\u17be\u178f\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u178a\u17be\u1798",
-      "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1795\u17d2\u179f\u1796\u17d2\u179c\u1795\u17d2\u179f\u17b6\u1799\u17a2\u17c6\u1796\u17b8\u179c\u1794\u17d2\u1794\u1792\u1798\u17cc Chicano",
-      "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1794\u1784\u17d2\u17a0\u17b6\u1789\u179f\u17d2\u1791\u17b8\u179b\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1790\u17d2\u1798\u17b8"
+      "ដើម្បីបង្កើតតន្ត្រីដើម",
+      "ដើម្បីផ្សព្វផ្សាយអំពីវប្បធម៌ Chicano",
+      "ដើម្បីបង្ហាញស្ទីលតន្ត្រីថ្មី"
     ]
   },
   {
     "answer": "Xicano Records and Film",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u179f\u17d2\u179b\u17b6\u1780\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1795\u17d2\u1791\u17b6\u179b\u17cb\u1781\u17d2\u179b\u17bd\u1793\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Aztlan Underground បានបង្កើតស្លាកតន្ត្រីផ្ទាល់ខ្លួនអ្វី?",
     "wrong_answers": [
       "Esan Ozenki",
       "Universal",
@@ -405,17 +405,17 @@
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e9",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u1785\u17bb\u17c7\u1780\u17b7\u1785\u17d2\u1785\u179f\u1793\u17d2\u1799\u17b6\u1787\u17b6\u1798\u17bd\u1799 Esan Ozenki \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ក្នុងឆ្នាំ ១៩៩៩",
+    "question": "តើ Aztlan Underground បានចុះកិច្ចសន្យាជាមួយ Esan Ozenki នៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e5",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e8",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e0\u17e9"
+      "ក្នុងឆ្នាំ ១៩៩៥",
+      "ក្នុងឆ្នាំ ១៩៩៨",
+      "ក្នុងឆ្នាំ ២០០៩"
     ]
   },
   {
     "answer": "Esan Ozenki",
-    "question": "\u178f\u17be\u179f\u17d2\u179b\u17b6\u1780\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u178e\u17b6\u178a\u17c2\u179b Aztlan Underground \u1794\u17b6\u1793\u1785\u17bb\u17c7\u1780\u17b7\u1785\u17d2\u1785\u179f\u1793\u17d2\u1799\u17b6?",
+    "question": "តើស្លាកតន្ត្រីណាដែល Aztlan Underground បានចុះកិច្ចសន្យា?",
     "wrong_answers": [
       "Xicano Records and Film",
       "Universal",
@@ -423,17 +423,17 @@
     ]
   },
   {
-    "answer": "\u1794\u17bd\u1793",
-    "question": "\u178f\u17be Aztlan Underground \u1791\u1791\u17bd\u179b\u1794\u17b6\u1793\u1780\u17b6\u179a\u178f\u17c2\u1784\u178f\u17b6\u17c6\u1784\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb Native American Music Award \u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793?",
+    "answer": "បួន",
+    "question": "តើ Aztlan Underground ទទួលបានការតែងតាំងសម្រាប់ Native American Music Award ប៉ុន្មាន?",
     "wrong_answers": [
-      "\u1798\u17bd\u1799",
-      "\u1796\u17b8\u179a",
-      "\u1794\u17b8"
+      "មួយ",
+      "ពីរ",
+      "បី"
     ]
   },
   {
     "answer": "Culture Clash",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u179b\u17c1\u1785\u1798\u17bb\u1781\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u1794\u1784\u17d2\u17a0\u17b6\u1789\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Aztlan Underground បានលេចមុខនៅក្នុងកម្មវិធីបង្ហាញតន្ត្រីអ្វី?",
     "wrong_answers": [
       "Breaking Out",
       "The Farce of July",
@@ -442,7 +442,7 @@
   },
   {
     "answer": "Breaking Out",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u1780\u17d2\u1793\u17bb\u1784\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u1794\u1784\u17d2\u17a0\u17b6\u1789\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Aztlan Underground បានចូលរួមក្នុងកម្មវិធីបង្ហាញតន្ត្រីអ្វី?",
     "wrong_answers": [
       "Culture Clash",
       "The Farce of July",
@@ -451,7 +451,7 @@
   },
   {
     "answer": "Studio 49",
-    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b Aztlan Underground \u1793\u17b9\u1784\u179b\u17c1\u1785\u1798\u17bb\u1781?",
+    "question": "តើខ្សែភាពយន្តអ្វីដែល Aztlan Underground នឹងលេចមុខ?",
     "wrong_answers": [
       "Algun Dia",
       "Frontierland",
@@ -459,8 +459,8 @@
     ]
   },
   {
-    "answer": "Algun Dia \u1793\u17b7\u1784 Frontierland",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u179b\u17c1\u1785\u1798\u17bb\u1781\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u17af\u1780\u179a\u17b6\u1787\u17d2\u1799\u178e\u17b6?",
+    "answer": "Algun Dia និង Frontierland",
+    "question": "តើ Aztlan Underground បានលេចមុខនៅក្នុងខ្សែភាពយន្តឯករាជ្យណា?",
     "wrong_answers": [
       "Studio 49",
       "Culture Clash",
@@ -469,7 +469,7 @@
   },
   {
     "answer": "Los Angeles Times",
-    "question": "\u178f\u17be Aztlan Underground \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179b\u17be\u1780\u17a1\u17be\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179f\u17c2\u178f\u178e\u17b6?",
+    "question": "តើ Aztlan Underground ត្រូវបានលើកឡើងនៅក្នុងកាសែតណា?",
     "wrong_answers": [
       "Vancouver Sun",
       "New Times",
@@ -477,8 +477,8 @@
     ]
   },
   {
-    "answer": "Canada, Australia, \u1793\u17b7\u1784 Venezuela",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u178a\u17c6\u178e\u17be\u179a\u1791\u17c5\u1794\u17d2\u179a\u1791\u17c1\u179f\u178e\u17b6\u1781\u17d2\u179b\u17c7?",
+    "answer": "Canada, Australia, និង Venezuela",
+    "question": "តើ Aztlan Underground បានធ្វើដំណើរទៅប្រទេសណាខ្លះ?",
     "wrong_answers": [
       "Spain",
       "France",
@@ -487,16 +487,16 @@
   },
   {
     "answer": "Best Latin Influenced",
-    "question": "\u178f\u17be Aztlan Underground \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u178f\u17c2\u1784\u178f\u17b6\u17c6\u1784\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1797\u17c1\u1791\u17a2\u17d2\u179c\u17b8\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 New Times?",
+    "question": "តើ Aztlan Underground ត្រូវបានតែងតាំងក្នុងប្រភេទអ្វីនៅក្នុង New Times?",
     "wrong_answers": [
-      "Best Rock en Espa\u00f1ol",
+      "Best Rock en Español",
       "Best Hip Hop",
       "Best Native American Music"
     ]
   },
   {
     "answer": "BAM Magazine",
-    "question": "\u178f\u17be Aztlan Underground \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u178f\u17c2\u1784\u178f\u17b6\u17c6\u1784\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1797\u17c1\u1791 ",
+    "question": "តើ Aztlan Underground ត្រូវបានតែងតាំងក្នុងប្រភេទ ",
     "wrong_answers": [
       "New Times",
       "LA Weekly",
@@ -505,7 +505,7 @@
   },
   {
     "answer": "LA Weekly",
-    "question": "\u178f\u17be Aztlan Underground \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u178f\u17c2\u1784\u178f\u17b6\u17c6\u1784\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1797\u17c1\u1791 ",
+    "question": "តើ Aztlan Underground ត្រូវបានតែងតាំងក្នុងប្រភេទ ",
     "wrong_answers": [
       "New Times",
       "BAM Magazine",
@@ -514,7 +514,7 @@
   },
   {
     "answer": "Native American Music Award",
-    "question": "\u178f\u17be Aztlan Underground \u1791\u1791\u17bd\u179b\u1794\u17b6\u1793\u1780\u17b6\u179a\u178f\u17c2\u1784\u178f\u17b6\u17c6\u1784\u1796\u17b8\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Aztlan Underground ទទួលបានការតែងតាំងពីអ្វី?",
     "wrong_answers": [
       "New Times",
       "BAM Magazine",
@@ -523,7 +523,7 @@
   },
   {
     "answer": "It's Not About a Salary",
-    "question": "\u178f\u17be\u179f\u17c0\u179c\u1797\u17c5\u178e\u17b6\u178a\u17c2\u179b\u1798\u17b6\u1793\u1795\u17d2\u1793\u17c2\u1780\u1798\u17bd\u1799\u178a\u17c2\u179b\u1793\u17b7\u1799\u17b6\u1799\u17a2\u17c6\u1796\u17b8 Aztlan Underground?",
+    "question": "តើសៀវភៅណាដែលមានផ្នែកមួយដែលនិយាយអំពី Aztlan Underground?",
     "wrong_answers": [
       "The Farce of July",
       "Indigenous People's Day",
@@ -532,7 +532,7 @@
   },
   {
     "answer": "Decolonize",
-    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u1794\u17ca\u17bb\u1798\u178a\u17c6\u1794\u17bc\u1784\u179a\u1794\u179f\u17cb Aztlan Underground \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើអាល់ប៊ុមដំបូងរបស់ Aztlan Underground មានឈ្មោះអ្វី?",
     "wrong_answers": [
       "Sub-Verses",
       "Aztlan Underground",
@@ -541,7 +541,7 @@
   },
   {
     "answer": "Moztlitta",
-    "question": "\u178f\u17be\u1794\u1791\u1785\u1798\u17d2\u179a\u17c0\u1784\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c5\u179b\u17be\u17a2\u17b6\u179b\u17cb\u1794\u17ca\u17bb\u1798 ",
+    "question": "តើបទចម្រៀងដំបូងនៅលើអាល់ប៊ុម ",
     "wrong_answers": [
       "Be God",
       "Light Shines",
@@ -550,7 +550,7 @@
   },
   {
     "answer": "Aztlan Underground",
-    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u1794\u17ca\u17bb\u1798\u1791\u17b8\u1794\u17b8\u179a\u1794\u179f\u17cb Aztlan Underground \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើអាល់ប៊ុមទីបីរបស់ Aztlan Underground មានឈ្មោះអ្វី?",
     "wrong_answers": [
       "Decolonize",
       "Sub-Verses",
@@ -558,21 +558,21 @@
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e0\u17e9",
-    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u1794\u17ca\u17bb\u1798 ",
+    "answer": "ក្នុងឆ្នាំ ២០០៩",
+    "question": "តើអាល់ប៊ុម ",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e5",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e8",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e1\u17e0"
+      "នៅក្នុងឆ្នាំ ១៩៩៥",
+      "នៅក្នុងឆ្នាំ ១៩៩៨",
+      "នៅក្នុងឆ្នាំ ២០១០"
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e3",
-    "question": "\u178f\u17be Aztlan Underground \u1794\u17b6\u1793\u179b\u17c1\u1785\u1798\u17bb\u1781\u1793\u17c5 Culture Clash \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ក្នុងឆ្នាំ ១៩៩៣",
+    "question": "តើ Aztlan Underground បានលេចមុខនៅ Culture Clash នៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e5",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e8",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e0\u17e9"
+      "ក្នុងឆ្នាំ ១៩៩៥",
+      "ក្នុងឆ្នាំ ១៩៩៨",
+      "ក្នុងឆ្នាំ ២០០៩"
     ]
   }
 ]

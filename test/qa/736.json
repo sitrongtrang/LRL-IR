@@ -1,7 +1,7 @@
 [
   {
-    "answer": "Adobe Photoshop \u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u1780\u17c2\u179f\u1798\u17d2\u179a\u17bd\u179b\u179a\u17bc\u1794\u1797\u17b6\u1796",
-    "question": "\u178f\u17be\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u1795\u17d2\u179b\u17bc\u179c\u1780\u17b6\u179a\u178a\u17cf\u179b\u17d2\u1794\u17b8\u179b\u17d2\u1794\u17b6\u1789\u1794\u17c6\u1795\u17bb\u178f\u179a\u1794\u179f\u17cb Adobe \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "answer": "Adobe Photoshop កម្មវិធីកែសម្រួលរូបភាព",
+    "question": "តើកម្មវិធីផ្លូវការដ៏ល្បីល្បាញបំផុតរបស់ Adobe មានឈ្មោះអ្វី?",
     "wrong_answers": [
       "Adobe Illustrator",
       "Adobe Acrobat Reader",
@@ -9,44 +9,44 @@
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796\u178f\u17bb",
-    "question": "\u178f\u17be PostScript \u1787\u17bd\u1799\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178f\u17be\u1798\u1794\u178a\u17b7\u179c\u178f\u17d2\u178f\u1793\u17cd\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ការបោះពុម្ពតុ",
+    "question": "តើ PostScript ជួយចាប់ផ្តើមបដិវត្តន៍អ្វី?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796\u178c\u17b8\u1787\u17b8\u1790\u179b",
-      "\u1780\u17b6\u179a\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796\u1780\u17d2\u179a\u178a\u17b6\u179f",
-      "\u1780\u17b6\u179a\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796 3D"
+      "ការបោះពុម្ពឌីជីថល",
+      "ការបោះពុម្ពក្រដាស",
+      "ការបោះពុម្ព 3D"
     ]
   },
   {
-    "answer": "\u1785\u1793 \u179c\u17c9\u17b6\u179a\u178e\u17bb\u1780 \u1793\u17b7\u1784 \u1785\u17b6\u179b \u17a0\u17d2\u1782\u17c1\u179f\u1781\u17c1",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u1784\u17d2\u1780\u17be\u178f Adobe?",
+    "answer": "ចន វ៉ារណុក និង ចាល ហ្គេសខេ",
+    "question": "តើអ្នកណាជាអ្នកបង្កើត Adobe?",
     "wrong_answers": [
-      "\u179f\u17d2\u1791\u17b8\u179c \u1785\u1794",
-      "\u1798\u17c9\u17b6\u179c\u17c9\u17b6 \u179c\u17c9\u17b6\u179a\u178e\u17bb\u1780",
-      "\u1782\u17d2\u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1791\u17c1"
+      "ស្ទីវ ចប",
+      "ម៉ាវ៉ា វ៉ារណុក",
+      "គ្មានអ្នកណាទេ"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u1793\u17d2\u1791\u1794\u17cb\u1780\u17b6\u179a\u1784\u17b6\u179a\u179a\u1794\u179f\u17cb \u1785\u1793 \u179c\u17c9\u17b6\u179a\u178e\u17bb\u1780",
-    "question": "\u178f\u17be Adobe \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178f\u17be\u1798\u1793\u17c5\u17af\u178e\u17b6?",
+    "answer": "នៅក្នុងបន្ទប់ការងាររបស់ ចន វ៉ារណុក",
+    "question": "តើ Adobe ត្រូវបានចាប់ផ្តើមនៅឯណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1798\u1793\u17d2\u1791\u17b8\u179a\u1796\u17b7\u179f\u17c4\u1792\u1793\u17cd Xerox PARC",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u17b7\u1799\u17b6\u179b\u17d0\u1799\u1793\u17c5 San Jose",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u17a0\u17b6\u1784\u1795\u17d2\u179f\u17b6\u179a"
+      "នៅក្នុងមន្ទីរពិសោធន៍ Xerox PARC",
+      "នៅក្នុងការិយាល័យនៅ San Jose",
+      "នៅក្នុងហាងផ្សារ"
     ]
   },
   {
-    "answer": "Adobe Creek \u1793\u17c5 Los Altos",
-    "question": "\u1788\u17d2\u1798\u17c4\u17c7\u179a\u1794\u179f\u17cb Adobe \u1798\u1780\u1796\u17b8\u178e\u17b6?",
+    "answer": "Adobe Creek នៅ Los Altos",
+    "question": "ឈ្មោះរបស់ Adobe មកពីណា?",
     "wrong_answers": [
-      "\u1788\u17d2\u1798\u17c4\u17c7\u179a\u1794\u179f\u17cb\u17a2\u17d2\u1793\u1780\u1794\u1784\u17d2\u1780\u17be\u178f",
-      "\u1788\u17d2\u1798\u17c4\u17c7\u1793\u17c3\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u178a\u17c6\u1794\u17bc\u1784",
-      "\u1788\u17d2\u1798\u17c4\u17c7\u179a\u1794\u179f\u17cb\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u1795\u17d2\u179f\u17c1\u1784\u1791\u17c0\u178f"
+      "ឈ្មោះរបស់អ្នកបង្កើត",
+      "ឈ្មោះនៃកម្មវិធីដំបូង",
+      "ឈ្មោះរបស់ក្រុមហ៊ុនផ្សេងទៀត"
     ]
   },
   {
     "answer": "Mudbrick",
-    "question": "\u178f\u17be Adobe \u1787\u17b6\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17c1\u179f\u17d2\u1794\u17c9\u17b6\u1789\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Adobe ជាឈ្មោះអេស្ប៉ាញសម្រាប់អ្វី?",
     "wrong_answers": [
       "Stone",
       "Wood",
@@ -54,26 +54,26 @@
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e8\u17e2",
-    "question": "\u178f\u17be Adobe \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ក្នុងឆ្នាំ ១៩៨២",
+    "question": "តើ Adobe ត្រូវបានបង្កើតនៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e8\u17e5",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e8\u17e7",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e0"
+      "ក្នុងឆ្នាំ ១៩៨៥",
+      "ក្នុងឆ្នាំ ១៩៨៧",
+      "ក្នុងឆ្នាំ ១៩៩០"
     ]
   },
   {
-    "answer": "\u179f\u17d2\u1791\u17b8\u179c \u1785\u1794",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1796\u17d2\u1799\u17b6\u1799\u17b6\u1798\u1791\u17b7\u1789 Adobe \u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e8\u17e2?",
+    "answer": "ស្ទីវ ចប",
+    "question": "តើអ្នកណាបានព្យាយាមទិញ Adobe ក្នុងឆ្នាំ ១៩៨២?",
     "wrong_answers": [
-      "\u1785\u1793 \u179c\u17c9\u17b6\u179a\u178e\u17bb\u1780",
-      "\u1785\u17b6\u179b \u17a0\u17d2\u1782\u17c1\u179f\u1781\u17c1",
-      "\u1798\u17c9\u17b6\u179c\u17c9\u17b6 \u179c\u17c9\u17b6\u179a\u178e\u17bb\u1780"
+      "ចន វ៉ារណុក",
+      "ចាល ហ្គេសខេ",
+      "ម៉ាវ៉ា វ៉ារណុក"
     ]
   },
   {
     "answer": "PostScript",
-    "question": "\u178f\u17be Adobe \u1794\u17b6\u1793\u17a2\u1797\u17b7\u179c\u178c\u17d2\u178d\u1797\u17b6\u179f\u17b6\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u1787\u17b6\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796?",
+    "question": "តើ Adobe បានអភិវឌ្ឍភាសាអ្វីដែលជាកម្មវិធីបោះពុម្ព?",
     "wrong_answers": [
       "HTML",
       "CSS",
@@ -81,12 +81,12 @@
     ]
   },
   {
-    "answer": "Helvetica \u1793\u17b7\u1784 Times Roman",
-    "question": "\u178f\u17be Adobe \u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u17a2\u17b6\u1787\u17d2\u1789\u17b6\u1794\u17d0\u178e\u17d2\u178e\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1796\u17bb\u1798\u17d2\u1796\u17a2\u1780\u17d2\u179f\u179a\u17a2\u17d2\u179c\u17b8?",
+    "answer": "Helvetica និង Times Roman",
+    "question": "តើ Adobe បានទទួលអាជ្ញាប័ណ្ណសម្រាប់ពុម្ពអក្សរអ្វី?",
     "wrong_answers": [
-      "Arial \u1793\u17b7\u1784 Verdana",
-      "Courier \u1793\u17b7\u1784 Times New Roman",
-      "Georgia \u1793\u17b7\u1784 Palatino"
+      "Arial និង Verdana",
+      "Courier និង Times New Roman",
+      "Georgia និង Palatino"
     ]
   }
 ]

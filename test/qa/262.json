@@ -1,16 +1,16 @@
 [
   {
-    "answer": "\u1780\u17b6\u179a\u1794\u17d2\u179a\u1780\u17bd\u178f\u1780\u17b8\u17a1\u17b6\u1782\u17bb\u1793\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u1793\u17b7\u1784\u17a2\u17bc\u179f\u17d2\u178f\u17d2\u179a\u17b6\u179b\u17b8",
-    "question": "\u178f\u17be 'The Men's Ashes' \u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ការប្រកួតកីឡាគុនអង់គ្លេសនិងអូស្ត្រាលី",
+    "question": "តើ 'The Men's Ashes' គឺជាអ្វី?",
     "wrong_answers": [
-      "\u179f\u1784\u17d2\u1782\u17d2\u179a\u17b6\u1798",
-      "\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u1794\u17d2\u179a\u1780\u17bd\u178f\u1794\u17b6\u179b\u17cb\u1791\u17b6\u178f\u17cb",
-      "\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u1794\u17d2\u179a\u1780\u17bd\u178f\u1794\u17b6\u179b\u17cb\u1794\u17c4\u17c7"
+      "សង្គ្រាម",
+      "កម្មវិធីប្រកួតបាល់ទាត់",
+      "កម្មវិធីប្រកួតបាល់បោះ"
     ]
   },
   {
     "answer": "The Sporting Times",
-    "question": "\u178f\u17be\u1780\u17b6\u179f\u17c2\u178f\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796\u1796\u17b6\u1780\u17d2\u1799\u1793\u17c1\u17c7\u178a\u17c6\u1794\u17bc\u1784?",
+    "question": "តើកាសែតណាដែលបានបោះពុម្ពពាក្យនេះដំបូង?",
     "wrong_answers": [
       "The Sun",
       "The Guardian",
@@ -18,17 +18,17 @@
     ]
   },
   {
-    "answer": "\u17a2\u17bc\u179f\u17d2\u178f\u17d2\u179a\u17b6\u179b\u17b8",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1791\u17c1\u179f\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7\u1780\u17b6\u179a\u1794\u17d2\u179a\u1780\u17bd\u178f\u1780\u17b8\u17a1\u17b6\u1782\u17bb\u1793\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e8\u17e2 \u1793\u17c5\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 The Oval?",
+    "answer": "អូស្ត្រាលី",
+    "question": "តើប្រទេសណាដែលបានឈ្នះការប្រកួតកីឡាគុននៅឆ្នាំ ១៨៨២ នៅទីក្រុង The Oval?",
     "wrong_answers": [
-      "\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f",
-      "\u17a5\u178e\u17d2\u178c\u17b6",
-      "\u1794\u17b6\u179a\u17b6\u17c6\u1784"
+      "អង់គ្លេស",
+      "ឥណ្ឌា",
+      "បារាំង"
     ]
   },
   {
     "answer": "Ivo Bligh",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17d2\u179a\u1792\u17b6\u1793\u1780\u17d2\u179a\u17bb\u1798\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e8\u17e2?",
+    "question": "តើអ្នកណាជាប្រធានក្រុមអង់គ្លេសនៅឆ្នាំ ១៨៨២?",
     "wrong_answers": [
       "Charles Studd",
       "Fred Spofforth",
@@ -36,17 +36,17 @@
     ]
   },
   {
-    "answer": "\u1794\u17b6\u179b\u17cb\u1788\u17be",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1792\u17bb\u1784 Ashes?",
+    "answer": "បាល់ឈើ",
+    "question": "តើអ្វីដែលនៅក្នុងធុង Ashes?",
     "wrong_answers": [
-      "\u1795\u17c1\u17c7",
-      "\u17a2\u1784\u17d2\u1782\u17b6\u179a",
-      "\u1798\u17b6\u179f"
+      "ផេះ",
+      "អង្គារ",
+      "មាស"
     ]
   },
   {
     "answer": "Marylebone Cricket Club",
-    "question": "\u178f\u17be\u1792\u17bb\u1784 Ashes \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1795\u17d2\u178f\u179b\u17cb\u17b1\u17d2\u1799\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើធុង Ashes ត្រូវបានផ្តល់ឱ្យអ្នកណា?",
     "wrong_answers": [
       "Ivo Bligh",
       "The Oval",
@@ -54,35 +54,35 @@
     ]
   },
   {
-    "answer": "\u17e5",
-    "question": "\u178f\u17be\u1798\u17b6\u1793\u1780\u17b6\u179a\u1794\u17d2\u179a\u1780\u17bd\u178f\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1780\u17d2\u1793\u17bb\u1784\u179f\u17ca\u17c1\u179a\u17b8 Ashes?",
+    "answer": "៥",
+    "question": "តើមានការប្រកួតប៉ុន្មានក្នុងស៊េរី Ashes?",
     "wrong_answers": [
-      "\u17e7",
-      "\u17e3",
-      "\u17e1\u17e0"
+      "៧",
+      "៣",
+      "១០"
     ]
   },
   {
-    "answer": "\u17a2\u17bc\u179f\u17d2\u178f\u17d2\u179a\u17b6\u179b\u17b8",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1791\u17c1\u179f\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7 Ashes \u1785\u17d2\u179a\u17be\u1793\u1787\u17b6\u1784?",
+    "answer": "អូស្ត្រាលី",
+    "question": "តើប្រទេសណាដែលបានឈ្នះ Ashes ច្រើនជាង?",
     "wrong_answers": [
-      "\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f",
-      "\u17a5\u178e\u17d2\u178c\u17b6",
-      "\u1794\u17b6\u179a\u17b6\u17c6\u1784"
+      "អង់គ្លេស",
+      "ឥណ្ឌា",
+      "បារាំង"
     ]
   },
   {
-    "answer": "\u17e1\u17e8\u17e7\u17e7",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1794\u17d2\u179a\u1780\u17bd\u178f\u1780\u17b8\u17a1\u17b6\u1782\u17bb\u1793 Test \u179b\u17be\u1780\u178a\u17c6\u1794\u17bc\u1784\u179a\u179c\u17b6\u1784\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u1793\u17b7\u1784\u17a2\u17bc\u179f\u17d2\u178f\u17d2\u179a\u17b6\u179b\u17b8\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a1\u17be\u1784\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "answer": "១៨៧៧",
+    "question": "តើការប្រកួតកីឡាគុន Test លើកដំបូងរវាងអង់គ្លេសនិងអូស្ត្រាលីត្រូវបានធ្វើឡើងនៅឆ្នាំណា?",
     "wrong_answers": [
-      "\u17e1\u17e8\u17e8\u17e2",
-      "\u17e1\u17e8\u17e8\u17e3",
-      "\u17e1\u17e9\u17e0\u17e0"
+      "១៨៨២",
+      "១៨៨៣",
+      "១៩០០"
     ]
   },
   {
     "answer": "Fred Spofforth",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u17c4\u17c7\u1794\u17b6\u179b\u17cb\u179b\u17bf\u1793\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u17c6\u1795\u17d2\u179b\u17b6\u1789\u1780\u17d2\u179a\u17bb\u1798\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e8\u17e2?",
+    "question": "តើអ្នកណាជាអ្នកបោះបាល់លឿនដែលបានបំផ្លាញក្រុមអង់គ្លេសនៅឆ្នាំ ១៨៨២?",
     "wrong_answers": [
       "Harry Boyle",
       "Charles Studd",
@@ -91,7 +91,7 @@
   },
   {
     "answer": "Ted Peate",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179c\u17b6\u1799\u1794\u17b6\u179b\u17cb\u1785\u17bb\u1784\u1780\u17d2\u179a\u17c4\u1799\u179a\u1794\u179f\u17cb\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e8\u17e2?",
+    "question": "តើអ្នកណាជាអ្នកវាយបាល់ចុងក្រោយរបស់អង់គ្លេសនៅឆ្នាំ ១៨៨២?",
     "wrong_answers": [
       "Charles Studd",
       "Fred Spofforth",
@@ -100,7 +100,7 @@
   },
   {
     "answer": "Charles Studd",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179c\u17b6\u1799\u1794\u17b6\u179b\u17cb\u178a\u17cf\u179b\u17d2\u17a2\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1793\u17c5\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f?",
+    "question": "តើអ្នកណាជាអ្នកវាយបាល់ដ៏ល្អម្នាក់នៅអង់គ្លេស?",
     "wrong_answers": [
       "Ted Peate",
       "Fred Spofforth",

@@ -1,52 +1,52 @@
 [
   {
-    "answer": "\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u17a0\u17c5\u1790\u17b6 Shahenshah \u1793\u17c3 Bollywood?",
+    "answer": "អាមីតាប់ បាច់ចាន",
+    "question": "តើអ្នកណាត្រូវបានគេហៅថា Shahenshah នៃ Bollywood?",
     "wrong_answers": [
-      "\u179f\u17b6\u179b\u17cb\u1798\u17c9\u17b6\u1793 \u1781\u17b6\u1793",
-      "\u179f\u0a3c\u17b6\u179a\u17bb\u1781 \u1781\u17b6\u1793",
-      "\u17a2\u17b6\u1798\u17b8\u179a \u1781\u17b6\u1793"
+      "សាល់ម៉ាន ខាន",
+      "ស਼ារុខ ខាន",
+      "អាមីរ ខាន"
     ]
   },
   {
-    "answer": "\u17e1\u17e9\u17e4\u17e2",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1780\u17be\u178f\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "answer": "១៩៤២",
+    "question": "តើអាមីតាប់ បាច់ចានកើតនៅឆ្នាំណា?",
     "wrong_answers": [
-      "\u17e1\u17e9\u17e5\u17e2",
-      "\u17e1\u17e9\u17e3\u17e2",
-      "\u17e1\u17e9\u17e6\u17e2"
+      "១៩៥២",
+      "១៩៣២",
+      "១៩៦២"
     ]
   },
   {
-    "answer": "\u1797\u17b6\u179a\u178f",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1787\u17b6\u178f\u17b7\u178e\u17b6?",
+    "answer": "ភារត",
+    "question": "តើអាមីតាប់ បាច់ចានជាតិណា?",
     "wrong_answers": [
-      "\u1794\u17b6\u179a\u17b6\u17c6\u1784",
-      "\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780",
-      "\u1785\u17b7\u1793"
+      "បារាំង",
+      "អាមេរិក",
+      "ចិន"
     ]
   },
   {
-    "answer": "\u17a0\u17b6\u179a\u17b8\u179c\u17c9\u17b6\u1793\u17cb \u179a\u17c9\u17c3 \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793",
-    "question": "\u178f\u17be\u1788\u17d2\u1798\u17c4\u17c7\u17aa\u1796\u17bb\u1780\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ហារីវ៉ាន់ រ៉ៃ បាច់ចាន",
+    "question": "តើឈ្មោះឪពុកអាមីតាប់ បាច់ចានជាអ្វី?",
     "wrong_answers": [
-      "\u179a\u17c9\u17b6\u1787\u17c1\u1793 \u1781\u17b6\u1793",
-      "\u1792\u17b8\u179a\u17bb\u1780 \u1798\u17c1\u17a0\u17d2\u1782\u1793",
-      "\u17a2\u17b6\u1798\u17b8\u178f \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793"
+      "រ៉ាជេន ខាន",
+      "ធីរុក មេហ្គន",
+      "អាមីត បាច់ចាន"
     ]
   },
   {
-    "answer": "\u17a2\u17b6\u17a1\u17b6\u17a0\u17b6\u1794\u17b6\u178a",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1780\u17be\u178f\u1793\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "answer": "អាឡាហាបាដ",
+    "question": "តើអាមីតាប់ បាច់ចានកើតនៅទីកន្លែងណា?",
     "wrong_answers": [
-      "\u1794\u17bb\u1798\u1794\u17c3",
-      "\u178c\u17b8\u179b\u17b8",
-      "\u178e\u17c3\u1793\u17b8\u178f\u17b6\u179b\u17cb"
+      "បុមបៃ",
+      "ឌីលី",
+      "ណៃនីតាល់"
     ]
   },
   {
     "answer": "Sherwood College",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u179f\u17b7\u1780\u17d2\u179f\u17b6\u1793\u17c5\u179f\u17b6\u179b\u17b6\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានបានសិក្សានៅសាលាណា?",
     "wrong_answers": [
       "Kirori Mal College",
       "Harvard University",
@@ -55,7 +55,7 @@
   },
   {
     "answer": "Bhuvan Shome",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178f\u17be\u1798\u17a2\u17b6\u1787\u17b8\u1796\u179f\u1798\u17d2\u178f\u17c2\u1784\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានបានចាប់ផ្តើមអាជីពសម្តែងរបស់គាត់នៅក្នុងខ្សែភាពយន្តណា?",
     "wrong_answers": [
       "Anand",
       "Zanjeer",
@@ -64,7 +64,7 @@
   },
   {
     "answer": "Anand",
-    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17b1\u17d2\u1799\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1798\u17b6\u1793\u1794\u17d2\u179a\u1787\u17b6\u1794\u17d2\u179a\u17b7\u1799\u1797\u17b6\u1796\u1793\u17c5\u178a\u17be\u1798\u1791\u179f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e7\u17e0?",
+    "question": "តើខ្សែភាពយន្តណាដែលបានធ្វើឱ្យអាមីតាប់ បាច់ចានមានប្រជាប្រិយភាពនៅដើមទសវត្សរ៍ឆ្នាំ ១៩៧០?",
     "wrong_answers": [
       "Don",
       "Mohabbatein",
@@ -73,7 +73,7 @@
   },
   {
     "answer": "Kaun Banega Crorepati",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1792\u17d2\u179c\u17be\u1794\u1791\u1794\u1784\u17d2\u17a0\u17b6\u1789\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u1791\u17bc\u179a\u1791\u179f\u17d2\u179f\u1793\u17cd\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានបានធ្វើជាអ្នកធ្វើបទបង្ហាញកម្មវិធីទូរទស្សន៍ណា?",
     "wrong_answers": [
       "Indian Idol",
       "Bigg Boss",
@@ -82,7 +82,7 @@
   },
   {
     "answer": "Dadasaheb Phalke Award",
-    "question": "\u178f\u17be\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1780\u17b6\u179a\u179a\u17bd\u1798\u1785\u17c6\u178e\u17c2\u1780\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179c\u17b7\u179f\u17d0\u1799\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f?",
+    "question": "តើរង្វាន់ណាដែលអាមីតាប់ បាច់ចានបានទទួលសម្រាប់ការរួមចំណែករបស់គាត់នៅក្នុងវិស័យភាពយន្ត?",
     "wrong_answers": [
       "Padma Shri",
       "Padma Bhushan",
@@ -91,7 +91,7 @@
   },
   {
     "answer": "The Great Gatsby",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u179f\u1798\u17d2\u178f\u17c2\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f Hollywood \u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានបានសម្តែងនៅក្នុងខ្សែភាពយន្ត Hollywood ណា?",
     "wrong_answers": [
       "The Dark Knight",
       "Titanic",
@@ -100,7 +100,7 @@
   },
   {
     "answer": "4",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb National Film Award \u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u178f\u17bd\u179f\u1798\u17d2\u178f\u17c2\u1784\u179b\u17d2\u17a2\u1794\u17c6\u1795\u17bb\u178f\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u178a\u1784?",
+    "question": "តើអាមីតាប់ បាច់ចានបានឈ្នះរង្វាន់ National Film Award សម្រាប់តួសម្តែងល្អបំផុតប៉ុន្មានដង?",
     "wrong_answers": [
       "3",
       "5",
@@ -109,7 +109,7 @@
   },
   {
     "answer": "16",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb Filmfare Awards \u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793?",
+    "question": "តើអាមីតាប់ បាច់ចានបានឈ្នះរង្វាន់ Filmfare Awards ប៉ុន្មាន?",
     "wrong_answers": [
       "10",
       "20",
@@ -118,7 +118,7 @@
   },
   {
     "answer": "1984",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1791\u1791\u17bd\u179b Padma Shri \u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានបានទទួល Padma Shri នៅឆ្នាំណា?",
     "wrong_answers": [
       "1994",
       "1974",
@@ -127,7 +127,7 @@
   },
   {
     "answer": "2007",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1791\u1791\u17bd\u179b Knight of the Legion of honour \u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានបានទទួល Knight of the Legion of honour នៅឆ្នាំណា?",
     "wrong_answers": [
       "2017",
       "1997",
@@ -136,7 +136,7 @@
   },
   {
     "answer": "Teji Bachchan",
-    "question": "\u178f\u17be\u1788\u17d2\u1798\u17c4\u17c7\u1798\u17d2\u178f\u17b6\u1799\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើឈ្មោះម្តាយអាមីតាប់ បាច់ចានជាអ្វី?",
     "wrong_answers": [
       "Harivansh Rai Bachchan",
       "Amitabh Srivastava",
@@ -144,8 +144,8 @@
     ]
   },
   {
-    "answer": "Fran\u00e7ois Truffaut",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u17a0\u17c5\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u17a5\u178e\u17d2\u178c\u17b6\u1793\u17c5\u1791\u179f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e7\u17e0 \u1793\u17b7\u1784 \u17e1\u17e9\u17e8\u17e0 \u1790\u17b6\u1787\u17b6\u17a7\u179f\u17d2\u179f\u17b6\u17a0\u1780\u1798\u17d2\u1798\u1798\u1793\u17bb\u179f\u17d2\u179f\u1798\u17d2\u1793\u17b6\u1780\u17cb?",
+    "answer": "François Truffaut",
+    "question": "តើអ្នកណាដែលបានហៅភាពយន្តឥណ្ឌានៅទសវត្សរ៍ឆ្នាំ ១៩៧០ និង ១៩៨០ ថាជាឧស្សាហកម្មមនុស្សម្នាក់?",
     "wrong_answers": [
       "Quentin Tarantino",
       "Steven Spielberg",
@@ -154,7 +154,7 @@
   },
   {
     "answer": "Star of the Millennium",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u17a0\u17c5\u1790\u17b6\u17a2\u17d2\u179c\u17b8\u178a\u17c4\u1799\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178f\u17b8 TIME?",
+    "question": "តើអាមីតាប់ បាច់ចានត្រូវបានគេហៅថាអ្វីដោយទស្សនាវដ្តី TIME?",
     "wrong_answers": [
       "Shahenshah of Bollywood",
       "Sadi Ke Mahanayak",
@@ -163,7 +163,7 @@
   },
   {
     "answer": "Mohabbatein",
-    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u1784\u17d2\u17a0\u17b6\u1789\u1796\u17b8\u1780\u17b6\u179a\u179c\u17b7\u179b\u178f\u17d2\u179a\u17a1\u1794\u17cb\u1798\u1780\u179c\u17b7\u1789\u179a\u1794\u179f\u17cb\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e0\u17e0?",
+    "question": "តើខ្សែភាពយន្តណាដែលបានបង្ហាញពីការវិលត្រឡប់មកវិញរបស់អាមីតាប់ បាច់ចាននៅឆ្នាំ ២០០០?",
     "wrong_answers": [
       "Kabhi Khushi Kabhie Gham",
       "Black",
@@ -172,7 +172,7 @@
   },
   {
     "answer": "Piku",
-    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb National Film Award \u179b\u17be\u1780\u1791\u17b8 \u17e4 \u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u178f\u17bd\u179f\u1798\u17d2\u178f\u17c2\u1784\u179b\u17d2\u17a2\u1794\u17c6\u1795\u17bb\u178f?",
+    "question": "តើខ្សែភាពយន្តណាដែលអាមីតាប់ បាច់ចានបានឈ្នះរង្វាន់ National Film Award លើកទី ៤ របស់គាត់សម្រាប់តួសម្តែងល្អបំផុត?",
     "wrong_answers": [
       "Black",
       "Paa",
@@ -181,16 +181,16 @@
   },
   {
     "answer": "Playback singer",
-    "question": "\u178f\u17be\u178f\u17bd\u1793\u17b6\u1791\u17b8\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u1780\u17d2\u179a\u17c5\u1796\u17b8\u178f\u17bd\u179f\u1798\u17d2\u178f\u17c2\u1784?",
+    "question": "តើតួនាទីណាដែលអាមីតាប់ បាច់ចានបានធ្វើការក្រៅពីតួសម្តែង?",
     "wrong_answers": [
-      "\u17a2\u17d2\u1793\u1780\u1793\u1799\u17c4\u1794\u17b6\u1799",
-      "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792",
-      "\u17a2\u17d2\u1793\u1780\u179f\u17b7\u179b\u17d2\u1794\u17c8"
+      "អ្នកនយោបាយ",
+      "អ្នកនិពន្ធ",
+      "អ្នកសិល្បៈ"
     ]
   },
   {
     "answer": "BBC Your Millennium",
-    "question": "\u178f\u17be\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u17c4\u17c7\u1786\u17d2\u1793\u17c4\u178f\u17b1\u17d2\u1799\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1787\u17b6\u178f\u17b6\u179a\u17b6\u179b\u17d2\u1794\u17b8\u1794\u17c6\u1795\u17bb\u178f\u1793\u17c5\u179b\u17be\u1786\u17b6\u1780\u17ac\u17a2\u17c1\u1780\u17d2\u179a\u1784\u17cb?",
+    "question": "តើអង្គការណាដែលបានបោះឆ្នោតឱ្យអាមីតាប់ បាច់ចានជាតារាល្បីបំផុតនៅលើឆាកឬអេក្រង់?",
     "wrong_answers": [
       "Time Magazine",
       "Filmfare Awards",
@@ -199,7 +199,7 @@
   },
   {
     "answer": "Amitabh Srivastava",
-    "question": "\u178f\u17be\u1788\u17d2\u1798\u17c4\u17c7\u1796\u17b7\u178f\u179a\u1794\u179f\u17cb\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើឈ្មោះពិតរបស់អាមីតាប់ បាច់ចានជាអ្វី?",
     "wrong_answers": [
       "Amitabh Bachchan",
       "Big B",
@@ -208,7 +208,7 @@
   },
   {
     "answer": "Prayagraj",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b6\u17a0\u17b6\u1794\u17b6\u178a\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u179f\u17d2\u1782\u17b6\u179b\u17cb\u1790\u17b6\u1787\u17b6\u17a2\u17d2\u179c\u17b8\u1793\u17c5\u1796\u17c1\u179b\u1793\u17c1\u17c7?",
+    "question": "តើអាឡាហាបាដត្រូវបានគេស្គាល់ថាជាអ្វីនៅពេលនេះ?",
     "wrong_answers": [
       "Allahabad",
       "Delhi",
@@ -217,7 +217,7 @@
   },
   {
     "answer": "Kirori Mal College",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1794\u1789\u17d2\u1785\u1794\u17cb\u1780\u17b6\u179a\u179f\u17b7\u1780\u17d2\u179f\u17b6\u1793\u17c5\u179f\u17b6\u1780\u179b\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179b\u17d0\u1799\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានបានបញ្ចប់ការសិក្សានៅសាកលវិទ្យាល័យណា?",
     "wrong_answers": [
       "Sherwood College",
       "Harvard University",
@@ -226,7 +226,7 @@
   },
   {
     "answer": "1970s",
-    "question": "\u178f\u17be\u1791\u179f\u179c\u178f\u17d2\u179f\u179a\u17cd\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u1794\u17d2\u179a\u1787\u17b6\u1794\u17d2\u179a\u17b7\u1799\u1797\u17b6\u1796?",
+    "question": "តើទសវត្សរ៍ណាដែលអាមីតាប់ បាច់ចានបានទទួលប្រជាប្រិយភាព?",
     "wrong_answers": [
       "1960s",
       "1980s",
@@ -235,7 +235,7 @@
   },
   {
     "answer": "angry young man",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u17a0\u17c5\u1790\u17b6\u17a2\u17d2\u179c\u17b8\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u17a5\u178e\u17d2\u178c\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានត្រូវបានគេហៅថាអ្វីនៅក្នុងខ្សែភាពយន្តឥណ្ឌា?",
     "wrong_answers": [
       "romantic hero",
       "action star",
@@ -244,7 +244,7 @@
   },
   {
     "answer": "1990s",
-    "question": "\u178f\u17be\u1791\u179f\u179c\u178f\u17d2\u179f\u179a\u17cd\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1788\u1794\u17cb\u179f\u1798\u17d2\u178f\u17c2\u1784?",
+    "question": "តើទសវត្សរ៍ណាដែលអាមីតាប់ បាច់ចានបានឈប់សម្តែង?",
     "wrong_answers": [
       "1970s",
       "1980s",
@@ -253,7 +253,7 @@
   },
   {
     "answer": "Kabhi Khushi Kabhie Gham",
-    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u179f\u1798\u17d2\u178f\u17c2\u1784\u1794\u1793\u17d2\u1791\u17b6\u1794\u17cb\u1796\u17b8\u1780\u17b6\u179a\u179c\u17b7\u179b\u178f\u17d2\u179a\u17a1\u1794\u17cb\u1798\u1780\u179c\u17b7\u1789?",
+    "question": "តើខ្សែភាពយន្តណាដែលអាមីតាប់ បាច់ចានបានសម្តែងបន្ទាប់ពីការវិលត្រឡប់មកវិញ?",
     "wrong_answers": [
       "Mohabbatein",
       "Black",
@@ -262,7 +262,7 @@
   },
   {
     "answer": "Aankhen",
-    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u179f\u1798\u17d2\u178f\u17c2\u1784\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e0\u17e2?",
+    "question": "តើខ្សែភាពយន្តណាដែលអាមីតាប់ បាច់ចានបានសម្តែងនៅឆ្នាំ ២០០២?",
     "wrong_answers": [
       "Kabhi Khushi Kabhie Gham",
       "Black",
@@ -271,7 +271,7 @@
   },
   {
     "answer": "Baghban",
-    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u179f\u1798\u17d2\u178f\u17c2\u1784\u1787\u17b6\u1798\u17bd\u1799 Amitabh Bachchan?",
+    "question": "តើខ្សែភាពយន្តណាដែលអាមីតាប់ បាច់ចានបានសម្តែងជាមួយ Amitabh Bachchan?",
     "wrong_answers": [
       "Black",
       "Paa",
@@ -280,7 +280,7 @@
   },
   {
     "answer": "Pink",
-    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u179f\u1798\u17d2\u178f\u17c2\u1784\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e1\u17e6?",
+    "question": "តើខ្សែភាពយន្តណាដែលអាមីតាប់ បាច់ចានបានសម្តែងនៅឆ្នាំ ២០១៦?",
     "wrong_answers": [
       "Badla",
       "Piku",
@@ -289,7 +289,7 @@
   },
   {
     "answer": "Badla",
-    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u179f\u1798\u17d2\u178f\u17c2\u1784\u1787\u17b6\u1798\u17bd\u1799 Taapsee Pannu?",
+    "question": "តើខ្សែភាពយន្តណាដែលអាមីតាប់ បាច់ចានបានសម្តែងជាមួយ Taapsee Pannu?",
     "wrong_answers": [
       "Pink",
       "Piku",
@@ -298,7 +298,7 @@
   },
   {
     "answer": "2013",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u179f\u1798\u17d2\u178f\u17c2\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f The Great Gatsby \u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានបានសម្តែងនៅក្នុងខ្សែភាពយន្ត The Great Gatsby នៅឆ្នាំណា?",
     "wrong_answers": [
       "2010",
       "2015",
@@ -307,7 +307,7 @@
   },
   {
     "answer": "Hollywood",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u179f\u1798\u17d2\u178f\u17c2\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានបានសម្តែងនៅក្នុងខ្សែភាពយន្តណា?",
     "wrong_answers": [
       "Bollywood",
       "Tollywood",
@@ -316,7 +316,7 @@
   },
   {
     "answer": "Jewish",
-    "question": "\u178f\u17be\u178f\u17bd\u17a2\u1784\u17d2\u1782\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f The Great Gatsby \u1787\u17b6\u1787\u1793\u1787\u17b6\u178f\u17b7\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើតួអង្គអាមីតាប់ បាច់ចាននៅក្នុងខ្សែភាពយន្ត The Great Gatsby ជាជនជាតិអ្វី?",
     "wrong_answers": [
       "Indian",
       "Chinese",
@@ -325,7 +325,7 @@
   },
   {
     "answer": "Kaun Banega Crorepati",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1792\u17d2\u179c\u17be\u1794\u1791\u1794\u1784\u17d2\u17a0\u17b6\u1789\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u1791\u17bc\u179a\u1791\u179f\u17d2\u179f\u1793\u17cd\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានបានធ្វើជាអ្នកធ្វើបទបង្ហាញកម្មវិធីទូរទស្សន៍ណា?",
     "wrong_answers": [
       "Indian Idol",
       "Bigg Boss",
@@ -334,7 +334,7 @@
   },
   {
     "answer": "Who Wants to Be a Millionaire?",
-    "question": "\u178f\u17be Kaun Banega Crorepati \u1787\u17b6\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u1791\u17bc\u179a\u1791\u179f\u17d2\u179f\u1793\u17cd\u1794\u17d2\u179a\u1797\u17c1\u1791\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Kaun Banega Crorepati ជាកម្មវិធីទូរទស្សន៍ប្រភេទអ្វី?",
     "wrong_answers": [
       "Game show",
       "Reality show",
@@ -343,7 +343,7 @@
   },
   {
     "answer": "1980s",
-    "question": "\u178f\u17be\u1791\u179f\u179c\u178f\u17d2\u179f\u179a\u17cd\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1785\u17bc\u179b\u1793\u1799\u17c4\u1794\u17b6\u1799?",
+    "question": "តើទសវត្សរ៍ណាដែលអាមីតាប់ បាច់ចានបានចូលនយោបាយ?",
     "wrong_answers": [
       "1970s",
       "1990s",
@@ -352,7 +352,7 @@
   },
   {
     "answer": "Humanitarian",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u1784\u17b6\u179a\u1794\u17d2\u179a\u1797\u17c1\u1791\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានបានចូលរួមក្នុងការងារប្រភេទណា?",
     "wrong_answers": [
       "Political",
       "Business",
@@ -361,7 +361,7 @@
   },
   {
     "answer": "Brand endorser",
-    "question": "\u178f\u17be\u178f\u17bd\u1793\u17b6\u1791\u17b8\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u1793\u17c5\u17a5\u178e\u17d2\u178c\u17b6?",
+    "question": "តើតួនាទីណាដែលអាមីតាប់ បាច់ចានបានធ្វើការនៅឥណ្ឌា?",
     "wrong_answers": [
       "Actor",
       "Singer",
@@ -370,7 +370,7 @@
   },
   {
     "answer": "South Asian diaspora",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178a\u17c2\u179b\u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1785\u17d2\u179a\u17be\u1793\u1793\u17c5\u1780\u17d2\u179a\u17c5\u1794\u17d2\u179a\u1791\u17c1\u179f?",
+    "question": "តើអ្នកណាដែលមានអ្នកគាំទ្រច្រើននៅក្រៅប្រទេស?",
     "wrong_answers": [
       "Indian people",
       "Bollywood fans",
@@ -379,7 +379,7 @@
   },
   {
     "answer": "Africa, Middle East, United Kingdom, Russia, Central Asia, Caribbean, Oceania, Canada, and the United States",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1793\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានមានអ្នកគាំទ្រនៅទីកន្លែងណា?",
     "wrong_answers": [
       "India",
       "Asia",
@@ -388,7 +388,7 @@
   },
   {
     "answer": "1999",
-    "question": "\u178f\u17be BBC Your Millennium \u1794\u17b6\u1793\u1794\u17c4\u17c7\u1786\u17d2\u1793\u17c4\u178f\u17b1\u17d2\u1799\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1787\u17b6\u178f\u17b6\u179a\u17b6\u179b\u17d2\u1794\u17b8\u1794\u17c6\u1795\u17bb\u178f\u1793\u17c5\u179b\u17be\u1786\u17b6\u1780\u17ac\u17a2\u17c1\u1780\u17d2\u179a\u1784\u17cb\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើ BBC Your Millennium បានបោះឆ្នោតឱ្យអាមីតាប់ បាច់ចានជាតារាល្បីបំផុតនៅលើឆាកឬអេក្រង់នៅឆ្នាំណា?",
     "wrong_answers": [
       "2000",
       "2001",
@@ -397,7 +397,7 @@
   },
   {
     "answer": "October 2003",
-    "question": "\u178f\u17be\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178f\u17b8 TIME \u1794\u17b6\u1793\u17a0\u17c5\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1790\u17b6\u1787\u17b6 Star of the Millennium \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "question": "តើទស្សនាវដ្តី TIME បានហៅអាមីតាប់ បាច់ចានថាជា Star of the Millennium នៅពេលណា?",
     "wrong_answers": [
       "September 2003",
       "November 2003",
@@ -406,7 +406,7 @@
   },
   {
     "answer": "Social activist",
-    "question": "\u178f\u17be\u1798\u17d2\u178f\u17b6\u1799\u179a\u1794\u179f\u17cb\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើម្តាយរបស់អាមីតាប់ បាច់ចានធ្វើអ្វី?",
     "wrong_answers": [
       "Actress",
       "Singer",
@@ -415,7 +415,7 @@
   },
   {
     "answer": "Hindi poet",
-    "question": "\u178f\u17be\u17aa\u1796\u17bb\u1780\u179a\u1794\u179f\u17cb\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើឪពុករបស់អាមីតាប់ បាច់ចានធ្វើអ្វី?",
     "wrong_answers": [
       "Actor",
       "Singer",
@@ -424,7 +424,7 @@
   },
   {
     "answer": "Social activist",
-    "question": "\u178f\u17be Teji Bachchan \u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Teji Bachchan ធ្វើអ្វី?",
     "wrong_answers": [
       "Actress",
       "Singer",
@@ -433,7 +433,7 @@
   },
   {
     "answer": "Hindi poet",
-    "question": "\u178f\u17be Harivansh Rai Bachchan \u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Harivansh Rai Bachchan ធ្វើអ្វី?",
     "wrong_answers": [
       "Actor",
       "Singer",
@@ -442,7 +442,7 @@
   },
   {
     "answer": "1969",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178f\u17be\u1798\u17a2\u17b6\u1787\u17b8\u1796\u179f\u1798\u17d2\u178f\u17c2\u1784\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានបានចាប់ផ្តើមអាជីពសម្តែងរបស់គាត់នៅឆ្នាំណា?",
     "wrong_answers": [
       "1970",
       "1971",
@@ -451,7 +451,7 @@
   },
   {
     "answer": "Mrinal Sen",
-    "question": "\u178f\u17be\u1793\u17b6\u1799\u1780\u179a\u1794\u179f\u17cb\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f Bhuvan Shome \u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើនាយករបស់ខ្សែភាពយន្ត Bhuvan Shome ឈ្មោះអ្វី?",
     "wrong_answers": [
       "Yash Chopra",
       "Raj Kapoor",
@@ -460,7 +460,7 @@
   },
   {
     "answer": "Voice narrator",
-    "question": "\u178f\u17be\u178f\u17bd\u1793\u17b6\u1791\u17b8\u179a\u1794\u179f\u17cb\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f Bhuvan Shome \u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើតួនាទីរបស់អាមីតាប់ បាច់ចាននៅក្នុងខ្សែភាពយន្ត Bhuvan Shome ជាអ្វី?",
     "wrong_answers": [
       "Actor",
       "Singer",
@@ -469,7 +469,7 @@
   },
   {
     "answer": "early 1970s",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u1794\u17d2\u179a\u1787\u17b6\u1794\u17d2\u179a\u17b7\u1799\u1797\u17b6\u1796\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានបានទទួលប្រជាប្រិយភាពនៅពេលណា?",
     "wrong_answers": [
       "1960s",
       "1980s",
@@ -478,7 +478,7 @@
   },
   {
     "answer": "Anand, Zanjeer, Roti Kapada Aur Makaan, Deewaar, and Sholay",
-    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17b1\u17d2\u1799\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1798\u17b6\u1793\u1794\u17d2\u179a\u1787\u17b6\u1794\u17d2\u179a\u17b7\u1799\u1797\u17b6\u1796?",
+    "question": "តើខ្សែភាពយន្តណាដែលបានធ្វើឱ្យអាមីតាប់ បាច់ចានមានប្រជាប្រិយភាព?",
     "wrong_answers": [
       "Don",
       "Mohabbatein",
@@ -487,7 +487,7 @@
   },
   {
     "answer": "India's angry young man",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u17a0\u17c5\u1790\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើអាមីតាប់ បាច់ចានត្រូវបានគេហៅថាអ្វី?",
     "wrong_answers": [
       "Bollywood King",
       "Superstar",
@@ -496,7 +496,7 @@
   },
   {
     "answer": "1970s to 80s",
-    "question": "\u178f\u17be\u1791\u179f\u179c\u178f\u17d2\u179f\u179a\u17cd\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u179f\u1798\u17d2\u178f\u17c2\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178a\u17c2\u179b\u1798\u17b6\u1793\u1794\u17d2\u179a\u17b6\u1780\u17cb\u1785\u17c6\u178e\u17bc\u179b\u1781\u17d2\u1796\u179f\u17cb?",
+    "question": "តើទសវត្សរ៍ណាដែលអាមីតាប់ បាច់ចានបានសម្តែងនៅក្នុងខ្សែភាពយន្តដែលមានប្រាក់ចំណូលខ្ពស់?",
     "wrong_answers": [
       "1960s",
       "1990s",
@@ -505,7 +505,7 @@
   },
   {
     "answer": "Amar Akbar Anthony, Don, Trishul, Muqaddar Ka Sikander, Suhaag, Dostana, Naseeb, Laawaris, Kaalia, Namak Halaal, Coolie, Sharaabi and Mard",
-    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u179f\u1798\u17d2\u178f\u17c2\u1784?",
+    "question": "តើខ្សែភាពយន្តណាដែលអាមីតាប់ បាច់ចានបានសម្តែង?",
     "wrong_answers": [
       "Anand, Zanjeer, Roti Kapada Aur Makaan, Deewaar, and Sholay",
       "Mohabbatein",
@@ -514,7 +514,7 @@
   },
   {
     "answer": "Namak Haraam, Abhimaan, Majboor, Mili, Chupke Chupke, Kabhi Kabhie, Kaala Patthar, Shaan, Silsila, Shakti, Shahenshah and Agneepath",
-    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u179f\u1798\u17d2\u178f\u17c2\u1784?",
+    "question": "តើខ្សែភាពយន្តណាដែលអាមីតាប់ បាច់ចានបានសម្តែង?",
     "wrong_answers": [
       "Anand, Zanjeer, Roti Kapada Aur Makaan, Deewaar, and Sholay",
       "Mohabbatein",
@@ -523,7 +523,7 @@
   },
   {
     "answer": "Mohabbatein",
-    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u1784\u17d2\u17a0\u17b6\u1789\u1796\u17b8\u1780\u17b6\u179a\u179c\u17b7\u179b\u178f\u17d2\u179a\u17a1\u1794\u17cb\u1798\u1780\u179c\u17b7\u1789\u179a\u1794\u179f\u17cb\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793?",
+    "question": "តើខ្សែភាពយន្តណាដែលបានបង្ហាញពីការវិលត្រឡប់មកវិញរបស់អាមីតាប់ បាច់ចាន?",
     "wrong_answers": [
       "Don",
       "Kabhi Khushi Kabhie Gham",
@@ -532,7 +532,7 @@
   },
   {
     "answer": "Kabhi Khushi Kabhie Gham, Aankhen, Baghban, Black, Bunty Aur Babli, Sarkar, Kabhi Alvida Naa Kehna, Cheeni Kum, Paa, Piku, Pink and Badla",
-    "question": "\u178f\u17be\u1781\u17d2\u179f\u17c2\u1797\u17b6\u1796\u1799\u1793\u17d2\u178f\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u179f\u1798\u17d2\u178f\u17c2\u1784?",
+    "question": "តើខ្សែភាពយន្តណាដែលអាមីតាប់ បាច់ចានបានសម្តែង?",
     "wrong_answers": [
       "Anand, Zanjeer, Roti Kapada Aur Makaan, Deewaar, and Sholay",
       "Mohabbatein",
@@ -541,7 +541,7 @@
   },
   {
     "answer": "National Film Award",
-    "question": "\u178f\u17be\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7?",
+    "question": "តើរង្វាន់ណាដែលអាមីតាប់ បាច់ចានបានឈ្នះ?",
     "wrong_answers": [
       "Filmfare Awards",
       "Padma Shri",
@@ -550,7 +550,7 @@
   },
   {
     "answer": "Filmfare Awards",
-    "question": "\u178f\u17be\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7?",
+    "question": "តើរង្វាន់ណាដែលអាមីតាប់ បាច់ចានបានឈ្នះ?",
     "wrong_answers": [
       "National Film Award",
       "Padma Shri",
@@ -559,7 +559,7 @@
   },
   {
     "answer": "Padma Shri",
-    "question": "\u178f\u17be\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7?",
+    "question": "តើរង្វាន់ណាដែលអាមីតាប់ បាច់ចានបានឈ្នះ?",
     "wrong_answers": [
       "Filmfare Awards",
       "National Film Award",
@@ -568,7 +568,7 @@
   },
   {
     "answer": "Padma Bhushan",
-    "question": "\u178f\u17be\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7?",
+    "question": "តើរង្វាន់ណាដែលអាមីតាប់ បាច់ចានបានឈ្នះ?",
     "wrong_answers": [
       "Filmfare Awards",
       "National Film Award",
@@ -577,7 +577,7 @@
   },
   {
     "answer": "Padma Vibhushan",
-    "question": "\u178f\u17be\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7?",
+    "question": "តើរង្វាន់ណាដែលអាមីតាប់ បាច់ចានបានឈ្នះ?",
     "wrong_answers": [
       "Filmfare Awards",
       "National Film Award",
@@ -586,7 +586,7 @@
   },
   {
     "answer": "Dadasaheb Phalke Award",
-    "question": "\u178f\u17be\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7?",
+    "question": "តើរង្វាន់ណាដែលអាមីតាប់ បាច់ចានបានឈ្នះ?",
     "wrong_answers": [
       "Filmfare Awards",
       "National Film Award",
@@ -595,7 +595,7 @@
   },
   {
     "answer": "Knight of the Legion of honour",
-    "question": "\u178f\u17be\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb\u178e\u17b6\u178a\u17c2\u179b\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7?",
+    "question": "តើរង្វាន់ណាដែលអាមីតាប់ បាច់ចានបានឈ្នះ?",
     "wrong_answers": [
       "Filmfare Awards",
       "National Film Award",
@@ -604,7 +604,7 @@
   },
   {
     "answer": "Film producer",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8\u1780\u17d2\u179a\u17c5\u1796\u17b8\u178f\u17bd\u179f\u1798\u17d2\u178f\u17c2\u1784?",
+    "question": "តើអាមីតាប់ បាច់ចានបានធ្វើអ្វីក្រៅពីតួសម្តែង?",
     "wrong_answers": [
       "Singer",
       "Politician",
@@ -613,7 +613,7 @@
   },
   {
     "answer": "television presenter",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8\u1780\u17d2\u179a\u17c5\u1796\u17b8\u178f\u17bd\u179f\u1798\u17d2\u178f\u17c2\u1784?",
+    "question": "តើអាមីតាប់ បាច់ចានបានធ្វើអ្វីក្រៅពីតួសម្តែង?",
     "wrong_answers": [
       "Singer",
       "Politician",
@@ -622,7 +622,7 @@
   },
   {
     "answer": "playback singer",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8\u1780\u17d2\u179a\u17c5\u1796\u17b8\u178f\u17bd\u179f\u1798\u17d2\u178f\u17c2\u1784?",
+    "question": "តើអាមីតាប់ បាច់ចានបានធ្វើអ្វីក្រៅពីតួសម្តែង?",
     "wrong_answers": [
       "Film producer",
       "Politician",
@@ -631,7 +631,7 @@
   },
   {
     "answer": "politics",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើអាមីតាប់ បាច់ចានបានចូលរួមអ្វី?",
     "wrong_answers": [
       "business",
       "humanitarian work",
@@ -640,7 +640,7 @@
   },
   {
     "answer": "humanitarian works",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើអាមីតាប់ បាច់ចានបានចូលរួមអ្វី?",
     "wrong_answers": [
       "politics",
       "business",
@@ -649,7 +649,7 @@
   },
   {
     "answer": "brand endorser",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើអាមីតាប់ បាច់ចានបានធ្វើអ្វី?",
     "wrong_answers": [
       "actor",
       "singer",
@@ -658,7 +658,7 @@
   },
   {
     "answer": "South Asian diaspora",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178a\u17c2\u179b\u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1785\u17d2\u179a\u17be\u1793\u1793\u17c5\u1780\u17d2\u179a\u17c5\u1794\u17d2\u179a\u1791\u17c1\u179f?",
+    "question": "តើអ្នកណាដែលមានអ្នកគាំទ្រច្រើននៅក្រៅប្រទេស?",
     "wrong_answers": [
       "Indian people",
       "Bollywood fans",
@@ -667,7 +667,7 @@
   },
   {
     "answer": "Africa",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1793\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានមានអ្នកគាំទ្រនៅទីកន្លែងណា?",
     "wrong_answers": [
       "Asia",
       "Europe",
@@ -676,7 +676,7 @@
   },
   {
     "answer": "Middle East",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1793\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានមានអ្នកគាំទ្រនៅទីកន្លែងណា?",
     "wrong_answers": [
       "Asia",
       "Europe",
@@ -685,7 +685,7 @@
   },
   {
     "answer": "United Kingdom",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1793\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានមានអ្នកគាំទ្រនៅទីកន្លែងណា?",
     "wrong_answers": [
       "Asia",
       "Europe",
@@ -694,7 +694,7 @@
   },
   {
     "answer": "Russia",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1793\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានមានអ្នកគាំទ្រនៅទីកន្លែងណា?",
     "wrong_answers": [
       "Asia",
       "Europe",
@@ -703,7 +703,7 @@
   },
   {
     "answer": "Central Asia",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1793\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានមានអ្នកគាំទ្រនៅទីកន្លែងណា?",
     "wrong_answers": [
       "Asia",
       "Europe",
@@ -712,7 +712,7 @@
   },
   {
     "answer": "Caribbean",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1793\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានមានអ្នកគាំទ្រនៅទីកន្លែងណា?",
     "wrong_answers": [
       "Asia",
       "Europe",
@@ -721,7 +721,7 @@
   },
   {
     "answer": "Oceania",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1793\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានមានអ្នកគាំទ្រនៅទីកន្លែងណា?",
     "wrong_answers": [
       "Asia",
       "Europe",
@@ -730,7 +730,7 @@
   },
   {
     "answer": "Canada",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1793\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានមានអ្នកគាំទ្រនៅទីកន្លែងណា?",
     "wrong_answers": [
       "Asia",
       "Europe",
@@ -739,7 +739,7 @@
   },
   {
     "answer": "United States",
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1793\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើអាមីតាប់ បាច់ចានមានអ្នកគាំទ្រនៅទីកន្លែងណា?",
     "wrong_answers": [
       "Asia",
       "Europe",
@@ -748,7 +748,7 @@
   },
   {
     "answer": "BBC Your Millennium",
-    "question": "\u178f\u17be\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u17c4\u17c7\u1786\u17d2\u1793\u17c4\u178f\u17b1\u17d2\u1799\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1787\u17b6\u178f\u17b6\u179a\u17b6\u179b\u17d2\u1794\u17b8\u1794\u17c6\u1795\u17bb\u178f\u1793\u17c5\u179b\u17be\u1786\u17b6\u1780\u17ac\u17a2\u17c1\u1780\u17d2\u179a\u1784\u17cb?",
+    "question": "តើអង្គការណាដែលបានបោះឆ្នោតឱ្យអាមីតាប់ បាច់ចានជាតារាល្បីបំផុតនៅលើឆាកឬអេក្រង់?",
     "wrong_answers": [
       "Time Magazine",
       "Filmfare Awards",
@@ -757,7 +757,7 @@
   },
   {
     "answer": "greatest star of stage or screen",
-    "question": "\u178f\u17be BBC Your Millennium \u1794\u17b6\u1793\u1794\u17c4\u17c7\u1786\u17d2\u1793\u17c4\u178f\u17b1\u17d2\u1799\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ BBC Your Millennium បានបោះឆ្នោតឱ្យអាមីតាប់ បាច់ចានជាអ្វី?",
     "wrong_answers": [
       "best actor",
       "most popular actor",
@@ -766,7 +766,7 @@
   },
   {
     "answer": "1999",
-    "question": "\u178f\u17be BBC Your Millennium \u1794\u17b6\u1793\u1794\u17c4\u17c7\u1786\u17d2\u1793\u17c4\u178f\u17b1\u17d2\u1799\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើ BBC Your Millennium បានបោះឆ្នោតឱ្យអាមីតាប់ បាច់ចាននៅឆ្នាំណា?",
     "wrong_answers": [
       "2000",
       "2001",
@@ -775,7 +775,7 @@
   },
   {
     "answer": "TIME magazine",
-    "question": "\u178f\u17be\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u17a0\u17c5\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1790\u17b6\u1787\u17b6 Star of the Millennium?",
+    "question": "តើអង្គការណាដែលបានហៅអាមីតាប់ បាច់ចានថាជា Star of the Millennium?",
     "wrong_answers": [
       "BBC Your Millennium",
       "Filmfare Awards",
@@ -784,7 +784,7 @@
   },
   {
     "answer": "October 2003",
-    "question": "\u178f\u17be\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a TIME \u1794\u17b6\u1793\u17a0\u17c5\u17a2\u17b6\u1798\u17b8\u178f\u17b6\u1794\u17cb \u1794\u17b6\u1785\u17cb\u1785\u17b6\u1793\u1790\u17b6\u1787\u17b6 Star of the Millennium \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "question": "តើអង្គការ TIME បានហៅអាមីតាប់ បាច់ចានថាជា Star of the Millennium នៅពេលណា?",
     "wrong_answers": [
       "September 2003",
       "November 2003",

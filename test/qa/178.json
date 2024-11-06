@@ -1,15 +1,15 @@
 [
   {
-    "answer": "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b6\u1793 \u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178a\u17ba \u1798\u17b8\u179b\u1793\u17c1 \u1787\u17b6\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "answer": "អ្នកនិពន្ធអង់គ្លេស",
+    "question": "តើអាឡាន អាឡិចសាន់ដឺ មីលនេ ជាអ្នកណា?",
     "wrong_answers": [
-      "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u17b6\u17c6\u1784",
-      "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u1794\u17b6\u179a\u17b6\u17c6\u1784"
+      "អ្នកនិពន្ធអាមេរិកាំង",
+      "អ្នកនិពន្ធបារាំង"
     ]
   },
   {
     "answer": "Winnie-the-Pooh",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b6\u1793 \u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178a\u17ba \u1798\u17b8\u179b\u1793\u17c1 \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u179f\u17d2\u1782\u17b6\u179b\u17cb\u1785\u17d2\u1794\u17b6\u179f\u17cb\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1780\u17b6\u179a\u1784\u17b6\u179a\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើអាឡាន អាឡិចសាន់ដឺ មីលនេ ត្រូវបានគេស្គាល់ច្បាស់សម្រាប់ការងាររបស់គាត់ជាអ្វី?",
     "wrong_answers": [
       "Peter Rabbit",
       "Alice in Wonderland"
@@ -17,7 +17,7 @@
   },
   {
     "answer": "Christopher Robin Milne",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1780\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f\u179a\u1794\u179f\u17cb\u17a2\u17b6\u17a1\u17b6\u1793 \u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178a\u17ba \u1798\u17b8\u179b\u1793\u17c1?",
+    "question": "តើអ្នកណាជាកូនប្រុសរបស់អាឡាន អាឡិចសាន់ដឺ មីលនេ?",
     "wrong_answers": [
       "Winnie-the-Pooh",
       "Piglet"
@@ -25,7 +25,7 @@
   },
   {
     "answer": "London Zoo",
-    "question": "\u178f\u17be\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u1780\u17b6\u179a\u1794\u17c6\u1795\u17bb\u179f\u1782\u17c6\u1793\u17b7\u178f\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u179a\u17bf\u1784 Winnie-the-Pooh \u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើមីលនេ បានទទួលការបំផុសគំនិតសម្រាប់រឿង Winnie-the-Pooh នៅឯណា?",
     "wrong_answers": [
       "Cotchford Farm",
       "Trinity College, Cambridge"
@@ -33,7 +33,7 @@
   },
   {
     "answer": "Wren Library",
-    "question": "\u178f\u17be\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u1794\u17d2\u179a\u1782\u179b\u17cb\u17af\u1780\u179f\u17b6\u179a\u178a\u17be\u1798\u179a\u1794\u179f\u17cb Winnie-the-Pooh \u1791\u17c5\u1780\u17b6\u1793\u17cb\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើមីលនេ បានប្រគល់ឯកសារដើមរបស់ Winnie-the-Pooh ទៅកាន់កន្លែងណា?",
     "wrong_answers": [
       "British Museum",
       "National Library of England"
@@ -41,7 +41,7 @@
   },
   {
     "answer": "John Vine Milne",
-    "question": "\u178f\u17be\u1788\u17d2\u1798\u17c4\u17c7\u17aa\u1796\u17bb\u1780\u179a\u1794\u179f\u17cb\u17a2\u17b6\u17a1\u17b6\u1793 \u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178a\u17ba \u1798\u17b8\u179b\u1793\u17c1 \u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើឈ្មោះឪពុករបស់អាឡាន អាឡិចសាន់ដឺ មីលនេ ជាអ្វី?",
     "wrong_answers": [
       "Christopher Robin Milne",
       "Kenneth Milne"
@@ -49,7 +49,7 @@
   },
   {
     "answer": "Kilburn, London",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b6\u1793 \u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178a\u17ba \u1798\u17b8\u179b\u1793\u17c1 \u1780\u17be\u178f\u1793\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើអាឡាន អាឡិចសាន់ដឺ មីលនេ កើតនៅទីកន្លែងណា?",
     "wrong_answers": [
       "Hartfield, East Sussex",
       "Henley House School"
@@ -57,7 +57,7 @@
   },
   {
     "answer": "H. G. Wells",
-    "question": "\u178f\u17be\u1782\u17d2\u179a\u17bc\u179a\u1794\u179f\u17cb\u1798\u17b8\u179b\u1793\u17c1 \u1793\u17c5 Henley House School \u1787\u17b6\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើគ្រូរបស់មីលនេ នៅ Henley House School ជាអ្នកណា?",
     "wrong_answers": [
       "J. M. Barrie",
       "P. G. Wodehouse"
@@ -65,7 +65,7 @@
   },
   {
     "answer": "Westminster School",
-    "question": "\u178f\u17be\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17c0\u1793\u1793\u17c5\u179f\u17b6\u179b\u17b6\u178e\u17b6?",
+    "question": "តើមីលនេ បានចូលរៀននៅសាលាណា?",
     "wrong_answers": [
       "Henley House School",
       "Trinity College, Cambridge"
@@ -73,7 +73,7 @@
   },
   {
     "answer": "Trinity College, Cambridge",
-    "question": "\u178f\u17be\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u179f\u17b7\u1780\u17d2\u179f\u17b6\u1793\u17c5\u179f\u17b6\u1780\u179b\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179b\u17d0\u1799\u178e\u17b6?",
+    "question": "តើមីលនេ បានសិក្សានៅសាកលវិទ្យាល័យណា?",
     "wrong_answers": [
       "Oxford University",
       "Cambridge University"
@@ -81,7 +81,7 @@
   },
   {
     "answer": "Granta",
-    "question": "\u178f\u17be\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1780\u17c2\u179f\u1798\u17d2\u179a\u17bd\u179b\u1793\u17b7\u1784\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178a\u17b8\u1793\u17b7\u179f\u17d2\u179f\u17b7\u178f\u178e\u17b6?",
+    "question": "តើមីលនេ បានធ្វើការជាអ្នកកែសម្រួលនិងអ្នកនិពន្ធសម្រាប់ទស្សនាវដ្ដីនិស្សិតណា?",
     "wrong_answers": [
       "Punch",
       "The Times"
@@ -89,7 +89,7 @@
   },
   {
     "answer": "Punch",
-    "question": "\u178f\u17be\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1785\u17bc\u179b\u179a\u17bd\u1798\u1793\u17b7\u1784\u17a2\u17d2\u1793\u1780\u1780\u17c2\u179f\u1798\u17d2\u179a\u17bd\u179b\u1787\u17c6\u1793\u17bd\u1799\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178a\u17b8\u1780\u17c6\u1794\u17d2\u179b\u17c2\u1784\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u178e\u17b6?",
+    "question": "តើមីលនេ បានក្លាយជាអ្នកចូលរួមនិងអ្នកកែសម្រួលជំនួយសម្រាប់ទស្សនាវដ្ដីកំប្លែងអង់គ្លេសណា?",
     "wrong_answers": [
       "The New Yorker",
       "The Spectator"
@@ -97,7 +97,7 @@
   },
   {
     "answer": "Royal Warwickshire Regiment",
-    "question": "\u178f\u17be\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u1794\u1798\u17d2\u179a\u17be\u1780\u17b6\u179a\u1787\u17b6\u1798\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u1784\u1791\u17d0\u1796\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u178e\u17b6?",
+    "question": "តើមីលនេ បានបម្រើការជាមន្ត្រីនៅក្នុងកងទ័ពអង់គ្លេសណា?",
     "wrong_answers": [
       "Royal Air Force",
       "Royal Navy"
@@ -105,7 +105,7 @@
   },
   {
     "answer": "Somme",
-    "question": "\u178f\u17be\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u1794\u1798\u17d2\u179a\u17be\u1780\u17b6\u179a\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179f\u1784\u17d2\u1782\u17d2\u179a\u17b6\u1798\u179b\u17c4\u1780\u179b\u17be\u1780\u1791\u17b8 \u17e1 \u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើមីលនេ បានបម្រើការនៅក្នុងសង្គ្រាមលោកលើកទី ១ នៅឯណា?",
     "wrong_answers": [
       "Normandy",
       "Dunkirk"
@@ -113,7 +113,7 @@
   },
   {
     "answer": "Trench fever",
-    "question": "\u178f\u17be\u1787\u17c6\u1784\u17ba\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c5 Somme?",
+    "question": "តើជំងឺអ្វីដែលមីលនេ បានកើតឡើងនៅ Somme?",
     "wrong_answers": [
       "Malaria",
       "Typhoid"
@@ -121,7 +121,7 @@
   },
   {
     "answer": "MI7 (b)",
-    "question": "\u178f\u17be\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u179f\u179a\u179f\u17c1\u179a\u17a2\u178f\u17d2\u1790\u1794\u1791\u1794\u17d2\u179a\u1785\u17b6\u17c6\u1790\u17d2\u1784\u17c3\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u178e\u17b6?",
+    "question": "តើមីលនេ បានធ្វើការសរសេរអត្ថបទប្រចាំថ្ងៃសម្រាប់អង្គការណា?",
     "wrong_answers": [
       "MI5",
       "MI6"
@@ -129,7 +129,7 @@
   },
   {
     "answer": "Peace with Honour",
-    "question": "\u178f\u17be\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u179f\u179a\u179f\u17c1\u179a\u179f\u17c0\u179c\u1797\u17c5\u1798\u17bd\u1799\u178a\u17c2\u179b\u1794\u178a\u17b7\u179f\u17c1\u1792\u179f\u1784\u17d2\u1782\u17d2\u179a\u17b6\u1798?",
+    "question": "តើមីលនេ បានសរសេរសៀវភៅមួយដែលបដិសេធសង្គ្រាម?",
     "wrong_answers": [
       "War with Honour",
       "Winnie-the-Pooh"
@@ -137,15 +137,15 @@
   },
   {
     "answer": "P. G. Wodehouse",
-    "question": "\u178f\u17be\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u179a\u17b7\u17c7\u1782\u1793\u17cb\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u1798\u17bd\u1799\u179a\u17bc\u1794\u17a2\u17c6\u1796\u17b8\u1780\u17b6\u179a\u1795\u17d2\u179f\u17b6\u1799\u179c\u17b7\u1791\u17d2\u1799\u17bb\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb\u1796\u17b8\u1794\u17ca\u17c2\u179a\u17a1\u17b6\u17c6\u1784?",
+    "question": "តើមីលនេ បានរិះគន់អ្នកនិពន្ធអង់គ្លេសមួយរូបអំពីការផ្សាយវិទ្យុរបស់គាត់ពីប៊ែរឡាំង?",
     "wrong_answers": [
       "J. M. Barrie",
       "Arthur Conan Doyle"
     ]
   },
   {
-    "answer": "Dorothy de S\u00e9lincourt",
-    "question": "\u178f\u17be\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u179a\u17c0\u1794\u1780\u17b6\u179a\u1787\u17b6\u1798\u17bd\u1799\u1793\u179a\u178e\u17b6?",
+    "answer": "Dorothy de Sélincourt",
+    "question": "តើមីលនេ បានរៀបការជាមួយនរណា?",
     "wrong_answers": [
       "Winnie-the-Pooh",
       "Christopher Robin Milne"
@@ -153,7 +153,7 @@
   },
   {
     "answer": "Cotchford Farm",
-    "question": "\u178f\u17be\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u1791\u17b7\u1789\u1795\u17d2\u1791\u17c7\u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើមីលនេ បានទិញផ្ទះនៅឯណា?",
     "wrong_answers": [
       "Henley House School",
       "Trinity College, Cambridge"
@@ -161,7 +161,7 @@
   },
   {
     "answer": "Home Guard",
-    "question": "\u178f\u17be\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u1794\u1798\u17d2\u179a\u17be\u1780\u17b6\u179a\u1787\u17b6\u1798\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u1784\u1791\u17d0\u1796\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u178e\u17b6 \u1780\u17d2\u1793\u17bb\u1784\u179f\u1784\u17d2\u1782\u17d2\u179a\u17b6\u1798\u179b\u17c4\u1780\u179b\u17be\u1780\u1791\u17b8 \u17e2?",
+    "question": "តើមីលនេ បានបម្រើការជាមន្ត្រីនៅក្នុងកងទ័ពអង់គ្លេសណា ក្នុងសង្គ្រាមលោកលើកទី ២?",
     "wrong_answers": [
       "Royal Warwickshire Regiment",
       "Royal Air Force"
@@ -169,7 +169,7 @@
   },
   {
     "answer": "Hartfield & Forest Row",
-    "question": "\u178f\u17be\u1798\u17b8\u179b\u1793\u17c1 \u1794\u17b6\u1793\u1794\u1798\u17d2\u179a\u17be\u1780\u17b6\u179a\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 Home Guard \u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើមីលនេ បានបម្រើការនៅក្នុង Home Guard នៅឯណា?",
     "wrong_answers": [
       "Kilburn, London",
       "Cotchford Farm"

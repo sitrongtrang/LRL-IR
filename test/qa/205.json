@@ -1,23 +1,23 @@
 [
   {
-    "answer": "Hercule Popeau \u1793\u17b7\u1784 Monsieur Poiret",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792 Hercule Poirot \u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u17a5\u1791\u17d2\u1792\u17b7\u1796\u179b\u1796\u17b8\u178f\u17bd\u17a2\u1784\u17d2\u1782\u17a2\u17d2\u1793\u1780\u179f\u17ca\u17be\u1794\u17a2\u1784\u17d2\u1780\u17c1\u178f\u1794\u17d2\u179a\u178c\u17b7\u178f\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7?",
+    "answer": "Hercule Popeau និង Monsieur Poiret",
+    "question": "តើអ្នកនិពន្ធ Hercule Poirot បានទទួលឥទ្ធិពលពីតួអង្គអ្នកស៊ើបអង្កេតប្រឌិតអ្វីខ្លះ?",
     "wrong_answers": [
-      "Sherlock Holmes \u1793\u17b7\u1784 Inspector Japp",
-      "Edgar Allan Poe's C. Auguste Dupin \u1793\u17b7\u1784 Inspector Hanaud"
+      "Sherlock Holmes និង Inspector Japp",
+      "Edgar Allan Poe's C. Auguste Dupin និង Inspector Hanaud"
     ]
   },
   {
-    "answer": "\u1798\u1793\u17bb\u179f\u17d2\u179f\u1787\u17b6\u1785\u17d2\u179a\u17be\u1793\u178a\u17c2\u179b\u1797\u17c0\u179f\u1781\u17d2\u179b\u17bd\u1793\u1796\u17b8\u1780\u17b6\u179a\u1788\u17d2\u179b\u17b6\u1793\u1796\u17b6\u1793\u179a\u1794\u179f\u17cb\u17a2\u17b6\u179b\u17d2\u179b\u17ba\u1798\u17c9\u1784\u17cb\u179b\u17be\u1794\u17c2\u179b\u17a0\u17d2\u179f\u17ca\u17b7\u1780",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u1780\u178f\u17d2\u178f\u17b6\u1785\u1798\u17d2\u1794\u1784\u178a\u17c2\u179b\u1794\u17b6\u1793\u1787\u17c7\u17a5\u1791\u17d2\u1792\u17b7\u1796\u179b\u178a\u179b\u17cb\u1780\u17b6\u179a\u1794\u1784\u17d2\u1780\u17be\u178f\u179a\u1794\u179f\u17cb Hercule Poirot?",
+    "answer": "មនុស្សជាច្រើនដែលភៀសខ្លួនពីការឈ្លានពានរបស់អាល្លឺម៉ង់លើបែលហ្ស៊ិក",
+    "question": "តើអ្វីជាកត្តាចម្បងដែលបានជះឥទ្ធិពលដល់ការបង្កើតរបស់ Hercule Poirot?",
     "wrong_answers": [
-      "\u1797\u17b6\u1796\u1796\u17c1\u1789\u1793\u17b7\u1799\u1798\u1793\u17c3\u17a2\u17d2\u1793\u1780\u179f\u17ca\u17be\u1794\u17a2\u1784\u17d2\u1780\u17c1\u178f\u1794\u17c2\u179b\u17a0\u17d2\u179f\u17ca\u17b7\u1780",
-      "\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179a\u1794\u179f\u17cb Agatha Christie \u1793\u17c5\u1794\u17c2\u179b\u17a0\u17d2\u179f\u17ca\u17b7\u1780"
+      "ភាពពេញនិយមនៃអ្នកស៊ើបអង្កេតបែលហ្ស៊ិក",
+      "ប្រវត្តិរបស់ Agatha Christie នៅបែលហ្ស៊ិក"
     ]
   },
   {
     "answer": "The Mysterious Affair at Styles",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780\u178e\u17b6\u178a\u17c2\u179b Hercule Poirot \u1794\u17b6\u1793\u1794\u1784\u17d2\u17a0\u17b6\u1789\u1781\u17d2\u179b\u17bd\u1793\u1787\u17b6\u179b\u17be\u1780\u178a\u17c6\u1794\u17bc\u1784?",
+    "question": "តើប្រលោមលោកណាដែល Hercule Poirot បានបង្ហាញខ្លួនជាលើកដំបូង?",
     "wrong_answers": [
       "Murder on the Orient Express",
       "Curtain"
@@ -25,7 +25,7 @@
   },
   {
     "answer": "Curtain",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780\u178e\u17b6\u178a\u17c2\u179b Hercule Poirot \u1794\u17b6\u1793\u1794\u1784\u17d2\u17a0\u17b6\u1789\u1781\u17d2\u179b\u17bd\u1793\u1787\u17b6\u179b\u17be\u1780\u1785\u17bb\u1784\u1780\u17d2\u179a\u17c4\u1799?",
+    "question": "តើប្រលោមលោកណាដែល Hercule Poirot បានបង្ហាញខ្លួនជាលើកចុងក្រោយ?",
     "wrong_answers": [
       "The Mysterious Affair at Styles",
       "Murder on the Orient Express"
@@ -33,7 +33,7 @@
   },
   {
     "answer": "The New York Times",
-    "question": "\u178f\u17be\u1780\u17b6\u179f\u17c2\u178f\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796\u1796\u17b6\u1780\u17d2\u1799\u179f\u1798\u17d2\u178a\u17b8\u179a\u1794\u179f\u17cb Hercule Poirot?",
+    "question": "តើកាសែតណាដែលបានបោះពុម្ពពាក្យសម្ដីរបស់ Hercule Poirot?",
     "wrong_answers": [
       "The Times",
       "The Guardian"
@@ -41,26 +41,26 @@
   },
   {
     "answer": "Austin Trevor, John Moffatt, Albert Finney, Peter Ustinov, Ian Holm, Tony Randall, Alfred Molina, Orson Welles, David Suchet, Kenneth Branagh, and John Malkovich",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1781\u17d2\u179b\u17c7\u1794\u17b6\u1793\u179f\u1798\u17d2\u178f\u17c2\u1784\u1787\u17b6 Hercule Poirot?",
+    "question": "តើអ្នកណាខ្លះបានសម្តែងជា Hercule Poirot?",
     "wrong_answers": [
       "Sherlock Holmes, Inspector Japp, Inspector Lestrade",
       "Edgar Allan Poe, C. Auguste Dupin, Inspector Hanaud"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u1791\u17c1\u179f\u1794\u17c2\u179b\u17a0\u17d2\u179f\u17ca\u17b7\u1780",
-    "question": "\u178f\u17be Hercule Poirot \u1787\u17b6\u1787\u1793\u1787\u17b6\u178f\u17b7\u178e\u17b6?",
+    "answer": "ប្រទេសបែលហ្ស៊ិក",
+    "question": "តើ Hercule Poirot ជាជនជាតិណា?",
     "wrong_answers": [
-      "\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f",
-      "\u1794\u17d2\u179a\u1791\u17c1\u179f\u1794\u17b6\u179a\u17b6\u17c6\u1784"
+      "ប្រទេសអង់គ្លេស",
+      "ប្រទេសបារាំង"
     ]
   },
   {
-    "answer": "\u1782\u17b6\u178f\u17cb\u1798\u17b6\u1793\u1797\u17d2\u1793\u17c2\u1780\u1796\u178e\u17cc\u1794\u17c3\u178f\u1784\u178a\u17c2\u179b\u178f\u17c2\u1784\u178f\u17c2\u1798\u17b6\u1793\u1797\u17b6\u1796\u1797\u17d2\u179b\u17ba\u1785\u17b6\u17c6\u1784",
-    "question": "\u178f\u17be Hercule Poirot \u1798\u17b6\u1793\u179b\u1780\u17d2\u1781\u178e\u17c8\u1796\u17b7\u179f\u17c1\u179f\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7?",
+    "answer": "គាត់មានភ្នែកពណ៌បៃតងដែលតែងតែមានភាពភ្លឺចាំង",
+    "question": "តើ Hercule Poirot មានលក្ខណៈពិសេសអ្វីខ្លះ?",
     "wrong_answers": [
-      "\u1782\u17b6\u178f\u17cb\u1798\u17b6\u1793\u179f\u1780\u17cb\u1781\u17d2\u1798\u17c5",
-      "\u1782\u17b6\u178f\u17cb\u1798\u17b6\u1793\u179a\u17b6\u1784\u1780\u17b6\u1799\u178f\u17bc\u1785"
+      "គាត់មានសក់ខ្មៅ",
+      "គាត់មានរាងកាយតូច"
     ]
   }
 ]

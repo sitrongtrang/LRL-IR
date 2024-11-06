@@ -1,82 +1,82 @@
 [
   {
-    "answer": "\u17a2\u17d2\u1793\u1780\u179a\u1785\u1793\u17b6\u1782\u1798\u17d2\u179a\u17c4\u1784\u17a2\u1782\u17b6\u179a Hagia Sophia \u1782\u17ba Anthemius \u1793\u17b7\u1784 Isidore of Miletus",
-    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179a\u1785\u1793\u17b6\u1782\u1798\u17d2\u179a\u17c4\u1784\u17a2\u1782\u17b6\u179a Hagia Sophia?",
+    "answer": "អ្នករចនាគម្រោងអគារ Hagia Sophia គឺ Anthemius និង Isidore of Miletus",
+    "question": "អ្នកណាជាអ្នករចនាគម្រោងអគារ Hagia Sophia?",
     "wrong_answers": [
-      "\u17a2\u17d2\u1793\u1780\u179a\u1785\u1793\u17b6\u1782\u1798\u17d2\u179a\u17c4\u1784\u17a2\u1782\u17b6\u179a Hagia Sophia \u1782\u17ba Anthemius \u1793\u17b7\u1784\u1794\u17d2\u17a2\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb",
-      "\u17a2\u17d2\u1793\u1780\u179a\u1785\u1793\u17b6\u1782\u1798\u17d2\u179a\u17c4\u1784\u17a2\u1782\u17b6\u179a Hagia Sophia \u1782\u17ba Justinian I"
+      "អ្នករចនាគម្រោងអគារ Hagia Sophia គឺ Anthemius និងប្អូនប្រុសរបស់គាត់",
+      "អ្នករចនាគម្រោងអគារ Hagia Sophia គឺ Justinian I"
     ]
   },
   {
-    "answer": "Anthemius \u1793\u17b7\u1784 Isidore of Miletus \u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178a\u17be\u1798\u1780\u17b6\u179a\u1784\u17b6\u179a\u179f\u17b6\u1784\u179f\u1784\u17cb\u17a2\u1782\u17b6\u179a Hagia Sophia \u1780\u17d2\u179a\u17c4\u1799\u1796\u17b8\u17a2\u1782\u17b6\u179a\u1785\u17b6\u179f\u17cb\u1794\u17b6\u1793\u1786\u17c1\u17c7\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e5\u17e3\u17e2",
-    "question": "\u178f\u17be Anthemius \u1793\u17b7\u1784 Isidore of Miletus \u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178a\u17be\u1798\u1780\u17b6\u179a\u1784\u17b6\u179a\u179f\u17b6\u1784\u179f\u1784\u17cb\u17a2\u1782\u17b6\u179a Hagia Sophia \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "Anthemius និង Isidore of Miletus បានចាប់ផ្ដើមការងារសាងសង់អគារ Hagia Sophia ក្រោយពីអគារចាស់បានឆេះក្នុងឆ្នាំ ៥៣២",
+    "question": "តើ Anthemius និង Isidore of Miletus បានចាប់ផ្ដើមការងារសាងសង់អគារ Hagia Sophia នៅពេលណា?",
     "wrong_answers": [
-      "Anthemius \u1793\u17b7\u1784 Isidore of Miletus \u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178a\u17be\u1798\u1780\u17b6\u179a\u1784\u17b6\u179a\u179f\u17b6\u1784\u179f\u1784\u17cb\u17a2\u1782\u17b6\u179a Hagia Sophia \u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e5\u17e0\u17e0",
-      "Anthemius \u1793\u17b7\u1784 Isidore of Miletus \u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178a\u17be\u1798\u1780\u17b6\u179a\u1784\u17b6\u179a\u179f\u17b6\u1784\u179f\u1784\u17cb\u17a2\u1782\u17b6\u179a Hagia Sophia \u1793\u17c5\u1796\u17c1\u179b Justinian I \u17a1\u17be\u1784\u179f\u17c4\u1799\u179a\u17b6\u1787\u17d2\u1799"
+      "Anthemius និង Isidore of Miletus បានចាប់ផ្ដើមការងារសាងសង់អគារ Hagia Sophia ក្នុងឆ្នាំ ៥០០",
+      "Anthemius និង Isidore of Miletus បានចាប់ផ្ដើមការងារសាងសង់អគារ Hagia Sophia នៅពេល Justinian I ឡើងសោយរាជ្យ"
     ]
   },
   {
-    "answer": "Anthemius \u1787\u17b6\u1782\u178e\u17b7\u178f\u179c\u17b7\u1791\u17bc\u178a\u17c2\u179b\u1798\u17b6\u1793\u179f\u1798\u178f\u17d2\u1790\u1797\u17b6\u1796",
-    "question": "\u178f\u17be Anthemius \u1787\u17b6\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "answer": "Anthemius ជាគណិតវិទូដែលមានសមត្ថភាព",
+    "question": "តើ Anthemius ជាអ្នកណា?",
     "wrong_answers": [
-      "Anthemius \u1787\u17b6\u1782\u17d2\u179a\u17bc\u1796\u17c1\u1791\u17d2\u1799",
-      "Anthemius \u1787\u17b6\u17a2\u17d2\u1793\u1780\u1785\u17d2\u1794\u17b6\u1794\u17cb"
+      "Anthemius ជាគ្រូពេទ្យ",
+      "Anthemius ជាអ្នកច្បាប់"
     ]
   },
   {
-    "answer": "Anthemius \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1798\u17bb\u1793\u1796\u17c1\u179b\u1794\u1789\u17d2\u1785\u1794\u17cb\u1780\u17b6\u179a\u179f\u17b6\u1784\u179f\u1784\u17cb\u17a2\u1782\u17b6\u179a Hagia Sophia",
-    "question": "\u178f\u17be Anthemius \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "Anthemius បានស្លាប់មុនពេលបញ្ចប់ការសាងសង់អគារ Hagia Sophia",
+    "question": "តើ Anthemius បានស្លាប់នៅពេលណា?",
     "wrong_answers": [
-      "Anthemius \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1780\u17d2\u179a\u17c4\u1799\u1796\u17c1\u179b\u1794\u1789\u17d2\u1785\u1794\u17cb\u1780\u17b6\u179a\u179f\u17b6\u1784\u179f\u1784\u17cb\u17a2\u1782\u17b6\u179a Hagia Sophia",
-      "Anthemius \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1780\u17d2\u1793\u17bb\u1784\u17a2\u17c6\u17a1\u17bb\u1784\u1796\u17c1\u179b\u179f\u17b6\u1784\u179f\u1784\u17cb\u17a2\u1782\u17b6\u179a Hagia Sophia"
+      "Anthemius បានស្លាប់ក្រោយពេលបញ្ចប់ការសាងសង់អគារ Hagia Sophia",
+      "Anthemius បានស្លាប់ក្នុងអំឡុងពេលសាងសង់អគារ Hagia Sophia"
     ]
   },
   {
-    "answer": "Anthemius \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179a\u1787\u17d2\u1787\u1780\u17b6\u179b\u179a\u1794\u179f\u17cb Justinian I",
-    "question": "\u178f\u17be Anthemius \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179a\u1787\u17d2\u1787\u1780\u17b6\u179b\u179a\u1794\u179f\u17cb\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "answer": "Anthemius បានស្លាប់នៅក្នុងរជ្ជកាលរបស់ Justinian I",
+    "question": "តើ Anthemius បានស្លាប់នៅក្នុងរជ្ជកាលរបស់អ្នកណា?",
     "wrong_answers": [
-      "Anthemius \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179a\u1787\u17d2\u1787\u1780\u17b6\u179b\u179a\u1794\u179f\u17cb Zeno",
-      "Anthemius \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179a\u1787\u17d2\u1787\u1780\u17b6\u179b\u179a\u1794\u179f\u17cb Constantine I"
+      "Anthemius បានស្លាប់នៅក្នុងរជ្ជកាលរបស់ Zeno",
+      "Anthemius បានស្លាប់នៅក្នុងរជ្ជកាលរបស់ Constantine I"
     ]
   },
   {
-    "answer": "Anthemius \u1787\u17b6\u1787\u1793\u1787\u17b6\u178f\u17b7 Byzantine Greek",
-    "question": "\u178f\u17be Anthemius \u1787\u17b6\u1787\u1793\u1787\u17b6\u178f\u17b7\u17a2\u17d2\u179c\u17b8?",
+    "answer": "Anthemius ជាជនជាតិ Byzantine Greek",
+    "question": "តើ Anthemius ជាជនជាតិអ្វី?",
     "wrong_answers": [
-      "Anthemius \u1787\u17b6\u1787\u1793\u1787\u17b6\u178f\u17b7 Roman",
-      "Anthemius \u1787\u17b6\u1787\u1793\u1787\u17b6\u178f\u17b7 Persian"
+      "Anthemius ជាជនជាតិ Roman",
+      "Anthemius ជាជនជាតិ Persian"
     ]
   },
   {
-    "answer": "Anthemius \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179c\u17b6\u179f\u17cb\u179c\u17c2\u1784\u1793\u17b7\u1784\u179f\u17d2\u1790\u17b6\u1794\u178f\u17d2\u1799\u1780\u179a\u1793\u17c5 Constantinople",
-    "question": "\u178f\u17be Anthemius \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u1793\u17c5\u17af\u178e\u17b6?",
+    "answer": "Anthemius បានធ្វើការជាអ្នកវាស់វែងនិងស្ថាបត្យករនៅ Constantinople",
+    "question": "តើ Anthemius បានធ្វើការនៅឯណា?",
     "wrong_answers": [
-      "Anthemius \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u1793\u17c5 Rome",
-      "Anthemius \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u1793\u17c5 Alexandria"
+      "Anthemius បានធ្វើការនៅ Rome",
+      "Anthemius បានធ្វើការនៅ Alexandria"
     ]
   },
   {
-    "answer": "Anthemius \u1798\u17b6\u1793\u1794\u17d2\u17a2\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f \u17e4 \u1793\u17b6\u1780\u17cb",
-    "question": "\u178f\u17be Anthemius \u1798\u17b6\u1793\u1794\u17d2\u17a2\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1793\u17b6\u1780\u17cb?",
+    "answer": "Anthemius មានប្អូនប្រុស ៤ នាក់",
+    "question": "តើ Anthemius មានប្អូនប្រុសប៉ុន្មាននាក់?",
     "wrong_answers": [
-      "Anthemius \u1798\u17b6\u1793\u1794\u17d2\u17a2\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f \u17e2 \u1793\u17b6\u1780\u17cb",
-      "Anthemius \u1798\u17b6\u1793\u1794\u17d2\u17a2\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f \u17e6 \u1793\u17b6\u1780\u17cb"
+      "Anthemius មានប្អូនប្រុស ២ នាក់",
+      "Anthemius មានប្អូនប្រុស ៦ នាក់"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u17a2\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f\u179a\u1794\u179f\u17cb Anthemius \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Dioscorus, Alexander, Olympius \u1793\u17b7\u1784 Metrodorus",
-    "question": "\u178f\u17be\u1794\u17d2\u17a2\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f\u179a\u1794\u179f\u17cb Anthemius \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7?",
+    "answer": "ប្អូនប្រុសរបស់ Anthemius មានឈ្មោះថា Dioscorus, Alexander, Olympius និង Metrodorus",
+    "question": "តើប្អូនប្រុសរបស់ Anthemius មានឈ្មោះអ្វីខ្លះ?",
     "wrong_answers": [
-      "\u1794\u17d2\u17a2\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f\u179a\u1794\u179f\u17cb Anthemius \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Diocletian, Alexander, Olympius \u1793\u17b7\u1784 Metrodorus",
-      "\u1794\u17d2\u17a2\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f\u179a\u1794\u179f\u17cb Anthemius \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6 Dioscorus, Alexander, Olympius \u1793\u17b7\u1784 Metrodorus"
+      "ប្អូនប្រុសរបស់ Anthemius មានឈ្មោះថា Diocletian, Alexander, Olympius និង Metrodorus",
+      "ប្អូនប្រុសរបស់ Anthemius មានឈ្មោះថា Dioscorus, Alexander, Olympius និង Metrodorus"
     ]
   },
   {
-    "answer": "Anthemius \u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u1782\u17d2\u179a\u17c4\u17c7\u1792\u1798\u17d2\u1798\u1787\u17b6\u178f\u17b7\u178f\u17bc\u1785\u1798\u17bd\u1799\u178a\u17c4\u1799\u1794\u17d2\u179a\u17be\u1785\u17c6\u17a0\u17b6\u1799\u1791\u17b9\u1780\u178a\u17be\u1798\u17d2\u1794\u17b8\u1792\u17d2\u179c\u17be\u17b1\u17d2\u1799\u1795\u17d2\u1791\u17c7\u179a\u1794\u179f\u17cb Zeno \u1789\u17d0\u179a",
-    "question": "\u178f\u17be Anthemius \u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u17a2\u17d2\u179c\u17b8?",
+    "answer": "Anthemius បានបង្កើតគ្រោះធម្មជាតិតូចមួយដោយប្រើចំហាយទឹកដើម្បីធ្វើឱ្យផ្ទះរបស់ Zeno ញ័រ",
+    "question": "តើ Anthemius បានបង្កើតអ្វី?",
     "wrong_answers": [
-      "Anthemius \u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u1782\u17d2\u179a\u17c4\u17c7\u1792\u1798\u17d2\u1798\u1787\u17b6\u178f\u17b7\u1792\u17c6\u1798\u17bd\u1799",
-      "Anthemius \u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u1798\u1793\u17d2\u178f\u17a2\u17b6\u1782\u1798"
+      "Anthemius បានបង្កើតគ្រោះធម្មជាតិធំមួយ",
+      "Anthemius បានបង្កើតមន្តអាគម"
     ]
   }
 ]

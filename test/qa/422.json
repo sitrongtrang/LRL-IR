@@ -1,16 +1,16 @@
 [
   {
-    "answer": "\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u17bc\u179f\u17d2\u178f\u17d2\u179a\u17b6\u179b\u17b8",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1791\u17c1\u179f\u178e\u17b6\u178a\u17c2\u179b\u1798\u17b6\u1793\u1794\u17d2\u179a\u1797\u17c1\u1791 Acacia \u1785\u17d2\u179a\u17be\u1793\u1787\u17b6\u1784\u1782\u17c1?",
+    "answer": "ប្រទេសអូស្ត្រាលី",
+    "question": "តើប្រទេសណាដែលមានប្រភេទ Acacia ច្រើនជាងគេ?",
     "wrong_answers": [
-      "\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u17b6\u17a0\u17d2\u179a\u17d2\u179c\u17b7\u1780",
-      "\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a5\u178e\u17d2\u178c\u17b6",
-      "\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780"
+      "ប្រទេសអាហ្រ្វិក",
+      "ប្រទេសឥណ្ឌា",
+      "ប្រទេសអាមេរិក"
     ]
   },
   {
     "answer": "Acacia nilotica",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1797\u17c1\u1791 Acacia \u178a\u17c2\u179b Linnaeus \u1794\u17b6\u1793\u1794\u17d2\u179a\u17be\u178a\u17be\u1798\u17d2\u1794\u17b8\u1796\u17b7\u1796\u178e\u17cc\u1793\u17b6\u17a2\u17c6\u1796\u17b8 genus Acacia \u1793\u17c1\u17c7\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើប្រភេទ Acacia ដែល Linnaeus បានប្រើដើម្បីពិពណ៌នាអំពី genus Acacia នេះជាអ្វី?",
     "wrong_answers": [
       "Acacia s.l.",
       "Acacia Senegalia",
@@ -18,17 +18,17 @@
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u1785\u17b6\u178f\u17cb\u1790\u17d2\u1793\u17b6\u1780\u17cb",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u1794\u1789\u17d2\u17a0\u17b6\u178a\u17c2\u179b\u1793\u17b6\u17c6\u17b1\u17d2\u1799\u1798\u17b6\u1793\u1780\u17b6\u179a\u1794\u17c2\u1784\u1785\u17c2\u1780 Acacia \u1791\u17c5\u1787\u17b6 genus \u1795\u17d2\u179f\u17c1\u1784\u17d7?",
+    "answer": "ការចាត់ថ្នាក់",
+    "question": "តើអ្វីជាបញ្ហាដែលនាំឱ្យមានការបែងចែក Acacia ទៅជា genus ផ្សេងៗ?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u1796\u17b7\u1796\u178e\u17cc\u1793\u17b6",
-      "\u1780\u17b6\u179a\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb",
-      "\u1780\u17b6\u179a\u179a\u1780\u1783\u17be\u1789"
+      "ការពិពណ៌នា",
+      "ការប្រើប្រាស់",
+      "ការរកឃើញ"
     ]
   },
   {
     "answer": "Acacia",
-    "question": "\u178f\u17be genus \u178e\u17b6\u178a\u17c2\u179b\u1798\u17b6\u1793\u1794\u17d2\u179a\u1797\u17c1\u1791 Acacia \u17a2\u17bc\u179f\u17d2\u178f\u17d2\u179a\u17b6\u179b\u17b8\u1797\u17b6\u1782\u1785\u17d2\u179a\u17be\u1793?",
+    "question": "តើ genus ណាដែលមានប្រភេទ Acacia អូស្ត្រាលីភាគច្រើន?",
     "wrong_answers": [
       "Senegalia",
       "Vachellia",
@@ -37,7 +37,7 @@
   },
   {
     "answer": "Pedanius Dioscorides",
-    "question": "\u178f\u17be\u1793\u179a\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u178a\u17c2\u179b\u1794\u17b6\u1793\u178a\u17b6\u1780\u17cb\u1788\u17d2\u1798\u17c4\u17c7 Acacia \u178a\u17c6\u1794\u17bc\u1784?",
+    "question": "តើនរណាជាអ្នកដែលបានដាក់ឈ្មោះ Acacia ដំបូង?",
     "wrong_answers": [
       "Carl Linnaeus",
       "Philip Miller",
@@ -46,7 +46,7 @@
   },
   {
     "answer": "Mimosoideae",
-    "question": "\u178f\u17be Acacia \u1787\u17b6\u1795\u17d2\u1793\u17c2\u1780\u1798\u17bd\u1799\u1793\u17c3 subfamily \u178e\u17b6?",
+    "question": "តើ Acacia ជាផ្នែកមួយនៃ subfamily ណា?",
     "wrong_answers": [
       "Fabaceae",
       "Leguminosae",
@@ -54,17 +54,17 @@
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u1794\u17d2\u179a\u17c2\u1794\u17d2\u179a\u17bd\u179b\u1794\u179a\u17b7\u179f\u17d2\u1790\u17b6\u1793",
-    "question": "\u178f\u17be\u1798\u17bc\u179b\u17a0\u17c1\u178f\u17bb\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u1793\u17b6\u17c6\u17b1\u17d2\u1799\u1798\u17b6\u1793\u1780\u17b6\u179a\u1794\u17c2\u1784\u1785\u17c2\u1780 Mimosoideae \u1791\u17c5\u1787\u17b6 clade \u1795\u17d2\u179f\u17c1\u1784\u17d7?",
+    "answer": "ការប្រែប្រួលបរិស្ថាន",
+    "question": "តើមូលហេតុអ្វីដែលនាំឱ្យមានការបែងចែក Mimosoideae ទៅជា clade ផ្សេងៗ?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u1794\u17d2\u179a\u17c2\u1794\u17d2\u179a\u17bd\u179b\u1797\u17bc\u1798\u17b7\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a",
-      "\u1780\u17b6\u179a\u1794\u17d2\u179a\u17c2\u1794\u17d2\u179a\u17bd\u179b\u1796\u17bc\u1787",
-      "\u1780\u17b6\u179a\u1794\u17d2\u179a\u17c2\u1794\u17d2\u179a\u17bd\u179b\u1794\u1785\u17d2\u1785\u17c1\u1780\u179c\u17b7\u1791\u17d2\u1799\u17b6"
+      "ការប្រែប្រួលភូមិសាស្ត្រ",
+      "ការប្រែប្រួលពូជ",
+      "ការប្រែប្រួលបច្ចេកវិទ្យា"
     ]
   },
   {
     "answer": "Acacia",
-    "question": "\u178f\u17be genus \u178e\u17b6\u178a\u17c2\u179b\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u178a\u17be\u1798\u178a\u17c2\u179b\u1794\u17d2\u179a\u17be\u178a\u17c4\u1799 Dioscorides?",
+    "question": "តើ genus ណាដែលមានឈ្មោះដើមដែលប្រើដោយ Dioscorides?",
     "wrong_answers": [
       "Senegalia",
       "Vachellia",
@@ -72,21 +72,21 @@
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u1797\u17c1\u1791 Acacia \u1793\u17c5\u17a2\u17b6\u17a0\u17d2\u179a\u17d2\u179c\u17b7\u1780",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1797\u17c1\u1791 Acacia \u178e\u17b6\u178a\u17c2\u179b\u1798\u17b6\u1793\u1780\u17b6\u179a\u1794\u17d2\u179a\u1787\u17c2\u1784\u1782\u17d2\u1793\u17b6\u1785\u17d2\u179a\u17be\u1793\u1794\u17c6\u1795\u17bb\u178f?",
+    "answer": "ប្រភេទ Acacia នៅអាហ្រ្វិក",
+    "question": "តើប្រភេទ Acacia ណាដែលមានការប្រជែងគ្នាច្រើនបំផុត?",
     "wrong_answers": [
-      "\u1794\u17d2\u179a\u1797\u17c1\u1791 Acacia \u1793\u17c5\u17a2\u17bc\u179f\u17d2\u178f\u17d2\u179a\u17b6\u179b\u17b8",
-      "\u1794\u17d2\u179a\u1797\u17c1\u1791 Acacia \u1793\u17c5\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780",
-      "\u1794\u17d2\u179a\u1797\u17c1\u1791 Acacia \u1793\u17c5\u17a5\u178e\u17d2\u178c\u17b6"
+      "ប្រភេទ Acacia នៅអូស្ត្រាលី",
+      "ប្រភេទ Acacia នៅអាមេរិក",
+      "ប្រភេទ Acacia នៅឥណ្ឌា"
     ]
   },
   {
-    "answer": "25 \u179b\u17b6\u1793\u1786\u17d2\u1793\u17b6\u17c6",
-    "question": "\u178f\u17be Mimosoideae \u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178f\u17be\u1798\u1794\u17c2\u1784\u1785\u17c2\u1780\u1787\u17b6 clade \u1795\u17d2\u179f\u17c1\u1784\u17d7\u178f\u17b6\u17c6\u1784\u1796\u17b8\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "25 លានឆ្នាំ",
+    "question": "តើ Mimosoideae បានចាប់ផ្តើមបែងចែកជា clade ផ្សេងៗតាំងពីពេលណា?",
     "wrong_answers": [
-      "50 \u179b\u17b6\u1793\u1786\u17d2\u1793\u17b6\u17c6",
-      "10 \u179b\u17b6\u1793\u1786\u17d2\u1793\u17b6\u17c6",
-      "100 \u179b\u17b6\u1793\u1786\u17d2\u1793\u17b6\u17c6"
+      "50 លានឆ្នាំ",
+      "10 លានឆ្នាំ",
+      "100 លានឆ្នាំ"
     ]
   }
 ]

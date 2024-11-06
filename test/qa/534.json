@@ -1,151 +1,151 @@
 [
   {
-    "answer": "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u179a\u17bb\u179f\u17d2\u179f\u17ca\u17b8\u178a\u17cf\u179b\u17d2\u1794\u17b8\u179b\u17d2\u1794\u17b6\u1789\u1798\u17d2\u1793\u17b6\u1780\u17cb \u178a\u17c2\u179b\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179a\u17b7\u17c7\u1782\u1793\u17cb\u179f\u1798\u17b6\u1787\u17b7\u1780\u179f\u17bc\u179c\u17c0\u178f \u1793\u17b7\u1784\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1793\u17b6\u17c6\u1798\u17bb\u1781\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u1793\u17b6\u17c6\u1799\u1780\u1794\u17d2\u179a\u1791\u17c1\u179f\u1793\u17c1\u17c7\u1785\u17c1\u1789\u1796\u17b8\u17a2\u17c6\u178e\u17b6\u1785\u179f\u17bc\u179c\u17c0\u178f",
-    "question": "Aleksandr Solzhenitsyn \u1787\u17b6\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "answer": "អ្នកនិពន្ធរុស្ស៊ីដ៏ល្បីល្បាញម្នាក់ ដែលជាអ្នករិះគន់សមាជិកសូវៀត និងជាអ្នកនាំមុខនៅក្នុងការនាំយកប្រទេសនេះចេញពីអំណាចសូវៀត",
+    "question": "Aleksandr Solzhenitsyn ជាអ្នកណា?",
     "wrong_answers": [
-      "\u17a2\u17d2\u1793\u1780\u1793\u1799\u17c4\u1794\u17b6\u1799\u179f\u17bc\u179c\u17c0\u178f",
-      "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u1787\u1793\u1787\u17b6\u178f\u17b7\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780"
+      "អ្នកនយោបាយសូវៀត",
+      "អ្នកនិពន្ធជនជាតិអាមេរិក"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u17a2\u17c6\u17a1\u17bb\u1784\u1796\u17c1\u179b\u179f\u1784\u17d2\u1782\u17d2\u179a\u17b6\u1798\u179b\u17c4\u1780\u179b\u17be\u1780\u1791\u17b8\u17e2",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1781\u17d2\u179b\u17bd\u1793 Aleksandr Solzhenitsyn \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "នៅក្នុងអំឡុងពេលសង្គ្រាមលោកលើកទី២",
+    "question": "តើអ្នកណាបានចាប់ខ្លួន Aleksandr Solzhenitsyn នៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u17a2\u17c6\u17a1\u17bb\u1784\u1796\u17c1\u179b\u179f\u1784\u17d2\u1782\u17d2\u179a\u17b6\u1798\u178f\u17d2\u179a\u1787\u17b6\u1780\u17cb",
-      "\u1794\u1793\u17d2\u1791\u17b6\u1794\u17cb\u1796\u17b8\u1780\u17b6\u179a\u178a\u17bd\u179b\u179a\u179b\u17c6\u1793\u17c3\u179f\u17a0\u1797\u17b6\u1796\u179f\u17bc\u179c\u17c0\u178f"
+      "ក្នុងអំឡុងពេលសង្គ្រាមត្រជាក់",
+      "បន្ទាប់ពីការដួលរលំនៃសហភាពសូវៀត"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u17b6\u17c6\u1794\u17b8\u1786\u17d2\u1793\u17b6\u17c6\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 Gulag \u1793\u17b7\u1784\u1794\u1793\u17d2\u1791\u17b6\u1794\u17cb\u1798\u1780\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u1793\u17b7\u179a\u1791\u17c1\u179f\u1781\u17b6\u1784\u1780\u17d2\u1793\u17bb\u1784",
-    "question": "\u178f\u17be Aleksandr Solzhenitsyn \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1780\u17b6\u178f\u17cb\u1791\u17c4\u179f\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ប្រាំបីឆ្នាំនៅក្នុង Gulag និងបន្ទាប់មកនៅក្នុងការនិរទេសខាងក្នុង",
+    "question": "តើ Aleksandr Solzhenitsyn ត្រូវបានកាត់ទោសអ្វី?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u179f\u17d2\u179b\u17b6\u1794\u17cb",
-      "\u1780\u17b6\u179a\u1793\u17b7\u179a\u1791\u17c1\u179f\u1791\u17c5\u1794\u17d2\u179a\u1791\u17c1\u179f\u1795\u17d2\u179f\u17c1\u1784"
+      "ការស្លាប់",
+      "ការនិរទេសទៅប្រទេសផ្សេង"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u179a\u17b7\u17c7\u1782\u1793\u17cb Joseph Stalin \u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179b\u17b7\u1781\u17b7\u178f\u17af\u1780\u1787\u1793",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1781\u17d2\u179b\u17bd\u1793 Aleksandr Solzhenitsyn?",
+    "answer": "ការរិះគន់ Joseph Stalin នៅក្នុងលិខិតឯកជន",
+    "question": "តើអ្នកណាបានចាប់ខ្លួន Aleksandr Solzhenitsyn?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u179a\u17b7\u17c7\u1782\u1793\u17cb Khrushchev",
-      "\u1780\u17b6\u179a\u179a\u17b7\u17c7\u1782\u1793\u17cb\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 Gulag"
+      "ការរិះគន់ Khrushchev",
+      "ការរិះគន់ប្រព័ន្ធ Gulag"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u179a\u17b7\u17c7\u1782\u1793\u17cb\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 Gulag",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17b1\u17d2\u1799 Aleksandr Solzhenitsyn \u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1787\u17bf\u179f\u17b6\u179f\u1793\u17b6\u1782\u17d2\u179a\u17b9\u179f\u17d2\u178f\u179f\u17b6\u179f\u1793\u17b6\u17a2\u17bc\u1791\u17bc\u178a\u17bb\u1780?",
+    "answer": "ការរិះគន់ប្រព័ន្ធ Gulag",
+    "question": "តើអ្នកណាបានធ្វើឱ្យ Aleksandr Solzhenitsyn ក្លាយជាអ្នកជឿសាសនាគ្រឹស្តសាសនាអូទូដុក?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u179a\u17b7\u17c7\u1782\u1793\u17cb Khrushchev",
-      "\u1780\u17b6\u179a\u179a\u17b7\u17c7\u1782\u1793\u17cb Stalin"
+      "ការរិះគន់ Khrushchev",
+      "ការរិះគន់ Stalin"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1962",
-    "question": "\u178f\u17be\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6\u178a\u17c2\u179b\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780 One Day in the Life of Ivan Denisovich \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796?",
+    "answer": "នៅក្នុងឆ្នាំ 1962",
+    "question": "តើនៅពេលណាដែលប្រលោមលោក One Day in the Life of Ivan Denisovich ត្រូវបានបោះពុម្ព?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1963",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1966"
+      "នៅក្នុងឆ្នាំ 1963",
+      "នៅក្នុងឆ្នាំ 1966"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u1785\u17c4\u1791\u1794\u17d2\u179a\u1780\u17b6\u1793\u17cb\u179a\u1794\u179f\u17cb\u179f\u17d2\u178f\u17b6\u179b\u17b8\u1793",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780 One Day in the Life of Ivan Denisovich \u1793\u17b7\u1799\u17b6\u1799\u17a2\u17c6\u1796\u17b8\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ការចោទប្រកាន់របស់ស្តាលីន",
+    "question": "តើប្រលោមលោក One Day in the Life of Ivan Denisovich និយាយអំពីអ្វី?",
     "wrong_answers": [
-      "\u1787\u17b8\u179c\u17b7\u178f\u179a\u1794\u179f\u17cb Khrushchev",
-      "\u1780\u17b6\u179a\u179a\u17b7\u17c7\u1782\u1793\u17cb\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 Gulag"
+      "ជីវិតរបស់ Khrushchev",
+      "ការរិះគន់ប្រព័ន្ធ Gulag"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1963",
-    "question": "\u178f\u17be\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6\u178a\u17c2\u179b\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780 Matryona's Place \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796?",
+    "answer": "នៅក្នុងឆ្នាំ 1963",
+    "question": "តើនៅពេលណាដែលប្រលោមលោក Matryona's Place ត្រូវបានបោះពុម្ព?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1962",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1966"
+      "នៅក្នុងឆ្នាំ 1962",
+      "នៅក្នុងឆ្នាំ 1966"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1966",
-    "question": "\u178f\u17be\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6\u178a\u17c2\u179b\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780 Cancer Ward \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796?",
+    "answer": "នៅក្នុងឆ្នាំ 1966",
+    "question": "តើនៅពេលណាដែលប្រលោមលោក Cancer Ward ត្រូវបានបោះពុម្ព?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1963",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1968"
+      "នៅក្នុងឆ្នាំ 1963",
+      "នៅក្នុងឆ្នាំ 1968"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1968",
-    "question": "\u178f\u17be\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6\u178a\u17c2\u179b\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780 In the First Circle \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796?",
+    "answer": "នៅក្នុងឆ្នាំ 1968",
+    "question": "តើនៅពេលណាដែលប្រលោមលោក In the First Circle ត្រូវបានបោះពុម្ព?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1966",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1971"
+      "នៅក្នុងឆ្នាំ 1966",
+      "នៅក្នុងឆ្នាំ 1971"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1971",
-    "question": "\u178f\u17be\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6\u178a\u17c2\u179b\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780 August 1914 \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796?",
+    "answer": "នៅក្នុងឆ្នាំ 1971",
+    "question": "តើនៅពេលណាដែលប្រលោមលោក August 1914 ត្រូវបានបោះពុម្ព?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1968",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1973"
+      "នៅក្នុងឆ្នាំ 1968",
+      "នៅក្នុងឆ្នាំ 1973"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1973",
-    "question": "\u178f\u17be\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6\u178a\u17c2\u179b\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780 The Gulag Archipelago \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796?",
+    "answer": "នៅក្នុងឆ្នាំ 1973",
+    "question": "តើនៅពេលណាដែលប្រលោមលោក The Gulag Archipelago ត្រូវបានបោះពុម្ព?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1971",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1974"
+      "នៅក្នុងឆ្នាំ 1971",
+      "នៅក្នុងឆ្នាំ 1974"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1974",
-    "question": "\u178f\u17be\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6\u178a\u17c2\u179b Aleksandr Solzhenitsyn \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u178a\u1780\u17a0\u17bc\u178f\u179f\u1789\u17d2\u1787\u17b6\u178f\u17b7\u179f\u17bc\u179c\u17c0\u178f?",
+    "answer": "នៅក្នុងឆ្នាំ 1974",
+    "question": "តើនៅពេលណាដែល Aleksandr Solzhenitsyn ត្រូវបានដកហូតសញ្ជាតិសូវៀត?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1973",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1976"
+      "នៅក្នុងឆ្នាំ 1973",
+      "នៅក្នុងឆ្នាំ 1976"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1976",
-    "question": "\u178f\u17be\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6\u178a\u17c2\u179b Aleksandr Solzhenitsyn \u1794\u17b6\u1793\u1795\u17d2\u179b\u17b6\u179f\u17cb\u1791\u17c5\u179f\u17a0\u179a\u178a\u17d2\u178b\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780?",
+    "answer": "នៅក្នុងឆ្នាំ 1976",
+    "question": "តើនៅពេលណាដែល Aleksandr Solzhenitsyn បានផ្លាស់ទៅសហរដ្ឋអាមេរិក?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1974",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1990"
+      "នៅក្នុងឆ្នាំ 1974",
+      "នៅក្នុងឆ្នាំ 1990"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1990",
-    "question": "\u178f\u17be\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6\u178a\u17c2\u179b Aleksandr Solzhenitsyn \u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u179f\u1789\u17d2\u1787\u17b6\u178f\u17b7\u179f\u17bc\u179c\u17c0\u178f\u179c\u17b7\u1789?",
+    "answer": "នៅក្នុងឆ្នាំ 1990",
+    "question": "តើនៅពេលណាដែល Aleksandr Solzhenitsyn បានទទួលសញ្ជាតិសូវៀតវិញ?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1976",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1994"
+      "នៅក្នុងឆ្នាំ 1976",
+      "នៅក្នុងឆ្នាំ 1994"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1994",
-    "question": "\u178f\u17be\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6\u178a\u17c2\u179b Aleksandr Solzhenitsyn \u1794\u17b6\u1793\u178f\u17d2\u179a\u17a1\u1794\u17cb\u1791\u17c5\u179a\u17bb\u179f\u17d2\u179f\u17ca\u17b8\u179c\u17b7\u1789?",
+    "answer": "នៅក្នុងឆ្នាំ 1994",
+    "question": "តើនៅពេលណាដែល Aleksandr Solzhenitsyn បានត្រឡប់ទៅរុស្ស៊ីវិញ?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1990",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 2008"
+      "នៅក្នុងឆ្នាំ 1990",
+      "នៅក្នុងឆ្នាំ 2008"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 2008",
-    "question": "\u178f\u17be\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6\u178a\u17c2\u179b Aleksandr Solzhenitsyn \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb?",
+    "answer": "នៅក្នុងឆ្នាំ 2008",
+    "question": "តើនៅពេលណាដែល Aleksandr Solzhenitsyn បានស្លាប់?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1994",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1990"
+      "នៅក្នុងឆ្នាំ 1994",
+      "នៅក្នុងឆ្នាំ 1990"
     ]
   },
   {
-    "answer": "\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u179f\u17b8\u179b\u1792\u1798\u17cc\u178a\u17c2\u179b\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1794\u1793\u17d2\u178f\u1791\u17c6\u1793\u17c0\u1798\u1791\u1798\u17d2\u179b\u17b6\u1794\u17cb\u178a\u17c2\u179b\u1798\u17b7\u1793\u17a2\u17b6\u1785\u1781\u17d2\u179c\u17c7\u1794\u17b6\u1793\u1793\u17c3\u17a2\u1780\u17d2\u179f\u179a\u179f\u17b7\u179b\u17d2\u1794\u17cd\u179a\u17bb\u179f\u17d2\u179f\u17ca\u17b8",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1795\u17d2\u178f\u179b\u17cb\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb\u178e\u17bc\u1794\u17c2\u179b\u1795\u17d2\u1793\u17c2\u1780\u17a2\u1780\u17d2\u179f\u179a\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u178a\u179b\u17cb Aleksandr Solzhenitsyn?",
+    "answer": "សម្រាប់កម្លាំងសីលធម៌ដែលគាត់បានបន្តទំនៀមទម្លាប់ដែលមិនអាចខ្វះបាននៃអក្សរសិល្ប៍រុស្ស៊ី",
+    "question": "តើអ្នកណាបានផ្តល់រង្វាន់ណូបែលផ្នែកអក្សរសាស្ត្រដល់ Aleksandr Solzhenitsyn?",
     "wrong_answers": [
-      "\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1780\u17b6\u179a\u179a\u17b7\u17c7\u1782\u1793\u17cb\u179f\u17bc\u179c\u17c0\u178f",
-      "\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780 The Gulag Archipelago"
+      "សម្រាប់ការរិះគន់សូវៀត",
+      "សម្រាប់ប្រលោមលោក The Gulag Archipelago"
     ]
   },
   {
     "answer": "The Gulag Archipelago",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u1780\u17b6\u179a\u1784\u17b6\u179a\u178a\u17cf\u1798\u17b6\u1793\u17a5\u1791\u17d2\u1792\u17b7\u1796\u179b\u179a\u1794\u179f\u17cb Aleksandr Solzhenitsyn \u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u1794\u1789\u17d2\u17a0\u17b6\u178a\u179b\u17cb\u179a\u178a\u17d2\u178b\u179f\u17bc\u179c\u17c0\u178f?",
+    "question": "តើអ្វីជាការងារដ៏មានឥទ្ធិពលរបស់ Aleksandr Solzhenitsyn ដែលបានបង្កើតបញ្ហាដល់រដ្ឋសូវៀត?",
     "wrong_answers": [
       "One Day in the Life of Ivan Denisovich",
       "Cancer Ward"
@@ -153,15 +153,15 @@
   },
   {
     "answer": "Kislovodsk",
-    "question": "\u178f\u17be Aleksandr Solzhenitsyn \u1780\u17be\u178f\u1793\u17c5\u1791\u17b8\u178e\u17b6?",
+    "question": "តើ Aleksandr Solzhenitsyn កើតនៅទីណា?",
     "wrong_answers": [
-      "\u1798\u17bc\u179f\u17d2\u1782\u17bc",
-      "\u179f\u17b6\u17c6\u1784\u1796\u17c1\u1791\u17ba\u1794\u17ca\u17ba\u1782"
+      "មូស្គូ",
+      "សាំងពេទឺប៊ឺគ"
     ]
   },
   {
     "answer": "Isaakiy Semyonovich Solzhenitsyn",
-    "question": "\u178f\u17be\u1788\u17d2\u1798\u17c4\u17c7\u17aa\u1796\u17bb\u1780\u179a\u1794\u179f\u17cb Aleksandr Solzhenitsyn \u1787\u17b6\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើឈ្មោះឪពុករបស់ Aleksandr Solzhenitsyn ជាអ្នកណា?",
     "wrong_answers": [
       "Aleksandr Solzhenitsyn",
       "Taisiya Zakharovna Solzhenitsyn"
@@ -169,50 +169,50 @@
   },
   {
     "answer": "Taisiya Zakharovna Shcherbak",
-    "question": "\u178f\u17be\u1788\u17d2\u1798\u17c4\u17c7\u1798\u17d2\u178f\u17b6\u1799\u179a\u1794\u179f\u17cb Aleksandr Solzhenitsyn \u1787\u17b6\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើឈ្មោះម្តាយរបស់ Aleksandr Solzhenitsyn ជាអ្នកណា?",
     "wrong_answers": [
       "Taisiya Zakharovna Solzhenitsyn",
       "Isaakiy Semyonovich Solzhenitsyn"
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u17a2\u17c6\u17a1\u17bb\u1784\u1796\u17c1\u179b\u179f\u1784\u17d2\u1782\u17d2\u179a\u17b6\u1798\u179f\u17ca\u17b8\u179c\u17b7\u179b\u179a\u17bb\u179f\u17d2\u179f\u17ca\u17b8",
-    "question": "\u178f\u17be Aleksandr Solzhenitsyn \u1792\u17c6\u17a1\u17be\u1784\u1780\u17d2\u1793\u17bb\u1784\u179f\u1798\u17d0\u1799\u178e\u17b6?",
+    "answer": "ក្នុងអំឡុងពេលសង្គ្រាមស៊ីវិលរុស្ស៊ី",
+    "question": "តើ Aleksandr Solzhenitsyn ធំឡើងក្នុងសម័យណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u17a2\u17c6\u17a1\u17bb\u1784\u1796\u17c1\u179b\u179f\u1784\u17d2\u1782\u17d2\u179a\u17b6\u1798\u179b\u17c4\u1780\u179b\u17be\u1780\u1791\u17b8\u17e2",
-      "\u1794\u1793\u17d2\u1791\u17b6\u1794\u17cb\u1796\u17b8\u1780\u17b6\u179a\u178a\u17bd\u179b\u179a\u179b\u17c6\u1793\u17c3\u179f\u17a0\u1797\u17b6\u1796\u179f\u17bc\u179c\u17c0\u178f"
+      "ក្នុងអំឡុងពេលសង្គ្រាមលោកលើកទី២",
+      "បន្ទាប់ពីការដួលរលំនៃសហភាពសូវៀត"
     ]
   },
   {
-    "answer": "\u1780\u179f\u17b7\u1780\u1798\u17d2\u1798\u1780\u17d2\u179a\u17bb\u1798",
-    "question": "\u178f\u17be\u1791\u17d2\u179a\u1796\u17d2\u1799\u179f\u1798\u17d2\u1794\u178f\u17d2\u178f\u17b7\u179a\u1794\u179f\u17cb\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a Aleksandr Solzhenitsyn \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17d2\u179a\u17c2\u1780\u17d2\u179b\u17b6\u1799\u1791\u17c5\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "កសិកម្មក្រុម",
+    "question": "តើទ្រព្យសម្បត្តិរបស់គ្រួសារ Aleksandr Solzhenitsyn ត្រូវបានប្រែក្លាយទៅជាអ្វី?",
     "wrong_answers": [
-      "\u179f\u17b6\u179b\u17b6",
-      "\u1798\u1793\u17d2\u1791\u17b8\u179a\u1796\u17c1\u1791\u17d2\u1799"
+      "សាលា",
+      "មន្ទីរពេទ្យ"
     ]
   },
   {
     "answer": "August 1914",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780\u178e\u17b6\u178a\u17c2\u179b Aleksandr Solzhenitsyn \u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178f\u17be\u1798\u1793\u17b7\u1796\u1793\u17d2\u1792\u178f\u17b6\u17c6\u1784\u1796\u17b8\u1786\u17d2\u1793\u17b6\u17c6 1936?",
+    "question": "តើប្រលោមលោកណាដែល Aleksandr Solzhenitsyn បានចាប់ផ្តើមនិពន្ធតាំងពីឆ្នាំ 1936?",
     "wrong_answers": [
       "The Gulag Archipelago",
       "One Day in the Life of Ivan Denisovich"
     ]
   },
   {
-    "answer": "\u179f\u17b6\u179f\u1793\u17b6\u1782\u17d2\u179a\u17b9\u179f\u17d2\u178f\u179f\u17b6\u179f\u1793\u17b6\u17a2\u17bc\u1791\u17bc\u178a\u17bb\u1780",
-    "question": "\u178f\u17be Aleksandr Solzhenitsyn \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a\u1782\u17b6\u178f\u17cb\u1785\u17b7\u1789\u17d2\u1785\u17b9\u1798\u1780\u17d2\u1793\u17bb\u1784\u179f\u17b6\u179f\u1793\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "សាសនាគ្រឹស្តសាសនាអូទូដុក",
+    "question": "តើ Aleksandr Solzhenitsyn ត្រូវបានគ្រួសារគាត់ចិញ្ចឹមក្នុងសាសនាអ្វី?",
     "wrong_answers": [
-      "\u179f\u17b6\u179f\u1793\u17b6\u17a2\u17ca\u17b8\u179f\u17d2\u179b\u17b6\u1798",
-      "\u179f\u17b6\u179f\u1793\u17b6\u1796\u17bb\u1791\u17d2\u1792"
+      "សាសនាអ៊ីស្លាម",
+      "សាសនាពុទ្ធ"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1944",
-    "question": "\u178f\u17be\u1798\u17d2\u178f\u17b6\u1799\u179a\u1794\u179f\u17cb Aleksandr Solzhenitsyn \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "នៅក្នុងឆ្នាំ 1944",
+    "question": "តើម្តាយរបស់ Aleksandr Solzhenitsyn បានស្លាប់នៅពេលណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1936",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1918"
+      "នៅក្នុងឆ្នាំ 1936",
+      "នៅក្នុងឆ្នាំ 1918"
     ]
   }
 ]

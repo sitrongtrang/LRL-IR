@@ -1,31 +1,31 @@
 [
   {
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179f\u17d2\u1782\u17b6\u179b\u17cb\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7\u178a\u17c2\u179b\u1798\u17b6\u1793\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 APG III?",
+    "question": "តើអ្នកណាជាអ្នកស្គាល់គ្រួសាររុក្ខជាតិដែលមាននៅក្នុងប្រព័ន្ធ APG III?",
     "wrong_answers": [
-      "\u1780\u17d2\u179a\u17bb\u1798\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7 Asterid",
-      "\u1780\u17d2\u179a\u17bb\u1798\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7 Campanulid",
-      "\u1780\u17d2\u179a\u17bb\u1798\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7 Apiidae"
+      "ក្រុមរុក្ខជាតិ Asterid",
+      "ក្រុមរុក្ខជាតិ Campanulid",
+      "ក្រុមរុក្ខជាតិ Apiidae"
     ]
   },
   {
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u179f\u1798\u17b6\u1787\u17b7\u1780\u178a\u17cf\u179b\u17d2\u1794\u17b8\u179b\u17d2\u1794\u17b6\u1789\u1793\u17c3\u179b\u17c6\u178a\u17b6\u1794\u17cb Apiales?",
+    "question": "តើអ្នកណាជាសមាជិកដ៏ល្បីល្បាញនៃលំដាប់ Apiales?",
     "wrong_answers": [
-      "\u1780\u17d2\u179a\u17bc\u1785\u1786\u17d2\u1798\u17b6",
-      "\u1795\u17d2\u179b\u17c2\u1794\u17c9\u17c4\u1798",
-      "\u1795\u17d2\u179b\u17c2\u1798\u17c0\u1793"
+      "ក្រូចឆ្មា",
+      "ផ្លែប៉ោម",
+      "ផ្លែមៀន"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 Cronquist",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792\u17a2\u17d2\u179c\u17b8\u1798\u17b6\u1793\u178f\u17c2\u1780\u17d2\u179a\u17bb\u1798\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a Apiaceae \u1793\u17b7\u1784 Araliaceae?",
+    "answer": "ប្រព័ន្ធ Cronquist",
+    "question": "តើប្រព័ន្ធអ្វីមានតែក្រុមគ្រួសារ Apiaceae និង Araliaceae?",
     "wrong_answers": [
-      "\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 APG III",
-      "\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 Dahlgren",
-      "\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 Phylogenetic"
+      "ប្រព័ន្ធ APG III",
+      "ប្រព័ន្ធ Dahlgren",
+      "ប្រព័ន្ធ Phylogenetic"
     ]
   },
   {
-    "question": "\u178f\u17be\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a\u178e\u17b6\u178a\u17c2\u179b\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1789\u17d2\u1785\u17bc\u179b\u1780\u17d2\u1793\u17bb\u1784\u179b\u17c6\u178a\u17b6\u1794\u17cb Apiales \u1780\u17d2\u179a\u17c4\u1798\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 Cronquist?",
+    "question": "តើគ្រួសារណាដែលត្រូវបានបញ្ចូលក្នុងលំដាប់ Apiales ក្រោមប្រព័ន្ធ Cronquist?",
     "wrong_answers": [
       "Pittosporaceae",
       "Cornaceae",
@@ -33,16 +33,16 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u179b\u17c6\u178a\u17b6\u1794\u17cb Apiales \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u178a\u17b6\u1780\u17cb\u1793\u17c5\u17af\u178e\u17b6\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792 APG III?",
+    "question": "តើលំដាប់ Apiales ត្រូវបានដាក់នៅឯណាក្នុងប្រព័ន្ធ APG III?",
     "wrong_answers": [
-      "\u1780\u17d2\u179a\u17bb\u1798\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7 Rosid",
-      "\u1780\u17d2\u179a\u17bb\u1798\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7 Campanulid",
-      "\u1780\u17d2\u179a\u17bb\u1798\u179a\u17bb\u1780\u17d2\u1781\u1787\u17b6\u178f\u17b7 Dipsacales"
+      "ក្រុមរុក្ខជាតិ Rosid",
+      "ក្រុមរុក្ខជាតិ Campanulid",
+      "ក្រុមរុក្ខជាតិ Dipsacales"
     ]
   },
   {
     "answer": "Apiidae",
-    "question": "\u178f\u17be\u179b\u17c6\u178a\u17b6\u1794\u17cb Apiales \u1787\u17b6\u1780\u1798\u17d2\u1798\u179f\u17b7\u1791\u17d2\u1792\u17b7\u179a\u1794\u179f\u17cb\u1780\u17d2\u179b\u17c2\u178a\u178e\u17b6?",
+    "question": "តើលំដាប់ Apiales ជាកម្មសិទ្ធិរបស់ក្លែដណា?",
     "wrong_answers": [
       "Dipsapiidae",
       "Asteridae",
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a\u178e\u17b6\u178a\u17c2\u179b\u1798\u17b6\u1793\u179b\u1780\u17d2\u1781\u178e\u17c8\u179f\u17d2\u179a\u178a\u17c0\u1784\u1793\u17b9\u1784 Araliaceae?",
+    "question": "តើគ្រួសារណាដែលមានលក្ខណៈស្រដៀងនឹង Araliaceae?",
     "wrong_answers": [
       "Pittosporaceae",
       "Cornaceae",
@@ -58,7 +58,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a\u178e\u17b6\u178a\u17c2\u179b\u1798\u17b6\u1793\u1797\u17b6\u1796\u1781\u17bb\u179f\u1794\u17d2\u179b\u17c2\u1780\u1796\u17b8 Araliaceae?",
+    "question": "តើគ្រួសារណាដែលមានភាពខុសប្លែកពី Araliaceae?",
     "wrong_answers": [
       "Myodocarpaceae",
       "Apiaceae",

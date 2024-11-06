@@ -1,70 +1,70 @@
 [
   {
-    "answer": "\u1798\u1793\u17bb\u179f\u17d2\u179f",
-    "question": "\u178f\u17be\u1796\u17b6\u1780\u17d2\u1799 \"Ainu\" \u1798\u17b6\u1793\u1793\u17d0\u1799\u178a\u17bc\u1785\u1798\u17d2\u178f\u17c1\u1785\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1797\u17b6\u179f\u17b6 Ainu?",
+    "answer": "មនុស្ស",
+    "question": "តើពាក្យ \"Ainu\" មានន័យដូចម្តេចនៅក្នុងភាសា Ainu?",
     "wrong_answers": [
-      "\u17a2\u17b6\u1791\u17b7\u1791\u17c1\u1796",
-      "\u1798\u17b7\u178f\u17d2\u178f\u1797\u1780\u17d2\u178f\u17b7",
-      "\u1787\u1793\u1787\u17b6\u178f\u17b7"
+      "អាទិទេព",
+      "មិត្តភក្តិ",
+      "ជនជាតិ"
     ]
   },
   {
     "answer": "Utari",
-    "question": "\u178f\u17be Ainu \u17a0\u17c5\u1781\u17d2\u179b\u17bd\u1793\u17af\u1784\u1790\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Ainu ហៅខ្លួនឯងថាអ្វី?",
     "wrong_answers": [
-      "\u1787\u1793\u1787\u17b6\u178f\u17b7\u1787\u1794\u17c9\u17bb\u1793",
-      "\u1787\u1793\u1787\u17b6\u178f\u17b7\u1797\u17b6\u1782\u178f\u17b7\u1785",
-      "\u1787\u1793\u1787\u17b6\u178f\u17b7\u178a\u17be\u1798\u1797\u17b6\u1782"
+      "ជនជាតិជប៉ុន",
+      "ជនជាតិភាគតិច",
+      "ជនជាតិដើមភាគ"
     ]
   },
   {
-    "answer": "Hokkaido, Sakhalin, \u1793\u17b7\u1784 Kurils",
-    "question": "\u178f\u17be Ainu \u1787\u17b6\u1794\u17d2\u179a\u1787\u17b6\u1787\u1793\u178a\u17be\u1798\u1797\u17b6\u1782\u17b8\u1793\u17c3\u178f\u17c6\u1794\u1793\u17cb\u178e\u17b6\u1781\u17d2\u179b\u17c7?",
+    "answer": "Hokkaido, Sakhalin, និង Kurils",
+    "question": "តើ Ainu ជាប្រជាជនដើមភាគីនៃតំបន់ណាខ្លះ?",
     "wrong_answers": [
-      "\u1787\u1794\u17c9\u17bb\u1793\u1791\u17b6\u17c6\u1784\u17a2\u179f\u17cb",
-      "\u1780\u17c4\u17c7 Honshu \u1794\u17c9\u17bb\u178e\u17d2\u178e\u17c4\u17c7",
-      "\u178f\u17c2 Hokkaido \u1794\u17c9\u17bb\u178e\u17d2\u178e\u17c4\u17c7"
+      "ជប៉ុនទាំងអស់",
+      "កោះ Honshu ប៉ុណ្ណោះ",
+      "តែ Hokkaido ប៉ុណ្ណោះ"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u1791\u17c1\u179f\u1787\u1794\u17c9\u17bb\u1793",
-    "question": "\u178f\u17be Ainu \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1781\u17c6\u17b1\u17d2\u1799\u1785\u17bc\u179b\u179a\u17bd\u1798\u1787\u17b6\u1798\u17bd\u1799\u1794\u17d2\u179a\u1791\u17c1\u179f\u178e\u17b6?",
+    "answer": "ប្រទេសជប៉ុន",
+    "question": "តើ Ainu ត្រូវបានបង្ខំឱ្យចូលរួមជាមួយប្រទេសណា?",
     "wrong_answers": [
-      "\u1785\u17b7\u1793",
-      "\u179a\u17bb\u179f\u17d2\u179f\u17ca\u17b8",
-      "\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780"
+      "ចិន",
+      "រុស្ស៊ី",
+      "អាមេរិក"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u1794\u179a\u1794\u17b6\u1789\u17cb \u1793\u17b7\u1784 \u1780\u17b6\u179a\u1793\u17c1\u179f\u17b6\u1791",
-    "question": "\u178f\u17be Ainu \u179a\u179f\u17cb\u1793\u17c5\u178a\u17c4\u1799\u179c\u17b7\u1792\u17b8\u178e\u17b6?",
+    "answer": "ការបរបាញ់ និង ការនេសាទ",
+    "question": "តើ Ainu រស់នៅដោយវិធីណា?",
     "wrong_answers": [
-      "\u1780\u179f\u17b7\u1780\u1798\u17d2\u1798",
-      "\u1796\u17b6\u178e\u17b7\u1787\u17d2\u1787\u1780\u1798\u17d2\u1798",
-      "\u17a7\u179f\u17d2\u179f\u17b6\u17a0\u1780\u1798\u17d2\u1798"
+      "កសិកម្ម",
+      "ពាណិជ្ជកម្ម",
+      "ឧស្សាហកម្ម"
     ]
   },
   {
-    "answer": "\u179f\u178f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1791\u17b8 \u17e1\u17e8",
-    "question": "\u178f\u17be\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6\u178a\u17c2\u179b Ainu \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1781\u17c6\u17b1\u17d2\u1799\u1785\u17bc\u179b\u179a\u17bd\u1798\u1787\u17b6\u1798\u17bd\u1799\u179c\u1794\u17d2\u1794\u1792\u1798\u17cc\u1787\u1794\u17c9\u17bb\u1793?",
+    "answer": "សតវត្សរ៍ទី ១៨",
+    "question": "តើនៅពេលណាដែល Ainu ត្រូវបានបង្ខំឱ្យចូលរួមជាមួយវប្បធម៌ជប៉ុន?",
     "wrong_answers": [
-      "\u179f\u178f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1791\u17b8 \u17e1\u17e0",
-      "\u179f\u178f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1791\u17b8 \u17e1\u17e6",
-      "\u179f\u178f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1791\u17b8 \u17e2\u17e0"
+      "សតវត្សរ៍ទី ១០",
+      "សតវត្សរ៍ទី ១៦",
+      "សតវត្សរ៍ទី ២០"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u1785\u17bb\u17c7\u1785\u17b6\u1789\u17cb",
-    "question": "\u178f\u17be Ainu \u1794\u17b6\u1793\u1794\u17b6\u178f\u17cb\u1794\u1784\u17cb\u17a2\u178f\u17d2\u178f\u179f\u1789\u17d2\u1789\u17b6\u178e\u179a\u1794\u179f\u17cb\u1796\u17bd\u1780\u1782\u17c1\u178a\u17c4\u1799\u179f\u17b6\u179a\u178f\u17c2\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ការចុះចាញ់",
+    "question": "តើ Ainu បានបាត់បង់អត្តសញ្ញាណរបស់ពួកគេដោយសារតែអ្វី?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u17a2\u1797\u17b7\u179c\u178c\u17d2\u178d\u1793\u17cd",
-      "\u1780\u17b6\u179a\u1794\u178a\u17b7\u179c\u178f\u17d2\u178f\u1793\u17cd",
-      "\u1780\u17b6\u179a\u179f\u17d2\u178a\u17b6\u179a\u17a1\u17be\u1784\u179c\u17b7\u1789"
+      "ការអភិវឌ្ឍន៍",
+      "ការបដិវត្តន៍",
+      "ការស្ដារឡើងវិញ"
     ]
   },
   {
     "answer": "25,000",
-    "question": "\u178f\u17be\u1785\u17c6\u1793\u17bd\u1793 Ainu \u1793\u17c5\u1787\u1794\u17c9\u17bb\u1793\u1798\u17b6\u1793\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793?",
+    "question": "តើចំនួន Ainu នៅជប៉ុនមានប៉ុន្មាន?",
     "wrong_answers": [
       "200,000",
       "1,000,000",
@@ -72,26 +72,26 @@
     ]
   },
   {
-    "answer": "\u1787\u1793\u1787\u17b6\u178f\u17b7\u1787\u1794\u17c9\u17bb\u1793",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17b1\u17d2\u1799 Ainu \u1794\u17b6\u178f\u17cb\u1794\u1784\u17cb\u179c\u1794\u17d2\u1794\u1792\u1798\u17cc\u179a\u1794\u179f\u17cb\u1796\u17bd\u1780\u1782\u17c1?",
+    "answer": "ជនជាតិជប៉ុន",
+    "question": "តើអ្នកណាបានធ្វើឱ្យ Ainu បាត់បង់វប្បធម៌របស់ពួកគេ?",
     "wrong_answers": [
-      "\u1787\u1793\u1787\u17b6\u178f\u17b7\u1785\u17b7\u1793",
-      "\u1787\u1793\u1787\u17b6\u178f\u17b7\u179a\u17bb\u179f\u17d2\u179f\u17ca\u17b8",
-      "\u1787\u1793\u1787\u17b6\u178f\u17b7\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780"
+      "ជនជាតិចិន",
+      "ជនជាតិរុស្ស៊ី",
+      "ជនជាតិអាមេរិក"
     ]
   },
   {
     "answer": "Hokkaido",
-    "question": "\u178f\u17be\u178f\u17c6\u1794\u1793\u17cb\u178e\u17b6\u178a\u17c2\u179b Ainu \u179a\u179f\u17cb\u1793\u17c5?",
+    "question": "តើតំបន់ណាដែល Ainu រស់នៅ?",
     "wrong_answers": [
-      "\u1787\u1794\u17c9\u17bb\u1793\u1791\u17b6\u17c6\u1784\u17a2\u179f\u17cb",
-      "\u1780\u17c4\u17c7 Honshu \u1794\u17c9\u17bb\u178e\u17d2\u178e\u17c4\u17c7",
-      "\u1780\u17c4\u17c7 Sakhalin \u1794\u17c9\u17bb\u178e\u17d2\u178e\u17c4\u17c7"
+      "ជប៉ុនទាំងអស់",
+      "កោះ Honshu ប៉ុណ្ណោះ",
+      "កោះ Sakhalin ប៉ុណ្ណោះ"
     ]
   },
   {
     "answer": "Matagi",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u179a\u1794\u17b6\u1789\u17cb\u178a\u17c2\u179b\u1798\u17b6\u1793\u1794\u17d2\u179a\u1796\u17c3\u178e\u17b8 Ainu?",
+    "question": "តើអ្នកណាជាអ្នកបរបាញ់ដែលមានប្រពៃណី Ainu?",
     "wrong_answers": [
       "Samurai",
       "Geisha",
@@ -100,7 +100,7 @@
   },
   {
     "answer": "Ming Dynasty",
-    "question": "\u178f\u17be\u179a\u17b6\u1787\u179c\u1784\u17d2\u179f\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784 Sakhalin?",
+    "question": "តើរាជវង្សណាដែលបានគ្រប់គ្រង Sakhalin?",
     "wrong_answers": [
       "Yuan Dynasty",
       "Qing Dynasty",

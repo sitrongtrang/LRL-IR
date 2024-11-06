@@ -1,82 +1,82 @@
 [
   {
-    "answer": "\u1798\u17b6\u1793\u1780\u17b6\u179a\u178f\u17b7\u1785\u178f\u17bd\u1785\u17ac\u1782\u17d2\u1798\u17b6\u1793\u1797\u17b6\u1796\u179a\u17c6\u1789\u17d0\u179a",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1794\u17d2\u179a\u17c0\u1794\u1792\u17c0\u1794\u1798\u17b6\u1793\u179b\u1780\u17d2\u1781\u178e\u17c8\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7?",
+    "answer": "មានការតិចតួចឬគ្មានភាពរំញ័រ",
+    "question": "តើការប្រៀបធៀបមានលក្ខណៈអ្វីខ្លះ?",
     "wrong_answers": [
-      "\u1797\u17b6\u1796\u179a\u17c6\u1789\u17d0\u179a\u1781\u17d2\u179b\u17b6\u17c6\u1784",
-      "\u1797\u17b6\u1796\u179a\u17c6\u1789\u17d0\u179a\u1792\u17c6"
+      "ភាពរំញ័រខ្លាំង",
+      "ភាពរំញ័រធំ"
     ]
   },
   {
-    "answer": "\u179a\u179c\u17b6\u1784 fricatives \u1793\u17b7\u1784 vowels",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1794\u17d2\u179a\u17c0\u1794\u1792\u17c0\u1794\u179f\u17d2\u1790\u17b7\u178f\u1793\u17c5\u1785\u1793\u17d2\u179b\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "answer": "រវាង fricatives និង vowels",
+    "question": "តើការប្រៀបធៀបស្ថិតនៅចន្លោះអ្វី?",
     "wrong_answers": [
-      "\u179a\u179c\u17b6\u1784 nasals \u1793\u17b7\u1784 vowels",
-      "\u179a\u179c\u17b6\u1784 glides \u1793\u17b7\u1784 nasals"
+      "រវាង nasals និង vowels",
+      "រវាង glides និង nasals"
     ]
   },
   {
     "answer": "Peter Ladefoged",
-    "question": "\u178f\u17be\u1793\u179a\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u1784\u17d2\u1780\u17be\u178f\u1796\u17b6\u1780\u17d2\u1799 'approximant'?",
+    "question": "តើនរណាជាអ្នកបង្កើតពាក្យ 'approximant'?",
     "wrong_answers": [
       "Noam Chomsky",
       "Ferdinand de Saussure"
     ]
   },
   {
-    "answer": "semivowels \u1793\u17b7\u1784 glides",
-    "question": "\u178f\u17be\u1796\u17b6\u1780\u17d2\u1799\u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17d2\u179a\u17be\u178a\u17be\u1798\u17d2\u1794\u17b8\u1794\u1789\u17d2\u1787\u17b6\u1780\u17cb\u1796\u17b8\u1795\u17d2\u1793\u17c2\u1780 vowel-like \u178a\u17c2\u179b\u1798\u17b7\u1793\u1798\u17c2\u1793\u1787\u17b6 syllable?",
+    "answer": "semivowels និង glides",
+    "question": "តើពាក្យណាត្រូវបានប្រើដើម្បីបញ្ជាក់ពីផ្នែក vowel-like ដែលមិនមែនជា syllable?",
     "wrong_answers": [
-      "fricatives \u1793\u17b7\u1784 affricates",
-      "nasals \u1793\u17b7\u1784 liquids"
+      "fricatives និង affricates",
+      "nasals និង liquids"
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1794\u179a\u17b7\u179f\u17d2\u1790\u17b6\u1793 phonological \u17ac\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a0\u17c1\u178f\u17bb\u1795\u179b\u179c\u17c1\u1799\u17d2\u1799\u17b6\u1780\u179a\u178e\u17cd",
-    "question": "\u178f\u17be vowels \u1793\u17b7\u1784 semivowels \u179a\u1794\u179f\u17cb\u1796\u17bd\u1780\u1782\u17c1\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17d2\u178f\u17bc\u179a\u179c\u17c1\u1793\u1799\u17c9\u17b6\u1784\u178a\u17bc\u1785\u1798\u17d2\u178a\u17c1\u1785\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1797\u17b6\u179f\u17b6\u1787\u17b6\u1785\u17d2\u179a\u17be\u1793?",
+    "answer": "ក្នុងបរិស្ថាន phonological ឬសម្រាប់ហេតុផលវេយ្យាករណ៍",
+    "question": "តើ vowels និង semivowels របស់ពួកគេត្រូវបានប្តូរវេនយ៉ាងដូចម្ដេចនៅក្នុងភាសាជាច្រើន?",
     "wrong_answers": [
-      "\u178a\u17c4\u1799\u179f\u17b6\u179a\u178f\u17c2\u1780\u17b6\u179a\u1794\u1789\u17d2\u1785\u17c1\u1789\u179f\u17c6\u17a1\u17c1\u1784\u178a\u17bc\u1785\u1782\u17d2\u1793\u17b6",
-      "\u178a\u17c4\u1799\u179f\u17b6\u179a\u178f\u17c2\u1780\u17b6\u179a\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u178a\u17bc\u1785\u1782\u17d2\u1793\u17b6"
+      "ដោយសារតែការបញ្ចេញសំឡេងដូចគ្នា",
+      "ដោយសារតែការប្រើប្រាស់ដូចគ្នា"
     ]
   },
   {
-    "answer": "semivowel \u1793\u17c5\u1798\u17bb\u1793\u1796\u17c1\u179b vowel \u178a\u17c2\u179b\u1796\u17b6\u1780\u17cb\u1796\u17d0\u1793\u17d2\u1792\u179a\u1794\u179f\u17cb\u179c\u17b6",
-    "question": "\u178f\u17be\u1797\u17b6\u179f\u17b6\u1787\u17b6\u1785\u17d2\u179a\u17be\u1793\u1787\u17c0\u179f\u179c\u17b6\u1784\u1780\u17b6\u179a\u1780\u17c6\u178e\u178f\u17cb\u179a\u1785\u1793\u17b6\u179f\u1798\u17d2\u1796\u17d0\u1793\u17d2\u1792\u17a2\u17d2\u179c\u17b8?",
+    "answer": "semivowel នៅមុនពេល vowel ដែលពាក់ព័ន្ធរបស់វា",
+    "question": "តើភាសាជាច្រើនជៀសវាងការកំណត់រចនាសម្ព័ន្ធអ្វី?",
     "wrong_answers": [
-      "vowel \u1793\u17c5\u1798\u17bb\u1793\u1796\u17c1\u179b semivowel \u178a\u17c2\u179b\u1796\u17b6\u1780\u17cb\u1796\u17d0\u1793\u17d2\u1792\u179a\u1794\u179f\u17cb\u179c\u17b6",
-      "nasal \u1793\u17c5\u1798\u17bb\u1793\u1796\u17c1\u179b semivowel \u178a\u17c2\u179b\u1796\u17b6\u1780\u17cb\u1796\u17d0\u1793\u17d2\u1792\u179a\u1794\u179f\u17cb\u179c\u17b6"
+      "vowel នៅមុនពេល semivowel ដែលពាក់ព័ន្ធរបស់វា",
+      "nasal នៅមុនពេល semivowel ដែលពាក់ព័ន្ធរបស់វា"
     ]
   },
   {
-    "answer": "\u1791\u17b8\u178f\u17b6\u17c6\u1784\u179a\u1794\u179f\u17cb\u179c\u17b6\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 syllable \u1798\u17bd\u1799",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u17a2\u17d2\u1793\u1780\u1791\u17bc\u179a\u179f\u17d0\u1796\u17d2\u1791\u1798\u17bd\u1799\u1785\u17c6\u1793\u17bd\u1793\u1794\u17c2\u1784\u1785\u17c2\u1780 semivowels \u1793\u17b7\u1784 approximants?",
+    "answer": "ទីតាំងរបស់វានៅក្នុង syllable មួយ",
+    "question": "តើអ្វីដែលអ្នកទូរស័ព្ទមួយចំនួនបែងចែក semivowels និង approximants?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u1794\u1789\u17d2\u1785\u17c1\u1789\u179f\u17c6\u17a1\u17c1\u1784\u179a\u1794\u179f\u17cb\u179c\u17b6",
-      "\u1780\u17b6\u179a\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u179a\u1794\u179f\u17cb\u179c\u17b6"
+      "ការបញ្ចេញសំឡេងរបស់វា",
+      "ការប្រើប្រាស់របស់វា"
     ]
   },
   {
-    "answer": "palatal approximants \u1791\u17c5\u1793\u17b9\u1784 vowels \u1781\u17b6\u1784\u1798\u17bb\u1781",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1794\u1789\u17d2\u1785\u17c1\u1789\u179f\u17c6\u17a1\u17c1\u1784\u1793\u17b7\u1784\u1787\u17b6\u1789\u17b9\u1780\u1789\u17b6\u1794\u17cb diachronically, approximants \u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1782\u17d2\u1793\u17b6\u1793\u17b9\u1784 vowels \u178e\u17b6?",
+    "answer": "palatal approximants ទៅនឹង vowels ខាងមុខ",
+    "question": "តើការបញ្ចេញសំឡេងនិងជាញឹកញាប់ diachronically, approximants ណាត្រូវគ្នានឹង vowels ណា?",
     "wrong_answers": [
-      "velar approximants \u1791\u17c5\u1793\u17b9\u1784 vowels \u1781\u17b6\u1784\u1780\u17d2\u179a\u17c4\u1799",
-      "labialized approximants \u1791\u17c5\u1793\u17b9\u1784 vowels \u1798\u17bb\u1781"
+      "velar approximants ទៅនឹង vowels ខាងក្រោយ",
+      "labialized approximants ទៅនឹង vowels មុខ"
     ]
   },
   {
     "answer": "rhotic vowel",
-    "question": "\u178f\u17be\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1797\u17b6\u179f\u17b6\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780 approximant rhotic \u178f\u17d2\u179a\u17bc\u179c\u1782\u17d2\u1793\u17b6\u1793\u17b9\u1784\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើនៅក្នុងភាសាអង់គ្លេសអាមេរិក approximant rhotic ត្រូវគ្នានឹងអ្វី?",
     "wrong_answers": [
-      "vowel \u1798\u17bb\u1781",
-      "vowel \u1781\u17b6\u1784\u1780\u17d2\u179a\u17c4\u1799"
+      "vowel មុខ",
+      "vowel ខាងក្រោយ"
     ]
   },
   {
-    "answer": "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1794\u1789\u17d2\u1785\u17bc\u179b glides",
-    "question": "\u178f\u17be glides \u17a2\u17b6\u1785\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1789\u17d2\u1785\u17bc\u179b\u178a\u17be\u1798\u17d2\u1794\u17b8\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ដើម្បីបញ្ចូល glides",
+    "question": "តើ glides អាចត្រូវបានបញ្ចូលដើម្បីធ្វើអ្វី?",
     "wrong_answers": [
-      "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1794\u1789\u17d2\u1785\u17bc\u179b fricatives",
-      "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1794\u1789\u17d2\u1785\u17bc\u179b vowels"
+      "ដើម្បីបញ្ចូល fricatives",
+      "ដើម្បីបញ្ចូល vowels"
     ]
   }
 ]

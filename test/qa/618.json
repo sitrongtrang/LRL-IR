@@ -1,47 +1,47 @@
 [
   {
-    "answer": "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u1780\u17d2\u1793\u17bb\u1784\u179f\u1798\u17d0\u1799\u1794\u17bb\u179a\u17b6\u178e\u1780\u17d2\u179a\u17b7\u1780",
-    "question": "\u178f\u17be Andocides \u1787\u17b6\u1793\u179a\u178e\u17b6?",
+    "answer": "អ្នកនិពន្ធក្នុងសម័យបុរាណក្រិក",
+    "question": "តើ Andocides ជានរណា?",
     "wrong_answers": [
-      "\u17a2\u17d2\u1793\u1780\u1793\u1799\u17c4\u1794\u17b6\u1799",
-      "\u17a2\u17d2\u1793\u1780\u179f\u17b7\u179b\u17d2\u1794\u17c8"
+      "អ្នកនយោបាយ",
+      "អ្នកសិល្បៈ"
     ]
   },
   {
-    "answer": "Aristophanes \u1793\u17b7\u1784 Aristarchus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u1794\u1789\u17d2\u1787\u17b8\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1799\u17b6\u1799\u1791\u17b6\u17c6\u1784 \u17e1\u17e0 \u1793\u17b6\u1780\u17cb?",
+    "answer": "Aristophanes និង Aristarchus",
+    "question": "តើអ្នកណាបានបង្កើតបញ្ជីអ្នកនិយាយទាំង ១០ នាក់?",
     "wrong_answers": [
-      "Plato \u1793\u17b7\u1784 Socrates",
-      "Aristotle \u1793\u17b7\u1784 Thucydides"
+      "Plato និង Socrates",
+      "Aristotle និង Thucydides"
     ]
   },
   {
-    "answer": "\u1780\u17d2\u179a\u17bb\u1798 Eupatrid",
-    "question": "\u178f\u17be\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a\u179a\u1794\u179f\u17cb Andocides \u1798\u1780\u1796\u17b8\u178e\u17b6?",
+    "answer": "ក្រុម Eupatrid",
+    "question": "តើគ្រួសាររបស់ Andocides មកពីណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u179a\u17bb\u1798 Spartan",
-      "\u1780\u17d2\u179a\u17bb\u1798 Athenian"
+      "ក្រុម Spartan",
+      "ក្រុម Athenian"
     ]
   },
   {
-    "answer": "440 \u1798\u17bb\u1793\u1782.\u179f",
-    "question": "\u178f\u17be Andocides \u1780\u17be\u178f\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "440 មុនគ.ស",
+    "question": "តើ Andocides កើតនៅពេលណា?",
     "wrong_answers": [
-      "390 \u1798\u17bb\u1793\u1782.\u179f",
-      "411 \u1798\u17bb\u1793\u1782.\u179f"
+      "390 មុនគ.ស",
+      "411 មុនគ.ស"
     ]
   },
   {
-    "answer": "Thessaly, Macedonia, Molossia, Thesprotia, Italy, \u1793\u17b7\u1784 Sicily",
-    "question": "\u178f\u17be Andocides \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u178a\u17c6\u178e\u17be\u179a\u1791\u17c5\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6\u1781\u17d2\u179b\u17c7?",
+    "answer": "Thessaly, Macedonia, Molossia, Thesprotia, Italy, និង Sicily",
+    "question": "តើ Andocides បានធ្វើដំណើរទៅកន្លែងណាខ្លះ?",
     "wrong_answers": [
-      "Egypt, Persia, \u1793\u17b7\u1784 India",
-      "China, Japan, \u1793\u17b7\u1784 Korea"
+      "Egypt, Persia, និង India",
+      "China, Japan, និង Korea"
     ]
   },
   {
     "answer": "Alcibiades",
-    "question": "\u178f\u17be Andocides \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1785\u17c4\u1791\u1794\u17d2\u179a\u1780\u17b6\u1793\u17cb\u1790\u17b6\u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u1785\u17c4\u1791\u1794\u17d2\u179a\u1780\u17b6\u1793\u17cb\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើ Andocides ត្រូវបានចោទប្រកាន់ថាបានចូលរួមក្នុងការចោទប្រកាន់អ្នកណា?",
     "wrong_answers": [
       "Socrates",
       "Plato"
@@ -49,23 +49,23 @@
   },
   {
     "answer": "Herm",
-    "question": "\u178f\u17be\u179c\u178f\u17d2\u1790\u17bb\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17c6\u1795\u17d2\u179b\u17b6\u1789?",
+    "question": "តើវត្ថុអ្វីដែលត្រូវបានបំផ្លាញ?",
     "wrong_answers": [
       "Temples",
       "Statues"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u1794\u17c6\u1795\u17d2\u179b\u17b6\u1789 Herm \u1793\u17b7\u1784\u1780\u17b6\u179a\u1794\u17c6\u1796\u17b6\u1793\u1796\u17b7\u1792\u17b8\u179f\u17b6\u179f\u1793\u17b6",
-    "question": "\u178f\u17be Andocides \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1785\u17c4\u1791\u1794\u17d2\u179a\u1780\u17b6\u1793\u17cb\u1790\u17b6\u1794\u17b6\u1793\u1794\u17d2\u179a\u1796\u17d2\u179a\u17b9\u178f\u17d2\u178f\u17a2\u17c6\u1796\u17be\u17a2\u17b6\u1780\u17d2\u179a\u1780\u17cb\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7?",
+    "answer": "ការបំផ្លាញ Herm និងការបំពានពិធីសាសនា",
+    "question": "តើ Andocides ត្រូវបានចោទប្រកាន់ថាបានប្រព្រឹត្តអំពើអាក្រក់អ្វីខ្លះ?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u1794\u17c7\u1794\u17c4\u179a",
-      "\u1780\u17b6\u179a\u1783\u17bb\u1794\u1783\u17b7\u178f"
+      "ការបះបោរ",
+      "ការឃុបឃិត"
     ]
   },
   {
-    "answer": "Charmides \u17ac Timaeus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u179f\u17d2\u1793\u17be\u17b1\u17d2\u1799 Andocides \u1794\u17d2\u179a\u17b6\u1794\u17cb\u1788\u17d2\u1798\u17c4\u17c7?",
+    "answer": "Charmides ឬ Timaeus",
+    "question": "តើអ្នកណាបានស្នើឱ្យ Andocides ប្រាប់ឈ្មោះ?",
     "wrong_answers": [
       "Alcibiades",
       "Socrates"
@@ -73,7 +73,7 @@
   },
   {
     "answer": "Cyprus",
-    "question": "\u178f\u17be Andocides \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u178a\u17c6\u178e\u17be\u179a\u1791\u17c5\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6\u1794\u1793\u17d2\u1791\u17b6\u1794\u17cb\u1796\u17b8\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u178e\u17d2\u178f\u17c1\u1789\u1785\u17c1\u1789\u1796\u17b8 Athens?",
+    "question": "តើ Andocides បានធ្វើដំណើរទៅកន្លែងណាបន្ទាប់ពីត្រូវបានបណ្តេញចេញពី Athens?",
     "wrong_answers": [
       "Sparta",
       "Thessaly"
@@ -81,7 +81,7 @@
   },
   {
     "answer": "Evagoras",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1798\u17b7\u178f\u17d2\u178f\u179a\u1794\u179f\u17cb Andocides \u1793\u17c5 Cyprus?",
+    "question": "តើអ្នកណាជាមិត្តរបស់ Andocides នៅ Cyprus?",
     "wrong_answers": [
       "Alcibiades",
       "Socrates"
@@ -89,7 +89,7 @@
   },
   {
     "answer": "Peisander",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u178a\u17b9\u1780\u1793\u17b6\u17c6\u1793\u17c3\u179a\u178a\u17d2\u178b\u17b6\u1797\u17b7\u1794\u17b6\u179b\u1793\u17c5\u1796\u17c1\u179b\u178a\u17c2\u179b Andocides \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb?",
+    "question": "តើអ្នកណាជាអ្នកដឹកនាំនៃរដ្ឋាភិបាលនៅពេលដែល Andocides ត្រូវបានចាប់?",
     "wrong_answers": [
       "Alcibiades",
       "Socrates"
@@ -97,7 +97,7 @@
   },
   {
     "answer": "Cleophon",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u179a\u179f\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1795\u17d2\u1791\u17c7\u179a\u1794\u179f\u17cb Andocides \u1793\u17c5\u1796\u17c1\u179b\u178a\u17c2\u179b\u1782\u17b6\u178f\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u1793\u17b7\u179a\u1791\u17c1\u179f?",
+    "question": "តើអ្នកណាបានរស់នៅក្នុងផ្ទះរបស់ Andocides នៅពេលដែលគាត់នៅក្នុងការនិរទេស?",
     "wrong_answers": [
       "Alcibiades",
       "Socrates"
@@ -105,7 +105,7 @@
   },
   {
     "answer": "Thrasybulus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u1789\u17d2\u1785\u1794\u17cb\u1780\u17b6\u179a\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784\u179a\u1794\u179f\u17cb Thirty?",
+    "question": "តើអ្នកណាជាអ្នកដែលបានបញ្ចប់ការគ្រប់គ្រងរបស់ Thirty?",
     "wrong_answers": [
       "Alcibiades",
       "Socrates"

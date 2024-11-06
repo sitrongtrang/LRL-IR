@@ -1,33 +1,33 @@
 [
   {
-    "question": "\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e3\u17e3\u17e8 \u1798\u17bb\u1793\u1782.\u179f. \u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7\u1780\u17d2\u1793\u17bb\u1784\u179f\u1798\u179a\u1797\u17bc\u1798\u17b7 Chaeronea?",
+    "question": "នៅឆ្នាំ ៣៣៨ មុនគ.ស. តើអ្នកណាបានឈ្នះក្នុងសមរភូមិ Chaeronea?",
     "wrong_answers": [
-      "\u17a2\u17b6\u1790\u17c2\u1793",
-      "\u179f\u1798\u17d2\u1796\u17d0\u1793\u17d2\u1792\u1798\u17b7\u178f\u17d2\u178f Thebes \u1793\u17b7\u1784\u17a2\u17b6\u1790\u17c2\u1793",
+      "អាថែន",
+      "សម្ព័ន្ធមិត្ត Thebes និងអាថែន",
       "Spartan",
       "Roman Army "
     ]
   },
   {
-    "question": "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e1\u17e6 \u1798\u17bb\u1793\u1782.\u179f. \u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7\u1780\u17d2\u1793\u17bb\u1784\u179f\u1798\u179a\u1797\u17bc\u1798\u17b7 Cannae?",
+    "question": "ក្នុងឆ្នាំ ២១៦ មុនគ.ស. តើអ្នកណាបានឈ្នះក្នុងសមរភូមិ Cannae?",
     "wrong_answers": [
       "Roman Army",
-      "\u17a2\u17d2\u1793\u1780\u1785\u1798\u17d2\u1794\u17b6\u17c6\u1784 Gallic",
-      "\u17a2\u17d2\u1793\u1780\u1785\u1798\u17d2\u1794\u17b6\u17c6\u1784 Gaul",
-      "\u17a2\u17d2\u1793\u1780\u1785\u1798\u17d2\u1794\u17b6\u17c6\u1784 Greek "
+      "អ្នកចម្បាំង Gallic",
+      "អ្នកចម្បាំង Gaul",
+      "អ្នកចម្បាំង Greek "
     ]
   },
   {
-    "question": "\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e4\u17e9 \u1798\u17bb\u1793\u1782.\u179f. \u178f\u17be Caesar \u1794\u17b6\u1793\u1785\u17b6\u1789\u17cb\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "នៅឆ្នាំ ៤៩ មុនគ.ស. តើ Caesar បានចាញ់អ្នកណា?",
     "wrong_answers": [
       "Pompey",
       "Marcus Antonius",
-      "Afranius \u1793\u17b7\u1784 Petreius",
+      "Afranius និង Petreius",
       "Hannibal "
     ]
   },
   {
-    "question": "\u178f\u17be Majorian \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1781\u17d2\u179b\u17bd\u1793\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើ Majorian ត្រូវបានចាប់ខ្លួននៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "462",
       "458",
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 Toledo \u1794\u17b6\u1793\u1785\u17bb\u17c7\u1785\u17b6\u1789\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើទីក្រុង Toledo បានចុះចាញ់នៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "931",
       "930",
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u17a2\u1792\u17b7\u179a\u17b6\u1787 Edward I \u1793\u17c3\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179a\u17b6\u1787\u17b6\u1797\u17b7\u179f\u17c1\u1780\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើអធិរាជ Edward I នៃប្រទេសអង់គ្លេសត្រូវបានរាជាភិសេកនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1275",
       "1273",
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be Jeanne de Clisson \u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178f\u17be\u1798\u179c\u17b6\u1799\u1794\u17d2\u179a\u17a0\u17b6\u179a\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើ Jeanne de Clisson បានចាប់ផ្តើមវាយប្រហារនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1342",
       "1344",
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be Henry Hudson \u1794\u17b6\u1793\u179a\u1780\u1783\u17be\u1789 Hudson Bay \u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើ Henry Hudson បានរកឃើញ Hudson Bay នៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1611",
       "1609",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u1794\u17b6\u1793\u1794\u17d2\u179a\u1780\u17b6\u179f\u17af\u1780\u179a\u17b6\u1787\u17d2\u1799\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើអាមេរិកបានប្រកាសឯករាជ្យនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1775",
       "1777",
@@ -81,7 +81,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u179a\u17b6\u1794\u17cb\u1785\u17c6\u1793\u17bd\u1793\u1794\u17d2\u179a\u1787\u17b6\u1787\u1793\u179b\u17be\u1780\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c5\u179f\u17a0\u179a\u178a\u17d2\u178b\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a1\u17be\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើការរាប់ចំនួនប្រជាជនលើកដំបូងនៅសហរដ្ឋអាមេរិកត្រូវបានធ្វើឡើងនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1789",
       "1791",
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1794\u17d2\u179a\u1799\u17bb\u1791\u17d2\u1792\u1793\u17c5 Nile \u1794\u17b6\u1793\u1794\u1789\u17d2\u1785\u1794\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើការប្រយុទ្ធនៅ Nile បានបញ្ចប់នៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1797",
       "1799",
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be Charles X \u1793\u17c3\u1794\u17d2\u179a\u1791\u17c1\u179f\u1794\u17b6\u179a\u17b6\u17c6\u1784\u1794\u17b6\u1793\u179b\u17b6\u179b\u17c2\u1784\u1796\u17b8\u178f\u17c6\u178e\u17c2\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើ Charles X នៃប្រទេសបារាំងបានលាលែងពីតំណែងនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1829",
       "1831",
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784\u179a\u1794\u179f\u17cb\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793\u1793\u17c5\u17a5\u178e\u17d2\u178c\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1787\u17c6\u1793\u17bd\u179f\u178a\u17c4\u1799\u179a\u1794\u1794\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើការគ្រប់គ្រងរបស់ក្រុមហ៊ុននៅឥណ្ឌាត្រូវបានជំនួសដោយរបបអង់គ្លេសនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1857",
       "1859",
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792\u1790\u17d2\u1793\u17b6\u1780\u17cb\u179f\u1784\u17d2\u1782\u1798\u179a\u1794\u179f\u17cb Edo \u1793\u17c5\u1794\u17d2\u179a\u1791\u17c1\u179f\u1787\u1794\u17c9\u17bb\u1793\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179b\u17bb\u1794\u1785\u17c4\u179b\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើប្រព័ន្ធថ្នាក់សង្គមរបស់ Edo នៅប្រទេសជប៉ុនត្រូវបានលុបចោលនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1868",
       "1871",
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u179a\u1790\u1797\u17d2\u179b\u17be\u1784\u1780\u17d2\u179a\u17c4\u1798\u178a\u17b8 Tower Subway \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17be\u1780\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើរថភ្លើងក្រោមដី Tower Subway ត្រូវបានបើកនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1869",
       "1871",
@@ -135,7 +135,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u179a\u1790\u1797\u17d2\u179b\u17be\u1784\u1781\u17d2\u179f\u17c2\u1780\u17b6\u1794\u17cb\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c5\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 San Francisco \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17be\u1780\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើរថភ្លើងខ្សែកាប់ដំបូងនៅទីក្រុង San Francisco ត្រូវបានបើកនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1872",
       "1874",
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u179f\u1798\u179a\u1797\u17bc\u1798\u17b7 Malakand \u1794\u17b6\u1793\u1794\u1789\u17d2\u1785\u1794\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើសមរភូមិ Malakand បានបញ្ចប់នៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1896",
       "1898",
@@ -153,7 +153,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1794\u17c7\u1794\u17c4\u179a Ilinden\u2013Preobrazhenie \u1794\u17d2\u179a\u1786\u17b6\u17c6\u1784\u1793\u17b9\u1784\u1785\u1780\u17d2\u179a\u1797\u1796\u17a2\u17bc\u178f\u17bc\u1798\u17c9\u1784\u17cb\u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178f\u17be\u1798\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើការបះបោរ Ilinden–Preobrazhenie ប្រឆាំងនឹងចក្រភពអូតូម៉ង់បានចាប់ផ្តើមនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1902",
       "1904",
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u17b6\u179b\u17d2\u179b\u17ba\u1798\u17c9\u1784\u17cb\u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178f\u17be\u1798\u1780\u17b6\u1793\u17cb\u1780\u17b6\u1794\u17cb\u1794\u17d2\u179a\u1791\u17c1\u179f Luxembourg \u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើប្រទេសអាល្លឺម៉ង់បានចាប់ផ្តើមកាន់កាប់ប្រទេស Luxembourg នៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1913",
       "1915",
@@ -171,7 +171,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u1793\u17b6\u179c\u17b6\u1785\u1798\u17d2\u1794\u17b6\u17c6\u1784\u17a2\u17ca\u17b8\u178f\u17b6\u179b\u17b8 Leonardo da Vinci \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179b\u17b7\u1785\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើនាវាចម្បាំងអ៊ីតាលី Leonardo da Vinci ត្រូវបានលិចនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1915",
       "1917",
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1794\u178a\u17b7\u179f\u17c1\u1792\u1792\u17c6\u1791\u17b8\u1798\u17bd\u1799\u1793\u17c5\u1794\u17d2\u179a\u1791\u17c1\u179f\u1780\u17b6\u178e\u17b6\u178a\u17b6\u1794\u17b6\u1793\u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើការបដិសេធធំទីមួយនៅប្រទេសកាណាដាបានកើតឡើងនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1917",
       "1916",
@@ -189,16 +189,16 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u1796\u17d2\u1799\u17bb\u17c7\u1797\u17d2\u179b\u17c0\u1784\u1793\u17c5 Shantou \u1794\u17b6\u1793\u179f\u1798\u17d2\u179b\u17b6\u1794\u17cb\u1798\u1793\u17bb\u179f\u17d2\u179f\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1793\u17b6\u1780\u17cb?",
+    "question": "តើព្យុះភ្លៀងនៅ Shantou បានសម្លាប់មនុស្សប៉ុន្មាននាក់?",
     "wrong_answers": [
-      "\u17e5\u17e0\u17e0\u17e0\u17e0",
-      "\u17e6\u17e0\u17e0\u17e0\u17e0",
-      "\u17e4\u17e0\u17e0\u17e0\u17e0",
-      "\u17e7\u17e0\u17e0\u17e0\u17e0 "
+      "៥០០០០",
+      "៦០០០០",
+      "៤០០០០",
+      "៧០០០០ "
     ]
   },
   {
-    "question": "\u178f\u17be Calvin Coolidge \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u1794\u17d2\u179a\u1792\u17b6\u1793\u17b6\u1792\u17b7\u1794\u178f\u17b8\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើ Calvin Coolidge បានក្លាយជាប្រធានាធិបតីអាមេរិកនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1921",
       "1924",
@@ -207,7 +207,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be Carl D. Anderson \u1794\u17b6\u1793\u179a\u1780\u1783\u17be\u1789 positron \u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើ Carl D. Anderson បានរកឃើញ positron នៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1933",
       "1935",
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be Adolf Hitler \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6 F\u00fchrer \u1793\u17c3\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u17b6\u179b\u17d2\u179b\u17ba\u1798\u17c9\u1784\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើ Adolf Hitler បានក្លាយជា Führer នៃប្រទេសអាល្លឺម៉ង់នៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1933",
       "1935",
@@ -225,7 +225,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1794\u17c7\u1794\u17c4\u179a\u1793\u17c5 Treblinka \u1794\u17b6\u1793\u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើការបះបោរនៅ Treblinka បានកើតឡើងនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1942",
       "1944",
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be PT-109 \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179b\u17b7\u1785\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើ PT-109 ត្រូវបានលិចនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1944",
       "1942",
@@ -243,7 +243,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be ASNOM \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើ ASNOM ត្រូវបានបង្កើតឡើងនៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1943",
       "1945",
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u179f\u1793\u17d2\u1793\u17b7\u179f\u17b8\u1791 Potsdam \u1794\u17b6\u1793\u1794\u1789\u17d2\u1785\u1794\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើសន្និសីទ Potsdam បានបញ្ចប់នៅក្នុងឆ្នាំណា?",
     "wrong_answers": [
       "1946",
       "1944",

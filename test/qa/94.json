@@ -1,6 +1,6 @@
 [
   {
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u1785\u17c6\u178e\u1784\u1787\u17be\u1784\u1793\u17c3\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178f\u17b8\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u178a\u17c2\u179b\u1798\u17b6\u1793\u1780\u17b6\u179a\u179c\u17b6\u1799\u178f\u1798\u17d2\u179b\u17c3\u178a\u17c4\u1799\u1798\u17b7\u178f\u17d2\u178f\u1797\u1780\u17d2\u178f\u17b7\u178a\u17c2\u179b\u1794\u17be\u1780\u1785\u17c6\u17a0\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u179f\u17b6\u1792\u17b6\u179a\u178e\u1787\u1793?",
+    "question": "តើអ្វីជាចំណងជើងនៃទស្សនាវដ្តីវិទ្យាសាស្ត្រដែលមានការវាយតម្លៃដោយមិត្តភក្តិដែលបើកចំហសម្រាប់សាធារណជន?",
     "wrong_answers": [
       "Journal of Algorithms",
       "Algorithmica",
@@ -9,7 +9,7 @@
   },
   {
     "answer": "Algorithms",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1793\u17b7\u1796\u1793\u17d2\u1792\u1793\u17b6\u1799\u1780\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c3\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178f\u17b8 Algorithms?",
+    "question": "តើអ្នកណាជានិពន្ធនាយកដំបូងនៃទស្សនាវដ្តី Algorithms?",
     "wrong_answers": [
       "Frank Werner",
       "Henning Fernau"
@@ -17,7 +17,7 @@
   },
   {
     "answer": "Kazuo Iwama",
-    "question": "\u178f\u17be\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178f\u17b8 Algorithms \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើទស្សនាវដ្តី Algorithms ត្រូវបានបង្កើតឡើងនៅឆ្នាំណា?",
     "wrong_answers": [
       "2014",
       "2019"
@@ -25,7 +25,7 @@
   },
   {
     "answer": "2008",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1793\u17b7\u1796\u1793\u17d2\u1792\u1793\u17b6\u1799\u1780\u1793\u17c3\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178f\u17b8 Algorithms \u1785\u17b6\u1794\u17cb\u1796\u17b8\u1781\u17c2\u17a7\u179f\u1797\u17b6 \u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e1\u17e4 \u178a\u179b\u17cb\u1781\u17c2\u1780\u1789\u17d2\u1789\u17b6 \u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e1\u17e9?",
+    "question": "តើអ្នកណាជានិពន្ធនាយកនៃទស្សនាវដ្តី Algorithms ចាប់ពីខែឧសភា ឆ្នាំ ២០១៤ ដល់ខែកញ្ញា ឆ្នាំ ២០១៩?",
     "wrong_answers": [
       "Kazuo Iwama",
       "Frank Werner"
@@ -33,7 +33,7 @@
   },
   {
     "answer": "Henning Fernau",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u17a2\u178f\u17d2\u179a\u17b6\u1794\u17c9\u17c7\u1796\u17b6\u179b\u17cb\u1793\u17c3\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178f\u17b8 Algorithms \u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e2\u17e2?",
+    "question": "តើអ្វីជាអត្រាប៉ះពាល់នៃទស្សនាវដ្តី Algorithms ក្នុងឆ្នាំ ២០២២?",
     "wrong_answers": [
       "3.0",
       "2.0"
@@ -41,7 +41,7 @@
   },
   {
     "answer": "2.3",
-    "question": "\u178f\u17be\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178f\u17b8 Algorithms \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1797\u178a\u17c4\u1799\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើទស្សនាវដ្តី Algorithms ត្រូវបានបោះពុម្ភដោយអ្នកណា?",
     "wrong_answers": [
       "Elsevier",
       "ACM"
@@ -49,7 +49,7 @@
   },
   {
     "answer": "MDPI",
-    "question": "\u178f\u17be\u1793\u17b7\u1796\u1793\u17d2\u1792\u1793\u17b6\u1799\u1780\u1794\u1785\u17d2\u1785\u17bb\u1794\u17d2\u1794\u1793\u17d2\u1793\u1793\u17c3\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178f\u17b8 Algorithms \u1787\u17b6\u1793\u179a\u178e\u17b6?",
+    "question": "តើនិពន្ធនាយកបច្ចុប្បន្ននៃទស្សនាវដ្តី Algorithms ជានរណា?",
     "wrong_answers": [
       "Henning Fernau",
       "Kazuo Iwama"
@@ -57,7 +57,7 @@
   },
   {
     "answer": "Frank Werner",
-    "question": "\u178f\u17be\u1791\u179f\u17d2\u179f\u1793\u17b6\u179c\u178a\u17d2\u178f\u17b8 Algorithms \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1789\u17d2\u1785\u17bc\u179b\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784?",
+    "question": "តើទស្សនាវដ្តី Algorithms ត្រូវបានបញ្ចូលនៅក្នុង?",
     "wrong_answers": [
       "ACM Transactions on Algorithms",
       "Journal of Algorithms"

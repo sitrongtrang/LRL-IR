@@ -1,16 +1,16 @@
 [
   {
-    "answer": "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1799\u17b6\u1799\u1793\u17c5\u17a2\u17b6\u1790\u17c2\u1793",
-    "question": "\u178f\u17be Alcidamas \u1794\u17b6\u1793\u1794\u1784\u17d2\u179a\u17c0\u1793\u1793\u17c5\u1791\u17b8\u178e\u17b6?",
+    "answer": "អ្នកនិយាយនៅអាថែន",
+    "question": "តើ Alcidamas បានបង្រៀននៅទីណា?",
     "wrong_answers": [
-      "\u1793\u17c5 Elaea",
-      "\u1793\u17c5 Aeolis",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f\u1787\u1794\u17c9\u17bb\u1793"
+      "នៅ Elaea",
+      "នៅ Aeolis",
+      "នៅក្នុងប្រទេសជប៉ុន"
     ]
   },
   {
-    "answer": "\u1782\u17b6\u178f\u17cb\u1787\u17b6\u179f\u17b7\u179f\u17d2\u179f\u179a\u1794\u179f\u17cb Gorgias",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1782\u17d2\u179a\u17bc\u179a\u1794\u179f\u17cb Alcidamas?",
+    "answer": "គាត់ជាសិស្សរបស់ Gorgias",
+    "question": "តើអ្នកណាជាគ្រូរបស់ Alcidamas?",
     "wrong_answers": [
       "Isocrates",
       "Aristotle",
@@ -18,53 +18,53 @@
     ]
   },
   {
-    "answer": "\u1782\u17b6\u178f\u17cb\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1799\u17b6\u1799\u1793\u17b7\u1784\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u179f\u17c6\u178e\u17be\u179a",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6 Alcidamas?",
+    "answer": "គាត់ជាអ្នកនិយាយនិងអ្នកនិពន្ធសំណើរ",
+    "question": "តើអ្នកណាជា Alcidamas?",
     "wrong_answers": [
-      "\u17a2\u17d2\u1793\u1780\u1793\u1799\u17c4\u1794\u17b6\u1799",
-      "\u17a2\u17d2\u1793\u1780\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a",
-      "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792"
+      "អ្នកនយោបាយ",
+      "អ្នកប្រវត្តិសាស្ត្រ",
+      "អ្នកនិពន្ធ"
     ]
   },
   {
-    "answer": "\u1796\u17bd\u1780\u1782\u17c1\u1782\u17ba\u1787\u17b6\u1782\u17bc\u1794\u17d2\u179a\u1787\u17c2\u1784",
-    "question": "\u178f\u17be Alcidamas \u1793\u17b7\u1784 Isocrates \u1798\u17b6\u1793\u1791\u17c6\u1793\u17b6\u1780\u17cb\u1791\u17c6\u1793\u1784\u1799\u17c9\u17b6\u1784\u178e\u17b6?",
+    "answer": "ពួកគេគឺជាគូប្រជែង",
+    "question": "តើ Alcidamas និង Isocrates មានទំនាក់ទំនងយ៉ាងណា?",
     "wrong_answers": [
-      "\u1796\u17bd\u1780\u1782\u17c1\u1782\u17ba\u1787\u17b6\u1798\u17b7\u178f\u17d2\u178f\u1797\u1780\u17d2\u178f\u17b7",
-      "\u1796\u17bd\u1780\u1782\u17c1\u1782\u17ba\u1787\u17b6\u179f\u1798\u17b6\u1787\u17b7\u1780\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a",
-      "\u1796\u17bd\u1780\u1782\u17c1\u1798\u17b7\u1793\u179f\u17d2\u1782\u17b6\u179b\u17cb\u1782\u17d2\u1793\u17b6"
+      "ពួកគេគឺជាមិត្តភក្តិ",
+      "ពួកគេគឺជាសមាជិកគ្រួសារ",
+      "ពួកគេមិនស្គាល់គ្នា"
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u179f\u178f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1791\u17b8 \u17e5 \u1793\u17b7\u1784\u1791\u17b8 \u17e4 \u1798\u17bb\u1793\u1782.\u179f.",
-    "question": "\u178f\u17be Alcidamas \u1794\u17b6\u1793\u179a\u179f\u17cb\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ក្នុងសតវត្សរ៍ទី ៥ និងទី ៤ មុនគ.ស.",
+    "question": "តើ Alcidamas បានរស់នៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u179f\u178f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1791\u17b8 \u17e6 \u1798\u17bb\u1793\u1782.\u179f.",
-      "\u1780\u17d2\u1793\u17bb\u1784\u179f\u178f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1791\u17b8 \u17e3 \u1798\u17bb\u1793\u1782.\u179f.",
-      "\u1780\u17d2\u1793\u17bb\u1784\u179f\u178f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1791\u17b8 \u17e2 \u1798\u17bb\u1793\u1782.\u179f."
+      "ក្នុងសតវត្សរ៍ទី ៦ មុនគ.ស.",
+      "ក្នុងសតវត្សរ៍ទី ៣ មុនគ.ស.",
+      "ក្នុងសតវត្សរ៍ទី ២ មុនគ.ស."
     ]
   },
   {
-    "answer": "\u1782\u17b6\u178f\u17cb\u1787\u17b6\u1787\u1793\u1787\u17b6\u178f\u17b7\u1780\u17d2\u179a\u17b7\u1780",
-    "question": "\u178f\u17be Alcidamas \u1787\u17b6\u1787\u1793\u1787\u17b6\u178f\u17b7\u17a2\u17d2\u179c\u17b8?",
+    "answer": "គាត់ជាជនជាតិក្រិក",
+    "question": "តើ Alcidamas ជាជនជាតិអ្វី?",
     "wrong_answers": [
-      "\u1782\u17b6\u178f\u17cb\u1787\u17b6\u1787\u1793\u1787\u17b6\u178f\u17b7\u179a\u17c9\u17bc\u1798",
-      "\u1782\u17b6\u178f\u17cb\u1787\u17b6\u1787\u1793\u1787\u17b6\u178f\u17b7\u17a2\u17c1\u179f\u17ca\u17b8\u1794",
-      "\u1782\u17b6\u178f\u17cb\u1787\u17b6\u1787\u1793\u1787\u17b6\u178f\u17b7\u1785\u17b7\u1793"
+      "គាត់ជាជនជាតិរ៉ូម",
+      "គាត់ជាជនជាតិអេស៊ីប",
+      "គាត់ជាជនជាតិចិន"
     ]
   },
   {
-    "answer": "\u1782\u17b6\u178f\u17cb\u1782\u17ba\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1799\u17b6\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1797\u17b6\u1796\u179b\u17d2\u1794\u17b8\u179b\u17d2\u1794\u17b6\u1789",
-    "question": "\u178f\u17be Alcidamas \u1787\u17b6\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "answer": "គាត់គឺជាអ្នកនិយាយដែលមានភាពល្បីល្បាញ",
+    "question": "តើ Alcidamas ជាអ្នកណា?",
     "wrong_answers": [
-      "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792",
-      "\u17a2\u17d2\u1793\u1780\u1793\u1799\u17c4\u1794\u17b6\u1799",
-      "\u17a2\u17d2\u1793\u1780\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a"
+      "អ្នកនិពន្ធ",
+      "អ្នកនយោបាយ",
+      "អ្នកប្រវត្តិសាស្ត្រ"
     ]
   },
   {
     "answer": "On Sophists",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1780\u17b6\u179a\u1793\u17b7\u1799\u17b6\u1799\u178a\u17c2\u179b\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u1782\u17b7\u178f\u1790\u17b6\u1787\u17b6\u179a\u1794\u179f\u17cb Alcidamas?",
+    "question": "តើអ្នកណាជាការនិយាយដែលត្រូវបានគេគិតថាជារបស់ Alcidamas?",
     "wrong_answers": [
       "Odysseus",
       "Messeniakos",
@@ -72,30 +72,30 @@
     ]
   },
   {
-    "answer": "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1794\u1784\u17d2\u17a0\u17b6\u1789\u1796\u17b8\u1797\u17b6\u1796\u179b\u17be\u179f\u179b\u17bb\u1794\u1793\u17c3\u1780\u17b6\u179a\u1793\u17b7\u1799\u17b6\u1799\u178a\u17c4\u1799\u1798\u17b7\u1793\u1794\u17b6\u1793\u179a\u17c0\u1794\u1785\u17c6\u179b\u17be\u1780\u17b6\u179a\u1793\u17b7\u1799\u17b6\u1799\u178a\u17c2\u179b\u1794\u17b6\u1793\u179f\u179a\u179f\u17c1\u179a",
-    "question": "\u178f\u17be Alcidamas \u1794\u17b6\u1793\u179f\u179a\u179f\u17c1\u179a On Sophists \u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ដើម្បីបង្ហាញពីភាពលើសលុបនៃការនិយាយដោយមិនបានរៀបចំលើការនិយាយដែលបានសរសេរ",
+    "question": "តើ Alcidamas បានសរសេរ On Sophists សម្រាប់អ្វី?",
     "wrong_answers": [
-      "\u178a\u17be\u1798\u17d2\u1794\u17b8\u179f\u179a\u179f\u17be\u179a Isocrates",
-      "\u178a\u17be\u1798\u17d2\u1794\u17b8\u179a\u17b7\u17c7\u1782\u1793\u17cb Gorgias",
-      "\u178a\u17be\u1798\u17d2\u1794\u17b8\u179a\u17b7\u17c7\u1782\u1793\u17cb Plato"
+      "ដើម្បីសរសើរ Isocrates",
+      "ដើម្បីរិះគន់ Gorgias",
+      "ដើម្បីរិះគន់ Plato"
     ]
   },
   {
-    "answer": "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1794\u17d2\u179a\u1786\u17b6\u17c6\u1784\u1793\u17b9\u1784 Isocrates",
-    "question": "\u178f\u17be Alcidamas \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 On Sophists?",
+    "answer": "គាត់បានប្រឆាំងនឹង Isocrates",
+    "question": "តើ Alcidamas បានធ្វើអ្វីនៅក្នុង On Sophists?",
     "wrong_answers": [
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1782\u17b6\u17c6\u1791\u17d2\u179a Isocrates",
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u179f\u179a\u179f\u17be\u179a Isocrates",
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u179f\u179a\u179f\u17c1\u179a\u17a2\u17c6\u1796\u17b8 Isocrates"
+      "គាត់បានគាំទ្រ Isocrates",
+      "គាត់បានសរសើរ Isocrates",
+      "គាត់បានសរសេរអំពី Isocrates"
     ]
   },
   {
-    "answer": "\u1793\u17c5 Elaea",
-    "question": "\u178f\u17be Alcidamas \u1780\u17be\u178f\u1793\u17c5\u1791\u17b8\u178e\u17b6?",
+    "answer": "នៅ Elaea",
+    "question": "តើ Alcidamas កើតនៅទីណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u17a2\u17b6\u1790\u17c2\u1793",
-      "\u1793\u17c5 Aeolis",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f\u1787\u1794\u17c9\u17bb\u1793"
+      "នៅអាថែន",
+      "នៅ Aeolis",
+      "នៅក្នុងប្រទេសជប៉ុន"
     ]
   }
 ]

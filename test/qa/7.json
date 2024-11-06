@@ -1,15 +1,15 @@
 [
   {
-    "answer": "\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e2\u17e8",
-    "question": "\u178f\u17be\u00a0An American in Paris \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179f\u1798\u17d2\u178f\u17c2\u1784\u1787\u17b6\u179b\u17be\u1780\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "នៅឆ្នាំ ១៩២៨",
+    "question": "តើ An American in Paris ត្រូវបានសម្តែងជាលើកដំបូងនៅពេលណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e2\u17e4",
-      "\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e2\u17e6"
+      "នៅឆ្នាំ ១៩២៤",
+      "នៅឆ្នាំ ១៩២៦"
     ]
   },
   {
     "answer": "George Gershwin",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u1793\u17c3\u00a0An American in Paris\u00a0\u1787\u17b6\u1793\u179a\u178e\u17b6?",
+    "question": "តើអ្នកនិពន្ធនៃ An American in Paris ជានរណា?",
     "wrong_answers": [
       "Maurice Ravel",
       "Claude Debussy"
@@ -17,7 +17,7 @@
   },
   {
     "answer": "Walter Damrosch",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u1793\u17b6\u17c6\u1798\u17bb\u1781\u178a\u17c2\u179b\u1794\u17b6\u1793\u178a\u17b9\u1780\u1793\u17b6\u17c6\u1780\u17b6\u179a\u179f\u1798\u17d2\u178f\u17c2\u1784\u179b\u17be\u1780\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c3\u00a0An American in Paris\u00a0\u1793\u17c5\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1789\u17bc\u179c\u1799\u17c9\u1780?",
+    "question": "តើអ្នកនាំមុខដែលបានដឹកនាំការសម្តែងលើកដំបូងនៃ An American in Paris នៅទីក្រុងញូវយ៉ក?",
     "wrong_answers": [
       "George Gershwin",
       "Deems Taylor"
@@ -25,23 +25,23 @@
   },
   {
     "answer": "Carnegie Hall",
-    "question": "\u178f\u17be An American in Paris \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179f\u1798\u17d2\u178f\u17c2\u1784\u1787\u17b6\u179b\u17be\u1780\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c5\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1789\u17bc\u179c\u1799\u17c9\u1780\u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើ An American in Paris ត្រូវបានសម្តែងជាលើកដំបូងនៅទីក្រុងញូវយ៉កនៅឯណា?",
     "wrong_answers": [
       "New York Philharmonic",
       "Walter Damrosch"
     ]
   },
   {
-    "answer": "celesta, saxophones, \u1793\u17b7\u1784 \u1780\u17b6\u179a\u1794\u17d2\u179a\u17be\u179a\u1790\u1799\u1793\u17d2\u178f",
-    "question": "\u178f\u17be\u17a7\u1794\u1780\u179a\u178e\u17cd\u1794\u1793\u17d2\u1790\u17c2\u1798\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7\u178a\u17c2\u179b Gershwin \u1794\u17b6\u1793\u1794\u17d2\u179a\u17be\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u00a0An American in Paris?",
+    "answer": "celesta, saxophones, និង ការប្រើរថយន្ត",
+    "question": "តើឧបករណ៍បន្ថែមអ្វីខ្លះដែល Gershwin បានប្រើសម្រាប់ An American in Paris?",
     "wrong_answers": [
-      "violin, cello, \u1793\u17b7\u1784 piano",
-      "trumpet, trombone, \u1793\u17b7\u1784 French horn"
+      "violin, cello, និង piano",
+      "trumpet, trombone, និង French horn"
     ]
   },
   {
     "answer": "Maurice Ravel",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u1798\u17bd\u1799\u179a\u17bc\u1794\u178a\u17c2\u179b Gershwin \u1794\u17b6\u1793\u179f\u17d2\u1782\u17b6\u179b\u17cb\u1793\u17c5\u1794\u17c9\u17b6\u179a\u17b8\u179f?",
+    "question": "តើអ្នកនិពន្ធមួយរូបដែល Gershwin បានស្គាល់នៅប៉ារីស?",
     "wrong_answers": [
       "Claude Debussy",
       "Igor Stravinsky"
@@ -49,15 +49,15 @@
   },
   {
     "answer": "Rhapsody in Blue",
-    "question": "\u178f\u17be\u00a0An American in Paris \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17c6\u1795\u17bb\u179f\u1782\u17c6\u1793\u17b7\u178f\u178a\u17c4\u1799\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ An American in Paris ត្រូវបានបំផុសគំនិតដោយអ្វី?",
     "wrong_answers": [
       "Concerto in F",
       "The Rite of Spring"
     ]
   },
   {
-    "answer": "\u00c9va Gauthier",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u179a\u17c0\u1794\u1785\u17c6\u1796\u17b7\u1792\u17b8\u1787\u1794\u17cb\u179b\u17c0\u1784\u1790\u17d2\u1784\u17c3\u1780\u17c6\u178e\u17be\u178f\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb Maurice Ravel \u1793\u17c5\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1789\u17bc\u179c\u1799\u17c9\u1780?",
+    "answer": "Éva Gauthier",
+    "question": "តើអ្នកណាដែលបានរៀបចំពិធីជប់លៀងថ្ងៃកំណើតសម្រាប់ Maurice Ravel នៅទីក្រុងញូវយ៉ក?",
     "wrong_answers": [
       "Walter Damrosch",
       "Deems Taylor"
@@ -65,7 +65,7 @@
   },
   {
     "answer": "Nadia Boulanger",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178a\u17c2\u179b Gershwin \u1794\u17b6\u1793\u1782\u17b7\u178f\u1782\u17bc\u179a\u1799\u17c9\u17b6\u1784\u1792\u17d2\u1784\u1793\u17cb\u1792\u17d2\u1784\u179a\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u179f\u17b7\u1780\u17d2\u179f\u17b6\u1793\u17c5\u1794\u17c9\u17b6\u179a\u17b8\u179f?",
+    "question": "តើអ្នកណាដែល Gershwin បានគិតគូរយ៉ាងធ្ងន់ធ្ងរក្នុងការសិក្សានៅប៉ារីស?",
     "wrong_answers": [
       "Maurice Ravel",
       "Deems Taylor"
@@ -73,23 +73,23 @@
   },
   {
     "answer": "\"Very Parisienne\"",
-    "question": "\u178f\u17be Gershwin \u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f An American in Paris \u178a\u17c4\u1799\u1795\u17d2\u17a2\u17c2\u1780\u179b\u17be\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Gershwin បានបង្កើត An American in Paris ដោយផ្អែកលើអ្វី?",
     "wrong_answers": [
       "Rhapsody in Blue",
       "Concerto in F"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u17b6\u17c6",
-    "question": "\u178f\u17be\u00a0An American in Paris\u00a0\u1798\u17b6\u1793\u1785\u17c6\u1793\u17bd\u1793\u1795\u17d2\u1793\u17c2\u1780\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793?",
+    "answer": "ប្រាំ",
+    "question": "តើ An American in Paris មានចំនួនផ្នែកប៉ុន្មាន?",
     "wrong_answers": [
-      "\u1794\u17b8",
-      "\u1794\u17d2\u179a\u17b6\u17c6\u1798\u17bd\u1799"
+      "បី",
+      "ប្រាំមួយ"
     ]
   },
   {
     "answer": "\"Allegretto grazioso\"",
-    "question": "\u178f\u17be\u1795\u17d2\u1793\u17c2\u1780 A \u1793\u17c3\u00a0An American in Paris \u1798\u17b6\u1793\u1785\u17c6\u178e\u1784\u1787\u17be\u1784\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើផ្នែក A នៃ An American in Paris មានចំណងជើងអ្វី?",
     "wrong_answers": [
       "Andante ma con ritmo deciso",
       "Allegro"
@@ -97,15 +97,15 @@
   },
   {
     "answer": "\"Andante ma con ritmo deciso\"",
-    "question": "\u178f\u17be\u1795\u17d2\u1793\u17c2\u1780 B \u1793\u17c3\u00a0An American in Paris\u00a0\u1798\u17b6\u1793\u1785\u17c6\u178e\u1784\u1787\u17be\u1784\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើផ្នែក B នៃ An American in Paris មានចំណងជើងអ្វី?",
     "wrong_answers": [
       "Allegretto grazioso",
       "Allegro"
     ]
   },
   {
-    "answer": "Claude Debussy \u1793\u17b7\u1784 Les Six",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u179a\u1794\u179f\u17cb\u1794\u17b6\u179a\u17b6\u17c6\u1784\u178e\u17b6\u178a\u17c2\u179b Gershwin \u1794\u17b6\u1793\u1799\u1780\u1798\u1780\u1794\u17d2\u179a\u17be\u1780\u17d2\u1793\u17bb\u1784\u1795\u17d2\u1793\u17c2\u1780 A \u1793\u17c3\u00a0An American in Paris?",
+    "answer": "Claude Debussy និង Les Six",
+    "question": "តើអ្នកនិពន្ធរបស់បារាំងណាដែល Gershwin បានយកមកប្រើក្នុងផ្នែក A នៃ An American in Paris?",
     "wrong_answers": [
       "Maurice Ravel",
       "Igor Stravinsky"
@@ -113,10 +113,10 @@
   },
   {
     "answer": "Blues",
-    "question": "\u178f\u17be\u1795\u17d2\u1793\u17c2\u1780 B \u1793\u17c3\u00a0An American in Paris \u1794\u1784\u17d2\u17a0\u17b6\u1789\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើផ្នែក B នៃ An American in Paris បង្ហាញអ្វី?",
     "wrong_answers": [
       "homesickness",
-      "\u1797\u17b6\u1796\u179a\u17b8\u1780\u179a\u17b6\u1799\u1793\u17c3\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1794\u17c9\u17b6\u179a\u17b8\u179f"
+      "ភាពរីករាយនៃទីក្រុងប៉ារីស"
     ]
   }
 ]

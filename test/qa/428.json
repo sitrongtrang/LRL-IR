@@ -1,7 +1,7 @@
 [
   {
-    "answer": "Alfred Aho, Peter J. Weinberger, \u1793\u17b7\u1784 Brian Kernighan",
-    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u1784\u17d2\u1780\u17be\u178f AWK?",
+    "answer": "Alfred Aho, Peter J. Weinberger, និង Brian Kernighan",
+    "question": "អ្នកណាជាអ្នកបង្កើត AWK?",
     "wrong_answers": [
       "Richard Stallman",
       "Paul Rubin",
@@ -9,35 +9,35 @@
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u17be\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u178a\u17c6\u178e\u17be\u179a\u1780\u17b6\u179a\u17a2\u178f\u17d2\u1790\u1794\u1791",
-    "question": "AWK \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17d2\u179a\u17be\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ប្រើសម្រាប់ដំណើរការអត្ថបទ",
+    "question": "AWK ត្រូវបានប្រើសម្រាប់អ្វី?",
     "wrong_answers": [
-      "\u178a\u17c6\u178e\u17be\u179a\u1780\u17b6\u179a\u1798\u17bc\u179b\u178a\u17d2\u178b\u17b6\u1793\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799",
-      "\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1794\u1784\u17d2\u1780\u17be\u178f\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u1782\u17c1\u17a0\u1791\u17c6\u1796\u17d0\u179a",
-      "\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u179b\u17c1\u1784\u17a0\u17d2\u1782\u17c1\u1798"
+      "ដំណើរការមូលដ្ឋានទិន្នន័យ",
+      "សម្រាប់បង្កើតកម្មវិធីគេហទំព័រ",
+      "សម្រាប់លេងហ្គេម"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e7\u17e7",
-    "question": "\u178f\u17be AWK \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "នៅក្នុងឆ្នាំ ១៩៧៧",
+    "question": "តើ AWK ត្រូវបានបង្កើតឡើងនៅពេលណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e8\u17e5",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e3",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e0\u17e0"
+      "នៅក្នុងឆ្នាំ ១៩៨៥",
+      "នៅក្នុងឆ្នាំ ១៩៩៣",
+      "នៅក្នុងឆ្នាំ ២០០០"
     ]
   },
   {
-    "answer": "\u1796\u17b8\u17a2\u1780\u17d2\u179f\u179a\u1780\u17b6\u178f\u17cb\u1793\u17c3\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792",
-    "question": "\u178f\u17be AWK \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u1798\u1780\u1796\u17b8\u178e\u17b6?",
+    "answer": "ពីអក្សរកាត់នៃឈ្មោះអ្នកនិពន្ធ",
+    "question": "តើ AWK មានឈ្មោះមកពីណា?",
     "wrong_answers": [
-      "\u1796\u17b8\u1788\u17d2\u1798\u17c4\u17c7\u1794\u1780\u17d2\u179f\u17b8",
-      "\u1796\u17b8\u1797\u17b6\u179f\u17b6\u1794\u17d2\u179a\u17bc\u1780\u17d2\u179a\u17b6\u1798\u1795\u17d2\u179f\u17c1\u1784\u1791\u17c0\u178f",
-      "\u1796\u17b8\u1788\u17d2\u1798\u17c4\u17c7\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784"
+      "ពីឈ្មោះបក្សី",
+      "ពីភាសាប្រូក្រាមផ្សេងទៀត",
+      "ពីឈ្មោះទីកន្លែង"
     ]
   },
   {
     "answer": "Marc Rochkind",
-    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u1797\u17b6\u179f\u17b6\u1794\u17d2\u179a\u17bc\u1780\u17d2\u179a\u17b6\u1798\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u17c6\u1795\u17bb\u179f\u1782\u17c6\u1793\u17b7\u178f\u178a\u179b\u17cb AWK?",
+    "question": "អ្នកណាបានបង្កើតភាសាប្រូក្រាមដែលបានបំផុសគំនិតដល់ AWK?",
     "wrong_answers": [
       "Alfred Aho",
       "Peter J. Weinberger",
@@ -45,8 +45,8 @@
     ]
   },
   {
-    "answer": "sed \u1793\u17b7\u1784 grep",
-    "question": "\u178f\u17be\u17a7\u1794\u1780\u179a\u178e\u17cd\u178e\u17b6\u1795\u17d2\u179f\u17c1\u1784\u1791\u17c0\u178f\u178a\u17c2\u179b\u179f\u17d2\u179a\u178a\u17c0\u1784\u1793\u17b9\u1784 AWK \u1793\u17b7\u1784\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17d2\u179a\u17be\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u178a\u17c6\u178e\u17be\u179a\u1780\u17b6\u179a\u17a2\u178f\u17d2\u1790\u1794\u1791?",
+    "answer": "sed និង grep",
+    "question": "តើឧបករណ៍ណាផ្សេងទៀតដែលស្រដៀងនឹង AWK និងត្រូវបានប្រើសម្រាប់ដំណើរការអត្ថបទ?",
     "wrong_answers": [
       "Python",
       "Java",
@@ -55,16 +55,16 @@
   },
   {
     "answer": "GNU AWK",
-    "question": "\u178f\u17be\u1780\u17c6\u178e\u17c2 AWK \u1798\u17bd\u1799\u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u1799\u17c9\u17b6\u1784\u1791\u17bc\u179b\u17c6\u1791\u17bc\u179b\u17b6\u1799?",
+    "question": "តើកំណែ AWK មួយណាត្រូវបានគេប្រើប្រាស់យ៉ាងទូលំទូលាយ?",
     "wrong_answers": [
       "nawk",
-      "AWK \u178a\u17be\u1798",
+      "AWK ដើម",
       "Perl"
     ]
   },
   {
     "answer": "Arnold Robbins",
-    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1790\u17c2\u179a\u1780\u17d2\u179f\u17b6 GNU AWK \u1785\u17b6\u1794\u17cb\u178f\u17b6\u17c6\u1784\u1796\u17b8\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e9\u17e4?",
+    "question": "អ្នកណាបានថែរក្សា GNU AWK ចាប់តាំងពីឆ្នាំ ១៩៩៤?",
     "wrong_answers": [
       "Alfred Aho",
       "Peter J. Weinberger",
@@ -73,7 +73,7 @@
   },
   {
     "answer": "Perl",
-    "question": "\u178f\u17be\u1797\u17b6\u179f\u17b6\u1794\u17d2\u179a\u17bc\u1780\u17d2\u179a\u17b6\u1798\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u17a5\u1791\u17d2\u1792\u17b7\u1796\u179b\u1796\u17b8 AWK?",
+    "question": "តើភាសាប្រូក្រាមណាដែលបានទទួលឥទ្ធិពលពី AWK?",
     "wrong_answers": [
       "Python",
       "Java",
@@ -82,7 +82,7 @@
   },
   {
     "answer": "condition { action }",
-    "question": "\u178f\u17be\u179a\u1785\u1793\u17b6\u179f\u1798\u17d2\u1796\u17d0\u1793\u17d2\u1792\u1798\u17bc\u179b\u178a\u17d2\u178b\u17b6\u1793\u1793\u17c3\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8 AWK \u1798\u17b6\u1793\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7?",
+    "question": "តើរចនាសម្ព័ន្ធមូលដ្ឋាននៃកម្មវិធី AWK មានអ្វីខ្លះ?",
     "wrong_answers": [
       "if { else }",
       "for { }",

@@ -1,55 +1,55 @@
 [
   {
-    "answer": "\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Tavistock",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17d2\u179c\u17b8\u1798\u17bb\u1793\u1796\u17c1\u179b\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u1794\u17ca\u17b8\u179f\u17d2\u179f\u1796\u1793\u17c3 Worcester?",
+    "answer": "អាបត់នៃ Tavistock",
+    "question": "តើ Ealdred បានក្លាយជាអ្វីមុនពេលក្លាយជាប៊ីស្សពនៃ Worcester?",
     "wrong_answers": [
-      "\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Gloucester",
-      "\u17a2\u17b6\u1785\u17b6\u179a\u17d2\u1799\u1793\u17c3 Winchester"
+      "អាបត់នៃ Gloucester",
+      "អាចារ្យនៃ Winchester"
     ]
   },
   {
-    "answer": "\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Tavistock",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17d2\u179c\u17b8\u1794\u17d2\u179a\u17a0\u17c2\u179b\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e2\u17e7?",
+    "answer": "អាបត់នៃ Tavistock",
+    "question": "តើ Ealdred បានក្លាយជាអ្វីប្រហែលឆ្នាំ ១០២៧?",
     "wrong_answers": [
-      "\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Gloucester",
-      "\u1794\u17ca\u17b8\u179f\u17d2\u179f\u1796\u1793\u17c3 Worcester"
+      "អាបត់នៃ Gloucester",
+      "ប៊ីស្សពនៃ Worcester"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1787\u17bb\u17c6\u179c\u17b7\u1789\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e2\u17e7",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Tavistock \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "នៅជុំវិញឆ្នាំ ១០២៧",
+    "question": "តើ Ealdred បានក្លាយជាអាបត់នៃ Tavistock នៅពេលណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1787\u17bb\u17c6\u179c\u17b7\u1789\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e4\u17e6",
-      "\u1793\u17c5\u1787\u17bb\u17c6\u179c\u17b7\u1789\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e6\u17e0"
+      "នៅជុំវិញឆ្នាំ ១០៤៦",
+      "នៅជុំវិញឆ្នាំ ១០៦០"
     ]
   },
   {
     "answer": "Edward the Confessor",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1794\u1798\u17d2\u179a\u17be\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1780\u17b6\u179a\u1791\u17bc\u178f\u1793\u17b7\u1784\u1798\u17c1\u1794\u1789\u17d2\u1787\u17b6\u1780\u17b6\u179a\u1799\u17c4\u1792\u17b6\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើ Ealdred បានបម្រើជាអ្នកការទូតនិងមេបញ្ជាការយោធាសម្រាប់អ្នកណា?",
     "wrong_answers": [
       "Harold Godwinson",
       "William the Conqueror"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e6\u17e6",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "នៅឆ្នាំ ១០៦៦",
+    "question": "តើ Ealdred បានស្លាប់នៅពេលណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e5\u17e8",
-      "\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e6\u17e0"
+      "នៅឆ្នាំ ១០៥៨",
+      "នៅឆ្នាំ ១០៦០"
     ]
   },
   {
-    "answer": "\u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Tavistock",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8\u1798\u17bb\u1793\u1796\u17c1\u179b\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u1794\u17ca\u17b8\u179f\u17d2\u179f\u1796\u1793\u17c3 Worcester?",
+    "answer": "បានក្លាយជាអាបត់នៃ Tavistock",
+    "question": "តើ Ealdred បានធ្វើអ្វីមុនពេលក្លាយជាប៊ីស្សពនៃ Worcester?",
     "wrong_answers": [
-      "\u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1785\u17b6\u179a\u17d2\u1799\u1793\u17c3 Winchester",
-      "\u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Gloucester"
+      "បានក្លាយជាអាចារ្យនៃ Winchester",
+      "បានក្លាយជាអាបត់នៃ Gloucester"
     ]
   },
   {
     "answer": "Edward the Exile",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u179f\u17b6\u1785\u17cb\u1789\u17b6\u178f\u17b7\u179a\u1794\u179f\u17cb\u179f\u17d2\u178f\u17c1\u1785 Edward the Confessor \u178a\u17c2\u179b Ealdred \u1794\u17b6\u1793\u1796\u17d2\u1799\u17b6\u1799\u17b6\u1798\u1793\u17b6\u17c6\u1798\u1780\u179c\u17b7\u1789\u1796\u17b8\u17a0\u17bb\u1784\u1782\u17d2\u179a\u17b8?",
+    "question": "តើអ្នកណាជាសាច់ញាតិរបស់ស្តេច Edward the Confessor ដែល Ealdred បានព្យាយាមនាំមកវិញពីហុងគ្រី?",
     "wrong_answers": [
       "Harold Godwinson",
       "William the Conqueror"
@@ -57,7 +57,7 @@
   },
   {
     "answer": "Jerusalem",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u178a\u17c6\u178e\u17be\u179a\u1791\u17c5\u1780\u17b6\u1793\u17cb\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e5\u17e8?",
+    "question": "តើ Ealdred បានធ្វើដំណើរទៅកាន់ទីកន្លែងណានៅឆ្នាំ ១០៥៨?",
     "wrong_answers": [
       "Rome",
       "England"
@@ -65,7 +65,7 @@
   },
   {
     "answer": "Gruffydd ap Llywelyn",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1798\u17c1\u178a\u17b9\u1780\u1793\u17b6\u17c6\u179c\u17c2\u179b\u179f\u17cd\u178a\u17c2\u179b Ealdred \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1780\u17b7\u1785\u17d2\u1785\u1796\u17d2\u179a\u1798\u1796\u17d2\u179a\u17c0\u1784\u1787\u17b6\u1798\u17bd\u1799?",
+    "question": "តើអ្នកណាជាមេដឹកនាំវែលស៍ដែល Ealdred បានធ្វើកិច្ចព្រមព្រៀងជាមួយ?",
     "wrong_answers": [
       "Gruffydd ap Rhydderch",
       "Rhys ap Rhydderch"
@@ -73,23 +73,23 @@
   },
   {
     "answer": "York",
-    "question": "\u178f\u17be Ealdred \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1787\u17d2\u179a\u17be\u179f\u179a\u17be\u179f\u1787\u17b6\u17a2\u17b6\u1785\u17b6\u179a\u17d2\u1799\u1793\u17c3\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u178e\u17b6\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e6\u17e0?",
+    "question": "តើ Ealdred ត្រូវបានជ្រើសរើសជាអាចារ្យនៃទីក្រុងណានៅឆ្នាំ ១០៦០?",
     "wrong_answers": [
       "Tavistock",
       "Worcester"
     ]
   },
   {
-    "answer": "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u179f\u1793\u17d2\u1799\u17b6\u1790\u17b6\u1782\u17b6\u178f\u17cb\u1793\u17b9\u1784\u1798\u17b7\u1793\u1780\u17b6\u1793\u17cb\u178f\u17c6\u178e\u17c2\u1784\u17a2\u17b6\u1785\u17b6\u179a\u17d2\u1799\u1793\u17c3 York \u1793\u17b7\u1784 Worcester \u1780\u17d2\u1793\u17bb\u1784\u1796\u17c1\u179b\u178f\u17c2\u1798\u17bd\u1799",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u179f\u1793\u17d2\u1799\u17b6\u17a2\u17d2\u179c\u17b8\u178a\u17be\u1798\u17d2\u1794\u17b8\u1791\u1791\u17bd\u179b\u1794\u17b6\u1793\u1780\u17b6\u179a\u1799\u179b\u17cb\u1796\u17d2\u179a\u1798\u1796\u17b8\u1794\u17c9\u17b6\u1794\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1780\u17b6\u179a\u178f\u17c2\u1784\u178f\u17b6\u17c6\u1784\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb?",
+    "answer": "គាត់បានសន្យាថាគាត់នឹងមិនកាន់តំណែងអាចារ្យនៃ York និង Worcester ក្នុងពេលតែមួយ",
+    "question": "តើ Ealdred បានសន្យាអ្វីដើម្បីទទួលបានការយល់ព្រមពីប៉ាបសម្រាប់ការតែងតាំងរបស់គាត់?",
     "wrong_answers": [
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u179f\u1793\u17d2\u1799\u17b6\u1790\u17b6\u1782\u17b6\u178f\u17cb\u1793\u17b9\u1784\u1798\u17b7\u1793\u1780\u17b6\u1793\u17cb\u178f\u17c6\u178e\u17c2\u1784\u17a2\u17b6\u1785\u17b6\u179a\u17d2\u1799\u1793\u17c3 Worcester \u1793\u17b7\u1784 Tavistock \u1780\u17d2\u1793\u17bb\u1784\u1796\u17c1\u179b\u178f\u17c2\u1798\u17bd\u1799",
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u179f\u1793\u17d2\u1799\u17b6\u1790\u17b6\u1782\u17b6\u178f\u17cb\u1793\u17b9\u1784\u1798\u17b7\u1793\u1780\u17b6\u1793\u17cb\u178f\u17c6\u178e\u17c2\u1784\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Gloucester \u1793\u17b7\u1784 Tavistock \u1780\u17d2\u1793\u17bb\u1784\u1796\u17c1\u179b\u178f\u17c2\u1798\u17bd\u1799"
+      "គាត់បានសន្យាថាគាត់នឹងមិនកាន់តំណែងអាចារ្យនៃ Worcester និង Tavistock ក្នុងពេលតែមួយ",
+      "គាត់បានសន្យាថាគាត់នឹងមិនកាន់តំណែងអាបត់នៃ Gloucester និង Tavistock ក្នុងពេលតែមួយ"
     ]
   },
   {
     "answer": "Wulfstan",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179f\u17d2\u1793\u1784\u178f\u17c6\u178e\u17c2\u1784\u179a\u1794\u179f\u17cb Ealdred \u1793\u17c5 Worcester?",
+    "question": "តើអ្នកណាជាអ្នកស្នងតំណែងរបស់ Ealdred នៅ Worcester?",
     "wrong_answers": [
       "Lyfing",
       "Ealdred"
@@ -97,15 +97,15 @@
   },
   {
     "answer": "Harold Godwinson",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793 Ealdred \u1794\u1789\u17d2\u1785\u17bb\u17c7\u1798\u1780\u17bb\u178a\u1787\u17b6\u179f\u17d2\u178f\u17c1\u1785\u1793\u17c3\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f?",
+    "question": "តើអ្នកណាត្រូវបាន Ealdred បញ្ចុះមកុដជាស្តេចនៃប្រទេសអង់គ្លេស?",
     "wrong_answers": [
       "Edward the Confessor",
       "William the Conqueror"
     ]
   },
   {
-    "answer": "Edgar the \u00c6theling",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1782\u17b6\u17c6\u1791\u17d2\u179a\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u1793\u17d2\u1791\u17b6\u1794\u17cb\u1796\u17b8 Harold \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1785\u17b6\u1789\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179f\u1798\u179a\u1797\u17bc\u1798\u17b7 Hastings?",
+    "answer": "Edgar the Ætheling",
+    "question": "តើ Ealdred បានគាំទ្រអ្នកណាបន្ទាប់ពី Harold ត្រូវបានចាញ់នៅក្នុងសមរភូមិ Hastings?",
     "wrong_answers": [
       "Harold Godwinson",
       "William the Conqueror"
@@ -113,23 +113,23 @@
   },
   {
     "answer": "William the Conqueror",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793 Ealdred \u1794\u1789\u17d2\u1785\u17bb\u17c7\u1798\u1780\u17bb\u178a\u1787\u17b6\u179f\u17d2\u178f\u17c1\u1785\u1793\u17c5\u1790\u17d2\u1784\u17c3\u178e\u17bc\u17a2\u17c2\u179b\u1793\u17c3\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e6\u17e6?",
+    "question": "តើអ្នកណាត្រូវបាន Ealdred បញ្ចុះមកុដជាស្តេចនៅថ្ងៃណូអែលនៃឆ្នាំ ១០៦៦?",
     "wrong_answers": [
       "Harold Godwinson",
-      "Edgar the \u00c6theling"
+      "Edgar the Ætheling"
     ]
   },
   {
-    "answer": "\u1793\u17c5 Normandy",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1791\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6\u1787\u17b6\u1798\u17bd\u1799 William the Conqueror \u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e6\u17e7?",
+    "answer": "នៅ Normandy",
+    "question": "តើ Ealdred បានទៅទីកន្លែងណាជាមួយ William the Conqueror ក្នុងឆ្នាំ ១០៦៧?",
     "wrong_answers": [
-      "\u1793\u17c5 York",
-      "\u1793\u17c5 Worcester"
+      "នៅ York",
+      "នៅ Worcester"
     ]
   },
   {
     "answer": "Lyfing",
-    "question": "\u178f\u17be Ealdred \u17a2\u17b6\u1785\u1798\u17b6\u1793\u1791\u17c6\u1793\u17b6\u1780\u17cb\u1791\u17c6\u1793\u1784\u1787\u17b6\u1798\u17bd\u1799\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178a\u17c2\u179b\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1780\u17b6\u1793\u17cb\u178f\u17c6\u178e\u17c2\u1784\u1798\u17bb\u1793\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb\u1787\u17b6\u1794\u17ca\u17b8\u179f\u17d2\u179f\u1796\u1793\u17c3 Worcester?",
+    "question": "តើ Ealdred អាចមានទំនាក់ទំនងជាមួយអ្នកណាដែលជាអ្នកកាន់តំណែងមុនរបស់គាត់ជាប៊ីស្សពនៃ Worcester?",
     "wrong_answers": [
       "Edward the Confessor",
       "William the Conqueror"
@@ -137,7 +137,7 @@
   },
   {
     "answer": "Devonshire",
-    "question": "\u178f\u17be\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a Ealdred \u1798\u1780\u1796\u17b8\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើគ្រួសារ Ealdred មកពីទីកន្លែងណា?",
     "wrong_answers": [
       "York",
       "Worcester"
@@ -145,7 +145,7 @@
   },
   {
     "answer": "Wilstan or Wulfstan",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u179f\u17b6\u1785\u17cb\u1789\u17b6\u178f\u17b7\u179a\u1794\u179f\u17cb Ealdred \u178a\u17c2\u179b\u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Gloucester?",
+    "question": "តើអ្នកណាជាសាច់ញាតិរបស់ Ealdred ដែលបានក្លាយជាអាបត់នៃ Gloucester?",
     "wrong_answers": [
       "Lyfing",
       "Edward the Confessor"
@@ -153,7 +153,7 @@
   },
   {
     "answer": "Winchester Cathedral",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u17bd\u179f\u1793\u17c5\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើ Ealdred បានក្លាយជាអ្នកបួសនៅទីកន្លែងណា?",
     "wrong_answers": [
       "Tavistock Abbey",
       "Gloucester Abbey"
@@ -161,314 +161,314 @@
   },
   {
     "answer": "Tavistock Abbey",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើ Ealdred បានក្លាយជាអាបត់នៃទីកន្លែងណា?",
     "wrong_answers": [
       "Winchester Cathedral",
       "Gloucester Abbey"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e1\u17e0\u17e2\u17e7",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Tavistock Abbey \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ប្រហែល ១០២៧",
+    "question": "តើ Ealdred បានក្លាយជាអាបត់នៃ Tavistock Abbey នៅពេលណា?",
     "wrong_answers": [
-      "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e1\u17e0\u17e4\u17e3",
-      "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e1\u17e0\u17e4\u17e6"
+      "ប្រហែល ១០៤៣",
+      "ប្រហែល ១០៤៦"
     ]
   },
   {
-    "answer": "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1794\u1793\u17d2\u178f\u1780\u17b6\u1793\u17cb\u1780\u17b6\u1794\u17cb\u1791\u17d2\u179a\u1796\u17d2\u1799\u179f\u1798\u17d2\u1794\u178f\u17d2\u178f\u17b7\u1796\u17b8\u179a\u1796\u17b8\u179c\u178f\u17d2\u178f\u1793\u17c1\u17c7\u179a\u17a0\u17bc\u178f\u178a\u179b\u17cb\u1782\u17b6\u178f\u17cb\u179f\u17d2\u179b\u17b6\u1794\u17cb",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8\u1794\u1793\u17d2\u1791\u17b6\u1794\u17cb\u1796\u17b8\u1785\u17b6\u1780\u1785\u17c1\u1789\u1796\u17b8\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Tavistock?",
+    "answer": "គាត់បានបន្តកាន់កាប់ទ្រព្យសម្បត្តិពីរពីវត្តនេះរហូតដល់គាត់ស្លាប់",
+    "question": "តើ Ealdred បានធ្វើអ្វីបន្ទាប់ពីចាកចេញពីអាបត់នៃ Tavistock?",
     "wrong_answers": [
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Gloucester",
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Winchester"
+      "គាត់បានក្លាយជាអាបត់នៃ Gloucester",
+      "គាត់បានក្លាយជាអាបត់នៃ Winchester"
     ]
   },
   {
-    "answer": "\u17e1\u17e0\u17e4\u17e6",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u1794\u17ca\u17b8\u179f\u17d2\u179f\u1796\u1793\u17c3 Worcester \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "១០៤៦",
+    "question": "តើ Ealdred បានក្លាយជាប៊ីស្សពនៃ Worcester នៅពេលណា?",
     "wrong_answers": [
-      "\u17e1\u17e0\u17e2\u17e7",
-      "\u17e1\u17e0\u17e6\u17e0"
+      "១០២៧",
+      "១០៦០"
     ]
   },
   {
     "answer": "Lyfing",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1780\u17b6\u1793\u17cb\u178f\u17c6\u178e\u17c2\u1784\u1798\u17bb\u1793\u179a\u1794\u179f\u17cb Ealdred \u1787\u17b6\u1794\u17ca\u17b8\u179f\u17d2\u179f\u1796\u1793\u17c3 Worcester?",
+    "question": "តើអ្នកណាជាអ្នកកាន់តំណែងមុនរបស់ Ealdred ជាប៊ីស្សពនៃ Worcester?",
     "wrong_answers": [
       "Edward the Confessor",
       "William the Conqueror"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e1\u17e0\u17e4\u17e3",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1794\u1798\u17d2\u179a\u17be\u1780\u17b6\u179a\u1787\u17b6\u1794\u17ca\u17b8\u179f\u17d2\u179f\u1796\u1787\u17c6\u1793\u17bd\u1799\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb Lyfing \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ប្រហែល ១០៤៣",
+    "question": "តើ Ealdred បានបម្រើការជាប៊ីស្សពជំនួយសម្រាប់ Lyfing នៅពេលណា?",
     "wrong_answers": [
-      "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e1\u17e0\u17e2\u17e7",
-      "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e1\u17e0\u17e6\u17e0"
+      "ប្រហែល ១០២៧",
+      "ប្រហែល ១០៦០"
     ]
   },
   {
     "answer": "Sihtric",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u178a\u17b6\u1780\u17cb\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Tavistock \u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e4\u17e5 \u17ac\u178a\u17be\u1798\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e4\u17e6?",
+    "question": "តើអ្នកណាត្រូវបានគេដាក់ឈ្មោះថាជាអាបត់នៃ Tavistock ក្នុងឆ្នាំ ១០៤៥ ឬដើមឆ្នាំ ១០៤៦?",
     "wrong_answers": [
       "Lyfing",
       "Ealdred"
     ]
   },
   {
-    "answer": "\u17e2\u17e6 \u1781\u17c2\u1798\u17b8\u1793\u17b6 \u17e1\u17e0\u17e4\u17e6",
-    "question": "\u178f\u17be Lyfing \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "២៦ ខែមីនា ១០៤៦",
+    "question": "តើ Lyfing បានស្លាប់នៅពេលណា?",
     "wrong_answers": [
-      "\u17e1\u17e1 \u1781\u17c2\u1780\u1789\u17d2\u1789\u17b6 \u17e1\u17e0\u17e6\u17e9",
-      "\u17e2\u17e5 \u1781\u17c2\u1792\u17d2\u1793\u17bc \u17e1\u17e0\u17e6\u17e6"
+      "១១ ខែកញ្ញា ១០៦៩",
+      "២៥ ខែធ្នូ ១០៦៦"
     ]
   },
   {
-    "answer": "Crediton \u1793\u17b7\u1784 Cornwall",
-    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1798\u17bd\u1799\u178e\u17b6\u178a\u17c2\u179b Edward the Confessor \u1794\u17b6\u1793\u1795\u17d2\u178f\u179b\u17cb\u17b1\u17d2\u1799 Leofric \u1794\u1793\u17d2\u1791\u17b6\u1794\u17cb\u1796\u17b8\u1780\u17b6\u179a\u179f\u17d2\u179b\u17b6\u1794\u17cb\u179a\u1794\u179f\u17cb Lyfing?",
+    "answer": "Crediton និង Cornwall",
+    "question": "តើទីក្រុងមួយណាដែល Edward the Confessor បានផ្តល់ឱ្យ Leofric បន្ទាប់ពីការស្លាប់របស់ Lyfing?",
     "wrong_answers": [
-      "York \u1793\u17b7\u1784 Worcester",
-      "Tavistock \u1793\u17b7\u1784 Gloucester"
+      "York និង Worcester",
+      "Tavistock និង Gloucester"
     ]
   },
   {
     "answer": "Leofric",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793 Edward the Confessor \u1795\u17d2\u178f\u179b\u17cb\u17b1\u17d2\u1799 Crediton \u1793\u17b7\u1784 Cornwall?",
+    "question": "តើអ្នកណាត្រូវបាន Edward the Confessor ផ្តល់ឱ្យ Crediton និង Cornwall?",
     "wrong_answers": [
       "Lyfing",
       "Ealdred"
     ]
   },
   {
-    "answer": "\u17e1\u17e0\u17e5\u17e0",
-    "question": "\u178f\u17be Leofric \u1794\u17b6\u1793\u179a\u17bd\u1798\u1794\u1789\u17d2\u1785\u17bc\u179b\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1796\u17b8\u179a\u1793\u17c5 Crediton \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "១០៥០",
+    "question": "តើ Leofric បានរួមបញ្ចូលទីក្រុងពីរនៅ Crediton នៅពេលណា?",
     "wrong_answers": [
-      "\u17e1\u17e0\u17e4\u17e6",
-      "\u17e1\u17e0\u17e6\u17e0"
+      "១០៤៦",
+      "១០៦០"
     ]
   },
   {
     "answer": "Edward the Confessor",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u179f\u17d2\u178f\u17c1\u1785\u1793\u17c3\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u178a\u17c2\u179b Ealdred \u1794\u17b6\u1793\u1794\u1798\u17d2\u179a\u17be?",
+    "question": "តើអ្នកណាជាស្តេចនៃប្រទេសអង់គ្លេសដែល Ealdred បានបម្រើ?",
     "wrong_answers": [
       "Harold Godwinson",
       "William the Conqueror"
     ]
   },
   {
-    "answer": "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u1780\u17d2\u1793\u17bb\u1784\u179a\u178a\u17d2\u178b\u17b6\u1797\u17b7\u1794\u17b6\u179b\u179a\u17b6\u1787\u179c\u1784\u17d2\u179f",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8\u1780\u17d2\u179a\u17c5\u1796\u17b8\u1780\u17b6\u179a\u1787\u17b6\u1798\u17c1\u1794\u17d2\u179a\u17b9\u1780\u17d2\u179f\u17b6\u179a\u1794\u179f\u17cb Edward the Confessor?",
+    "answer": "គាត់បានចូលរួមក្នុងរដ្ឋាភិបាលរាជវង្ស",
+    "question": "តើ Ealdred បានធ្វើអ្វីក្រៅពីការជាមេប្រឹក្សារបស់ Edward the Confessor?",
     "wrong_answers": [
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Tavistock",
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Gloucester"
+      "គាត់បានក្លាយជាអាបត់នៃ Tavistock",
+      "គាត់បានក្លាយជាអាបត់នៃ Gloucester"
     ]
   },
   {
-    "answer": "\u17e1\u17e0\u17e4\u17e6",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1793\u17b6\u17c6\u1780\u1784\u1791\u17d0\u1796\u1798\u17bd\u1799\u1791\u17c5\u1794\u17d2\u179a\u1786\u17b6\u17c6\u1784\u1793\u17b9\u1784\u1787\u1793\u1787\u17b6\u178f\u17b7\u179c\u17c2\u179b\u179f\u17cd\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "១០៤៦",
+    "question": "តើ Ealdred បាននាំកងទ័ពមួយទៅប្រឆាំងនឹងជនជាតិវែលស៍នៅពេលណា?",
     "wrong_answers": [
-      "\u17e1\u17e0\u17e5\u17e0",
-      "\u17e1\u17e0\u17e6\u17e0"
+      "១០៥០",
+      "១០៦០"
     ]
   },
   {
-    "answer": "Gruffydd ap Rhydderch, Rhys ap Rhydderch, \u1793\u17b7\u1784 Gruffydd ap Llywelyn",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1798\u17c1\u178a\u17b9\u1780\u1793\u17b6\u17c6\u179c\u17c2\u179b\u179f\u17cd\u178a\u17c2\u179b\u1794\u17b6\u1793\u179c\u17b6\u1799\u1794\u17d2\u179a\u17a0\u17b6\u179a\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f?",
+    "answer": "Gruffydd ap Rhydderch, Rhys ap Rhydderch, និង Gruffydd ap Llywelyn",
+    "question": "តើអ្នកណាជាមេដឹកនាំវែលស៍ដែលបានវាយប្រហារអង់គ្លេស?",
     "wrong_answers": [
       "Edward the Confessor",
       "William the Conqueror"
     ]
   },
   {
-    "answer": "\u1796\u17bd\u1780\u1782\u17c1\u1794\u17b6\u1793\u1794\u17d2\u179a\u1786\u17b6\u17c6\u1784\u1793\u17b9\u1784 Ealdred",
-    "question": "\u178f\u17be\u1791\u17b6\u17a0\u17b6\u1793\u179c\u17c2\u179b\u179f\u17cd\u178a\u17c2\u179b\u1794\u1798\u17d2\u179a\u17be\u1787\u17b6\u1798\u17bd\u1799\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ពួកគេបានប្រឆាំងនឹង Ealdred",
+    "question": "តើទាហានវែលស៍ដែលបម្រើជាមួយអង់គ្លេសបានធ្វើអ្វី?",
     "wrong_answers": [
-      "\u1796\u17bd\u1780\u1782\u17c1\u1794\u17b6\u1793\u1782\u17b6\u17c6\u1791\u17d2\u179a Ealdred",
-      "\u1796\u17bd\u1780\u1782\u17c1\u1794\u17b6\u1793\u1785\u17b6\u1780\u1785\u17c1\u1789\u1796\u17b8 Ealdred"
+      "ពួកគេបានគាំទ្រ Ealdred",
+      "ពួកគេបានចាកចេញពី Ealdred"
     ]
   },
   {
     "answer": "Rome",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1791\u17c5\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e5\u17e0?",
+    "question": "តើ Ealdred បានទៅកន្លែងណាក្នុងឆ្នាំ ១០៥០?",
     "wrong_answers": [
       "Jerusalem",
       "England"
     ]
   },
   {
-    "answer": "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1791\u1791\u17bd\u179b\u1794\u17b6\u1793\u1780\u17b6\u179a\u1799\u179b\u17cb\u1796\u17d2\u179a\u1798\u1796\u17b8\u1794\u17c9\u17b6\u1794",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1791\u17c5 Rome \u178a\u17be\u1798\u17d2\u1794\u17b8\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ដើម្បីទទួលបានការយល់ព្រមពីប៉ាប",
+    "question": "តើ Ealdred បានទៅ Rome ដើម្បីធ្វើអ្វី?",
     "wrong_answers": [
-      "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1791\u1791\u17bd\u179b\u1794\u17b6\u1793\u1780\u17b6\u179a\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1796\u17b8 Edward the Confessor",
-      "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1791\u1791\u17bd\u179b\u1794\u17b6\u1793\u1780\u17b6\u179a\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1796\u17b8 William the Conqueror"
+      "ដើម្បីទទួលបានការគាំទ្រពី Edward the Confessor",
+      "ដើម្បីទទួលបានការគាំទ្រពី William the Conqueror"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e4\u17e6",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Tavistock \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "នៅឆ្នាំ ១០៤៦",
+    "question": "តើ Ealdred បានក្លាយជាអាបត់នៃ Tavistock នៅពេលណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e2\u17e7",
-      "\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e6\u17e0"
+      "នៅឆ្នាំ ១០២៧",
+      "នៅឆ្នាំ ១០៦០"
     ]
   },
   {
-    "answer": "\u179c\u178f\u17d2\u178f\u1793\u17c3 Tavistock",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3\u1791\u17b8\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "answer": "វត្តនៃ Tavistock",
+    "question": "តើ Ealdred បានក្លាយជាអាបត់នៃទីកន្លែងណា?",
     "wrong_answers": [
-      "\u179c\u178f\u17d2\u178f\u1793\u17c3 Winchester",
-      "\u179c\u178f\u17d2\u178f\u1793\u17c3 Gloucester"
+      "វត្តនៃ Winchester",
+      "វត្តនៃ Gloucester"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e1\u17e0\u17e4\u17e3",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1785\u17b6\u1780\u1785\u17c1\u1789\u1796\u17b8\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Tavistock \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ប្រហែល ១០៤៣",
+    "question": "តើ Ealdred បានចាកចេញពីអាបត់នៃ Tavistock នៅពេលណា?",
     "wrong_answers": [
-      "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e1\u17e0\u17e2\u17e7",
-      "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e1\u17e0\u17e6\u17e0"
+      "ប្រហែល ១០២៧",
+      "ប្រហែល ១០៦០"
     ]
   },
   {
-    "answer": "\u1796\u17b8\u179a",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1780\u17b6\u1793\u17cb\u1780\u17b6\u1794\u17cb\u1791\u17d2\u179a\u1796\u17d2\u1799\u179f\u1798\u17d2\u1794\u178f\u17d2\u178f\u17b7\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1796\u17b8\u179c\u178f\u17d2\u178f\u1793\u17c3 Tavistock?",
+    "answer": "ពីរ",
+    "question": "តើ Ealdred បានកាន់កាប់ទ្រព្យសម្បត្តិប៉ុន្មានពីវត្តនៃ Tavistock?",
     "wrong_answers": [
-      "\u1798\u17bd\u1799",
-      "\u1794\u17b8"
+      "មួយ",
+      "បី"
     ]
   },
   {
-    "answer": "\u1798\u17b7\u1793\u1798\u17b6\u1793",
-    "question": "\u178f\u17be\u1798\u17b6\u1793\u17af\u1780\u179f\u17b6\u179a\u179f\u1798\u17d0\u1799\u1791\u17c6\u1793\u17be\u1794\u178e\u17b6\u1798\u17bd\u1799\u1791\u17b6\u1780\u17cb\u1791\u1784\u1793\u17b9\u1784\u1796\u17c1\u179b\u179c\u17c1\u179b\u17b6\u179a\u1794\u179f\u17cb Ealdred \u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u178a\u17c2\u179b\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179a\u1780\u1783\u17be\u1789?",
+    "answer": "មិនមាន",
+    "question": "តើមានឯកសារសម័យទំនើបណាមួយទាក់ទងនឹងពេលវេលារបស់ Ealdred ជាអាបត់ដែលត្រូវបានរកឃើញ?",
     "wrong_answers": [
-      "\u1798\u17b6\u1793\u1787\u17b6\u1785\u17d2\u179a\u17be\u1793",
-      "\u1798\u17b6\u1793\u1798\u17bd\u1799\u1785\u17c6\u1793\u17bd\u1793"
+      "មានជាច្រើន",
+      "មានមួយចំនួន"
     ]
   },
   {
-    "answer": "\u17e1\u17e0\u17e4\u17e6",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u1794\u17ca\u17b8\u179f\u17d2\u179f\u1796\u1793\u17c3 Worcester \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "១០៤៦",
+    "question": "តើ Ealdred បានក្លាយជាប៊ីស្សពនៃ Worcester នៅពេលណា?",
     "wrong_answers": [
-      "\u17e1\u17e0\u17e2\u17e7",
-      "\u17e1\u17e0\u17e6\u17e0"
+      "១០២៧",
+      "១០៦០"
     ]
   },
   {
     "answer": "Lyfing",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1780\u17b6\u1793\u17cb\u178f\u17c6\u178e\u17c2\u1784\u1798\u17bb\u1793\u179a\u1794\u179f\u17cb Ealdred \u1787\u17b6\u1794\u17ca\u17b8\u179f\u17d2\u179f\u1796\u1793\u17c3 Worcester?",
+    "question": "តើអ្នកណាជាអ្នកកាន់តំណែងមុនរបស់ Ealdred ជាប៊ីស្សពនៃ Worcester?",
     "wrong_answers": [
       "Edward the Confessor",
       "William the Conqueror"
     ]
   },
   {
-    "answer": "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1794\u1798\u17d2\u179a\u17be\u1787\u17b6\u1794\u17ca\u17b8\u179f\u17d2\u179f\u1796\u1787\u17c6\u1793\u17bd\u1799",
-    "question": "\u178f\u17be Ealdred \u17a2\u17b6\u1785\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8\u1798\u17bb\u1793\u1796\u17c1\u179b\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u1794\u17ca\u17b8\u179f\u17d2\u179f\u1796\u1793\u17c3 Worcester?",
+    "answer": "គាត់បានបម្រើជាប៊ីស្សពជំនួយ",
+    "question": "តើ Ealdred អាចបានធ្វើអ្វីមុនពេលក្លាយជាប៊ីស្សពនៃ Worcester?",
     "wrong_answers": [
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Tavistock",
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Gloucester"
+      "គាត់បានក្លាយជាអាបត់នៃ Tavistock",
+      "គាត់បានក្លាយជាអាបត់នៃ Gloucester"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e1\u17e0\u17e4\u17e3",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1794\u1798\u17d2\u179a\u17be\u1787\u17b6\u1794\u17ca\u17b8\u179f\u17d2\u179f\u1796\u1787\u17c6\u1793\u17bd\u1799\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb Lyfing \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ប្រហែល ១០៤៣",
+    "question": "តើ Ealdred បានបម្រើជាប៊ីស្សពជំនួយសម្រាប់ Lyfing នៅពេលណា?",
     "wrong_answers": [
-      "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e1\u17e0\u17e2\u17e7",
-      "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e1\u17e0\u17e6\u17e0"
+      "ប្រហែល ១០២៧",
+      "ប្រហែល ១០៦០"
     ]
   },
   {
     "answer": "episcopus",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1794\u1784\u17d2\u17a0\u17b6\u1789\u1781\u17d2\u179b\u17bd\u1793\u1787\u17b6\u17a2\u17d2\u179c\u17b8\u1785\u17b6\u1794\u17cb\u1796\u17b8\u1794\u17d2\u179a\u17a0\u17c2\u179b \u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e4\u17e3?",
+    "question": "តើ Ealdred បានបង្ហាញខ្លួនជាអ្វីចាប់ពីប្រហែល ឆ្នាំ ១០៤៣?",
     "wrong_answers": [
-      "\u17a2\u17b6\u1794\u178f\u17cb",
-      "\u17a2\u17b6\u1785\u17b6\u179a\u17d2\u1799"
+      "អាបត់",
+      "អាចារ្យ"
     ]
   },
   {
-    "answer": "\u17e1\u17e0\u17e4\u17e5 \u17ac\u178a\u17be\u1798\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e4\u17e6",
-    "question": "\u178f\u17be Sihtric \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u178a\u17b6\u1780\u17cb\u1788\u17d2\u1798\u17c4\u17c7\u1790\u17b6\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Tavistock \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "១០៤៥ ឬដើមឆ្នាំ ១០៤៦",
+    "question": "តើ Sihtric ត្រូវបានគេដាក់ឈ្មោះថាជាអាបត់នៃ Tavistock នៅពេលណា?",
     "wrong_answers": [
-      "\u17e1\u17e0\u17e4\u17e3",
-      "\u17e1\u17e0\u17e6\u17e0"
+      "១០៤៣",
+      "១០៦០"
     ]
   },
   {
-    "answer": "\u17e2\u17e6 \u1781\u17c2\u1798\u17b8\u1793\u17b6 \u17e1\u17e0\u17e4\u17e6",
-    "question": "\u178f\u17be Lyfing \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "២៦ ខែមីនា ១០៤៦",
+    "question": "តើ Lyfing បានស្លាប់នៅពេលណា?",
     "wrong_answers": [
-      "\u17e1\u17e1 \u1781\u17c2\u1780\u1789\u17d2\u1789\u17b6 \u17e1\u17e0\u17e6\u17e9",
-      "\u17e2\u17e5 \u1781\u17c2\u1792\u17d2\u1793\u17bc \u17e1\u17e0\u17e6\u17e6"
+      "១១ ខែកញ្ញា ១០៦៩",
+      "២៥ ខែធ្នូ ១០៦៦"
     ]
   },
   {
-    "answer": "\u1794\u1793\u17d2\u1791\u17b6\u1794\u17cb\u1796\u17b8\u1780\u17b6\u179a\u179f\u17d2\u179b\u17b6\u1794\u17cb\u179a\u1794\u179f\u17cb Lyfing",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u1794\u17ca\u17b8\u179f\u17d2\u179f\u1796\u1793\u17c3 Worcester \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "បន្ទាប់ពីការស្លាប់របស់ Lyfing",
+    "question": "តើ Ealdred បានក្លាយជាប៊ីស្សពនៃ Worcester នៅពេលណា?",
     "wrong_answers": [
-      "\u1798\u17bb\u1793\u1796\u17c1\u179b\u1780\u17b6\u179a\u179f\u17d2\u179b\u17b6\u1794\u17cb\u179a\u1794\u179f\u17cb Lyfing",
-      "\u1798\u17bb\u1793\u1796\u17c1\u179b\u1780\u17b6\u179a\u179f\u17d2\u179b\u17b6\u1794\u17cb\u179a\u1794\u179f\u17cb Ealdred"
+      "មុនពេលការស្លាប់របស់ Lyfing",
+      "មុនពេលការស្លាប់របស់ Ealdred"
     ]
   },
   {
-    "answer": "Crediton \u1793\u17b7\u1784 Cornwall",
-    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1798\u17bd\u1799\u178e\u17b6\u178a\u17c2\u179b Edward the Confessor \u1794\u17b6\u1793\u1795\u17d2\u178f\u179b\u17cb\u17b1\u17d2\u1799 Leofric?",
+    "answer": "Crediton និង Cornwall",
+    "question": "តើទីក្រុងមួយណាដែល Edward the Confessor បានផ្តល់ឱ្យ Leofric?",
     "wrong_answers": [
-      "York \u1793\u17b7\u1784 Worcester",
-      "Tavistock \u1793\u17b7\u1784 Gloucester"
+      "York និង Worcester",
+      "Tavistock និង Gloucester"
     ]
   },
   {
     "answer": "Edward the Confessor",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u179f\u17d2\u178f\u17c1\u1785\u1793\u17c3\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u178a\u17c2\u179b Ealdred \u1794\u17b6\u1793\u1794\u1798\u17d2\u179a\u17be?",
+    "question": "តើអ្នកណាជាស្តេចនៃប្រទេសអង់គ្លេសដែល Ealdred បានបម្រើ?",
     "wrong_answers": [
       "Harold Godwinson",
       "William the Conqueror"
     ]
   },
   {
-    "answer": "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u1780\u17d2\u1793\u17bb\u1784\u179a\u178a\u17d2\u178b\u17b6\u1797\u17b7\u1794\u17b6\u179b\u179a\u17b6\u1787\u179c\u1784\u17d2\u179f",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8\u1780\u17d2\u179a\u17c5\u1796\u17b8\u1780\u17b6\u179a\u1787\u17b6\u1798\u17c1\u1794\u17d2\u179a\u17b9\u1780\u17d2\u179f\u17b6\u179a\u1794\u179f\u17cb Edward the Confessor?",
+    "answer": "គាត់បានចូលរួមក្នុងរដ្ឋាភិបាលរាជវង្ស",
+    "question": "តើ Ealdred បានធ្វើអ្វីក្រៅពីការជាមេប្រឹក្សារបស់ Edward the Confessor?",
     "wrong_answers": [
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Tavistock",
-      "\u1782\u17b6\u178f\u17cb\u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17b6\u1794\u178f\u17cb\u1793\u17c3 Gloucester"
+      "គាត់បានក្លាយជាអាបត់នៃ Tavistock",
+      "គាត់បានក្លាយជាអាបត់នៃ Gloucester"
     ]
   },
   {
-    "answer": "\u17e1\u17e0\u17e4\u17e6",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1793\u17b6\u17c6\u1780\u1784\u1791\u17d0\u1796\u1798\u17bd\u1799\u1791\u17c5\u1794\u17d2\u179a\u1786\u17b6\u17c6\u1784\u1793\u17b9\u1784\u1787\u1793\u1787\u17b6\u178f\u17b7\u179c\u17c2\u179b\u179f\u17cd\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "១០៤៦",
+    "question": "តើ Ealdred បាននាំកងទ័ពមួយទៅប្រឆាំងនឹងជនជាតិវែលស៍នៅពេលណា?",
     "wrong_answers": [
-      "\u17e1\u17e0\u17e5\u17e0",
-      "\u17e1\u17e0\u17e6\u17e0"
+      "១០៥០",
+      "១០៦០"
     ]
   },
   {
-    "answer": "Gruffydd ap Rhydderch, Rhys ap Rhydderch, \u1793\u17b7\u1784 Gruffydd ap Llywelyn",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1798\u17c1\u178a\u17b9\u1780\u1793\u17b6\u17c6\u179c\u17c2\u179b\u179f\u17cd\u178a\u17c2\u179b\u1794\u17b6\u1793\u179c\u17b6\u1799\u1794\u17d2\u179a\u17a0\u17b6\u179a\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f?",
+    "answer": "Gruffydd ap Rhydderch, Rhys ap Rhydderch, និង Gruffydd ap Llywelyn",
+    "question": "តើអ្នកណាជាមេដឹកនាំវែលស៍ដែលបានវាយប្រហារអង់គ្លេស?",
     "wrong_answers": [
       "Edward the Confessor",
       "William the Conqueror"
     ]
   },
   {
-    "answer": "\u1796\u17bd\u1780\u1782\u17c1\u1794\u17b6\u1793\u1794\u17d2\u179a\u1786\u17b6\u17c6\u1784\u1793\u17b9\u1784 Ealdred",
-    "question": "\u178f\u17be\u1791\u17b6\u17a0\u17b6\u1793\u179c\u17c2\u179b\u179f\u17cd\u178a\u17c2\u179b\u1794\u1798\u17d2\u179a\u17be\u1787\u17b6\u1798\u17bd\u1799\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ពួកគេបានប្រឆាំងនឹង Ealdred",
+    "question": "តើទាហានវែលស៍ដែលបម្រើជាមួយអង់គ្លេសបានធ្វើអ្វី?",
     "wrong_answers": [
-      "\u1796\u17bd\u1780\u1782\u17c1\u1794\u17b6\u1793\u1782\u17b6\u17c6\u1791\u17d2\u179a Ealdred",
-      "\u1796\u17bd\u1780\u1782\u17c1\u1794\u17b6\u1793\u1785\u17b6\u1780\u1785\u17c1\u1789\u1796\u17b8 Ealdred"
+      "ពួកគេបានគាំទ្រ Ealdred",
+      "ពួកគេបានចាកចេញពី Ealdred"
     ]
   },
   {
     "answer": "Rome",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1791\u17c5\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e0\u17e5\u17e0?",
+    "question": "តើ Ealdred បានទៅកន្លែងណាក្នុងឆ្នាំ ១០៥០?",
     "wrong_answers": [
       "Jerusalem",
       "England"
     ]
   },
   {
-    "answer": "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1791\u1791\u17bd\u179b\u1794\u17b6\u1793\u1780\u17b6\u179a\u1799\u179b\u17cb\u1796\u17d2\u179a\u1798\u1796\u17b8\u1794\u17c9\u17b6\u1794",
-    "question": "\u178f\u17be Ealdred \u1794\u17b6\u1793\u1791\u17c5 Rome \u178a\u17be\u1798\u17d2\u1794\u17b8\u1792\u17d2\u179c\u17be\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ដើម្បីទទួលបានការយល់ព្រមពីប៉ាប",
+    "question": "តើ Ealdred បានទៅ Rome ដើម្បីធ្វើអ្វី?",
     "wrong_answers": [
-      "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1791\u1791\u17bd\u179b\u1794\u17b6\u1793\u1780\u17b6\u179a\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1796\u17b8 Edward the Confessor",
-      "\u178a\u17be\u1798\u17d2\u1794\u17b8\u1791\u1791\u17bd\u179b\u1794\u17b6\u1793\u1780\u17b6\u179a\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1796\u17b8 William the Conqueror"
+      "ដើម្បីទទួលបានការគាំទ្រពី Edward the Confessor",
+      "ដើម្បីទទួលបានការគាំទ្រពី William the Conqueror"
     ]
   }
 ]

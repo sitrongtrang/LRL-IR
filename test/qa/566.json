@@ -1,10 +1,10 @@
 [
   {
-    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17aa\u1796\u17bb\u1780\u179a\u1794\u179f\u17cb\u17a2\u17b6\u179b\u17cb\u17a0\u17d2\u179c\u17bb\u1784\u179f\u17bc\u1791\u17b8 XII?",
+    "question": "អ្នកណាជាឪពុករបស់អាល់ហ្វុងសូទី XII?",
     "wrong_answers": [
-      "\u17a2\u17c1\u1793\u179a\u17b8\u1782\u17ba Puigmolt\u00f3 y Mayans",
+      "អេនរីគឺ Puigmoltó y Mayans",
       "Federico Puig Romero",
-      "Francisco de As\u00eds",
+      "Francisco de Asís",
       "Queen Isabella II",
       "none of the above",
       "there is no father",
@@ -14,10 +14,10 @@
     ]
   },
   {
-    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1798\u17d2\u178f\u17b6\u1799\u179a\u1794\u179f\u17cb\u17a2\u17b6\u179b\u17cb\u17a0\u17d2\u179c\u17bb\u1784\u179f\u17bc\u1791\u17b8 XII?",
+    "question": "អ្នកណាជាម្តាយរបស់អាល់ហ្វុងសូទី XII?",
     "wrong_answers": [
-      "Francisco de As\u00eds",
-      "Enrique Puigmolt\u00f3 y Mayans",
+      "Francisco de Asís",
+      "Enrique Puigmoltó y Mayans",
       "Federico Puig Romero",
       "none of the above",
       "there is no mother",
@@ -27,7 +27,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u17a0\u17d2\u179c\u17bb\u1784\u179f\u17bc\u1791\u17b8 XII \u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u1798\u179a\u178e\u1797\u17b6\u1796\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "question": "តើអាល់ហ្វុងសូទី XII បានទទួលមរណភាពនៅពេលណា?",
     "wrong_answers": [
       "1857",
       "1868",
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u17a0\u17d2\u179c\u17bb\u1784\u179f\u17bc\u1791\u17b8 XII \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u179f\u17d2\u178f\u17c1\u1785\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "question": "តើអាល់ហ្វុងសូទី XII បានក្លាយជាស្តេចនៅពេលណា?",
     "wrong_answers": [
       "1857",
       "1868",
@@ -59,11 +59,11 @@
     ]
   },
   {
-    "question": "\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179f\u17d2\u1793\u1784\u1798\u179a\u178f\u1780\u17a2\u17b6\u179b\u17cb\u17a0\u17d2\u179c\u17bb\u1784\u179f\u17bc\u1791\u17b8 XII?",
+    "question": "អ្នកណាជាអ្នកស្នងមរតកអាល់ហ្វុងសូទី XII?",
     "wrong_answers": [
       "Queen Isabella II",
-      "Francisco de As\u00eds",
-      "Enrique Puigmolt\u00f3 y Mayans",
+      "Francisco de Asís",
+      "Enrique Puigmoltó y Mayans",
       "Federico Puig Romero",
       "none of the above",
       "there is no successor",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u1793\u17b6\u1798\u1781\u17d2\u179b\u17b8\u179a\u1794\u179f\u17cb\u17a2\u17b6\u179b\u17cb\u17a0\u17d2\u179c\u17bb\u1784\u179f\u17bc\u1791\u17b8 XII \u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើនាមខ្លីរបស់អាល់ហ្វុងសូទី XII គឺជាអ្វី?",
     "wrong_answers": [
       "The Peaceful",
       "The Great",
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u17a0\u17d2\u179c\u17bb\u1784\u179f\u17bc\u1791\u17b8 XII \u1794\u17b6\u1793\u179f\u17b7\u1780\u17d2\u179f\u17b6\u1793\u17c5\u1791\u17b8\u178e\u17b6?",
+    "question": "តើអាល់ហ្វុងសូទី XII បានសិក្សានៅទីណា?",
     "wrong_answers": [
       "Spain",
       "Italy",
@@ -103,7 +103,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u17a0\u17d2\u179c\u17bb\u1784\u179f\u17bc\u1791\u17b8 XII \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u1782\u17c1\u1784\u1791\u17c1?",
+    "question": "តើអាល់ហ្វុងសូទី XII ត្រូវបានគេគេងទេ?",
     "wrong_answers": [
       "yes",
       "no",
@@ -113,7 +113,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u17a0\u17d2\u179c\u17bb\u1784\u179f\u17bc\u1791\u17b8 XII \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u1782\u17c1\u1784\u1793\u17c5\u1791\u17b8\u178e\u17b6?",
+    "question": "តើអាល់ហ្វុងសូទី XII ត្រូវបានគេគេងនៅទីណា?",
     "wrong_answers": [
       "he was not buried",
       "he is a supernatural being",
@@ -122,7 +122,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u1793\u17b6\u1798\u1781\u17d2\u179b\u17b8\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u17a2\u17b6\u179b\u17cb\u17a0\u17d2\u179c\u17bb\u1784\u179f\u17bc\u1791\u17b8 XII \u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើនាមខ្លីសម្រាប់អាល់ហ្វុងសូទី XII គឺជាអ្វី?",
     "wrong_answers": [
       "The Great",
       "The Mighty",
@@ -137,7 +137,7 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u17a2\u17b6\u179b\u17cb\u17a0\u17d2\u179c\u17bb\u1784\u179f\u17bc\u1791\u17b8 XII \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u1785\u17b6\u178f\u17cb\u1791\u17bb\u1780\u1790\u17b6\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើអាល់ហ្វុងសូទី XII ត្រូវបានគេចាត់ទុកថាជាអ្វី?",
     "wrong_answers": [
       "a great leader",
       "a tyrant",

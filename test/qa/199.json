@@ -1,43 +1,43 @@
 [
   {
-    "answer": "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f",
-    "question": "\u178f\u17be Dame Agatha Christie \u1787\u17b6\u1793\u179a\u178e\u17b6?",
+    "answer": "អ្នកនិពន្ធអង់គ្លេស",
+    "question": "តើ Dame Agatha Christie ជានរណា?",
     "wrong_answers": [
-      "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u17b6\u17c6\u1784",
-      "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u1794\u17b6\u179a\u17b6\u17c6\u1784",
-      "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u1787\u1794\u17c9\u17bb\u1793"
+      "អ្នកនិពន្ធអាមេរិកាំង",
+      "អ្នកនិពន្ធបារាំង",
+      "អ្នកនិពន្ធជប៉ុន"
     ]
   },
   {
-    "answer": "\u17e1\u17e5 \u1780\u1789\u17d2\u1789\u17b6 \u17e1\u17e8\u17e9\u17e0",
-    "question": "\u178f\u17be Dame Agatha Christie \u1780\u17be\u178f\u1793\u17c5\u1790\u17d2\u1784\u17c3\u1781\u17c2\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "answer": "១៥ កញ្ញា ១៨៩០",
+    "question": "តើ Dame Agatha Christie កើតនៅថ្ងៃខែឆ្នាំណា?",
     "wrong_answers": [
-      "\u17e1\u17e5 \u1780\u1789\u17d2\u1789\u17b6 \u17e1\u17e9\u17e0\u17e0",
-      "\u17e1\u17e5 \u1780\u1789\u17d2\u1789\u17b6 \u17e1\u17e9\u17e1\u17e0",
-      "\u17e1\u17e5 \u1780\u1789\u17d2\u1789\u17b6 \u17e1\u17e9\u17e2\u17e0"
+      "១៥ កញ្ញា ១៩០០",
+      "១៥ កញ្ញា ១៩១០",
+      "១៥ កញ្ញា ១៩២០"
     ]
   },
   {
-    "answer": "\u17e6\u17e6",
-    "question": "\u178f\u17be Dame Agatha Christie \u1794\u17b6\u1793\u179f\u179a\u179f\u17c1\u179a\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780\u179f\u17ca\u17be\u1794\u17a2\u1784\u17d2\u1780\u17c1\u178f\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793?",
+    "answer": "៦៦",
+    "question": "តើ Dame Agatha Christie បានសរសេរប្រលោមលោកស៊ើបអង្កេតប៉ុន្មាន?",
     "wrong_answers": [
-      "\u17e5\u17e6",
-      "\u17e7\u17e6",
-      "\u17e8\u17e6"
+      "៥៦",
+      "៧៦",
+      "៨៦"
     ]
   },
   {
-    "answer": "Hercule Poirot \u1793\u17b7\u1784 Miss Marple",
-    "question": "\u178f\u17be\u178f\u17bd\u17a2\u1784\u17d2\u1782\u179f\u17ca\u17be\u1794\u17a2\u1784\u17d2\u1780\u17c1\u178f\u178a\u17cf\u179b\u17d2\u1794\u17b8\u179b\u17d2\u1794\u17b6\u1789\u179a\u1794\u179f\u17cb Dame Agatha Christie \u1798\u17b6\u1793\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1781\u17d2\u179b\u17c7?",
+    "answer": "Hercule Poirot និង Miss Marple",
+    "question": "តើតួអង្គស៊ើបអង្កេតដ៏ល្បីល្បាញរបស់ Dame Agatha Christie មានអ្នកណាខ្លះ?",
     "wrong_answers": [
-      "Sherlock Holmes \u1793\u17b7\u1784 Watson",
-      "Miss Marple \u1793\u17b7\u1784 Sherlock Holmes",
-      "Poirot \u1793\u17b7\u1784 Sherlock Holmes"
+      "Sherlock Holmes និង Watson",
+      "Miss Marple និង Sherlock Holmes",
+      "Poirot និង Sherlock Holmes"
     ]
   },
   {
     "answer": "The Mousetrap",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u179f\u1798\u17d2\u178f\u17c2\u1784\u179a\u1794\u179f\u17cb Dame Agatha Christie \u178a\u17c2\u179b\u1798\u17b6\u1793\u179a\u1799\u17c8\u1796\u17c1\u179b\u1799\u17bc\u179a\u1794\u17c6\u1795\u17bb\u178f\u1793\u17c5\u179b\u17be\u1796\u17b7\u1797\u1796\u179b\u17c4\u1780\u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើការសម្តែងរបស់ Dame Agatha Christie ដែលមានរយៈពេលយូរបំផុតនៅលើពិភពលោកគឺជាអ្វី?",
     "wrong_answers": [
       "The Murder of Roger Ackroyd",
       "And Then There Were None",
@@ -46,7 +46,7 @@
   },
   {
     "answer": "Queen of Crime",
-    "question": "\u178f\u17be Dame Agatha Christie \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u17a0\u17c5\u1790\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Dame Agatha Christie ត្រូវបានគេហៅថាអ្វី?",
     "wrong_answers": [
       "Queen of Mystery",
       "Queen of Detective",
@@ -55,7 +55,7 @@
   },
   {
     "answer": "Mary Westmacott",
-    "question": "\u178f\u17be Dame Agatha Christie \u1794\u17b6\u1793\u1794\u17d2\u179a\u17be\u1788\u17d2\u1798\u17c4\u17c7\u1780\u17d2\u179b\u17c2\u1784\u1780\u17d2\u179b\u17b6\u1799\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើ Dame Agatha Christie បានប្រើឈ្មោះក្លែងក្លាយអ្វី?",
     "wrong_answers": [
       "Agatha Christie",
       "Mary Miller",
@@ -64,7 +64,7 @@
   },
   {
     "answer": "DBE",
-    "question": "\u178f\u17be\u1796\u17b6\u1780\u17d2\u1799\u1780\u17b6\u178f\u17cb\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb Dame \u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u1784\u1787\u17be\u1784\u179a\u1794\u179f\u17cb Dame Agatha Christie \u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើពាក្យកាត់សម្រាប់ Dame នៅក្នុងចំណងជើងរបស់ Dame Agatha Christie គឺជាអ្វី?",
     "wrong_answers": [
       "DBE",
       "CBE",
@@ -72,26 +72,26 @@
     ]
   },
   {
-    "answer": "\u1796\u17d2\u179a\u17c7\u1798\u17a0\u17b6\u1780\u17d2\u179f\u178f\u17d2\u179a\u17b8 Elizabeth II",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1795\u17d2\u178f\u179b\u17cb\u1784\u17b6\u179a Dame \u178a\u179b\u17cb Dame Agatha Christie?",
+    "answer": "ព្រះមហាក្សត្រី Elizabeth II",
+    "question": "តើអ្នកណាបានផ្តល់ងារ Dame ដល់ Dame Agatha Christie?",
     "wrong_answers": [
-      "\u1796\u17d2\u179a\u17c7\u1798\u17a0\u17b6\u1780\u17d2\u179f\u178f\u17d2\u179a\u17b8 Victoria",
-      "\u1796\u17d2\u179a\u17c7\u1798\u17a0\u17b6\u1780\u17d2\u179f\u178f\u17d2\u179a\u17b8 Elizabeth I",
-      "\u1796\u17d2\u179a\u17c7\u1798\u17a0\u17b6\u1780\u17d2\u179f\u178f\u17d2\u179a\u17b8 Mary"
+      "ព្រះមហាក្សត្រី Victoria",
+      "ព្រះមហាក្សត្រី Elizabeth I",
+      "ព្រះមហាក្សត្រី Mary"
     ]
   },
   {
-    "answer": "\u1796\u17b8\u179a\u1796\u17b6\u1793\u17cb\u179b\u17b6\u1793",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780\u179a\u1794\u179f\u17cb Dame Agatha Christie \u1794\u17b6\u1793\u179b\u1780\u17cb\u1794\u17b6\u1793\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1785\u17d2\u1794\u17b6\u1794\u17cb?",
+    "answer": "ពីរពាន់លាន",
+    "question": "តើប្រលោមលោករបស់ Dame Agatha Christie បានលក់បានប៉ុន្មានច្បាប់?",
     "wrong_answers": [
-      "\u1798\u17bd\u1799\u1796\u17b6\u1793\u17cb\u179b\u17b6\u1793",
-      "\u1794\u17b8\u1796\u17b6\u1793\u17cb\u179b\u17b6\u1793",
-      "\u1794\u17bd\u1793\u1796\u17b6\u1793\u17cb\u179b\u17b6\u1793"
+      "មួយពាន់លាន",
+      "បីពាន់លាន",
+      "បួនពាន់លាន"
     ]
   },
   {
     "answer": "Torquay, Devon",
-    "question": "\u178f\u17be Dame Agatha Christie \u1780\u17be\u178f\u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើ Dame Agatha Christie កើតនៅឯណា?",
     "wrong_answers": [
       "London, England",
       "Paris, France",
@@ -100,7 +100,7 @@
   },
   {
     "answer": "The Mysterious Affair at Styles",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780\u178a\u17c6\u1794\u17bc\u1784\u179a\u1794\u179f\u17cb Dame Agatha Christie \u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1797\u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើប្រលោមលោកដំបូងរបស់ Dame Agatha Christie ដែលបានបោះពុម្ភគឺជាអ្វី?",
     "wrong_answers": [
       "The Murder of Roger Ackroyd",
       "And Then There Were None",
@@ -109,7 +109,7 @@
   },
   {
     "answer": "Archibald Christie",
-    "question": "\u178f\u17be\u1794\u17d2\u178f\u17b8\u178a\u17c6\u1794\u17bc\u1784\u179a\u1794\u179f\u17cb Dame Agatha Christie \u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើប្តីដំបូងរបស់ Dame Agatha Christie ឈ្មោះអ្វី?",
     "wrong_answers": [
       "Max Mallowan",
       "Frederick Alvah Miller",
@@ -117,17 +117,17 @@
     ]
   },
   {
-    "answer": "\u17e1\u17e1",
-    "question": "\u178f\u17be Dame Agatha Christie \u1794\u17b6\u178f\u17cb\u1781\u17d2\u179b\u17bd\u1793\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1790\u17d2\u1784\u17c3?",
+    "answer": "១១",
+    "question": "តើ Dame Agatha Christie បាត់ខ្លួនប៉ុន្មានថ្ងៃ?",
     "wrong_answers": [
-      "\u17e7",
-      "\u17e1\u17e5",
-      "\u17e2\u17e1"
+      "៧",
+      "១៥",
+      "២១"
     ]
   },
   {
     "answer": "Max Mallowan",
-    "question": "\u178f\u17be\u1794\u17d2\u178f\u17b8\u1791\u17b8\u1796\u17b8\u179a\u179a\u1794\u179f\u17cb Dame Agatha Christie \u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើប្តីទីពីររបស់ Dame Agatha Christie ឈ្មោះអ្វី?",
     "wrong_answers": [
       "Archibald Christie",
       "Frederick Alvah Miller",
@@ -136,7 +136,7 @@
   },
   {
     "answer": "And Then There Were None",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780\u179a\u1794\u179f\u17cb Dame Agatha Christie \u178a\u17c2\u179b\u179b\u1780\u17cb\u1794\u17b6\u1793\u1785\u17d2\u179a\u17be\u1793\u1794\u17c6\u1795\u17bb\u178f\u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើប្រលោមលោករបស់ Dame Agatha Christie ដែលលក់បានច្រើនបំផុតគឺជាអ្វី?",
     "wrong_answers": [
       "The Murder of Roger Ackroyd",
       "Murder on the Orient Express",
@@ -145,7 +145,7 @@
   },
   {
     "answer": "The Mousetrap",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u179f\u1798\u17d2\u178f\u17c2\u1784\u179a\u1794\u179f\u17cb Dame Agatha Christie \u178a\u17c2\u179b\u1798\u17b6\u1793\u1780\u17c6\u178e\u178f\u17cb\u178f\u17d2\u179a\u17b6\u1796\u17b7\u1797\u1796\u179b\u17c4\u1780\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1780\u17b6\u179a\u179a\u178f\u17cb\u178a\u17c6\u1794\u17bc\u1784\u1794\u17c6\u1795\u17bb\u178f\u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើការសម្តែងរបស់ Dame Agatha Christie ដែលមានកំណត់ត្រាពិភពលោកសម្រាប់ការរត់ដំបូងបំផុតគឺជាអ្វី?",
     "wrong_answers": [
       "The Murder of Roger Ackroyd",
       "And Then There Were None",
@@ -153,35 +153,35 @@
     ]
   },
   {
-    "answer": "\u17e2\u17e5 \u179c\u17b7\u1785\u17d2\u1786\u17b7\u1780\u17b6 \u17e1\u17e9\u17e5\u17e2",
-    "question": "\u178f\u17be The Mousetrap \u1794\u17b6\u1793\u1794\u17be\u1780\u1793\u17c5\u1790\u17d2\u1784\u17c3\u1781\u17c2\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "answer": "២៥ វិច្ឆិកា ១៩៥២",
+    "question": "តើ The Mousetrap បានបើកនៅថ្ងៃខែឆ្នាំណា?",
     "wrong_answers": [
-      "\u17e2\u17e5 \u179c\u17b7\u1785\u17d2\u1786\u17b7\u1780\u17b6 \u17e1\u17e9\u17e5\u17e0",
-      "\u17e2\u17e5 \u179c\u17b7\u1785\u17d2\u1786\u17b7\u1780\u17b6 \u17e1\u17e9\u17e5\u17e5",
-      "\u17e2\u17e5 \u179c\u17b7\u1785\u17d2\u1786\u17b7\u1780\u17b6 \u17e1\u17e9\u17e6\u17e0"
+      "២៥ វិច្ឆិកា ១៩៥០",
+      "២៥ វិច្ឆិកា ១៩៥៥",
+      "២៥ វិច្ឆិកា ១៩៦០"
     ]
   },
   {
-    "answer": "\u17e2\u17e7,\u17e5\u17e0\u17e0",
-    "question": "\u178f\u17be\u1798\u17b6\u1793\u1780\u17b6\u179a\u179f\u1798\u17d2\u178f\u17c2\u1784\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1793\u17c3 The Mousetrap \u178a\u17c2\u179b\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a1\u17be\u1784\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e1\u17e8?",
+    "answer": "២៧,៥០០",
+    "question": "តើមានការសម្តែងប៉ុន្មាននៃ The Mousetrap ដែលបានធ្វើឡើងនៅឆ្នាំ ២០១៨?",
     "wrong_answers": [
-      "\u17e2\u17e5,\u17e0\u17e0\u17e0",
-      "\u17e3\u17e0,\u17e0\u17e0\u17e0",
-      "\u17e3\u17e5,\u17e0\u17e0\u17e0"
+      "២៥,០០០",
+      "៣០,០០០",
+      "៣៥,០០០"
     ]
   },
   {
     "answer": "COVID-19",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1794\u17b6\u1793\u1794\u178e\u17d2\u178f\u17b6\u179b\u17b1\u17d2\u1799 The Mousetrap \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17b7\u1791\u1787\u17b6\u1794\u178e\u17d2\u178f\u17c4\u17c7\u17a2\u17b6\u179f\u1793\u17d2\u1793\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e2\u17e0\u17e2\u17e0?",
+    "question": "តើអ្វីបានបណ្តាលឱ្យ The Mousetrap ត្រូវបានបិទជាបណ្តោះអាសន្ននៅឆ្នាំ ២០២០?",
     "wrong_answers": [
-      "\u17a2\u1782\u17d2\u1782\u17b8\u1797\u17d0\u1799",
-      "\u1782\u17d2\u179a\u17c4\u17c7\u1791\u17b9\u1780\u1787\u17c6\u1793\u1793\u17cb",
-      "\u0e41\u0e1c\u0e48\u0e19\u0e14\u0e34\u0e19\u0e44\u0e2b\u0e27"
+      "អគ្គីភ័យ",
+      "គ្រោះទឹកជំនន់",
+      "แผ่นดินไหว"
     ]
   },
   {
     "answer": "Mystery Writers of America",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1795\u17d2\u178f\u179b\u17cb\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb Grand Master Award \u178a\u179b\u17cb Dame Agatha Christie?",
+    "question": "តើអ្នកណាបានផ្តល់រង្វាន់ Grand Master Award ដល់ Dame Agatha Christie?",
     "wrong_answers": [
       "Crime Writers' Association",
       "Edgar Award",
@@ -190,7 +190,7 @@
   },
   {
     "answer": "Witness for the Prosecution",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u179f\u1798\u17d2\u178f\u17c2\u1784\u179a\u1794\u179f\u17cb Dame Agatha Christie \u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u179a\u1784\u17d2\u179c\u17b6\u1793\u17cb Edgar Award \u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e5\u17e5?",
+    "question": "តើការសម្តែងរបស់ Dame Agatha Christie ណាដែលបានទទួលរង្វាន់ Edgar Award នៅឆ្នាំ ១៩៥៥?",
     "wrong_answers": [
       "The Murder of Roger Ackroyd",
       "And Then There Were None",
@@ -199,7 +199,7 @@
   },
   {
     "answer": "The Murder of Roger Ackroyd",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780\u179a\u1794\u179f\u17cb Dame Agatha Christie \u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1787\u17d2\u179a\u17be\u179f\u179a\u17be\u179f\u1787\u17b6\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780\u17a7\u1780\u17d2\u179a\u17b7\u178a\u17d2\u178b\u1780\u1798\u17d2\u1798\u179b\u17d2\u17a2\u1794\u17c6\u1795\u17bb\u178f\u178a\u17c4\u1799\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792 \u17e6\u17e0\u17e0 \u1793\u17b6\u1780\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 Crime Writers' Association?",
+    "question": "តើប្រលោមលោករបស់ Dame Agatha Christie ណាដែលបានជ្រើសរើសជាប្រលោមលោកឧក្រិដ្ឋកម្មល្អបំផុតដោយអ្នកនិពន្ធ ៦០០ នាក់នៅក្នុង Crime Writers' Association?",
     "wrong_answers": [
       "And Then There Were None",
       "Murder on the Orient Express",
@@ -208,6 +208,6 @@
   },
   {
     "answer": "And Then There Were None",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u179b\u17c4\u1798\u179b\u17c4\u1780\u179a\u1794\u179f\u17cb Dame Agatha Christie \u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1787\u17d2\u179a\u17be\u179f\u179a\u17be\u179f\u1787\u17b6 "
+    "question": "តើប្រលោមលោករបស់ Dame Agatha Christie ណាដែលបានជ្រើសរើសជា "
   }
 ]

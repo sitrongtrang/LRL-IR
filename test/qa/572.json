@@ -1,55 +1,55 @@
 [
   {
-    "answer": "\u17a2\u17d2\u1793\u1780\u1794\u17d2\u179a\u179c\u178f\u17d2\u178a\u17b7\u179f\u17b6\u179f\u17d2\u178a\u17d2\u179a\u1787\u1793\u1787\u17b6\u178f\u17b7\u1780\u17d2\u179a\u17b7\u1785",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1795\u17d2\u178a\u179b\u17cb\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u1797\u17b6\u1782\u1785\u17d2\u179a\u17be\u1793\u17a2\u17c6\u1796\u17b8 Amasis II?",
+    "answer": "អ្នកប្រវត្ដិសាស្ដ្រជនជាតិក្រិច",
+    "question": "តើអ្នកណាជាអ្នកផ្ដល់ព័ត៌មានភាគច្រើនអំពី Amasis II?",
     "wrong_answers": [
-      "\u179f\u17d2\u178a\u17c1\u1785\u1794\u17b6\u1794\u17ca\u17b8\u17a1\u17bc\u1793",
-      "\u17a2\u17d2\u1793\u1780\u179f\u17d2\u179a\u17b6\u179c\u1787\u17d2\u179a\u17b6\u179c\u1787\u1793\u1787\u17b6\u178f\u17b7\u17a2\u17c1\u17a0\u17d2\u179f\u17ca\u17b8\u1794"
+      "ស្ដេចបាប៊ីឡូន",
+      "អ្នកស្រាវជ្រាវជនជាតិអេហ្ស៊ីប"
     ]
   },
   {
-    "answer": "\u1798\u1793\u17d2\u178a\u17d2\u179a\u17b8\u1799\u17c4\u1792\u17b6",
-    "question": "\u178f\u17be Amasis II \u1798\u17b6\u1793\u17a2\u17b6\u1787\u17b8\u1796\u17a2\u17d2\u179c\u17b8\u1798\u17bb\u1793\u1796\u17c1\u179b\u17a1\u17be\u1784\u179f\u17c4\u1799\u179a\u17b6\u1787\u17d2\u1799?",
+    "answer": "មន្ដ្រីយោធា",
+    "question": "តើ Amasis II មានអាជីពអ្វីមុនពេលឡើងសោយរាជ្យ?",
     "wrong_answers": [
-      "\u1796\u17d2\u179a\u17c7\u179f\u1784\u17d2\u1783",
-      "\u17a2\u17d2\u1793\u1780\u1793\u1799\u17c4\u1794\u17b6\u1799"
+      "ព្រះសង្ឃ",
+      "អ្នកនយោបាយ"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u1794\u17c7\u1794\u17c4\u179a\u1793\u17c3\u1791\u17b6\u17a0\u17b6\u1793\u1787\u1793\u1787\u17b6\u178f\u17b7\u17a2\u17c1\u17a0\u17d2\u179f\u17ca\u17b8\u1794",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u17a0\u17c1\u178f\u17bb\u1795\u179b\u1793\u17c3\u1780\u17b6\u179a\u17a1\u17be\u1784\u179f\u17c4\u1799\u179a\u17b6\u1787\u17d2\u1799\u179a\u1794\u179f\u17cb Amasis II?",
+    "answer": "ការបះបោរនៃទាហានជនជាតិអេហ្ស៊ីប",
+    "question": "តើអ្វីជាហេតុផលនៃការឡើងសោយរាជ្យរបស់ Amasis II?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u179f\u17d2\u179b\u17b6\u1794\u17cb\u179a\u1794\u179f\u17cb\u179f\u17d2\u178a\u17c1\u1785\u1798\u17bb\u1793",
-      "\u1780\u17b6\u179a\u1782\u17b6\u17c6\u1791\u17d2\u179a\u1796\u17b8\u1794\u17d2\u179a\u1787\u17b6\u1787\u1793"
+      "ការស្លាប់របស់ស្ដេចមុន",
+      "ការគាំទ្រពីប្រជាជន"
     ]
   },
   {
     "answer": "Apries",
-    "question": "\u178f\u17be Amasis II \u1794\u17b6\u1793\u17a1\u17be\u1784\u179f\u17c4\u1799\u179a\u17b6\u1787\u17d2\u1799\u1794\u1793\u17d2\u1791\u17b6\u1794\u17cb\u1796\u17b8\u179f\u17d2\u178a\u17c1\u1785\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើ Amasis II បានឡើងសោយរាជ្យបន្ទាប់ពីស្ដេចអ្នកណា?",
     "wrong_answers": [
       "Psamtik II",
       "Cambyses II"
     ]
   },
   {
-    "answer": "Siuph \u1793\u17c5 Sa\u00efs",
-    "question": "\u178f\u17be Amasis II \u1780\u17be\u178f\u1793\u17c5\u1791\u17b8\u178e\u17b6?",
+    "answer": "Siuph នៅ Saïs",
+    "question": "តើ Amasis II កើតនៅទីណា?",
     "wrong_answers": [
       " Thebes",
       " Memphis"
     ]
   },
   {
-    "answer": "\u179f\u17d2\u178a\u17c1\u1785\u1794\u17b6\u1794\u17ca\u17b8\u17a1\u17bc\u1793",
-    "question": "\u178f\u17be Apries \u1794\u17b6\u1793\u1797\u17c0\u179f\u1781\u17d2\u179b\u17bd\u1793\u1791\u17c5\u1791\u17b8\u178e\u17b6\u1794\u1793\u17d2\u1791\u17b6\u1794\u17cb\u1796\u17b8\u1794\u17b6\u178f\u17cb\u1794\u1784\u17cb\u179a\u17b6\u1787\u17d2\u1799?",
+    "answer": "ស្ដេចបាប៊ីឡូន",
+    "question": "តើ Apries បានភៀសខ្លួនទៅទីណាបន្ទាប់ពីបាត់បង់រាជ្យ?",
     "wrong_answers": [
-      "\u1780\u17d2\u179a\u17b7\u1780",
-      "\u17a2\u17c1\u1792\u17d2\u1799\u17bc\u1796\u17b8"
+      "ក្រិក",
+      "អេធ្យូពី"
     ]
   },
   {
     "answer": "Khedebneithirbinet II",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1797\u179a\u17b7\u1799\u17b6\u179a\u1794\u179f\u17cb Amasis II?",
+    "question": "តើអ្នកណាជាភរិយារបស់ Amasis II?",
     "wrong_answers": [
       "Nitetis",
       "Tashereniset"
@@ -57,31 +57,31 @@
   },
   {
     "answer": "Tashereniset",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1798\u17d2\u178a\u17b6\u1799\u179a\u1794\u179f\u17cb Amasis II?",
+    "question": "តើអ្នកណាជាម្ដាយរបស់ Amasis II?",
     "wrong_answers": [
       "Khedebneithirbinet II",
       "Tjenmutetj"
     ]
   },
   {
-    "answer": "Cambyses II \u17ac Cyrus the Great",
-    "question": "\u178f\u17be\u179f\u17d2\u178a\u17c1\u1785\u1796\u17c2\u179a\u17d2\u179f\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u179f\u17d2\u1793\u17be\u179f\u17bb\u17c6\u17b1\u17d2\u1799 Amasis II \u1795\u17d2\u178a\u179b\u17cb\u1782\u17d2\u179a\u17bc\u1796\u17c1\u1791\u17d2\u1799\u1797\u17d2\u1793\u17c2\u1780?",
+    "answer": "Cambyses II ឬ Cyrus the Great",
+    "question": "តើស្ដេចពែរ្សណាដែលបានស្នើសុំឱ្យ Amasis II ផ្ដល់គ្រូពេទ្យភ្នែក?",
     "wrong_answers": [
       "Darius I",
       "Xerxes I"
     ]
   },
   {
-    "answer": "\u1782\u17d2\u179a\u17bc\u1796\u17c1\u1791\u17d2\u1799\u1797\u17d2\u1793\u17c2\u1780\u17a2\u17c1\u17a0\u17d2\u179f\u17ca\u17b8\u1794",
-    "question": "\u178f\u17be Amasis II \u1794\u17b6\u1793\u1795\u17d2\u178a\u179b\u17cb\u17a2\u17d2\u179c\u17b8\u178a\u179b\u17cb Cambyses II?",
+    "answer": "គ្រូពេទ្យភ្នែកអេហ្ស៊ីប",
+    "question": "តើ Amasis II បានផ្ដល់អ្វីដល់ Cambyses II?",
     "wrong_answers": [
-      "\u1780\u1784\u1791\u17d0\u1796",
-      "\u1791\u17d2\u179a\u1796\u17d2\u1799\u179f\u1798\u17d2\u1794\u178f\u17d2\u178a\u17b7"
+      "កងទ័ព",
+      "ទ្រព្យសម្បត្ដិ"
     ]
   },
   {
     "answer": "Nitetis",
-    "question": "\u178f\u17be Amasis II \u1794\u17b6\u1793\u1794\u1789\u17d2\u1787\u17bc\u1793\u1793\u17b6\u179a\u17b8\u178e\u17b6\u1791\u17c5\u1780\u17b6\u1793\u17cb Cambyses II \u1787\u17c6\u1793\u17bd\u179f\u1780\u17bc\u1793\u179f\u17d2\u179a\u17b8\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb?",
+    "question": "តើ Amasis II បានបញ្ជូននារីណាទៅកាន់ Cambyses II ជំនួសកូនស្រីរបស់គាត់?",
     "wrong_answers": [
       "Khedebneithirbinet II",
       "Tashereniset"
@@ -89,7 +89,7 @@
   },
   {
     "answer": "Psamtik III",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1780\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f\u179a\u1794\u179f\u17cb Amasis II?",
+    "question": "តើអ្នកណាជាកូនប្រុសរបស់ Amasis II?",
     "wrong_answers": [
       "Apries",
       "Cambyses II"

@@ -1,25 +1,25 @@
 [
   {
-    "answer": "\u17a2\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u17a2\u17b6\u1780\u17b6\u178c\u17b8\u1782\u17ba\u1787\u17b6\u17a2\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c3 Mesopotamia \u178a\u17c2\u179b\u1794\u17b6\u1793\u1787\u17c6\u1793\u17bd\u179f\u17a2\u179a\u17b7\u1799\u1792\u1798\u17cc Sumer \u178a\u17c2\u179b\u1798\u17b6\u1793\u179a\u1799\u17c8\u1796\u17c1\u179b\u1799\u17bc\u179a",
-    "question": "\u17a2\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u17a2\u17b6\u1780\u17b6\u178c\u17b8\u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "អាណាចក្រអាកាឌីគឺជាអាណាចក្រដំបូងនៃ Mesopotamia ដែលបានជំនួសអរិយធម៌ Sumer ដែលមានរយៈពេលយូរ",
+    "question": "អាណាចក្រអាកាឌីគឺជាអ្វី?",
     "wrong_answers": [
-      "\u17a2\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u1785\u17bb\u1784\u1780\u17d2\u179a\u17c4\u1799\u1793\u17c3 Mesopotamia",
-      "\u17a2\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a Sumer",
-      "\u17a2\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u17a2\u17c1\u179f\u17ca\u17b8\u1794"
+      "អាណាចក្រចុងក្រោយនៃ Mesopotamia",
+      "អាណាចក្រ Sumer",
+      "អាណាចក្រអេស៊ីប"
     ]
   },
   {
-    "answer": "\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 Akkad",
-    "question": "\u178f\u17be\u17a2\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u17a2\u17b6\u1780\u17b6\u178c\u17b8\u1798\u17b6\u1793\u1798\u1787\u17d2\u1788\u1798\u178e\u17d2\u178c\u179b\u1793\u17c5\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u178e\u17b6?",
+    "answer": "ទីក្រុង Akkad",
+    "question": "តើអាណាចក្រអាកាឌីមានមជ្ឈមណ្ឌលនៅទីក្រុងណា?",
     "wrong_answers": [
-      "\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 Babylon",
-      "\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 Ur",
-      "\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 Nippur"
+      "ទីក្រុង Babylon",
+      "ទីក្រុង Ur",
+      "ទីក្រុង Nippur"
     ]
   },
   {
-    "answer": "Sargon \u1793\u17c3 Akkad",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u1784\u17d2\u1780\u17be\u178f\u17a2\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u17a2\u17b6\u1780\u17b6\u178c\u17b8?",
+    "answer": "Sargon នៃ Akkad",
+    "question": "តើអ្នកណាជាអ្នកបង្កើតអាណាចក្រអាកាឌី?",
     "wrong_answers": [
       "Naram-Sin",
       "Shar-kali-shari",
@@ -27,62 +27,62 @@
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1785\u1793\u17d2\u179b\u17c4\u17c7\u179f\u178f\u179c\u178f\u17d2\u179f\u1791\u17b8 \u17e2\u17e4 \u1793\u17b7\u1784 \u17e2\u17e2 \u1798\u17bb\u1793\u1782.\u179f.",
-    "question": "\u178f\u17be\u17a2\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u17a2\u17b6\u1780\u17b6\u178c\u17b8\u1788\u17b6\u1793\u178a\u179b\u17cb\u1785\u17c6\u178e\u17bb\u1785\u1780\u17c6\u1796\u17bc\u179b\u1793\u17c3\u17a2\u17c6\u178e\u17b6\u1785\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "នៅចន្លោះសតវត្សទី ២៤ និង ២២ មុនគ.ស.",
+    "question": "តើអាណាចក្រអាកាឌីឈានដល់ចំណុចកំពូលនៃអំណាចនៅពេលណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1785\u1793\u17d2\u179b\u17c4\u17c7\u179f\u178f\u179c\u178f\u17d2\u179f\u1791\u17b8 \u17e2\u17e5 \u1793\u17b7\u1784 \u17e2\u17e3 \u1798\u17bb\u1793\u1782.\u179f.",
-      "\u1793\u17c5\u1785\u1793\u17d2\u179b\u17c4\u17c7\u179f\u178f\u179c\u178f\u17d2\u179f\u1791\u17b8 \u17e2\u17e3 \u1793\u17b7\u1784 \u17e2\u17e1 \u1798\u17bb\u1793\u1782.\u179f.",
-      "\u1793\u17c5\u1785\u1793\u17d2\u179b\u17c4\u17c7\u179f\u178f\u179c\u178f\u17d2\u179f\u1791\u17b8 \u17e2\u17e1 \u1793\u17b7\u1784 \u17e1\u17e9 \u1798\u17bb\u1793\u1782.\u179f."
+      "នៅចន្លោះសតវត្សទី ២៥ និង ២៣ មុនគ.ស.",
+      "នៅចន្លោះសតវត្សទី ២៣ និង ២១ មុនគ.ស.",
+      "នៅចន្លោះសតវត្សទី ២១ និង ១៩ មុនគ.ស."
     ]
   },
   {
-    "answer": "Akkadian \u1793\u17b7\u1784 Sumerian",
-    "question": "\u178f\u17be\u1797\u17b6\u179f\u17b6\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1789\u17d2\u1785\u17bc\u179b\u1782\u17d2\u1793\u17b6\u1793\u17c5\u1780\u17d2\u179a\u17c4\u1798\u17a2\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u17a2\u17b6\u1780\u17b6\u178c\u17b8?",
+    "answer": "Akkadian និង Sumerian",
+    "question": "តើភាសាអ្វីដែលត្រូវបានបញ្ចូលគ្នានៅក្រោមអាណាចក្រអាកាឌី?",
     "wrong_answers": [
-      "Akkadian \u1793\u17b7\u1784 Elamite",
-      "Akkadian \u1793\u17b7\u1784 Gutian",
-      "Sumerian \u1793\u17b7\u1784 Elamite"
+      "Akkadian និង Elamite",
+      "Akkadian និង Gutian",
+      "Sumerian និង Elamite"
     ]
   },
   {
-    "answer": "Dilmun, Magan, \u1793\u17b7\u1784\u17a2\u17b6\u179a\u17c9\u17b6\u1794\u17ca\u17b8",
-    "question": "\u178f\u17be\u17a2\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u17a2\u17b6\u1780\u17b6\u178c\u17b8\u1794\u17b6\u1793\u1794\u1789\u17d2\u1787\u17bc\u1793\u1780\u1784\u1791\u17d0\u1796\u1791\u17c5\u1780\u17b6\u1793\u17cb\u178f\u17c6\u1794\u1793\u17cb\u178e\u17b6?",
+    "answer": "Dilmun, Magan, និងអារ៉ាប៊ី",
+    "question": "តើអាណាចក្រអាកាឌីបានបញ្ជូនកងទ័ពទៅកាន់តំបន់ណា?",
     "wrong_answers": [
-      "\u17a2\u17c1\u179f\u17ca\u17b8\u1794, \u17a2\u17b6\u179f\u17ca\u17b8\u1798\u17b8\u1793\u17d0\u179a, \u1793\u17b7\u1784\u17a2\u17b6\u179a\u17c9\u17b6\u1794\u17ca\u17b8",
-      "\u17a2\u17c1\u179f\u17ca\u17b8\u1794, \u17a2\u17b6\u179f\u17ca\u17b8\u1798\u17b8\u1793\u17d0\u179a, \u1793\u17b7\u1784\u17a2\u17b6\u17a0\u17d2\u179c\u17d2\u179a\u17b7\u1780\u1781\u17b6\u1784\u1787\u17be\u1784",
-      "\u17a2\u17b6\u179f\u17ca\u17b8\u1798\u17b8\u1793\u17d0\u179a, \u17a2\u17b6\u17a0\u17d2\u179c\u17d2\u179a\u17b7\u1780\u1781\u17b6\u1784\u1787\u17be\u1784, \u1793\u17b7\u1784\u17a2\u17b6\u179a\u17c9\u17b6\u1794\u17ca\u17b8"
+      "អេស៊ីប, អាស៊ីមីន័រ, និងអារ៉ាប៊ី",
+      "អេស៊ីប, អាស៊ីមីន័រ, និងអាហ្វ្រិកខាងជើង",
+      "អាស៊ីមីន័រ, អាហ្វ្រិកខាងជើង, និងអារ៉ាប៊ី"
     ]
   },
   {
-    "answer": "Elam \u1793\u17b7\u1784 Gutium",
-    "question": "\u178f\u17be\u17a2\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u17a2\u17b6\u1780\u17b6\u178c\u17b8\u1794\u17b6\u1793\u1794\u1784\u17d2\u1781\u17c6\u17b2\u17d2\u1799\u179a\u178a\u17d2\u178b\u1787\u17b7\u178f\u1781\u17b6\u1784\u1798\u17bd\u1799\u1785\u17c6\u1793\u17bd\u1793\u1791\u1791\u17bd\u179b\u1799\u1780\u1797\u17b6\u179f\u17b6 Akkadian?",
+    "answer": "Elam និង Gutium",
+    "question": "តើអាណាចក្រអាកាឌីបានបង្ខំឲ្យរដ្ឋជិតខាងមួយចំនួនទទួលយកភាសា Akkadian?",
     "wrong_answers": [
-      "Sumer \u1793\u17b7\u1784 Elam",
-      "Sumer \u1793\u17b7\u1784 Gutium",
-      "Sumer \u1793\u17b7\u1784 Assyria"
+      "Sumer និង Elam",
+      "Sumer និង Gutium",
+      "Sumer និង Assyria"
     ]
   },
   {
-    "answer": "\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 Akkad",
-    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1798\u17bd\u1799\u178e\u17b6\u178a\u17c2\u179b\u1798\u17b7\u1793\u1791\u17b6\u1793\u17cb\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179a\u1780\u1783\u17be\u1789\u1793\u17c5\u17a1\u17be\u1799?",
+    "answer": "ទីក្រុង Akkad",
+    "question": "តើទីក្រុងមួយណាដែលមិនទាន់ត្រូវបានរកឃើញនៅឡើយ?",
     "wrong_answers": [
-      "\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 Babylon",
-      "\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 Ur",
-      "\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784 Nippur"
+      "ទីក្រុង Babylon",
+      "ទីក្រុង Ur",
+      "ទីក្រុង Nippur"
     ]
   },
   {
-    "answer": "Eshnunna \u1793\u17b7\u1784 Tell Agrab",
-    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u178e\u17b6\u178a\u17c2\u179b\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1782\u17c1\u179a\u1780\u1783\u17be\u1789\u1790\u17c1\u1794\u17d2\u179b\u17c1\u178f cuneiform \u1793\u17c5\u1780\u17d2\u179a\u17c4\u1798\u1780\u17b6\u179a\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784\u179a\u1794\u179f\u17cb\u17a2\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u17a2\u17b6\u1780\u17b6\u178c\u17b8?",
+    "answer": "Eshnunna និង Tell Agrab",
+    "question": "តើទីក្រុងណាដែលត្រូវបានគេរកឃើញថេប្លេត cuneiform នៅក្រោមការគ្រប់គ្រងរបស់អាណាចក្រអាកាឌី?",
     "wrong_answers": [
-      "Babylon \u1793\u17b7\u1784 Ur",
-      "Ur \u1793\u17b7\u1784 Nippur",
-      "Nippur \u1793\u17b7\u1784 Kish"
+      "Babylon និង Ur",
+      "Ur និង Nippur",
+      "Nippur និង Kish"
     ]
   },
   {
     "answer": "Me-sag Archive",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u1780\u17b6\u179a\u1794\u17d2\u179a\u1798\u17bc\u179b\u17af\u1780\u179f\u17b6\u179a\u178a\u17c2\u179b\u179f\u17c6\u1781\u17b6\u1793\u17cb\u1794\u17c6\u1795\u17bb\u178f\u1798\u17bd\u1799?",
+    "question": "តើអ្វីជាការប្រមូលឯកសារដែលសំខាន់បំផុតមួយ?",
     "wrong_answers": [
       "Sargonic Archive",
       "Akkadian Archive",
@@ -90,17 +90,17 @@
     ]
   },
   {
-    "answer": "Yale University \u1793\u17b7\u1784 Baghdad Museum",
-    "question": "\u178f\u17be\u1790\u17c1\u1794\u17d2\u179b\u17c1\u178f Me-sag Archive \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179a\u1780\u17d2\u179f\u17b6\u1791\u17bb\u1780\u1793\u17c5\u17af\u178e\u17b6?",
+    "answer": "Yale University និង Baghdad Museum",
+    "question": "តើថេប្លេត Me-sag Archive ត្រូវបានរក្សាទុកនៅឯណា?",
     "wrong_answers": [
-      "British Museum \u1793\u17b7\u1784 Louvre",
-      "Louvre \u1793\u17b7\u1784 Metropolitan Museum of Art",
-      "Metropolitan Museum of Art \u1793\u17b7\u1784 Pergamon Museum"
+      "British Museum និង Louvre",
+      "Louvre និង Metropolitan Museum of Art",
+      "Metropolitan Museum of Art និង Pergamon Museum"
     ]
   },
   {
     "answer": "Naram-Sin",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u1784\u17d2\u1780\u17be\u178f Victory Stele of Naram-Sin?",
+    "question": "តើអ្នកណាជាអ្នកបង្កើត Victory Stele of Naram-Sin?",
     "wrong_answers": [
       "Sargon of Akkad",
       "Shar-kali-shari",
@@ -109,20 +109,20 @@
   },
   {
     "answer": "Manishtushu",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u1784\u17d2\u1780\u17be\u178f "
+    "question": "តើអ្នកណាជាអ្នកបង្កើត "
   },
   {
-    "answer": "\u179f\u17b6\u179a\u17b6\u1785\u1793\u179a\u1794\u179f\u17cb Manishtushu",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u1784\u17d2\u17a0\u17b6\u1789\u1796\u17b8\u1780\u17b6\u179a\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u1788\u17d2\u1798\u17c4\u17c7\u1786\u17d2\u1793\u17b6\u17c6?",
+    "answer": "សារាចនរបស់ Manishtushu",
+    "question": "តើអ្វីដែលបានបង្ហាញពីការប្រើប្រាស់ឈ្មោះឆ្នាំ?",
     "wrong_answers": [
-      "\u179f\u17b6\u179a\u17b6\u1785\u1793\u179a\u1794\u179f\u17cb Sargon of Akkad",
-      "\u179f\u17b6\u179a\u17b6\u1785\u1793\u179a\u1794\u179f\u17cb Naram-Sin",
-      "\u179f\u17b6\u179a\u17b6\u1785\u1793\u179a\u1794\u179f\u17cb Shar-kali-shari"
+      "សារាចនរបស់ Sargon of Akkad",
+      "សារាចនរបស់ Naram-Sin",
+      "សារាចនរបស់ Shar-kali-shari"
     ]
   },
   {
     "answer": "Hammu[rabi]",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1794\u17c6\u1795\u17d2\u179b\u17b6\u1789 Esznunna \u178a\u17c4\u1799\u1791\u17b9\u1780\u1787\u17c6\u1793\u1793\u17cb?",
+    "question": "តើអ្នកណាបានបំផ្លាញ Esznunna ដោយទឹកជំនន់?",
     "wrong_answers": [
       "Sargon of Akkad",
       "Naram-Sin",
@@ -131,7 +131,7 @@
   },
   {
     "answer": "Sargon",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792\u1788\u17d2\u1798\u17c4\u17c7\u1786\u17d2\u1793\u17b6\u17c6?",
+    "question": "តើអ្នកណាបានប្រើប្រាស់ប្រព័ន្ធឈ្មោះឆ្នាំ?",
     "wrong_answers": [
       "Naram-Sin",
       "Shar-kali-shari",
@@ -140,7 +140,7 @@
   },
   {
     "answer": "Gutians",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u1787\u1798\u17d2\u179b\u17c4\u17c7\u1787\u17b6\u1798\u17bd\u1799\u17a2\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u17a2\u17b6\u1780\u17b6\u178c\u17b8?",
+    "question": "តើអ្នកណាដែលបានបង្កើតជម្លោះជាមួយអាណាចក្រអាកាឌី?",
     "wrong_answers": [
       "Sumerians",
       "Elamites",

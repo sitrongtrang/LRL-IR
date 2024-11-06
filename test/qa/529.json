@@ -1,95 +1,95 @@
 [
   {
-    "answer": "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u1792\u17b7\u179a\u17b6\u1787 Byzantine \u178a\u17c2\u179b\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784\u1796\u17b8\u1781\u17c2\u1798\u17b8\u1793\u17b6 \u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e1\u17e9\u17e5 \u178a\u179b\u17cb\u1790\u17d2\u1784\u17c3\u1791\u17b8 \u17e1\u17e7/\u17e1\u17e8 \u1781\u17c2\u1780\u1780\u17d2\u1780\u178a\u17b6 \u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e2\u17e0\u17e3?",
+    "answer": "អាឡិចសាន់ឌឺ ទី ៣ អង្គែលស",
+    "question": "តើអ្នកណាជាអធិរាជ Byzantine ដែលគ្រប់គ្រងពីខែមីនា ឆ្នាំ ១១៩៥ ដល់ថ្ងៃទី ១៧/១៨ ខែកក្កដា ឆ្នាំ ១២០៣?",
     "wrong_answers": [
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e2 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f",
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e4 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f"
+      "អាឡិចសាន់ឌឺ ទី ២ អង្គែលស",
+      "អាឡិចសាន់ឌឺ ទី ៤ អង្គែលស"
     ]
   },
   {
-    "answer": "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1782\u17bb\u1798\u1793\u17b8\u1793\u179f",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u1794\u17b6\u1793\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784\u1780\u17d2\u179a\u17c4\u1798\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "answer": "អាឡិចសាន់ឌឺ គុមនីនស",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ៣ អង្គែលស បានគ្រប់គ្រងក្រោមឈ្មោះអ្វី?",
     "wrong_answers": [
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u178c\u17bc\u1780\u17b6\u179f",
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e2 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f"
+      "អាឡិចសាន់ឌឺ ឌូកាស",
+      "អាឡិចសាន់ឌឺ ទី ២ អង្គែលស"
     ]
   },
   {
-    "answer": "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e2 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u1794\u17b6\u1793\u1794\u178e\u17d2\u178f\u17c1\u1789\u1785\u17c1\u1789 \u1792\u17d2\u179c\u17be\u17b2\u17d2\u1799\u1781\u17d2\u179c\u17b6\u1780\u17cb\u1797\u17d2\u1793\u17c2\u1780 \u1793\u17b7\u1784\u1785\u17b6\u1794\u17cb\u178a\u17b6\u1780\u17cb\u1782\u17bb\u1780\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178a\u17be\u1798\u17d2\u1794\u17b8\u17a1\u17be\u1784\u179f\u17c4\u1799\u179a\u17b6\u1787\u17d2\u1799?",
+    "answer": "អាឡិចសាន់ឌឺ ទី ២ អង្គែលស",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ៣ អង្គែលស បានបណ្តេញចេញ ធ្វើឲ្យខ្វាក់ភ្នែក និងចាប់ដាក់គុកអ្នកណាដើម្បីឡើងសោយរាជ្យ?",
     "wrong_answers": [
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e4 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f",
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1782\u17bb\u1798\u1793\u17b8\u1793\u179f"
+      "អាឡិចសាន់ឌឺ ទី ៤ អង្គែលស",
+      "អាឡិចសាន់ឌឺ គុមនីនស"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u179c\u17b6\u1799\u1794\u17d2\u179a\u17a0\u17b6\u179a\u1793\u17c3\u1780\u1784\u1791\u17d0\u1796\u1787\u17be\u1784\u1791\u17b9\u1780\u179b\u17be\u1780\u1791\u17b8 \u17e4 \u179b\u17be Constantinople \u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e2\u17e0\u17e3",
-    "question": "\u178f\u17be\u1796\u17d2\u179a\u17b9\u178f\u17d2\u178f\u17b7\u1780\u17b6\u179a\u178e\u17cd\u179f\u17c6\u1781\u17b6\u1793\u17cb\u1794\u17c6\u1795\u17bb\u178f\u1780\u17d2\u1793\u17bb\u1784\u179a\u1787\u17d2\u1787\u1780\u17b6\u179b\u179a\u1794\u179f\u17cb\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ការវាយប្រហារនៃកងទ័ពជើងទឹកលើកទី ៤ លើ Constantinople ក្នុងឆ្នាំ ១២០៣",
+    "question": "តើព្រឹត្តិការណ៍សំខាន់បំផុតក្នុងរជ្ជកាលរបស់អាឡិចសាន់ឌឺ ទី ៣ អង្គែលស គឺជាអ្វី?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u179f\u17d2\u179b\u17b6\u1794\u17cb\u179a\u1794\u179f\u17cb\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f",
-      "\u1780\u17b6\u179a\u17a1\u17be\u1784\u179f\u17c4\u1799\u179a\u17b6\u1787\u17d2\u1799\u179a\u1794\u179f\u17cb\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f"
+      "ការស្លាប់របស់អាឡិចសាន់ឌឺ ទី ៣ អង្គែលស",
+      "ការឡើងសោយរាជ្យរបស់អាឡិចសាន់ឌឺ ទី ៣ អង្គែលស"
     ]
   },
   {
-    "answer": "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e4 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f",
-    "question": "\u178f\u17be\u1780\u1784\u1791\u17d0\u1796\u1787\u17be\u1784\u1791\u17b9\u1780\u179b\u17be\u1780\u1791\u17b8 \u17e4 \u1794\u17b6\u1793\u179c\u17b6\u1799\u1794\u17d2\u179a\u17a0\u17b6\u179a Constantinople \u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e2\u17e0\u17e3 \u178a\u17be\u1798\u17d2\u1794\u17b8\u1782\u17b6\u17c6\u1791\u17d2\u179a\u178a\u179b\u17cb\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "answer": "អាឡិចសាន់ឌឺ ទី ៤ អង្គែលស",
+    "question": "តើកងទ័ពជើងទឹកលើកទី ៤ បានវាយប្រហារ Constantinople ក្នុងឆ្នាំ ១២០៣ ដើម្បីគាំទ្រដល់អ្នកណា?",
     "wrong_answers": [
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f",
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1782\u17bb\u1798\u1793\u17b8\u1793\u179f"
+      "អាឡិចសាន់ឌឺ ទី ៣ អង្គែលស",
+      "អាឡិចសាន់ឌឺ គុមនីនស"
     ]
   },
   {
-    "answer": "Adrianople \u1793\u17b7\u1784 Mosynopolis",
-    "question": "\u1794\u1793\u17d2\u1791\u17b6\u1794\u17cb\u1796\u17b8\u179a\u178f\u17cb\u1782\u17c1\u1785\u1785\u17c1\u1789\u1796\u17b8 Constantinople \u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u1794\u17b6\u1793\u1796\u17d2\u1799\u17b6\u1799\u17b6\u1798\u1794\u17d2\u179a\u1798\u17bc\u179b\u1795\u17d2\u178f\u17bb\u17c6\u17a2\u17d2\u1793\u1780\u1782\u17b6\u17c6\u1791\u17d2\u179a\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb\u1793\u17c5\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "answer": "Adrianople និង Mosynopolis",
+    "question": "បន្ទាប់ពីរត់គេចចេញពី Constantinople តើអាឡិចសាន់ឌឺ ទី ៣ អង្គែលស បានព្យាយាមប្រមូលផ្តុំអ្នកគាំទ្ររបស់គាត់នៅកន្លែងណា?",
     "wrong_answers": [
       "Constantinople",
       "Nicaea"
     ]
   },
   {
-    "answer": "Marquis Boniface \u1793\u17c3 Montferrat",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1791\u17c4\u179f\u179a\u1794\u179f\u17cb\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "answer": "Marquis Boniface នៃ Montferrat",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ៣ អង្គែលស បានក្លាយជាអ្នកទោសរបស់អ្នកណា?",
     "wrong_answers": [
       "Theodore I Laskaris",
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e4 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f"
+      "អាឡិចសាន់ឌឺ ទី ៤ អង្គែលស"
     ]
   },
   {
     "answer": "Theodore I Laskaris",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u1794\u17b6\u1793\u1783\u17bb\u1794\u1783\u17b7\u178f\u1794\u17d2\u179a\u1786\u17b6\u17c6\u1784\u1793\u17b9\u1784\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ៣ អង្គែលស បានឃុបឃិតប្រឆាំងនឹងអ្នកណា?",
     "wrong_answers": [
-      "Marquis Boniface \u1793\u17c3 Montferrat",
-      "\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e4 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f"
+      "Marquis Boniface នៃ Montferrat",
+      "អាឡិចសាន់ឌឺ ទី ៤ អង្គែលស"
     ]
   },
   {
-    "answer": "\u179c\u178f\u17d2\u1790\u17bb\u1794\u17bb\u179a\u17b6\u178e",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u1794\u17b6\u1793\u1794\u17d2\u179b\u1793\u17cb\u17a2\u17d2\u179c\u17b8\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1796\u17d2\u179a\u17c7\u179c\u17b7\u17a0\u17b6\u179a\u1793\u17c3\u1796\u17bd\u1780\u179f\u17b6\u179c\u1780\u1794\u179a\u17b7\u179f\u17bb\u1791\u17d2\u1792 \u178a\u17be\u1798\u17d2\u1794\u17b8\u1791\u1791\u17bd\u179b\u1794\u17b6\u1793\u179b\u17bb\u1799?",
+    "answer": "វត្ថុបុរាណ",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ៣ អង្គែលស បានប្លន់អ្វីនៅក្នុងព្រះវិហារនៃពួកសាវកបរិសុទ្ធ ដើម្បីទទួលបានលុយ?",
     "wrong_answers": [
-      "\u1798\u1793\u17bb\u179f\u17d2\u179f",
-      "\u179f\u178f\u17d2\u179c"
+      "មនុស្ស",
+      "សត្វ"
     ]
   },
   {
     "answer": "Henry VI",
-    "question": "\u178f\u17be\u17a2\u1792\u17b7\u179a\u17b6\u1787 Holy Roman \u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1796\u17d2\u1799\u17b6\u1799\u17b6\u1798\u1794\u1784\u17d2\u1781\u17c6\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u17b1\u17d2\u1799\u1794\u1784\u17cb\u1794\u17d2\u179a\u17b6\u1780\u17cb\u179f\u17bd\u1799\u179f\u17b6\u179a?",
+    "question": "តើអធិរាជ Holy Roman ណាដែលបានព្យាយាមបង្ខំអាឡិចសាន់ឌឺ ទី ៣ អង្គែលស ឱ្យបង់ប្រាក់សួយសារ?",
     "wrong_answers": [
       "Theodore I Laskaris",
-      "Marquis Boniface \u1793\u17c3 Montferrat"
+      "Marquis Boniface នៃ Montferrat"
     ]
   },
   {
     "answer": "Vatatzes",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1793\u17b6\u17c6\u1798\u17bb\u1781\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u1796\u17d2\u1799\u17b6\u1799\u17b6\u1798\u1792\u17d2\u179c\u17be\u1780\u17c6\u178e\u17c2\u1791\u1798\u17d2\u179a\u1784\u17cb\u179a\u1794\u179f\u17cb\u17a2\u1792\u17b7\u179a\u17b6\u1787 Euphrosyne?",
+    "question": "តើអ្នកណាជាអ្នកនាំមុខក្នុងការព្យាយាមធ្វើកំណែទម្រង់របស់អធិរាជ Euphrosyne?",
     "wrong_answers": [
       "Henry VI",
-      "Marquis Boniface \u1793\u17c3 Montferrat"
+      "Marquis Boniface នៃ Montferrat"
     ]
   },
   {
     "answer": "Seljuk Turks",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u179c\u17b6\u1799\u179b\u17bb\u1780\u1785\u17bc\u179b\u1791\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1785\u1780\u17d2\u179a\u1797\u1796 Byzantine \u1796\u17b8\u1791\u17b7\u179f\u1781\u17b6\u1784\u1780\u17be\u178f?",
+    "question": "តើអ្នកណាបានវាយលុកចូលទៅក្នុងចក្រភព Byzantine ពីទិសខាងកើត?",
     "wrong_answers": [
       "Kingdom of Hungary",
       "Bulgarians"
@@ -97,7 +97,7 @@
   },
   {
     "answer": "Kingdom of Hungary",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u179c\u17b6\u1799\u179b\u17bb\u1780\u1785\u17bc\u179b\u1791\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1785\u1780\u17d2\u179a\u1797\u1796 Byzantine \u1796\u17b8\u1791\u17b7\u179f\u1781\u17b6\u1784\u1787\u17be\u1784?",
+    "question": "តើអ្នកណាបានវាយលុកចូលទៅក្នុងចក្រភព Byzantine ពីទិសខាងជើង?",
     "wrong_answers": [
       "Seljuk Turks",
       "Vlachs"
@@ -105,7 +105,7 @@
   },
   {
     "answer": "pronoiai",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u1794\u17b6\u1793\u1795\u17d2\u178f\u179b\u17cb\u1780\u17b6\u179a\u17a2\u1793\u17bb\u1789\u17d2\u1789\u17b6\u178f\u1796\u17b7\u179f\u17c1\u179f\u178a\u179b\u17cb\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ៣ អង្គែលស បានផ្តល់ការអនុញ្ញាតពិសេសដល់អ្នកណា?",
     "wrong_answers": [
       "Vatatzes",
       "Henry VI"
@@ -113,15 +113,15 @@
   },
   {
     "answer": "Andronikos Doukas Angelos",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u1787\u17b6\u1780\u17bc\u1793\u1794\u17d2\u179a\u17bb\u179f\u179a\u1794\u179f\u17cb\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ៣ អង្គែលស ជាកូនប្រុសរបស់អ្នកណា?",
     "wrong_answers": [
       "Theodore I Laskaris",
-      "Marquis Boniface \u1793\u17c3 Montferrat"
+      "Marquis Boniface នៃ Montferrat"
     ]
   },
   {
     "answer": "Euphrosyne Kastamonitissa",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1798\u17d2\u178f\u17b6\u1799\u179a\u1794\u179f\u17cb\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f?",
+    "question": "តើអ្នកណាជាម្តាយរបស់អាឡិចសាន់ឌឺ ទី ៣ អង្គែលស?",
     "wrong_answers": [
       "Irene Doukaina",
       "Theodora Komnene"
@@ -129,7 +129,7 @@
   },
   {
     "answer": "Theodora Komnene",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1798\u17d2\u178f\u17b6\u1799\u179a\u1794\u179f\u17cb Andronikos Doukas Angelos?",
+    "question": "តើអ្នកណាជាម្តាយរបស់ Andronikos Doukas Angelos?",
     "wrong_answers": [
       "Euphrosyne Kastamonitissa",
       "Irene Doukaina"
@@ -137,7 +137,7 @@
   },
   {
     "answer": "Alexios I Komnenos",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17aa\u1796\u17bb\u1780\u179a\u1794\u179f\u17cb Theodora Komnene?",
+    "question": "តើអ្នកណាជាឪពុករបស់ Theodora Komnene?",
     "wrong_answers": [
       "Andronikos Doukas Angelos",
       "Irene Doukaina"
@@ -145,7 +145,7 @@
   },
   {
     "answer": "Irene Doukaina",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1798\u17d2\u178f\u17b6\u1799\u179a\u1794\u179f\u17cb Theodora Komnene?",
+    "question": "តើអ្នកណាជាម្តាយរបស់ Theodora Komnene?",
     "wrong_answers": [
       "Alexios I Komnenos",
       "Euphrosyne Kastamonitissa"
@@ -153,7 +153,7 @@
   },
   {
     "answer": "Saladin",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u1794\u17b6\u1793\u179a\u179f\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u1793\u17b7\u179a\u1791\u17c1\u179f\u1781\u17d2\u179b\u17bd\u1793\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u178f\u17bb\u179b\u17b6\u1780\u17b6\u179a\u179a\u1794\u179f\u17cb\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ៣ អង្គែលស បានរស់នៅក្នុងការនិរទេសខ្លួននៅក្នុងតុលាការរបស់អ្នកណា?",
     "wrong_answers": [
       "Andronikos I Komnenos",
       "Isaac II Angelos"
@@ -161,7 +161,7 @@
   },
   {
     "answer": "Stephen Hagiochristophorites",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u178a\u17b9\u1780\u1793\u17b6\u17c6\u1780\u1784\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u179a\u1794\u179f\u17cb Andronikos I Komnenos?",
+    "question": "តើអ្នកណាជាអ្នកដឹកនាំកងកម្លាំងរបស់ Andronikos I Komnenos?",
     "wrong_answers": [
       "Isaac II Angelos",
       "Alexios III Angelos"
@@ -169,31 +169,31 @@
   },
   {
     "answer": "Hagia Sophia",
-    "question": "\u178f\u17be Isaac II Angelos \u1794\u17b6\u1793\u179f\u17d2\u179c\u17c2\u1784\u179a\u1780\u1780\u17b6\u179a\u1780\u17b6\u179a\u1796\u17b6\u179a\u1793\u17c5\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើ Isaac II Angelos បានស្វែងរកការការពារនៅកន្លែងណា?",
     "wrong_answers": [
       "Constantinople",
       "Nicaea"
     ]
   },
   {
-    "answer": "sebastokrat\u014dr",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u1784\u17b6\u179a\u17a2\u17d2\u179c\u17b8\u1796\u17b8\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e2 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f?",
+    "answer": "sebastokratōr",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ៣ អង្គែលស បានទទួលងារអ្វីពីអាឡិចសាន់ឌឺ ទី ២ អង្គែលស?",
     "wrong_answers": [
-      "\u17a2\u1792\u17b7\u179a\u17b6\u1787",
-      "\u17a2\u17d2\u1793\u1780\u1791\u17c4\u179f"
+      "អធិរាជ",
+      "អ្នកទោស"
     ]
   },
   {
     "answer": "Euphrosyne Doukaina Kamatera",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17d2\u179a\u1796\u1793\u17d2\u1792\u179a\u1794\u179f\u17cb\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f?",
+    "question": "តើអ្នកណាជាប្រពន្ធរបស់អាឡិចសាន់ឌឺ ទី ៣ អង្គែលស?",
     "wrong_answers": [
       "Irene Doukaina",
       "Theodora Komnene"
     ]
   },
   {
-    "answer": "Stagira \u1793\u17c5 Macedonia",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e2 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u1793\u17c5\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "answer": "Stagira នៅ Macedonia",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ៣ អង្គែលស បានចាប់អាឡិចសាន់ឌឺ ទី ២ អង្គែលស នៅកន្លែងណា?",
     "wrong_answers": [
       "Constantinople",
       "Nicaea"
@@ -201,7 +201,7 @@
   },
   {
     "answer": "Antioch",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e2 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1787\u17b6\u1788\u17d2\u179b\u17be\u1799\u1793\u17c5\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ២ អង្គែលស ត្រូវបានចាប់ជាឈ្លើយនៅកន្លែងណា?",
     "wrong_answers": [
       "Constantinople",
       "Nicaea"
@@ -209,7 +209,7 @@
   },
   {
     "answer": "Alamanikon",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u1794\u17b6\u1793\u1794\u1784\u17cb\u1796\u1793\u17d2\u1792\u178a\u179b\u17cb\u1794\u17d2\u179a\u1787\u17b6\u1787\u1793\u178f\u17b6\u1798\u179a\u1799\u17c8\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ៣ អង្គែលស បានបង់ពន្ធដល់ប្រជាជនតាមរយៈអ្វី?",
     "wrong_answers": [
       "Vatatzes",
       "Henry VI"
@@ -217,7 +217,7 @@
   },
   {
     "answer": "Hyakinthos",
-    "question": "\u178f\u17be\u17a2\u17b6\u17a1\u17b7\u1785\u179f\u17b6\u1793\u17cb\u178c\u17ba \u1791\u17b8 \u17e3 \u17a2\u1784\u17d2\u1782\u17c2\u179b\u179f \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179c\u178f\u17d2\u178f\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើអាឡិចសាន់ឌឺ ទី ៣ អង្គែលស បានស្លាប់នៅក្នុងវត្តអ្វី?",
     "wrong_answers": [
       "Hagia Sophia",
       "Nicaea"

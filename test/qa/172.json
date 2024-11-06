@@ -1,6 +1,6 @@
 [
   {
-    "question": "\u178f\u17be\u179b\u17c4\u1780 Arne Kaijser \u1794\u17b6\u1793\u1780\u17be\u178f\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើលោក Arne Kaijser បានកើតនៅឆ្នាំណា?",
     "wrong_answers": [
       "1940",
       "1960",
@@ -9,7 +9,7 @@
   },
   {
     "answer": "1950",
-    "question": "\u178f\u17be\u179b\u17c4\u1780 Arne Kaijser \u1780\u17be\u178f\u1793\u17c5\u1786\u17d2\u1793\u17b6\u17c6\u178e\u17b6?",
+    "question": "តើលោក Arne Kaijser កើតនៅឆ្នាំណា?",
     "wrong_answers": [
       "1940",
       "1960",
@@ -17,41 +17,41 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u179b\u17c4\u1780 Arne Kaijser \u1787\u17b6\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើលោក Arne Kaijser ជាអ្នកណា?",
     "wrong_answers": [
-      "\u179c\u17b7\u179f\u17d2\u179c\u1780\u179a",
-      "\u17a2\u17d2\u1793\u1780\u1793\u1799\u17c4\u1794\u17b6\u1799",
-      "\u17a2\u17d2\u1793\u1780\u179f\u17b7\u179b\u17d2\u1794\u17c8"
+      "វិស្វករ",
+      "អ្នកនយោបាយ",
+      "អ្នកសិល្បៈ"
     ]
   },
   {
-    "answer": "\u1794\u178e\u17d2\u178c\u17b7\u178f\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u17b6\u1785\u17b6\u179a\u17d2\u1799\u1795\u17d2\u1793\u17c2\u1780\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u179a\u17d2\u178f\u1793\u17c3\u1794\u1785\u17d2\u1785\u17c1\u1780\u179c\u17b7\u1791\u17d2\u1799\u17b6",
-    "question": "\u178f\u17be\u179b\u17c4\u1780 Arne Kaijser \u1787\u17b6\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "answer": "បណ្ឌិតសាស្ត្រាចារ្យផ្នែកប្រវត្តិសាស្រ្តនៃបច្ចេកវិទ្យា",
+    "question": "តើលោក Arne Kaijser ជាអ្នកណា?",
     "wrong_answers": [
-      "\u179c\u17b7\u179f\u17d2\u179c\u1780\u179a",
-      "\u17a2\u17d2\u1793\u1780\u1793\u1799\u17c4\u1794\u17b6\u1799",
-      "\u17a2\u17d2\u1793\u1780\u179f\u17b7\u179b\u17d2\u1794\u17c8"
+      "វិស្វករ",
+      "អ្នកនយោបាយ",
+      "អ្នកសិល្បៈ"
     ]
   },
   {
-    "question": "\u178f\u17be\u179b\u17c4\u1780 Arne Kaijser \u1794\u17b6\u1793\u1794\u1784\u17d2\u179a\u17c0\u1793\u1793\u17c5\u179f\u17b6\u1780\u179b\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179b\u17d0\u1799\u1798\u17bd\u1799?",
+    "question": "តើលោក Arne Kaijser បានបង្រៀននៅសាកលវិទ្យាល័យមួយ?",
     "wrong_answers": [
-      "\u1798\u17b7\u1793\u1798\u17b6\u1793",
-      "\u179f\u17b6\u1780\u179b\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179b\u17d0\u1799 Uppsala",
-      "\u179f\u17b6\u1780\u179b\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179b\u17d0\u1799 Lund"
+      "មិនមាន",
+      "សាកលវិទ្យាល័យ Uppsala",
+      "សាកលវិទ្យាល័យ Lund"
     ]
   },
   {
-    "answer": "KTH Royal Institute of Technology \u1793\u17c5 Stockholm",
-    "question": "\u178f\u17be\u179b\u17c4\u1780 Arne Kaijser \u1794\u17b6\u1793\u1794\u1784\u17d2\u179a\u17c0\u1793\u1793\u17c5\u179f\u17b6\u1780\u179b\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179b\u17d0\u1799\u1798\u17bd\u1799?",
+    "answer": "KTH Royal Institute of Technology នៅ Stockholm",
+    "question": "តើលោក Arne Kaijser បានបង្រៀននៅសាកលវិទ្យាល័យមួយ?",
     "wrong_answers": [
-      "\u1798\u17b7\u1793\u1798\u17b6\u1793",
-      "\u179f\u17b6\u1780\u179b\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179b\u17d0\u1799 Uppsala",
-      "\u179f\u17b6\u1780\u179b\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179b\u17d0\u1799 Lund"
+      "មិនមាន",
+      "សាកលវិទ្យាល័យ Uppsala",
+      "សាកលវិទ្យាល័យ Lund"
     ]
   },
   {
-    "question": "\u178f\u17be\u179b\u17c4\u1780 Arne Kaijser \u1794\u17b6\u1793\u179f\u179a\u179f\u17c1\u179a\u179f\u17c0\u179c\u1797\u17c5\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793?",
+    "question": "តើលោក Arne Kaijser បានសរសេរសៀវភៅប៉ុន្មាន?",
     "wrong_answers": [
       "0",
       "3",
@@ -60,7 +60,7 @@
   },
   {
     "answer": "2",
-    "question": "\u178f\u17be\u179b\u17c4\u1780 Arne Kaijser \u1794\u17b6\u1793\u179f\u179a\u179f\u17c1\u179a\u179f\u17c0\u179c\u1797\u17c5\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793?",
+    "question": "តើលោក Arne Kaijser បានសរសេរសៀវភៅប៉ុន្មាន?",
     "wrong_answers": [
       "0",
       "3",
@@ -68,54 +68,54 @@
     ]
   },
   {
-    "question": "\u178f\u17be\u179b\u17c4\u1780 Arne Kaijser \u1787\u17b6\u179f\u1798\u17b6\u1787\u17b7\u1780\u1793\u17c3\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u178e\u17b6?",
+    "question": "តើលោក Arne Kaijser ជាសមាជិកនៃអង្គការណា?",
     "wrong_answers": [
-      "\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u179f\u17a0\u1794\u17d2\u179a\u1787\u17b6\u1787\u17b6\u178f\u17b7",
+      "អង្គការសហប្រជាជាតិ",
       "NATO",
-      "\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u179f\u1798\u17d2\u1796\u17d0\u1793\u17d2\u1792\u17a2\u17ba\u179a\u17c9\u17bb\u1794"
+      "អង្គការសម្ព័ន្ធអឺរ៉ុប"
     ]
   },
   {
     "answer": "Royal Swedish Academy of Engineering Sciences",
-    "question": "\u178f\u17be\u179b\u17c4\u1780 Arne Kaijser \u1787\u17b6\u179f\u1798\u17b6\u1787\u17b7\u1780\u1793\u17c3\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u178e\u17b6?",
+    "question": "តើលោក Arne Kaijser ជាសមាជិកនៃអង្គការណា?",
     "wrong_answers": [
-      "\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u179f\u17a0\u1794\u17d2\u179a\u1787\u17b6\u1787\u17b6\u178f\u17b7",
+      "អង្គការសហប្រជាជាតិ",
       "NATO",
-      "\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u179f\u1798\u17d2\u1796\u17d0\u1793\u17d2\u1792\u17a2\u17ba\u179a\u17c9\u17bb\u1794"
+      "អង្គការសម្ព័ន្ធអឺរ៉ុប"
     ]
   },
   {
-    "question": "\u178f\u17be\u179b\u17c4\u1780 Arne Kaijser \u1798\u17b6\u1793\u1795\u17d2\u1791\u17c7\u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើលោក Arne Kaijser មានផ្ទះនៅឯណា?",
     "wrong_answers": [
-      "\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780",
-      "\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f",
-      "\u1794\u17d2\u179a\u1791\u17c1\u179f\u1785\u17b7\u1793"
+      "អាមេរិក",
+      "ប្រទេសអង់គ្លេស",
+      "ប្រទេសចិន"
     ]
   },
   {
-    "answer": "\u179f\u17ca\u17bb\u1799\u17a2\u17c2\u178f",
-    "question": "\u178f\u17be\u179b\u17c4\u1780 Arne Kaijser \u1798\u17b6\u1793\u1795\u17d2\u1791\u17c7\u1793\u17c5\u17af\u178e\u17b6?",
+    "answer": "ស៊ុយអែត",
+    "question": "តើលោក Arne Kaijser មានផ្ទះនៅឯណា?",
     "wrong_answers": [
-      "\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780",
-      "\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f",
-      "\u1794\u17d2\u179a\u1791\u17c1\u179f\u1785\u17b7\u1793"
+      "អាមេរិក",
+      "ប្រទេសអង់គ្លេស",
+      "ប្រទេសចិន"
     ]
   },
   {
-    "question": "\u178f\u17be\u179b\u17c4\u1780 Arne Kaijser \u1780\u17c6\u1796\u17bb\u1784\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើលោក Arne Kaijser កំពុងធ្វើការអ្វី?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u179f\u17d2\u179a\u17b6\u179c\u1787\u17d2\u179a\u17b6\u179c\u1795\u17d2\u1793\u17c2\u1780\u179c\u17b7\u179f\u17d2\u179c\u1780\u1798\u17d2\u1798",
-      "\u1780\u17b6\u179a\u179f\u17d2\u179a\u17b6\u179c\u1787\u17d2\u179a\u17b6\u179c\u1795\u17d2\u1793\u17c2\u1780\u1782\u17b8\u1798\u17b8",
-      "\u1780\u17b6\u179a\u179f\u17d2\u179a\u17b6\u179c\u1787\u17d2\u179a\u17b6\u179c\u1795\u17d2\u1793\u17c2\u1780\u179c\u17c1\u1787\u17d2\u1787\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a"
+      "ការស្រាវជ្រាវផ្នែកវិស្វកម្ម",
+      "ការស្រាវជ្រាវផ្នែកគីមី",
+      "ការស្រាវជ្រាវផ្នែកវេជ្ជសាស្ត្រ"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u179f\u17d2\u179a\u17b6\u179c\u1787\u17d2\u179a\u17b6\u179c\u1795\u17d2\u1793\u17c2\u1780\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u179a\u17d2\u178f\u1793\u17c3\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792\u1794\u1785\u17d2\u1785\u17c1\u1780\u179c\u17b7\u1791\u17d2\u1799\u17b6\u1792\u17c6\u17d7",
-    "question": "\u178f\u17be\u179b\u17c4\u1780 Arne Kaijser \u1780\u17c6\u1796\u17bb\u1784\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ការស្រាវជ្រាវផ្នែកប្រវត្តិសាស្រ្តនៃប្រព័ន្ធបច្ចេកវិទ្យាធំៗ",
+    "question": "តើលោក Arne Kaijser កំពុងធ្វើការអ្វី?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u179f\u17d2\u179a\u17b6\u179c\u1787\u17d2\u179a\u17b6\u179c\u1795\u17d2\u1793\u17c2\u1780\u179c\u17b7\u179f\u17d2\u179c\u1780\u1798\u17d2\u1798",
-      "\u1780\u17b6\u179a\u179f\u17d2\u179a\u17b6\u179c\u1787\u17d2\u179a\u17b6\u179c\u1795\u17d2\u1793\u17c2\u1780\u1782\u17b8\u1798\u17b8",
-      "\u1780\u17b6\u179a\u179f\u17d2\u179a\u17b6\u179c\u1787\u17d2\u179a\u17b6\u179c\u1795\u17d2\u1793\u17c2\u1780\u179c\u17c1\u1787\u17d2\u1787\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a"
+      "ការស្រាវជ្រាវផ្នែកវិស្វកម្ម",
+      "ការស្រាវជ្រាវផ្នែកគីមី",
+      "ការស្រាវជ្រាវផ្នែកវេជ្ជសាស្ត្រ"
     ]
   }
 ]

@@ -1,16 +1,16 @@
 [
   {
-    "answer": "\u1780\u17b6\u179a\u179b\u17c1\u1784\u1794\u17b6\u179b\u17cb\u1794\u17c4\u17c7\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u1785\u17c6\u178e\u1784\u17cb\u1785\u17c6\u178e\u17bc\u179b\u1785\u17b7\u178f\u17d2\u178f\u179a\u1794\u179f\u17cb Albert Goodwill Spalding \u1780\u17d2\u1793\u17bb\u1784\u179c\u17d0\u1799\u1780\u17bb\u1798\u17b6\u179a\u1797\u17b6\u1796?",
+    "answer": "ការលេងបាល់បោះរបស់គាត់",
+    "question": "តើអ្វីជាចំណង់ចំណូលចិត្តរបស់ Albert Goodwill Spalding ក្នុងវ័យកុមារភាព?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u179b\u17c1\u1784\u1794\u17b6\u179b\u17cb\u1791\u17b6\u178f\u17cb",
-      "\u1780\u17b6\u179a\u179b\u17c1\u1784\u1794\u17b6\u179b\u17cb\u1794\u17c4\u17c7",
-      "\u1780\u17b6\u179a\u179b\u17c1\u1784\u1794\u17b6\u179b\u17cb\u179a\u17c6\u1780\u17b7\u179b"
+      "ការលេងបាល់ទាត់",
+      "ការលេងបាល់បោះ",
+      "ការលេងបាល់រំកិល"
     ]
   },
   {
     "answer": "Albert Goodwill Spalding",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1785\u17bc\u179b\u179a\u17bd\u1798\u1794\u1784\u17d2\u1780\u17be\u178f\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793 A.G. Spalding sporting goods?",
+    "question": "តើអ្នកណាជាអ្នកចូលរួមបង្កើតក្រុមហ៊ុន A.G. Spalding sporting goods?",
     "wrong_answers": [
       "William Hulbert",
       "Abner Doubleday",
@@ -18,17 +18,17 @@
     ]
   },
   {
-    "answer": "\u1793\u17c5 Byron, Illinois",
-    "question": "\u178f\u17be Albert Goodwill Spalding \u1780\u17be\u178f\u1793\u17c5\u1791\u17b8\u178e\u17b6?",
+    "answer": "នៅ Byron, Illinois",
+    "question": "តើ Albert Goodwill Spalding កើតនៅទីណា?",
     "wrong_answers": [
-      "\u1793\u17c5 Rockford, Illinois",
-      "\u1793\u17c5 Chicago, Illinois",
-      "\u1793\u17c5 Boston, Massachusetts"
+      "នៅ Rockford, Illinois",
+      "នៅ Chicago, Illinois",
+      "នៅ Boston, Massachusetts"
     ]
   },
   {
     "answer": "Chicago White Stockings",
-    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u1794\u17b6\u179b\u17cb\u1794\u17c4\u17c7\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b Albert Goodwill Spalding \u1794\u17b6\u1793\u179b\u17c1\u1784\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u17c4\u17c7\u1794\u17b6\u179b\u17cb\u1793\u17c5\u178a\u17be\u1798\u178a\u17c6\u1794\u17bc\u1784?",
+    "question": "តើក្រុមបាល់បោះអ្វីដែល Albert Goodwill Spalding បានលេងជាអ្នកបោះបាល់នៅដើមដំបូង?",
     "wrong_answers": [
       "Boston Red Stockings",
       "Philadelphia Athletics",
@@ -36,17 +36,17 @@
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u1794\u17d2\u179a\u1780\u17bd\u178f\u1794\u17b6\u179b\u17cb\u1794\u17c4\u17c7",
-    "question": "\u178f\u17be Albert Goodwill Spalding \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u1780\u17d2\u1793\u17bb\u1784\u179f\u1780\u1798\u17d2\u1798\u1797\u17b6\u1796\u17a2\u17d2\u179c\u17b8\u1780\u17d2\u1793\u17bb\u1784\u1791\u179f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e8\u17e0?",
+    "answer": "ការប្រកួតបាល់បោះ",
+    "question": "តើ Albert Goodwill Spalding បានចូលរួមក្នុងសកម្មភាពអ្វីក្នុងទសវត្សរ៍ឆ្នាំ ១៨៨០?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u1794\u17d2\u179a\u1780\u17bd\u178f\u1794\u17b6\u179b\u17cb\u1791\u17b6\u178f\u17cb",
-      "\u1780\u17b6\u179a\u1794\u17d2\u179a\u1780\u17bd\u178f\u1794\u17b6\u179b\u17cb\u1794\u17c4\u17c7",
-      "\u1780\u17b6\u179a\u1794\u17d2\u179a\u1780\u17bd\u178f\u1794\u17b6\u179b\u17cb\u179a\u17c6\u1780\u17b7\u179b"
+      "ការប្រកួតបាល់ទាត់",
+      "ការប្រកួតបាល់បោះ",
+      "ការប្រកួតបាល់រំកិល"
     ]
   },
   {
     "answer": "Chicago White Stockings",
-    "question": "\u178f\u17be\u1780\u17d2\u179a\u17bb\u1798\u1794\u17b6\u179b\u17cb\u1794\u17c4\u17c7\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b Albert Goodwill Spalding \u1794\u17b6\u1793\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u1794\u17d2\u179a\u1792\u17b6\u1793\u1793\u17b7\u1784\u1798\u17d2\u1785\u17b6\u179f\u17cb\u179a\u17bd\u1798?",
+    "question": "តើក្រុមបាល់បោះអ្វីដែល Albert Goodwill Spalding បានក្លាយជាប្រធាននិងម្ចាស់រួម?",
     "wrong_answers": [
       "Boston Red Stockings",
       "Philadelphia Athletics",
@@ -55,7 +55,7 @@
   },
   {
     "answer": "National League of Baseball Clubs",
-    "question": "\u178f\u17be\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b Albert Goodwill Spalding \u1794\u17b6\u1793\u1787\u17bd\u1799\u1794\u1784\u17d2\u1780\u17be\u178f?",
+    "question": "តើអង្គការអ្វីដែល Albert Goodwill Spalding បានជួយបង្កើត?",
     "wrong_answers": [
       "National Association of Professional Base Ball Players",
       "American League",
@@ -64,7 +64,7 @@
   },
   {
     "answer": "Abner Doubleday",
-    "question": "\u178f\u17be Albert Goodwill Spalding \u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u1791\u17c1\u179c\u1780\u1790\u17b6\u17a2\u17c6\u1796\u17b8\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u1784\u17d2\u1780\u17be\u178f\u1794\u17b6\u179b\u17cb\u1794\u17c4\u17c7?",
+    "question": "តើ Albert Goodwill Spalding បានបង្កើតទេវកថាអំពីអ្នកណាជាអ្នកបង្កើតបាល់បោះ?",
     "wrong_answers": [
       "Babe Ruth",
       "Jackie Robinson",
@@ -72,17 +72,17 @@
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e3\u17e9",
-    "question": "\u178f\u17be Albert Goodwill Spalding \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1789\u17d2\u1785\u17bc\u179b\u1791\u17c5\u1780\u17d2\u1793\u17bb\u1784 Baseball Hall of Fame \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ក្នុងឆ្នាំ ១៩៣៩",
+    "question": "តើ Albert Goodwill Spalding ត្រូវបានបញ្ចូលទៅក្នុង Baseball Hall of Fame នៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e7\u17e1",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e1\u17e5",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e7\u17e6"
+      "ក្នុងឆ្នាំ ១៨៧១",
+      "ក្នុងឆ្នាំ ១៩១៥",
+      "ក្នុងឆ្នាំ ១៨៧៦"
     ]
   },
   {
     "answer": "Rockford Pioneers",
-    "question": "\u178f\u17be Albert Goodwill Spalding \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u1780\u17d2\u179a\u17bb\u1798\u1794\u17b6\u179b\u17cb\u1794\u17c4\u17c7\u17a2\u17d2\u179c\u17b8\u1793\u17c5\u1796\u17c1\u179b\u1782\u17b6\u178f\u17cb\u1793\u17c5\u1780\u17d2\u1798\u17c1\u1784?",
+    "question": "តើ Albert Goodwill Spalding បានចូលរួមក្រុមបាល់បោះអ្វីនៅពេលគាត់នៅក្មេង?",
     "wrong_answers": [
       "Rockford Forest Citys",
       "Boston Red Stockings",
@@ -90,17 +90,17 @@
     ]
   },
   {
-    "answer": "\u1793\u17c5 Rockford, Illinois",
-    "question": "\u178f\u17be Albert Goodwill Spalding \u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u1794\u179a\u17b7\u1789\u17d2\u1789\u17b6\u1794\u178f\u17d2\u179a\u1796\u17b8\u179f\u17b6\u179b\u17b6\u1798\u1792\u17d2\u1799\u1798\u179f\u17b7\u1780\u17d2\u179f\u17b6\u178e\u17b6?",
+    "answer": "នៅ Rockford, Illinois",
+    "question": "តើ Albert Goodwill Spalding បានទទួលបរិញ្ញាបត្រពីសាលាមធ្យមសិក្សាណា?",
     "wrong_answers": [
-      "\u1793\u17c5 Byron, Illinois",
-      "\u1793\u17c5 Chicago, Illinois",
-      "\u1793\u17c5 Boston, Massachusetts"
+      "នៅ Byron, Illinois",
+      "នៅ Chicago, Illinois",
+      "នៅ Boston, Massachusetts"
     ]
   },
   {
     "answer": "Boston Red Stockings",
-    "question": "\u178f\u17be Albert Goodwill Spalding \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u1780\u17d2\u179a\u17bb\u1798\u1794\u17b6\u179b\u17cb\u1794\u17c4\u17c7\u17a2\u17d2\u179c\u17b8\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784 National Association of Professional Base Ball Players?",
+    "question": "តើ Albert Goodwill Spalding បានចូលរួមក្រុមបាល់បោះអ្វីនៅក្នុង National Association of Professional Base Ball Players?",
     "wrong_answers": [
       "Rockford Forest Citys",
       "Chicago White Stockings",
@@ -108,17 +108,17 @@
     ]
   },
   {
-    "answer": "\u17e2\u17e0\u17e6",
-    "question": "\u178f\u17be Albert Goodwill Spalding \u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1780\u17b6\u179a\u1794\u17d2\u179a\u1780\u17bd\u178f\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u17c4\u17c7\u1794\u17b6\u179b\u17cb?",
+    "answer": "២០៦",
+    "question": "តើ Albert Goodwill Spalding បានឈ្នះប៉ុន្មានការប្រកួតជាអ្នកបោះបាល់?",
     "wrong_answers": [
-      "\u17e1\u17e0\u17e0",
-      "\u17e5\u17e0",
-      "\u17e1\u17e5\u17e0"
+      "១០០",
+      "៥០",
+      "១៥០"
     ]
   },
   {
     "answer": "Chicago White Stockings",
-    "question": "\u178f\u17be Albert Goodwill Spalding \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17bd\u1798\u1780\u17d2\u179a\u17bb\u1798\u1794\u17b6\u179b\u17cb\u1794\u17c4\u17c7\u17a2\u17d2\u179c\u17b8\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e7\u17e6?",
+    "question": "តើ Albert Goodwill Spalding បានចូលរួមក្រុមបាល់បោះអ្វីក្នុងឆ្នាំ ១៨៧៦?",
     "wrong_answers": [
       "Boston Red Stockings",
       "Philadelphia Athletics",
@@ -126,53 +126,53 @@
     ]
   },
   {
-    "answer": "Deacon White, Ross Barnes \u1793\u17b7\u1784 Cal McVey",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u179b\u17c1\u1784\u1794\u17b6\u179b\u17cb\u1794\u17c4\u17c7\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7\u178a\u17c2\u179b Albert Goodwill Spalding \u1794\u17b6\u1793\u1791\u17b6\u1780\u17cb\u1791\u17b6\u1789\u1791\u17c5 Chicago White Stockings?",
+    "answer": "Deacon White, Ross Barnes និង Cal McVey",
+    "question": "តើអ្នកលេងបាល់បោះអ្វីខ្លះដែល Albert Goodwill Spalding បានទាក់ទាញទៅ Chicago White Stockings?",
     "wrong_answers": [
-      "Cap Anson \u1793\u17b7\u1784 Bob Addy",
-      "Babe Ruth \u1793\u17b7\u1784 Jackie Robinson",
-      "William Hulbert \u1793\u17b7\u1784 Abner Doubleday"
+      "Cap Anson និង Bob Addy",
+      "Babe Ruth និង Jackie Robinson",
+      "William Hulbert និង Abner Doubleday"
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e7\u17e6",
-    "question": "\u178f\u17be Chicago White Stockings \u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7\u1787\u17be\u1784\u17af\u1780 National League \u179b\u17be\u1780\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ក្នុងឆ្នាំ ១៨៧៦",
+    "question": "តើ Chicago White Stockings បានឈ្នះជើងឯក National League លើកដំបូងនៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e7\u17e1",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e7\u17e7",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e7\u17e8"
+      "ក្នុងឆ្នាំ ១៨៧១",
+      "ក្នុងឆ្នាំ ១៨៧៧",
+      "ក្នុងឆ្នាំ ១៨៧៨"
     ]
   },
   {
-    "answer": "\u17e4\u17e7",
-    "question": "\u178f\u17be Albert Goodwill Spalding \u1794\u17b6\u1793\u1788\u17d2\u1793\u17c7\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1780\u17b6\u179a\u1794\u17d2\u179a\u1780\u17bd\u178f\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e7\u17e6?",
+    "answer": "៤៧",
+    "question": "តើ Albert Goodwill Spalding បានឈ្នះប៉ុន្មានការប្រកួតក្នុងឆ្នាំ ១៨៧៦?",
     "wrong_answers": [
-      "\u17e2\u17e0\u17e6",
-      "\u17e1\u17e0\u17e0",
-      "\u17e5\u17e0"
+      "២០៦",
+      "១០០",
+      "៥០"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u179f\u17d2\u179a\u17c4\u1798\u178a\u17c3",
-    "question": "\u178f\u17be Albert Goodwill Spalding \u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u1793\u17b7\u1793\u17d2\u1793\u17b6\u1780\u17b6\u179a\u17a2\u17d2\u179c\u17b8\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e7\u17e7?",
+    "answer": "ការប្រើប្រាស់ស្រោមដៃ",
+    "question": "តើ Albert Goodwill Spalding បានបង្កើតនិន្នាការអ្វីក្នុងឆ្នាំ ១៨៧៧?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u1780\u178e\u17d2\u178f\u17b6\u1794\u17cb\u178a\u17c3",
-      "\u1780\u17b6\u179a\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u1794\u17b6\u179b\u17cb",
-      "\u1780\u17b6\u179a\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u1788\u17be\u1794\u17b6\u179b\u17cb"
+      "ការប្រើប្រាស់កណ្តាប់ដៃ",
+      "ការប្រើប្រាស់បាល់",
+      "ការប្រើប្រាស់ឈើបាល់"
     ]
   },
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e7\u17e8",
-    "question": "\u178f\u17be Albert Goodwill Spalding \u1794\u17b6\u1793\u1785\u17bc\u179b\u1793\u17b7\u179c\u178f\u17d2\u178f\u1793\u17cd\u1796\u17b8\u1780\u17b6\u179a\u179b\u17c1\u1784\u1794\u17b6\u179b\u17cb\u1794\u17c4\u17c7\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ក្នុងឆ្នាំ ១៨៧៨",
+    "question": "តើ Albert Goodwill Spalding បានចូលនិវត្តន៍ពីការលេងបាល់បោះនៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e7\u17e1",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e7\u17e6",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e1\u17e5"
+      "ក្នុងឆ្នាំ ១៨៧១",
+      "ក្នុងឆ្នាំ ១៨៧៦",
+      "ក្នុងឆ្នាំ ១៩១៥"
     ]
   },
   {
     "answer": "William Hulbert",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u17b6\u1793\u179a\u17c0\u1794\u1785\u17c6 National League \u1787\u17b6\u1798\u17bd\u1799 Albert Goodwill Spalding?",
+    "question": "តើអ្នកណាជាអ្នកបានរៀបចំ National League ជាមួយ Albert Goodwill Spalding?",
     "wrong_answers": [
       "Abner Doubleday",
       "Jackie Robinson",
@@ -181,7 +181,7 @@
   },
   {
     "answer": "National Association of Professional Base Ball Players",
-    "question": "\u178f\u17be\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b William Hulbert \u1798\u17b7\u1793\u1785\u17bc\u179b\u1785\u17b7\u178f\u17d2\u178f?",
+    "question": "តើអង្គការអ្វីដែល William Hulbert មិនចូលចិត្ត?",
     "wrong_answers": [
       "National League of Baseball Clubs",
       "American League",

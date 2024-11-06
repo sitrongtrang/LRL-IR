@@ -1,47 +1,47 @@
 [
   {
-    "answer": "\u1780\u17b6\u179a\u179a\u17b8\u1780\u179a\u17b6\u179b\u178a\u17b6\u179b\u1793\u17c3\u179f\u17b6\u179f\u1793\u17b6\u1782\u17d2\u179a\u17b9\u179f\u17d2\u178f\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1785\u1780\u17d2\u179a\u1797\u1796\u179a\u17c9\u17bc\u1798\u17c9\u17b6\u17c6\u1784",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17b1\u17d2\u1799\u1794\u1789\u17d2\u1785\u1794\u17cb\u1793\u17c3\u1791\u179f\u17d2\u179f\u1793\u179c\u17b7\u1787\u17d2\u1787\u17b6 Hellenistic \u1793\u17b7\u1784\u1780\u17b6\u179a\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178f\u17be\u1798\u1793\u17c3\u1791\u179f\u17d2\u179f\u1793\u179c\u17b7\u1787\u17d2\u1787\u17b6\u1799\u17bb\u1782\u179f\u1798\u17d0\u1799\u1780\u178e\u17d2\u178f\u17b6\u179b\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1791\u179f\u17d2\u179f\u1793\u179c\u17b7\u1787\u17d2\u1787\u17b6\u179b\u17c4\u1780\u1781\u17b6\u1784\u179b\u17b7\u1785?",
+    "answer": "ការរីករាលដាលនៃសាសនាគ្រឹស្តនៅក្នុងចក្រភពរ៉ូម៉ាំង",
+    "question": "តើអ្វីបានធ្វើឱ្យបញ្ចប់នៃទស្សនវិជ្ជា Hellenistic និងការចាប់ផ្តើមនៃទស្សនវិជ្ជាយុគសម័យកណ្តាលនៅក្នុងទស្សនវិជ្ជាលោកខាងលិច?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u179a\u17b8\u1780\u179a\u17b6\u179b\u178a\u17b6\u179b\u1793\u17c3\u179f\u17b6\u179f\u1793\u17b6\u17a2\u17ca\u17b8\u179f\u17d2\u179b\u17b6\u1798",
-      "\u1780\u17b6\u179a\u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c3\u1791\u179f\u17d2\u179f\u1793\u179c\u17b7\u1787\u17d2\u1787\u17b6\u1796\u17bb\u1791\u17d2\u1792\u179f\u17b6\u179f\u1793\u17b6"
+      "ការរីករាលដាលនៃសាសនាអ៊ីស្លាម",
+      "ការកើតឡើងនៃទស្សនវិជ្ជាពុទ្ធសាសនា"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u179a\u17b8\u1780\u179a\u17b6\u179b\u178a\u17b6\u179b\u1793\u17c3\u179f\u17b6\u179f\u1793\u17b6\u17a2\u17ca\u17b8\u179f\u17d2\u179b\u17b6\u1798\u178f\u17b6\u1798\u179a\u1799\u17c8\u1785\u1780\u17d2\u179a\u1797\u1796\u17a2\u17b6\u179a\u17c9\u17b6\u1794\u17cb",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17b1\u17d2\u1799\u1794\u1789\u17d2\u1785\u1794\u17cb\u1793\u17c3\u1791\u179f\u17d2\u179f\u1793\u179c\u17b7\u1787\u17d2\u1787\u17b6 Old Iranian \u1793\u17b7\u1784\u1780\u17b6\u179a\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178f\u17be\u1798\u1793\u17c3\u1791\u179f\u17d2\u179f\u1793\u179c\u17b7\u1787\u17d2\u1787\u17b6\u17a2\u17ca\u17b8\u179f\u17d2\u179b\u17b6\u1798\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1798\u1787\u17d2\u1788\u17b7\u1798\u1794\u17bc\u1796\u17cc\u17b6?",
+    "answer": "ការរីករាលដាលនៃសាសនាអ៊ីស្លាមតាមរយៈចក្រភពអារ៉ាប់",
+    "question": "តើអ្វីបានធ្វើឱ្យបញ្ចប់នៃទស្សនវិជ្ជា Old Iranian និងការចាប់ផ្តើមនៃទស្សនវិជ្ជាអ៊ីស្លាមដំបូងនៅក្នុងមជ្ឈិមបូព៌ា?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u179a\u17b8\u1780\u179a\u17b6\u179b\u178a\u17b6\u179b\u1793\u17c3\u179f\u17b6\u179f\u1793\u17b6\u1782\u17d2\u179a\u17b9\u179f\u17d2\u178f\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1785\u1780\u17d2\u179a\u1797\u1796\u179a\u17c9\u17bc\u1798\u17c9\u17b6\u17c6\u1784",
-      "\u1780\u17b6\u179a\u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c3\u1791\u179f\u17d2\u179f\u1793\u179c\u17b7\u1787\u17d2\u1787\u17b6\u17a0\u17b7\u178e\u17d2\u178c\u17bc"
+      "ការរីករាលដាលនៃសាសនាគ្រឹស្តនៅក្នុងចក្រភពរ៉ូម៉ាំង",
+      "ការកើតឡើងនៃទស្សនវិជ្ជាហិណ្ឌូ"
     ]
   },
   {
-    "answer": "\u1782\u17c6\u1793\u17b7\u178f\u1791\u179f\u17d2\u179f\u1793\u179c\u17b7\u1787\u17d2\u1787\u17b6\u178a\u17be\u1798",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u1782\u17c6\u1793\u17b7\u178f\u1791\u179f\u17d2\u179f\u1793\u179c\u17b7\u1787\u17d2\u1787\u17b6\u1796\u17b7\u178f\u1794\u17d2\u179a\u17b6\u1780\u178a\u178a\u17c2\u179b\u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179c\u1794\u17d2\u1794\u1792\u1798\u17cc\u1787\u17b6\u1785\u17d2\u179a\u17be\u1793?",
+    "answer": "គំនិតទស្សនវិជ្ជាដើម",
+    "question": "តើអ្វីជាគំនិតទស្សនវិជ្ជាពិតប្រាកដដែលកើតឡើងនៅក្នុងវប្បធម៌ជាច្រើន?",
     "wrong_answers": [
-      "\u1782\u17c6\u1793\u17b7\u178f\u1796\u17b8\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a",
-      "\u1782\u17c6\u1793\u17b7\u178f\u1796\u17b8\u179f\u17b6\u179f\u1793\u17b6"
+      "គំនិតពីប្រវត្តិសាស្ត្រ",
+      "គំនិតពីសាសនា"
     ]
   },
   {
-    "answer": "\u179f\u178f\u179c\u178f\u17d2\u179f\u1791\u17b8 \u17e7 \u1798\u17bb\u1793\u1782.\u179f.",
-    "question": "\u178f\u17be\u1799\u17bb\u1782\u179f\u1798\u17d0\u1799\u17a2\u17d0\u1780\u17d2\u179f\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1782\u17c6\u1793\u17b7\u178f\u1798\u1793\u17bb\u179f\u17d2\u179f\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178f\u17be\u1798\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "សតវត្សទី ៧ មុនគ.ស.",
+    "question": "តើយុគសម័យអ័ក្សនៅក្នុងគំនិតមនុស្សចាប់ផ្តើមនៅពេលណា?",
     "wrong_answers": [
-      "\u179f\u178f\u179c\u178f\u17d2\u179f\u1791\u17b8 \u17e3 \u1798\u17bb\u1793\u1782.\u179f.",
-      "\u179f\u178f\u179c\u178f\u17d2\u179f\u1791\u17b8 \u17e1 \u1798\u17bb\u1793\u1782.\u179f."
+      "សតវត្សទី ៣ មុនគ.ស.",
+      "សតវត្សទី ១ មុនគ.ស."
     ]
   },
   {
-    "answer": "\u179f\u178f\u179c\u178f\u17d2\u179f\u1791\u17b8 \u17e3 \u1798\u17bb\u1793\u1782.\u179f.",
-    "question": "\u178f\u17be\u1799\u17bb\u1782\u179f\u1798\u17d0\u1799\u17a2\u17d0\u1780\u17d2\u179f\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1782\u17c6\u1793\u17b7\u178f\u1798\u1793\u17bb\u179f\u17d2\u179f\u1794\u1789\u17d2\u1785\u1794\u17cb\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "សតវត្សទី ៣ មុនគ.ស.",
+    "question": "តើយុគសម័យអ័ក្សនៅក្នុងគំនិតមនុស្សបញ្ចប់នៅពេលណា?",
     "wrong_answers": [
-      "\u179f\u178f\u179c\u178f\u17d2\u179f\u1791\u17b8 \u17e7 \u1798\u17bb\u1793\u1782.\u179f.",
-      "\u179f\u178f\u179c\u178f\u17d2\u179f\u1791\u17b8 \u17e1 \u1798\u17bb\u1793\u1782.\u179f."
+      "សតវត្សទី ៧ មុនគ.ស.",
+      "សតវត្សទី ១ មុនគ.ស."
     ]
   },
   {
     "answer": "Thales",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798\u179f\u17b6\u179b\u17b6 Milesian?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោមសាលា Milesian?",
     "wrong_answers": [
       "Anaximander",
       "Anaximenes"
@@ -49,7 +49,7 @@
   },
   {
     "answer": "Anaximander",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798\u179f\u17b6\u179b\u17b6 Milesian?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោមសាលា Milesian?",
     "wrong_answers": [
       "Thales",
       "Anaximenes"
@@ -57,7 +57,7 @@
   },
   {
     "answer": "Anaximenes of Miletus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798\u179f\u17b6\u179b\u17b6 Milesian?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោមសាលា Milesian?",
     "wrong_answers": [
       "Thales",
       "Anaximander"
@@ -65,7 +65,7 @@
   },
   {
     "answer": "Pythagoras",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Pythagoras?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Pythagoras?",
     "wrong_answers": [
       "Philolaus",
       "Alcmaeon of Croton"
@@ -73,7 +73,7 @@
   },
   {
     "answer": "Philolaus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Pythagoras?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Pythagoras?",
     "wrong_answers": [
       "Pythagoras",
       "Alcmaeon of Croton"
@@ -81,7 +81,7 @@
   },
   {
     "answer": "Alcmaeon of Croton",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Pythagoras?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Pythagoras?",
     "wrong_answers": [
       "Pythagoras",
       "Philolaus"
@@ -89,7 +89,7 @@
   },
   {
     "answer": "Archytas",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Pythagoras?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Pythagoras?",
     "wrong_answers": [
       "Pythagoras",
       "Philolaus"
@@ -97,7 +97,7 @@
   },
   {
     "answer": "Heraclitus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Pythagoras?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Pythagoras?",
     "wrong_answers": [
       "Xenophanes",
       "Parmenides"
@@ -105,7 +105,7 @@
   },
   {
     "answer": "Xenophanes",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Eleatic School?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Eleatic School?",
     "wrong_answers": [
       "Parmenides",
       "Zeno of Elea"
@@ -113,7 +113,7 @@
   },
   {
     "answer": "Parmenides",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Eleatic School?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Eleatic School?",
     "wrong_answers": [
       "Xenophanes",
       "Zeno of Elea"
@@ -121,7 +121,7 @@
   },
   {
     "answer": "Zeno of Elea",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Eleatic School?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Eleatic School?",
     "wrong_answers": [
       "Xenophanes",
       "Parmenides"
@@ -129,7 +129,7 @@
   },
   {
     "answer": "Melissus of Samos",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Eleatic School?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Eleatic School?",
     "wrong_answers": [
       "Xenophanes",
       "Parmenides"
@@ -137,7 +137,7 @@
   },
   {
     "answer": "Empedocles",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Pluralists?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Pluralists?",
     "wrong_answers": [
       "Anaxagoras",
       "Leucippus"
@@ -145,7 +145,7 @@
   },
   {
     "answer": "Anaxagoras",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Pluralists?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Pluralists?",
     "wrong_answers": [
       "Empedocles",
       "Leucippus"
@@ -153,7 +153,7 @@
   },
   {
     "answer": "Leucippus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Atomists?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Atomists?",
     "wrong_answers": [
       "Democritus",
       "Metrodorus of Chios"
@@ -161,7 +161,7 @@
   },
   {
     "answer": "Democritus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Atomists?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Atomists?",
     "wrong_answers": [
       "Leucippus",
       "Metrodorus of Chios"
@@ -169,7 +169,7 @@
   },
   {
     "answer": "Metrodorus of Chios",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Atomists?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Atomists?",
     "wrong_answers": [
       "Leucippus",
       "Democritus"
@@ -177,7 +177,7 @@
   },
   {
     "answer": "Protagoras",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Sophists?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Sophists?",
     "wrong_answers": [
       "Gorgias",
       "Antiphon"
@@ -185,7 +185,7 @@
   },
   {
     "answer": "Gorgias",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Sophists?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Sophists?",
     "wrong_answers": [
       "Protagoras",
       "Antiphon"
@@ -193,7 +193,7 @@
   },
   {
     "answer": "Antiphon",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Sophists?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Sophists?",
     "wrong_answers": [
       "Protagoras",
       "Gorgias"
@@ -201,7 +201,7 @@
   },
   {
     "answer": "Prodicus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Sophists?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Sophists?",
     "wrong_answers": [
       "Hippias",
       "Thrasymachus"
@@ -209,7 +209,7 @@
   },
   {
     "answer": "Hippias",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Sophists?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Sophists?",
     "wrong_answers": [
       "Prodicus",
       "Thrasymachus"
@@ -217,7 +217,7 @@
   },
   {
     "answer": "Thrasymachus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Sophists?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Sophists?",
     "wrong_answers": [
       "Prodicus",
       "Hippias"
@@ -225,7 +225,7 @@
   },
   {
     "answer": "Socrates",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Classical Greek philosophers?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Classical Greek philosophers?",
     "wrong_answers": [
       "Euclid of Megara",
       "Antisthenes"
@@ -233,7 +233,7 @@
   },
   {
     "answer": "Euclid of Megara",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Classical Greek philosophers?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Classical Greek philosophers?",
     "wrong_answers": [
       "Socrates",
       "Antisthenes"
@@ -241,7 +241,7 @@
   },
   {
     "answer": "Antisthenes",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Classical Greek philosophers?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Classical Greek philosophers?",
     "wrong_answers": [
       "Socrates",
       "Euclid of Megara"
@@ -249,7 +249,7 @@
   },
   {
     "answer": "Aristippus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Classical Greek philosophers?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Classical Greek philosophers?",
     "wrong_answers": [
       "Socrates",
       "Euclid of Megara"
@@ -257,7 +257,7 @@
   },
   {
     "answer": "Plato",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Classical Greek philosophers?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Classical Greek philosophers?",
     "wrong_answers": [
       "Speusippus",
       "Diogenes of Sinope"
@@ -265,7 +265,7 @@
   },
   {
     "answer": "Speusippus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Classical Greek philosophers?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Classical Greek philosophers?",
     "wrong_answers": [
       "Plato",
       "Diogenes of Sinope"
@@ -273,7 +273,7 @@
   },
   {
     "answer": "Diogenes of Sinope",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Classical Greek philosophers?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Classical Greek philosophers?",
     "wrong_answers": [
       "Plato",
       "Speusippus"
@@ -281,7 +281,7 @@
   },
   {
     "answer": "Xenocrates",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Classical Greek philosophers?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Classical Greek philosophers?",
     "wrong_answers": [
       "Plato",
       "Speusippus"
@@ -289,7 +289,7 @@
   },
   {
     "answer": "Aristotle",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Classical Greek philosophers?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Classical Greek philosophers?",
     "wrong_answers": [
       "Stilpo",
       "Theophrastus"
@@ -297,7 +297,7 @@
   },
   {
     "answer": "Stilpo",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Classical Greek philosophers?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Classical Greek philosophers?",
     "wrong_answers": [
       "Aristotle",
       "Theophrastus"
@@ -305,7 +305,7 @@
   },
   {
     "answer": "Theophrastus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Classical Greek philosophers?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Classical Greek philosophers?",
     "wrong_answers": [
       "Aristotle",
       "Stilpo"
@@ -313,7 +313,7 @@
   },
   {
     "answer": "Pyrrho",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Epicurus",
       "Metrodorus of Lampsacus"
@@ -321,7 +321,7 @@
   },
   {
     "answer": "Epicurus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Pyrrho",
       "Metrodorus of Lampsacus"
@@ -329,7 +329,7 @@
   },
   {
     "answer": "Metrodorus of Lampsacus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Pyrrho",
       "Epicurus"
@@ -337,7 +337,7 @@
   },
   {
     "answer": "Zeno of Citium",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Cleanthes",
       "Timon"
@@ -345,7 +345,7 @@
   },
   {
     "answer": "Cleanthes",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Zeno of Citium",
       "Timon"
@@ -353,7 +353,7 @@
   },
   {
     "answer": "Timon",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Zeno of Citium",
       "Cleanthes"
@@ -361,7 +361,7 @@
   },
   {
     "answer": "Arcesilaus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Menippus",
       "Archimedes"
@@ -369,7 +369,7 @@
   },
   {
     "answer": "Menippus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Arcesilaus",
       "Archimedes"
@@ -377,7 +377,7 @@
   },
   {
     "answer": "Archimedes",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Arcesilaus",
       "Menippus"
@@ -385,7 +385,7 @@
   },
   {
     "answer": "Chrysippus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Carneades",
       "Clitomachus"
@@ -393,7 +393,7 @@
   },
   {
     "answer": "Carneades",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Chrysippus",
       "Clitomachus"
@@ -401,7 +401,7 @@
   },
   {
     "answer": "Clitomachus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Chrysippus",
       "Carneades"
@@ -409,7 +409,7 @@
   },
   {
     "answer": "Metrodorus of Stratonicea",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Philo of Larissa",
       "Posidonius"
@@ -417,7 +417,7 @@
   },
   {
     "answer": "Philo of Larissa",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Metrodorus of Stratonicea",
       "Posidonius"
@@ -425,7 +425,7 @@
   },
   {
     "answer": "Posidonius",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Metrodorus of Stratonicea",
       "Philo of Larissa"
@@ -433,7 +433,7 @@
   },
   {
     "answer": "Antiochus of Ascalon",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Aenesidemus",
       "Agrippa"
@@ -441,7 +441,7 @@
   },
   {
     "answer": "Aenesidemus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Antiochus of Ascalon",
       "Agrippa"
@@ -449,7 +449,7 @@
   },
   {
     "answer": "Agrippa",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Hellenistic philosophy?",
     "wrong_answers": [
       "Antiochus of Ascalon",
       "Aenesidemus"
@@ -457,7 +457,7 @@
   },
   {
     "answer": "Academic skepticism",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u179f\u17b6\u179b\u17b6\u1782\u17c6\u1793\u17b7\u178f\u1798\u17bd\u1799\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic schools of thought?",
+    "question": "តើអ្វីជាសាលាគំនិតមួយក្នុងចំណោម Hellenistic schools of thought?",
     "wrong_answers": [
       "Cynicism",
       "Cyrenaicism"
@@ -465,7 +465,7 @@
   },
   {
     "answer": "Cynicism",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u179f\u17b6\u179b\u17b6\u1782\u17c6\u1793\u17b7\u178f\u1798\u17bd\u1799\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic schools of thought?",
+    "question": "តើអ្វីជាសាលាគំនិតមួយក្នុងចំណោម Hellenistic schools of thought?",
     "wrong_answers": [
       "Academic skepticism",
       "Cyrenaicism"
@@ -473,7 +473,7 @@
   },
   {
     "answer": "Cyrenaicism",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u179f\u17b6\u179b\u17b6\u1782\u17c6\u1793\u17b7\u178f\u1798\u17bd\u1799\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic schools of thought?",
+    "question": "តើអ្វីជាសាលាគំនិតមួយក្នុងចំណោម Hellenistic schools of thought?",
     "wrong_answers": [
       "Academic skepticism",
       "Cynicism"
@@ -481,7 +481,7 @@
   },
   {
     "answer": "Eclecticism",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u179f\u17b6\u179b\u17b6\u1782\u17c6\u1793\u17b7\u178f\u1798\u17bd\u1799\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic schools of thought?",
+    "question": "តើអ្វីជាសាលាគំនិតមួយក្នុងចំណោម Hellenistic schools of thought?",
     "wrong_answers": [
       "Epicureanism",
       "Middle Platonism"
@@ -489,7 +489,7 @@
   },
   {
     "answer": "Epicureanism",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u179f\u17b6\u179b\u17b6\u1782\u17c6\u1793\u17b7\u178f\u1798\u17bd\u1799\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic schools of thought?",
+    "question": "តើអ្វីជាសាលាគំនិតមួយក្នុងចំណោម Hellenistic schools of thought?",
     "wrong_answers": [
       "Eclecticism",
       "Middle Platonism"
@@ -497,7 +497,7 @@
   },
   {
     "answer": "Middle Platonism",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u179f\u17b6\u179b\u17b6\u1782\u17c6\u1793\u17b7\u178f\u1798\u17bd\u1799\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic schools of thought?",
+    "question": "តើអ្វីជាសាលាគំនិតមួយក្នុងចំណោម Hellenistic schools of thought?",
     "wrong_answers": [
       "Eclecticism",
       "Epicureanism"
@@ -505,7 +505,7 @@
   },
   {
     "answer": "Neo-Platonism",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u179f\u17b6\u179b\u17b6\u1782\u17c6\u1793\u17b7\u178f\u1798\u17bd\u1799\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic schools of thought?",
+    "question": "តើអ្វីជាសាលាគំនិតមួយក្នុងចំណោម Hellenistic schools of thought?",
     "wrong_answers": [
       "Neopythagoreanism",
       "Peripatetic School"
@@ -513,7 +513,7 @@
   },
   {
     "answer": "Neopythagoreanism",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u179f\u17b6\u179b\u17b6\u1782\u17c6\u1793\u17b7\u178f\u1798\u17bd\u1799\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic schools of thought?",
+    "question": "តើអ្វីជាសាលាគំនិតមួយក្នុងចំណោម Hellenistic schools of thought?",
     "wrong_answers": [
       "Neo-Platonism",
       "Peripatetic School"
@@ -521,7 +521,7 @@
   },
   {
     "answer": "Peripatetic School",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u179f\u17b6\u179b\u17b6\u1782\u17c6\u1793\u17b7\u178f\u1798\u17bd\u1799\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic schools of thought?",
+    "question": "តើអ្វីជាសាលាគំនិតមួយក្នុងចំណោម Hellenistic schools of thought?",
     "wrong_answers": [
       "Neo-Platonism",
       "Neopythagoreanism"
@@ -529,7 +529,7 @@
   },
   {
     "answer": "Pyrrhonism",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u179f\u17b6\u179b\u17b6\u1782\u17c6\u1793\u17b7\u178f\u1798\u17bd\u1799\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic schools of thought?",
+    "question": "តើអ្វីជាសាលាគំនិតមួយក្នុងចំណោម Hellenistic schools of thought?",
     "wrong_answers": [
       "Stoicism",
       "Sophism"
@@ -537,7 +537,7 @@
   },
   {
     "answer": "Stoicism",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u179f\u17b6\u179b\u17b6\u1782\u17c6\u1793\u17b7\u178f\u1798\u17bd\u1799\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic schools of thought?",
+    "question": "តើអ្វីជាសាលាគំនិតមួយក្នុងចំណោម Hellenistic schools of thought?",
     "wrong_answers": [
       "Pyrrhonism",
       "Sophism"
@@ -545,7 +545,7 @@
   },
   {
     "answer": "Sophism",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u179f\u17b6\u179b\u17b6\u1782\u17c6\u1793\u17b7\u178f\u1798\u17bd\u1799\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Hellenistic schools of thought?",
+    "question": "តើអ្វីជាសាលាគំនិតមួយក្នុងចំណោម Hellenistic schools of thought?",
     "wrong_answers": [
       "Pyrrhonism",
       "Stoicism"
@@ -553,7 +553,7 @@
   },
   {
     "answer": "Cicero",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Lucretius",
       "Seneca"
@@ -561,7 +561,7 @@
   },
   {
     "answer": "Lucretius",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Cicero",
       "Seneca"
@@ -569,7 +569,7 @@
   },
   {
     "answer": "Seneca",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Cicero",
       "Lucretius"
@@ -577,7 +577,7 @@
   },
   {
     "answer": "Musonius Rufus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Plutarch",
       "Epictetus"
@@ -585,7 +585,7 @@
   },
   {
     "answer": "Plutarch",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Musonius Rufus",
       "Epictetus"
@@ -593,7 +593,7 @@
   },
   {
     "answer": "Epictetus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Musonius Rufus",
       "Plutarch"
@@ -601,7 +601,7 @@
   },
   {
     "answer": "Favorinus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Marcus Aurelius",
       "Clement of Alexandria"
@@ -609,7 +609,7 @@
   },
   {
     "answer": "Marcus Aurelius",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Favorinus",
       "Clement of Alexandria"
@@ -617,7 +617,7 @@
   },
   {
     "answer": "Clement of Alexandria",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Favorinus",
       "Marcus Aurelius"
@@ -625,7 +625,7 @@
   },
   {
     "answer": "Alcinous",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Sextus Empiricus",
       "Alexander of Aphrodisias"
@@ -633,7 +633,7 @@
   },
   {
     "answer": "Sextus Empiricus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Alcinous",
       "Alexander of Aphrodisias"
@@ -641,7 +641,7 @@
   },
   {
     "answer": "Alexander of Aphrodisias",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Alcinous",
       "Sextus Empiricus"
@@ -649,7 +649,7 @@
   },
   {
     "answer": "Ammonius Saccas",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Plotinus",
       "Porphyry"
@@ -657,7 +657,7 @@
   },
   {
     "answer": "Plotinus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Ammonius Saccas",
       "Porphyry"
@@ -665,7 +665,7 @@
   },
   {
     "answer": "Porphyry",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Ammonius Saccas",
       "Plotinus"
@@ -673,7 +673,7 @@
   },
   {
     "answer": "Iamblichus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Themistius",
       "Ambrose"
@@ -681,7 +681,7 @@
   },
   {
     "answer": "Themistius",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Iamblichus",
       "Ambrose"
@@ -689,7 +689,7 @@
   },
   {
     "answer": "Ambrose",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Iamblichus",
       "Themistius"
@@ -697,7 +697,7 @@
   },
   {
     "answer": "Augustine of Hippo",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Proclus",
       "Damascius"
@@ -705,7 +705,7 @@
   },
   {
     "answer": "Proclus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Augustine of Hippo",
       "Damascius"
@@ -713,7 +713,7 @@
   },
   {
     "answer": "Damascius",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Augustine of Hippo",
       "Proclus"
@@ -721,7 +721,7 @@
   },
   {
     "answer": "Boethius",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Simplicius of Cilicia",
       "John Philoponus"
@@ -729,7 +729,7 @@
   },
   {
     "answer": "Simplicius of Cilicia",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Boethius",
       "John Philoponus"
@@ -737,7 +737,7 @@
   },
   {
     "answer": "John Philoponus",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1794\u17bb\u1782\u17d2\u1782\u179b\u1798\u17d2\u1793\u17b6\u1780\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1785\u17c6\u178e\u17c4\u1798 Early Roman and Christian philosophy?",
+    "question": "តើអ្នកណាជាបុគ្គលម្នាក់ក្នុងចំណោម Early Roman and Christian philosophy?",
     "wrong_answers": [
       "Boethius",
       "Simplicius of Cilicia"

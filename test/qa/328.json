@@ -1,15 +1,15 @@
 [
   {
-    "answer": "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e3\u17e3\u17e6",
-    "question": "\u178f\u17be Francesco Petrarca \u1794\u17b6\u1793\u17a1\u17be\u1784\u1797\u17d2\u1793\u17c6 Mont Ventoux \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ក្នុងឆ្នាំ ១៣៣៦",
+    "question": "តើ Francesco Petrarca បានឡើងភ្នំ Mont Ventoux នៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e4\u17e7\u17e8",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e5\u17e6\u17e4"
+      "ក្នុងឆ្នាំ ១៤៧៨",
+      "ក្នុងឆ្នាំ ១៥៦៤"
     ]
   },
   {
     "answer": "Giuliano de' Medici",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179f\u1798\u17d2\u179b\u17b6\u1794\u17cb\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u179c\u17b6\u1799\u1794\u17d2\u179a\u17a0\u17b6\u179a\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a Pazzi \u179b\u17be Lorenzo de' Medici?",
+    "question": "តើអ្នកណាត្រូវបានសម្លាប់ក្នុងការវាយប្រហារគ្រួសារ Pazzi លើ Lorenzo de' Medici?",
     "wrong_answers": [
       "Lorenzo de' Medici",
       "Francesco Petrarca"
@@ -17,7 +17,7 @@
   },
   {
     "answer": "Stratford-upon-Avon, Warwickshire, England",
-    "question": "\u178f\u17be William Shakespeare \u1794\u17b6\u1793\u1791\u1791\u17bd\u179b\u1794\u17bb\u178e\u17d2\u1799\u1787\u17d2\u179a\u1798\u17bb\u1787\u1791\u17b9\u1780\u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើ William Shakespeare បានទទួលបុណ្យជ្រមុជទឹកនៅឯណា?",
     "wrong_answers": [
       "Florence, Italy",
       "Tabriz, Iran"
@@ -25,7 +25,7 @@
   },
   {
     "answer": "Cape Henry",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178f\u17b6\u17c6\u1784\u1791\u17b8\u179b\u17c6\u1793\u17c5\u1793\u17c3\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793 Virginia \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u178a\u17c6\u178e\u17be\u179a\u1798\u1780\u178a\u179b\u17cb\u1791\u17b8\u1793\u17c1\u17c7?",
+    "question": "តើអ្នកតាំងទីលំនៅនៃក្រុមហ៊ុន Virginia បានធ្វើដំណើរមកដល់ទីនេះ?",
     "wrong_answers": [
       "Tabriz, Iran",
       "Beaumont, France"
@@ -33,7 +33,7 @@
   },
   {
     "answer": "Tabriz",
-    "question": "\u178f\u17be\u179a\u1789\u17d2\u1787\u17bd\u1799\u178a\u17b8\u1794\u17b6\u1793\u1794\u17c6\u1795\u17d2\u179b\u17b6\u1789\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1793\u17c1\u17c7\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e7\u17e2\u17e1?",
+    "question": "តើរញ្ជួយដីបានបំផ្លាញទីក្រុងនេះនៅក្នុងឆ្នាំ ១៧២១?",
     "wrong_answers": [
       "Florence",
       "Stratford-upon-Avon"
@@ -41,7 +41,7 @@
   },
   {
     "answer": "Sybil Ludington",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1787\u17b7\u17c7\u179f\u17c1\u17c7\u178a\u17be\u1798\u17d2\u1794\u17b8\u1787\u17bc\u1793\u178a\u17c6\u178e\u17b9\u1784\u178a\u179b\u17cb\u1780\u1784\u1791\u17d0\u1796\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u17a2\u17c6\u1796\u17b8\u1780\u17b6\u179a\u1798\u1780\u178a\u179b\u17cb\u1793\u17c3\u1780\u1784\u1791\u17d0\u1796\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f?",
+    "question": "តើអ្នកណាបានជិះសេះដើម្បីជូនដំណឹងដល់កងទ័ពអាមេរិកអំពីការមកដល់នៃកងទ័ពអង់គ្លេស?",
     "wrong_answers": [
       "William Shakespeare",
       "Francesco Petrarca"
@@ -49,7 +49,7 @@
   },
   {
     "answer": "Beaumont",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1794\u17d2\u179a\u1799\u17bb\u1791\u17d2\u1792\u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e7\u17e9\u17e4 \u1780\u17d2\u1793\u17bb\u1784\u17a2\u17c6\u17a1\u17bb\u1784\u1796\u17c1\u179b\u1799\u17bb\u1791\u17d2\u1792\u1793\u17b6\u1780\u17b6\u179a Flanders?",
+    "question": "តើការប្រយុទ្ធកើតឡើងនៅក្នុងឆ្នាំ ១៧៩៤ ក្នុងអំឡុងពេលយុទ្ធនាការ Flanders?",
     "wrong_answers": [
       "Tabriz",
       "Cape Henry"
@@ -57,7 +57,7 @@
   },
   {
     "answer": "Napoleon Bonaparte",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1785\u17bb\u17c7\u17a0\u178f\u17d2\u1790\u179b\u17c1\u1781\u17b6\u179b\u17be\u1780\u17b6\u179a\u17a2\u1797\u17d0\u1799\u1791\u17c4\u179f\u1791\u17bc\u1791\u17c5\u178a\u17be\u1798\u17d2\u1794\u17b8\u17a2\u1793\u17bb\u1789\u17d2\u1789\u17b6\u178f\u17b1\u17d2\u1799\u1787\u1793\u1797\u17c0\u179f\u1781\u17d2\u179b\u17bd\u1793\u1798\u1780\u179c\u17b7\u1789?",
+    "question": "តើអ្នកណាបានចុះហត្ថលេខាលើការអភ័យទោសទូទៅដើម្បីអនុញ្ញាតឱ្យជនភៀសខ្លួនមកវិញ?",
     "wrong_answers": [
       "William Shakespeare",
       "Sybil Ludington"
@@ -65,7 +65,7 @@
   },
   {
     "answer": "L'Aigle, France",
-    "question": "\u178f\u17be\u1794\u17c6\u178e\u17c2\u1780\u1795\u17d2\u1780\u17b6\u1799\u179a\u17c7\u179a\u17b6\u1794\u17cb\u1796\u17b6\u1793\u17cb\u1794\u17b6\u1793\u1792\u17d2\u179b\u17b6\u1780\u17cb\u1796\u17b8\u179b\u17be\u1798\u17c1\u1783\u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើបំណែកផ្កាយរះរាប់ពាន់បានធ្លាក់ពីលើមេឃនៅឯណា?",
     "wrong_answers": [
       "Tabriz, Iran",
       "Beaumont, France"
@@ -73,7 +73,7 @@
   },
   {
     "answer": "Derne",
-    "question": "\u178f\u17be\u1780\u1784\u1791\u17d0\u1796\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1799\u1780\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1793\u17c1\u17c7\u1780\u17d2\u1793\u17bb\u1784\u17a2\u17c6\u17a1\u17bb\u1784\u1796\u17c1\u179b\u179f\u1784\u17d2\u1782\u17d2\u179a\u17b6\u1798 Barbary?",
+    "question": "តើកងទ័ពអាមេរិកបានចាប់យកទីក្រុងនេះក្នុងអំឡុងពេលសង្គ្រាម Barbary?",
     "wrong_answers": [
       "Tabriz, Iran",
       "Beaumont, France"
@@ -81,47 +81,47 @@
   },
   {
     "answer": "John Wilkes Booth",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179f\u1798\u17d2\u179b\u17b6\u1794\u17cb\u178a\u17c4\u1799\u1780\u1784\u1791\u17d0\u1796\u179f\u17c1\u17c7\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e6\u17e5?",
+    "question": "តើអ្នកណាត្រូវបានសម្លាប់ដោយកងទ័ពសេះនៅក្នុងឆ្នាំ ១៨៦៥?",
     "wrong_answers": [
       "Lorenzo de' Medici",
       "Francesco Petrarca"
     ]
   },
   {
-    "answer": "Ottawa \u1793\u17b7\u1784 Hull",
-    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17c6\u1795\u17d2\u179b\u17b6\u1789\u178a\u17c4\u1799\u1797\u17d2\u179b\u17be\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e0\u17e0?",
+    "answer": "Ottawa និង Hull",
+    "question": "តើទីក្រុងណាត្រូវបានបំផ្លាញដោយភ្លើងនៅក្នុងឆ្នាំ ១៩០០?",
     "wrong_answers": [
       "Tabriz, Iran",
       "Beaumont, France"
     ]
   },
   {
-    "answer": "Atl\u00e9tico Madrid",
-    "question": "\u178f\u17be\u1780\u17d2\u179b\u17b9\u1794\u1794\u17b6\u179b\u17cb\u1791\u17b6\u178f\u17cb\u1793\u17c1\u17c7\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e9\u17e0\u17e3?",
+    "answer": "Atlético Madrid",
+    "question": "តើក្លឹបបាល់ទាត់នេះត្រូវបានបង្កើតឡើងនៅក្នុងឆ្នាំ ១៩០៣?",
     "wrong_answers": [
       "Virginia Company",
       "Royal Blue"
     ]
   },
   {
-    "answer": "\u179f\u1784\u17d2\u1782\u17d2\u179a\u17b6\u1798\u179b\u17c4\u1780\u179b\u17be\u1780\u1791\u17b8 \u17e1",
-    "question": "\u178f\u17be\u17a2\u17ca\u17b8\u178f\u17b6\u179b\u17b8\u1794\u17b6\u1793\u1785\u17bb\u17c7\u17a0\u178f\u17d2\u1790\u179b\u17c1\u1781\u17b6\u179b\u17be\u1780\u17b7\u1785\u17d2\u1785\u1796\u17d2\u179a\u1798\u1796\u17d2\u179a\u17c0\u1784\u1793\u17c3\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u17a1\u17bb\u1784\u178a\u17cd\u1780\u17d2\u1793\u17bb\u1784\u17a2\u17c6\u17a1\u17bb\u1784\u1796\u17c1\u179b\u1793\u17c1\u17c7?",
+    "answer": "សង្គ្រាមលោកលើកទី ១",
+    "question": "តើអ៊ីតាលីបានចុះហត្ថលេខាលើកិច្ចព្រមព្រៀងនៃទីក្រុងឡុងដ៍ក្នុងអំឡុងពេលនេះ?",
     "wrong_answers": [
-      "\u179f\u1784\u17d2\u1782\u17d2\u179a\u17b6\u1798\u179b\u17c4\u1780\u179b\u17be\u1780\u1791\u17b8 \u17e2",
-      "\u179f\u1784\u17d2\u1782\u17d2\u179a\u17b6\u1798 Barbary"
+      "សង្គ្រាមលោកលើកទី ២",
+      "សង្គ្រាម Barbary"
     ]
   },
   {
     "answer": "Easter Rising",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1794\u17d2\u179a\u1799\u17bb\u1791\u17d2\u1792\u1793\u17c5\u179b\u17be\u179f\u17d2\u1796\u17b6\u1793 Mount Street \u1794\u17b6\u1793\u1780\u17be\u178f\u17a1\u17be\u1784\u1780\u17d2\u1793\u17bb\u1784\u17a2\u17c6\u17a1\u17bb\u1784\u1796\u17c1\u179b\u1793\u17c1\u17c7?",
+    "question": "តើការប្រយុទ្ធនៅលើស្ពាន Mount Street បានកើតឡើងក្នុងអំឡុងពេលនេះ?",
     "wrong_answers": [
-      "\u179f\u1784\u17d2\u1782\u17d2\u179a\u17b6\u1798\u179b\u17c4\u1780\u179b\u17be\u1780\u1791\u17b8 \u17e2",
-      "\u179f\u1784\u17d2\u1782\u17d2\u179a\u17b6\u1798 Barbary"
+      "សង្គ្រាមលោកលើកទី ២",
+      "សង្គ្រាម Barbary"
     ]
   },
   {
     "answer": "Antwerp Games",
-    "question": "\u178f\u17be\u17a0\u17bb\u1780\u1782\u17b8\u179b\u17be\u1791\u17b9\u1780\u1780\u1780\u1794\u17b6\u1793\u1794\u1784\u17d2\u17a0\u17b6\u1789\u1781\u17d2\u179b\u17bd\u1793\u1787\u17b6\u179b\u17be\u1780\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1796\u17d2\u179a\u17b9\u178f\u17d2\u178f\u17b7\u1780\u17b6\u179a\u178e\u17cd\u17a2\u17bc\u17a1\u17b6\u17c6\u1796\u17b7\u1780\u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើហុកគីលើទឹកកកបានបង្ហាញខ្លួនជាលើកដំបូងនៅក្នុងព្រឹត្តិការណ៍អូឡាំពិកនៅឯណា?",
     "wrong_answers": [
       "Florence, Italy",
       "Tabriz, Iran"
@@ -129,7 +129,7 @@
   },
   {
     "answer": "Lady Elizabeth Bowes-Lyon",
-    "question": "\u178f\u17be Duke of York \u1794\u17b6\u1793\u179a\u17c0\u1794\u1780\u17b6\u179a\u1787\u17b6\u1798\u17bd\u1799\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើ Duke of York បានរៀបការជាមួយអ្នកណា?",
     "wrong_answers": [
       "Sybil Ludington",
       "Queen Victoria"
@@ -137,7 +137,7 @@
   },
   {
     "answer": "Paul von Hindenburg",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1799\u1780\u1788\u17d2\u1793\u17c7 Wilhelm Marx \u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u1794\u17c4\u17c7\u1786\u17d2\u1793\u17c4\u178f\u1794\u17d2\u179a\u1792\u17b6\u1793\u17b6\u1792\u17b7\u1794\u178f\u17b8\u17a2\u17b6\u179b\u17d2\u179b\u17ba\u1798\u17c9\u1784\u17cb?",
+    "question": "តើអ្នកណាបានយកឈ្នះ Wilhelm Marx ក្នុងការបោះឆ្នោតប្រធានាធិបតីអាល្លឺម៉ង់?",
     "wrong_answers": [
       "Napoleon Bonaparte",
       "Wilhelm II"
@@ -145,7 +145,7 @@
   },
   {
     "answer": "Gestapo",
-    "question": "\u178f\u17be\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u1793\u17c1\u17c7\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u17a1\u17be\u1784\u178a\u17c4\u1799 Hermann G\u00f6ring?",
+    "question": "តើអង្គការនេះត្រូវបានបង្កើតឡើងដោយ Hermann Göring?",
     "wrong_answers": [
       "Royal Blue",
       "Virginia Company"
@@ -153,7 +153,7 @@
   },
   {
     "answer": "Guernica",
-    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1793\u17c1\u17c7\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1791\u1798\u17d2\u179b\u17b6\u1780\u17cb\u1782\u17d2\u179a\u17b6\u1794\u17cb\u1794\u17c2\u1780\u178a\u17c4\u1799 Luftwaffe \u17a2\u17b6\u179b\u17d2\u179b\u17ba\u1798\u17c9\u1784\u17cb?",
+    "question": "តើទីក្រុងនេះត្រូវបានទម្លាក់គ្រាប់បែកដោយ Luftwaffe អាល្លឺម៉ង់?",
     "wrong_answers": [
       "Tabriz, Iran",
       "Beaumont, France"
@@ -161,7 +161,7 @@
   },
   {
     "answer": "Benxihu Colliery",
-    "question": "\u178f\u17be\u1782\u17d2\u179a\u17c4\u17c7\u1790\u17d2\u1793\u17b6\u1780\u17cb\u179a\u17c9\u17c2\u1793\u17c1\u17c7\u1794\u17b6\u1793\u179f\u1798\u17d2\u179b\u17b6\u1794\u17cb\u1780\u1798\u17d2\u1798\u1780\u179a\u179a\u17c9\u17c2\u1785\u17b7\u1793 \u17e1\u17e5\u17e4\u17e9 \u1793\u17b6\u1780\u17cb?",
+    "question": "តើគ្រោះថ្នាក់រ៉ែនេះបានសម្លាប់កម្មកររ៉ែចិន ១៥៤៩ នាក់?",
     "wrong_answers": [
       "Virginia Company",
       "Royal Blue"
@@ -169,7 +169,7 @@
   },
   {
     "answer": "Uppsala",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1794\u17c7\u1794\u17c4\u179a\u1794\u17bb\u178e\u17d2\u1799\u17a2\u17ca\u17b8\u179f\u17d2\u1791\u17be\u179a\u1794\u17b6\u1793\u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើការបះបោរបុណ្យអ៊ីស្ទើរបានកើតឡើងនៅឯណា?",
     "wrong_answers": [
       "Tabriz, Iran",
       "Beaumont, France"
@@ -177,7 +177,7 @@
   },
   {
     "answer": "Georgios Papandreou",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u1794\u17d2\u179a\u1798\u17bb\u1781\u179a\u178a\u17d2\u178b\u17b6\u1797\u17b7\u1794\u17b6\u179b\u1780\u17d2\u179a\u17b7\u1780\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u1793\u17b7\u179a\u1791\u17c1\u179f?",
+    "question": "តើអ្នកណាក្លាយជាប្រមុខរដ្ឋាភិបាលក្រិកនៅក្នុងការនិរទេស?",
     "wrong_answers": [
       "Napoleon Bonaparte",
       "Syngman Rhee"
@@ -185,7 +185,7 @@
   },
   {
     "answer": "Heinrich Kreipe",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1781\u17d2\u179b\u17bd\u1793\u178a\u17c4\u1799\u1780\u1784\u1791\u17d0\u1796\u1794\u1789\u17d2\u1787\u17b6 Allied?",
+    "question": "តើអ្នកណាត្រូវបានចាប់ខ្លួនដោយកងទ័ពបញ្ជា Allied?",
     "wrong_answers": [
       "John Wilkes Booth",
       "Lorenzo de' Medici"
@@ -193,7 +193,7 @@
   },
   {
     "answer": "Bautzen",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1794\u17d2\u179a\u1799\u17bb\u1791\u17d2\u1792\u1793\u17c1\u17c7\u1787\u17b6\u1780\u17b6\u179a\u179c\u17b6\u1799\u179b\u17bb\u1780\u179a\u1790\u1780\u17d2\u179a\u17c4\u17c7\u17a2\u17b6\u179b\u17d2\u179b\u17ba\u1798\u17c9\u1784\u17cb\u178a\u17c2\u179b\u1791\u1791\u17bd\u179b\u1794\u17b6\u1793\u1787\u17c4\u1782\u1787\u17d0\u1799?",
+    "question": "តើការប្រយុទ្ធនេះជាការវាយលុករថក្រោះអាល្លឺម៉ង់ដែលទទួលបានជោគជ័យ?",
     "wrong_answers": [
       "Derne",
       "Mount Street Bridge"
@@ -201,7 +201,7 @@
   },
   {
     "answer": "Baguio",
-    "question": "\u178f\u17be\u1791\u17b8\u1780\u17d2\u179a\u17bb\u1784\u1793\u17c1\u17c7\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u179a\u17c6\u178a\u17c4\u17c7\u178a\u17c4\u1799\u1780\u1784\u1791\u17d0\u1796\u17a0\u17d2\u179c\u17b8\u179b\u17b8\u1796\u17b8\u1793\u1793\u17b7\u1784\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780?",
+    "question": "តើទីក្រុងនេះត្រូវបានរំដោះដោយកងទ័ពហ្វីលីពីននិងអាមេរិក?",
     "wrong_answers": [
       "Tabriz, Iran",
       "Beaumont, France"
@@ -209,7 +209,7 @@
   },
   {
     "answer": "Geneva",
-    "question": "\u178f\u17be\u179f\u1793\u17d2\u1793\u17b7\u179f\u17b8\u1791\u1793\u17c1\u17c7\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u17a1\u17be\u1784\u178a\u17be\u1798\u17d2\u1794\u17b8\u179f\u17d2\u178a\u17b6\u179a\u179f\u1793\u17d2\u178f\u17b7\u1797\u17b6\u1796\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u17a5\u178e\u17d2\u178c\u17bc\u1785\u17b7\u1793\u1793\u17b7\u1784\u1780\u17bc\u179a\u17c9\u17c1?",
+    "question": "តើសន្និសីទនេះត្រូវបានធ្វើឡើងដើម្បីស្ដារសន្តិភាពនៅក្នុងឥណ្ឌូចិននិងកូរ៉េ?",
     "wrong_answers": [
       "Antwerp",
       "L'Aigle"
@@ -217,7 +217,7 @@
   },
   {
     "answer": "Fairfax County, Virginia",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u179f\u17b6\u1780\u179b\u17d2\u1794\u1784\u1782\u17d2\u179b\u17b8\u1793\u17b7\u1780\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c3\u179c\u17c9\u17b6\u1780\u17cb\u179f\u17b6\u17c6\u1784 polio \u179a\u1794\u179f\u17cb Jonas Salk \u1794\u17b6\u1793\u1785\u17b6\u1794\u17cb\u1795\u17d2\u178a\u17be\u1798\u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើការសាកល្បងគ្លីនិកដំបូងនៃវ៉ាក់សាំង polio របស់ Jonas Salk បានចាប់ផ្ដើមនៅឯណា?",
     "wrong_answers": [
       "Tabriz, Iran",
       "Beaumont, France"
@@ -225,7 +225,7 @@
   },
   {
     "answer": "Port Newark, New Jersey",
-    "question": "\u178f\u17be\u1780\u1794\u17c9\u17b6\u179b\u17cb\u178a\u17b9\u1780\u1780\u17bb\u1784\u178f\u17ba\u1793\u17d0\u179a\u178a\u17c6\u1794\u17bc\u1784\u1794\u17b6\u1793\u1785\u17b6\u1780\u1785\u17c1\u1789\u1796\u17b8\u1791\u17b8\u1793\u17c1\u17c7?",
+    "question": "តើកប៉ាល់ដឹកកុងតឺន័រដំបូងបានចាកចេញពីទីនេះ?",
     "wrong_answers": [
       "Tabriz, Iran",
       "Beaumont, France"
@@ -233,7 +233,7 @@
   },
   {
     "answer": "Royal Blue",
-    "question": "\u178f\u17be\u179a\u1790\u1797\u17d2\u179b\u17be\u1784\u178a\u17c6\u178e\u17be\u179a\u1780\u17b6\u179a\u17a2\u1782\u17d2\u1782\u17b7\u179f\u1793\u17b8\u178a\u17c6\u1794\u17bc\u1784\u1793\u17c5\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780\u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើរថភ្លើងដំណើរការអគ្គិសនីដំបូងនៅអាមេរិកគឺជាអ្វី?",
     "wrong_answers": [
       "Virginia Company",
       "Gestapo"
@@ -241,7 +241,7 @@
   },
   {
     "answer": "Syngman Rhee",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1792\u17b6\u1793\u17b6\u1792\u17b7\u1794\u178f\u17b8\u1780\u17bc\u179a\u17c9\u17c1\u1781\u17b6\u1784\u178f\u17d2\u1794\u17bc\u1784\u1793\u17c1\u17c7\u1794\u17b6\u1793\u179b\u17b6\u179b\u17c2\u1784\u1796\u17b8\u178f\u17c6\u178e\u17c2\u1784?",
+    "question": "តើប្រធានាធិបតីកូរ៉េខាងត្បូងនេះបានលាលែងពីតំណែង?",
     "wrong_answers": [
       "Napoleon Bonaparte",
       "Georgios Papandreou"
@@ -249,7 +249,7 @@
   },
   {
     "answer": "Ranger 4",
-    "question": "\u178f\u17be\u1799\u17b6\u1793\u17a2\u179c\u1780\u17b6\u179f\u178e\u17b6\u178a\u17c2\u179b NASA \u1794\u17b6\u1793\u1794\u1789\u17d2\u1787\u17bc\u1793\u1791\u17c5\u1794\u17bb\u1780\u179b\u17be\u1795\u17c2\u1793\u178a\u17b8?",
+    "question": "តើយានអវកាសណាដែល NASA បានបញ្ជូនទៅបុកលើផែនដី?",
     "wrong_answers": [
       "Virginia Company",
       "Royal Blue"
@@ -257,7 +257,7 @@
   },
   {
     "answer": "Ariel 1",
-    "question": "\u178f\u17be\u1780\u1798\u17d2\u1798\u179c\u17b7\u1792\u17b8\u17a2\u179c\u1780\u17b6\u179f\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u1794\u17b6\u1793\u1794\u1789\u17d2\u1787\u17bc\u1793\u1795\u17d2\u1780\u17b6\u1799\u179a\u178e\u1794\u1793\u17c1\u17c7?",
+    "question": "តើកម្មវិធីអវកាសអង់គ្លេសបានបញ្ជូនផ្កាយរណបនេះ?",
     "wrong_answers": [
       "Virginia Company",
       "Gestapo"
@@ -265,15 +265,15 @@
   },
   {
     "answer": "Libya",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1791\u17c1\u179f\u178e\u17b6\u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u1780\u17c2\u1794\u17d2\u179a\u17c2\u1785\u17d2\u1794\u17b6\u1794\u17cb?",
+    "question": "តើប្រទេសណាបានធ្វើការកែប្រែច្បាប់?",
     "wrong_answers": [
       "Tabriz, Iran",
       "Beaumont, France"
     ]
   },
   {
-    "answer": "Tanganyika \u1793\u17b7\u1784 Zanzibar",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1791\u17c1\u179f\u1791\u17b6\u17c6\u1784\u1796\u17b8\u179a\u1793\u17c1\u17c7\u1794\u17b6\u1793\u1794\u1789\u17d2\u1785\u17bc\u179b\u1782\u17d2\u1793\u17b6\u178a\u17be\u1798\u17d2\u1794\u17b8\u1794\u1784\u17d2\u1780\u17be\u178f United Republic of Tanzania?",
+    "answer": "Tanganyika និង Zanzibar",
+    "question": "តើប្រទេសទាំងពីរនេះបានបញ្ចូលគ្នាដើម្បីបង្កើត United Republic of Tanzania?",
     "wrong_answers": [
       "Tabriz, Iran",
       "Beaumont, France"
@@ -281,7 +281,7 @@
   },
   {
     "answer": "Tashkent",
-    "question": "\u178f\u17be\u179a\u1789\u17d2\u1787\u17bd\u1799\u178a\u17b8\u1798\u17b6\u1793\u1791\u17c6\u17a0\u17c6 \u17e5.\u17e1 \u1794\u17b6\u1793\u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c5\u17af\u178e\u17b6?",
+    "question": "តើរញ្ជួយដីមានទំហំ ៥.១ បានកើតឡើងនៅឯណា?",
     "wrong_answers": [
       "Tabriz, Iran",
       "Beaumont, France"

@@ -1,15 +1,15 @@
 [
   {
-    "answer": "\u1780\u1784\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u1780\u17b6\u179a\u1796\u17b6\u179a\u1787\u17b6\u178f\u17b7 Antigua and Barbuda",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u1787\u17b6\u1788\u17d2\u1798\u17c4\u17c7\u1795\u17d2\u179b\u17bc\u179c\u1780\u17b6\u179a\u1793\u17c3\u1780\u1784\u1791\u17d0\u1796 Antigua and Barbuda?",
+    "answer": "កងកម្លាំងការពារជាតិ Antigua and Barbuda",
+    "question": "តើអ្វីជាឈ្មោះផ្លូវការនៃកងទ័ព Antigua and Barbuda?",
     "wrong_answers": [
-      "\u1780\u1784\u1791\u17d0\u1796 Antigua",
-      "\u1780\u1784\u1791\u17d0\u1796 Barbuda"
+      "កងទ័ព Antigua",
+      "កងទ័ព Barbuda"
     ]
   },
   {
     "answer": "245",
-    "question": "\u178f\u17be\u1798\u17b6\u1793\u1798\u1793\u17bb\u179f\u17d2\u179f\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1793\u17b6\u1780\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u1784\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u1780\u17b6\u179a\u1796\u17b6\u179a\u1787\u17b6\u178f\u17b7 Antigua and Barbuda?",
+    "question": "តើមានមនុស្សប៉ុន្មាននាក់នៅក្នុងកងកម្លាំងការពារជាតិ Antigua and Barbuda?",
     "wrong_answers": [
       "1000",
       "500",
@@ -17,40 +17,40 @@
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u1780\u17b6\u179a\u1796\u17b6\u179a\u179f\u17bb\u179c\u178f\u17d2\u1790\u17b7\u1797\u17b6\u1796\u1795\u17d2\u1791\u17c3\u1780\u17d2\u1793\u17bb\u1784",
-    "question": "\u178f\u17be\u1780\u1784\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u1780\u17b6\u179a\u1796\u17b6\u179a\u1787\u17b6\u178f\u17b7 Antigua and Barbuda \u1798\u17b6\u1793\u1791\u17c6\u1793\u17bd\u179b\u1781\u17bb\u179f\u178f\u17d2\u179a\u17bc\u179c\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ការការពារសុវត្ថិភាពផ្ទៃក្នុង",
+    "question": "តើកងកម្លាំងការពារជាតិ Antigua and Barbuda មានទំនួលខុសត្រូវអ្វី?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u1780\u17b6\u179a\u1796\u17b6\u179a\u1781\u17d2\u179b\u17bd\u1793\u17af\u1784",
-      "\u1780\u17b6\u179a\u179c\u17b6\u1799\u179b\u17bb\u1780"
+      "ការការពារខ្លួនឯង",
+      "ការវាយលុក"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u1780\u17b6\u179a\u1796\u17b6\u179a\u179f\u17b7\u1791\u17d2\u1792\u17b7\u1793\u17c1\u179f\u17b6\u1791",
-    "question": "\u178f\u17be\u1780\u1784\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u1780\u17b6\u179a\u1796\u17b6\u179a\u1787\u17b6\u178f\u17b7 Antigua and Barbuda \u1798\u17b6\u1793\u1791\u17c6\u1793\u17bd\u179b\u1781\u17bb\u179f\u178f\u17d2\u179a\u17bc\u179c\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ការការពារសិទ្ធិនេសាទ",
+    "question": "តើកងកម្លាំងការពារជាតិ Antigua and Barbuda មានទំនួលខុសត្រូវអ្វី?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u1780\u17b6\u179a\u1796\u17b6\u179a\u1780\u17c4\u17c7",
-      "\u1780\u17b6\u179a\u1780\u17b6\u179a\u1796\u17b6\u179a\u1798\u1793\u17bb\u179f\u17d2\u179f"
+      "ការការពារកោះ",
+      "ការការពារមនុស្ស"
     ]
   },
   {
-    "answer": "\u1780\u1784\u1793\u17b6\u179c\u17b6",
-    "question": "\u178f\u17be\u1798\u17b6\u1793\u1795\u17d2\u1793\u17c2\u1780\u179f\u17c6\u1781\u17b6\u1793\u17cb\u17d7\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u1784\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u1780\u17b6\u179a\u1796\u17b6\u179a\u1787\u17b6\u178f\u17b7 Antigua and Barbuda?",
+    "answer": "កងនាវា",
+    "question": "តើមានផ្នែកសំខាន់ៗអ្វីខ្លះនៅក្នុងកងកម្លាំងការពារជាតិ Antigua and Barbuda?",
     "wrong_answers": [
-      "\u1780\u1784\u1791\u17d0\u1796",
-      "\u1780\u1784\u17a2\u17b6\u1780\u17b6\u179f"
+      "កងទ័ព",
+      "កងអាកាស"
     ]
   },
   {
-    "answer": "\u1780\u1784\u1793\u17b6\u179c\u17b6",
-    "question": "\u178f\u17be\u1795\u17d2\u1793\u17c2\u1780\u178e\u17b6\u1793\u17c3\u1780\u1784\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u1780\u17b6\u179a\u1796\u17b6\u179a\u1787\u17b6\u178f\u17b7 Antigua and Barbuda \u1798\u17b6\u1793\u1791\u17c6\u1793\u17bd\u179b\u1781\u17bb\u179f\u178f\u17d2\u179a\u17bc\u179c\u179b\u17be\u179f\u1798\u17bb\u1791\u17d2\u179a?",
+    "answer": "កងនាវា",
+    "question": "តើផ្នែកណានៃកងកម្លាំងការពារជាតិ Antigua and Barbuda មានទំនួលខុសត្រូវលើសមុទ្រ?",
     "wrong_answers": [
-      "\u1780\u1784\u1791\u17d0\u1796",
-      "\u1780\u1784\u17a2\u17b6\u1780\u17b6\u179f"
+      "កងទ័ព",
+      "កងអាកាស"
     ]
   },
   {
     "answer": "P-01 Liberta",
-    "question": "\u178f\u17be\u1788\u17d2\u1798\u17c4\u17c7\u1793\u17b6\u179c\u17b6 patrouille \u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1780\u1784\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u1780\u17b6\u179a\u1796\u17b6\u179a\u1787\u17b6\u178f\u17b7 Antigua and Barbuda \u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើឈ្មោះនាវា patrouille នៅក្នុងកងកម្លាំងការពារជាតិ Antigua and Barbuda ជាអ្វី?",
     "wrong_answers": [
       "P-02 Palmetto",
       "P-03 Hermitage"
@@ -58,7 +58,7 @@
   },
   {
     "answer": "Grenada",
-    "question": "\u178f\u17be\u1780\u1784\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u1780\u17b6\u179a\u1796\u17b6\u179a\u1787\u17b6\u178f\u17b7 Antigua and Barbuda \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1789\u17d2\u1787\u17bc\u1793\u1791\u17c5\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1983?",
+    "question": "តើកងកម្លាំងការពារជាតិ Antigua and Barbuda ត្រូវបានបញ្ជូនទៅកន្លែងណាក្នុងឆ្នាំ 1983?",
     "wrong_answers": [
       "Haiti",
       "Trinidad and Tobago"
@@ -66,7 +66,7 @@
   },
   {
     "answer": "Trinidad and Tobago",
-    "question": "\u178f\u17be\u1780\u1784\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u1780\u17b6\u179a\u1796\u17b6\u179a\u1787\u17b6\u178f\u17b7 Antigua and Barbuda \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1789\u17d2\u1787\u17bc\u1793\u1791\u17c5\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1990?",
+    "question": "តើកងកម្លាំងការពារជាតិ Antigua and Barbuda ត្រូវបានបញ្ជូនទៅកន្លែងណាក្នុងឆ្នាំ 1990?",
     "wrong_answers": [
       "Haiti",
       "Grenada"
@@ -74,7 +74,7 @@
   },
   {
     "answer": "Haiti",
-    "question": "\u178f\u17be\u1780\u1784\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u1780\u17b6\u179a\u1796\u17b6\u179a\u1787\u17b6\u178f\u17b7 Antigua and Barbuda \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1789\u17d2\u1787\u17bc\u1793\u1791\u17c5\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 1995?",
+    "question": "តើកងកម្លាំងការពារជាតិ Antigua and Barbuda ត្រូវបានបញ្ជូនទៅកន្លែងណាក្នុងឆ្នាំ 1995?",
     "wrong_answers": [
       "Grenada",
       "Trinidad and Tobago"
@@ -82,7 +82,7 @@
   },
   {
     "answer": "Haiti",
-    "question": "\u178f\u17be\u1780\u1784\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u1780\u17b6\u179a\u1796\u17b6\u179a\u1787\u17b6\u178f\u17b7 Antigua and Barbuda \u1793\u17b9\u1784\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1789\u17d2\u1787\u17bc\u1793\u1791\u17c5\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 2024?",
+    "question": "តើកងកម្លាំងការពារជាតិ Antigua and Barbuda នឹងត្រូវបានបញ្ជូនទៅកន្លែងណាក្នុងឆ្នាំ 2024?",
     "wrong_answers": [
       "Grenada",
       "Trinidad and Tobago"
@@ -90,7 +90,7 @@
   },
   {
     "answer": "Mercian Regiment",
-    "question": "\u178f\u17be\u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u178e\u17b6\u178a\u17c2\u179b\u1787\u17b6\u179f\u1798\u17d2\u1796\u17d0\u1793\u17d2\u1792\u1798\u17b7\u178f\u17d2\u178f\u1793\u17c3\u1780\u1784\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u1780\u17b6\u179a\u1796\u17b6\u179a\u1787\u17b6\u178f\u17b7 Antigua and Barbuda?",
+    "question": "តើអង្គការណាដែលជាសម្ព័ន្ធមិត្តនៃកងកម្លាំងការពារជាតិ Antigua and Barbuda?",
     "wrong_answers": [
       "NATO",
       "UN"
@@ -98,7 +98,7 @@
   },
   {
     "answer": "1981",
-    "question": "\u178f\u17be\u1780\u1784\u1780\u1798\u17d2\u179b\u17b6\u17c6\u1784\u1780\u17b6\u179a\u1796\u17b6\u179a\u1787\u17b6\u178f\u17b7 Antigua and Barbuda \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u17a1\u17be\u1784\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "question": "តើកងកម្លាំងការពារជាតិ Antigua and Barbuda ត្រូវបានបង្កើតឡើងនៅពេលណា?",
     "wrong_answers": [
       "1979",
       "1983"

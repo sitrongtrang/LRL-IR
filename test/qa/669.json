@@ -1,34 +1,34 @@
 [
   {
     "answer": "Augustin-Louis Cauchy",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1782\u178e\u17b7\u178f\u179c\u17b7\u1791\u17bc \u179c\u17b7\u179f\u17d2\u179c\u1780\u179a \u1793\u17b7\u1784\u179a\u17bc\u1794\u179c\u17b7\u1791\u17bc\u1787\u1793\u1787\u17b6\u178f\u17b7\u1794\u17b6\u179a\u17b6\u17c6\u1784?",
+    "question": "តើអ្នកណាជាអ្នកគណិតវិទូ វិស្វករ និងរូបវិទូជនជាតិបារាំង?",
     "wrong_answers": [
-      "\u179b\u17c4\u1780 Laplace",
-      "\u179b\u17c4\u1780 Lagrange",
-      "\u179b\u17c4\u1780 Robespierre"
+      "លោក Laplace",
+      "លោក Lagrange",
+      "លោក Robespierre"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u179c\u17b7\u1797\u17b6\u1782\u1782\u178e\u17b7\u178f\u179c\u17b7\u1791\u17d2\u1799\u17b6 \u1793\u17b7\u1784\u1798\u17c1\u1780\u17b6\u1793\u17b7\u1785",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1794\u179a\u17b7\u1785\u17d2\u1785\u17b6\u1782\u179a\u1794\u179f\u17cb Augustin-Louis Cauchy \u1798\u17b6\u1793\u1780\u17d2\u1793\u17bb\u1784\u179c\u17b7\u179f\u17d0\u1799\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ការវិភាគគណិតវិទ្យា និងមេកានិច",
+    "question": "តើការបរិច្ចាគរបស់ Augustin-Louis Cauchy មានក្នុងវិស័យអ្វី?",
     "wrong_answers": [
-      "\u179c\u17c1\u1787\u17d2\u1787\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a",
-      "\u1794\u17bb\u179a\u17b6\u178e\u179c\u17b7\u1791\u17d2\u1799\u17b6",
-      "\u1780\u179f\u17b7\u1780\u1798\u17d2\u1798"
+      "វេជ្ជសាស្ត្រ",
+      "បុរាណវិទ្យា",
+      "កសិកម្ម"
     ]
   },
   {
-    "answer": "\u00c9cole Centrale du Panth\u00e9on",
-    "question": "\u178f\u17be Augustin-Louis Cauchy \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17c0\u1793\u1793\u17c5\u179f\u17b6\u179b\u17b6\u178e\u17b6?",
+    "answer": "École Centrale du Panthéon",
+    "question": "តើ Augustin-Louis Cauchy បានចូលរៀននៅសាលាណា?",
     "wrong_answers": [
-      "\u00c9cole Polytechnique",
-      "\u00c9cole des Ponts et Chauss\u00e9es",
-      "\u179f\u17b6\u179b\u17b6\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a"
+      "École Polytechnique",
+      "École des Ponts et Chaussées",
+      "សាលាវិទ្យាសាស្ត្រ"
     ]
   },
   {
     "answer": "Cherbourg",
-    "question": "\u178f\u17be Augustin-Louis Cauchy \u1794\u17b6\u1793\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u1787\u17b6\u179c\u17b7\u179f\u17d2\u179c\u1780\u179a\u1793\u17c5\u1780\u1793\u17d2\u179b\u17c2\u1784\u178e\u17b6?",
+    "question": "តើ Augustin-Louis Cauchy បានធ្វើការជាវិស្វករនៅកន្លែងណា?",
     "wrong_answers": [
       "Paris",
       "Arcueil",
@@ -36,120 +36,120 @@
     ]
   },
   {
-    "answer": "\u00c9cole des Ponts et Chauss\u00e9es",
-    "question": "\u178f\u17be Augustin-Louis Cauchy \u1794\u17b6\u1793\u1794\u1789\u17d2\u1785\u1794\u17cb\u1780\u17b6\u179a\u179f\u17b7\u1780\u17d2\u179f\u17b6\u1794\u179a\u17b7\u1789\u17d2\u1789\u17b6\u1794\u178f\u17d2\u179a\u1793\u17c5\u17af\u179f\u17b6\u179b\u17b6\u178e\u17b6?",
+    "answer": "École des Ponts et Chaussées",
+    "question": "តើ Augustin-Louis Cauchy បានបញ្ចប់ការសិក្សាបរិញ្ញាបត្រនៅឯសាលាណា?",
     "wrong_answers": [
-      "\u00c9cole Polytechnique",
-      "\u00c9cole Centrale du Panth\u00e9on",
-      "\u179f\u17b6\u179b\u17b6\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a"
+      "École Polytechnique",
+      "École Centrale du Panthéon",
+      "សាលាវិទ្យាសាស្ត្រ"
     ]
   },
   {
-    "answer": "\u179c\u17b7\u179f\u17d2\u179c\u1780\u179a",
-    "question": "\u178f\u17be Augustin-Louis Cauchy \u1787\u17b6\u17a2\u17d2\u179c\u17b8\u1798\u17bb\u1793\u1796\u17c1\u179b\u1782\u17b6\u178f\u17cb\u1780\u17d2\u179b\u17b6\u1799\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a?",
+    "answer": "វិស្វករ",
+    "question": "តើ Augustin-Louis Cauchy ជាអ្វីមុនពេលគាត់ក្លាយជាអ្នកវិទ្យាសាស្ត្រ?",
     "wrong_answers": [
-      "\u1782\u17d2\u179a\u17bc\u1794\u1784\u17d2\u179a\u17c0\u1793",
-      "\u17a2\u17d2\u1793\u1780\u1793\u1799\u17c4\u1794\u17b6\u1799",
-      "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792"
+      "គ្រូបង្រៀន",
+      "អ្នកនយោបាយ",
+      "អ្នកនិពន្ធ"
     ]
   },
   {
-    "answer": "\u179b\u17c4\u1780 Louis Fran\u00e7ois Cauchy",
-    "question": "\u178f\u17be\u17aa\u1796\u17bb\u1780\u179a\u1794\u179f\u17cb Augustin-Louis Cauchy \u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "answer": "លោក Louis François Cauchy",
+    "question": "តើឪពុករបស់ Augustin-Louis Cauchy ឈ្មោះអ្វី?",
     "wrong_answers": [
-      "\u179b\u17c4\u1780 Alexandre Laurent Cauchy",
-      "\u179b\u17c4\u1780 Eugene Fran\u00e7ois Cauchy",
-      "\u179b\u17c4\u1780 Laplace"
+      "លោក Alexandre Laurent Cauchy",
+      "លោក Eugene François Cauchy",
+      "លោក Laplace"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e7\u17e8\u17e9",
-    "question": "\u178f\u17be Augustin-Louis Cauchy \u1780\u17be\u178f\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "នៅក្នុងឆ្នាំ ១៧៨៩",
+    "question": "តើ Augustin-Louis Cauchy កើតនៅពេលណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e0\u17e0",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e5\u17e7",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e7\u17e9\u17e4"
+      "នៅក្នុងឆ្នាំ ១៨០០",
+      "នៅក្នុងឆ្នាំ ១៨៥៧",
+      "នៅក្នុងឆ្នាំ ១៧៩៤"
     ]
   },
   {
-    "answer": "\u179b\u17c4\u1780 Laplace",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u1798\u17c1\u1794\u1789\u17d2\u1787\u17b6\u1780\u17b6\u179a\u179a\u1794\u179f\u17cb Louis Fran\u00e7ois Cauchy?",
+    "answer": "លោក Laplace",
+    "question": "តើអ្នកណាជាមេបញ្ជាការរបស់ Louis François Cauchy?",
     "wrong_answers": [
-      "\u179b\u17c4\u1780 Lagrange",
-      "\u179b\u17c4\u1780 Robespierre",
-      "\u179b\u17c4\u1780 Napoleon Bonaparte"
+      "លោក Lagrange",
+      "លោក Robespierre",
+      "លោក Napoleon Bonaparte"
     ]
   },
   {
-    "answer": "\u179b\u17c4\u1780 Lagrange",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u178e\u17c2\u1793\u17b6\u17c6 Augustin-Louis Cauchy \u17b1\u17d2\u1799\u1785\u17bc\u179b\u179a\u17c0\u1793\u1793\u17c5 \u00c9cole Centrale du Panth\u00e9on?",
+    "answer": "លោក Lagrange",
+    "question": "តើអ្នកណាបានណែនាំ Augustin-Louis Cauchy ឱ្យចូលរៀននៅ École Centrale du Panthéon?",
     "wrong_answers": [
-      "\u179b\u17c4\u1780 Laplace",
-      "\u179b\u17c4\u1780 Robespierre",
-      "\u179b\u17c4\u1780 Napoleon Bonaparte"
+      "លោក Laplace",
+      "លោក Robespierre",
+      "លោក Napoleon Bonaparte"
     ]
   },
   {
-    "answer": "\u00c9cole Polytechnique",
-    "question": "\u178f\u17be Augustin-Louis Cauchy \u1794\u17b6\u1793\u1785\u17bc\u179b\u179a\u17c0\u1793\u1793\u17c5\u179f\u17b6\u179b\u17b6\u178e\u17b6\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e0\u17e5?",
+    "answer": "École Polytechnique",
+    "question": "តើ Augustin-Louis Cauchy បានចូលរៀននៅសាលាណានៅក្នុងឆ្នាំ ១៨០៥?",
     "wrong_answers": [
-      "\u00c9cole Centrale du Panth\u00e9on",
-      "\u00c9cole des Ponts et Chauss\u00e9es",
-      "\u179f\u17b6\u179b\u17b6\u179c\u17b7\u1791\u17d2\u1799\u17b6\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a"
+      "École Centrale du Panthéon",
+      "École des Ponts et Chaussées",
+      "សាលាវិទ្យាសាស្ត្រ"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e1\u17e0",
-    "question": "\u178f\u17be Augustin-Louis Cauchy \u1794\u17b6\u1793\u1794\u1789\u17d2\u1785\u1794\u17cb\u1780\u17b6\u179a\u179f\u17b7\u1780\u17d2\u179f\u17b6\u1793\u17c5 \u00c9cole des Ponts et Chauss\u00e9es \u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "នៅក្នុងឆ្នាំ ១៨១០",
+    "question": "តើ Augustin-Louis Cauchy បានបញ្ចប់ការសិក្សានៅ École des Ponts et Chaussées នៅពេលណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e0\u17e5",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e0\u17e7",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e1\u17e8"
+      "នៅក្នុងឆ្នាំ ១៨០៥",
+      "នៅក្នុងឆ្នាំ ១៨០៧",
+      "នៅក្នុងឆ្នាំ ១៨១៨"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u179f\u17b6\u1784\u179f\u1784\u17cb\u1798\u17bc\u179b\u178a\u17d2\u178b\u17b6\u1793\u1780\u1784\u1791\u17d0\u1796\u1787\u17be\u1784\u1791\u17b9\u1780",
-    "question": "\u178f\u17be Napoleon Bonaparte \u1798\u17b6\u1793\u1782\u1798\u17d2\u179a\u17c4\u1784\u17a2\u17d2\u179c\u17b8\u1793\u17c5 Cherbourg?",
+    "answer": "ការសាងសង់មូលដ្ឋានកងទ័ពជើងទឹក",
+    "question": "តើ Napoleon Bonaparte មានគម្រោងអ្វីនៅ Cherbourg?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u179f\u17b6\u1784\u179f\u1784\u17cb\u1795\u17d2\u179b\u17bc\u179c",
-      "\u1780\u17b6\u179a\u179f\u17b6\u1784\u179f\u1784\u17cb\u179f\u17d2\u1796\u17b6\u1793",
-      "\u1780\u17b6\u179a\u179f\u17b6\u1784\u179f\u1784\u17cb\u1795\u17d2\u1791\u17c7"
+      "ការសាងសង់ផ្លូវ",
+      "ការសាងសង់ស្ពាន",
+      "ការសាងសង់ផ្ទះ"
     ]
   },
   {
     "answer": "Aloise de Bure",
-    "question": "\u178f\u17be Augustin-Louis Cauchy \u179a\u17c0\u1794\u1780\u17b6\u179a\u1787\u17b6\u1798\u17bd\u1799\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "question": "តើ Augustin-Louis Cauchy រៀបការជាមួយអ្នកណា?",
     "wrong_answers": [
-      "Marie Fran\u00e7oise Alicia",
+      "Marie Françoise Alicia",
       "Marie Mathilde",
       "Marie-Madeleine Desestre"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u17a0\u17c2\u179b \u17e8\u17e0\u17e0 \u17a2\u178f\u17d2\u1790\u1794\u1791\u179f\u17d2\u179a\u17b6\u179c\u1787\u17d2\u179a\u17b6\u179c \u1793\u17b7\u1784 \u17e5 \u179f\u17c0\u179c\u1797\u17c5\u179f\u17b7\u1780\u17d2\u179f\u17b6",
-    "question": "\u178f\u17be Augustin-Louis Cauchy \u1794\u17b6\u1793\u179f\u179a\u179f\u17c1\u179a\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7?",
+    "answer": "ប្រហែល ៨០០ អត្ថបទស្រាវជ្រាវ និង ៥ សៀវភៅសិក្សា",
+    "question": "តើ Augustin-Louis Cauchy បានសរសេរអ្វីខ្លះ?",
     "wrong_answers": [
-      "\u17a2\u178f\u17d2\u1790\u1794\u1791\u1780\u17c6\u178e\u17b6\u1796\u17d2\u1799",
-      "\u17a2\u178f\u17d2\u1790\u1794\u1791\u179a\u17bf\u1784",
-      "\u179f\u17c0\u179c\u1797\u17c5\u1792\u17d2\u179c\u17be\u1798\u17d2\u17a0\u17bc\u1794"
+      "អត្ថបទកំណាព្យ",
+      "អត្ថបទរឿង",
+      "សៀវភៅធ្វើម្ហូប"
     ]
   },
   {
     "answer": "Hans Freudenthal",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1794\u17b6\u1793\u1793\u17b7\u1799\u17b6\u1799\u1790\u17b6 '\u1798\u17b6\u1793\u1782\u17c6\u1793\u17b7\u178f \u1793\u17b7\u1784\u1791\u17d2\u179a\u17b9\u179f\u17d2\u178a\u17b8\u1785\u17d2\u179a\u17be\u1793\u1787\u17b6\u1784\u17a2\u17d2\u1793\u1780\u1782\u178e\u17b7\u178f\u179c\u17b7\u1791\u17d2\u1799\u17b6\u1795\u17d2\u179f\u17c1\u1784\u1791\u17c0\u178f\u1791\u17b6\u17c6\u1784\u17a2\u179f\u17cb\u178a\u17c2\u179b\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u178a\u17b6\u1780\u17cb\u1788\u17d2\u1798\u17c4\u17c7\u178f\u17b6\u1798 Cauchy?'",
+    "question": "តើអ្នកណាបាននិយាយថា 'មានគំនិត និងទ្រឹស្ដីច្រើនជាងអ្នកគណិតវិទ្យាផ្សេងទៀតទាំងអស់ដែលត្រូវបានដាក់ឈ្មោះតាម Cauchy?'",
     "wrong_answers": [
       "Augustin-Louis Cauchy",
-      "\u179b\u17c4\u1780 Laplace",
-      "\u179b\u17c4\u1780 Lagrange"
+      "លោក Laplace",
+      "លោក Lagrange"
     ]
   },
   {
-    "answer": "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e5\u17e7",
-    "question": "\u178f\u17be Augustin-Louis Cauchy \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "នៅក្នុងឆ្នាំ ១៨៥៧",
+    "question": "តើ Augustin-Louis Cauchy បានស្លាប់នៅពេលណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e7\u17e8\u17e9",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e1\u17e0",
-      "\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e8\u17e4\u17e8"
+      "នៅក្នុងឆ្នាំ ១៧៨៩",
+      "នៅក្នុងឆ្នាំ ១៨១០",
+      "នៅក្នុងឆ្នាំ ១៨៤៨"
     ]
   }
 ]

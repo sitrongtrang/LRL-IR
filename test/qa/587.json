@@ -1,52 +1,52 @@
 [
   {
-    "answer": "\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a \u1793\u17b7\u1784\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179a\u1780\u17d2\u179f\u17b6\u1791\u17bb\u1780\u1793\u17c5\u179c\u17b7\u17a0\u17b6\u179a Collegiate \u1793\u17c3 St John the Evangelist \u1793\u17b7\u1784 St John of Beverley",
-    "question": "Alfred of Beverley \u1787\u17b6\u17a2\u17d2\u1793\u1780\u178e\u17b6?",
+    "answer": "អ្នកនិពន្ធប្រវត្តិសាស្ត្រ និងជាអ្នករក្សាទុកនៅវិហារ Collegiate នៃ St John the Evangelist និង St John of Beverley",
+    "question": "Alfred of Beverley ជាអ្នកណា?",
     "wrong_answers": [
-      "\u17a2\u17d2\u1793\u1780\u1793\u1799\u17c4\u1794\u17b6\u1799 \u1793\u17b7\u1784\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1794\u17d2\u179a\u1799\u17bb\u1791\u17d2\u1792",
-      "\u17a2\u17d2\u1793\u1780\u1787\u17c6\u1793\u17bd\u1789 \u1793\u17b7\u1784\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179f\u1784\u17cb\u1795\u17d2\u1791\u17c7",
-      "\u1798\u1793\u17d2\u178f\u17d2\u179a\u17b8\u179a\u17b6\u1787\u1780\u17b6\u179a \u1793\u17b7\u1784\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1780\u17b6\u179a\u1791\u17bc\u178f"
+      "អ្នកនយោបាយ និងជាអ្នកប្រយុទ្ធ",
+      "អ្នកជំនួញ និងជាអ្នកសង់ផ្ទះ",
+      "មន្ត្រីរាជការ និងជាអ្នកការទូត"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u17a0\u17c2\u179b\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e1\u17e5\u17e4 \u1791\u17c5 \u17e1\u17e1\u17e5\u17e7",
-    "question": "\u178f\u17be Alfred of Beverley \u1794\u17b6\u1793\u179f\u17d2\u179b\u17b6\u1794\u17cb\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ប្រហែលក្នុងឆ្នាំ ១១៥៤ ទៅ ១១៥៧",
+    "question": "តើ Alfred of Beverley បានស្លាប់នៅពេលណា?",
     "wrong_answers": [
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e1\u17e3\u17e5",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e1\u17e4\u17e8",
-      "\u1780\u17d2\u1793\u17bb\u1784\u1786\u17d2\u1793\u17b6\u17c6 \u17e1\u17e1\u17e5\u17e1"
+      "ក្នុងឆ្នាំ ១១៣៥",
+      "ក្នុងឆ្នាំ ១១៤៨",
+      "ក្នុងឆ្នាំ ១១៥១"
     ]
   },
   {
-    "answer": "\u17e9 \u1787\u17c6\u1796\u17bc\u1780",
-    "question": "\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u179a\u17d2\u178f\u179a\u1794\u179f\u17cb\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u1793\u17b7\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u178a\u17c4\u1799 Alfred of Beverley \u1798\u17b6\u1793\u1785\u17c6\u1793\u17bd\u1793\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u1787\u17c6\u1796\u17bc\u1780?",
+    "answer": "៩ ជំពូក",
+    "question": "ប្រវត្តិសាស្រ្តរបស់ប្រទេសអង់គ្លេសនិងប្រទេសអង់គ្លេសដោយ Alfred of Beverley មានចំនួនប៉ុន្មានជំពូក?",
     "wrong_answers": [
-      "\u17e5 \u1787\u17c6\u1796\u17bc\u1780",
-      "\u17e1\u17e0 \u1787\u17c6\u1796\u17bc\u1780",
-      "\u17e7 \u1787\u17c6\u1796\u17bc\u1780"
+      "៥ ជំពូក",
+      "១០ ជំពូក",
+      "៧ ជំពូក"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u179f\u17d2\u179b\u17b6\u1794\u17cb\u179a\u1794\u179f\u17cb Henry I",
-    "question": "\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u179a\u17d2\u178f\u179a\u1794\u179f\u17cb\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u1793\u17b7\u1784\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f\u178a\u17c4\u1799 Alfred of Beverley \u1794\u1789\u17d2\u1785\u1794\u17cb\u178a\u17c4\u1799\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ការស្លាប់របស់ Henry I",
+    "question": "ប្រវត្តិសាស្រ្តរបស់ប្រទេសអង់គ្លេសនិងប្រទេសអង់គ្លេសដោយ Alfred of Beverley បញ្ចប់ដោយអ្វី?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u179f\u17d2\u179b\u17b6\u1794\u17cb\u179a\u1794\u179f\u17cb William the Conqueror",
-      "\u1780\u17b6\u179a\u17a1\u17be\u1784\u179f\u17c4\u1799\u179a\u17b6\u1787\u17d2\u1799\u179a\u1794\u179f\u17cb Henry II",
-      "\u1780\u17b6\u179a\u1780\u17be\u178f\u179a\u1794\u179f\u17cb Alfred the Great"
+      "ការស្លាប់របស់ William the Conqueror",
+      "ការឡើងសោយរាជ្យរបស់ Henry II",
+      "ការកើតរបស់ Alfred the Great"
     ]
   },
   {
-    "answer": "Historia Ecclesiastica de Gentis Anglorum \u179a\u1794\u179f\u17cb Bede",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1797\u1796\u179f\u17c6\u1781\u17b6\u1793\u17cb\u1798\u17bd\u1799\u178a\u17c2\u179b Alfred of Beverley \u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb\u1782\u17ba\u1787\u17b6\u17a2\u17d2\u179c\u17b8?",
+    "answer": "Historia Ecclesiastica de Gentis Anglorum របស់ Bede",
+    "question": "តើប្រភពសំខាន់មួយដែល Alfred of Beverley ប្រើប្រាស់នៅក្នុងប្រវត្តិសាស្ត្ររបស់គាត់គឺជាអ្វី?",
     "wrong_answers": [
-      "Historia Regum Britanniae \u179a\u1794\u179f\u17cb Geoffrey of Monmouth",
+      "Historia Regum Britanniae របស់ Geoffrey of Monmouth",
       "The Chronicle of John of Worcester",
       "The History of the Kings of Britain"
     ]
   },
   {
     "answer": "Geoffrey of Monmouth",
-    "question": "\u178f\u17be\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1787\u17b6\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792 Historia Regum Britanniae?",
+    "question": "តើអ្នកណាជាអ្នកនិពន្ធ Historia Regum Britanniae?",
     "wrong_answers": [
       "Alfred of Beverley",
       "Bede",
@@ -55,7 +55,7 @@
   },
   {
     "answer": "c.1148- c.1151",
-    "question": "\u178f\u17be Alfred of Beverley \u1794\u17b6\u1793\u179f\u179a\u179f\u17c1\u179a\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "question": "តើ Alfred of Beverley បានសរសេរប្រវត្តិសាស្ត្ររបស់គាត់នៅពេលណា?",
     "wrong_answers": [
       "c.1135- c.1143",
       "c.1157- c.1165",
@@ -64,7 +64,7 @@
   },
   {
     "answer": "Rufford Abbey",
-    "question": "\u178f\u17be\u17a2\u17b6\u179f\u17d2\u179a\u1798 Cistercian \u178a\u17c2\u179b Alfred of Beverley \u1798\u17b6\u1793\u1791\u17c6\u1793\u17b6\u1780\u17cb\u1791\u17c6\u1793\u1784\u1793\u17b9\u1784\u179c\u17b6\u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u179c\u17b8?",
+    "question": "តើអាស្រម Cistercian ដែល Alfred of Beverley មានទំនាក់ទំនងនឹងវាមានឈ្មោះអ្វី?",
     "wrong_answers": [
       "Beverley",
       "Bridlington",
@@ -73,7 +73,7 @@
   },
   {
     "answer": "Ernaldo filio Alueredi",
-    "question": "\u178f\u17be\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179f\u1793\u17d2\u1792\u17b7\u179f\u1789\u17d2\u1789\u17b6\u178a\u17c2\u179b Alfred of Beverley \u1794\u17b6\u1793\u1785\u17bb\u17c7\u17a0\u178f\u17d2\u1790\u179b\u17c1\u1781\u17b6\u1793\u17c5 Rufford Abbey \u1798\u17b6\u1793\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u1793\u1780\u178e\u17b6\u1791\u17c0\u178f?",
+    "question": "តើនៅក្នុងសន្ធិសញ្ញាដែល Alfred of Beverley បានចុះហត្ថលេខានៅ Rufford Abbey មានឈ្មោះអ្នកណាទៀត?",
     "wrong_answers": [
       "Robert",
       "Geoffrey of Monmouth",
@@ -81,35 +81,35 @@
     ]
   },
   {
-    "answer": "\u1796\u17bd\u1780\u1782\u17c1\u1798\u17b6\u1793\u1782\u17d2\u179a\u17bd\u179f\u17b6\u179a",
-    "question": "\u178f\u17be\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u179f\u1793\u17d2\u1792\u17b7\u179f\u1789\u17d2\u1789\u17b6 Rufford Abbey \u1794\u1784\u17d2\u17a0\u17b6\u1789\u1796\u17b8 Alfred of Beverley \u1793\u17b7\u1784\u1796\u17d2\u179a\u17c7\u179f\u1784\u17d2\u1783\u179f\u1798\u17d0\u1799\u1793\u17c4\u17c7?",
+    "answer": "ពួកគេមានគ្រួសារ",
+    "question": "តើអ្វីដែលសន្ធិសញ្ញា Rufford Abbey បង្ហាញពី Alfred of Beverley និងព្រះសង្ឃសម័យនោះ?",
     "wrong_answers": [
-      "\u1796\u17bd\u1780\u1782\u17c1\u1798\u17b6\u1793\u1791\u17c6\u1793\u17b6\u1780\u17cb\u1791\u17c6\u1793\u1784\u1787\u17b7\u178f\u179f\u17d2\u1793\u17b7\u1791\u17d2\u1792",
-      "\u1796\u17bd\u1780\u1782\u17c1\u1787\u17b6\u1798\u17b7\u178f\u17d2\u178f\u1797\u1780\u17d2\u178f\u17b7",
-      "\u1796\u17bd\u1780\u1782\u17c1\u1787\u17b6\u179f\u178f\u17d2\u179a\u17bc\u179c"
+      "ពួកគេមានទំនាក់ទំនងជិតស្និទ្ធ",
+      "ពួកគេជាមិត្តភក្តិ",
+      "ពួកគេជាសត្រូវ"
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u178a\u1780\u1796\u17bd\u1780 Flemings \u1785\u17c1\u1789\u1796\u17b8\u1797\u17b6\u1782\u1781\u17b6\u1784\u1787\u17be\u1784\u1793\u17c3\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f",
-    "question": "\u178f\u17be\u1796\u17d2\u179a\u17b9\u178f\u17d2\u178f\u17b7\u1780\u17b6\u179a\u178e\u17cd\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u178f\u17d2\u179a\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b Alfred of Beverley \u1794\u17b6\u1793\u1783\u17be\u1789\u178a\u17c4\u1799\u1795\u17d2\u1791\u17b6\u179b\u17cb?",
+    "answer": "ការដកពួក Flemings ចេញពីភាគខាងជើងនៃប្រទេសអង់គ្លេស",
+    "question": "តើព្រឹត្តិការណ៍ប្រវត្តិសាស្ត្រអ្វីដែល Alfred of Beverley បានឃើញដោយផ្ទាល់?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u179f\u17d2\u179b\u17b6\u1794\u17cb\u179a\u1794\u179f\u17cb Henry I",
-      "\u1780\u17b6\u179a\u17a1\u17be\u1784\u179f\u17c4\u1799\u179a\u17b6\u1787\u17d2\u1799\u179a\u1794\u179f\u17cb William the Conqueror",
-      "\u1780\u17b6\u179a\u179f\u17b6\u1784\u179f\u1784\u17cb\u179c\u17b7\u17a0\u17b6\u179a Westminster Abbey"
+      "ការស្លាប់របស់ Henry I",
+      "ការឡើងសោយរាជ្យរបស់ William the Conqueror",
+      "ការសាងសង់វិហារ Westminster Abbey"
     ]
   },
   {
-    "answer": "\u1794\u17d2\u179a\u17a0\u17c2\u179b\u1793\u17c5\u1785\u17bb\u1784\u1791\u179f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1791\u17b8 \u17e1\u17e1 \u1793\u17c3\u179f\u178f\u179c\u178f\u17d2\u179f\u1791\u17b8 \u17e1\u17e1",
-    "question": "\u178f\u17be Alfred of Beverley \u1780\u17be\u178f\u1793\u17c5\u1796\u17c1\u179b\u178e\u17b6?",
+    "answer": "ប្រហែលនៅចុងទសវត្សរ៍ទី ១១ នៃសតវត្សទី ១១",
+    "question": "តើ Alfred of Beverley កើតនៅពេលណា?",
     "wrong_answers": [
-      "\u1793\u17c5\u178a\u17be\u1798\u1791\u179f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1791\u17b8 \u17e1\u17e0 \u1793\u17c3\u179f\u178f\u179c\u178f\u17d2\u179f\u1791\u17b8 \u17e1\u17e1",
-      "\u1793\u17c5\u1785\u17bb\u1784\u1791\u179f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1791\u17b8 \u17e1\u17e2 \u1793\u17c3\u179f\u178f\u179c\u178f\u17d2\u179f\u1791\u17b8 \u17e1\u17e1",
-      "\u1793\u17c5\u178a\u17be\u1798\u1791\u179f\u179c\u178f\u17d2\u179f\u179a\u17cd\u1791\u17b8 \u17e1\u17e1 \u1793\u17c3\u179f\u178f\u179c\u178f\u17d2\u179f\u1791\u17b8 \u17e1\u17e2"
+      "នៅដើមទសវត្សរ៍ទី ១០ នៃសតវត្សទី ១១",
+      "នៅចុងទសវត្សរ៍ទី ១២ នៃសតវត្សទី ១១",
+      "នៅដើមទសវត្សរ៍ទី ១១ នៃសតវត្សទី ១២"
     ]
   },
   {
     "answer": "Beverley cartulary",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1797\u1796\u178e\u17b6\u178a\u17c2\u179b\u1796\u17b7\u1796\u178e\u17cc\u1793\u17b6 Alfred of Beverley \u1790\u17b6\u1787\u17b6 '\u1798\u1793\u17bb\u179f\u17d2\u179f\u1798\u17d2\u1793\u17b6\u1780\u17cb\u178a\u17c2\u179b\u1798\u17b6\u1793\u1787\u17b8\u179c\u17b7\u178f\u1782\u17bd\u179a\u17b1\u17d2\u1799\u1782\u17c4\u179a\u1796 \u1793\u17b7\u1784\u1787\u17b6\u17a2\u17d2\u1793\u1780\u179f\u17b7\u1780\u17d2\u179f\u17b6\u1796\u17d2\u179a\u17c7\u1782\u1798\u17d2\u1796\u17b8\u179a\u178a\u17c4\u1799\u179f\u17d2\u1798\u17c4\u17c7'? ",
+    "question": "តើប្រភពណាដែលពិពណ៌នា Alfred of Beverley ថាជា 'មនុស្សម្នាក់ដែលមានជីវិតគួរឱ្យគោរព និងជាអ្នកសិក្សាព្រះគម្ពីរដោយស្មោះ'? ",
     "wrong_answers": [
       "York Minster",
       "Historia Regum Britanniae",
@@ -118,7 +118,7 @@
   },
   {
     "answer": "York Minster",
-    "question": "\u178f\u17be\u1794\u17d2\u179a\u1797\u1796\u178e\u17b6\u178a\u17c2\u179b\u1794\u17b6\u1793\u1794\u1784\u17d2\u17a0\u17b6\u1789\u1780\u17b6\u179a\u178a\u1780\u179f\u17d2\u179a\u1784\u17cb\u1796\u17b8\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u179a\u17d2\u178f\u179a\u1794\u179f\u17cb Alfred of Beverley \u1793\u17c5\u179b\u17be\u1795\u17d2\u1791\u17b6\u17c6\u1784\u1788\u17be?",
+    "question": "តើប្រភពណាដែលបានបង្ហាញការដកស្រង់ពីប្រវត្តិសាស្រ្តរបស់ Alfred of Beverley នៅលើផ្ទាំងឈើ?",
     "wrong_answers": [
       "Beverley cartulary",
       "Historia Regum Britanniae",
@@ -126,8 +126,8 @@
     ]
   },
   {
-    "answer": "Historia Regum Britanniae \u179a\u1794\u179f\u17cb Geoffrey of Monmouth",
-    "question": "\u178f\u17be\u1780\u17b6\u179a\u1784\u17b6\u179a\u179a\u1794\u179f\u17cb Alfred of Beverley \u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u17c6\u1795\u17bb\u179f\u1782\u17c6\u1793\u17b7\u178f\u178a\u17c4\u1799\u17a2\u17d2\u179c\u17b8?",
+    "answer": "Historia Regum Britanniae របស់ Geoffrey of Monmouth",
+    "question": "តើការងាររបស់ Alfred of Beverley ត្រូវបានបំផុសគំនិតដោយអ្វី?",
     "wrong_answers": [
       "The Chronicle of John of Worcester",
       "Historia Ecclesiastica de Gentis Anglorum",
@@ -136,7 +136,7 @@
   },
   {
     "answer": "quinque status",
-    "question": "\u178f\u17be Alfred of Beverley \u1794\u17b6\u1793\u1794\u17c2\u1784\u1785\u17c2\u1780\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u179a\u17d2\u178f\u179a\u1794\u179f\u17cb Geoffrey of Monmouth \u1791\u17c5\u1787\u17b6\u1794\u17c9\u17bb\u1793\u17d2\u1798\u17b6\u1793\u17a2\u17c6\u17a1\u17bb\u1784\u1796\u17c1\u179b?",
+    "question": "តើ Alfred of Beverley បានបែងចែកប្រវត្តិសាស្រ្តរបស់ Geoffrey of Monmouth ទៅជាប៉ុន្មានអំឡុងពេល?",
     "wrong_answers": [
       "tres status",
       "septem status",
@@ -144,8 +144,8 @@
     ]
   },
   {
-    "answer": "Orosius, Eutropius \u1793\u17b7\u1784 Suetonius",
-    "question": "\u178f\u17be Alfred of Beverley \u1794\u17b6\u1793\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u1794\u17bb\u179a\u17b6\u178e\u17a2\u17d2\u179c\u17b8\u1781\u17d2\u179b\u17c7\u1780\u17d2\u1793\u17bb\u1784\u1780\u17b6\u179a\u179f\u17b7\u1780\u17d2\u179f\u17b6\u179a\u1794\u179f\u17cb\u1782\u17b6\u178f\u17cb?",
+    "answer": "Orosius, Eutropius និង Suetonius",
+    "question": "តើ Alfred of Beverley បានប្រើប្រាស់អ្នកនិពន្ធបុរាណអ្វីខ្លះក្នុងការសិក្សារបស់គាត់?",
     "wrong_answers": [
       "Geoffrey of Monmouth",
       "Bede",
@@ -153,12 +153,12 @@
     ]
   },
   {
-    "answer": "\u1780\u17b6\u179a\u1794\u1784\u17d2\u1780\u17be\u178f\u1793\u17c3\u179a\u17b6\u1787\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f",
-    "question": "\u178f\u17be\u1787\u17c6\u1796\u17bc\u1780\u1791\u17b8 \u17e6 \u178a\u179b\u17cb \u17e9 \u1793\u17c3\u1794\u17d2\u179a\u179c\u178f\u17d2\u178f\u17b7\u179f\u17b6\u179f\u17d2\u179a\u17d2\u178f\u179a\u1794\u179f\u17cb Alfred of Beverley \u1793\u17b7\u1799\u17b6\u1799\u17a2\u17c6\u1796\u17b8\u17a2\u17d2\u179c\u17b8?",
+    "answer": "ការបង្កើតនៃរាជាណាចក្រអង់គ្លេស",
+    "question": "តើជំពូកទី ៦ ដល់ ៩ នៃប្រវត្តិសាស្រ្តរបស់ Alfred of Beverley និយាយអំពីអ្វី?",
     "wrong_answers": [
-      "\u1780\u17b6\u179a\u178a\u1780\u1796\u17bd\u1780 Flemings \u1785\u17c1\u1789\u1796\u17b8\u1797\u17b6\u1782\u1781\u17b6\u1784\u1787\u17be\u1784\u1793\u17c3\u1794\u17d2\u179a\u1791\u17c1\u179f\u17a2\u1784\u17cb\u1782\u17d2\u179b\u17c1\u179f",
-      "\u1780\u17b6\u179a\u179f\u17d2\u179b\u17b6\u1794\u17cb\u179a\u1794\u179f\u17cb Henry I",
-      "\u1780\u17b6\u179a\u17a1\u17be\u1784\u179f\u17c4\u1799\u179a\u17b6\u1787\u17d2\u1799\u179a\u1794\u179f\u17cb William the Conqueror"
+      "ការដកពួក Flemings ចេញពីភាគខាងជើងនៃប្រទេសអង់គ្លេស",
+      "ការស្លាប់របស់ Henry I",
+      "ការឡើងសោយរាជ្យរបស់ William the Conqueror"
     ]
   }
 ]
