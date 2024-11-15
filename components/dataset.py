@@ -5,7 +5,7 @@ import csv
 from typing import Literal, Callable, TypeAlias
 import py_vncorenlp
 from transformers import AutoTokenizer, PreTrainedTokenizer, PreTrainedTokenizerFast, BatchEncoding
-from abc import ABC
+import json
 
 
 SupportLanguage: TypeAlias = Literal[
@@ -124,12 +124,15 @@ class DocumentDataset(Dataset, LanguageProcessing):
     def __init__(
             self,
             document_dir: str,
+            processed_doc_store_dir: str,
             language: SupportLanguage = 'vie',
             language_processing: LanguageProcessing = LanguageProcessing('vie')
     ):
         """
         Args:
             document_dir (str): ABSOLUTE path to the directory containing documents with title, topic, and content xml-tag.
+
+            processed_doc_store_dir (str): ABSOLUTE path to the directory where you want to store preprocessed-documents.
 
             language (SupportLanguage): Language of the documents. Default is Vietnamese (Khmer has not been implemented yet).
 
@@ -139,27 +142,34 @@ class DocumentDataset(Dataset, LanguageProcessing):
                                     language_processing.tokenizer, language_processing.encoder)
         Dataset.__init__(self)
         self.document_dir: str = document_dir
-        self.documents: list[tuple[list[str],
-                                   list[str], str, str]] = self._load_documents()
+        self.processed_doc_store_dir: str = processed_doc_store_dir
+        self.document_count: int = self._load_documents()
 
-    def _load_documents(self) -> list[tuple[list[str], list[str], str]]:
+    def _load_documents(self) -> int:
         """
-        Load documents from the specified directory, parse their contents, and segment by words.
+        Load documents from the specified directory, parse their contents, and segment by words. Then save it in json format for later use.
 
         Returns:
-            list[tuple[list[str], list[str], str, str]]: A list of tuples containing (title, content, topic, file_path).
+            int: The number of documents
         """
-        documents: list[tuple[list[str], list[str], str]] = []
-        for file_name in os.listdir(self.document_dir):
+        for idx, file_name in enumerate(os.listdir(self.document_dir)):
             if file_name.endswith('.txt'):  # Process only text files
                 file_path: str = os.path.join(self.document_dir, file_name)
                 title, topic, content: str = self._parse_document(file_path)
                 title_segmented: list[str] = self.word_sentence_segment(title)
                 content_segmented: list[str] = self.word_sentence_segment(
                     content)
-                documents.append(
-                    (title_segmented, content_segmented, topic, file_path))
-        return documents
+                document = {
+                    "title_segmented": title_segmented,
+                    "content_segmented": content_segmented,
+                    "topic": topic,
+                    "file_path": file_path
+                }
+                json_file_path = os.path.join(
+                    self.processed_doc_store_dir, f"{idx}.json")
+                with open(json_file_path, 'w') as json_file:
+                    json.dump(document, json_file)
+        return len(os.listdir(self.processed_doc_store_dir))
 
     def _parse_document(self, file_path: str) -> tuple[str, str, str]:
         """
@@ -234,30 +244,46 @@ class DocumentDataset(Dataset, LanguageProcessing):
         Returns:
             tuple[list[str], list[str]]: A tuple contains segmented title and content of the found document.
         """
-        for title_segmented, content_segmented, topic, file_path in self.documents:
-            if path_to_find == file_path:
-                return title_segmented, content_segmented
+        # Iterate over each JSON file in the output directory
+        for json_file_name in os.listdir(self.processed_doc_store_dir):
+            json_file_path = os.path.join(self.processed_doc_store_dir, json_file_name)
+            with open(json_file_path, 'r') as json_file:
+                document = json.load(json_file)
+
+                # Check if the file_path matches the search path
+                if document["file_path"] == path_to_find:
+                    return (document["title_segmented"], document["content_segmented"])
+
         raise FileNotFoundError(
             f"No document can be found at the path: {path_to_find}")
 
     def __len__(self):
-        return len(self.documents)
+        return len(self.document_count)
 
     def __getitem__(self, idx: int) -> tuple[list[str], list[str], str, str]:
-        title_segmented, content_segmented, topic, file_path = self.documents[idx]
-        return title_segmented, content_segmented, topic, file_path
+        json_file_path = os.path.join(
+            self.processed_doc_store_dir, f"{idx}.json")
+        with open(json_file_path, 'r') as json_file:
+            document = json.load(json_file)
+
+        return (
+            document["title_segmented"],
+            document["content_segmented"],
+            document["topic"],
+            document["file_path"]
+        )
 
 
-class QADataset(Dataset, LanguageProcessing):
+class QueryDocDataset(Dataset, LanguageProcessing):
     def __init__(
             self,
-            qa_dir: str,
+            qd_dir: str,
             language: SupportLanguage = 'vie',
             language_processing: LanguageProcessing = LanguageProcessing('vie')
     ):
         """
         Args:
-            qa_dir (str): Path to the folder containing CSV files with questions and corresponding answer document file paths (ABSOLUTE path).
+            qd_dir (str): Path to the folder containing CSV files with queries and corresponding answer document file paths (ABSOLUTE path).
 
             language (SupportLanguage): Language of the QA set. Default is Vietnamese (Khmer has not been implemented yet).
 
@@ -266,50 +292,50 @@ class QADataset(Dataset, LanguageProcessing):
         LanguageProcessing.__init__(self, language, language_processing.word_sentence_segment,
                                     language_processing.tokenizer, language_processing.encoder)
         Dataset.__init__(self)
-        self.qa_dir: str = qa_dir
-        self.qa_pairs: list[tuple[list[str], list[str]]
-                            ] = self._load_qa_pairs()
+        self.qd_dir: str = qd_dir
+        self.qd_pairs: list[tuple[list[str], list[str]]
+                            ] = self._load_qd_pairs()
 
-    def _load_qa_pairs(self) -> list[tuple[list[str], list[str]]]:
+    def _load_qd_pairs(self) -> list[tuple[list[str], list[str]]]:
         """
-        Load questions and their corresponding answer documents from CSV files in the specified folder,
-        then word-segment the questions.
+        Load queries and their corresponding answer documents from CSV files in the specified folder,
+        then word-segment the queries.
 
-        Attention: The corresponding answer documents file paths for each question is just a list of file path
+        Attention: The corresponding answer documents file paths for each query is just a list of file path
         to where the documents is stored. So if you just use this path to retrive the document,
         this document will be raw (pure text, no word segmentation or any technique applied). 
         You should do it yourself (this class inherits from LanguageProcessing, so it already has requied methods), 
         or use this path to find the document from `DocumentDataset` (method `find_document_by_file_path`).
 
         Returns:
-            list[tuple[list[str], list[str]]]: A list of tuples containing (question_segmented, document_file_path).
+            list[tuple[list[str], list[str]]]: A list of tuples containing (query_segmented, document_file_path_list).
         """
-        qa_pairs: list[tuple[list[str], list[str]]] = []
-        for file_name in os.listdir(self.qa_dir):
+        qd_pairs: list[tuple[list[str], list[str]]] = []
+        for file_name in os.listdir(self.qd_dir):
             if file_name.endswith('.csv'):  # Process only CSV files
-                file_path: str = os.path.join(self.qa_dir, file_name)
+                file_path: str = os.path.join(self.qd_dir, file_name)
                 with open(file_path, 'r', encoding='utf-8') as csv_file:
                     reader = csv.reader(csv_file)
                     next(reader)  # Skip header if there is one
                     for row in reader:
-                        if len(row) >= 1:  # Ensure there is at least one column (the question)
-                            # The first column is the question
-                            question = row[0].strip()
-                            question_segmented: list[str] = self.word_sentence_segment(
-                                question)
+                        if len(row) >= 1:  # Ensure there is at least one column (the query)
+                            # The first column is the query
+                            query = row[0].strip()
+                            query_segmented: list[str] = self.word_sentence_segment(
+                                query)
                             # Collect all subsequent columns as document filenames
-                            document_file_path = [f.strip()
+                            document_file_path_list = [f.strip()
                                                   for f in row[1:] if f.strip()]
-                            qa_pairs.append(
-                                (question_segmented, document_file_path))
-        return qa_pairs
+                            qd_pairs.append(
+                                (query_segmented, document_file_path_list))
+        return qd_pairs
 
     def __len__(self):
-        return len(self.qa_pairs)
+        return len(self.qd_pairs)
 
     def __getitem__(self, idx: int) -> tuple[list[str], list[str]]:
-        question_segmented, document_file_path = self.qa_pairs[idx]
-        return question_segmented, document_file_path
+        query_segmented, document_file_path_list = self.qd_pairs[idx]
+        return query_segmented, document_file_path_list
 
 
 class ParallelDataset(Dataset):

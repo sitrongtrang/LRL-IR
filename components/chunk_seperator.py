@@ -1,6 +1,4 @@
 from functools import reduce
-import random
-import torch
 
 from dataset import DocumentDataset
 
