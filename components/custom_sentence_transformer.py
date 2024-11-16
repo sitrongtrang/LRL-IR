@@ -9,12 +9,17 @@ class CustomSentenceTransformer(nn.Module):
             self,
             pretrained_model_name_or_path: str,
             device: str = "cpu",
-            batch_size: int = 32
+            batch_size: int = 32,
+            is_multilingual_retrival: bool = False,
+            pretrained_model_name_or_path_for_query: str = ""
     ):
         super(CustomSentenceTransformer, self).__init__()
 
-        self.sentence_transformer: SentenceTransformer = SentenceTransformer(
+        self.document_sentence_transformer: SentenceTransformer = SentenceTransformer(
             pretrained_model_name_or_path).to(device=device)
+        self.query_sentence_transformer: SentenceTransformer = self.document_sentence_transformer \
+            if not is_multilingual_retrival \
+            else SentenceTransformer(pretrained_model_name_or_path_for_query).to(device=device)
         self.device: str = device
         self.batch_size: int = batch_size
 
@@ -26,7 +31,7 @@ class CustomSentenceTransformer(nn.Module):
     def _process_sentence_stream(self, query: str, sentence_stream: list[str]) -> float:
         total_semantic_similarity: float = 1.0
 
-        query_embedding: Tensor = self.sentence_transformer.encode(
+        query_embedding: Tensor = self.query_sentence_transformer.encode(
             query, convert_to_tensor=True, device=self.device)
 
         batch: list[str] = []
@@ -35,7 +40,7 @@ class CustomSentenceTransformer(nn.Module):
             batch.append(sentence)
 
             if len(batch) == self.batch_size:
-                encoded_batch: Tensor = self.sentence_transformer.encode(
+                encoded_batch: Tensor = self.document_sentence_transformer.encode(
                     batch, convert_to_tensor=True, device=self.device)
 
                 similarities: Tensor = cosine_similarity(
@@ -48,7 +53,7 @@ class CustomSentenceTransformer(nn.Module):
 
         # Process any remaining sentences in the final, smaller batch
         if batch:
-            encoded_batch = self.sentence_transformer.encode(
+            encoded_batch = self.document_sentence_transformer.encode(
                 batch, convert_to_tensor=True, device=self.device)
             similarities = cosine_similarity(
                 encoded_batch, query_embedding.unsqueeze(0)).squeeze()
@@ -74,8 +79,7 @@ class CustomSentenceTransformer(nn.Module):
 
         combined_similarities_tensor: Tensor = torch.stack(
             (all_semantic_similarities_tensor, lexical_similarities_tensor), dim=1)
-        
-        output: Tensor = self.linear_sigmoid_stack(combined_similarities_tensor)
-        return output.squeeze()
 
-        
+        output: Tensor = self.linear_sigmoid_stack(
+            combined_similarities_tensor)
+        return output.squeeze()

@@ -183,10 +183,12 @@ class MonolingualRetrivalTrainer:
                 third_round_loss.backward()
                 self.optimizer.step()
 
+        # For monoligual retrival, we will not save `query_sentence_transformer` 
+        # cause both `document_sentence_transformer` and `query_sentence_transformer` are the same instance.
         sentence_transformer_save_path: str = f"/sentence_transformer_finetune/{self.language}"
         custom_sentence_transformer_save_path: str = f"/custom_sentence_transformer_trained/{self.language}"
 
-        self.custom_sentence_transformer.sentence_transformer.save(
+        self.custom_sentence_transformer.document_sentence_transformer.save(
             sentence_transformer_save_path)
         check_point = {
             'sentence_transformer_save_path': sentence_transformer_save_path,

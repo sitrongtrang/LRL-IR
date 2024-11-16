@@ -46,6 +46,9 @@ class MonoLingualRetrival(nn.Module):
             chunk_length_limit
         )
 
+        # For monolingual, we just need to load one model, because both
+        # `document_sentence_transformer` and `query_sentence_transformer` are the same instance
+        # and will have with the same model's parameters.
         checkpoint = torch.load(
             custom_sentence_transformer_pretrained_or_save_path)
         self.custom_sentence_transformer = CustomSentenceTransformer(
