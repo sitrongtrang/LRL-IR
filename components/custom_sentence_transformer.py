@@ -14,14 +14,14 @@ class CustomSentenceTransformer(nn.Module):
         super(CustomSentenceTransformer, self).__init__()
 
         self.sentence_transformer: SentenceTransformer = SentenceTransformer(
-            pretrained_model_name_or_path)
+            pretrained_model_name_or_path).to(device=device)
         self.device: str = device
         self.batch_size: int = batch_size
 
         self.linear_sigmoid_stack = nn.Sequential(
             nn.Linear(in_features=2, out_features=1, bias=True),
             nn.Sigmoid()
-        )
+        ).to(device=device)
 
     def _process_sentence_stream(self, query: str, sentence_stream: list[str]) -> float:
         total_semantic_similarity: float = 1.0

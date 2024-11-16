@@ -27,6 +27,24 @@ class LexicalMatching:
         self.document_dataset: DocumentDataset = document_dataset
         self.training = training
         self.number_to_choose = number_to_choose
+        self.bm25plus, self.file_path_lst = self._load_bm25plus()
+    
+    def _load_bm25plus(self) -> tuple[BM25Plus, list[str]]:
+        """
+        Load BM25Plus instance initialized with documents from the document dataset, and list of file path of each documents.
+
+        Returns:
+            tuple[BM25Plus, list[str]]: BM25Plus instance initialized with documents from the document dataset, and list of file path of each documents
+        """
+        tokenize_title_lst, tokenize_content_lst, file_path_lst = self._tokenize_document_and_file_path()
+        tokenized_document_corpus: list[list[str]] = []
+        for i in range(len(tokenize_title_lst)):
+            tokenize_title = tokenize_title_lst[i]
+            tokenize_content = tokenize_content_lst[i]
+            tokenize_document = tokenize_title + tokenize_content
+            tokenized_document_corpus.append(tokenize_document)
+        bm25plus = BM25Plus(tokenized_document_corpus)
+        return bm25plus, file_path_lst
 
     def _tokenize_document_and_file_path(self) -> tuple[list[list[str]], list[list[str]], list[str]]:
         """
@@ -62,21 +80,13 @@ class LexicalMatching:
             This list is sorted in descending order of matching score.\
             Depending on the mode is production or training, there will be a limit to the number of pairs returned or not.
         """
-        tokenize_title_lst, tokenize_content_lst, file_path_lst = self._tokenize_document_and_file_path()
-        tokenized_document_corpus: list[list[str]] = []
-        for i in range(len(tokenize_title_lst)):
-            tokenize_title = tokenize_title_lst[i]
-            tokenize_content = tokenize_content_lst[i]
-            tokenize_document = tokenize_title + tokenize_content
-            tokenized_document_corpus.append(tokenize_document)
-        bm25plus = BM25Plus(tokenized_document_corpus)
-        matching_scores = bm25plus.get_scores(tokenized_query)
+        matching_scores = self.bm25plus.get_scores(tokenized_query)
         top_relevant_index_set = argsort(matching_scores)[::-1]
         file_path_relevant_score_pairs: list[tuple[str, float]] = []
         for index in top_relevant_index_set:
             relevant_score_raw: float64 = matching_scores[index]
             relevant_score: float = relevant_score_raw.item()
-            file_path: str = file_path_lst[index]
+            file_path: str = self.file_path_lst[index]
             pair: tuple[str, float] = (file_path, relevant_score)
             file_path_relevant_score_pairs.append(pair)
         if self.training:

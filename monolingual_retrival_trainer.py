@@ -10,6 +10,10 @@ from components.custom_sentence_transformer import CustomSentenceTransformer
 from components.fine_tune_language_model import FineTuneLanguageModel
 from utils import pos_neg_samples_gen_first_round, pos_neg_samples_gen_later_round, combine_doc_list
 
+FIRST_ROUND_NEGATIVE_SAMPLE_COUNT = 35
+SECOND_ROUND_NEGATIVE_SAMPLE_COUNT = 20
+THIRD_ROUND_NEGATIVE_SAMPLE_COUNT = 15
+
 
 class ContrastiveLoss(nn.Module):
     def __init__(self, margin: float = 1.0):
@@ -85,17 +89,18 @@ class MonolingualRetrivalTrainer:
             device,
             batch_size
         ).to(device=device)
-        self.contrastive_loss_fn: ContrastiveLoss = ContrastiveLoss(margin)
+        self.contrastive_loss_fn: ContrastiveLoss = ContrastiveLoss(margin).to(device)
         self.optimizer = Adam(
             self.custom_sentence_transformer.parameters(), lr=learning_rate)
         self.epochs: int = epochs
         self.device: str = device
+        self.language_processing: LanguageProcessing = language_processing
 
     def train(self) -> tuple[str, str]:
         for epoch in range(self.epochs):
             for query_segmented, document_file_path_list in self.query_doc_dataset:
                 tokenized_query: list[str] = reduce(
-                    lambda prev, curr: prev + self.query_doc_dataset.tokenizer(curr), query_segmented, [])
+                    lambda prev, curr: prev + self.language_processing.tokenizer(curr), query_segmented, [])
                 extended_query: list[str] = tokenized_query + \
                     self.query_expansion.get_expansion_term(tokenized_query)
                 original_query_doc_ranking: list[tuple[str, float]] = self.lexical_matching.get_documents_ranking(
@@ -103,9 +108,9 @@ class MonolingualRetrivalTrainer:
                 extended_query_doc_ranking: list[tuple[str, float]] = self.lexical_matching.get_documents_ranking(
                     extended_query)
                 original_query_relevant_doc_list: list[tuple[str, float]] = pos_neg_samples_gen_first_round(
-                    document_file_path_list, original_query_doc_ranking, 35)
+                    document_file_path_list, original_query_doc_ranking, FIRST_ROUND_NEGATIVE_SAMPLE_COUNT)
                 extended_query_relevant_doc_list: list[tuple[str, float]] = pos_neg_samples_gen_first_round(
-                    document_file_path_list, extended_query_doc_ranking, 35)
+                    document_file_path_list, extended_query_doc_ranking, FIRST_ROUND_NEGATIVE_SAMPLE_COUNT)
                 combine_lexical_relevant_doc_list: list[tuple[str, float]] = combine_doc_list(
                     original_query_relevant_doc_list, extended_query_relevant_doc_list)
 
@@ -141,7 +146,7 @@ class MonolingualRetrivalTrainer:
                     first_round_label_list,
                     lexical_similarity_score_list,
                     lexical_relevant_doc_chunk_list,
-                    20
+                    SECOND_ROUND_NEGATIVE_SAMPLE_COUNT
                 )
                 second_round_label_tensor: Tensor = torch.tensor(
                     second_round_label_list, device=self.device)
@@ -164,7 +169,7 @@ class MonolingualRetrivalTrainer:
                     second_round_label_list,
                     second_round_lexical_similarity_score_list,
                     second_round_doc_chunk_list,
-                    15
+                    THIRD_ROUND_NEGATIVE_SAMPLE_COUNT
                 )
                 third_round_label_tensor: Tensor = torch.tensor(
                     third_round_label_list, device=self.device)
@@ -187,6 +192,7 @@ class MonolingualRetrivalTrainer:
             'sentence_transformer_save_path': sentence_transformer_save_path,
             'linear_sigmoid_stack': self.custom_sentence_transformer.linear_sigmoid_stack.state_dict()
         }
-        torch.save(check_point, custom_sentence_transformer_save_path + '/model.pth')
+        torch.save(
+            check_point, custom_sentence_transformer_save_path + '/model.pth')
 
         return sentence_transformer_save_path, custom_sentence_transformer_save_path
