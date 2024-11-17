@@ -6,27 +6,12 @@ from dataset import DocumentDataset
 
 
 class LexicalMatching:
-    def __init__(
-            self,
-            document_dataset: DocumentDataset,
-            training: bool = True,
-            number_to_choose: int = 30
-    ) -> None:
+    def __init__(self, document_dataset: DocumentDataset) -> None:
         """
         Args:
             document_dataset (DocumentDataset): An object of DocumentDataset class, represent a document dataset that query wants to retrive.
-            training (bool): Indicate if we are in training phase or not.\
-                If `True`, which mean we are in traning phase, there will be `Positive and Negative Pairs` function run after this\
-                to check labels and generate +/- samples. So when we call `get_documents_ranking` we just need to return all documents\
-                with their lexical matching score, order by matching point with descending order.\
-                Otherwise, which mean we are in production mode, there will NOT be any function to check labels or generate samples.\
-                So we have to limit the number of samples for next steps by ourself. When we call `get_documents_ranking`,\
-                only `number_to_choose` documents with their lexical matching score are returned, order by matching point with descending order.
-            number_to_choose (int): The number of samples we want to choose for next steps. Only work when `training` is set to `False`.
         """
         self.document_dataset: DocumentDataset = document_dataset
-        self.training = training
-        self.number_to_choose = number_to_choose
         self.bm25plus, self.file_path_lst = self._load_bm25plus()
     
     def _load_bm25plus(self) -> tuple[BM25Plus, list[str]]:
@@ -89,7 +74,5 @@ class LexicalMatching:
             file_path: str = self.file_path_lst[index]
             pair: tuple[str, float] = (file_path, relevant_score)
             file_path_relevant_score_pairs.append(pair)
-        if self.training:
-            return file_path_relevant_score_pairs
-        else:
-            return file_path_relevant_score_pairs[:self.number_to_choose]
+
+        return file_path_relevant_score_pairs

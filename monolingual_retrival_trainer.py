@@ -16,6 +16,9 @@ THIRD_ROUND_NEGATIVE_SAMPLE_COUNT = 15
 
 
 class ContrastiveLoss(nn.Module):
+    """
+    This class represents the contrastive loss function and is used to calcualate the loss value.
+    """
     def __init__(self, margin: float = 1.0):
         super(ContrastiveLoss, self).__init__()
         self.margin = margin
@@ -47,7 +50,6 @@ class MonolingualRetrivalTrainer:
         do_mlm_fine_tune: bool = True,
         language: str = 'vie',
         language_processing: LanguageProcessing = LanguageProcessing('vie'),
-        lexical_number_to_choose: int = 30,
         chunk_length_limit: int = 128,
         device: str = "cpu",
         batch_size: int = 32,
@@ -55,6 +57,39 @@ class MonolingualRetrivalTrainer:
         learning_rate: float = 1e-5,
         epochs: int = 4
     ) -> None:
+        """
+        Args:
+            document_dir (str): ABSOLUTE path to the directory containing documents with title, topic, and content xml-tag.
+
+            processed_doc_store_dir (str): processed_doc_store_dir (str): ABSOLUTE path to the directory where you want to store preprocessed-documents.
+
+            qd_dir (str): Path to the folder containing CSV files with queries and corresponding answer document file paths (ABSOLUTE path).
+
+            pretrained_model_name_or_path (str): A string - the model id of a pretrained language model hosted\
+            inside a model repo on huggingface.co (e.g: `vinai/phobert-base-v2`, `FacebookAI/roberta-base`,...).\
+            OR a path to a directory containing your own language model. This model should be based on a transformer model\
+            such as BERT, RoBERTa, or other Hugging Face models.
+
+            do_mlm_fine_tune (bool): Indicator variable telling whether or not to do mlm fine-tune task for the language model.
+
+            language (str): Language of the query and documents. Since this is class for monolingual-training, the language\
+            of the query and documents must be the same.
+
+            language_processing (LanguageProcessing): Language processing object for the language.
+
+            chunk_length_limit (int): The limit length of each chunk. Representing the max number of tokens in each chunk\
+            when seperating the document.
+
+            device (str): Device (like "cuda", "cpu", "mps", "npu") that indicate where all models and computations run.
+
+            batch_size (int): Determine how many sentence chunks should be encode at once in SentenceTransformer.
+
+            margin (float): The value of the margin in the contrastive-loss equation.
+
+            learning_rate (float): The learning rate of the traning process.
+
+            epochs (int): Indicate total number of iterations of all the training data.
+        """
         super().__init__()
         self.language = language
         self.document_dataset: DocumentDataset = DocumentDataset(
@@ -70,11 +105,7 @@ class MonolingualRetrivalTrainer:
         )
         self.query_expansion: QueryExpansion = QueryExpansion(
             self.document_dataset)
-        self.lexical_matching: LexicalMatching = LexicalMatching(
-            self.document_dataset,
-            training=True,
-            number_to_choose=lexical_number_to_choose
-        )
+        self.lexical_matching: LexicalMatching = LexicalMatching(self.document_dataset)
         self.chunk_seperator: ChunkSeperator = ChunkSeperator(
             self.document_dataset,
             chunk_length_limit
@@ -97,6 +128,16 @@ class MonolingualRetrivalTrainer:
         self.language_processing: LanguageProcessing = language_processing
 
     def train(self) -> tuple[str, str]:
+        """
+        Training entry point.
+
+        Returns:
+            tuple[str, str]: The first string is the path to the fine-tuned `SentenceTransformer` model.\
+            This can be loaded seperately to do Knowledge Distillation later.\
+            The second string is the path to the whole `CustomSentenceTransformer` model. Because `CustomSentenceTransformer`\
+            has an attribute of class `SentenceTransformer`, which have different way to load the model,\
+            we save it as a dictionary of two keys represents two part of `CustomSentenceTransformer`.
+        """
         for epoch in range(self.epochs):
             for query_segmented, document_file_path_list in self.query_doc_dataset:
                 tokenized_query: list[str] = reduce(
