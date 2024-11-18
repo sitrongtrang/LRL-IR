@@ -46,11 +46,7 @@ class LexicalMatching:
         tokenize_content_lst: list[list[str]] = []
         file_path_lst: list[str] = []
         for document in self.document_dataset:
-            title, content, topic, file_path = document
-            tokenize_title: list[str] = reduce(
-                lambda prev, curr: prev + self.document_dataset.tokenizer(curr), title, [])
-            tokenize_content: list[str] = reduce(
-                lambda prev, curr: prev + self.document_dataset.tokenizer(curr), content, [])
+            _, _, tokenize_title, tokenize_content, _, file_path = document
             tokenize_title_lst.append(tokenize_title)
             tokenize_content_lst.append(tokenize_content)
             file_path_lst.append(file_path)

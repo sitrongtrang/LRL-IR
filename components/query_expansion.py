@@ -67,11 +67,7 @@ class QueryExpansion:
         tokenize_title_lst: list[list[str]] = []
         tokenize_content_lst: list[list[str]] = []
         for document in self.document_dataset:
-            title, content, topic, file_path = document
-            tokenize_title: list[str] = reduce(
-                lambda prev, curr: prev + self.document_dataset.tokenizer(curr), title, [])
-            tokenize_content: list[str] = reduce(
-                lambda prev, curr: prev + self.document_dataset.tokenizer(curr), content, [])
+            _, _, tokenize_title, tokenize_content, _, _ = document
             tokenize_title_lst.append(tokenize_title)
             tokenize_content_lst.append(tokenize_content)
         return tokenize_title_lst, tokenize_content_lst

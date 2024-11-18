@@ -147,7 +147,9 @@ class DocumentDataset(Dataset, LanguageProcessing):
 
     def _load_documents(self) -> int:
         """
-        Load documents from the specified directory, parse their contents, and segment by words. Then save it in json format for later use.
+        Load the raw documents from the specified directory and parse their titles, contents and topics.
+        Then, segment and tokenize the text part of theses documents.
+        Finally, save all these data in json format for later use.
 
         Returns:
             int: The number of documents
@@ -159,9 +161,15 @@ class DocumentDataset(Dataset, LanguageProcessing):
                 title_segmented: list[str] = self.word_sentence_segment(title)
                 content_segmented: list[str] = self.word_sentence_segment(
                     content)
+                title_tokenized: list[str] = reduce(
+                    lambda prev, curr: prev + self.tokenizer(curr), title_segmented, [])
+                content_tokenized: list[str] = reduce(
+                    lambda prev, curr: prev + self.tokenizer(curr), content_segmented, [])
                 document = {
                     "title_segmented": title_segmented,
                     "content_segmented": content_segmented,
+                    "title_tokenized": title_tokenized,
+                    "content_tokenized": content_tokenized,
                     "topic": topic,
                     "file_path": file_path
                 }
@@ -260,7 +268,7 @@ class DocumentDataset(Dataset, LanguageProcessing):
     def __len__(self):
         return len(self.document_count)
 
-    def __getitem__(self, idx: int) -> tuple[list[str], list[str], str, str]:
+    def __getitem__(self, idx: int) -> tuple[list[str], list[str], list[str], list[str], str, str]:
         json_file_path = os.path.join(
             self.processed_doc_store_dir, f"{idx}.json")
         with open(json_file_path, 'r') as json_file:
@@ -269,6 +277,8 @@ class DocumentDataset(Dataset, LanguageProcessing):
         return (
             document["title_segmented"],
             document["content_segmented"],
+            document["title_tokenized"],
+            document["content_tokenized"],
             document["topic"],
             document["file_path"]
         )
@@ -420,9 +430,7 @@ class MLMFineTuneDataset(Dataset):
             `attention_mask` represent the mask of each corresponding token (1 is normal token, 0 is padding).
         """
         samples: list[dict] = []
-        for title_segmented, content_segmented, topic, file_path in self.document_dataset:
-            tokenize_content: list[str] = reduce(
-                lambda prev, curr: prev + self.document_dataset.tokenizer(curr), content_segmented, [])
+        for _, _, _, tokenize_content, _, _ in self.document_dataset:
             model_max_length: int = self.document_dataset.pre_trained_tokenizer_model.model_max_length
             stride: int = min(model_max_length // 10, 50)
             example_lst: BatchEncoding = self.document_dataset.pre_trained_tokenizer_model(
