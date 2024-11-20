@@ -100,6 +100,8 @@ class LanguageProcessing:
             Each element in the list represents a word-segmented sentence.
         """
         if self.language == "vie":
+            if os.path.isdir("/vncorenlp/models") == False or os.path.exists('/vncorenlp/VnCoreNLP-1.2.jar') == False:
+                py_vncorenlp.download_model("/vncorenlp")
             return py_vncorenlp.VnCoreNLP(
                 annotators=["wseg"], save_dir="/vncorenlp").word_segment
         elif self.language == "khmer":
