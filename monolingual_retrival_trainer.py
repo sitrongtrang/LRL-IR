@@ -140,8 +140,7 @@ class MonolingualRetrivalTrainer:
         """
         for epoch in range(self.epochs):
             for query_segmented, document_file_path_list in self.query_doc_dataset:
-                tokenized_query: list[str] = reduce(
-                    lambda prev, curr: prev + self.language_processing.tokenizer(curr), query_segmented, [])
+                tokenized_query: list[str] = self.language_processing.tokenizer(query_segmented)
                 extended_query: list[str] = tokenized_query + \
                     self.query_expansion.get_expansion_term(tokenized_query)
                 original_query_doc_ranking: list[tuple[str, float]] = self.lexical_matching.get_documents_ranking(

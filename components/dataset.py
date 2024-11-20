@@ -101,7 +101,7 @@ class LanguageProcessing:
         """
         if self.language == "vie":
             return py_vncorenlp.VnCoreNLP(
-                annotators=["wseg"], save_dir="/vncorenlp").word_sentence_segment
+                annotators=["wseg"], save_dir="/vncorenlp").word_segment
         elif self.language == "khmer":
             raise NotImplementedError("Khmer has not been implemented yet")
         else:
@@ -109,6 +109,13 @@ class LanguageProcessing:
                 f"The language {self.language} is not supported by default. You have to implement word segmentation by yourself!")
 
     def _load_chunk_combiner(self) -> Callable[[list[str]], str]:
+        """
+        Load appropriate function that combines a list of sentences to a single chunk for the language.
+
+        Returns:
+            Callable[[list[str]], str]: A function receives a list of string (represents a list of sentences)
+            and returns a single string (represents a single combined chunk).
+        """
         def vietnamese_chunk_combiner(sentence_lst: list[str]) -> str:
             return " ".join(sentence_lst)
         if self.language == "vie":
@@ -254,7 +261,8 @@ class DocumentDataset(Dataset, LanguageProcessing):
         """
         # Iterate over each JSON file in the output directory
         for json_file_name in os.listdir(self.processed_doc_store_dir):
-            json_file_path = os.path.join(self.processed_doc_store_dir, json_file_name)
+            json_file_path = os.path.join(
+                self.processed_doc_store_dir, json_file_name)
             with open(json_file_path, 'r') as json_file:
                 document = json.load(json_file)
 
@@ -303,7 +311,7 @@ class QueryDocDataset(Dataset, LanguageProcessing):
                                     language_processing.tokenizer, language_processing.encoder)
         Dataset.__init__(self)
         self.qd_dir: str = qd_dir
-        self.qd_pairs: list[tuple[list[str], list[str]]
+        self.qd_pairs: list[tuple[str, list[str]]
                             ] = self._load_qd_pairs()
 
     def _load_qd_pairs(self) -> list[tuple[list[str], list[str]]]:
@@ -318,9 +326,9 @@ class QueryDocDataset(Dataset, LanguageProcessing):
         or use this path to find the document from `DocumentDataset` (method `find_document_by_file_path`).
 
         Returns:
-            list[tuple[list[str], list[str]]]: A list of tuples containing (query_segmented, document_file_path_list).
+            list[tuple[str, list[str]]]: A list of tuples containing (query_segmented, document_file_path_list).
         """
-        qd_pairs: list[tuple[list[str], list[str]]] = []
+        qd_pairs: list[tuple[str, list[str]]] = []
         for file_name in os.listdir(self.qd_dir):
             if file_name.endswith('.csv'):  # Process only CSV files
                 file_path: str = os.path.join(self.qd_dir, file_name)
@@ -331,11 +339,11 @@ class QueryDocDataset(Dataset, LanguageProcessing):
                         if len(row) >= 1:  # Ensure there is at least one column (the query)
                             # The first column is the query
                             query = row[0].strip()
-                            query_segmented: list[str] = self.word_sentence_segment(
-                                query)
+                            query_segmented: str = self.chunk_combiner(
+                                self.word_sentence_segment(query))
                             # Collect all subsequent columns as document filenames
                             document_file_path_list = [f.strip()
-                                                  for f in row[1:] if f.strip()]
+                                                       for f in row[1:] if f.strip()]
                             qd_pairs.append(
                                 (query_segmented, document_file_path_list))
         return qd_pairs
@@ -343,7 +351,7 @@ class QueryDocDataset(Dataset, LanguageProcessing):
     def __len__(self):
         return len(self.qd_pairs)
 
-    def __getitem__(self, idx: int) -> tuple[list[str], list[str]]:
+    def __getitem__(self, idx: int) -> tuple[str, list[str]]:
         query_segmented, document_file_path_list = self.qd_pairs[idx]
         return query_segmented, document_file_path_list
 

@@ -15,6 +15,7 @@ class MonoLingualRetrival(nn.Module):
     If you want to train the model, please use the Trainer class to train the sub-model 
     and then pass the directory saving the trained-model into the constructor of this class.
     """
+
     def __init__(
         self,
         document_dir: str,
@@ -78,7 +79,8 @@ class MonoLingualRetrival(nn.Module):
         )
         self.query_expansion: QueryExpansion = QueryExpansion(
             self.document_dataset)
-        self.lexical_matching: LexicalMatching = LexicalMatching(self.document_dataset)
+        self.lexical_matching: LexicalMatching = LexicalMatching(
+            self.document_dataset)
         self.chunk_seperator: ChunkSeperator = ChunkSeperator(
             self.document_dataset,
             chunk_length_limit
@@ -96,7 +98,7 @@ class MonoLingualRetrival(nn.Module):
         ).to(device=device)
         self.custom_sentence_transformer.linear_sigmoid_stack.load_state_dict(
             checkpoint['linear_sigmoid_stack'])
-        
+
         self.original_query_doc_count: int = original_query_doc_count
         self.extended_query_doc_count: int = extended_query_doc_count
         self.device: str = device
@@ -114,10 +116,10 @@ class MonoLingualRetrival(nn.Module):
         Returns:
             list[str]: a list of file paths to the documents which are considered to be related to the query.
         """
-        query_segmented: list[str] = self.language_processing.word_sentence_segment(
-            query)
-        tokenized_query: list[str] = reduce(
-            lambda prev, curr: prev + self.language_processing.tokenizer(curr), query_segmented, [])
+        query_segmented: str = self.language_processing.chunk_combiner(
+            self.language_processing.word_sentence_segment(query))
+        tokenized_query: list[str] = self.language_processing.tokenizer(
+            query_segmented)
         extended_query: list[str] = tokenized_query + \
             self.query_expansion.get_expansion_term(tokenized_query)
         original_query_doc_ranking: list[tuple[str, float]] = self.lexical_matching.get_documents_ranking(
@@ -143,11 +145,14 @@ class MonoLingualRetrival(nn.Module):
                 lexical_relevant_doc_chunk_list
             )
             max_relevant = output.max()
-            lower_bound = max(max_relevant - self.relevant_threshold, self.relevant_default_lowerbound)
+            lower_bound = max(max_relevant - self.relevant_threshold,
+                              self.relevant_default_lowerbound)
             upper_bound = max_relevant
 
             mask = (output >= lower_bound) & (output <= upper_bound)
 
-            indices: list[int] = torch.nonzero(mask, as_tuple=False).squeeze().tolist()
-            result: list[str] = [combine_lexical_relevant_doc_list[i][0] for i in indices]
+            indices: list[int] = torch.nonzero(
+                mask, as_tuple=False).squeeze().tolist()
+            result: list[str] = [combine_lexical_relevant_doc_list[i][0]
+                                 for i in indices]
             return result

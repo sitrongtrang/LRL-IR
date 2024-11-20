@@ -37,6 +37,7 @@ class QueryExpansion:
         }
         self.sources['COLLECTION_SET_TITLE'], self.sources['COLLECTION_SET_CONTENT'] = self._tokenize_document()
         self.collection_set: set[str] = self._get_collection_set()
+        self.bm25plus: BM25Plus = self._load_bm25plus()
 
         # At first, this dict is empty, so we need to use .get() method with default value when retrieving prob,
         # so that if key does not exist yet, default value will be return.
@@ -101,6 +102,22 @@ class QueryExpansion:
             for term in sequence:
                 term_set.add(term)
         return term_set
+    
+    def _load_bm25plus(self) -> BM25Plus:
+        """
+        Load BM25Plus instance initialized with documents from the document dataset.
+
+        Returns:
+            BM25Plus: BM25Plus instance initialized with documents from the document dataset
+        """
+        tokenized_document_corpus: list[list[str]] = []
+        for i in range(len(self.sources['COLLECTION_SET_TITLE'])):
+            tokenize_title: list[str] = self.sources['COLLECTION_SET_TITLE'][i]
+            tokenize_content: list[str] = self.sources['COLLECTION_SET_CONTENT'][i]
+            tokenize_document: list[str] = tokenize_title + tokenize_content
+            tokenized_document_corpus.append(tokenize_document)
+        bm25plus = BM25Plus(tokenized_document_corpus)
+        return bm25plus
 
     def get_expansion_term(self, tokenized_query: list[str]) -> list[str]:
         """
@@ -127,14 +144,7 @@ class QueryExpansion:
         """
         self._clear_previous_result()
 
-        tokenized_document_corpus: list[list[str]] = []
-        for i in range(len(self.sources['COLLECTION_SET_TITLE'])):
-            tokenize_title: list[str] = self.sources['COLLECTION_SET_TITLE'][i]
-            tokenize_content: list[str] = self.sources['COLLECTION_SET_CONTENT'][i]
-            tokenize_document: list[str] = tokenize_title + tokenize_content
-            tokenized_document_corpus.append(tokenize_document)
-        bm25plus = BM25Plus(tokenized_document_corpus)
-        matching_scores = bm25plus.get_scores(tokenized_query)
+        matching_scores = self.bm25plus.get_scores(tokenized_query)
         top_relevant_index_set = argsort(matching_scores)[
             ::-1][:LIMIT_K_DOCS_FOR_RELEVANT_SET]
 
