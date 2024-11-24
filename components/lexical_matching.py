@@ -6,30 +6,30 @@ from dataset import DocumentDataset
 
 
 class LexicalMatching:
-    def __init__(
-            self,
-            tokenized_query: list[str],
-            document_dataset: DocumentDataset,
-            training: bool = True,
-            number_to_choose: int = 30
-    ) -> None:
+    def __init__(self, document_dataset: DocumentDataset) -> None:
         """
         Args:
-            tokenized_query (list[str]): Query which has been tokenized with the same tokenizer used for the documents.
             document_dataset (DocumentDataset): An object of DocumentDataset class, represent a document dataset that query wants to retrive.
-            training (bool): Indicate if we are in training phase or not.\
-                If `True`, which mean we are in traning phase, there will be `Positive and Negative Pairs` component run after this\
-                to check labels and generate +/- samples. So when we call `get_documents_ranking` we just need to return all documents\
-                with their lexical matching score, order by matching point with descending order.\
-                Otherwise, which mean we are in production mode, there will NOT be any component to check labels or generate samples.\
-                So we have to limit the number of samples for next steps by ourself. When we call `get_documents_ranking`,\
-                only `number_to_choose` documents with their lexical matching score are returned, order by matching point with descending order.
-            number_to_choose (int): The number of samples we want to choose for next steps. Only work when `training` is set to `False`.
         """
-        self.tokenized_query: list[str] = tokenized_query
         self.document_dataset: DocumentDataset = document_dataset
-        self.training = training
-        self.number_to_choose = number_to_choose
+        self.bm25plus, self.file_path_lst = self._load_bm25plus()
+    
+    def _load_bm25plus(self) -> tuple[BM25Plus, list[str]]:
+        """
+        Load BM25Plus instance initialized with documents from the document dataset, and list of file path of each documents.
+
+        Returns:
+            tuple[BM25Plus, list[str]]: BM25Plus instance initialized with documents from the document dataset, and list of file path of each documents
+        """
+        tokenize_title_lst, tokenize_content_lst, file_path_lst = self._tokenize_document_and_file_path()
+        tokenized_document_corpus: list[list[str]] = []
+        for i in range(len(tokenize_title_lst)):
+            tokenize_title = tokenize_title_lst[i]
+            tokenize_content = tokenize_content_lst[i]
+            tokenize_document = tokenize_title + tokenize_content
+            tokenized_document_corpus.append(tokenize_document)
+        bm25plus = BM25Plus(tokenized_document_corpus)
+        return bm25plus, file_path_lst
 
     def _tokenize_document_and_file_path(self) -> tuple[list[list[str]], list[list[str]], list[str]]:
         """
@@ -46,17 +46,13 @@ class LexicalMatching:
         tokenize_content_lst: list[list[str]] = []
         file_path_lst: list[str] = []
         for document in self.document_dataset:
-            title, content, topic, file_path = document
-            tokenize_title: list[str] = reduce(
-                lambda prev, curr: prev + self.document_dataset.tokenizer(curr), title, [])
-            tokenize_content: list[str] = reduce(
-                lambda prev, curr: prev + self.document_dataset.tokenizer(curr), content, [])
+            _, _, tokenize_title, tokenize_content, _, file_path = document
             tokenize_title_lst.append(tokenize_title)
             tokenize_content_lst.append(tokenize_content)
             file_path_lst.append(file_path)
         return tokenize_title_lst, tokenize_content_lst, file_path_lst
 
-    def get_documents_ranking(self) -> list[tuple[str, float]]:
+    def get_documents_ranking(self, tokenized_query: list[str]) -> list[tuple[str, float]]:
         """
         Get the list of lexical matching score between query and each document in dataset.
 
@@ -65,24 +61,14 @@ class LexicalMatching:
             This list is sorted in descending order of matching score.\
             Depending on the mode is production or training, there will be a limit to the number of pairs returned or not.
         """
-        tokenize_title_lst, tokenize_content_lst, file_path_lst = self._tokenize_document_and_file_path()
-        tokenized_document_corpus: list[list[str]] = []
-        for i in range(len(tokenize_title_lst)):
-            tokenize_title = tokenize_title_lst[i]
-            tokenize_content = tokenize_content_lst[i]
-            tokenize_document = tokenize_title + tokenize_content
-            tokenized_document_corpus.append(tokenize_document)
-        bm25plus = BM25Plus(tokenized_document_corpus)
-        matching_scores = bm25plus.get_scores(self.tokenized_query)
+        matching_scores = self.bm25plus.get_scores(tokenized_query)
         top_relevant_index_set = argsort(matching_scores)[::-1]
         file_path_relevant_score_pairs: list[tuple[str, float]] = []
         for index in top_relevant_index_set:
             relevant_score_raw: float64 = matching_scores[index]
             relevant_score: float = relevant_score_raw.item()
-            file_path: str = file_path_lst[index]
+            file_path: str = self.file_path_lst[index]
             pair: tuple[str, float] = (file_path, relevant_score)
             file_path_relevant_score_pairs.append(pair)
-        if self.training:
-            return file_path_relevant_score_pairs
-        else:
-            return file_path_relevant_score_pairs[:self.number_to_choose]
+
+        return file_path_relevant_score_pairs

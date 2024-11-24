@@ -37,6 +37,7 @@ class QueryExpansion:
         }
         self.sources['COLLECTION_SET_TITLE'], self.sources['COLLECTION_SET_CONTENT'] = self._tokenize_document()
         self.collection_set: set[str] = self._get_collection_set()
+        self.bm25plus: BM25Plus = self._load_bm25plus()
 
         # At first, this dict is empty, so we need to use .get() method with default value when retrieving prob,
         # so that if key does not exist yet, default value will be return.
@@ -67,11 +68,7 @@ class QueryExpansion:
         tokenize_title_lst: list[list[str]] = []
         tokenize_content_lst: list[list[str]] = []
         for document in self.document_dataset:
-            title, content, topic, file_path = document
-            tokenize_title: list[str] = reduce(
-                lambda prev, curr: prev + self.document_dataset.tokenizer(curr), title, [])
-            tokenize_content: list[str] = reduce(
-                lambda prev, curr: prev + self.document_dataset.tokenizer(curr), content, [])
+            _, _, tokenize_title, tokenize_content, _, _ = document
             tokenize_title_lst.append(tokenize_title)
             tokenize_content_lst.append(tokenize_content)
         return tokenize_title_lst, tokenize_content_lst
@@ -105,6 +102,22 @@ class QueryExpansion:
             for term in sequence:
                 term_set.add(term)
         return term_set
+    
+    def _load_bm25plus(self) -> BM25Plus:
+        """
+        Load BM25Plus instance initialized with documents from the document dataset.
+
+        Returns:
+            BM25Plus: BM25Plus instance initialized with documents from the document dataset
+        """
+        tokenized_document_corpus: list[list[str]] = []
+        for i in range(len(self.sources['COLLECTION_SET_TITLE'])):
+            tokenize_title: list[str] = self.sources['COLLECTION_SET_TITLE'][i]
+            tokenize_content: list[str] = self.sources['COLLECTION_SET_CONTENT'][i]
+            tokenize_document: list[str] = tokenize_title + tokenize_content
+            tokenized_document_corpus.append(tokenize_document)
+        bm25plus = BM25Plus(tokenized_document_corpus)
+        return bm25plus
 
     def get_expansion_term(self, tokenized_query: list[str]) -> list[str]:
         """
@@ -131,14 +144,7 @@ class QueryExpansion:
         """
         self._clear_previous_result()
 
-        tokenized_document_corpus: list[list[str]] = []
-        for i in range(len(self.sources['COLLECTION_SET_TITLE'])):
-            tokenize_title: list[str] = self.sources['COLLECTION_SET_TITLE'][i]
-            tokenize_content: list[str] = self.sources['COLLECTION_SET_CONTENT'][i]
-            tokenize_document: list[str] = tokenize_title + tokenize_content
-            tokenized_document_corpus.append(tokenize_document)
-        bm25plus = BM25Plus(tokenized_document_corpus)
-        matching_scores = bm25plus.get_scores(tokenized_query)
+        matching_scores = self.bm25plus.get_scores(tokenized_query)
         top_relevant_index_set = argsort(matching_scores)[
             ::-1][:LIMIT_K_DOCS_FOR_RELEVANT_SET]
 
@@ -240,7 +246,7 @@ class QueryExpansion:
                     expansion_term_source_pair: tuple[str, SourceForExpansion] = (
                         expansion_term, source)
                     prob_expansion_term_represents_source: float = self.prob_expansion_term_represents_source.get(
-                        expansion_term_source_pair, 0.5)
+                        expansion_term_source_pair, 1.0 / float(len(self.collection_set)))
                     accumulate_likelihood_of_collection_set += indicator * \
                         log(prob_expansion_term_represents_source)
                 accumulate_likelihood_of_source += prob_term_belongs_to_source * \
@@ -398,7 +404,7 @@ class QueryExpansion:
             expansion_term_source_to_estimate_pair: tuple[str, SourceForExpansion] = (
                 expansion_term, source_to_estimate)
             accumulate_prob_for_numerator *= (self.prob_expansion_term_represents_source.get(
-                expansion_term_source_to_estimate_pair, 0.5)) ** indicator
+                expansion_term_source_to_estimate_pair, 1.0 / float(len(self.collection_set)))) ** indicator
         numerator = self.prob_of_selecting_source[source_to_estimate] * \
             accumulate_prob_for_numerator
 
@@ -409,7 +415,7 @@ class QueryExpansion:
                 expansion_term_source_pair: tuple[str, SourceForExpansion] = (
                     expansion_term, source)
                 accumulate_prob_for_denominator *= (self.prob_expansion_term_represents_source.get(
-                    expansion_term_source_pair, 0.5)) ** indicator
+                    expansion_term_source_pair, 1.0 / float(len(self.collection_set)))) ** indicator
             denominator += self.prob_of_selecting_source[source] * \
                 accumulate_prob_for_denominator
 
