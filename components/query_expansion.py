@@ -246,7 +246,7 @@ class QueryExpansion:
                     expansion_term_source_pair: tuple[str, SourceForExpansion] = (
                         expansion_term, source)
                     prob_expansion_term_represents_source: float = self.prob_expansion_term_represents_source.get(
-                        expansion_term_source_pair, 0.5)
+                        expansion_term_source_pair, 1.0 / float(len(self.collection_set)))
                     accumulate_likelihood_of_collection_set += indicator * \
                         log(prob_expansion_term_represents_source)
                 accumulate_likelihood_of_source += prob_term_belongs_to_source * \
@@ -404,7 +404,7 @@ class QueryExpansion:
             expansion_term_source_to_estimate_pair: tuple[str, SourceForExpansion] = (
                 expansion_term, source_to_estimate)
             accumulate_prob_for_numerator *= (self.prob_expansion_term_represents_source.get(
-                expansion_term_source_to_estimate_pair, 0.5)) ** indicator
+                expansion_term_source_to_estimate_pair, 1.0 / float(len(self.collection_set)))) ** indicator
         numerator = self.prob_of_selecting_source[source_to_estimate] * \
             accumulate_prob_for_numerator
 
@@ -415,7 +415,7 @@ class QueryExpansion:
                 expansion_term_source_pair: tuple[str, SourceForExpansion] = (
                     expansion_term, source)
                 accumulate_prob_for_denominator *= (self.prob_expansion_term_represents_source.get(
-                    expansion_term_source_pair, 0.5)) ** indicator
+                    expansion_term_source_pair, 1.0 / float(len(self.collection_set)))) ** indicator
             denominator += self.prob_of_selecting_source[source] * \
                 accumulate_prob_for_denominator
 
