@@ -35,7 +35,7 @@ def get_wikipedia_links(page_title, language_code="en"):
     return links
 
 for article in dataset:
-    id = article['id']
+    id = int(article['id'])
     if id in ids: continue
     print(id)
     
