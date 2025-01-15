@@ -2,7 +2,7 @@ import numpy as np
 import ot
 import matplotlib.pyplot as plt
 
-class IPOT():
+class IPOT:
     def __init__(self, a1, a2, beta=2, max_iter=1000, L=1, use_path = True, return_map = True, return_loss = True):
         """
         Solve the optimal transport problem and return the OT matrix
