@@ -75,6 +75,7 @@ class KnowledgeDistillation:
 
         self.optimizer = torch.optim.AdamW(self.student.parameters(), lr=self.learning_rate)
 
+        self.ot_solver: OTSolver = OTSolver()
         self.ot_loss: OTLoss = OTLoss().to(device)
 
     def train(self) -> None:
@@ -101,17 +102,11 @@ class KnowledgeDistillation:
                 )
                 
                 # Compute optimal transport plans
-                transport_plan_source: Tensor = self.compute_optimal_transport(
-                    teacher_embeddings,
-                    student_embeddings_source,
-                    self.epsilon
-                )
+                cost_source = torch.cdist(teacher_embeddings, student_embeddings_source)
+                transport_plan_source: Tensor = self.ot_solver.solve(teacher_embeddings, student_embeddings_source, cost_source)
 
-                transport_plan_target: Tensor = self.compute_optimal_transport(
-                    teacher_embeddings,
-                    student_embeddings_target,
-                    self.epsilon
-                )
+                cost_target = torch.cdist(teacher_embeddings, student_embeddings_target)
+                transport_plan_target: Tensor = self.ot_solver.solve(teacher_embeddings, student_embeddings_target, cost_target)
                 
                 loss = self.ot_loss(teacher_embeddings, student_embeddings_source, transport_plan_source) \
                     + self.ot_loss(teacher_embeddings, student_embeddings_target, transport_plan_target)
