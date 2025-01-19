@@ -1,0 +1,10 @@
+torch
+sentence-transformers
+rank-bm25
+transformers
+py-vncorenlp
+numpy
+scipy
+pytest
+matplotlib
+POT

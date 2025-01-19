@@ -1,6 +1,6 @@
 from functools import reduce
 
-from dataset import DocumentDataset
+from .dataset import DocumentDataset
 
 
 class ChunkSeperator:

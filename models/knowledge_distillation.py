@@ -1,8 +1,8 @@
 import torch
-from torch import Tensor
+from torch import nn, Tensor
 from sentence_transformers import SentenceTransformer
-from components.ot_solver import OTSolver
-from components.dataset import *
+from ..components.ot_solver import OTSolver
+from ..components.dataset import *
 
 class KnowledgeDistillation:
     def __init__(

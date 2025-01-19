@@ -1,12 +1,12 @@
 from functools import reduce
 import torch
 from torch import nn, Tensor
-from components.dataset import LanguageProcessing, DocumentDataset
-from components.query_expansion import QueryExpansion
-from components.lexical_matching import LexicalMatching
-from components.chunk_seperator import ChunkSeperator
-from components.custom_sentence_transformer import CustomSentenceTransformer
-from utils import combine_doc_list
+from ..components.dataset import LanguageProcessing, DocumentDataset
+from ..components.query_expansion import QueryExpansion
+from ..components.lexical_matching import LexicalMatching
+from ..components.chunk_seperator import ChunkSeperator
+from ..components.custom_sentence_transformer import CustomSentenceTransformer
+from ..utils.utils import combine_doc_list
 
 
 class MonoLingualRetrival(nn.Module):
@@ -138,21 +138,20 @@ class MonoLingualRetrival(nn.Module):
 
         self.custom_sentence_transformer.eval()
 
-        with torch.no_grad():
-            output: Tensor = self.custom_sentence_transformer(
-                query_segmented,
-                lexical_similarity_score_list,
-                lexical_relevant_doc_chunk_list
-            )
-            max_relevant = output.max()
-            lower_bound = max(max_relevant - self.relevant_threshold,
-                              self.relevant_default_lowerbound)
-            upper_bound = max_relevant
+        output: Tensor = self.custom_sentence_transformer(
+            query_segmented,
+            lexical_similarity_score_list,
+            lexical_relevant_doc_chunk_list
+        )
+        max_relevant = output.max()
+        lower_bound = max(max_relevant - self.relevant_threshold,
+                            self.relevant_default_lowerbound)
+        upper_bound = max_relevant
 
-            mask = (output >= lower_bound) & (output <= upper_bound)
+        mask = (output >= lower_bound) & (output <= upper_bound)
 
-            indices: list[int] = torch.nonzero(
-                mask, as_tuple=False).squeeze().tolist()
-            result: list[str] = [combine_lexical_relevant_doc_list[i][0]
-                                 for i in indices]
-            return result
+        indices: list[int] = torch.nonzero(
+            mask, as_tuple=False).squeeze().tolist()
+        result: list[str] = [combine_lexical_relevant_doc_list[i][0]
+                                for i in indices]
+        return result

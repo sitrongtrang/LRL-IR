@@ -1,8 +1,14 @@
 import sys
+import os
+
+# Add the project root directory to sys.path
+project_root = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(project_root)
+
 import torch
-from monolingual_retrival_trainer import MonolingualRetrivalTrainer
-from monolingual_retrival import MonoLingualRetrival
-from components.dataset import LanguageProcessing
+from models import MonolingualRetrivalTrainer
+from models import MonoLingualRetrival
+from components import LanguageProcessing
 
 
 def monolingual_train(

@@ -1,5 +1,5 @@
 import torch
-from torch import nn, Tensor
+from torch import Tensor
 import numpy as np
 
 
@@ -43,7 +43,7 @@ def pos_neg_samples_gen_later_round(
 
     # Get top-k label-0 streams
     neg_output: Tensor = previous_round_output[neg_label_indices]
-    topk_values, topk_indices: Tensor = torch.topk(neg_output, negative_samples_limit)
+    topk_values, topk_indices = torch.topk(neg_output, negative_samples_limit)
 
     # Map topk_indices back to original indices
     topk_original_indices = [neg_label_indices[i] for i in topk_indices]
@@ -63,15 +63,32 @@ def pos_neg_samples_gen_later_round(
 
     return doc_chunk_list, label_list, similarity_score_list
 
+def min_max_scale(
+    doc_list: list[tuple[str, float]], 
+    a: float = 0.1, 
+    b: float = 1.0
+) -> list[tuple[str, float]]:
+    scores = [score for _, score in doc_list]
+    min_score = min(scores)
+    max_score = max(scores)
+    scaled_doc_list = [
+        (file_path, a + (score - min_score) * (b - a) / (max_score - min_score) if max_score != min_score else a)
+        for file_path, score in doc_list
+    ]
+    return scaled_doc_list
+
 
 def combine_doc_list(
     doc_list_original_query: list[tuple[str, float]],
     doc_list_extended_query: list[tuple[str, float]]
 ):
+    scaled_original_query = min_max_scale(doc_list_original_query)
+    scaled_extended_query = min_max_scale(doc_list_extended_query)
+
     combined_doc_dict: dict[str, float] = {}
-    for file_path, relevant_score in doc_list_original_query:
+    for file_path, relevant_score in scaled_original_query:
         combined_doc_dict[file_path] = relevant_score
-    for file_path, relevant_score in doc_list_extended_query:
+    for file_path, relevant_score in scaled_extended_query:
         if file_path not in combined_doc_dict or combined_doc_dict[file_path] < relevant_score:
             combined_doc_dict[file_path] = relevant_score
     combined_doc_list: list[tuple[str, float]] = [

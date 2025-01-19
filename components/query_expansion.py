@@ -1,7 +1,7 @@
 from numpy import float64, argsort
 from rank_bm25 import BM25Plus
 from typing import TypeAlias, Literal
-from dataset import DocumentDataset
+from .dataset import DocumentDataset
 from functools import reduce
 from math import log, inf
 
@@ -169,6 +169,33 @@ class QueryExpansion:
         self.prob_expansion_term_represents_source.clear()
         self.prob_term_belongs_to_source.clear()
 
+    def _perform_em_algorithm(
+        self, 
+        observation_sequence: set[str], 
+        source: SourceForExpansion, 
+        tokenized_query: list[str]
+        ) -> list[tuple[str, float]]:
+        """
+        Perform the Expectation-Maximization (EM) algorithm to estimate the probabilities of expansion terms.
+        Args:
+            observation_sequence (set[str]): A set of observed terms.
+            source (SourceForExpansion): The source from which expansion terms are derived.
+            tokenized_query (list[str]): The original query tokenized into a list of terms.
+        Returns:
+            list[tuple[str, float]]: A list of tuples where each tuple contains an expansion term and its corresponding probability, sorted in descending order of probability.
+        """
+        previous_likelihood: float = -inf
+        while self._log_likelihood(observation_sequence) <= (previous_likelihood + THRESHOLD_FOR_EM_ALGO):
+            previous_likelihood = self._log_likelihood(observation_sequence)
+            self._estimation_step(observation_sequence)
+            self._maximization_step(observation_sequence)
+
+        expansion_prob_dict: dict[tuple[str, SourceForExpansion], float] = {
+            k: v for k, v in self.prob_expansion_term_represents_source.items() if k[1] == source and k[0] not in tokenized_query}
+        sorted_expansion_prob: list[tuple[tuple[str, SourceForExpansion], float]] = sorted(
+            expansion_prob_dict.items(), key=lambda item: item[1], reverse=True)
+        return [(term[0][0], term[1]) for term in sorted_expansion_prob[:NUMBER_OF_EXPANSION_TERM]]
+
     def _expand(self, tokenized_query: list[str]) -> list[str]:
         """
         Get the list of tokenized expansion terms by performing EM algorithm for each observation sequence:
@@ -177,38 +204,14 @@ class QueryExpansion:
         Returns:
             list[str]: Final list of tokenized expansion terms
         """
-        previous_likelihood_title: float = -inf
-        previous_likelihood_content: float = -inf
-        observation_sequence_title: set[str] = self._get_term_set_of_source(
-            "RELEVANT_SET_TITLE")
-        observation_sequence_content: set[str] = self._get_term_set_of_source(
-            "RELEVANT_SET_CONTENT")
 
-        while self._log_likelihood(observation_sequence_title) <= (previous_likelihood_title + THRESHOLD_FOR_EM_ALGO):
-            previous_likelihood_title = self._log_likelihood(
-                observation_sequence_title)
-            self._estimation_step(observation_sequence_title)
-            self._maximization_step(observation_sequence_title)
+        observation_sequence_title: set[str] = self._get_term_set_of_source("RELEVANT_SET_TITLE")
+        observation_sequence_content: set[str] = self._get_term_set_of_source("RELEVANT_SET_CONTENT")
 
-        title_expansion_prob_dict: dict[tuple[str, SourceForExpansion], float] = {
-            k: v for k, v in self.prob_expansion_term_represents_source.items() if k[1] == "RELEVANT_SET_TITLE" and k[0] not in tokenized_query}
-        sorted_title_expansion_prob: list[tuple[tuple[str, SourceForExpansion], float]] = sorted(
-            title_expansion_prob_dict.items(), key=lambda item: item[1], reverse=True)
-        expansion_term_with_prob_from_title_relevant_set: list[tuple[str, float]] = [
-            (term[0][0], term[1]) for term in sorted_title_expansion_prob[:NUMBER_OF_EXPANSION_TERM]]
-
-        while self._log_likelihood(observation_sequence_content) <= (previous_likelihood_content + THRESHOLD_FOR_EM_ALGO):
-            previous_likelihood_content = self._log_likelihood(
-                observation_sequence_content)
-            self._estimation_step(observation_sequence_content)
-            self._maximization_step(observation_sequence_content)
-
-        content_expansion_prob_dict: dict[tuple[str, SourceForExpansion], float] = {
-            k: v for k, v in self.prob_expansion_term_represents_source.items() if k[1] == "RELEVANT_SET_CONTENT" and k[0] not in tokenized_query}
-        sorted_content_expansion_prob: list[tuple[tuple[str, SourceForExpansion], float]] = sorted(
-            content_expansion_prob_dict.items(), key=lambda item: item[1], reverse=True)
-        expansion_term_with_prob_from_content_relevant_set: list[tuple[str, float]] = [
-            (term[0][0], term[1]) for term in sorted_content_expansion_prob[:NUMBER_OF_EXPANSION_TERM]]
+        expansion_term_with_prob_from_title_relevant_set = self.perform_em_algorithm(
+            observation_sequence_title, "RELEVANT_SET_TITLE", tokenized_query)
+        expansion_term_with_prob_from_content_relevant_set = self.perform_em_algorithm(
+            observation_sequence_content, "RELEVANT_SET_CONTENT", tokenized_query)
 
         sorted_expansion_term_final_prob = sorted(
             expansion_term_with_prob_from_title_relevant_set +

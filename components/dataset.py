@@ -135,7 +135,7 @@ class DocumentDataset(Dataset, LanguageProcessing):
             document_dir: str,
             processed_doc_store_dir: str,
             language: SupportLanguage = 'vie',
-            language_processing: LanguageProcessing = LanguageProcessing('vie')
+            language_processing: LanguageProcessing = None
     ):
         """
         Args:
@@ -147,8 +147,11 @@ class DocumentDataset(Dataset, LanguageProcessing):
 
             language_processing (LanguageProcessing): Language processing object for the language of the documents.
         """
-        LanguageProcessing.__init__(self, language, language_processing.word_sentence_segment,
-                                    language_processing.tokenizer, language_processing.encoder)
+        if language_processing is None:
+            language_processing = LanguageProcessing(language)
+        LanguageProcessing.__init__(self, language, language_processing.pre_trained_tokenizer_model, 
+                                    language_processing.word_sentence_segment, language_processing.tokenizer, 
+                                    language_processing.encoder, language_processing.chunk_combiner)
         Dataset.__init__(self)
         self.document_dir: str = document_dir
         self.processed_doc_store_dir: str = processed_doc_store_dir
@@ -166,7 +169,7 @@ class DocumentDataset(Dataset, LanguageProcessing):
         for idx, file_name in enumerate(os.listdir(self.document_dir)):
             if file_name.endswith('.txt'):  # Process only text files
                 file_path: str = os.path.join(self.document_dir, file_name)
-                title, topic, content: str = self._parse_document(file_path)
+                title, topic, content = self._parse_document(file_path)
                 title_segmented: list[str] = self.word_sentence_segment(title)
                 content_segmented: list[str] = self.word_sentence_segment(
                     content)
@@ -299,7 +302,7 @@ class QueryDocDataset(Dataset, LanguageProcessing):
             self,
             qd_dir: str,
             language: SupportLanguage = 'vie',
-            language_processing: LanguageProcessing = LanguageProcessing('vie')
+            language_processing: LanguageProcessing = None
     ):
         """
         Args:
@@ -309,8 +312,11 @@ class QueryDocDataset(Dataset, LanguageProcessing):
 
             language_processing (LanguageProcessing): Language processing object for the language of the QA set.
         """
-        LanguageProcessing.__init__(self, language, language_processing.word_sentence_segment,
-                                    language_processing.tokenizer, language_processing.encoder)
+        if language_processing is None:
+            language_processing = LanguageProcessing(language)
+        LanguageProcessing.__init__(self, language, language_processing.pre_trained_tokenizer_model,
+                                    language_processing.word_sentence_segment, language_processing.tokenizer,
+                                    language_processing.encoder, language_processing.chunk_combiner)
         Dataset.__init__(self)
         self.qd_dir: str = qd_dir
         self.qd_pairs: list[tuple[str, list[str]]

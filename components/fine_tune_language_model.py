@@ -1,4 +1,4 @@
-from dataset import DocumentDataset, MLMFineTuneDataset
+from .dataset import DocumentDataset, MLMFineTuneDataset
 from transformers import DataCollatorForLanguageModeling, Trainer, TrainingArguments, AutoModelForMaskedLM
 
 

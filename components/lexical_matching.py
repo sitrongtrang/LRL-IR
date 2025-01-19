@@ -2,7 +2,7 @@ from functools import reduce
 from numpy import argsort, float64
 from rank_bm25 import BM25Plus
 
-from dataset import DocumentDataset
+from .dataset import DocumentDataset
 
 
 class LexicalMatching:
