@@ -2,9 +2,32 @@ import torch
 from torch import nn, Tensor
 from scipy.optimize import linprog
 
-class OTSolver:
+class OTLoss(nn.Module):
+    """
+    This class represents the Optimal Transport transportation cost and is used to calcualate the loss value.
+    """
+    def __init__(self):
+        super(OTLoss, self).__init__()
+
+    def forward(self, source: Tensor, target: Tensor, plan: Tensor) -> Tensor:
+        """
+        Args:
+            source (Tensor): Tensor of token embeddings of the source sentence.
+            target (Tensor): Tensor of token embeddings of the target sentence.
+            plan (Tensor): The transportation plan.
+        Returns:
+            Tensor: Total loss as transportation cost.
+        """
+        loss: Tensor = torch.sum(plan * torch.cdist(source, target))
+        return loss
+
+class OTSolver(nn.Module):
+    """
+    This class is used to solve the Optimal Transport problem.
+    """
     def __init__(
         self, 
+        device: str="cpu",
         epsilon: float=1e-3, 
         beta: float=2, 
         max_iter: int=1000, 
@@ -19,6 +42,7 @@ class OTSolver:
             L (int): Number of iterations for inner optimization.
             use_path (bool): Whether warm start method is used.
         """
+        self.device = device
         self.epsilon: float = epsilon
         self.beta = beta
         self.max_iter: int = max_iter
@@ -26,10 +50,11 @@ class OTSolver:
         self.use_path = use_path
         self.tol: float = tol
         self.method: str = method
+        self.ot_loss: OTLoss = OTLoss().to(device)
 
-    def solve(self, mu: Tensor, nu: Tensor, C: Tensor) -> Tensor:
+    def forward(self, mu: Tensor, nu: Tensor, C: Tensor) -> tuple[Tensor, Tensor]:
         """
-        Solves the optimal transport problem based on the specified method.
+        Solves the Optimal Transport problem using the specified method.
 
         Args:
             mu (Tensor): Source distribution.
@@ -39,17 +64,17 @@ class OTSolver:
             Tensor: Transport plan.
         """
         if self.method == 'sinkhorn':
-            return self.sinkhorn_knopp(mu, nu, C)
+            plan = self.sinkhorn_knopp(mu, nu, C)
         elif self.method == 'ipot':
-            return self.ipot(mu, nu, C)
-        elif self.method == 'linear':
-            return self.linear_programming(mu, nu, C)
+            plan = self.ipot(mu, nu, C)
         else:
-            raise ValueError(f"Unknown method: {self.method}")
+            plan = self.linear_programming(mu, nu, C)
+        loss = self.ot_loss(mu, nu, plan)
+        return plan, loss
 
     def sinkhorn_knopp(self, mu: Tensor, nu: Tensor, C: Tensor) -> Tensor:
         """
-        Solves the optimal transport problem using the Sinkhorn-Knopp algorithm.
+        Solves the Optimal Transport problem using the Sinkhorn-Knopp algorithm.
 
         Args:
             mu (Tensor): Source distribution.
@@ -59,8 +84,8 @@ class OTSolver:
             Tensor: Transport plan.
         """
         K = torch.exp(-C / self.epsilon)  # Kernel matrix using entropy regularization
-        u = torch.ones_like(mu, device=mu.device)
-        v = torch.ones_like(nu, device=nu.device)
+        u = torch.ones_like(mu, device=self.device)
+        v = torch.ones_like(nu, device=self.device)
         
         for _ in range(self.max_iter):
             u_new = mu / (torch.matmul(K, v) + self.tol)  # Adding tolerance for numerical stability
@@ -79,7 +104,7 @@ class OTSolver:
         
     def ipot(self, mu: Tensor, nu: Tensor, C: Tensor) -> Tensor:
         """
-        Inexact Proximal Point (IPOT) algorithm for optimal transport.
+        Inexact Proximal Point (IPOT) algorithm for Optimal Transport.
         
         Args:
             mu (Tensor): Source distribution.
@@ -93,26 +118,26 @@ class OTSolver:
         a = torch.ones([m,])
         b = torch.ones([n,])
 
-        Gamma = torch.ones((m,n))/m*n
+        Gamma = torch.ones((m, n))/m*n
         G = torch.exp(-(C/self.beta))
 
         for _ in range(self.max_iter):
-            Q = G*Gamma
-            if self.use_path == False:
+            Q = G * Gamma
+            if not self.use_path:
                 a = torch.ones([m,])
                 b = torch.ones([n,])
             
             for i in range(self.L):
-                a = mu/torch.matmul(Q,b)
-                b = nu/torch.matmul(torch.transpose(Q),a)
+                a = mu/torch.matmul(Q, b)
+                b = nu/torch.matmul(torch.transpose(Q), a)
         
-            Gamma = torch.expand_dims(a,axis=1) * Q * torch.expand_dims(b,axis=0)
+            Gamma = a.unsqueeze(1) * Q * b.unsqueeze(0)
                 
         return Gamma
     
     def linear_programming(self, mu: Tensor, nu: Tensor, C: Tensor) -> Tensor:
         """
-        Solves the optimal transport problem using linear programming.
+        Solves the Optimal Transport problem using linear programming.
 
         Args:
             mu (Tensor): Source distribution.
@@ -145,5 +170,5 @@ class OTSolver:
         if not result.success:
             raise ValueError(f"Linear programming failed: {result.message}")
 
-        P = torch.tensor(result.x, device=C.device).reshape(n, m)
+        P = torch.tensor(result.x, device=self.device).reshape(n, m)
         return P

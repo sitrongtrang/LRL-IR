@@ -1,24 +1,8 @@
 import torch
-from torch import nn, Tensor
+from torch import Tensor
 from sentence_transformers import SentenceTransformer
 from components.ot_solver import OTSolver
 from components.dataset import *
-
-class OTLoss(nn.Module):
-    """
-    This class represents the Optimal Transport transportation cost and is used to calcualate the loss value.
-    """
-    def __init__(self):
-        super(OTLoss, self).__init__()
-
-    def forward(self, source: Tensor, target: Tensor, plan: Tensor) -> Tensor:
-        """
-        source (Tensor): Tensor of token embeddings of the source sentence.
-        target (Tensor): Tensor of token embeddings of the target sentence.
-        plan (Tensor): The transportation plan.
-        """
-        loss: Tensor = torch.sum(plan * torch.cdist(source, target))
-        return loss
 
 class KnowledgeDistillation:
     def __init__(
@@ -76,11 +60,13 @@ class KnowledgeDistillation:
         self.optimizer = torch.optim.AdamW(self.student.parameters(), lr=self.learning_rate)
 
         self.ot_solver: OTSolver = OTSolver()
-        self.ot_loss: OTLoss = OTLoss().to(device)
 
-    def train(self) -> None:
+    def train(self) -> str:
         """
         Train the student model using knowledge distillation.
+
+        Returns:
+            str: The path to the multilingual sentence transformer
         """
         for epoch in range(self.epochs):
             for source_sentence, target_sentence in self.bitext_data:     
@@ -102,14 +88,22 @@ class KnowledgeDistillation:
                 )
                 
                 # Compute optimal transport plans
-                cost_source = torch.cdist(teacher_embeddings, student_embeddings_source)
-                transport_plan_source: Tensor = self.ot_solver.solve(teacher_embeddings, student_embeddings_source, cost_source)
+                cost_source: Tensor = torch.cdist(teacher_embeddings, student_embeddings_source)
+                _, source_loss = self.ot_solver(teacher_embeddings, student_embeddings_source, cost_source)
 
-                cost_target = torch.cdist(teacher_embeddings, student_embeddings_target)
-                transport_plan_target: Tensor = self.ot_solver.solve(teacher_embeddings, student_embeddings_target, cost_target)
+                cost_target: Tensor = torch.cdist(teacher_embeddings, student_embeddings_target)
+                _, target_loss = self.ot_solver(teacher_embeddings, student_embeddings_target, cost_target)
                 
-                loss = self.ot_loss(teacher_embeddings, student_embeddings_source, transport_plan_source) \
-                    + self.ot_loss(teacher_embeddings, student_embeddings_target, transport_plan_target)
+                loss: Tensor = source_loss + target_loss
                 
                 loss.backward()
                 self.optimizer.step()
+
+
+        self.student.save(self.student_model)
+        check_point = {
+            'student_sentence_transformer_save_path': self.student_model
+        }
+        torch.save(check_point, self.student_model + '/model.pth')
+
+        return self.student_model
