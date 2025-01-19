@@ -3,6 +3,8 @@ version: '1.0'
 services:
   app:
     build: .
+    ports:
+      - "8000:8000"
     volumes:
       - /mnt/d/lrl-ir/app
     environment:
