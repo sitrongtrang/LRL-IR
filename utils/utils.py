@@ -120,3 +120,39 @@ def bm25(query, doc, doc_list, avgdl, k1=1.5, b=0.75, delta=1.0):
         score += idf * (numerator / denominator)
 
     return score
+
+def compute_cosine_cost_matrix(source_emb: Tensor, target_emb: Tensor) -> Tensor:
+    source_emb_norm = torch.nn.functional.normalize(source_emb, p=2, dim=1)
+    target_emb_norm = torch.nn.functional.normalize(target_emb, p=2, dim=1)
+    
+    cosine_sim = torch.mm(source_emb_norm, target_emb_norm.t())
+    
+    cosine_dist = 1 - cosine_sim
+    
+    return cosine_dist
+
+def pad_sentences(source: list[str], target: list[str]) -> tuple[list[str], list[str], dict]:
+    """
+    Pad the shorter sentence with mask tokens to match the length of the longer sentence.
+    
+    Args:
+        source (list[str]): List of tokens for source sentence
+        target (list[str]): List of tokens for target sentence
+        
+    Returns:
+        Tuple of (padded source tokens, padded target tokens, attention mask)
+    """
+    max_len = max(len(source), len(target))
+    
+    padded_source = source + ['[MASK]'] * (max_len - len(source))
+    padded_target = target + ['[MASK]'] * (max_len - len(target))
+    
+    source_attention_mask = [1] * len(source) + [0] * (max_len - len(source))
+    target_attention_mask = [1] * len(target) + [0] * (max_len - len(target))
+    
+    features = {
+        'source_attention_mask': torch.tensor([source_attention_mask]),
+        'target_attention_mask': torch.tensor([target_attention_mask])
+    }
+    
+    return padded_source, padded_target, features

@@ -3,6 +3,7 @@ from torch import nn, Tensor
 from sentence_transformers import SentenceTransformer
 from ..components.ot_solver import OTSolver
 from ..components.dataset import *
+from ..utils.utils import compute_cosine_cost_matrix, pad_sentences
 
 class KnowledgeDistillation:
     def __init__(
@@ -69,30 +70,39 @@ class KnowledgeDistillation:
             str: The path to the multilingual sentence transformer
         """
         for epoch in range(self.epochs):
-            for source_sentence, target_sentence in self.bitext_data:     
+            for source_sentence, target_sentence in self.bitext_data:    
+                padded_source, padded_target, features = pad_sentences(source_sentence, target_sentence)
+
                 self.optimizer.zero_grad()      
                 with torch.no_grad():
-                    teacher_embeddings: Tensor = self.teacher(
-                        source_sentence,
-                        convert_to_tensor=True,
-                    )
+                    teacher_embeddings: Tensor = self.teacher.forward(
+                        features={
+                            'input_ids': torch.tensor([[self.teacher.tokenizer.convert_tokens_to_ids(padded_source)]]),
+                            'attention_mask': features['source_attention_mask']
+                        }
+                    )['token_embeddings'].squeeze(0)
                 
-                student_embeddings_source: Tensor = self.student(
-                    source_sentence,
-                    convert_to_tensor=True,
-                )
+                student_embeddings_source: Tensor = self.student.forward(
+                    features={
+                        'input_ids': torch.tensor([[self.student.tokenizer.convert_tokens_to_ids(padded_source)]]),
+                        'attention_mask': features['source_attention_mask']
+                    }
+                )['token_embeddings'].squeeze(0)
 
-                student_embeddings_target: Tensor = self.student(
-                    target_sentence,
-                    convert_to_tensor=True,
-                )
+                student_embeddings_target: Tensor = self.student.forward(
+                    features={
+                        'input_ids': torch.tensor([[self.student.tokenizer.convert_tokens_to_ids(padded_target)]]),
+                        'attention_mask': features['target_attention_mask']
+                    }
+                )['token_embeddings'].squeeze(0)
                 
-                # Compute optimal transport plans
-                cost_source: Tensor = torch.cdist(teacher_embeddings, student_embeddings_source)
-                _, source_loss = self.ot_solver(teacher_embeddings, student_embeddings_source, cost_source)
+                uniform_dist: Tensor = torch.ones(len(padded_target))/len(padded_target)
 
-                cost_target: Tensor = torch.cdist(teacher_embeddings, student_embeddings_target)
-                _, target_loss = self.ot_solver(teacher_embeddings, student_embeddings_target, cost_target)
+                cost_source: Tensor = compute_cosine_cost_matrix(teacher_embeddings, student_embeddings_source)
+                _, source_loss = self.ot_solver(uniform_dist, uniform_dist, cost_source)
+
+                cost_target: Tensor = compute_cosine_cost_matrix(teacher_embeddings, student_embeddings_target) 
+                _, target_loss = self.ot_solver(uniform_dist, uniform_dist, cost_target)
                 
                 loss: Tensor = source_loss + target_loss
                 
