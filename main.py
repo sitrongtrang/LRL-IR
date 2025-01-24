@@ -6,8 +6,7 @@ project_root = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(project_root)
 
 import torch
-from models import MonolingualRetrivalTrainer
-from models import MonoLingualRetrival
+from models import MonolingualRetrivalTrainer, MonoLingualRetrival, KnowledgeDistillation
 from components import LanguageProcessing
 
 
@@ -94,9 +93,42 @@ def monolingual_retrive(
         result = model(query)
         print(result)
 
+def knowledge_distillation(
+    parallel_dir,
+    teacher_language_processing,
+    student_language_processing,
+    student_model_language,
+    teacher_model_language,
+    device='cpu',
+    batch_size='32',
+    epsilon='1.0',
+    learning_rate='1e-5',
+    epochs='4'
+):
+    if device == 'cuda' and not torch.cuda.is_available():
+        raise RuntimeError("Your device does not have GPU!")
+    
+    trainer = KnowledgeDistillation(
+        parallel_dir==parallel_dir,
+        teacher_language_processing=teacher_language_processing,
+        student_language_processing=student_language_processing,
+        student_model_language=student_model_language,
+        teacher_model_language=teacher_model_language,
+        device=device,
+        batch_size=int(batch_size),
+        epsilon=float(epsilon),
+        learning_rate=float(learning_rate),
+        epochs=int(epochs)
+    )
+
+    multilingual_sentence_transformer_save_path = trainer.train()
+    print(
+        f"Distilled student Sentence Transformer model has been saved at: {multilingual_sentence_transformer_save_path}. Load this in production model.")
+
 
 command_map = {
     'monolingual_train': monolingual_train,
+    'knowledge_distillation': knowledge_distillation,
     'monolingual_retrive': monolingual_retrive
 }
 

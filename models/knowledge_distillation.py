@@ -12,7 +12,7 @@ class KnowledgeDistillation:
         teacher_language_processing: LanguageProcessing,
         student_language_processing: LanguageProcessing,
         student_model_language: str,
-        teacher_model_language: str="vie",
+        teacher_model_language: str,
         device: str = "cpu",
         batch_size: int = 32,
         epochs: int = 4,
