@@ -1,7 +1,7 @@
 import torch
 from torch import nn, Tensor
 from sentence_transformers import SentenceTransformer
-from torch.nn.functional import cosine_similarity, relu, sigmoid
+from torch.nn.functional import cosine_similarity, relu
 
 
 class CustomSentenceTransformer(nn.Module):
@@ -48,14 +48,12 @@ class CustomSentenceTransformer(nn.Module):
             nn.Sigmoid()
         ).to(device=device)
 
-    def _process_sentence_stream(self, query_segmented: str, sentence_stream: list[str]) -> float:
+    def _process_sentence_stream(self, preprocessed_query: str, sentence_stream: list[str]) -> float:
         """
         Calculating the semantic similarity score of the query and all chunks from a single document only.
 
         Args:
-            query_segmented (str): The query comes from users, which has been word-segmented by applying\
-            `word_sentence_segment` and then `chunk_combiner` to recombine the segmented-sentences\
-            to a single word-segmented sentence only.
+            preprocessed_query (str): The query comes from users.
 
             sentence_stream (list[str]): The list of all chunks that comes from only one document.
 
@@ -65,7 +63,7 @@ class CustomSentenceTransformer(nn.Module):
         total_semantic_similarity: float = 1.0
 
         query_embedding: Tensor = self.query_sentence_transformer.encode(
-            query_segmented, convert_to_tensor=True, device=self.device)
+            preprocessed_query, convert_to_tensor=True, device=self.device)
 
         batch: list[str] = []
 
@@ -97,14 +95,12 @@ class CustomSentenceTransformer(nn.Module):
         total_semantic_similarity = 1 - total_semantic_similarity
         return total_semantic_similarity
 
-    def forward(self, query_segmented: str, lexical_or_topic_similarities: list[float], sentence_streams: list[list[str]]) -> Tensor:
+    def forward(self, preprocessed_query: str, lexical_or_topic_similarities: list[float], sentence_streams: list[list[str]]) -> Tensor:
         """
         Calculating the combined similarity score between the query and each documents from the input.
 
         Args:
-            query_segmented (str): The query comes from users, which has been word-segment by applying\
-            `word_sentence_segment` and then `chunk_combiner` to recombine the segmented-sentences\
-            to a single word-segmented sentence only.
+            preprocessed_query (str): The query comes from users.
 
             lexical_or_topic_similarities (list[float]): The list holds the lexical (for monolingual) or topic (for multiligual)\
             similarity scores between the query and the correspond document from the input.
@@ -118,7 +114,7 @@ class CustomSentenceTransformer(nn.Module):
         all_semantic_similarities: list[float] = []
         for sentence_stream in sentence_streams:
             stream_similarity: float = self._process_sentence_stream(
-                query_segmented, sentence_stream)
+                preprocessed_query, sentence_stream)
             all_semantic_similarities.append(stream_similarity)
 
         all_semantic_similarities_tensor: Tensor = torch.tensor(

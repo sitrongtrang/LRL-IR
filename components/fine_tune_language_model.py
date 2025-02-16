@@ -13,7 +13,7 @@ class FineTuneLanguageModel:
             to get the pre-trained model.
         """
         self.data_collator = DataCollatorForLanguageModeling(
-            document_dataset.pre_trained_tokenizer_model, mlm=True, mlm_probability=0.15)
+            document_dataset.language_processing.pre_trained_tokenizer_model, mlm=True, mlm_probability=0.15)
         self.model = AutoModelForMaskedLM.from_pretrained(
             pretrained_model_name_or_path)
         self.dataset: MLMFineTuneDataset = MLMFineTuneDataset(document_dataset)

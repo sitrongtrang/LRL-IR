@@ -5,6 +5,7 @@ transformers
 py-vncorenlp
 numpy
 scipy
-pytest
 matplotlib
 POT
+pandas
+fastparquet

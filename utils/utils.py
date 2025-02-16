@@ -4,18 +4,18 @@ import numpy as np
 
 
 def pos_neg_samples_gen_first_round(
-    document_file_path_answers: list[str],
-    file_path_relevant_score_pairs: list[tuple[str, float]],
+    document_id_answer: str,
+    id_relevant_score_pairs: list[tuple[str, float]],
     negative_samples_limit: int = 35
 ):
     negative_samples_limit = max(0, negative_samples_limit)
     samples: list[tuple[str, float]] = []
     negative_samples_count: int = 0
-    for file_path, relevant_score in file_path_relevant_score_pairs:
-        if file_path in document_file_path_answers:
-            samples.append((file_path, relevant_score))
+    for id, relevant_score in id_relevant_score_pairs:
+        if id == document_id_answer:
+            samples.append((id, relevant_score))
         elif negative_samples_count < negative_samples_limit:
-            samples.append((file_path, relevant_score))
+            samples.append((id, relevant_score))
             negative_samples_count += 1
     return samples
 
@@ -72,8 +72,8 @@ def min_max_scale(
     min_score = min(scores)
     max_score = max(scores)
     scaled_doc_list = [
-        (file_path, a + (score - min_score) * (b - a) / (max_score - min_score) if max_score != min_score else a)
-        for file_path, score in doc_list
+        (id, a + (score - min_score) * (b - a) / (max_score - min_score) if max_score != min_score else a)
+        for id, score in doc_list
     ]
     return scaled_doc_list
 
@@ -86,13 +86,13 @@ def combine_doc_list(
     scaled_extended_query = min_max_scale(doc_list_extended_query)
 
     combined_doc_dict: dict[str, float] = {}
-    for file_path, relevant_score in scaled_original_query:
-        combined_doc_dict[file_path] = relevant_score
-    for file_path, relevant_score in scaled_extended_query:
-        if file_path not in combined_doc_dict or combined_doc_dict[file_path] < relevant_score:
-            combined_doc_dict[file_path] = relevant_score
+    for id, relevant_score in scaled_original_query:
+        combined_doc_dict[id] = relevant_score
+    for id, relevant_score in scaled_extended_query:
+        if id not in combined_doc_dict or combined_doc_dict[id] < relevant_score:
+            combined_doc_dict[id] = relevant_score
     combined_doc_list: list[tuple[str, float]] = [
-        (file_path, relevant_score) for file_path, relevant_score in combined_doc_dict.items()]
+        (id, relevant_score) for id, relevant_score in combined_doc_dict.items()]
     return combined_doc_list
 
 

@@ -2,12 +2,15 @@ from functools import reduce
 import torch
 from torch import nn, Tensor
 from torch.optim import Adam
-from ..components.dataset import LanguageProcessing, DocumentDataset, QueryDocDataset
-from ..components.query_expansion import QueryExpansion
-from ..components.lexical_matching import LexicalMatching
-from ..components.chunk_seperator import ChunkSeperator
-from ..components.custom_sentence_transformer import CustomSentenceTransformer
-from ..components.fine_tune_language_model import FineTuneLanguageModel
+from torch.utils.data import DataLoader
+from ..components import LanguageProcessing, VietnameseLanguageProcessing
+from ..components import DocumentDataset
+from ..components import QueryDocDataset
+from ..components import QueryExpansion
+from ..components import LexicalMatching
+from ..components import ChunkSeperator
+from ..components import CustomSentenceTransformer
+from ..components import FineTuneLanguageModel
 from ..utils.utils import pos_neg_samples_gen_first_round, pos_neg_samples_gen_later_round, combine_doc_list
 
 FIRST_ROUND_NEGATIVE_SAMPLE_COUNT = 35
@@ -49,7 +52,7 @@ class MonolingualRetrivalTrainer:
         pretrained_model_name_or_path: str,
         do_mlm_fine_tune: bool = True,
         language: str = 'vie',
-        language_processing: LanguageProcessing = LanguageProcessing('vie'),
+        language_processing: LanguageProcessing = VietnameseLanguageProcessing(),
         chunk_length_limit: int = 128,
         device: str = "cpu",
         batch_size: int = 32,
@@ -126,16 +129,128 @@ class MonolingualRetrivalTrainer:
         self.epochs: int = epochs
         self.device: str = device
         self.language_processing: LanguageProcessing = language_processing
+            
 
-    def _run_training_round(
+    def train(self) -> tuple[str, str]:
+        """
+        Training entry point.
+
+        Returns:
+            tuple[str,str]: The first string is the path to the fine-tuned `SentenceTransformer` model.\
+            This can be loaded separately to do Knowledge Distillation later.\
+            The second string is the path to the whole `CustomSentenceTransformer` model. Because `CustomSentenceTransformer`\
+            has an attribute of class `SentenceTransformer`, which have different way to load the model,\
+            we save it as a dictionary of two keys represents two part of `CustomSentenceTransformer`.
+        """
+        query_doc_dataloader = DataLoader(self.query_doc_dataset, batch_size=32, shuffle=True)
+        print("Training started...")
+        for epoch in range(self.epochs):
+            print("-----------------------------")
+            print(f"Epoch {epoch + 1}/{self.epochs}:")
+            print("-----------------------------")
+            for batch_count, sample_batch in enumerate(query_doc_dataloader):
+                loss = self._run_training_sample_batch(sample_batch)
+                print(f"Batch {batch_count + 1} completed.")
+                print(f"Loss: {loss.item()}")
+
+        sentence_transformer_save_path: str = f"/sentence_transformer_finetune/{self.language}"
+        custom_sentence_transformer_save_path: str = f"/custom_sentence_transformer_trained/{self.language}"
+
+        self.custom_sentence_transformer.document_sentence_transformer.save(sentence_transformer_save_path)
+        check_point = {
+            'sentence_transformer_save_path': sentence_transformer_save_path,
+            'linear_sigmoid_stack': self.custom_sentence_transformer.linear_sigmoid_stack.state_dict()
+        }
+        torch.save(check_point, custom_sentence_transformer_save_path + '/model.pth')
+        
+        print("Training completed.")
+        print(f"Fine-tuned SentenceTransformer model saved at: {sentence_transformer_save_path}")
+        print(f"CustomSentenceTransformer model saved at: {custom_sentence_transformer_save_path}")
+
+        return sentence_transformer_save_path, custom_sentence_transformer_save_path
+    
+    def _run_training_sample_batch(
+        self, 
+        sample_batch: tuple[list[list[str]], list[list[str]], list[str]]
+    ) -> Tensor:
+        """
+        Runs a single training batch for the monolingual retrieval model.
+        Args:
+            sample_batch (tuple[list[list[str]], list[list[str]], list[str]]): \
+                A tuple containing the list of preprocessed query, list of tokenized query, and list of document id.
+        Returns:
+            final_loss (Tensor): The final loss value for the batch.
+        """
+        sample_count: int = len(sample_batch[0])
+        final_loss: Tensor = 0.0
+        for i in range(sample_count):
+            query_preprossed: list[str] = sample_batch[0][i]
+            tokenized_query: list[str] = sample_batch[1][i]
+            document_id: str = sample_batch[2][i]
+            extended_query: list[str] = tokenized_query + self.query_expansion.get_expansion_term(tokenized_query)
+            original_query_doc_ranking: list[tuple[str, float]] = self.lexical_matching.get_documents_ranking(tokenized_query)
+            extended_query_doc_ranking: list[tuple[str, float]] = self.lexical_matching.get_documents_ranking(extended_query)
+            original_query_relevant_doc_list: list[tuple[str, float]] = pos_neg_samples_gen_first_round(
+                document_id, original_query_doc_ranking, FIRST_ROUND_NEGATIVE_SAMPLE_COUNT)
+            extended_query_relevant_doc_list: list[tuple[str, float]] = pos_neg_samples_gen_first_round(
+                document_id, extended_query_doc_ranking, FIRST_ROUND_NEGATIVE_SAMPLE_COUNT)
+            combine_lexical_relevant_doc_list: list[tuple[str, float]] = combine_doc_list(
+                original_query_relevant_doc_list, extended_query_relevant_doc_list)
+
+            lexical_relevant_doc_chunk_list: list[list[str]] = [self.chunk_seperator.get_chunks_of_document(pair[0]) 
+                                                                for pair in combine_lexical_relevant_doc_list]
+            lexical_similarity_score_list: list[float] = [pair[1] for pair in combine_lexical_relevant_doc_list]
+
+            self.custom_sentence_transformer.train()
+
+            first_round_label_list: list[float] = [(1.0 if pair[0] == document_id else 0.0) for pair in combine_lexical_relevant_doc_list]
+            first_round_output, _ = self._run_training_custom_sentence_transformer_round(
+                query_preprossed,
+                first_round_label_list, 
+                lexical_relevant_doc_chunk_list, 
+                lexical_similarity_score_list
+            )
+
+            (second_round_doc_chunk_list, 
+             second_round_label_list, 
+             second_round_lexical_similarity_score_list) = pos_neg_samples_gen_later_round(
+                 first_round_output, 
+                 first_round_label_list, 
+                 lexical_similarity_score_list, 
+                 lexical_relevant_doc_chunk_list, 
+                 SECOND_ROUND_NEGATIVE_SAMPLE_COUNT)
+            second_round_output, _ = self._run_training_custom_sentence_transformer_round(
+                query_preprossed,
+                second_round_label_list, 
+                second_round_doc_chunk_list, 
+                second_round_lexical_similarity_score_list)
+
+            (third_round_doc_chunk_list, 
+             third_round_label_list, 
+             third_round_lexical_similarity_score_list) = pos_neg_samples_gen_later_round(
+                    second_round_output, second_round_label_list, 
+                    second_round_lexical_similarity_score_list, 
+                    second_round_doc_chunk_list, 
+                    THIRD_ROUND_NEGATIVE_SAMPLE_COUNT)
+            _, third_round_loss = self._run_training_custom_sentence_transformer_round(
+                query_preprossed,
+                third_round_label_list, 
+                third_round_doc_chunk_list, 
+                third_round_lexical_similarity_score_list)
+            
+            final_loss = third_round_loss
+            
+        return final_loss
+    
+    def _run_training_custom_sentence_transformer_round(
         self, 
         query_segmented: str,
         label_list: list[float], 
         doc_chunk_list: list[list[str]], 
         similarity_score_list: list[float]
-    ) -> Tensor:
+    ) -> tuple[Tensor, Tensor]:
         """
-        Runs a single training round for the monolingual retrieval model.
+        Runs a single training round for the sentence-transformer monolingual retrieval model.
         Args:
             query_segmented (str): The segmented query string.
             label_list (list[float]): A list of float labels corresponding to the relevance of each document chunk.
@@ -155,81 +270,4 @@ class MonolingualRetrivalTrainer:
         round_loss.backward()
         self.optimizer.step()
 
-        return round_output
-
-    def train(self) -> tuple[str, str]:
-        """
-        Training entry point.
-
-        Returns:
-            tuple[str, str]: The first string is the path to the fine-tuned `SentenceTransformer` model.\
-            This can be loaded separately to do Knowledge Distillation later.\
-            The second string is the path to the whole `CustomSentenceTransformer` model. Because `CustomSentenceTransformer`\
-            has an attribute of class `SentenceTransformer`, which have different way to load the model,\
-            we save it as a dictionary of two keys represents two part of `CustomSentenceTransformer`.
-        """
-        for _ in range(self.epochs):
-            for query_segmented, document_file_path_list in self.query_doc_dataset:
-                tokenized_query: list[str] = self.language_processing.tokenizer(query_segmented)
-                extended_query: list[str] = tokenized_query + self.query_expansion.get_expansion_term(tokenized_query)
-                original_query_doc_ranking: list[tuple[str, float]] = self.lexical_matching.get_documents_ranking(tokenized_query)
-                extended_query_doc_ranking: list[tuple[str, float]] = self.lexical_matching.get_documents_ranking(extended_query)
-                original_query_relevant_doc_list: list[tuple[str, float]] = pos_neg_samples_gen_first_round(
-                    document_file_path_list, original_query_doc_ranking, FIRST_ROUND_NEGATIVE_SAMPLE_COUNT)
-                extended_query_relevant_doc_list: list[tuple[str, float]] = pos_neg_samples_gen_first_round(
-                    document_file_path_list, extended_query_doc_ranking, FIRST_ROUND_NEGATIVE_SAMPLE_COUNT)
-                combine_lexical_relevant_doc_list: list[tuple[str, float]] = combine_doc_list(
-                    original_query_relevant_doc_list, extended_query_relevant_doc_list)
-
-                lexical_relevant_doc_chunk_list: list[list[str]] = [self.chunk_seperator.get_chunks_of_document(pair[0]) 
-                                                                    for pair in combine_lexical_relevant_doc_list]
-                lexical_similarity_score_list: list[float] = [pair[1] for pair in combine_lexical_relevant_doc_list]
-
-                self.custom_sentence_transformer.train()
-
-                first_round_label_list: list[float] = [(1.0 if pair[0] in document_file_path_list else 0.0) for pair in combine_lexical_relevant_doc_list]
-                first_round_output = self._run_training_round(
-                    query_segmented,
-                    first_round_label_list, 
-                    lexical_relevant_doc_chunk_list, 
-                    lexical_similarity_score_list
-                )
-
-                (second_round_doc_chunk_list, 
-                 second_round_label_list, 
-                 second_round_lexical_similarity_score_list) = pos_neg_samples_gen_later_round(
-                     first_round_output, 
-                     first_round_label_list, 
-                     lexical_similarity_score_list, 
-                     lexical_relevant_doc_chunk_list, 
-                     SECOND_ROUND_NEGATIVE_SAMPLE_COUNT)
-                second_round_output = self._run_training_round(
-                    query_segmented,
-                    second_round_label_list, 
-                    second_round_doc_chunk_list, 
-                    second_round_lexical_similarity_score_list)
-
-                (third_round_doc_chunk_list, 
-                 third_round_label_list, 
-                 third_round_lexical_similarity_score_list) = pos_neg_samples_gen_later_round(
-                     second_round_output, second_round_label_list, 
-                     second_round_lexical_similarity_score_list, 
-                     second_round_doc_chunk_list, 
-                     THIRD_ROUND_NEGATIVE_SAMPLE_COUNT)
-                third_round_output = self._run_training_round(
-                    query_segmented,
-                    third_round_label_list, 
-                    third_round_doc_chunk_list, 
-                    third_round_lexical_similarity_score_list)
-
-        sentence_transformer_save_path: str = f"/sentence_transformer_finetune/{self.language}"
-        custom_sentence_transformer_save_path: str = f"/custom_sentence_transformer_trained/{self.language}"
-
-        self.custom_sentence_transformer.document_sentence_transformer.save(sentence_transformer_save_path)
-        check_point = {
-            'sentence_transformer_save_path': sentence_transformer_save_path,
-            'linear_sigmoid_stack': self.custom_sentence_transformer.linear_sigmoid_stack.state_dict()
-        }
-        torch.save(check_point, custom_sentence_transformer_save_path + '/model.pth')
-
-        return sentence_transformer_save_path, custom_sentence_transformer_save_path
+        return round_output, round_loss

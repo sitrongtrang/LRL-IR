@@ -12,17 +12,16 @@ SourceForExpansion: TypeAlias = Literal[
     'RELEVANT_SET_CONTENT'
 ]
 
-# Too high will affect the speed, especially if the document is long
-# The paper uses this number in experiment
-LIMIT_K_DOCS_FOR_RELEVANT_SET = 10
-
-# The paper also uses this number in experiment
-NUMBER_OF_EXPANSION_TERM = 30
-
-THRESHOLD_FOR_EM_ALGO = 0.000001
-
-
 class QueryExpansion:
+    # Too high will affect the speed, especially if the document is long
+    # The paper uses this number in experiment
+    LIMIT_K_DOCS_FOR_RELEVANT_SET = 10
+
+    # The paper also uses this number in experiment
+    NUMBER_OF_EXPANSION_TERM = 30
+
+    THRESHOLD_FOR_EM_ALGO = 0.000001
+    
     def __init__(self, document_dataset: DocumentDataset) -> None:
         """
         Args:
@@ -35,13 +34,13 @@ class QueryExpansion:
             'RELEVANT_SET_TITLE': [],
             'RELEVANT_SET_CONTENT': []
         }
-        self.sources['COLLECTION_SET_TITLE'], self.sources['COLLECTION_SET_CONTENT'] = self._tokenize_document()
+        self.sources['COLLECTION_SET_TITLE'], self.sources['COLLECTION_SET_CONTENT'] = self._get_tokenize_document()
         self.collection_set: set[str] = self._get_collection_set()
         self.bm25plus: BM25Plus = self._load_bm25plus()
 
         # At first, this dict is empty, so we need to use .get() method with default value when retrieving prob,
         # so that if key does not exist yet, default value will be return.
-        # Default value (currently 0.5) in this case will also be the initilize prob for all pairs in the model.
+        # Default value will be 1.0 / float(len(self.collection_set)), which mean it follow the uniform distribution.
         self.prob_expansion_term_represents_source: dict[tuple[str, SourceForExpansion], float] = {
         }
 
@@ -57,18 +56,17 @@ class QueryExpansion:
         self.prob_term_belongs_to_source: dict[tuple[str, SourceForExpansion], float] = {
         }
 
-    def _tokenize_document(self) -> tuple[list[list[str]], list[list[str]]]:
+    def _get_tokenize_document(self) -> tuple[list[list[str]], list[list[str]]]:
         """
-        Tokenize the title and content of each document in the dataset
-
+        Get the list of tokenized title and content of all documents in the dataset.
+        
         Returns:
-            tuple[list[list[str]], list[list[str]]]: Tuple contains list of tokenized titles and list of tokenized contents for each document.
-            The index is correspond to each other, which mean tokenize_title_lst[i] is the title of the document whose content is tokenize_content_lst[i]
+            tuple[list[list[str]],list[list[str]]]: Tuple contains list of tokenized titles and list of tokenized contents.\
+            The index is correspond to each other, which mean tokenize_title_lst[i] is the title of the document whose content is tokenize_content_lst[i].
         """
         tokenize_title_lst: list[list[str]] = []
         tokenize_content_lst: list[list[str]] = []
-        for document in self.document_dataset:
-            _, _, tokenize_title, tokenize_content, _, _ = document
+        for _, _, tokenize_title, tokenize_content, _, _, _ in self.document_dataset:
             tokenize_title_lst.append(tokenize_title)
             tokenize_content_lst.append(tokenize_content)
         return tokenize_title_lst, tokenize_content_lst
@@ -146,7 +144,7 @@ class QueryExpansion:
 
         matching_scores = self.bm25plus.get_scores(tokenized_query)
         top_relevant_index_set = argsort(matching_scores)[
-            ::-1][:LIMIT_K_DOCS_FOR_RELEVANT_SET]
+            ::-1][:self.LIMIT_K_DOCS_FOR_RELEVANT_SET]
 
         for index in top_relevant_index_set:
             self.sources['RELEVANT_SET_TITLE'].append(
@@ -182,11 +180,15 @@ class QueryExpansion:
             source (SourceForExpansion): The source from which expansion terms are derived.
             tokenized_query (list[str]): The original query tokenized into a list of terms.
         Returns:
-            list[tuple[str, float]]: A list of tuples where each tuple contains an expansion term and its corresponding probability, sorted in descending order of probability.
+            list[tuple[str,float]]: A list of tuples where each tuple contains an expansion term and its corresponding probability, sorted in descending order of probability.
         """
         previous_likelihood: float = -inf
-        while self._log_likelihood(observation_sequence) <= (previous_likelihood + THRESHOLD_FOR_EM_ALGO):
-            previous_likelihood = self._log_likelihood(observation_sequence)
+        current_likelihood: float = +inf
+        while True:
+            current_likelihood = self._log_likelihood(observation_sequence)
+            if current_likelihood <= (previous_likelihood + self.THRESHOLD_FOR_EM_ALGO):
+                break
+            previous_likelihood = current_likelihood
             self._estimation_step(observation_sequence)
             self._maximization_step(observation_sequence)
 
@@ -194,7 +196,7 @@ class QueryExpansion:
             k: v for k, v in self.prob_expansion_term_represents_source.items() if k[1] == source and k[0] not in tokenized_query}
         sorted_expansion_prob: list[tuple[tuple[str, SourceForExpansion], float]] = sorted(
             expansion_prob_dict.items(), key=lambda item: item[1], reverse=True)
-        return [(term[0][0], term[1]) for term in sorted_expansion_prob[:NUMBER_OF_EXPANSION_TERM]]
+        return [(term[0][0], term[1]) for term in sorted_expansion_prob[:self.NUMBER_OF_EXPANSION_TERM]]
 
     def _expand(self, tokenized_query: list[str]) -> list[str]:
         """
@@ -208,18 +210,29 @@ class QueryExpansion:
         observation_sequence_title: set[str] = self._get_term_set_of_source("RELEVANT_SET_TITLE")
         observation_sequence_content: set[str] = self._get_term_set_of_source("RELEVANT_SET_CONTENT")
 
-        expansion_term_with_prob_from_title_relevant_set = self.perform_em_algorithm(
+        expansion_term_with_prob_from_title_relevant_set = self._perform_em_algorithm(
             observation_sequence_title, "RELEVANT_SET_TITLE", tokenized_query)
-        expansion_term_with_prob_from_content_relevant_set = self.perform_em_algorithm(
+        expansion_term_with_prob_from_content_relevant_set = self._perform_em_algorithm(
             observation_sequence_content, "RELEVANT_SET_CONTENT", tokenized_query)
 
+        combined_expansion_terms: list[tuple[str, float]] = []
+        term_prob_dict: dict[str, float] = {}
+
+        for term, prob in expansion_term_with_prob_from_title_relevant_set:
+            if term not in term_prob_dict or prob > term_prob_dict[term]:
+                term_prob_dict[term] = prob
+
+        for term, prob in expansion_term_with_prob_from_content_relevant_set:
+            if term not in term_prob_dict or prob > term_prob_dict[term]:
+                term_prob_dict[term] = prob
+
+        combined_expansion_terms = list(term_prob_dict.items())
+
         sorted_expansion_term_final_prob = sorted(
-            expansion_term_with_prob_from_title_relevant_set +
-            expansion_term_with_prob_from_content_relevant_set,
-            key=lambda item: item[1],
-            reverse=True)
+            combined_expansion_terms, key=lambda item: item[1], reverse=True)
+
         expansion_term_final: list[str] = [
-            term[0] for term in sorted_expansion_term_final_prob[:NUMBER_OF_EXPANSION_TERM]]
+            term[0] for term in sorted_expansion_term_final_prob[:self.NUMBER_OF_EXPANSION_TERM]]
         return expansion_term_final
 
     def _log_likelihood(self, observation_sequence: set[str]) -> float:
@@ -241,7 +254,7 @@ class QueryExpansion:
                 term_source_pair: tuple[str,
                                         SourceForExpansion] = (term, source)
                 prob_term_belongs_to_source: float = self.prob_term_belongs_to_source.get(
-                    term_source_pair, 0.5)
+                    term_source_pair, 0.25)
                 prob_of_selecting_source: float = self.prob_of_selecting_source[source]
                 accumulate_likelihood_of_collection_set: float = 0.0
                 for expansion_term in self.collection_set:
@@ -306,14 +319,14 @@ class QueryExpansion:
             term_source_to_maximize_pair: tuple[str, SourceForExpansion] = (
                 term, source_to_maximize)
             numerator += self.prob_term_belongs_to_source.get(
-                term_source_to_maximize_pair, 0.5)
+                term_source_to_maximize_pair, 0.25)
 
             relation_prob_term_all_source: float = 0.0
             for source in self.sources.keys():
                 term_source_pair: tuple[str,
                                         SourceForExpansion] = (term, source)
                 relation_prob_term_all_source += self.prob_term_belongs_to_source.get(
-                    term_source_pair, 0.5)
+                    term_source_pair, 0.25)
             denominator += relation_prob_term_all_source
 
         return numerator / denominator
@@ -408,6 +421,7 @@ class QueryExpansion:
                 expansion_term, source_to_estimate)
             accumulate_prob_for_numerator *= (self.prob_expansion_term_represents_source.get(
                 expansion_term_source_to_estimate_pair, 1.0 / float(len(self.collection_set)))) ** indicator
+            
         numerator = self.prob_of_selecting_source[source_to_estimate] * \
             accumulate_prob_for_numerator
 

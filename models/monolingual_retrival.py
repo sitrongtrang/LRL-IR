@@ -1,11 +1,12 @@
 from functools import reduce
 import torch
 from torch import nn, Tensor
-from ..components.dataset import LanguageProcessing, DocumentDataset
-from ..components.query_expansion import QueryExpansion
-from ..components.lexical_matching import LexicalMatching
-from ..components.chunk_seperator import ChunkSeperator
-from ..components.custom_sentence_transformer import CustomSentenceTransformer
+from ..components import DocumentDataset
+from ..components import LanguageProcessing, VietnameseLanguageProcessing
+from ..components import QueryExpansion
+from ..components import LexicalMatching
+from ..components import ChunkSeperator
+from ..components import CustomSentenceTransformer
 from ..utils.utils import combine_doc_list
 
 
@@ -22,7 +23,7 @@ class MonoLingualRetrival(nn.Module):
         processed_doc_store_dir: str,
         custom_sentence_transformer_pretrained_or_save_path: str,
         language: str = 'vie',
-        language_processing: LanguageProcessing = LanguageProcessing('vie'),
+        language_processing: LanguageProcessing = VietnameseLanguageProcessing(),
         original_query_doc_count: int = 30,
         extended_query_doc_count: int = 30,
         chunk_length_limit: int = 128,
@@ -106,20 +107,21 @@ class MonoLingualRetrival(nn.Module):
         self.relevant_threshold: float = relevant_threshold
         self.relevant_default_lowerbound: float = relevant_default_lowerbound
 
-    def forward(self, query: str) -> list[str]:
+    def forward(self, query: str) -> tuple[list[str], list[float]]:
         """
-        Retrive a list of file paths to the documents that this model considered to be related to the query.
-
         Args:
-            query (str): The user's query.
-
+            query (str): The query from the user.
         Returns:
-            list[str]: a list of file paths to the documents which are considered to be related to the query.
+            tuple[list[str],list[float]]: \
+            A tuple contains two lists. The first list contains the document's id\
+            that is relevant to the query. The second list contains the similarity score of each document in the first list.\
+            The index of the document's id and its similarity score in the two lists are correspond to each other.
         """
-        query_segmented: str = self.language_processing.chunk_combiner(
-            self.language_processing.word_sentence_segment(query))
-        tokenized_query: list[str] = self.language_processing.tokenizer(
-            query_segmented)
+        preprocessed_query: list[str] = self.language_processing.text_preprocessing(query)
+        tokenized_query: list[str] = reduce(
+            lambda prev, curr: prev + self.language_processing.tokenizer(curr),
+            preprocessed_query, []
+        )
         extended_query: list[str] = tokenized_query + \
             self.query_expansion.get_expansion_term(tokenized_query)
         original_query_doc_ranking: list[tuple[str, float]] = self.lexical_matching.get_documents_ranking(
@@ -139,7 +141,7 @@ class MonoLingualRetrival(nn.Module):
         self.custom_sentence_transformer.eval()
 
         output: Tensor = self.custom_sentence_transformer(
-            query_segmented,
+            preprocessed_query,
             lexical_similarity_score_list,
             lexical_relevant_doc_chunk_list
         )
@@ -152,6 +154,7 @@ class MonoLingualRetrival(nn.Module):
 
         indices: list[int] = torch.nonzero(
             mask, as_tuple=False).squeeze().tolist()
-        result: list[str] = [combine_lexical_relevant_doc_list[i][0]
+        document_id: list[str] = [combine_lexical_relevant_doc_list[i][0]
                                 for i in indices]
-        return result
+        document_relevant_score: list[float] = [output[i].item() for i in indices]
+        return document_id, document_relevant_score

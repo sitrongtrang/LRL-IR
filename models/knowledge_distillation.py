@@ -2,7 +2,7 @@ import torch
 from torch import nn, Tensor
 from sentence_transformers import SentenceTransformer
 from ..components.ot_solver import OTSolver
-from ..components.dataset import *
+from ..components.dataset.document_dataset import *
 from ..utils.utils import compute_cosine_cost_matrix, pad_sentences
 
 class KnowledgeDistillation:
