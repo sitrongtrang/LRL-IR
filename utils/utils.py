@@ -131,28 +131,34 @@ def compute_cosine_cost_matrix(source_emb: Tensor, target_emb: Tensor) -> Tensor
     
     return cosine_dist
 
-def pad_sentences(source: list[str], target: list[str]) -> tuple[list[str], list[str], dict]:
+def pad_sentences(source: list[str], target: list[str], pad_token: str) -> tuple[list[str], list[str], dict]:
     """
     Pad the shorter sentence with mask tokens to match the length of the longer sentence.
     
     Args:
         source (list[str]): List of tokens for source sentence
         target (list[str]): List of tokens for target sentence
+        pad_token (str): The token used for padding
         
     Returns:
         Tuple of (padded source tokens, padded target tokens, attention mask)
     """
     max_len = max(len(source), len(target))
     
-    padded_source = source + ['[MASK]'] * (max_len - len(source))
-    padded_target = target + ['[MASK]'] * (max_len - len(target))
+    padded_source = source + [pad_token] * (max_len - len(source))
+    padded_target = target + [pad_token] * (max_len - len(target))
     
-    source_attention_mask = [1] * len(source) + [0] * (max_len - len(source))
-    target_attention_mask = [1] * len(target) + [0] * (max_len - len(target))
-    
-    features = {
-        'source_attention_mask': torch.tensor([source_attention_mask]),
-        'target_attention_mask': torch.tensor([target_attention_mask])
-    }
-    
-    return padded_source, padded_target, features
+    return padded_source, padded_target
+
+def tf_idf(term, doc, doc_list):
+    return term_frequency(term, doc) * inverse_doc_frequency(term, doc_list)
+
+def l1_normalize(tensor):
+    sum_val = tensor.sum()
+    return tensor / sum_val if sum_val > 0 else tensor
+
+def tf_idf_dist(sentence, doc, doc_list):
+    return torch.tensor([tf_idf(token, doc, doc_list) for token in sentence])
+
+def uniform_dist(sentence):
+    return torch.ones(len(sentence))

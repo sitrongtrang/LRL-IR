@@ -2,7 +2,7 @@ from functools import reduce
 import os
 from transformers import AutoTokenizer, PreTrainedTokenizer, PreTrainedTokenizerFast
 from typing import Callable
-from ..language_processing import LanguageProcessing
+from ...language_processing.language_processing import LanguageProcessing
 import py_vncorenlp
 
 
@@ -13,16 +13,19 @@ class VietnameseLanguageProcessing(LanguageProcessing):
             tokenizer: Callable[[str], list[str]] | None = None,
             encoder: Callable[[str | list[str]], list[int]] | None = None
     ):
-        self._pre_trained_tokenizer_model = AutoTokenizer.from_pretrained("vinai/phobert-base-v2") if \
-            pre_trained_tokenizer_model is None else pre_trained_tokenizer_model
-        self._text_preprocessing = self._load_text_preprocessing()
-        self._tokenizer = self._pre_trained_tokenizer_model.tokenize if tokenizer is None else tokenizer
-        self._encoder = self._pre_trained_tokenizer_model.encode if encoder is None else encoder
+        # self._pre_trained_tokenizer_model = AutoTokenizer.from_pretrained("vinai/phobert-base-v2") if \
+        #     pre_trained_tokenizer_model is None else pre_trained_tokenizer_model
+        # self._text_preprocessing = self._load_text_preprocessing()
+        # self._tokenizer = self._pre_trained_tokenizer_model.tokenize if tokenizer is None else tokenizer
+        # self._encoder = self._pre_trained_tokenizer_model.encode if encoder is None else encoder
+        pass
     
     def _load_text_preprocessing(self):
-        if os.path.isdir("/vncorenlp/models") == False or os.path.exists('/vncorenlp/VnCoreNLP-1.2.jar') == False:
-            py_vncorenlp.download_model("/vncorenlp")
-        return py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir="/vncorenlp").word_segment
+        # if os.path.isdir("/vncorenlp/models") == False or os.path.exists('/vncorenlp/VnCoreNLP-1.2.jar') == False:
+        #     os.makedirs("/vncorenlp", exist_ok=True)
+        #     py_vncorenlp.download_model("/vncorenlp")
+        # return py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir="/vncorenlp").word_segment
+        pass
     
     def text_preprocessing(self, text):
         return self._text_preprocessing(text)

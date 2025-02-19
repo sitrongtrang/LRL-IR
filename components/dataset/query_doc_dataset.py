@@ -2,7 +2,8 @@ from functools import reduce
 import os
 from torch.utils.data import Dataset
 import pandas as pd
-from ..language_processing import LanguageProcessing, VietnameseLanguageProcessing
+from ..language_processing.language_processing import LanguageProcessing
+from ..language_processing.impl.vietnamese_language_processing import VietnameseLanguageProcessing
 
 class QueryDocDataset(Dataset):
     def __init__(

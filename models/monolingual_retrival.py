@@ -1,13 +1,13 @@
 from functools import reduce
 import torch
 from torch import nn, Tensor
-from ..components import DocumentDataset
-from ..components import LanguageProcessing, VietnameseLanguageProcessing
-from ..components import QueryExpansion
-from ..components import LexicalMatching
-from ..components import ChunkSeperator
-from ..components import CustomSentenceTransformer
-from ..utils.utils import combine_doc_list
+from components import DocumentDataset
+from components import LanguageProcessing, VietnameseLanguageProcessing
+from components import QueryExpansion
+from components import LexicalMatching
+from components import ChunkSeperator
+from components import CustomSentenceTransformer
+from utils.utils import combine_doc_list
 
 
 class MonoLingualRetrival(nn.Module):

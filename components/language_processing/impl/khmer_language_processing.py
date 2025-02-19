@@ -3,7 +3,7 @@ import os
 import re
 from transformers import AutoTokenizer, PreTrainedTokenizer, PreTrainedTokenizerFast
 from typing import Callable
-from ..language_processing import LanguageProcessing
+from ...language_processing.language_processing import LanguageProcessing
 
 class KhmerLanguageProcessing(LanguageProcessing):
     def __init__(

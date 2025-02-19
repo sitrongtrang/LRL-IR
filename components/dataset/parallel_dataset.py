@@ -2,7 +2,7 @@ from functools import reduce
 import os
 from torch.utils.data import Dataset
 import csv
-from ..language_processing import LanguageProcessing
+from ..language_processing.language_processing import LanguageProcessing
 
 
 class ParallelDataset(Dataset):

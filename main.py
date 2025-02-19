@@ -94,11 +94,11 @@ def monolingual_retrive(
         print(result)
 
 def knowledge_distillation(
-    parallel_dir,
-    teacher_language_processing,
-    student_language_processing,
+    # parallel_dir,
+    # teacher_language_processing,
+    # student_language_processing,
     student_model_language,
-    teacher_model_language,
+    teacher_model_language='',
     device='cpu',
     batch_size='32',
     epsilon='1.0',
@@ -109,9 +109,9 @@ def knowledge_distillation(
         raise RuntimeError("Your device does not have GPU!")
     
     trainer = KnowledgeDistillation(
-        parallel_dir==parallel_dir,
-        teacher_language_processing=teacher_language_processing,
-        student_language_processing=student_language_processing,
+        # parallel_dir==parallel_dir,
+        # teacher_language_processing=teacher_language_processing,
+        # student_language_processing=student_language_processing,
         student_model_language=student_model_language,
         teacher_model_language=teacher_model_language,
         device=device,

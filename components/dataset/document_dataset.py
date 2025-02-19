@@ -3,7 +3,8 @@ import os
 import json
 import pandas as pd
 from torch.utils.data import Dataset
-from ..language_processing import LanguageProcessing, VietnameseLanguageProcessing
+from ..language_processing.language_processing import LanguageProcessing
+from ..language_processing.impl.vietnamese_language_processing import VietnameseLanguageProcessing
 
 class DocumentDataset(Dataset):
     def __init__(

@@ -3,15 +3,15 @@ import torch
 from torch import nn, Tensor
 from torch.optim import Adam
 from torch.utils.data import DataLoader
-from ..components import LanguageProcessing, VietnameseLanguageProcessing
-from ..components import DocumentDataset
-from ..components import QueryDocDataset
-from ..components import QueryExpansion
-from ..components import LexicalMatching
-from ..components import ChunkSeperator
-from ..components import CustomSentenceTransformer
-from ..components import FineTuneLanguageModel
-from ..utils.utils import pos_neg_samples_gen_first_round, pos_neg_samples_gen_later_round, combine_doc_list
+from components import LanguageProcessing, VietnameseLanguageProcessing
+from components import DocumentDataset
+from components import QueryDocDataset
+from components import QueryExpansion
+from components import LexicalMatching
+from components import ChunkSeperator
+from components import CustomSentenceTransformer
+from components import FineTuneLanguageModel
+from utils.utils import pos_neg_samples_gen_first_round, pos_neg_samples_gen_later_round, combine_doc_list
 
 FIRST_ROUND_NEGATIVE_SAMPLE_COUNT = 35
 SECOND_ROUND_NEGATIVE_SAMPLE_COUNT = 20

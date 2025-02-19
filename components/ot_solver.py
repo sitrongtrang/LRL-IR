@@ -42,6 +42,8 @@ class OTSolver(nn.Module):
             L (int): Number of iterations for inner optimization.
             use_path (bool): Whether warm start method is used.
         """
+        super(OTSolver, self).__init__()
+
         self.device = device
         self.epsilon: float = epsilon
         self.beta = beta
@@ -119,6 +121,7 @@ class OTSolver(nn.Module):
         b = torch.ones([n,])
 
         Gamma = torch.ones((m, n))/m*n
+        print(Gamma.shape)
         G = torch.exp(-(C/self.beta))
 
         for _ in range(self.max_iter):
