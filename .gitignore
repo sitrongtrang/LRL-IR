@@ -3,3 +3,4 @@ tests/__pycache__/
 components/__pycache__/
 data_storage
 .env
+*.pyc

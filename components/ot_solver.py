@@ -9,16 +9,17 @@ class OTLoss(nn.Module):
     def __init__(self):
         super(OTLoss, self).__init__()
 
-    def forward(self, source: Tensor, target: Tensor, plan: Tensor) -> Tensor:
+    def forward(self, source: Tensor, target: Tensor, plan: Tensor, cost: Tensor) -> Tensor:
         """
         Args:
             source (Tensor): Tensor of token embeddings of the source sentence.
             target (Tensor): Tensor of token embeddings of the target sentence.
             plan (Tensor): The transportation plan.
+            cost (Tensor): The transportation cost.
         Returns:
             Tensor: Total loss as transportation cost.
         """
-        loss: Tensor = torch.sum(plan * torch.cdist(source, target))
+        loss: Tensor = torch.sum(plan * cost)
         return loss
 
 class OTSolver(nn.Module):
@@ -71,7 +72,7 @@ class OTSolver(nn.Module):
             plan = self.ipot(mu, nu, C)
         else:
             plan = self.linear_programming(mu, nu, C)
-        loss = self.ot_loss(mu, nu, plan)
+        loss = self.ot_loss(mu, nu, plan, C)
         return plan, loss
 
     def sinkhorn_knopp(self, mu: Tensor, nu: Tensor, C: Tensor) -> Tensor:
@@ -117,22 +118,21 @@ class OTSolver(nn.Module):
         """
         m = len(mu)
         n = len(nu)
-        a = torch.ones([m,])
-        b = torch.ones([n,])
+        a = torch.ones([m,], requires_grad=True)
+        b = torch.ones([n,], requires_grad=True)
 
-        Gamma = torch.ones((m, n))/m*n
-        print(Gamma.shape)
+        Gamma = torch.ones((m, n), requires_grad=True)/m*n
         G = torch.exp(-(C/self.beta))
 
         for _ in range(self.max_iter):
             Q = G * Gamma
             if not self.use_path:
-                a = torch.ones([m,])
-                b = torch.ones([n,])
+                a = torch.ones([m,], requires_grad=True)
+                b = torch.ones([n,], requires_grad=True)
             
             for i in range(self.L):
                 a = mu/torch.matmul(Q, b)
-                b = nu/torch.matmul(torch.transpose(Q), a)
+                b = nu/torch.matmul(Q.t(), a)
         
             Gamma = a.unsqueeze(1) * Q * b.unsqueeze(0)
                 

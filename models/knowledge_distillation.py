@@ -79,7 +79,7 @@ class KnowledgeDistillation:
         target_sentence = self.teacher.tokenizer.tokenize(target_sentence)
         if "padded" in self.distribution:
             source_sentence, target_sentence = pad_sentences(source_sentence, target_sentence, self.teacher.tokenizer.pad_token)
-
+            
         if self.distribution == "tf-idf":
             # source_dist = tf_idf_dist(source_sentence)
             pass
@@ -99,21 +99,21 @@ class KnowledgeDistillation:
                 output_value='token_embeddings', 
                 convert_to_tensor=True, 
                 device=self.device
-            )
+            )[1:-1, :]
         
         student_embeddings_source: Tensor = self.student.encode(
             source_sentence, 
             output_value='token_embeddings', 
             convert_to_tensor=True, 
             device=self.device
-        )
+        )[1:-1, :]
         
         student_embeddings_target: Tensor = self.student.encode(
             target_sentence, 
             output_value='token_embeddings', 
             convert_to_tensor=True, 
             device=self.device
-        )
+        )[1:-1, : ]
 
         cost_source: Tensor = compute_cosine_cost_matrix(teacher_embeddings, student_embeddings_source)
         _, source_loss = self.ot_solver(source_dist, source_dist, cost_source)
