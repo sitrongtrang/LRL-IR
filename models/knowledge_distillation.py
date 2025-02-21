@@ -143,11 +143,11 @@ class KnowledgeDistillation:
             for source_sentence, target_sentence in bitext_data:
                 self.train_loop(source_sentence, target_sentence)
 
-        self.student.save(f"/sentence_transformer_multilingual")
+        self.student.save(f"sentence_transformer_multilingual")
         check_point = {
-            'student_sentence_transformer_save_path': f"/sentence_transformer_multilingual"
+            'student_sentence_transformer_save_path': f"sentence_transformer_multilingual"
 
         }
-        torch.save(check_point, f"/sentence_transformer_multilingual" + '/model.pth')
+        torch.save(check_point, f"sentence_transformer_multilingual" + '/model.pth')
 
-        return f"/sentence_transformer_multilingual"
+        return f"sentence_transformer_multilingual"

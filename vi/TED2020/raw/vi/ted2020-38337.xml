@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Trên máy bay, đột nhiên, bạn bị xóc.</s>
+ <s id="2">Ngoài trời, dường như chẳng có gì xảy ra, nhưng bạn và các hành khách vẫn tiếp tục bị rung lắc khi máy bay bay qua vùng không khí bị nhiễu động.</s>
+ <s id="3">Có lẽ bạn sẽ không mấy thích thú khi biết rằng hiện tượng này là một trong những bí ẩn thú vị nhất trong vật lý.</s>
+ <s id="4">Sau hơn một thế kỷ nghiên cứu về nhiễu động, ta chỉ mới có vài giải thích về cách hoạt động, và ảnh hưởng của nó lên ta.</s>
+ <s id="5">Nhiễu động ở khắp mọi nơi, xuất hiện trong hầu hết mọi hệ chuyển động chất lưu.</s>
+ <s id="6">Gồm luồng khí di chuyển trong đường hô hấp.</s>
+ <s id="7">Máu lưu thông trong động mạch.</s>
+ <s id="8">Và cả trong ly cà phê đang được khuấy.</s>
+ <s id="9">Mây bị nhiễu động chi phối, sóng vỗ dọc bờ biển và gió mặt trời cũng vậy.</s>
+ <s id="10">Hiểu rõ cách hiện tượng này hoạt động sẽ tạo ra nhiều thay đổi trong cuộc sống.</s>
+ <s id="11">Sau đây là những điều ta biết.</s>
+ <s id="12">Chất lỏng và khí thường có hai loại chuyển động: dòng chảy tầng: ổn định và trơn tru, dòng chảy rối: là tập hợp các xoáy rối loạn.</s>
+ <s id="13">Hãy tưởng tượng một cây nhang.</s>
+ <s id="14">Ở đầu nhang, dòng khói mượt, ổn định và dễ đoán.</s>
+ <s id="15">Tuy nhiên, gần cuối cột khói, tốc độ dòng tăng lên, dòng không còn ổn định, và chuyển động của cột khói trở nên hỗn loạn.</s>
+ <s id="16">Đó là sự nhiễu động, và dòng chảy rối có những đặc điểm sau.</s>
+ <s id="17">Đầu tiên, khác với ngẫu nhiên, nhiễu động luôn là hỗn loạn.</s>
+ <s id="18">Nói đúng hơn, nhiễu động rất nhạy với va chạm (lực ma sát).</s>
+ <s id="19">Một chút tác động có thể làm thay đổi toàn bộ,</s>
+ <s id="20">khiến gần như không thể dự đoán được nhiễu động ngay cả khi có rất nhiều thông tin về hiện trạng.</s>
+ <s id="21">Một đặc điểm quan trọng khác của nhiễu động là kích cỡ dòng.</s>
+ <s id="22">Dòng chảy rối có nhiều vòng xoáy có kích thước khác nhau gọi là xoáy rối, giống như gió xoáy, có nhiều hình dạng và kích cỡ.</s>
+ <p id="p23">
+  <s id="23.1">Các xoáy rối tương tác với nhau, tiêu tán năng lượng và nhỏ dần đến khi toàn bộ động năng biến thành nhiệt.</s>
+  <s id="23.2">Quá trình này được gọi là: "thác năng lượng".</s>
+ </p>
+ <s id="24">Đó là cách nhận biết nhiễu động, nhưng tại sao nó lại xảy ra?</s>
+ <s id="25">Luôn tồn tại hai lực đối nhau trong chất lỏng và chất khí: quán tính và độ nhớt.</s>
+ <s id="26">Quán tính khiến chất lỏng tiếp tục di chuyển, gây ra bất ổn.</s>
+ <s id="27">Độ nhớt chống lại bất ổn, khiến dòng chảy trơn tru hơn.</s>
+ <s id="28">Trong chất lỏng đặc như mật ong, độ nhớt thường thắng thế.</s>
+ <s id="29">Các chất có độ nhớt nhỏ như nước hay không khí chịu ảnh hưởng của quán tính nhiều hơn, tạo nên bất ổn, hình thành nhiễu loạn.</s>
+ <s id="30">Ta phân loại dòng chảy bằng cách đối chiếu khoảng phổ nhờ một thứ gọi là số Reynold, là tỷ số giữa lực quán tính và độ nhớt dòng.</s>
+ <s id="31">Số Reynold càng lớn, khả năng xảy ra nhiễu động càng cao.</s>
+ <s id="32">Ví dụ, chỉ số Reynold khi đổ mật ong vào ly xấp xỉ bằng 1.</s>
+ <s id="33">Tương tự, với nước, chỉ số Reynold gần bằng 10.000.</s>
+ <s id="34">Số Reynold rất hữu ích Với các hệ đơn giản, nhưng trở nên vô dụng trong nhiều trường hợp khác.</s>
+ <s id="35">Ví dụ, chuyển động trong lòng khí quyển bị ảnh hưởng mạnh bởi các yếu tố như trọng lực và sự quay quanh trục của Trái đất.</s>
+ <s id="36">Hay đơn giản hơn, lực cản trên các tòa nhà và xe hơi.</s>
+ <s id="37">Nhờ có nhiều thí nghiệm và thực nghiệm, ta có thể tạo các mô hình tương ứng.</s>
+ <s id="38">Nhưng các nhà vật lý muốn dự đoán chúng qua định luật và phương trình vật lý như việc tạo mô hình quỹ đạo các hành tinh hoặc trường điện từ.</s>
+ <s id="39">Hầu hết các nhà khoa học tin rằng có thể dự đoán dùng phương pháp thống kê với máy tính có cấu hình cực mạnh.</s>
+ <s id="40">Mô phỏng dòng chảy rối trên máy tính có tốc độ xử lí cao giúp xác định các mẫu làm cơ sở xây dựng lý thuyết dự đoán mọi hệ nhiễu động một cách có hệ thống.</s>
+ <s id="41">Vài nhà khoa học khác tin rằng hiện tượng này quá phức tạp nên việc xây dựng lý thuyết hoàn chỉnh là không thể.</s>
+ <s id="42">Hy vọng, tương lai, ta có thể tạo ra đột phá, vì hiểu rõ về nhiễu động có tác động rất lớn,</s>
+ <s id="43">như giúp khai thác hiệu quả hơn năng lượng điện gió, chuẩn bị tốt hơn trước thiên tai, hoặc thậm chí, điều chỉnh hướng bão.</s>
+ <s id="44">Và, dĩ nhiên, những chuyến bay dễ chịu hơn cho hàng triệu hành khách.</s>
+</text>

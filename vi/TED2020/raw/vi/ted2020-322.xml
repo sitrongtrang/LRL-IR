@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Xin chào mọi người.</s>
+ <s id="2">Sau đây hai chúng tôi sẽ cho các bạn thấy một ví dụ về sự sáng tạo.</s>
+ <s id="3">Tôi sẽ gấp một trong những mô hình của Robert Lang.</s>
+ <s id="4">Và đây là miếng giấy để tạo ra mô hình, Và các bạn có thể thấy được các nếp gấp cần thiết cho mô hình.</s>
+ <p id="p5">
+  <s id="5.1">Còn Rufus sẽ chơi vài khúc nhạc ngẫu hứng bằng khí cụ quen thuộc của mình, cây đàn xelô điện năm dây.</s>
+  <s id="5.2">Các bạn sẽ thấy thú vị khi lắng nghe.</s>
+ </p>
+ <s id="6">Anh đã sẵn sàng chưa?</s>
+ <p id="p7">
+  <s id="7.1">Được rồi.</s>
+  <s id="7.2">Tôi muốn làm cho điều này thú vị hơn một chút.</s>
+ </p>
+ <p id="p8">
+  <s id="8.1">Được rồi.</s>
+  <s id="8.2">Bắt đầu nào Rufus.</s>
+ </p>
+ <p id="p9">
+  <s id="9.1">(Nhạc) Xong rồi.</s>
+  <s id="9.2">Các bạn xem này.</s>
+ </p>
+ <s id="10">(Tiếng cười) (Vỗ tay)</s>
+</text>

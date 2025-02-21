@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Hôm nay tôi sẽ chia sẻ với các bạn một khám phá độc đáo.</s>
+ <s id="2">Nhưng tôi muốn thuật lại cho các bạn đúng những gì đã xảy ra -- không như cách tôi hay thuyết trình trong hội thảo khoa học, hay là cách các bạn thường đọc trong công trình nghiên cứu được xuất bản.</s>
+ <s id="3">Câu chuyện này không chỉ bó gọn trong lĩnh vực công nghệ mô phỏng sinh học, nó đi xa hơn, tới cái mà tôi gọi là cộng sinh sinh học.</s>
+ <s id="4">Tôi định nghĩa "cộng sinh sinh học" là sự kết giao giữa sinh học và một ngành khác, theo đó ngành này sẽ giúp ngành kia tiến xa hơn, và những khám phá chung sẽ vượt xa bất kì một ngành đơn lẻ nào.</s>
+ <s id="5">Theo công nghệ mô phỏng sinh học, khi công nghệ của loài người tiếp nhận các đặc điểm của thiên nhiên, thiên nhiên sẽ trở thành người thầy hữu dụng hơn nhiều.</s>
+ <s id="6">Ngành kĩ sư có thể lấy cảm hứng từ sinh học, bằng cách áp dụng các nguyên lí sinh học khi chúng có lợi cho ta, và kết hợp chúng với những kĩ thuật thiết kế tốt nhất của loài người, với mục đích tối thượng là tạo ra thứ còn tốt hơn cả thiên nhiên.</s>
+ <s id="7">Là một nhà sinh học, tôi vô cùng tò mò về điều này.</s>
+ <s id="8">Đây là ngón chân thạch sùng.</s>
+ <s id="9">Và chúng tôi băn khoăn không biết làm cách nào chúng dùng những ngón chân kì quái này để leo lên tường nhanh nhẹn đến thế.</s>
+ <p id="p10">
+  <s id="10.1">Chúng tôi đã khám phá ra điều đó.</s>
+  <s id="10.2">Điều chúng tôi tìm ra là chúng có những cấu trúc dạng lá trên ngón chân, với hàng triệu chiếc lông bé xíu, trông như cái thảm, và mỗi sợi lông đều bị "chẻ ngọn" thảm thương: chừng 100 tới 1000 ngọn, kích cỡ siêu vi.</s>
+ </p>
+ <s id="11">Và một cá thể thạch sùng có 2 tỉ những ngọn siêu vi như thế này.</s>
+ <s id="12">Chúng không dính lên tường bằng rám dính, hút chân không hay hồ.</s>
+ <s id="13">Thật ra chúng dính chỉ nhờ vào lực tương tác giữa các phân tử, lực van der Waals.</s>
+ <s id="14">Và tôi rất vui mừng được báo cho các bạn rằng chất dính tổng hợp khô, tự làm sạch đầu tiên đã được sản xuất.</s>
+ <s id="15">Từ phiên bản đơn giản có trong tự nhiên, chỉ một nhánh, kĩ sư cộng sự với tôi, Ron Fearing, ở Berkeley, đã tạo ra được phiên bản tổng hợp đầu tiên.</s>
+ <s id="16">Và một cộng sự đáng kinh ngạc khác của tôi cũng vậy, Mark Cutkosky, ở Stanford -- anh tạo ra những chiếc lông lớn hơn lông thạch sùng nhiều, nhưng dùng cùng các nguyên lí chung như vậy.</s>
+ <s id="17">Và đây là bài thử thách đầu tiên của nó.</s>
+ <s id="18">(Cười) Đó là Kellar Autumn, trước là học sinh cao học của tôi, giờ là giáo sư Đại học Lewis và Clark, cậu nộp đứa con đầu lòng cho thí nghiệm này, theo đúng nghĩa đen.</s>
+ <s id="19">(Cười) Mới đây hơn, cái này đã xảy ra.</s>
+ <s id="20">- Đây là lần đầu tiên có người leo trèo bằng cái này.</s>
+ <s id="21">Lynn Verinsky, nhà leo núi chuyên nghiệp, trông có vẻ tràn trề tự tin.</s>
+ <s id="22">- Thật lòng mà nói, nó là tuyệt đối an toàn.</s>
+ <s id="23">Nó sẽ tuyệt đối an toàn. - Làm sao chị biết?</s>
+ <p id="p24">
+  <s id="24.1">- Vì có bảo hiểm pháp lý.</s>
+  <s id="24.2">(Cười) Với một tấm đệm ở dưới, và đeo chặt dây thừng bảo hộ, Lynn bắt đầu chuyến leo 60 feet của mình.</s>
+ </p>
+ <s id="25">Lynn leo đến đỉnh, một sự kết hợp hoàn hảo của Hollywood và khoa học.</s>
+ <s id="26">- Thế là chị là người đầu tiên chính thức bắt chước thạch sùng.</s>
+ <p id="p27">
+  <s id="27.1">- Ha!</s>
+  <s id="27.2">Wow.</s>
+  <s id="27.3">Thật là vinh hạnh quá.</s>
+ </p>
+ <s id="28">Đó là cách cô ấy làm trên các bề mặt gồ ghề.</s>
+ <s id="29">Nhưng thật ra cô ta dùng những cái này trên các bề mặt phẳng phiu -- hai cái -- để trèo lên, và tự kéo mình lên.</s>
+ <s id="30">Và các bạn có thể thử cái này ngoài hành lang, và xem vật liệu lấy cảm hứng từ thạch sùng.</s>
+ <s id="31">Giờ thì, vấn đề với các robot làm chuyện này là chúng không thể tự gỡ ra khi dùng vật liệu này được.</s>
+ <p id="p32">
+  <s id="32.1">Đây là giải pháp của thạch sùng.</s>
+  <s id="32.2">Chúng tự bóc ngón chân khỏi bề mặt đang trèo, với tốc độ lớn, khi chúng chạy lên tường.</s>
+ </p>
+ <s id="33">Ồ, hôm nay tôi rất phấn khích được cho các bạn thấy phiên bản mới nhất của robot, tên là Stickybot, dùng vật liệu dính khô có thang bậc mới.</s>
+ <s id="34">Đây là con robot thật.</s>
+ <s id="35">Và đây là cái nó làm.</s>
+ <s id="36">Và nếu bạn quan sát, bạn có thể thấy rằng nó dùng hành động "bóc" ngón chân, y như con thạch sùng vậy.</s>
+ <s id="37">Nếu chúng tôi có thể chiếu vài đoạn video, các bạn sẽ có thể thấy nó leo lên tường.</s>
+ <s id="38">(Vỗ tay) Đây rồi.</s>
+ <s id="39">Và giờ nó có thể đi lên các bề mặt khác nữa, nhờ vào loại vật liệu dính mới mà nhóm ở Stanford đã có thể tạo ra khi thiết kế con robot đáng kinh ngạc này.</s>
+ <p id="p40">
+  <s id="40.1">(Vỗ tay) Ồ.</s>
+  <s id="40.2">Một điểm tôi muốn chỉ ra là, hãy nhìn Stickybot.</s>
+ </p>
+ <s id="41">Các bạn sẽ thấy cái này trên đó -- mục đích không chỉ là để trông giống con thạch sùng.</s>
+ <p id="p42">
+  <s id="42.1">Nó có đuôi.</s>
+  <s id="42.2">Và đúng lúc bạn nghĩ là bạn đã hiểu ra thiên nhiên hoạt động như thế nào rồi, những thứ như thế này xảy ra.</s>
+ </p>
+ <s id="43">Các kĩ sư bảo chúng tôi, về mấy con robot trèo, rằng, nếu chúng không có đuôi, chúng sẽ rớt khỏi tường.</s>
+ <s id="44">Thế là họ hỏi chúng tôi một câu hỏi quan trọng.</s>
+ <s id="45">Họ nói rằng, "Ồ, nó trông đại khái giống cái đuôi."</s>
+ <s id="46">Dù chúng tôi đã lắp một cái thanh thụ động tượng trưng vào chỗ đó.</s>
+ <s id="47">"Động vật có dùng đuôi khi leo lên tường không?"</s>
+ <s id="48">Ở đây họ đã đáp lễ chúng tôi, bằng cách đưa ra một giả thuyết để chúng tôi kiểm định, trong sinh học, mà chúng tôi còn không nghĩ tới.</s>
+ <p id="p49">
+  <s id="49.1">Thế nên dĩ nhiên, trên thực tế, lúc đỏ chúng tôi bắt đầu hoảng.</s>
+  <s id="49.2">Là nhà sinh học, đáng lẽ chúng tôi phải biết điều này rồi.</s>
+ </p>
+ <s id="50">Chúng tôi nói, "Ồ, đuôi làm cái gì nhỉ?"</s>
+ <s id="51">Chúng tôi biết rằng đuôi là nơi dự trữ mỡ, ví dụ thế.</s>
+ <s id="52">Chúng tôi biết có thể dùng đuôi để cuốn lấy các thứ.</s>
+ <s id="53">Và có lẽ vai trò quen thuộc nhất là đuôi tạo thăng bằng khi đứng yên.</s>
+ <s id="54">(Cười) Nó cũng có thể đóng vai trò lực đối trọng.</s>
+ <s id="55">Hãy xem chú kangaroo này nhé.</s>
+ <p id="p56">
+  <s id="56.1">Thấy cái đuôi kia không?</s>
+  <s id="56.2">Thật đáng kinh ngạc!</s>
+ </p>
+ <s id="57">Marc Raibert làm một con robot nhảy Uniroo.</s>
+ <s id="58">Và không có đuôi thì nó rất thiếu vững chắc.</s>
+ <s id="59">Nào, trong phần lớn trường hợp cái đuôi làm giảm khả năng điều khiển như người ở trong bộ áo khủng long này.</s>
+ <s id="60">(Cười) Đồng nghiệp tôi thực tế đã thử kiểm định nhược điểm này, bằng cách tăng mô-men ì của một học sinh, thế là các em được gắn đuôi và cho chạy qua chướng ngại vật, và hiệu quả quả nhiên có giảm, như ta có thể đoán được.</s>
+ <s id="61">(Cười) Nhưng dĩ nhiên, đây là một cái đuôi thụ động.</s>
+ <s id="62">Và ta cũng có thể có đuôi hoạt động.</s>
+ <s id="63">Và khi tôi quay lại nghiên cứu cái này, tôi nhận ra rằng một trong những thời khắc TED tuyệt vời trong quá khứ, từ Nathan, chúng ta đã có buổi nói chuyện về một cái đuôi hoạt động.</s>
+ <s id="64">Myhrvold nghĩ rằng khủng long đập đuôi quan tâm đến tình yêu hơn là chiến tranh.</s>
+ <s id="65">Ạnh ta đã nói cái đuôi có vai trò làm roi để giao tiếp.</s>
+ <s id="66">Nó cũng có thể dùng để tự vệ.</s>
+ <s id="67">Khá là nhiều sức mạnh.</s>
+ <s id="68">Thế là sau đó chúng tôi quay lại quan sát con vật.</s>
+ <s id="69">Và chúng tôi cho nó chạy lên một bề mặt.</s>
+ <s id="70">Nhưng lần này, chúng tôi đặt một miếng rất trơn màu vàng như các bạn thấy đó.</s>
+ <p id="p71">
+  <s id="71.1">Và hãy nhìn bên phải xem con vật làm gì với cái đuôi của nó khi nó trượt nhé.</s>
+  <s id="71.2">Đoạn này quay chậm 10 lần.</s>
+ </p>
+ <s id="72">Đây là tốc độ bình thường.</s>
+ <s id="73">Và bây giờ hãy xem nó trượt, và xem nó làm gì với cái đuôi của mình.</s>
+ <s id="74">Nó có cái đuôi hoạt động, với vai trò như là cái chân thứ năm, và đóng góp vào sự ổn định.</s>
+ <s id="75">Nếu ta làm con thạch sùng trượt nhiều hơn, chúng tôi khám phá ra điều này.</s>
+ <s id="76">Thật phi thường.</s>
+ <s id="77">Các kĩ sư đã có một ý tưởng tuyệt vời.</s>
+ <s id="78">Và rồi, dĩ nhiên, chúng tôi thắc mắc, được đấy, chúng có cái đuôi hoạt động, nhưng hãy hình dung chúng nhé.</s>
+ <s id="79">Chúng đang leo lên một cái tường, hay cái cây.</s>
+ <s id="80">Và rồi chúng tới đỉnh cao nhất, và cứ coi như là có vài chiếc lá ở đó.</s>
+ <s id="81">Và điều gì sẽ xảy ra nếu chúng leo lên mặt dưới của cái lá, và có gió, hay là ta rung cành?</s>
+ <s id="82">Và chúng tôi làm một thí nghiệm mà các bạn thấy ở đây.</s>
+ <s id="83">(Vỗ tay) Và đây là điều chúng tôi khám phá ra.</s>
+ <p id="p84">
+  <s id="84.1">Đó là tốc độ thực.</s>
+  <s id="84.2">Các bạn không thấy được gì hết.</s>
+ </p>
+ <s id="85">Nhưng đó, chậm lại rồi.</s>
+ <s id="86">Điều chúng tôi khám phá ra là phản ứng tự chỉnh trong không trung nhanh nhất thế giới.</s>
+ <p id="p87">
+  <s id="87.1">Cho bạn nào vẫn còn nhớ môn vật lí, đó là một mô-men lực góc 0 độ phản ứng tự chỉnh.</s>
+  <s id="87.2">Nhưng nó như con mèo vậy.</s>
+ </p>
+ <s id="88">Bạn biết đấy, khi mèo rơi, chúng làm như thế này.</s>
+ <p id="p89">
+  <s id="89.1">Chúng vặn người.</s>
+  <s id="89.2">Nhưng thạch sùng làm tốt hơn.</s>
+ </p>
+ <s id="90">Và chúng làm điều đó nhờ đuôi.</s>
+ <s id="91">Chúng làm điều đó bằng chiếc đuôi hoạt động này, khi chúng đánh đuôi qua lại.</s>
+ <s id="92">Và rồi, chúng luôn hạ cánh trong tư thế siêu nhân nhảy dù tự do.</s>
+ <s id="93">Bây giờ chúng tôi mới thắc mắc, nếu chúng tôi đúng, chúng tôi sẽ có thể kiểm định cái này trên một model thật, dùng một con robot.</s>
+ <s id="94">Vậy là chúng tôi đã xây dựng một con robot thực chỉ riêng cho TED, ở đằng kia, một nguyên bản, với cái đuôi.</s>
+ <s id="95">Và chúng ta chuẩn bị thử phản ứng tự chỉnh trong không trung bằng đuôi đầu tiên, với một con robot.</s>
+ <s id="96">Có thể chiếu đèn vào nó được không?</s>
+ <s id="97">Được rồi, thế này.</s>
+ <s id="98">Và xin chiếu video.</s>
+ <s id="99">Đây rồi.</s>
+ <s id="100">Và nó hoạt động y như đuôi con vật vậy.</s>
+ <s id="101">Thế là, tất cả những gì bạn cần làm chỉ là đánh đuôi để tự chỉnh bản thân.</s>
+ <p id="p102">
+  <s id="102.1">(Vỗ tay) Dĩ nhiên, thường chúng tôi khá là hoảng sợ vì con vật không hề có cơ chế thích nghi nào để lướt, nên chúng tôi nghĩ, "Ồ, cũng được thôi.</s>
+  <s id="102.2">Chúng tôi sẽ đặt nó vào một ống dẫn gió dọc.</s>
+ </p>
+ <s id="103">Chúng tôi thổi không khí lên, cho nó mục tiêu hạ cánh, một đoạn thân cây, ngay bên ngoài lồng kính nhựa, và xem nó làm gì.</s>
+ <p id="p104">
+  <s id="104.1">(Cười) Chúng tôi đã làm thế.</s>
+  <s id="104.2">Và nó làm thế này.</s>
+ </p>
+ <p id="p105">
+  <s id="105.1">Gió thổi từ phía dưới.</s>
+  <s id="105.2">Đoạn này quay chậm 10 lần.</s>
+ </p>
+ <s id="106">Nó thực hiện một cú lướt thăng bằng.</s>
+ <p id="p107">
+  <s id="107.1">Điều khiển hoàn hảo.</s>
+  <s id="107.2">Thật phi thường.</s>
+  <s id="107.3">Nhưng nó còn khá đẹp nữa, khi ta chụp ảnh lại.</s>
+ </p>
+ <s id="108">Và nó còn tốt hơn thế nữa, nó -- ngay trong slide này -- xoay sở giữa không trung.</s>
+ <s id="109">Và cách nó dùng là, nó lấy cái đuôi và đánh nó một chiều để chệch sang bên trái, và đánh nó chiều kia để chệch sang bên phải.</s>
+ <s id="110">Vậy là chúng ta có thể xoay sở bằng cách này.</s>
+ <s id="111">Và rồi -- chúng tôi phải quay đi quay lại vài lần để tin được cái này -- nó còn làm thế này nữa.</s>
+ <p id="p112">
+  <s id="112.1">Xem nhé.</s>
+  <s id="112.2">Nó đung đưa đuôi lên xuống như chú cá heo vậy.</s>
+ </p>
+ <s id="113">Nó có thể bơi qua không khí.</s>
+ <p id="p114">
+  <s id="114.1">Nhưng xem chân trước của nó nhé.</s>
+  <s id="114.2">Các bạn có thấy chúng đang làm gì không?</s>
+ </p>
+ <s id="115">Điều này có ý nghĩa gì tới nguồn gốc của hoạt động bay đập cánh?</s>
+ <s id="116">Có thể hoạt động đó tiến hóa từ việc đi xuống cây cối, và cố gắng điều khiển cú lướt.</s>
+ <s id="117">Hãy đón chờ điều đó nhé.</s>
+ <s id="118">(Cười) Sau đó chúng tôi thắc mắc, "Chúng có thực là xoay sở được với cái này không?"</s>
+ <p id="p119">
+  <s id="119.1">Đó là đích hạ cánh.</s>
+  <s id="119.2">Chúng có thể lái về hướng đó với những khả năng này không?</s>
+  <s id="119.3">Nó đây, trong ống dẫn gió.</s>
+ </p>
+ <s id="120">Và hiển nhiên là trông có vẻ đúng thế.</s>
+ <s id="121">Các bạn có thể nhìn thấy còn rõ hơn từ trên xuống.</s>
+ <s id="122">Xem con vật nhé.</s>
+ <s id="123">Chắc chắn là đang di chuyển về phía đích hạ cánh.</s>
+ <s id="124">Xem cái đuôi đạp khi nó làm thế nhé.</s>
+ <p id="p125">
+  <s id="125.1">Xem kìa.</s>
+  <s id="125.2">Không thể tin nổi.</s>
+ </p>
+ <s id="126">Chúng tôi thật sự bối rối, vì không đâu ghi lại con thạch sùng biết lướt nào cả.</s>
+ <s id="127">Chúng tôi nghĩ, "Chúa ơi, chúng tôi nhất định phải ra thực tế và xem nó có làm thế này không."</s>
+ <s id="128">Hoàn toàn ngược với cách các bạn vẫn thấy trên các thước phim về thiên nhiên, dĩ nhiên.</s>
+ <s id="129">Chúng tôi thắc mắc, "Chúng có lướt trong tự nhiên không?"</s>
+ <s id="130">Chúng tôi đến các khu rừng của Singapore và Đông Nam Á.</s>
+ <s id="131">Và video các bạn sắp xem tiếp theo cũng là lần đầu chúng tôi chiếu nó.</s>
+ <p id="p132">
+  <s id="132.1">Đây là video thực -- hoàn toàn không dàn dựng, một video nghiên cứu thật -- cho thấy động vật lướt xuống.</s>
+  <s id="132.2">Có đường bay màu đỏ.</s>
+ </p>
+ <s id="133">Nhìn về cuối đường để thấy con vật.</s>
+ <p id="p134">
+  <s id="134.1">Nhưng rồi khi nó tiến đến gần cây hơn, xem phim cận cảnh nhé.</s>
+  <s id="134.2">Và xem các bạn có thấy chỗ nó hạ cánh không.</s>
+ </p>
+ <p id="p135">
+  <s id="135.1">Thế đó, nó đi xuống.</s>
+  <s id="135.2">Có chú thạch sùng ở cuối đường bay kia.</s>
+ </p>
+ <p id="p136">
+  <s id="136.1">Các bạn có thấy không?</s>
+  <s id="136.2">Kia kìa?</s>
+ </p>
+ <p id="p137">
+  <s id="137.1">Xem nó xuống.</s>
+  <s id="137.2">Giờ nhìn lên trên và các bạn có thể thấy cảnh hạ cánh.</s>
+ </p>
+ <p id="p138">
+  <s id="138.1">Các bạn có thấy nó trúng không?</s>
+  <s id="138.2">Nó có dùng cả đuôi nưa, y như những gì chúng tôi thấy trong phòng thí nghiệm.</s>
+ </p>
+ <s id="139">Giờ thì chúng tôi có thể tiếp tục cộng sinh sinh học như thế này bằng cách đề nghị các kĩ sư làm một chiếc đuôi hoạt động.</s>
+ <s id="140">Và đây là chiếc đuôi hoạt động đầu tiên, trong robot chế tạo bởi Boston Dynamics.</s>
+ <s id="141">Để kết luận, tôi nghĩ rằng ta cần xây dựng các cộng sinh sinh học như những gì tôi đã trình bày, để tăng tốc độ phát minh cơ bản trong các ứng dụng.</s>
+ <s id="142">Tuy nhiên, để làm việc này, ta cần thiết kế lại nền giáo dục với những chỉnh đốn lớn, để cân bằng chiều sâu với việc liên hệ giữa các ngành với nhau, và đào tạo một cách cụ thể cách thức để đóng góp xây dựng, và hưởng lợi từ các ngành khác nữa.</s>
+ <s id="143">Và dĩ nhiên bạn cần các cá thể sinh vật và môi trường để làm điều đó.</s>
+ <s id="144">Nghĩa là, dù bạn có quan tâm tới an ninh, tìm kiếm cứu hộ, hoặc sức khỏe hay không, ta phải bảo vệ các thiết kế của tự nhiên, nếu không những bí mật này sẽ bị mất đi mãi mãi.</s>
+ <p id="p145">
+  <s id="145.1">Và theo như những gì tôi đã nghe từ vị Tổng thống mới của chúng ta, tôi rất lạc quan.</s>
+  <s id="145.2">Xin cám ơn.</s>
+ </p>
+ <s id="146">(Vỗ tay)</s>
+</text>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Tôi tự xem mình là 1 người kể chuyện</s>
+ <s id="2">Nhưng tôi không kể chuyện theo cách thông thường tức là tôi thường không kể chuyện cá nhân.</s>
+ <s id="3">Thay vào đó, tôi rất thích tạo nên những công cụ cho phép những người khác kể những câu chuyện của họ, tất cả mọi người trên thế giới.</s>
+ <s id="4">Tôi làm như thế vì tôi nghĩ mọi người thực sự có nhiều điểm tương đồng.</s>
+ <s id="5">Tôi nghĩ mọi người đều rất giống nhau nhưng tôi cũng nghĩ rằng chúng ta khó nhận ra điều đó.</s>
+ <s id="6">Khi tôi quan sát thế giới, tôi thấy rất nhiều sự khác biệt, và tôi nghĩ rằng tất cả chúng ta đều thấy.</s>
+ <s id="7">và chúng ta định hình bản thân bằng chúng.</s>
+ <s id="8">Khác biệt ngôn ngữ, khác biệt về sắc tộc, chủng tộc, tuổi tác khác biệt về giới tính và tình dục. khác biệt về sự giàu có và tiền bạc, về giáo dục, cũng có sự khác biệt về tôn giáo.</s>
+ <s id="9">Chúng ta có hết các điểm khác biệt đó và thích chúng bởi chúng làm ta cảm thấy bản thân thuộc về nơi nào đó, những tập thể nhỏ hơn.</s>
+ <s id="10">Tôi nghĩ rằng, thật ra, mặc dù ta có sự khác biệt, nhưng ta cũng có nhiều điểm tương đồng.</s>
+ <s id="11">Một điểm chung của chúng ta là nhu cầu thể hiện bản thân mãnh liêt.</s>
+ <s id="12">Tôi nghĩ rằng đây là mong ước từ lâu của con người, chẳng có gì mới.</s>
+ <s id="13">Nhưng một điều về tự thể hiện là vốn có sự thiếu cân bằng giữa khao khát thể hiện bản thân và số lượng bạn bè ủng hộ những người sẵn sàng ở bên và lắng nghe.</s>
+ <s id="14">( Tiếng cười ) Đây cũng không phải là điều mới mẻ.</s>
+ <p id="p15">
+  <s id="15.1">Từ thuở sơ khai của nhân loại, chúng ta đã cố điều chỉnh bằng cách sáng tạo nghệ thuật, sáng tác thơ, hát, soạn thảo văn bản rồi gửi chúng đến các tòa báo, trò chuyện với bạn bè.</s>
+  <s id="15.2">Chẳng có gì mới cả.</s>
+ </p>
+ <s id="16">Điều mới mẻ là vào một vài năm trước nhiều hoạt động thể chất truyền thống của con người những hoạt động thể hiện bản thân, đã được đưa lên mạng.</s>
+ <s id="17">Và khi điều đó xảy ra, con người đã để lai những dấu ấn, dấu ấn về câu chuyện những khoảnh khắc thể hiện bản thân của họ.</s>
+ <s id="18">Và do đó điều mà tôi làm là, Tôi viết các chương trình máy tính nghiên cứu tập hợp lớn các dấu ấn đó, và cố đưa ra kết luận về chủ nhân của chúng họ nghĩ gì và cảm thấy ra sao thế giới bây giờ có gì khác với thông thường, những câu hỏi tương tự như vậy.</s>
+ <s id="19">Một dự án nghiên cứu về các ý tưởng này, được thực hiện khoảng 1 năm trước có tên là Ta Thấy Ổn.</s>
+ <s id="20">Cứ mỗi 2 hoặc 3 phút nó sẽ quét 1 bài viết mới được tải lên để tìm các cụm từ "Tôi thấy" hoặc "Tôi cảm thấy là"</s>
+ <s id="21">Và khi tìm được, nó đưa cả câu nói đó vào quá trình, rồi tự động suy luận tuổi, giới tính và vị trí địa lý của người viết câu đó.</s>
+ <s id="22">Từ việc biết vị trí và múi giờ ta có thể biết được thời tiết khi người đó viết câu ấy</s>
+ <s id="23">Tất cả các thông tin này được lưu vào cơ sở dữ liệu thu thập khoảng 20,000 cảm xúc mỗi ngày.</s>
+ <s id="24">Dự án này đã hoạt động được 1.5 năm</s>
+ <s id="25">và đã thu được 7.5 triệu cảm xúc</s>
+ <s id="26">Tôi sẽ khái quát cho bạn về cách mà thông tin này được nhìn nhận.</s>
+ <p id="p27">
+  <s id="27.1">Và đây là Tôi thấy ổn.</s>
+  <s id="27.2">Cái bạn đang nhìn thấy là những phân tử chuyển động hỗn loạn, mỗi phân tử tượng trưng cho 1 cảm xúc của con người ở mỗi người trong vài giờ gần đây.</s>
+ </p>
+ <s id="28">Màu sắc của chúng tương ứng với cảm xúc bên trong do đó, hạnh phúc, những cảm xúc tích cực có màu sáng.</s>
+ <s id="29">và sự buồn bã, những cảm xúc tiêu cực là màu tối</s>
+ <s id="30">Đường kính của mỗi chấm tròn tượng trưng cho chiều dài câu bên trong câu càng dài, chấm tròn càng lớn câu càng ngắn, chấm tròn càng nhỏ</s>
+ <p id="p31">
+  <s id="31.1">Mỗi chấm tròn có thể ấn vào và mở rộng.</s>
+  <s id="31.2">Và ta thấy ở đây, "Tôi sẽ cảm thấy tốt hơn nhiều nếu tôi có thể cuộn tròn trong vòng tay anh ấy, cảm nhận tình cảm anh ấy cho tôi qua cơ thể của anh và đôi môi mềm mại của anh"</s>
+ </p>
+ <s id="32">Đôi lúc, nó trở nên nóng bỏng và ướt át trong thế giới cảm xúc của con người</s>
+ <s id="33">Tất cả điều này được bộc lộ bởi con người: "Tôi biết rằng nó không có ý nghĩa gì, nhưng khi đã nhiều năm làm người quan trọng ở một nơi nhỏ, cảm giác trở nên quan trọng hơn rất tuyệt.</s>
+ <s id="34">Các chấm tròn thể hiện phẩm chất con người, có tính chất vật lý và chúng di chuyển thành đàn, như thể khám phá thế giới của sự sống</s>
+ <s id="35">Và chúng cũng tò mò.</s>
+ <s id="36">Bạn có thế thấy 1 số chúng đang đi chuyển quanh con trỏ.</s>
+ <p id="p37">
+  <s id="37.1">Bạn có thể thấy 1 số khác đang ở góc dưới màn hình bên trái xung quanh 6 từ.</s>
+  <s id="37.2">6 từ đó tượng trưng cho 6 chuyển động của Tôi thấy ổn.</s>
+  <s id="37.3">Hiện giờ, ta đang thấy sự giận dữ</s>
+ </p>
+ <s id="38">Cũng có cả tiếng thì thầm,</s>
+ <s id="39">Bây giờ tôi sẽ nói một số điều về chúng.</s>
+ <s id="40">Murmurs gây ra mọi cảm giác để bay lên trần nhà</s>
+ <s id="41">Và rồi, từng người 1 họ lấy cớ cho mình, ra nhập vào danh sách cuộn xoáy của các cảm xúc</s>
+ <s id="42">"Tôi thấy khá hơn rồi"</s>
+ <s id="43">( Tiếng cười ) "Tôi thấy bối rối và không chắc chắn tôi muốn làm gì"</s>
+ <s id="44">"Tôi thấy bị lừa dối khỏi những thứ đáng sợ ở đây.</s>
+ <s id="45">"Tôi thấy thật tự do, thật tuyệt"</s>
+ <s id="46">"Tôi thấy như bị kẹt ở trong màn sương của sự chán nản"</s>
+ <p id="p47">
+  <s id="47.1">Bạn có thế ấn chuột vào chúng và đi xem blog -nơi mà chúng được thu thập.</s>
+  <s id="47.2">Bằng cách đó bạn có thể kết nối với tác giả của chúng nếu bạn thấy có chút đồng cảm</s>
+ </p>
+ <s id="48">phần tiếp theo được gọi là Montage.</s>
+ <s id="49">Nó gây ra những cảm xúc chứa đựng hình ảnh được trích ra và</s>
+ <s id="50">được lệnh phải thể hiện bức tranh cảm xúc của thế giới trong vài giờ gần đây</s>
+ <s id="51">Mỗi cái đều có thể ấn vào và mở rộng</s>
+ <p id="p52">
+  <s id="52.1">"Tôi chỉ thấy rằng tôi sẽ không thấy vui nếu không có cả anh ấy."</s>
+  <s id="52.2">Đó là lời của 1 người đến từ Michigan</s>
+ </p>
+ <s id="53">"Tôi cảm giác rằng mình đã ngồi trước máy tính cả ngày"</s>
+ <s id="54">( Tiếng cười ) Chúng tự động được xây dựng bởi việc sử dụng các đối tượng tìm thấy "Tôi thấy hơi no rồi"</s>
+ <s id="55">Tiếp theo là</s>
+ <s id="56">Nó cung cấp các bảng phân tích dữ liệu khác nhau về cảm xúc của mọi người trên thế giới trong vài giờ gần đây</s>
+ <s id="57">Ta thấy rằng "khá hơn" là cảm xúc thường xuyên nhất gần đây sau nó là "tốt", "tồi tệ", "tội lỗi", "đúng", "xuống dốc", "ốm", v.v</s>
+ <s id="58">Ta cũng có sự phân biệt giới tính.</s>
+ <s id="59">Và ta thấy rằng phụ nữ nói về cảm xúc rõ hơn đàn ông trong thời gian gần đây.</s>
+ <s id="60">Cũng có thể có sự phân biệt tuổi tác, từ đó tạo thành biểu đồ cảm xúc theo tuổi tác</s>
+ <s id="61">Những người ở độ tuổi 20 là phong phú nhất sau đó là thanh thiếu niên, rồi đến những người ở tuổi 30 và nó giảm rất nhanh.</s>
+ <s id="62">Những cảm xúc cũng mang đặc trưng của thời tiết,mà họ mô tả vì vậy, những cảm xúc của ngày nắng đẹp xoay vòng quanh như thể chúng là 1 phần của mặt trời</s>
+ <s id="63">Cảm xúc của ngày âm u thì trôi lững lờ như trên 1 cơn gió</s>
+ <s id="64">Còn của ngày mưa thì rơi xuống như trong cơn mưa bão và của ngày tuyết rơi thì nằm trên mặt đất</s>
+ <s id="65">Cuối cùng, địa điểm làm cho cảm xúc di chuyển tới vị tri của chúng ở trên bản đồ biểu thị vị trí địa lý cảm xúc</s>
+ <s id="66">Các phép đo cho thấy lượt xem trên dữ liệu</s>
+ <s id="67">Thế giới đang cảm thấy "bị lợi dụng" gấp 3.3 lần mức bình thường</s>
+ <s id="68">( Tiếng cười ) Họ thấy "ấm áp" gấp 2.9 lần bình thường, v.v</s>
+ <s id="69">Cũng có các khía cạnh khác</s>
+ <s id="70">Đây là giới tính, tuổi tác, thời tiết, địa điểm</s>
+ <s id="71">Cuối cùng là những cảm xúc chất chứa</s>
+ <s id="72">Nó hơi khác so với những cái khác</s>
+ <s id="73">Nó xem toàn bộ dữ liệu là những viên tròn lớn và đặc như đang lắc lắc nhẹ</s>
+ <s id="74">Và nếu tôi giữ con trỏ máy tính, chúng sẽ nhẹ nhàng nhảy</s>
+ <s id="75">Ta thấy "tốt hơn" là cảm xúc thường xuyên nhất, sau đó là "tồi tệ"</s>
+ <s id="76">Nếu tôi đi đến đây, danh sách sẽ cuộn tròn lại và thực tế có hàng ngàn cảm xúc được thu thập</s>
+ <s id="77">Bạn có thể thấy con trỏ nhỏ, màu hồng đang di chuyển thể hiện vị trí của ta</s>
+ <s id="78">Ta thấy ở đây những người đang thấy "tuột dốc", "buồn nôn", "chịu trách nhiệm"</s>
+ <s id="79">Bạn cũng có công cụ tìm kiếm nếu bạn hứng thú về việc tìm về một dân số nhất định</s>
+ <s id="80">Ví dụ, bạn có thể tìm những người phụ nữ cảm thấy "say mê" trong độ tuổi 20 khi trời âm u ở Bangladesh</s>
+ <s id="81">( Tiếng cười ) Nhưng tôi sẽ để cho các bạn làm điều đó</s>
+ <s id="82">Đây là 1 số cảm xúc tôi thích nhất rằng được thu thập "Tôi cảm thấy bố tôi sống trong tôi nhiều đến mức không còn đủ chỗ cho chính mình</s>
+ <s id="83">"Tôi thấy rất cô đơn"</s>
+ <s id="84">"Tôi cần ở trong 1 thị trấn toàn những người nhà quê để cảm thấy mình xinh đẹp hơn</s>
+ <s id="85">"Tôi cảm thấy vô hình trong mắt bạn"</s>
+ <s id="86">"Tôi sẽ không che giấu nếu xã hội không làm cho tôi thấy mình cần phải làm vậy</s>
+ <p id="p87">
+  <s id="87.1">"Tôi thấy mình đang yêu Carolyn".</s>
+  <s id="87.2">"Tôi thấy thật hư hỏng"</s>
+ </p>
+ <s id="88">"Tôi thấy những kẻ lập dị đó thật có ích cho đời sống đại học</s>
+ <s id="89">( Tiếng cười ) "Tôi thích cách tôi cảm nhận hôm nay"</s>
+ <s id="90">Bạn có thể thấy rằng, Tôi Thấy Ổn dùng 1 kỹ thuật tôi gọi đó là "quan sát thụ động"</s>
+ <p id="p91">
+  <s id="91.1">Nghĩa là nó quan sát mọi người 1 cách thụ động khi họ đang sống cuộc sống của họ.</s>
+  <s id="91.2">Nó quét những blog trên thế giới và xem mọi người đang viết gì họ không biết rằng họ đang bị theo dõi hay phỏng vấn</s>
+ </p>
+ <s id="92">Và vì thế cuối cùng, bạn sẽ nhận lại những phản hồi vô cùng thật lòng, chân thành và thường rất cảm động</s>
+ <s id="93">Đây là kỹ thuật mà tôi thường dùng trong công việc vì mọi người không hề biết rằng họ đang bị phỏng vấn</s>
+ <s id="94">Họ chỉ sống cuộc sống của mình, và cuối cùng hành động như vậy</s>
+ <s id="95">Một kỹ thuật khác là hỏi trực tiếp</s>
+ <s id="96">Tôi khám phá được nó ở 1 dự án khác dự án Vỏ bọc không gian thời gian của Yahoo! được thiết kế để lấy dấu vân tay của con người vào năm 2006</s>
+ <p id="p97">
+  <s id="97.1">Nó được chia làm 10 chủ đề vô cùng đơn giản yêu, giận dữ, buồn bã, v.v.. mỗi cái chứa 1 câu hỏi mở rộng Bạn yêu cái gì?</s>
+  <s id="97.2">Điều gì làm bạn tức giận?</s>
+ </p>
+ <p id="p98">
+  <s id="98.1">Điều gì làm bạn buồn?</s>
+  <s id="98.2">Bạn tin vào điều gì?</s>
+ </p>
+ <s id="99">Vân vân và vân vân Time capsule khả dụng cho 1 tháng trực tuyến được dịch ra 10 ngôn ngữ, và nó trông giống thế này</s>
+ <s id="100">Nó là 1 quả địa cầu quay vòng bề mặt được dựng lên bởi các hình ảnh ngôn ngữ, các bức vẽ của những người đóng góp cho dự án</s>
+ <s id="101">10 chủ đề phân tán, đi vào quỹ đạo không gian, thời gian</s>
+ <s id="102">Bạn có thể khảo sát mọi phần của dữ liệu và xem mọi người đã đệ trình những gì</s>
+ <s id="103">Đây là câu trả lời cho Đẹp là gì?</s>
+ <s id="104">"Hoa hậu thế giới" Có 2 kiểu time capsule</s>
+ <s id="105">1 là 1 thế giới - đại diện cho quả địa cầu xoay vòng 2 là những tiếng nói chủ yếu, nó chia dữ liệu thành các phim đèn chiếu và cho phép bạn xem kỹ từng phần một</s>
+ <p id="p106">
+  <s id="106.1">1 sự kiện hết sức kinh ngạc đã đặt câu hỏi cho dự án này sự kiện đó xảy ra ở 1 sa mạc nằm ngoài Albuquerque, New Mexico tại Jemez Pueblo, tổ chức, thảo luận nội dung của dự án ở phía trên các hẻm núi Đá Đỏ cổ xưa cao khoảng 61m.</s>
+  <s id="106.2">Nó thật phi thường</s>
+ </p>
+ <s id="107">Chúng tôi cũng tổ chức nội dung về vỏ bọc không gian dưới dạng mã nhị phân, và dùng laze 35 oát phóng vào không gian</s>
+ <p id="p108">
+  <s id="108.1">Bạn có thể thấy đường màu da cam rời bề mặt sa mạc 1 góc khoảng 45*.</s>
+  <s id="108.2">Điều này thật tuyệt vời bởi vì đêm đầu tiên tôi nhìn vào những thông tin này và bắt đầu thấy những khoảng trống mà tôi đã nói về tuổi tác, giới tính và sự giàu có, v.v</s>
+ </p>
+ <s id="109">Nhưng khi tôi tìm hiểu sâu hơn và nhìn những hình ảnh được khắc trên các khối đá Tôi nhận ra rằng mình đã nhìn các sự kiện nguyên mẫu tương tự</s>
+ <s id="110">hết lần này đến lần khác Ví dụ như: đám cưới, sinh đẻ, đám tang, chiếc xe đầu tiên, nụ hôn đầu tiên con ngựa hoặc con lạc đà đầu tiên--đều tùy thuộc vào văn hóa.</s>
+ <p id="p111">
+  <s id="111.1">Nó thật sự rất chuyển động.</s>
+  <s id="111.2">Bức ảnh này được chụp vào đêm cuối từ 1 vách đá xa cách đó 2 dặm nơi phần nội dung của capsule đã được chiếu rọi vào khoảng không</s>
+ </p>
+ <s id="112">Và có cái gì đó đang thay đổi mọi biểu hiện của con người biến mất vào bầu trời đêm.</s>
+ <s id="113">Và nó băt đầu làm tôi nghĩ nhiều về bầu trời đêm, và cách mọi người làm để tạo lên câu chuyện tuyệt vời của họ.</s>
+ <s id="114">Các bạn biết đấy, sinh ra ở Vermount, trên cánh đồng nơi tôi lớn lên tôi thường nhìn lên bầu trời tối và ngắm nhìn 3 chòm sao Orion, Thợ Săn,</s>
+ <s id="115">và khi lớn lên, tôi ngày càng nhận ra rằng huyền thoại vĩ đại của Hy Lạp dạo chơi ở bầu trời trên đầu mỗi tối</s>
+ <s id="116">Phía trước chòm sao Orion là một con bò đang rống</s>
+ <s id="117">Perseus đang bay đến giải cứu Andromeda.</s>
+ <s id="118">Thần Zeus đánh nhau với Chronos vì quyền kiểm soát đỉnh Olympus.</s>
+ <s id="119">Đó đều là những câu chuyện Hy Lạp vĩ đại.</s>
+ <s id="120">Và điều đó làm tôi băn khoăn về thế giới ngày nay.</s>
+ <s id="121">Và làm cho tôi thực sự băn khoăn, nếu hôm nay chúng ta tạo ra những chòm sao mới, chúng sẽ trông như thế nào? chúng sẽ là gì?</s>
+ <s id="122">nếu có thể tạo nên những hình ảnh mới trên bầu trời,ta sẽ vẽ gì?</s>
+ <s id="123">Những câu chuyên vĩ đại ngày nay là gì?</s>
+ <s id="124">Và đó là những câu hỏi tạo cảm hứng cho dự án mới của tôi, được trình chiếu hôm nay tại TED.</s>
+ <s id="125">Chưa một ai được xem nó cả.</s>
+ <s id="126">Dự án có tên là Vũ Trụ: Tiết lộ Thần Thoại Hiện Đại Của Chúng Ta</s>
+ <s id="127">Và nó dùng phép ẩn dụ bầu trời đêm tương tác.</s>
+ <s id="128">Vậy nên, tôi rất vinh hạnh được giới thiệu nó đến các quý vị.</s>
+ <s id="129">Vậy nên, Vũ Trụ sẽ mở ra ở đây.</s>
+ <p id="p130">
+  <s id="130.1">Và quý vị sẽ thấy rằng điều này dẫn đến với một trường ngôi sao chuyển động và có một Aurora Borealis ở phia sau kiểu như kỹ xảo chuyển đổi màu sắc.</s>
+  <s id="130.2">Màu của Aurora Borealis có thể được điều chỉnh bằng việc sử dụng thanh màu sắc đơn ở phía dưới và ta sẽ đặt chúng ở đây thành màu đỏ</s>
+ </p>
+ <s id="131">nên,bạn sẽ thấy như kiểu những ngôi sao đang di chuyển dọc theo</s>
+ <s id="132">Giờ thì chúng không chỉ là những điểm sáng,điểm ảnh nhỏ</s>
+ <s id="133">Mỗi những ngôi sao đó thực ra đại điện một sự kiện cụ thể trong thế giới thực-- một trích dẫn rằng được phát biểu bởi ai đó,một tấm hình, một câu chuyện mới, một cá nhân, một công ty, Bạn biết đấy, một vài loại nhân cách to lớn khác thường.</s>
+ <s id="134">Và bạn có thể nhận biết khi con trỏ bắt đầu chạm vào một vài ngôi sao này,các khối bắt đầu hiện ra.</s>
+ <s id="135">Chúng ta thấy ở đây ,có một người đàn ông nhỏ đang đi bộ, hoặc có thể là phụ nữ.</s>
+ <s id="136">Và ta thấy ở đây một tấm hình của cái đầu.</s>
+ <s id="137">Bạn có thể bắt đầu thấy các từ ngữ xuất hiện ở đây..</s>
+ <s id="138">Và những cái này là các chòm sao ngày nay.</s>
+ <s id="139">Và tôi có thể biến đổi toàn bộ chúng và bạn thấy chúng đang di chuyển ngang qua bầu trời</s>
+ <s id="140">Đây là vũ trụ của năm 2007,hai tháng trước</s>
+ <s id="141">Dữ liệu là sự bao quát tin tức thế giới từ hàng ngàn nguồn tin trên thế giới</s>
+ <s id="142">Nó sử dụng API của một công ty khổng lồ tôi làm việc cùng. tại New York,thực ra, được gọi là Daylife</s>
+ <s id="143">Và nó như kiểu quan điểm tư tưởng hiện đại về cấp độ thần thoại học đương thời của nhân loại từ 2 tháng trước</s>
+ <p id="p144">
+  <s id="144.1">Vi thế,chúng ta có thể thấy chỗ đang hiện lên ở đây, như là tổng thống Ford, Iraq,Bush.</s>
+  <s id="144.2">Và ta có thể thực sự tách ra một vài từ Tôi gọi chúng là sự bí mật-- và chúng ta có thể khiến chúng tạo thành một danh sách ký tự.</s>
+  <s id="144.3">Và ta thấy Anna Nicole Smith đang đóng một vai lớn gần đây.</s>
+ </p>
+ <s id="145">Tổng thống Ford -- đây là đám tang của Gerald Ford.</s>
+ <s id="146">Ta có thể nhấn vào bất kỳ thứ gì trong vũ trụ và biến nó thành trung tâm của vũ trụ, và mọi thứ khác sẽ nhập vào quỹ đạo của nó</s>
+ <s id="147">Nào, Ta sẽ nhấn vào Ford, và bây giờ trở thành tâm điểm.</s>
+ <s id="148">Và những thứ liên quan đến Ford đi vào qũy đạo của nó và cuộn xoáy xung quanh nó.</s>
+ <s id="149">Ta có thể tách ra chỉ một vài tấm hình, và ta đang thấy chúng.</s>
+ <s id="150">chúng ta có thể nhấn vào 1 trong số chúng và có các bức hình ở trung tâm của vũ trụ.</s>
+ <s id="151">Giờ thì những thứ liên quan đến nó đang cuộn xoáy xung quanh.</s>
+ <s id="152">Ta có thể nhấn vào nó và nhìn thấy ảnh biểu tượng của Betty Ford đang hôn chiếc quan tài của chồng cô.</s>
+ <s id="153">Trong vũ trụ, như kiểu không có điểm kết, nó chỉ đi vô tận, và bạn có thể việc nhấn vào thứ đó.</s>
+ <s id="154">đây là một sự tượng trưng hình ảnh.</s>
+ <p id="p155">
+  <s id="155.1">gọi là Snapshots.</s>
+  <s id="155.2">Nhưng ta thực sự có thể xác định chi tiết hơn trong vũ trụ của chúng ta</s>
+ </p>
+ <s id="156">Vì thế,nếu ta muốn, hãy kiểm tra vũ trụ của Bill Clinton trông ra sao.</s>
+ <s id="157">Và hãy xem, vào tuần trước, ông ta đã làm gì.</s>
+ <s id="158">Vì thế bây giờ, ta có một vũ trụ mới, rằng chỉ bị ràng buộc tới mọi thứ thuộc Bill Clinton</s>
+ <s id="159">Chúng ta có thể có chòm sao của ông ta nổi lên tại đây.</s>
+ <s id="160">Ta có thể lôi những bí mật của anh ta ra, và ta thấy rằng có nhiều thứ để làm với một ứng cử viên, Hillary,tổng thống Barack Obama.</s>
+ <s id="161">Ta có thể thấy các câu chuyện mà Bill Clinton đang tham gia hiện nay.</s>
+ <s id="162">bất kể cái nào cũng có thể được mở ra lúc này.</s>
+ <s id="163">vì thế, ta thấy Obama và Clintons gặp nhau tại Alabama</s>
+ <p id="p164">
+  <s id="164.1">Bạn có thể thấy rằng đó là một câu chuyện quan trọng có nhiều thứ quanh quỹ đạo của nó.</s>
+  <s id="164.2">Nếu ta mở nó ra, ta có những viễn cảnh khác trong câu chuyện này</s>
+ </p>
+ <s id="165">Bạn có thể ấn bất kỳ để thoát ra và đọc báo trên nguồn lưu trữ ,Cái này là từ AI Jazeera.</s>
+ <p id="p166">
+  <s id="166.1">Chúng ta cũng có thể thấy các siêu sao.</s>
+  <s id="166.2">Những cái này sẽ là con người rằng như kiểu các nam nữ anh hùng đang hiện ra trong vũ trụ của Bill Clinton. sẽ có Bill Clinton,Hillary, Iraq, George Bush, Barack Obama, Scooter Libby -- đó là các kiểu người của Bill Clinton.</s>
+ </p>
+ <s id="167">Ta có thể cũng thấy một bản đồ thế giới, nó cho ta thấy các điểm đến của Bill Clinton trong tuần trước.</s>
+ <s id="168">Ta có thể thấy ông ấy được tập trung tại mỹ vì ông ấy đang trong chiến dịch tranh cử, có lẽ thể,</s>
+ <p id="p169">
+  <s id="169.1">một vài hoạt động tại Trung Đông.</s>
+  <s id="169.2">Và sau đó ta cũng có thể thấy một dòng thời gian.</s>
+ </p>
+ <s id="170">ta thấy rằng ông ấy hơi yên lặng vào thứ 7 nhưng ông ấy đã trở lại với công việc vào sáng chủ nhật, và giảm dần sau đó trong tuần này.</s>
+ <s id="171">Và nó thì không bị giới hạn tới chỉ con người hoặc ngày tháng, nhưng quả thực ta cũng có thể đặt khái niệm.</s>
+ <s id="172">nếu tôi đặt vào sự biến đổi khí hậu của 2006 ta sẽ thấy vũ trụ đó giống như là</s>
+ <s id="173">ở đây chúng ta có trường ngôi sao,đây ta có các khối.</s>
+ <s id="174">đây ta có các bí mật.</s>
+ <s id="175">ta xem lại,biến đổi khí hậu thì rộng: Nairobi,hội nghị quốc tế,môi trường.</s>
+ <s id="176">Và cũng có một vài trích dẫn bạn có thể thấy, Nếu bạn thích đọc các trích dẫn về biến đổi khí hậu.</s>
+ <s id="177">Bạn biết đấy,đó thực sự là thứ vô tận.</s>
+ <s id="178">Các siêu sao của biến đổi khí hậu vào 2006 Mỹ,Anh,Trung Quốc,bạn biết đấy, đây là những quốc gia nổi trội vạch rõ khái niệm này.</s>
+ <s id="179">đó là một phần rằng đòi hỏi sự thăm dò.</s>
+ <s id="180">Nó sẽ là trực tuyến trong một vài ngày.</s>
+ <p id="p181">
+  <s id="181.1">có thể là thứ 3 tới.</s>
+  <s id="181.2">Và bạn hoàn toàn có khả năng sử dụng nó và kiểu như khám phá sự thần thoại cá nhân của bạn có thể là gì</s>
+ </p>
+ <s id="182">Bạn sẽ chú ý rằng trong cuộc sống thường nhật chứ không phải trong vũ trụ nó hỗ trợ cả quan niệm của một sự thần thoại toàn cầu, cái được đại diện bằng thứ gì đó rộng lớn như,gọi là,2007 và cũng là một sự thần thoại cá nhân.</s>
+ <s id="183">Khi bạn tìm kiếm những thứ rằng quan trọng với bạn, trong thế giới của bạn, và sau đó thấy rằng chòm sao của chúng trông ra sao</s>
+ <p id="p184">
+  <s id="184.1">nó là một điều thú vị.</s>
+  <s id="184.2">Cảm ơn rất nhiều.</s>
+ </p>
+ <s id="185">(Tiếng vỗ tay)</s>
+</text>

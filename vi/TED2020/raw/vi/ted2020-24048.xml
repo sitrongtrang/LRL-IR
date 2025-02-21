@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Hãy chọn một quân bài, quân nào cũng được.</s>
+ <s id="2">Thực ra, hãy lấy toàn bộ chúng lên và xem xét nhé.</s>
+ <s id="3">Bộ bài 52 quân đã được dùng qua bao nhiêu thế kỉ.</s>
+ <s id="4">Mỗi ngày, hàng nghìn bộ như vậy được tráo trong các casino trên toàn thế giới, và thứ tự của chúng mỗi lần lại khác nhau.</s>
+ <s id="5">Và rồi, mỗi lần bạn lấy một bộ bài đã được tráo như bộ này, gần như chắc chắn bạn đang cầm trên tay, một cách sắp xếp của các quân bài mà chưa từng tồn tại trong lịch sử.</s>
+ <s id="6">Sao có thể thế được?</s>
+ <s id="7">Câu trả lời nằm trong số cách sắp xếp khả thi của 52 lá bài, hay vật gì cũng vậy.</s>
+ <s id="8">Chà, 52 có vẻ như là một số không lớn, nhưng hãy bắt đầu với một số còn nhỏ hơn.</s>
+ <s id="9">Cho rằng ta có 4 người được ngồi vào 4 chiếc ghế có đánh số.</s>
+ <s id="10">Có bao nhiêu cách mà họ có thể ngồi?</s>
+ <s id="11">Để bắt đầu, 1 trong 4 người đó có thể ngồi vào chiếc ghế số 1.</s>
+ <s id="12">Khi lựa chọn này được thực hiện, chỉ còn lại 3 người vẫn đứng.</s>
+ <s id="13">Sau khi người thứ 2 ngồi xuống, chỉ còn 2 người là ứng viên cho chiếc ghế số 3.</s>
+ <s id="14">Và sau khi người thứ 3 ngồi xuống, người cuối cùng không có lựa chọn nào ngoài việc ngồi ở ghế số 4.</s>
+ <s id="15">Nếu ta viết ra tất cả các cách sắp xếp khả thi, hoặc các hoán vị, thì có 24 cách sắp xếp để 4 người đó ngồi vào 4 ghế, nhưng khi đối diện với những số lớn hơn, việc này có thể tốn thời gian đó.</s>
+ <s id="16">Vậy hãy tìm xem có cách nhanh hơn không nhé.</s>
+ <s id="17">Bắt đầu lại từ đầu, có thể thấy cả 4 lựa chọn cho chiếc ghế số 1 sẽ dẫn tới thêm 3 cách chọn cho ghế số 2, và mỗi cách chọn đó lại dẫn tới thêm 2 cách chọn cho ghế số 3.</s>
+ <s id="18">Nên thay vì đếm từng trường hợp, ta có thể nhân số các lựa chọn cho mỗi ghế: 4 nhân 3 nhân 2 nhân 1 để ra cùng kết quả là 24.</s>
+ <s id="19">Một mô hình thú vị xuất hiện.</s>
+ <s id="20">Chúng ta bắt đầu với số lượng đồ vật cần sắp xếp, 4 trong trường hợp này, và nhân nó với các số nguyên liên tiếp nhỏ hơn nó cho đến số 1.</s>
+ <s id="21">Đây thực sự là một khám phá thú vị.</s>
+ <s id="22">Đến nỗi mà các nhà toán học đã chọn ký hiệu cho phép tính này, được biết đến với tên gọi giai thừa, với một dấu chấm than (!</s>
+ <p id="p23">
+  <s id="23.1">).</s>
+  <s id="23.2">Theo quy tắc chung, giai thừa của số nguyên dương bất kì được tính bằng tích của số đó và tất cả số nguyên nhỏ hơn nó cho đến số 1.</s>
+ </p>
+ <s id="24">Trong ví dụ đơn giản của chúng ta, số cách sắp xếp để 4 người ngồi vào ghế được tính bằng 4 giai thừa, và bằng 24.</s>
+ <s id="25">Hãy trở lại với bộ bài nhé.</s>
+ <s id="26">Có 4 giai thừa cách sắp xếp 4 người, nên có 52 giai thừa cách để sắp xếp 52 lá bài.</s>
+ <s id="27">May mắn thay, ta không phải tính số này bằng tay.</s>
+ <s id="28">Chỉ cần nhập công thức này vào máy tính, và nó sẽ cho ta biết số cách khả thi để sắp xếp là 8.07 nhân 10 mũ 67 67 số 0 theo sau số 8.</s>
+ <s id="29">Nhưng số này lớn đến mức độ nào?</s>
+ <s id="30">Chà, nếu mỗi hoán vị của 52 lá bài được viết ra mỗi giây bắt đầu từ 13.8 tỉ năm trước, khi mà vụ nổ Big Bang được cho là xảy ra, thì công việc này vẫn tiếp tục đến ngày nay và cho đến hàng triệu năm tiếp theo.</s>
+ <s id="31">Thực tế, có nhiều phương án khả thi để sắp xếp bộ bài đơn giản này hơn là số nguyên tử trên Trái Đất.</s>
+ <s id="32">Nên lần tới nếu đến lượt bạn tráo bài, hãy bỏ chút thời gian để nhớ rằng bạn đang cầm một thứ mà có thể chưa từng tồn tại bao giờ và cũng có thể không tồn tại nữa.</s>
+</text>

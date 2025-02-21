@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">"Thuốc mới chữa lành ung thư."</s>
+ <s id="2">"Aspirin giảm nguy cơ nhồi máu cơ tim."</s>
+ <s id="3">"Ăn sáng giúp giảm cân."</s>
+ <s id="4">Những tiêu đề về sức khỏe như vậy tràn ngập trên báo chí, và thường mâu thuẫn với nhau.</s>
+ <s id="5">Vậy làm thế nào để nhận biết đâu là vấn đề sức khỏe đáng quan tâm, hay liệu pháp thực sự hứa hẹn, và đâu là thông tin mơ hồ?</s>
+ <s id="6">Trong y học, thường có sự sai biệt giữa tiêu đề báo và nghiên cứu khoa học.</s>
+ <s id="7">Vì tiêu đề được thiết kế để thu hút sự chú ý, nên một tuyên bố lớn sẽ tạo được hiệu ứng cao nhất.</s>
+ <s id="8">Trái lại, nghiên cứu khoa học đáng tin cậy thường tập trung vào một câu hỏi nhỏ và cụ thể.</s>
+ <s id="9">Cách tốt nhất để rút ngắn sự sai biệt này là đọc các bản nghiên cứu gốc mà tiêu đề đề cập đến.</s>
+ <s id="10">Chúng tôi đưa ra ba tình huống đơn giản để thử khả năng phân tích của bạn.</s>
+ <p id="p11">
+  <s id="11.1">Hãy xem tiếp để tìm ra lời giải thích cho tình huống thứ nhất.</s>
+  <s id="11.2">Sau đó, dừng lại ở tiêu đề để tìm ra những điểm không đúng.</s>
+ </p>
+ <s id="12">Giả định rằng mọi thông tin cần để tìm ra lỗi đều ở trong này.</s>
+ <s id="13">Cùng bắt đầu với trường hợp sau: một nghiên cứu dùng chuột để thử nghiệm thuốc điều trị ung thư mới.</s>
+ <s id="14">Nghiên cứu này chia chuột làm hai nhóm, một nhóm dùng thuốc thật, một nhóm dùng thuốc giả.</s>
+ <s id="15">Lúc nghiệm thu, những con dùng thuốc thật lành bệnh, còn những con dùng thuốc giả thì không.</s>
+ <s id="16">Bạn có phát hiện ra điểm sai trong tiêu đề này không: "Nghiên cứu ra thuốc trị ung thư" Vì đối tượng của nghiên cứu này là chuột, ta không thể kết luận nó sẽ đúng trên con người.</s>
+ <s id="17">Trên thực tế, giai đoạn đầu thử nghiệm thuốc và phương pháp điều trị không bao giờ được thực hiện trên người.</s>
+ <s id="18">Nếu kết quả ban đầu khả quan, sẽ có các thử nghiệm lâm sàng để xác định liệu có áp dụng được lên con người.</s>
+ <s id="19">Sau khi đã khởi động, hãy thử với một ví dụ khó hơn: nghiên cứu về tác động của aspirin lên nguy cơ nhồi máu cơ tim.</s>
+ <s id="20">Nghiên cứu chia ngẫu nhiên một nhóm nam giới thành hai nhóm nhỏ.</s>
+ <s id="21">Một nhóm uống aspirin mỗi ngày, nhóm còn lại dùng thuốc giả.</s>
+ <s id="22">Lúc nghiệm thu, có nhiều người trong nhóm dùng thuốc giả bị nhồi máu cơ tim hơn nhóm uống aspirin.</s>
+ <p id="p23">
+  <s id="23.1">Trong tình huống này, tiêu đề sai ở đâu?</s>
+  <s id="23.2">"Aspirin giảm nguy cơ nhồi máu cơ tim."</s>
+  <s id="23.3">Ở đây, nghiên cứu cho thấy aspirin làm giảm nhồi máu cơ tim ở nam, vì người tham gia đều là nam.</s>
+ </p>
+ <s id="24">Nhưng kết luận "Aspirin giảm nguy cơ nhồi máu cơ tim" quá rộng; không thể kết luận trên cả nam lẫn nữ.</s>
+ <s id="25">Những người tham gia nghiên cứu thường bị giới hạn trong phạm vi địa lý, độ tuổi, giới tính và nhiều yếu tố khác.</s>
+ <s id="26">Trước khi phổ biến đại trà, cần thực hiện nghiên cứu tương tự trên các nhóm khác.</s>
+ <s id="27">Nếu tiêu đề đưa ra tuyên bố chung, cần đưa ra bằng chứng từ nhiều chứ không chỉ một nghiên cứu.</s>
+ <s id="28">Sau hai câu hỏi, bạn có sẵn sàng thử khả năng phân tích của mình ở độ khó hơn?</s>
+ <s id="29">Hãy thử với ví dụ về bữa sáng giúp giảm cân.</s>
+ <s id="30">Các nhà nghiên cứu chiêu mộ một nhóm người thường bỏ bữa sáng và yêu cầu họ bắt đầu ăn sáng mỗi ngày.</s>
+ <s id="31">Người tham gia gồm cả nam lẫn nữ ở nhiều độ tuổi và xuất thân khác nhau.</s>
+ <s id="32">Qua một năm, người tham gia giảm trung bình 2,3 kilogam.</s>
+ <p id="p33">
+  <s id="33.1">Tiêu đề này sai ở đâu?</s>
+  <s id="33.2">"Ăn sáng giúp giảm cân."</s>
+  <s id="33.3">Người tham gia bắt đầu ăn sáng và giảm cân, nhưng ta không biết liệu họ giảm cân vì bắt đầu ăn sáng; hay việc theo dõi trọng lượng cơ thể đã khiến họ thay đổi thói quen ăn uống.</s>
+ </p>
+ <s id="34">Để loại trừ khả năng các yếu tố khác khiến giảm cân, cần so sánh những người này với những người không ăn sáng và tiếp tục bỏ bữa sáng trong toàn thời gian nghiên cứu.</s>
+ <s id="35">Tiêu đề rõ ràng không nên tuyên bố kết quả nghiên cứu một cách phổ quát.</s>
+ <s id="36">Và nếu nghiên cứu không có nhóm đối chiếu, bạn nên đặt câu hỏi về tính tin cậy của nó.</s>
+ <s id="37">Sau khi thử khả năng phân tích với các nghiên cứu và tiêu đề giả định, bạn có thể thử trên các tiêu đề thực tế.</s>
+ <s id="38">Dù báo cáo khoa học không phải lúc nào cũng miễn phí, vẫn có thể dễ dàng tìm ra nội dung tóm lược và kết quả thí nghiệm trong bản tóm tắt sẵn có miễn phí, hoặc ngay trong bài báo.</s>
+ <s id="39">Kết quả nghiên cứu không phải lúc nào cũng trùng khớp với tiêu đề hào nhoáng.</s>
+ <s id="40">Những kết luận lớn về vấn đề sức khỏe con người cần nhiều thời gian và bằng chứng.</s>
+ <s id="41">Trong khi chờ đợi, hãy tiếp cận với tiến bộ khoa học mà không quá đặt niềm tin vào tiêu đề.</s>
+</text>

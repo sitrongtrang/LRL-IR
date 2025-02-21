@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Con người có một ước mơ là có thể bay như chim.</s>
+ <s id="2">Chim là loài rất lẹ làng.</s>
+ <s id="3">Chúng bay mà không cần bộ phận nào quay, mà bay chỉ bằng cách vỗ cánh.</s>
+ <s id="4">Do đó chúng tôi quan sát các loài chim, và cố gắng tạo ra một mô hình siêu nhẹ, và phải có chất lượng khí động học hoàn hảo để có thể tự nó bay được và chỉ bằng cách vỗ cánh.</s>
+ <s id="5">Vì thế còn gì tốt hơn là mô phỏng theo Chim mòng biển, với cách nó tự do bay lượn và bổ nhào trên biển, và sử dụng nó như là mô hình chính?</s>
+ <s id="6">Rồi chúng tôi lập một nhóm.</s>
+ <s id="7">Bao gồm cả những người không chuyên và chuyên trong lĩnh vực khí động lực học trong ngành chế tạo tàu lượn.</s>
+ <s id="8">Nhiệm vụ là chế tạo một mô hình bay siêu nhẹ trong nhà có thể bay lượn đầu các bạn.</s>
+ <s id="9">Vì thế các bạn hãy cẩn trọng nhé.</s>
+ <s id="10">Có một vấn đề: để chế tạo ra mô hình nhẹ đến mức không gây nguy hại cho ai nếu nó rơi xuống.</s>
+ <s id="11">Vậy tại sao chúng tôi làm công việc này?</s>
+ <p id="p12">
+  <s id="12.1">Chúng tôi là một công ty trong ngành tự động học, và chúng tôi muốn tạo ra một kết cấu rất nhẹ vì nó tiết kiệm năng lượng.</s>
+  <s id="12.2">Và chúng tôi cũng muốn học thêm về khí lực hoá và hiện tượng dòng khí.</s>
+ </p>
+ <s id="13">Bây giờ tôi muốn các bạn hãy đeo thắt lưng an toàn vào và đội mũ lên.</s>
+ <s id="14">Có thể chúng ta sẽ thử cho SmartBird bay một lần.</s>
+ <s id="15">Cảm ơn.</s>
+ <s id="16">(Vỗ tay) (Vỗ tay) (Vỗ tay) Bây giờ chúng ta có thể quan sát chú SmartBird.</s>
+ <s id="17">Đây là con chim không hề có da.</s>
+ <s id="18">Sải cánh của nó khoảng 2 mét.</s>
+ <s id="19">Chiều dài khoảng 1,6 mét, và trọng lượng, của nó chỉ 450 gram.</s>
+ <s id="20">Và tất cả làm bằng sợi các bon.</s>
+ <s id="21">Ở bên trong ta có một mô tơ, và bộ phận truyền động trong đó. chúng tôi dùng bộ phận truyền động để truyền dẫn chuyển động của mô tơ.</s>
+ <s id="22">bên trong mô tơ, ta có ba bộ cảm biến từ trường, nhờ đó ta biết chính xác cánh đang ở đâu.</s>
+ <s id="23">Và nếu chúng ta vỗ lên vỗ xuống ... chúng ta có khả năng bay như chim.</s>
+ <s id="24">Vì thế nếu bạn đi xuống, bạn sẽ có diện tích đẩy lớn Và nếu bạn đi lên, cánh không còn rộng như thế nữa, và nó dễ kéo lên hơn.</s>
+ <s id="25">Rồi, việc tiếp theo chúng tôi làm, hay chính là thách thức chúng tôi đã làm là định hướng cho chuyển động này.</s>
+ <s id="26">Chúng tôi phải chuyển nó, đi lên và đi xuống.</s>
+ <s id="27">Chúng tôi phải tách cánh.</s>
+ <s id="28">Với cái cánh đã tách này chúng tôi có phần nâng ở phần cánh trên, và phần đẩy ở phần cánh dưới.</s>
+ <s id="29">Chúng tôi cũng biết được làm thế nào để tính toán hiệu suất khí động lực.</s>
+ <s id="30">Chúng tôi có kiến thức về hiệu năng điện cơ rồi sau đó chúng tôi có thể tính toán hiệu suất khí động lực.</s>
+ <s id="31">Vì vậy, nó nâng lên từ xoắn thụ động sang xoắn chủ động từ 30% lên tới 80%.</s>
+ <s id="32">Việc tiếp theo chúng tôi làm, chúng tôi phải kiểm soát và điều chỉnh toàn bộ kết cấu.</s>
+ <s id="33">Chỉ khi bạn kiểm soát và điều chỉnh nó, bạn sẽ đạt được hiệu suât khí động lực mong muốn.</s>
+ <s id="34">Tổng lượng năng lượng tiêu thụ vào khoảng 25 watt để cất cánh và từ 16 đến 18 watt trong khi bay.</s>
+ <s id="35">Cảm ơn.</s>
+ <s id="36">(Vỗ tay) Bruno Giussani: Markus, tôi nghĩ rằng chúng ta nên cho nó bay thêm một lần nữa.</s>
+ <s id="37">Markus Fischer: Vâng, chắc chắn rồi.</s>
+ <s id="38">(Cười)</s>
+ <s id="39">(Kinh ngạc) (Hoan hô) (Vỗ tay)</s>
+</text>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Thuật toán là gì?</s>
+ <s id="2">Trong khoa học máy tính, thuật toán là tập hợp các chỉ dẫn để giải toán từng bước.</s>
+ <s id="3">Các thuật toán thường được máy tính xử lí, nhưng con người chúng ta cũng có thể dùng chúng.</s>
+ <s id="4">Ví dụ, làm sao đếm số người có mặt ở trong phòng ?</s>
+ <s id="5">Nếu là tôi, tôi sẽ chỉ vào từng người một đếm : 1, 2, 3, 4 và cứ thế.</s>
+ <s id="6">Đó là một thuật toán.</s>
+ <s id="7">Chính quy hơn hãy thử diễn đạt bằng phương trình, dạng cú pháp giống Tiếng Anh nhưng là ngôn ngữ lập trình.</s>
+ <s id="8">Lấy n = 0.</s>
+ <s id="9">Với mỗi người trong phòng, lập n = n+1.</s>
+ <s id="10">Điều đó nghĩa là gì ?</s>
+ <s id="11">hàng 1 biểu thị biến số n được gán giá trị ban đầu bằng 0.</s>
+ <s id="12">Nghĩa là chúng ta bắt đầu thuật toán bằng cách đếm từ 0.</s>
+ <s id="13">Sau đó, chưa đếm gì vội.</s>
+ <s id="14">Quy ước gọi biến số này là n</s>
+ <s id="15">Tôi có thể gọi nó bằng bất cứ tên gì.</s>
+ <s id="16">Giờ hàng 2 là điểm bắt đầu của bảng mạch, là một chuỗi các bước lặp lại.</s>
+ <s id="17">Trong ví dụ này, các bước là đếm những người trong phòng.</s>
+ <s id="18">Dưới hàng 2 là hàng 3, mô tả chính xác cách đếm.</s>
+ <s id="19">Những nét cắt biểu thị rằng hàng thứ 3 sẽ được lặp lại.</s>
+ <s id="20">Ngôn ngữ code nói rằng sau khi bắt đầu bằng 0, với mỗi người trong phòng chúng ta sẽ cộng thêm 1 vào n.</s>
+ <s id="21">Thuật toán này đã đúng chưa?</s>
+ <s id="22">Hãy thử lại xem.</s>
+ <s id="23">Liệu có áp dụng được trong trường hợp có 2 người trong phòng ?</s>
+ <s id="24">Để xem.</s>
+ <s id="25">Ở hàng 1, biến n khởi điểm = 0</s>
+ <s id="26">Với mỗi người trong phòng ta lại cộng 1 vào n.</s>
+ <s id="27">Vậy ở vòng đầu ta đã nâng giá trị của n từ 0 lên 1, ở vòng hai, từ 1 lên 2.</s>
+ <s id="28">Khi thuật toán kết thúc, n=2, đúng bằng số người trong phòng.</s>
+ <s id="29">Đến đây vẫn rất suôn sẻ.</s>
+ <s id="30">Còn trường hợp này thì sao ?</s>
+ <s id="31">Giả sử không có ai trong phòng, ngoài tôi, người đang đếm ra.</s>
+ <s id="32">Ở hàng 1, một lần nữa giá trị ban đầu của n = 0.</s>
+ <s id="33">Lần này, không thể áp dụng hàng 3 vì không còn ai trong phòng thành ra, n giữ nguyên bằng 0, giá trị đúng bằng số người trong phòng.</s>
+ <s id="34">Đơn giản nhỉ!</s>
+ <s id="35">Nhưng đếm từng người một thì có vẻ không hiệu quả cho lắm!</s>
+ <s id="36">Chắc chắn có thể làm tốt hơn!</s>
+ <s id="37">Sao không thử đếm hai người 1 lúc?</s>
+ <s id="38">Thay vì đếm 1,2,3,4,5,6,7,8 , v.v hãy thử 2,4,6,8, v.v</s>
+ <s id="39">Có vẻ nhanh hơn và chắc chắn là thế rồi!</s>
+ <s id="40">Thử thể hiện bước cải tiến này bằng ngôn ngữ lập trình nhé!</s>
+ <s id="41">Coi n = 0.</s>
+ <s id="42">Mỗi cặp trong phòng có giá trị n = n+2</s>
+ <s id="43">Thay đổi này cũng đơn giản mà !</s>
+ <s id="44">Thay vì đếm từng người một ta đếm hai người một.</s>
+ <s id="45">Thuật toán nhờ thế nhanh gấp đôi.</s>
+ <s id="46">Nhưng nó có chính xác không?</s>
+ <s id="47">Để xem.</s>
+ <s id="48">Nếu có 2 người trong phòng,</s>
+ <s id="49">ở hàng 1, n có giá trị ban đầu bằng 0.</s>
+ <s id="50">Có 1 cặp trong phòng nên cộng thêm 2 vào n.</s>
+ <s id="51">Cuối cùng, khi thuật toán kết thúc, n = 2, trùng với số người trong phòng.</s>
+ <s id="52">Giả sử không có ai trong phòng.</s>
+ <s id="53">Ở hàng 1, giá trị ban đầu n = 0.</s>
+ <s id="54">Cũng như lần trước, không áp dụng được cho hàng 3 vì không có cặp nào trong phòng n giữ nguyên bằng 0 đúng bằng số người trong phòng.</s>
+ <s id="55">Nhưng nếu có 3 người trong phòng</s>
+ <s id="56">thuật toán này sẽ thực hiện thế nào?</s>
+ <s id="57">Để xem!</s>
+ <s id="58">Ở hàng 1, giá trị đầu của n bằng 0.</s>
+ <s id="59">cứ hai người một ta cộng thêm 2 vào n rồi sao nữa?</s>
+ <s id="60">Không có đủ một cặp nữa trong phòng nên hàng 2 không áp dụng được.</s>
+ <s id="61">kết thúc thuật toán, n = 2, và kết quả này không đúng.</s>
+ <s id="62">Thuật toán này mắc một sai lầm.</s>
+ <s id="63">Hãy xem lại một lần nữa!</s>
+ <s id="64">Coi n = 0.</s>
+ <s id="65">Với mỗi đôi trong phòng, lập n = n+2.</s>
+ <s id="66">Nếu 1 người lẻ ra, lập n = n+1.</s>
+ <s id="67">Để giải quyết vấn đề này, chúng ta đưa một điều kiện vào hàng 4 gọi là một nhánh, chỉ áp dụng nếu có một người lẻ ra</s>
+ <s id="68">Giờ thì, nếu có 1 hay 3 hay bất kì số người lẻ nào trong phòng, thuật toán này vẫn hoạt động được.</s>
+ <s id="69">Ta có thể làm tốt hơn không?</s>
+ <s id="70">Ờ thì, ta có thể đếm 3, 4, 5 hay 10 người một lúc, nhưng quá nữa thì sẽ hơi khó đếm.</s>
+ <s id="71">Cuối cùng, dù là vận hành bởi máy móc hay con người, thuật toán cũng là tập hợp những chỉ dẫn để giải các bài toán.</s>
+ <s id="72">Đây chỉ mới có ba bài toán thôi,</s>
+ <s id="73">bạn sẽ dùng thuật toán để giải những bài nào ?</s>
+</text>

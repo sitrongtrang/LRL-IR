@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Mọi người đều là một học sinh và là một giáo viên.</s>
+ <s id="2">Đây là tôi được truyền cảm hứng bởi giáo viên đầu tiên của tôi, mẹ tôi, và đây là tôi đang dạy học Nhập môn Trí Thông Minh Nhân tạo cho 200 sinh viên tại Đại học Stanford.</s>
+ <s id="3">Hiện giờ các sinh viên và tôi thích lớp học này, nhưng điều xảy ra với tôi rằng trong khi chuyên đề của lớp học này rất tiên tiến và hiện đại, thì công nghệ giảng dạy lại không như vậy.</s>
+ <s id="4">Trên thực tế, cơ bản là tôi dùng một công nghệ giống hệt như lớp học ở thế kỷ 14 này.</s>
+ <p id="p5">
+  <s id="5.1">Ghi lại bài giảng, nhà hiền triết trên bục, và anh chàng ngủ gật ở phía sau.</s>
+  <s id="5.2">(Cười) Hệt như ngày nay.</s>
+ </p>
+ <s id="6">Vì thế giảng viên-đồng nghiệp của tôi, Sebastian Thrun, và tôi đã nghĩ, phải có một phương pháp tốt hơn.</s>
+ <s id="7">Chúng tôi đã thử thách bản thân để mở một lớp học trực tuyến mà tương đương hoặc tốt hơn về chất lượng so với lớp ở Standford của chúng tôi, nhưng là đem nó đến cho mọi người trên thế giới hoàn toàn miễn phí.</s>
+ <s id="8">Chúng tôi đã công bố lớp học đó vào ngày 29 tháng bảy và trong vòng hai tuần, 50.000 người đã đăng ký học.</s>
+ <s id="9">Và số lượng đã tăng lên 160.000 sinh viên từ 209 quốc gia.</s>
+ <p id="p10">
+  <s id="10.1">Chúng tôi đã rất hồi hộp khi có từng đó thính giả, và một chút lo sợ rằng chúng tôi chưa hoàn thành việc chuẩn bị cho lớp học.</s>
+  <s id="10.2">(Cười) Vì thế chúng tôi phải làm việc.</s>
+ </p>
+ <s id="11">Chúng tôi tìm hiểu những gì người khác đã làm, những gì chúng tôi có thể sao chép và những gì chúng tôi có thể thay đổi</s>
+ <s id="12">Benjamin Bloom đã chỉ ra rằng việc học một-kèm-một là tốt nhất, vì thế đó là thứ chúng tôi đã cố gắng mô phỏng giống như tôi và mẹ tôi, mặc dù chúng tôi biết có thể sẽ là một-kèm-hàng nghìn.</s>
+ <s id="13">Ở đây, một camera trên đỉnh đầu đang quay khi tôi đang nói và vẽ lên một tờ giấy.</s>
+ <s id="14">Một sinh viên nói, "có cảm giác lớp học này như ngồi trong một quán bar cùng với một người bạn rất thông minh người đang giải thích một điều gì đó bạn chưa nắm được, nhưng đang dần dần hiểu ra."</s>
+ <s id="15">Và đó chính xác là những gì chúng tôi hướng đến.</s>
+ <s id="16">Hiện nay, từ Khan Academy, chúng tôi thấy rằng những đoạn video ngắn 10 phút hoạt động tốt hơn rất nhiều thay vì việc cố gắng để ghi lại một bài giảng dài hàng giờ và đặt nó lên một màn hình định dạng nhỏ.</s>
+ <s id="17">Chúng tôi quyết định làm thậm chí ngắn hơn và tương tác nhiều hơn.</s>
+ <s id="18">Một đoạn video thông thường của chúng tôi dài hai phút, đôi khi ngắn hơn, không bao giờ dài hơn sáu phút, và sau đó chúng tôi tạm dừng cho một câu hỏi trắc nghiệm, để làm cho nó có cảm giác như việc dạy một-kèm-một.</s>
+ <s id="19">Đây, tôi đang giải thích bằng cách nào một máy tính sử dụng ngữ pháp của tiếng Anh để phân tích các câu văn, và đây, có một thời điểm tạm dừng và sinh viên phải phản xạ, phải hiểu cái gì đang diễn ra và đánh dấu những ô đúng trước khi họ có thể tiếp tục.</s>
+ <s id="20">Sinh viên học tốt nhất khi họ chủ động thực hành.</s>
+ <s id="21">Chúng tôi muốn họ tham gia, để họ đối mặt với những mơ hồ và chỉ dẫn cho họ đúc rút những ý tưởng cốt yếu cho chính bản thân họ.</s>
+ <s id="22">Chúng tôi cố gắng tránh những câu hỏi kiểu như, "Đây là một công thức, bây giờ hãy nói cho tôi giá trị của Y khi X bằng hai."</s>
+ <s id="23">Chúng tôi thích những câu hỏi mở hơn.</s>
+ <s id="24">Một sinh viên đã viết, "Giờ đây tôi thấy mạng Bayes và những minh họa về lý thuyết trò chơi (Game Theory) ở mọi nơi tôi nhìn."</s>
+ <s id="25">Và tôi thích kiểu trả lời như thế.</s>
+ <s id="26">Đó chính là những gì chúng tôi hướng đến.</s>
+ <s id="27">Chúng tôi không muốn sinh viên nhớ những công thức; chúng tôi muốn thay đổi cái cách họ nhìn nhận thế giới.</s>
+ <s id="28">Và chúng tôi đã thành công.</s>
+ <s id="29">Hoặc, tôi có thể nói, sinh viên đã thành công.</s>
+ <s id="30">Và có một chút mỉa mai rằng chúng tôi muốn phá vỡ cách giáo dục truyền thống và trong khi làm vậy, chúng tôi cuối cùng đã làm cho lớp học trực tuyến của chúng tôi càng giống như một lớp đại học truyền thống hơn những khóa học trực tuyến khác.</s>
+ <s id="31">Phần lớn các lớp học trực tuyến, những đoạn phim bài giảng luôn sẵn sàng.</s>
+ <s id="32">Bạn có thể xem chúng bất cứ khi nào bạn muốn.</s>
+ <p id="p33">
+  <s id="33.1">Nhưng nếu bạn có thể xem bất cứ khi nào, điều đó có nghĩa bạn có thể xem vào ngày mai, và nếu bạn có thể xem vào ngày mai, hừm, bạn sẽ có thể không bao giờ thực hiện được nó.</s>
+  <s id="33.2">(Cười) Vì thế chúng tôi mang lại sự đổi mới trong việc đặt kỳ hạn.</s>
+  <s id="33.3">(Cười) Bạn có thể xem những đoạn phim bất cứ khi nào bạn muốn trong tuần lễ đó, nhưng đến cuối tuần, bạn phải hoàn thành bài tập về nhà.</s>
+ </p>
+ <s id="34">Điều này thúc đẩy sinh viên giữ tiến độ, và nó cũng có nghĩa là mọi người đều đang học tập với cùng một thứ trong cùng một thời điểm, vì thế nếu bạn tham gia vào một diễn đàn thảo luận, bạn có thể có được câu trả lời từ bạn học trong vài phút.</s>
+ <s id="35">Bây giờ, tôi sẽ cho các bạn thấy một vài diễn đàn, phần lớn được tự tổ chức bởi chính các sinh viên.</s>
+ <s id="36">Từ Daphne Koller và Andrew Ng, chúng tôi đã học được khái niệm về "đảo ngược" lớp học.</s>
+ <s id="37">Sinh viên xem các đoạn phim bài giảng một mình, và sau đó họ cùng nhau thảo luận chúng.</s>
+ <s id="38">Từ Eric Mazur, tôi học được về trợ giúp bạn bè, rằng bạn học có thể là những giáo viên tốt nhất, bởi vì họ là những người nhớ những gì họ đã từng không thể hiểu.</s>
+ <s id="39">Sebastian và tôi đã quên một vài điều như thế.</s>
+ <s id="40">Tất nhiên, chúng tôi không thể có một buổi thảo luận trong lớp học với hàng vạn sinh viên, vì thế chúng tôi khuyến khích và nuôi dưỡng những diễn đàn trực tuyến như thế.</s>
+ <s id="41">Và cuối cùng, từ Teach For America, Tôi học được rằng một lớp học không phải chỉ dành để truyền đạt thông tin.</s>
+ <s id="42">Điều quan trọng hơn là động lực và sự quyết tâm.</s>
+ <s id="43">Cốt yếu là sinh viên thấy được rằng chúng tôi đã làm việc rất cố gắng vì họ và họ tất cả đều hỗ trợ những người khác.</s>
+ <s id="44">HIện giờ, lớp học đã kéo dài được 10 tuần lễ, và cho đến cuối khóa, khoảng một nửa trong số 160.000 sinh viên xem ít nhất một đoạn phim mỗi tuần, và hơn 20.000 người hoàn thành tất cả các bài tập, bỏ ra từ 50 đến 100 giờ học.</s>
+ <s id="45">Họ đã nhận được chứng nhận hoàn thành khóa học.</s>
+ <s id="46">Vậy chúng tôi đã học được những gì?</s>
+ <s id="47">Chúng tôi đã thử nghiệm một vài ý tưởng cũ và một vài ý tưởng mới, kết hợp chúng với nhau, nhưng còn nhiều ý tưởng nữa để thử nghiệm.</s>
+ <s id="48">Sebastien đang giảng dạy một lớp học khác hiện nay.</s>
+ <s id="49">Tôi sẽ thực hiện một lớp nữa vào mùa thu,</s>
+ <s id="50">Stanford Coursera, Udacity, MITx và các tổ chức khác đang mở thêm những lớp học nữa.</s>
+ <s id="51">Đây thật sự là một thời điểm đầy hứng khởi.</s>
+ <s id="52">Nhưng với tôi, điều thú vị nhất một phần của nó là những dữ liệu chúng tôi đang thu thập.</s>
+ <s id="53">Chúng tôi đang thu thập hàng ngàn tương tác với mỗi sinh viên trong mỗi lớp, gộp thành hàng tỷ tương tác, và giờ đây chúng tôi có thể bắt đầu phân tích chúng, và khi chúng tôi học hỏi từ chúng thực hiện các thí nghiệm, đó là khi cuộc cách mạng thật sự sẽ đến,</s>
+ <s id="54">Và các bạn sẽ có thể thấy được kết quả từ một thế hệ mới các sinh viên tuyệt vời.</s>
+ <s id="55">(Vỗ tay)</s>
+</text>

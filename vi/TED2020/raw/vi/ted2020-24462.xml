@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Nhóm nghiên cứu của bạn đã tìm thấy một loại vi rút thời tiền sử, được bảo tồn trong lớp bằng vĩnh cửu, và tách nó ra để nghiên cứu.</s>
+ <s id="2">Sau một đêm dài làm việc, khi bạn đóng cửa phòng thí nghiệm thì một trận động đất bất ngờ ập đến, và làm mất nguồn điện.</s>
+ <s id="3">Khi máy phát điện dự phòng khởi động, điều bạn lo sợ nhất được thông báo, những lọ chứa mẫu đã bị vỡ.</s>
+ <s id="4">Vi rút vẫn chưa thoát ra, nhưng nếu bạn không tiêu diệt nó cửa thông gió sẽ mở và một bệnh dịch chết chóc sẽ lan truyền.</s>
+ <s id="5">Bạn ngay lập tức mặc bộ đồ bảo vệ, và sẵn sàng giải cứu thế giới.</s>
+ <s id="6">Phòng nghiên cứu gồm 16 khu được xếp theo hình vuông, với lối vào ở góc hướng tây bắc, và lối ra ở góc hướng đông nam.</s>
+ <s id="7">Mỗi phòng đều nối với phòng sát nó bằng một cửa không khí, và vi rút đã lan khắp các phòng ngoại trừ lối vào,</s>
+ <s id="8">Để tiêu diệt nó, bạn phải đi vào từng phòng bị nhiễm và kéo công tắc tự hủy diệt.</s>
+ <s id="9">Nhưng có một quy tắc:</s>
+ <p id="p10">
+  <s id="10.1">Bởi vì hệ thống an ninh đang ở chế độ khẩn cấp, một khi bạn bước vào phòng nhiễm vi rút, bạn không thể thoát ra nếu không kích hoạt công tắc tự huỷ.</s>
+  <s id="10.2">Một khi bạn đã kéo công tắc, bạn không thể bước vào lại căn phòng đó.</s>
+ </p>
+ <s id="11">Bạn bắt đầu vẽ ra lộ trình thích hợp trên một mảnh giấy, nhưng không có cách nào giúp bạn thoát được, mà không bỏ lỡ ít nhất một phòng.</s>
+ <s id="12">Làm sao để bạn tiêu diệt vi rút trong tất cả các phòng, mà vẫn sống sót để kể lại câu chuyện?</s>
+ <s id="13">Dừng ở đây nếu bạn muốn tự tìm lời giải.</s>
+ <p id="p14">
+  <s id="14.1">Ba.</s>
+  <s id="14.2">Hai.</s>
+  <s id="14.3">Một.</s>
+  <s id="14.4">Nếu bản năng đầu tiên của bạn là vẽ thử các đường đi có thể lên giấy, thì bạn đã có ý tưởng đúng rồi đấy.</s>
+ </p>
+ <s id="15">Câu đố này liên quan đến bài toán tìm đường đi của Hamiltonian, được đặt tên theo nhà toán học Ireland ở thế kỉ 19, William Rowan Halmilton</s>
+ <s id="16">Thử thách của bài toán là tìm ra một sơ đồ có đường đi dạng Hamiltonian.</s>
+ <s id="17">Đó là đường đi qua tất cả các điểm chứa trong nó chính xác 1 lần.</s>
+ <s id="18">Bài toán này là bài toán NP đầy đủ, sẽ cực kì khó giải khi sơ đồ đủ lớn.</s>
+ <s id="19">Mặc dù có thể dễ dàng xác minh lời giải, nhưng không có công thức hay lối tắt nào để tìm ra nó, hay chứng minh nó tồn tại.</s>
+ <s id="20">Và cũng không chắc rằng liệu máy tính có thể chắc chắn tìm ra lời giải hay không.</s>
+ <s id="21">Câu đó này làm bài toán đường đi Hamiltonian thêm khó, rằng bạn phải bắt đầu và kết thúc tại những điểm cố định.</s>
+ <s id="22">Nhưng để tránh mất công vẽ một đống sơ đồ, trước tiên bạn nên biết rằng, một đường đi Hamiltonian sẽ không tồn tại với những điểm kết thúc như vậy.</s>
+ <s id="23">Bởi vì các phòng được xếp hình lưới với một số chẵn số phòng ở mỗi cạnh.</s>
+ <s id="24">Đối với cấu trúc như thế, không thể có đường đi Hamilton bắt đầu và kết thúc tại những góc đối diện nhau.</s>
+ <s id="25">Để hiểu tại sao lại như vậy,</s>
+ <s id="26">hãy liên tưởng đến một bàn cờ với một số chẵn hình vuông mỗi cạnh,</s>
+ <s id="27">mọi con đường sẽ liên tục là trắng và đen.</s>
+ <s id="28">Tổng số ô của bàn cờ cũng là số chẵn, bởi vì tích của hai số chẵn cũng là số chẵn.</s>
+ <s id="29">Do đó, đường đi Hamiltonian nếu bắt đầu ở ô đen, thì phải kết thúc ở ô trắng.</s>
+ <s id="30">Và một khi bắt đầu ở ô trắng thì phải kết thúc ở ô đen.</s>
+ <s id="31">Tuy nhiên, bàn cờ với mỗi cạnh đều là số chẵn, thì hai góc đối diện nhau lại cùng màu, nên không thể có đường Hamiltonian bắt đầu và kết thúc ở hai góc đối diện.</s>
+ <s id="32">Có vẻ như bạn đã hết cách, nếu bạn không quan sát kĩ yêu cầu và chú ý một ngoại lệ.</s>
+ <s id="33">Đúng là một khi bạn đã kích hoạt công tắc trong phòng nhiễm vi rút, nó sẽ bị phá hủy và bạn không thể quay lại.</s>
+ <s id="34">Nhưng có một phòng không bị nhiễm là lối vào,</s>
+ <s id="35">Có nghĩa là bạn không cần phải phá hủy nó trong lần đầu đi qua, và trở lại sau khi đã phá hủy một trong hai căn phòng sát bên.</s>
+ <s id="36">Căn phòng này có thể bị nhiễm vi rút khi ô thông gió mở, nhưng không sao cả. vì bạn có thể phá hủy căn phòng sau khi quay trở lại.</s>
+ <s id="37">Việc quay trở lại này cho bạn bốn lời giải khác nhau, và tương tự nếu bạn chọn phá hủy căn phòng này trước.</s>
+ <p id="p38">
+  <s id="38.1">Chúc mừng.</s>
+  <s id="38.2">Bạn vừa ngăn ngừa một bệnh dịch với quy mô khủng khiếp.</s>
+  <s id="38.3">Sau thử thách cam go này, bạn cần nghỉ ngơi.</s>
+ </p>
+ <s id="39">Có lẽ bạn nên chấp nhận lời đề nghị và thử làm một người bán hàng rồi đấy.</s>
+</text>

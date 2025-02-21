@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Thập niên 20 của thế kỷ XX, một nhà toán học người Đức David Hilbert đã nghĩ ra một thí nghiệm nổi tiếng cho thấy khái niệm vô cực khó hiểu đến mức nào.</s>
+ <s id="2">Hãy tưởng tượng một khách sạn với số phòng vô hạn và một quản lý ca đêm cần mẫn.</s>
+ <s id="3">Một đêm nọ, khi tất cả các phòng ở Khách sạn Vô hạn đều đã đầy,</s>
+ <s id="4">một người đàn ông bước vào, hỏi thuê một phòng.</s>
+ <s id="5">Không muốn làm khách thất vọng, người quản lý đã quyết định xếp phòng cho ông ấy.</s>
+ <s id="6">Nhưng làm thế nào?</s>
+ <p id="p7">
+  <s id="7.1">Đơn giản thôi.</s>
+  <s id="7.2">Ông ta yêu cầu khách ở phòng số 1 chuyển sang phòng số 2, khách ở phòng số 2 chuyển sang phòng số 3, v.v....</s>
+ </p>
+ <s id="8">Mỗi khách chuyển từ phòng số n sang phòng số n+1.</s>
+ <s id="9">Bởi khách sạn có số phòng vô hạn, tất cả các khách trong khách sạn đều có phòng.</s>
+ <s id="10">Nhờ thế, ông khách mới có được một phòng.</s>
+ <s id="11">Quy trình này được lặp đi lặp lại cho bất kỳ số khách có hạn nào.</s>
+ <s id="12">Giả sử một xe buýt chở 40 người đến thuê phòng, mỗi khách trong khách sạn sẽ phải chuyển từ phòng số n sang phòng số n+40, và nhờ vậy, 40 phòng đầu tiên sẽ còn trống.</s>
+ <s id="13">Nhưng giả sử, một xe buýt lớn vô hạn chở một số khách vô hạn (đếm được) đến khách sạn này để thuê phòng.</s>
+ <s id="14">("Đếm được" là yếu tố then chốt.)</s>
+ <s id="15">Ban đầu, chiếc xe buýt với số khách vô hạn làm người quản lý bối rối, nhưng ông nhận ra có một cách để xếp phòng cho họ.</s>
+ <s id="16">Ông yêu cầu khách phòng số 1</s>
+ <p id="p17">
+  <s id="17.1">chuyển sang phòng số 2.</s>
+  <s id="17.2">Rồi yêu cầu khách ở phòng số 2 chuyển sang phòng số 4, khách ở phòng số 3 chuyển sang phòng số 6, v.v....</s>
+ </p>
+ <s id="18">Mỗi khách trong khách sạn chuyển từ phòng số n sang phòng số 2n, và vì thế, chỉ các phòng chẵn là có khách ở.</s>
+ <s id="19">Bằng cách này, người quản lý đã dọn trống các phòng lẻ, và khách mới có thể thuê những phòng lẻ đó.</s>
+ <s id="20">Mọi người đều vui vẻ, và lợi nhuận của khách sạn tăng cao hơn bao giờ hết.</s>
+ <s id="21">Thực ra thì, lợi nhuận của khách sạn không thay đổi chút nào, bởi đêm nào, khách sạn cũng thu về số tiền vô hạn.</s>
+ <s id="22">Mọi người bàn tán về khách sạn phi thường này.</s>
+ <s id="23">Họ đổ xô đến đây thuê phòng.</s>
+ <s id="24">Một đêm, điều không tưởng xảy đến.</s>
+ <p id="p25">
+  <s id="25.1">Người quản lý nhìn ra bên ngoài và thấy một hàng xe buýt lớn vô hạn, dài vô hạn.</s>
+  <s id="25.2">Mỗi xe có một số khách vô hạn.</s>
+ </p>
+ <s id="26">Làm gì bây giờ?</s>
+ <s id="27">Nếu không xếp được phòng cho tất cả bọn họ, khách sạn sẽ thất thoát một số tiền lớn vô hạn, chắc chắn, ông ta sẽ mất việc.</s>
+ <s id="28">May mắn thay, ông nhớ ra vào khoảng năm 300 TCN, Euclid đã chứng minh rằng số số nguyên tố là vô tận.</s>
+ <s id="29">Để hoàn thành nhiệm vụ tưởng như không thể này tìm số giường vô hạn cho số khách vô hạn trên số xe buýt vô hạn này, người quản lý đưa cho mỗi khách trong khách sạn số nguyên tố đầu tiên: 2 với số mũ là số phòng mà họ đang ở.</s>
+ <s id="30">Như vậy, người khách ở căn phòng số 7 sẽ chuyển đến phòng số 2^7, nghĩa là phòng số 128.</s>
+ <s id="31">Người quản lý đưa tất cả khách trên chiếc xe buýt lớn vô hạn đầu tiên số nguyên tố tiếp theo: 3 với số mũ là số ghế của họ trên xe buýt.</s>
+ <s id="32">Như vậy, khách ngồi ghế số 7 trên chiếc xe đầu tiên nhận phòng số 3^7, nghĩa là phòng số 2.187.</s>
+ <s id="33">Người quản lý tiếp tục xếp phòng.</s>
+ <s id="34">Khách trên xe thứ hai được đưa cho số nguyên tố tiếp theo: 5 với số mũ là số ghế của họ trên xe.</s>
+ <s id="35">Tương tự là số 7 với khách trên xe thứ ba.</s>
+ <s id="36">Tiếp tục với số 11, số 13, số 17, v.v....</s>
+ <s id="37">Bởi vì mỗi số này chỉ có thể chia hết cho 1 và chính nó, không có khách nào phải thuê chung phòng cả.</s>
+ <s id="38">Tất cả các khách xuống xe buýt, vào khách sạn, và tìm số phòng người quản lý đã xếp cho mình.</s>
+ <s id="39">Bằng cách này, ông có thể xếp phòng cho từng hành khách trên từng xe.</s>
+ <s id="40">Tuy nhiên, khách sạn sẽ có một số phòng trống, ví dụ như phòng số 6, bởi 6 không được tạo ra bởi số nguyên tố cùng số mũ nào cả.</s>
+ <s id="41">May mắn thay, sếp của ông ta không giỏi Toán, và ông không bị đuổi việc.</s>
+ <s id="42">Phương pháp của người quản lý chỉ thành công khi mà, tuy rằng Khách sạn Vô hạn là cơn ác mộng về lô-gíc, lại chỉ ở mức độ đơn giản nhất của khái niệm vô cực, chủ yếu là số số tự nhiên vô cực đếm được: 1, 2, 3, 4, v.v....</s>
+ <s id="43">George Cantor gọi đây là mức độ 0-apleph của vô cực.</s>
+ <s id="44">Ta dùng số tự nhiên để chỉ số phòng và số ghế trên xe buýt.</s>
+ <s id="45">Nếu phải đối mặt với những bậc cao hơn của vô cực, ví dụ như tập số thực, cách sắp xếp như trên sẽ không còn khả thi, bởi không có cách nào có thể bao gồm tất cả các số theo hệ thống.</s>
+ <s id="46">Khách sạn Vô hạn Số thực có số phòng âm trong tầng hầm, và số phòng là phân số, nghĩa là khách phòng số 1/2 luôn nghi rằng phòng của anh ta bé hơn phòng số 1 bên cạnh.</s>
+ <s id="47">Nếu ta lấy căn của số phòng, ví dụ như căn 2 và phòng số pi, nơi khách thuê phòng mong chờ món tráng miệng miễn phí.</s>
+ <s id="48">Quản lý ca đêm có lòng tự trọng nào lại muốn làm ở một nơi như thế, dù lương của anh ta là vô hạn?</s>
+ <s id="49">Tại Khách sạn Vô hạn của Hilbert, không bao giờ có phòng trống và luôn còn phòng cho khách mới, những tình huống mà người quản lý cần mẫn vì quá hiếu khách phải giải quyết nhắc nhở chúng ta rằng thật khó khăn khi dùng trí óc có hạn của mình để hiểu thấu một khái niệm rộng lớn như vô cực.</s>
+ <s id="50">Bạn có thể giúp chúng tôi giải quyết bài toán này, sau một giấc ngủ ngon.</s>
+ <s id="51">Nhưng thành thực mà nói, chúng tôi có thể sẽ cần bạn thức dậy và chuyển phòng vào lúc 2 giờ sáng.</s>
+</text>

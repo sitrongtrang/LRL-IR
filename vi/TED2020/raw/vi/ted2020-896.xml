@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <p id="p1">
+  <s id="1.1">Câu chuyện bắt đầu ở Kenya vào tháng 11 năm 2007, lúc đó đang diễn ra 1 cuộc bầu cử tổng thống đầy tranh cãi.</s>
+  <s id="1.2">Và ngay sau cuộc bầu cử đó, đã nổ ra 1 cuộc bạo động chủng tộc.</s>
+ </p>
+ <s id="2">Và 1 luật sư ở Nairobi, Ory Okolloh -- 1 số bạn ở đây có thể biết bài diễn thuyết ở TED của cô -- cô bắt đầu viết bài về cuộc bạo động đó trên blog, Kenyan Pundit.</s>
+ <s id="3">Và không lâu sau vụ việc, chính phủ đột ngột cắt các phương tiện truyền thông.</s>
+ <s id="4">Thế là weblog từ nơi cất tiếng nói là 1 phần của môi trường truyền thông trở thành 1 phần không thể thiếu của môi trường đó trong việc cố gắng hiểu rõ cuộc bạo động xảy ra ở đâu.</s>
+ <s id="5">Và Okolloh đã thu hút thêm thông tin về diễn biến vụ việc từ các khách bình luận.</s>
+ <p id="p6">
+  <s id="6.1">Các bình luận bắt đầu đổ về.</s>
+  <s id="6.2">Cô ấy sẽ đối chiếu và sau đó post lên .</s>
+ </p>
+ <s id="7">Và cô ấy nói, " Thật quá nhiều thông tin.</s>
+ <s id="8">Hàng ngày tôi có thể làm công việc này cả ngày nhưng không thể duy trì.</s>
+ <s id="9">Có thêm nhiều thông tin về tình hình ở Kenya hiện nay mà 1 người không thể quản lý xuể.</s>
+ <s id="10">Giá như có cách gì để quản lý tự động lượng thông tin này."</s>
+ <p id="p11">
+  <s id="11.1">Sau đó có 2 lập trình viên đã đọc blog của cô họ xung phong, " Chúng tôi có thể làm được việc đó."</s>
+  <s id="11.2">Và trong 72 giờ sau, họ đã cho ra đời Ushahidi.</s>
+ </p>
+ <s id="12">Ushahidi - cái tên có nghĩa " chứng kiến" hoặc "bằng chứng" ở Swahili -- là 1 cách thu thập báo cáo từ khu vực 1 cách đơn giản, kể cả từ web hay thông qua điện thoại di động và tin nhắn, tổng hợp và đặt nó lên bản đồ.</s>
+ <p id="p13">
+  <s id="13.1">Tất cả chỉ có vậy, nhưng đó là những điều cần thiết.</s>
+  <s id="13.2">Vì nó lấy các thông tin ngầm toàn bộ dân chúng đều biết -- ai cũng biết cuộc bạo động xảy ra ở đâu, nhưng không ai biết điều mà người khác biết -- và nó lấy thông tin ngầm đó và tổng hợp lại, xác định vị trí trên bản đồ và công khai cho mọi người xem.</s>
+ </p>
+ <s id="14">Chiến thuật đó có tên " vẽ bản đồ cuộc khủng hoảng" được khởi xướng ở Kenya vào tháng 1 năm 2008.</s>
+ <s id="15">Và nhiều người đã xem và thấy nó rất giá trị 2 lập trình viên đã tạo ra Ushahidi đã quyết định chuyển trang web thành mã nguồn mở và biến nó thành 1 nền tảng.</s>
+ <s id="16">Kể từ đó Mexico đã sử dụng nó để theo dõi các vụ gian lận bầu cử.</s>
+ <s id="17">Washington D.C sử dụng nó để bám sát việc dọn tuyết.</s>
+ <s id="18">Và phổ biến nhất ở Haiti sau trận động đất.</s>
+ <s id="19">Và khi xem bản đồ hiện giờ đang được post trên trang nhất của Ushahidi, bạn có thể thấy 1 số lượng bản đồ ở Ushahidi đã triển khai trên khắp thế giới.</s>
+ <s id="20">Nó đến từ 1 ý tưởng và việc thực hành ý tưởng đó ở Đông Phi đầu năm 2008 triển khai trên toàn cầu trong gần 3 năm nữa.</s>
+ <s id="21">Việc Okollloh đã làm được sẽ là không khả thi nếu thiếu công nghệ số.</s>
+ <s id="22">Việc Okolloh đã làm sẽ là không thể nếu thiếu sự hào phóng của con người.</s>
+ <s id="23">Và khoảnh khắc thú vị lúc này, số lượng môi trường mà thiết kế xã hội thách thức phụ thuộc vào 2 yếu tố đó.</s>
+ <s id="24">Đó là tài nguyên tôi sẽ nói đến.</s>
+ <s id="25">Tôi gọi nó là thặng dư nhận thức.</s>
+ <s id="26">Và nó biểu diễn khả năng tình nguyện, cống hiến và hợp tác của nền dân số thế giới trong các dự án lớn, và đôi khi mang tầm cỡ toàn cầu.</s>
+ <s id="27">Thặng dư nhận thức gồm 2 thứ.</s>
+ <s id="28">Một là các tài năng và thời gian rỗi của thế giới.</s>
+ <s id="29">Thế giới có hơn 1 nghìn tỷ giờ rảnh rỗi mỗi năm để thực hiện các dự án hợp tác.</s>
+ <s id="30">Nào, thời gian nhàn rỗi đó đã tồn tại trong thế kỷ 20, nhưng chúng ta không có Ushahidi vào thời điểm đó.</s>
+ <s id="31">Đó là nửa thứ 2 của thặng dư nhận thức.</s>
+ <s id="32">Môi trường truyền thông trong thế kỷ 20 rất giỏi giúp mọi người tiêu thụ, và kết quả là, chúng ta rất giỏi tiêu thụ.</s>
+ <s id="33">Nhưng do chúng ta đã có các công cụ truyền thông -- Internet, điện thoại di dộng -- khiến chúng ta không chỉ tiêu thụ, chúng ta thấy rằng mọi người không phải suốt ngày dán mắt vào tivi vì muốn như thế.</s>
+ <s id="34">Chúng ta dán mắt vào tivi vì đó là cơ hội duy nhất cho chúng ta.</s>
+ <s id="35">Tất nhiên chúng ta vẫn thích tiêu thụ.</s>
+ <s id="36">Nhưng chúng ta hóa ra cũng thích chế tạo và chia sẻ.</s>
+ <s id="37">Và 2 điều kết hợp lại -- động lực của con người cổ xưa và các công cụ hiện đại cho phép động lực đó tổng hợp lại trong các nỗ lực quy mô lớn -- là tài nguyên thiết kế mới.</s>
+ <s id="38">Và sử dụng thặng dư nhận thức chúng ta bắt đầu thấy các thí nghiệm đáng kinh ngạc trong các nỗ lực của khoa học, văn học nghệ thuật và chính trị.</s>
+ <s id="39">Thiết kế.</s>
+ <s id="40">Dĩ nhiên chúng ta cũng có nhiều con mèo vui nhộn (LOLcats).</s>
+ <s id="41">Đó là các bức ảnh ngộ nghĩnh của các chú mèo trở nên đáng yêu hơn với các lời thoại hài hước.</s>
+ <s id="42">Và đó cũng là 1 phần của môi trường truyền thông phong phú chúng ta đang có.</s>
+ <s id="43">Đây là 1 trong -- 1 trong các mô hình tham gia chúng ta thấy ra đời cùng với Ushahidi.</s>
+ <s id="44">Nào, theo ngôn ngữ của các luật sư, tôi muốn ước định rằng các con mèo vui nhộn là hoạt động sáng tạo ngu ngốc nhất.</s>
+ <s id="45">Dĩ nhiên còn có các ứng cử viên khác, nhưng những con mèo vui nhộn sẽ là 1 trường hợp chung tiêu biểu.</s>
+ <s id="46">Nhưng vấn đề là, dù là hoạt động sáng tạo ngu ngốc nhất thì đó vẫn là hoạt động sáng tạo.</s>
+ <s id="47">Ai đó đã làm điều gì tương tự thế, cho dù vớ vẩn và đáng ném vào sọt rác, thì họ đã thử và mang nó ra công khai cho cộng đồng.</s>
+ <p id="p48">
+  <s id="48.1">Và 1 khi đã làm được thì họ có thể làm lại.</s>
+  <s id="48.2">Họ có thể cải tiến nó.</s>
+ </p>
+ <p id="p49">
+  <s id="49.1">Có 1 phổ giữa công việc vở vẩn và tốt đẹp.</s>
+  <s id="49.2">Và bất cứ họa sĩ hay nhà sáng tạo nào đều biết, đó là 1 phổ bạn phải liên tục đấu tranh để được đứng đầu.</s>
+ </p>
+ <s id="50">Khoảng cách giữa làm bất cứ việc gì và chẳng làm gì cả.</s>
+ <s id="51">Và người tạo ra các con mèo vui nhộn đã vượt qua khoảng cách đó.</s>
+ <s id="52">Nào, giờ thì ai cũng muốn có các trang như Ushadidi mà không có các con mèo vui nhộn chứ, thà có các thông tin nghiêm túc còn hơn những thứ vớ vỉn.</s>
+ <s id="53">Nhưng sự phong phú truyền thông không làm việc theo hướng đó.</s>
+ <s id="54">Sự tự do thử nghiệm có nghĩa tự do thử nghiệm với bất kỳ cái gì.</s>
+ <s id="55">Kể cả với tài liệu in ấn linh thiêng, chúng ta có các tác phẩm văn học đồi trụy từ 150 năm trước khi có các tập san khoa học.</s>
+ <s id="56">Thế nên tôi nói về sự khác nhau mấu chốt giữa các con mèo vui nhộn và Ushahidi, tôi muốn nói về nguồn chia sẻ của chúng.</s>
+ <s id="57">Và nguồn đó là thiết kế cho sự hào phóng.</s>
+ <s id="58">Đó là 1 trong những điều tò mò trong kỷ nguyên lịch sử của chúng ta khi mà thặng dư nhận thức trở thành 1 tài nguyên chúng ta có thể thiết kế, các ngành khoa học xã hội đang bắt đầu giải thích tầm quan trọng của các động lực bên trong đối với con người, chúng ta làm việc bao nhiêu vì sở thích, chứ không phải vì ông chủ yêu cầu phải làm, hoặc vì chúng ta nhận lương để làm các công việc đó.</s>
+ <s id="59">Đây là 1 biểu đồ từ 1 tư liệu của Uri Gneezy và Aldo Rustichini, ngay đầu thập kỷ này, họ bắt tay vào kiểm tra cái mà họ gọi là "thuyết ngăn cản."</s>
+ <p id="p60">
+  <s id="60.1">Và thuyết ngăn cản là 1 thuyết rất đơn giản về hành vi con người.</s>
+  <s id="60.2">Nếu muốn ai bớt làm việc gì, hãy bổ sung khung hình phạt và họ sẽ bớt làm điều đó.</s>
+ </p>
+ <s id="61">Đơn giản, thẳng thắn và dễ hiểu cũng không được kiểm tra rộng rãi.</s>
+ <s id="62">Và họ nghiên cứu 10 trung tâm chăm sóc hàng ngày ở Haifa, Israel.</s>
+ <s id="63">Họ nghiên cứu các trung tâm đó vào giờ cao điểm, là giờ đón học sinh.</s>
+ <s id="64">Vào giờ đó, các giáo viên đã dạy học sinh cả ngày muốn phụ huynh có mặt vào giờ đó để đón con em về.</s>
+ <s id="65">Trong khi đó, bố mẹ -- có lẽ bận công việc nên đến muộn, làm nốt các công việc vặt muốn đến đón con muộn 1 chút.</s>
+ <s id="66">Thế nên Gneezy và Rustichini nói, " Có bao nhiêu trường hợp đón con muộn ở 10 trung tâm chăm sóc hàng ngày đó?"</s>
+ <s id="67">Họ đã thấy, -- và đây là biểu đồ, đây là số tuần và số đến đón muộn -- và trung bình có từ 6 đến 10 trường hợp đón con muộn ở 10 trung tâm này.</s>
+ <s id="68">Nên họ chia các trung tâm này thành 2 nhóm.</s>
+ <s id="69">Nhóm màu trắng ở đó là nhóm kiểm soát, chúng không thay đổi cái gì.</s>
+ <s id="70">Nhưng nhóm biểu diễn bởi đường màu đen họ nói, " Chúng tôi sẽ thay đổi thỏa thuận ngay bây giờ.</s>
+ <s id="71">Nếu anh đón con muộn hơn 10 phút, chúng tôi sẽ thêm 10 shekel tiền phạt vào hóa đơn.</s>
+ <s id="72">Không nếu, và, hay nhưng nhị gì cả."</s>
+ <s id="73">Và từ giây phút họ thực hiện việc đó, hành vi trong các trung tâm đó đã thay đổi.</s>
+ <s id="74">Việc đón con muộn tăng lên từng tuần trong 4 tuần tiếp theo cho tới khi đạt đỉnh gấp 3 lần trung bình tiền phạt, và sau đó chúng dao động giữa khoảng gấp đôi và gấp 3 theo tuổi thọ mức phạt.</s>
+ <s id="75">Và bạn có thể thấy ngay diễn biến.</s>
+ <s id="76">Việc phạt tiền phá vỡ văn hóa ở trung tâm chăm sóc hàng ngày.</s>
+ <s id="77">Nhờ bổ sung hình phạt, họ đã giao tiếp với các phụ huynh rằng toàn bộ khoản nợ của họ với các giáo viên đã được trả với việc trả 10 shekel và không còn lắng lại chút mặc cảm tội lỗi hay lo ngại xã hội rằng các phụ huynh nợ các giáo viên nữa.</s>
+ <s id="78">Và thế là các vị phụ huynh đồng tình nói, " 10 shekel để đón con tôi muộn ư?</s>
+ <s id="79">Thế còn là tốt chán,"</s>
+ <p id="p80">
+  <s id="80.1">(Tiếng cười) Lời giải thích cho hành vi con người chúng ta đã kế thừa trong thế kỷ 20 là chúng ta đều là các diễn viên tự phóng đại có chừng mực.</s>
+  <s id="80.2">Và trong cách lý giải đó -- việc chăm sóc hàng ngày không có hợp đồng-- lẽ ra nên hoạt động không hạn chế.</s>
+ </p>
+ <s id="81">Nhưng điều đó là không đúng.</s>
+ <s id="82">Họ đang làm việc với các hạn định xã hội chứ không phải hạn chế trên hợp đồng.</s>
+ <s id="83">Và quan trọng, các hạn chế xã hội hình thành 1 nền văn hóa hào phóng hơn các hạn định trên hợp đồng.</s>
+ <p id="p84">
+  <s id="84.1">Gneezy và Rustichini thực hiện thí nghiệm này trong 12 tuần -- thực hiện việc phạt tiền trong 12 tuần -- sau đó họ nói, " Ok, được rồi.</s>
+  <s id="84.2">Mọi thứ đã ổn thỏa."</s>
+ </p>
+ <p id="p85">
+  <s id="85.1">Và sau đó 1 điều rất thú vị đã diễn ra.</s>
+  <s id="85.2">Chẳng có gì thay đổi cả.</s>
+ </p>
+ <s id="86">Nền văn hóa đã bị phá vỡ bởi việc phạt tiền và vẫn tiếp tục bị phá vỡ sau khi hủy bỏ việc phạt.</s>
+ <s id="87">Không chỉ các động lực kinh tế và động lực bên trong không tương xứng, mà sự thiếu nhất quán còn có thể kéo dài trong 1 thời gian dài.</s>
+ <s id="88">Vậy thủ thuật trong thiết kế các tình huống này là để hiểu được bạn đang phụ thuộc vào phần kinh tế nào trong cuộc thỏa thuận -- như với các vị phụ huynh trả cho các giáo viên -- và khi nào bạn phụ thuộc vào phần xã hội của cuộc thỏa thuận, khi nào bạn thực sự thiết kế cho sự hào phóng.</s>
+ <s id="89">Điều nay khiến tôi quay trở lại với những con mèo vui nhộn và với Ushahidi.</s>
+ <s id="90">Theo tôi, phạm vi là vấn đề chủ chốt.</s>
+ <s id="91">Cả 2 cái này đều phụ thuộc vào thặng dư nhận thức.</s>
+ <s id="92">Cả 2 đều thiết kế vì giả định rằng mọi người thích tạo ra và chúng ta muốn chia sẻ.</s>
+ <p id="p93">
+  <s id="93.1">Đây là điểm khác biệt chủ yếu giữa chúng.</s>
+  <s id="93.2">Các con mèo vui nhộn là giá trị chung.</s>
+ </p>
+ <s id="94">Giá trị của nó được tạo thành từ những người tham gia với nhau.</s>
+ <p id="p95">
+  <s id="95.1">Giá trị chung trên mạng mà chúng ta có ở khắp mọi nơi.</s>
+  <s id="95.2">Mỗi lần bạn thấy 1 dữ liệu lớn lấy từ trang web khác hoặc được chia sẻ và công khai, dù là ảnh trên Flickr hay các video trên Youtube...</s>
+ </p>
+ <p id="p96">
+  <s id="96.1">Tuyệt.</s>
+  <s id="96.2">Tôi thích các con mèo này như anh chàng tiếp theo có khi còn thích hơn.</s>
+  <s id="96.3">Nhưng đây cũng là 1 vấn đề được giải quyết rộng rãi.</s>
+ </p>
+ <s id="97">Tôi đã rất khó khăn để mường tượng ra 1 tương lai nơi có người nói, " Tôi có thể tìm thấy 1 bức hình con mèo ngộ nghĩnh ở đâu được?"</s>
+ <s id="98">Ngược lại Ushahidi là 1 giá trị công dân.</s>
+ <s id="99">Giá trị đó được tạo thành bởi những người tham gia, nhưng có ích cho toàn bộ xã hội.</s>
+ <s id="100">Mục tiêu đề ra của Ushahidi là không chỉ cải thiện cuộc sống tốt đẹp hơn cho những thành viên tham gia mà cho tất cả mọi người trong xã hội nơi Ushahidi đang hoạt động.</s>
+ <s id="101">Và loại giá trị công dân đó không chỉ là hiệu ứng phụ của việc mở rộng tới động lực con người.</s>
+ <s id="102">Nó sẽ là 1 hiệu ứng phụ của các nỗ lực từ con người.</s>
+ <s id="103">Có 1 nghìn tỷ giờ giá trị tham gia mỗi năm cho chúng ta khai thác.</s>
+ <s id="104">Điều đó luôn đúng từ năm này qua năm khác.</s>
+ <p id="p105">
+  <s id="105.1">Số lượng người có thể tham gia vào các dự án như thế đang tăng dần.</s>
+  <s id="105.2">Và chúng ta có thể thấy rằng các tổ chức được thiết kế trên cơ sở nền văn hóa hào phóng có thể đạt được các ảnh hưởng khó tin mà không cần 1 lượng lớn chi phí theo thỏa thuận.</s>
+  <s id="105.3">Một mô hình rất khác biệt so với mô hình mặc định cho hoạt động nhóm quy mô lớn của chúng ta trong thế kỷ 20.</s>
+ </p>
+ <s id="106">Những gì Dean Kamen, nhà phát minh và doanh nhân nói sẽ làm nên sự khác biệt ở đây.</s>
+ <s id="107">Kamen nói, " các nền văn hóa tự do có những thứ mà chúng tán dương,"</s>
+ <s id="108">Trước chúng ta có 1 lựa chọn.</s>
+ <s id="109">Chúng ta có 1 nghìn tỷ giờ 1 năm này.</s>
+ <s id="110">Chúng ta có thể dùng nó để tán dương nhau, và chúng ta sẽ làm thế.</s>
+ <s id="111">Miễn phí.</s>
+ <s id="112">Nhưng chúng ta cũng có thể ca ngợi ủng hộ và khen thưởng những con người cố gắng sử dụng thặng dư nhận thức để tạo ra giá trị công dân.</s>
+ <s id="113">Và khi đạt tới trình độ đó chúng ta sẽ có thể thay đổi xã hội.</s>
+ <s id="114">Xin cảm ơn quý vị rất nhiều.</s>
+</text>

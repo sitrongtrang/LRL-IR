@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Trong một trận cháy lớn trên đồng cỏ Ba chú sư tử và ba chú linh dương đầu bò cố gắng chạy trốn để sống sót</s>
+ <s id="2">Để chạy thoát khỏi địa ngục lửa Chúng phải vượt qua dòng sông đầy cá sấu</s>
+ <s id="3">May mắn thay, có một tấm bè gỗ ở gần đó</s>
+ <s id="4">Nó chở được nhiều nhất hai con một lúc và cần ít nhất một sư tử hoặc một linh dương đầu bò ở trên bè để vượt qua sông</s>
+ <s id="5">Chỉ có một vấn đề</s>
+ <s id="6">Nếu số lượng sư tử nhiều hơn số linh dương đầu bò ở bất cứ bờ bên nào của dòng sông, dù chỉ một lúc thôi, bản năng của chúng sẽ trỗi dậy, hậu quả sẽ rất thảm khốc.</s>
+ <s id="7">Ngay cả các con vật đã sang bờ bên kia.</s>
+ <s id="8">Vậy có cách nào nhanh nhất để đưa các con vật qua sông mà lũ sư tử không dừng lại để ăn bữa tối?</s>
+ <s id="9">Dừng lại một lúc nếu bạn muốn tự tìm hiểu.</s>
+ <s id="10">Trả lời trong: 3 Trả lời trong: 2 Trả lời trong: 1 Nếu gặp khó khăn, hãy thử liệt kê tất cả giải pháp bạn có thể nghĩ đến và kết quả của mỗi giải pháp đó.</s>
+ <p id="p11">
+  <s id="11.1">Ví dụ như: có 5 lựa chọn xem ai sẽ qua sông trước tiên.</s>
+  <s id="11.2">Một linh dương đầu bò, Một sư tử, hai linh dương đầu bò, hai sư tử, hoặc mỗi loại một con.</s>
+ </p>
+ <s id="12">Nếu chỉ có một con qua sông, Nó sẽ lại phải quay lại.</s>
+ <s id="13">Và nếu hai con linh dương sang trước, con còn lại sẽ bị ăn ngay lập tức.</s>
+ <s id="14">Vậy hai lựa chọn này đều không được.</s>
+ <s id="15">Nếu hai con sư tử qua trước, hoặc mỗi loại một con, đều có thể dẫn đến giải pháp với số lượt di chuyển bằng nhau.</s>
+ <s id="16">Vì vấn đề thời gian, ta sẽ tập trung vào cách thứ hai.</s>
+ <s id="17">Mỗi loại một con trên bè.</s>
+ <s id="18">Giờ nếu con linh dương ở lại và con sư tử quay sang bờ bên kia, sẽ có 3 con sư tử ờ bờ bên phải.</s>
+ <s id="19">Tin xấu cho lũ linh dương.</s>
+ <s id="20">Vậy con sư tử phải ở lại, và con linh dương quay sang bờ bên kia.</s>
+ <s id="21">Giờ ta lại có 5 lựa chọn nữa, với 1 con sư tử ở bờ bên trái.</s>
+ <p id="p22">
+  <s id="22.1">Nếu 2 con linh dương qua sông, con còn lại sẽ bị ăn.</s>
+  <s id="22.2">Và nếu mỗi loại 1 con qua sông, con linh dương trên bè sẽ gặp nguy hiểm ngay khi nó sang được bờ bên kia.</s>
+ </p>
+ <s id="23">Vậy đó là ngõ cụt, có nghĩa là ở lần đi thứ ba, chỉ có 2 con sư tử được đi.</s>
+ <s id="24">Một con xuống khỏi bè, vậy là có 2 con sư tử ở bờ bên trái.</s>
+ <s id="25">Con sư tử thứ ba quay trở lại bờ bên kia, Nơi những con linh dương đang đợi.</s>
+ <s id="26">Giờ thì sao?</s>
+ <s id="27">Ta đã có 2 con sư tử chờ ở bở bên trái, Lựa chọn duy nhất là Hai con linh dương lên bè.</s>
+ <s id="28">Tiếp đó, 2 con linh dương trở lại chẳng có nghĩa lý gì cả vì việc đó sẽ lặp lại bước trước.</s>
+ <s id="29">Và nếu 2 con sư tử trở lại, số sư tử sẽ nhiều hơn ở bờ bên phải</s>
+ <s id="30">Vậy 1 sư tử và 1 linh dương quay lại, vậy mỗi loại 1 con ở bờ trái, và mỗi loại 2 con ở bờ phải.</s>
+ <s id="31">Một lần nữa, Sẽ là vô ích nếu để một cặp sư tử-linh dương sang sông Vậy chuyến tiếp theo sẽ là 1 cặp sư tử hoặc 1 cặp linh dương đầu bò.</s>
+ <s id="32">Nếu lũ sư tử đi, chúng sẽ ăn con linh dương ở bờ trái, vậy chúng phải ở lại, và 2 con linh dương sẽ qua sông.</s>
+ <s id="33">Giờ thì ta đã rất gần với kết quả vì 3 con linh dương đầu bò đã đến nơi chúng cần đến, an toàn về số lượng.</s>
+ <s id="34">Bước cuối cùng là để con sư tử quay lại và đưa bạn của nó sang sông, từng con một.</s>
+ <s id="35">Tổng cộng có 11 chuyến đi, con số nhỏ nhất để đưa các con vật qua sông an toàn.</s>
+ <s id="36">Giải pháp đưa 2 con sư tử sang ở bước đầu tiên cũng như vậy, cũng có 11 chuyến đi.</s>
+ <s id="37">6 con vật chạy thoát kịp thời khỏi đám cháy và bắt đầu cuộc sống mới ở bên kia của con sông.</s>
+ <s id="38">Tất nhiên, giờ nguy hiểm đã qua, liệu chúng có còn đoàn kết được như vậy không lại là một chuyện khác</s>
+</text>

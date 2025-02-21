@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Các thuật toán của máy tính ngày nay đang thực hiện những công việc phi thường với độ chính xác cao ở qui mô lớn, giống như trí thông minh của con người.</s>
+ <s id="2">Trí thông minh của máy tính vẫn thường được gọi là AI hay trí tuệ nhân tạo.</s>
+ <s id="3">AI đã sẵn sàng tạo ra tác động đáng kể đối với cuộc sống con người ở tương lai.</s>
+ <s id="4">Tuy vậy, ngày nay chúng ta vẫn đang đối đầu với những thách thức gian nan trong việc xác định và chẩn đoán một số bệnh đe dọa mạng sống con người như các bệnh truyền nhiễm và ung thư.</s>
+ <s id="5">Mỗi năm có hàng ngàn người đã chết vì ung thư gan và miệng.</s>
+ <s id="6">Cách tốt nhất để chúng ta giúp họ là phát hiện và chẩn đoán sớm những căn bệnh này.</s>
+ <s id="7">Chúng ta làm việc đó bằng cách nào và liệu trí tuệ nhân tạo có thể hỗ trợ?</s>
+ <s id="8">Đối với những bệnh nhân không may bị nghi ngờ mắc bệnh, đầu tiên bác sĩ sẽ yêu cầu sử dụng những công nghệ hình ảnh y khoa đắt đỏ, như chụp chiếu huỳnh quang, CT hay MRI.</s>
+ <s id="9">Sau khi thu thập được những hình ảnh, một chuyên gia khác sẽ chẩn đoán dựa vào những ảnh trên và trao đổi với bệnh nhân.</s>
+ <s id="10">Như bạn thấy, đây là một quá trình chuyên sâu và tốn kém nhiều tài nguyên, cần có những chuyên gia cùng các thiết bị hình ảnh đắt đỏ, và điều đó không thực tế đối với các nước đang phát triển.</s>
+ <s id="11">Thực ra ở nhiều nước công nghiệp hóa cũng vậy.</s>
+ <s id="12">Vậy làm sao ta có thể giải quyết vấn đề bằng trí tuệ nhân tạo ?</s>
+ <s id="13">Ngày nay, nếu tôi phải dùng các mô hình trí tuệ nhân tạo truyền thống để giải quyết vấn đề này, tôi sẽ cần 10,000 -- tôi nhắc lại, cần 10,000 ảnh y khoa đắt đỏ đầu tiên phải được chụp.</s>
+ <s id="14">Sau đó, tôi sẽ đến một chuyên gia để người đó phân tích những tấm ảnh.</s>
+ <s id="15">Và sử dụng hai thông tin đó, tôi có thể tạo ra một liên kết nơ-ron nhân tạo tiêu chuẩn hoặc nghiên cứu sâu để chẩn đoán bệnh.</s>
+ <s id="16">Tương tự như vậy, trí tuệ nhân tạo truyền thống cũng trải qua vấn đề đó.</s>
+ <s id="17">Khối lượng dữ liệu lớn, bác sĩ hàng đầu và những chuyên gia về công nghệ hình ảnh.</s>
+ <s id="18">Vậy chúng ta có thể phát minh ra mô hình mở rộng mang tính hiệu quả và nhiều kiến trúc trí tuệ nhân tạo đáng giá hơn để xử lí các vấn đề quan trọng mà ta đang đối mặt ngày nay ?</s>
+ <s id="19">Và đây là những việc nhóm phòng thí nghiệm truyền thông MIT thực hiện.</s>
+ <s id="20">Chúng tôi đã phát minh ra nhiều kiến trúc AI không chính thống để giải quyết một số thách thức quan trọng nhất mà ta đang gặp phải trong kĩ thuật ảnh y khoa và các thử nghiệm lâm sàng.</s>
+ <s id="21">Ở ví dụ đã chia sẻ với các bạn hôm nay, chúng tôi có hai mục tiêu.</s>
+ <s id="22">Đầu tiên là giảm số lượng hình ảnh cần để huấn luyện các thuật toán trí tuệ nhân tạo.</s>
+ <s id="23">Thứ hai-- chúng tôi có tham vọng hơn thế nữa, chúng tôi muốn giảm đi việc sử dụng các kỹ thuật hình ảnh y khoa đắt đỏ để chụp bệnh nhân.</s>
+ <s id="24">Vậy chúng tôi đã làm thế nào?</s>
+ <s id="25">Đối với mục tiêu đầu tiên, thay vì bắt đầu với hàng nghìn ảnh chụp y khoa đắt tiền, như AI truyền thống, chúng tôi bắt đầu với một ảnh y khoa.</s>
+ <s id="26">Từ ảnh này, nhóm tôi đã tìm ra một cách rất thông minh trích ra hàng tỉ gói thông tin.</s>
+ <s id="27">Các gói thông tin này bao gồm màu sắc, điểm ảnh, khối hình học và tập hợp lại các bệnh trên ảnh y khoa.</s>
+ <s id="28">Nói cách khác, chúng tôi đã chuyển một ảnh thành hàng tỉ dữ liệu huấn luyện, giảm một khối lượng lớn các dữ liệu cần thiết cho việc huấn luyện.</s>
+ <s id="29">Đối với mục tiêu thứ hai, để hạn chế sử dụng các công nghệ đắt tiền cho bệnh nhân, chúng tôi bắt đầu với một bức ảnh ánh sáng trắng chuẩn, được lấy từ máy ảnh DSLR hay điện thoại, từ bệnh nhân.</s>
+ <s id="30">Các bạn còn nhớ hàng tỉ gói thông tin đó không?</s>
+ <s id="31">Chúng tôi phủ chúng lên tấm ảnh này, tạo ra thứ mà chúng tôi gọi là ảnh tổng hợp.</s>
+ <s id="32">Chúng tôi rất ngạc nhiên khi chỉ cần 50-- tôi nhắc lại, chỉ 50 tấm ảnh tổng hợp-- để huấn luyện các thuật toán của mình đạt hiệu quả cao.</s>
+ <s id="33">Tóm lại, thay vì 10,000 hình ảnh y khoa cực kì đắt đỏ, chúng ta bây giờ có thể dùng thuật toán AI theo cách không chính thống, chỉ cần 50 bức ảnh chuẩn có độ phân giải cao, được lấy từ máy ảnh DSLR hay điện thoại, để chẩn đoán.</s>
+ <s id="34">Quan trọng hơn thế, thuật toán của chúng tôi có thể chấp nhận, trong tương lai và cả hiện tại, những bức ảnh với ánh sáng trắng đơn giản từ bệnh nhân, thay vì các công nghệ hình ảnh y khoa đắt tiền.</s>
+ <s id="35">Tôi tin rằng chúng ta sẵn sàng để bước vào một kỉ nguyên nơi mà trí tuệ nhân tạo sẽ tạo ra những ảnh hưởng khó tin trong tương lai.</s>
+ <s id="36">Và tôi cho rằng ý kiến về AI truyền thống, thứ giàu tài nguyên nhưng ít ứng dụng, chúng ta nên suy nghĩ thêm về các mô hình trí tuệ nhân tạo không chính thống, chỉ cần một lượng nhỏ dữ liệu để giải quyết các vấn đề quan trọng nhất mà chúng ta đang đối mặt ngày nay, nhất là việc chăm sóc sức khỏe.</s>
+ <s id="37">Cảm ơn rất nhiều.</s>
+ <s id="38">(Vỗ tay)</s>
+</text>

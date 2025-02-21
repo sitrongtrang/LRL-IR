@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Thống kê rất có tính thuyết phục.</s>
+ <s id="2">Đến nỗi nhiều người, tổ chức, và đất nước đưa ra các quyết định quan trọng dựa trên số liệu.</s>
+ <s id="3">Nhưng thống kê có một vấn đề.</s>
+ <s id="4">Bất cứ số liệu thống kê nào cũng có điều ẩn chứa đằng sau, điều có thể hoàn toàn đảo lộn kết quả.</s>
+ <s id="5">Ví dụ như tưởng tượng bạn sẽ chọn một trong hai bệnh viện để phẫu thuật cho người thân lớn tuổi của bạn.</s>
+ <s id="6">Trong số 1000 bệnh nhân gần đây của mỗi bệnh viện, 900 người sống sót ở bệnh viện A, trong khi chỉ có 800 sống sót ở bệnh viện B.</s>
+ <s id="7">Vậy nên có vẻ bệnh viện A là lựa chọn tốt hơn.</s>
+ <s id="8">Nhưng trước khi quyết định, nhớ rằng không phải tất cả bệnh nhân đến bệnh viện với tình trạng sức khỏe giống nhau.</s>
+ <s id="9">Và nếu ta chia 1000 bệnh nhân ở mỗi bệnh viện thành nhóm người có sức khỏe tốt và nhóm có sức khỏe kém, bạn sẽ thấy sự khác biệt.</s>
+ <s id="10">Bệnh viện A chỉ có 100 bệnh nhân có sức khỏe kém, mà chỉ có 30 người sống sót.</s>
+ <s id="11">Nhưng bệnh viện B có 400 người nhưng lại cứu sống 210 người.</s>
+ <s id="12">Vì thế bệnh viện B là lựa chọn tốt hơn cho bệnh nhân có tình trạng sức khỏe xấu, với tỉ lệ sống sót là 52.5%.</s>
+ <s id="13">Và nếu sức khỏe người thân bạn tốt khi đến bệnh viện?</s>
+ <s id="14">Lạ lùng là bệnh viện B vẫn tốt hơn, với tỉ lệ sống sót là 98%.</s>
+ <s id="15">Vậy làm sao bệnh viện A lại có tỉ lệ sống sót cao hơn khi bệnh viện B có tỉ lệ bệnh nhân sống sót ở mỗi nhóm cao hơn?</s>
+ <s id="16">Vấn đề ta gặp phải gọi là Nghịch lí Simpson, khi nhóm số liệu giống nhau cho các xu hướng trái ngược dựa vào cách nó được phân nhóm.</s>
+ <s id="17">Điều này thường xảy ra khi dữ liệu tổng hợp mất một biến có điều kiện đôi khi được gọi là biến ẩn, là một yếu tố gián tiếp gây ảnh hưởng lớn đến kết quả.</s>
+ <s id="18">Ở đây, yếu tố gián tiếp là lượng bệnh nhân đến trong tình trạng sức khỏe tốt hay kém.</s>
+ <s id="19">Nghịch lí Simpston không chỉ xuất hiện trong lí thuyết.</s>
+ <s id="20">Nó còn hay xuất hiện trong cuộc sống, thỉnh thoảng còn trong các trường hợp quan trọng.</s>
+ <s id="21">Một nghiên cứu ở Anh cho thấy lượng người hút thuốc sống sót nhiều hơn người không hút trong khoảng thời gian 20 năm.</s>
+ <s id="22">Tuy nhiên, khi chia người tham gia nghiên cứu theo nhóm tuổi trung bình người không hút thuốc lớn tuổi hơn nhiều, và vì thế dễ chết trong thời gian thí nghiệm, phần vì họ nhìn chung sống lâu hơn.</s>
+ <s id="23">Ở đây, nhóm tuổi chính là biến ẩn, và quyết định đến tính đúng đắn của số liệu.</s>
+ <s id="24">Trong trường hợp khác, một phân tích các vụ tử hình ở Florida cho thấy không có sự phân biệt sắc tộc khi tuyên án giữa những người da trắng và da đen bị kết tội giết người.</s>
+ <s id="25">Nhưng khi chia các trường hợp theo sắc tộc lại có sự khác biệt.</s>
+ <s id="26">Trong mỗi trường hợp, bị cáo da đen có xu hướng bị án tử hình hơn.</s>
+ <s id="27">Nhìn chung tỉ lệ tuyên án cho bị cáo da trắng cao hơn bởi vì trường hợp các nạn nhân là người da trắng có xu hướng đưa ra án tử hình, hơn trường hợp nạn nhân là người da đen, và phần lớn vụ giết người diễn ra giữa nguời cùng màu da.</s>
+ <s id="28">Vậy làm sao để tránh nghịch lí này?</s>
+ <s id="29">Tiếc rằng, không có câu trả lời nào đúng cho mọi trường hợp.</s>
+ <s id="30">Số liệu có thể được nhóm lại và chia ra theo nhiều cách khác nhau, và các số liệu tổng hợp thường đưa ra kết quả chính xác hơn là số liệu được phân chia thành các nhóm không phù hợp.</s>
+ <s id="31">Những gì ta có thể làm là khảo sát kĩ các tình huống thực tế được mô tả và xem xét khả năng xuất hiện của các thay đổi ẩn.</s>
+ <s id="32">Nếu không, ta sẽ dễ trở thành đối tượng của những người dùng thông tin để chi phối người khác và phục vụ cho lợi ích của bản thân.</s>
+</text>

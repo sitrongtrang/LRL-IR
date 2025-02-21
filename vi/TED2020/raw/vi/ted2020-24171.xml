@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Con người đã có hứng thú với tốc độ từ rất lâu.</s>
+ <s id="2">Lịch sử tiến hóa của con người gắn liền với một tốc độ tăng liên tục, và một trong những thành tựu quan trọng nhất trong tiến trình lịch sử đó là phá vỡ hàng rào âm thanh.</s>
+ <s id="3">Không lâu sau khi chiếc phi cơ đầu tiên thành công, các phi công đã luôn khao khát làm cho máy bay của họ ngày một nhanh hơn.</s>
+ <s id="4">Nhưng khi họ làm vậy lại càng tăng thêm sự hỗn loạn và lực tác động lên máy bay, điều đó làm ngăn chặn máy bay bay nhanh hơn.</s>
+ <s id="5">Một số đã thử giải quyết vấn đề bằng cách thực hiện những cú nhào lộn nguy hiểm thường dẫn đến hậu quả nghiêm trọng.</s>
+ <s id="6">Cuối cùng, vào năm 1947, bản thiết kế được cải tiến như bộ thăng bằng ngang di động, đuôi di động, phi công người Mỹ Chuck Yeager đã lái chiếc máy bay Bell X-1 với vận tốc 1127km/h, trở thành người đầu tiên phá vỡ hàng rào âm thanh và di chuyển nhanh hơn cả tốc độ âm thanh.</s>
+ <s id="7">Chiếc Bell X-1 là một trong những chiếc máy bay siêu thanh đầu tiên được thực hiện và các thiết kế sau đã đạt được tới tốc độ số Mach 3( tốc độ siêu thanh)</s>
+ <s id="8">Ở tốc độ siêu âm máy bay sẽ tạo ra sóng xung kích với tiếng động lớn như sấm chớp được biết đến là một quả bom âm thanh, nó có thể gây nguy hiểm cho người và động vật bên dưới. hoặc thậm chí phá vỡ các tòa nhà.</s>
+ <s id="9">Bởi vậy, các nhà khoa học trên thể giới vẫn đang tìm kiếm các quả bom âm thanh và cố gắng tìm ra đường đi của chúng trong khí quyển nơi mà chúng sẽ truyền xuống mặt đất và biên độ của chúng.</s>
+ <s id="10">Để hiểu rõ thêm về cách các nhà khoa học nghiên cứu bom âm thanh, hãy bắt đầu với một vài điều cơ bản về âm thanh.</s>
+ <s id="11">Thử tưởng tượng khi ta ném một hòn đá xuống một mặt hồ phẳng lặng.</s>
+ <s id="12">Bạn có thấy điều gì?</s>
+ <s id="13">Hòn đá ấy tạo nên các gợn sóng với cùng tốc độ ở các hướng khác nhau.</s>
+ <s id="14">Những vòng tròn có bán kính tăng dần này được gọi là sóng phẳng.</s>
+ <s id="15">Cũng tương tự vậy, tuy ta không thể thấy, một nguồn phát âm, như máy radio cũng tạo nên các sóng di chuyển như vậy.</s>
+ <s id="16">Tốc độ của các sóng ấy phụ thuộc các yếu tố như độ cao, nhiệt độ trong không khí nơi chúng di chuyển qua</s>
+ <s id="17">Ở mực nước biển, tốc độ âm thanh khoảng 1225 km/h.</s>
+ <s id="18">Thay vì các vòng tròn trong mặt phẳng hai chiều, các sóng phẳng bây giờ là các khối cầu đồng tâm, và âm thanh chuyển động theo các tia vuông góc với các sóng này.</s>
+ <s id="19">Còn giờ hãy tưởng tượng tới nguồn âm di động như là tiếng còi tàu hỏa.</s>
+ <s id="20">Khi nguồn âm di chuyển về một phía cố định những sóng liên tiếp ở trước nó sẽ bị ép lại sát nhau hơn.</s>
+ <s id="21">Những tần số âm lớn này là hệ quả của một hiệu ứng nổi tiếng: Doppler khi mà những vật phát ra âm thanh với cao độ cao hơn.</s>
+ <s id="22">Nhưng miễn là nguồn âm chuyển động chậm hơn sóng âm của chúng, chúng vẫn lồng vào nhau như bình thường.</s>
+ <s id="23">Khi một vật trở thành siêu thanh, di chuyển nhanh hơn âm thanh chúng phát ra thì sự việc thay đổi đáng kể.</s>
+ <s id="24">Vì nó vượt qua sóng âm mà nó phát ra, trong khi vẫn phát ra sóng âm ở vị trí hiện tại, các sóng âm dồn lại với nhau, tạo nên hình nón Mach.</s>
+ <s id="25">Khi nó tiến gần tới, người quan sát sẽ không nghe được gì cả vì nó đi nhanh hơn âm thanh mà nó phát ra.</s>
+ <s id="26">Chỉ sau khi vật ấy đi qua, người quan sát sẽ nghe được âm thanh cực lớn.</s>
+ <s id="27">Khi hình nón Mach tới mặt đất, nó tạo nên hình hy-bec-bôn, để lại một vệt gọi là thảm bom khi nó di chuyển về trước.</s>
+ <s id="28">Điều này cho phép ta xác định được vùng chịu ảnh hưởng bởi bom âm thanh.</s>
+ <s id="29">Vậy làm sao để biết được sức mạnh của bom âm thanh?</s>
+ <s id="30">Ta phải giải được phương trình Navier - Stokes nổi tiếng để tìm được sự thay đổi áp suât trong không khí khi máy bay siêu thanh bay ngang qua.</s>
+ <s id="31">Điều này dẫn đến dấu hiệu áp suât sóng N.</s>
+ <s id="32">kí hiệu này có ý nghĩa gì?</s>
+ <s id="33">Bom âm thanh xảy ra khi có sự thay đổi bất ngờ về áp suất, và sóng N liên quan tới cả 2 âm thanh lớn: một khi áp suất bắt đầu tăng ở mũi máy bay và cái còn lại là khi đuôi máy bay đi qua, và áp suất bất ngờ trở lại như cũ.</s>
+ <s id="34">Điều này gây ra âm thanh kép lớn, nhưng đối với người thường chỉ là 1 lần.</s>
+ <s id="35">Trong thực tế, máy tính mẫu dùng các nguyên lí này để dự đoán vị trí và độ mạnh của bom âm thanh từ các điều kiện không khí và đường bay đã cho, từ đó nghiên cứu cách giảm nhẹ hậu quả của chúng.</s>
+ <s id="36">Trong lúc ấy, những chuyến bay siêu thanh xuyên lục địa vẫn bị cấm.</s>
+ <s id="37">Vậy, bom âm thanh có phải sự sáng tạo mới đây không?</s>
+ <s id="38">Không hẳn thế.</s>
+ <s id="39">Khi chúng ta đang tìm cách làm chúng yên lặng một vài loài động vật đã sử dụng bom âm thanh.</s>
+ <s id="40">Loài khủng long Diplodocus đã có khả năng vẫy đuôi với tốc độ nhanh hơn âm thanh, hơn 1200km/h, để đe dọa kẻ thù.</s>
+ <s id="41">Một số loài tôm cũng có thể tạo ra sóng tương tự ở dưới nước bằng tiếng tách tách từ chiếc càng to lớn của nó để làm choáng hoặc thậm chí giết con mồi ở khoảng cách xa.</s>
+ <s id="42">Trong khi con người vẫn đang có được sự tiến bộ trong những cố gắng không ngừng về tốc độ, thì thiên nhiên đã có được nó từ lâu rồi.</s>
+</text>

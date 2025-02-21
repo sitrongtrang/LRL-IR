@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Ban nhạc yêu thích của bạn chơi nhạc rất đỉnh, nhưng lại chẳng gọn gàng chút nào.</s>
+ <s id="2">Khi lưu diễn, họ để nhạc cụ rất lộn xộn, và điều đó khiến người quản lý phát bực.</s>
+ <s id="3">Vào một đêm diễn quan trọng, ban nhạc thức dậy và thấy mình bị trói trong căn phòng cách âm, không có cửa sổ.</s>
+ <s id="4">Người quản lý giải thích với họ rằng,</s>
+ <s id="5">ngoài kia có 10 chiếc hộp lớn.</s>
+ <s id="6">Mỗi hộp chứa một loại nhạc cụ của các cậu, nhưng đừng tin những bức hình trên hộp vì chúng được dán ngẫu nhiên.</s>
+ <s id="7">Tôi chỉ cho một trong các cậu ra ngoài một lần.</s>
+ <s id="8">Khi các cậu ra ngoài, chỉ được nhìn vào 5 hộp bất kì trước khi bảo vệ đem các cậu ra xe lưu diễn.</s>
+ <s id="9">Các cậu không được chạm vào nhạc cụ hoặc thông báo cho người khác biết thứ mình thấy.</s>
+ <p id="p10">
+  <s id="10.1">Không đánh dấu, la hét.</s>
+  <s id="10.2">Không làm gì cả.</s>
+ </p>
+ <s id="11">Nếu một trong các cậu tìm được nhạc cụ của mình, người đó có thể biểu diễn tối nay.</s>
+ <s id="12">Nếu không, công ty sẽ loại bỏ người đó.</s>
+ <s id="13">Các cậu có ba phút suy nghĩ trước khi chúng ta bắt đầu.</s>
+ <s id="14">Ban nhạc hoàn toàn tuyệt vọng.</s>
+ <s id="15">Mỗi người chỉ có 50% cơ hội tìm được nhạc cụ của mình bằng cách chọn năm hộp bất kì.</s>
+ <s id="16">Và cơ hội để cả 10 người cùng thành công còn thấp hơn thế - chỉ 1 trên 1024.</s>
+ <s id="17">Bỗng tay trống của ban nhạc nghĩ ra một kế hoạch khả quan mà có hơn 35% cơ hội thành công.</s>
+ <s id="18">Bạn có nghĩ ra được kế hoạch đó không?</s>
+ <s id="19">Dừng đoạn phim này nếu bạn muốn tự mình tìm ra!</s>
+ <s id="20">Câu trả lời trong: 3 Câu trả lời trong: 2 Câu trả lời trong: 1 Đây là những gì tay trống nói: Đầu tiên, mọi người mở chiếc hộp có hình nhạc cụ của mình.</s>
+ <s id="21">Nếu nhạc cụ của người đó ở trong, vậy là xong.</s>
+ <s id="22">Còn không, nhìn xem nhạc cụ gì trong đó, và mở hộp tiếp theo với hình nhạc cụ đó.</s>
+ <s id="23">Tiếp tục làm như vậy đến khi tìm được nhạc cụ của mình.</s>
+ <s id="24">Thành viên ban nhạc đều không tin, nhưng kì diệu là mọi người đều tìm được thứ họ cần.</s>
+ <s id="25">Vài tiếng sau, họ đang chơi nhạc cho hàng nghìn người hâm mộ cuồng nhiệt.</s>
+ <s id="26">Vậy vì sao kế hoạch của tay trống lại thành công?</s>
+ <s id="27">Mỗi người đều làm theo một trình tự, bắt đầu với chiếc hộp có hình là nhạc cụ của mình và kết thúc là chiếc hộp thực sự chứa nó.</s>
+ <s id="28">Nhớ rằng nếu họ tiếp tục làm như vậy, họ sẽ quay về điểm bắt đầu, tạo thành một vòng tròn.</s>
+ <s id="29">Ví dụ những chiếc hộp được sắp xếp thế này cô ca sĩ sẽ mở hộp đầu tiên và thấy bộ trống, mở hộp thứ tám thấy cây bass, và tìm thấy chiếc mic của mình trong hộp thứ ba, cái mà chỉ về hộp đầu tiên.</s>
+ <p id="p30">
+  <s id="30.1">Làm thế này tốt hơn nhiều so với việc đoán ngẫu nhiên bởi vì bắt đầu bằng chiếc hộp có hình nhạc cụ của mình, việc tìm kiếm của mỗi người bị giới hạn đến vòng xoay chứa nhạc cụ của mình.</s>
+  <s id="30.2">Có khoảng 35% khả năng là tất cả các vòng đều là năm hộp hay ít hơn.</s>
+ </p>
+ <s id="31">Làm sao ta tính ra xác suất này?</s>
+ <s id="32">Để cho dễ dàng, chúng ta sẽ xem xét với trường hợp đơn giản nhất, bốn nhạc cụ và nhiều nhất hai lần đoán cho mỗi nhạc công.</s>
+ <s id="33">Bắt đầu bằng việc tìm xác suất thất bại, khả năng mà người đó phải mở ba hoặc bốn hộp để tìm ra nhạc cụ của mình.</s>
+ <s id="34">Có sáu vòng khác nhau gồm bốn hộp.</s>
+ <s id="35">Một cách vui nhất để đếm chúng là vẽ một hình vuông, để mỗi nhạc cụ ở mỗi góc, và nối các đường.</s>
+ <s id="36">Xem bạn có thể tìm bao nhiêu vòng khác nhau, nhớ rằng hai vòng này là một, chẳng qua chúng bắt đầu ở điểm khác nhau.</s>
+ <s id="37">Còn hai vòng này lại khác nhau.</s>
+ <s id="38">Với tam giác, ta cũng có thể hình ảnh hóa tám vòng khác nhau gồm ba chiếc hộp.</s>
+ <s id="39">Bạn sẽ tìm thấy bốn tam giác khả thi tùy thuộc vào loại nhạc cụ bạn bỏ ra, và hai đường phân biệt trên mỗi tam giác.</s>
+ <s id="40">Trong 24 khả năng kết hợp của những chiếc hộp có 14 khả năng là thất bại, và 10 khả năng thành công.</s>
+ <s id="41">Chiến lược tính toán này áp dụng cho bất kì số lượng nhạc công chẵn nào, nhưng nếu bạn muốn tóm lược, nó sẽ khái quát thành một phương trình tiện dụng.</s>
+ <s id="42">Với mười nhạc công, ta có 35% xác suất thành công.</s>
+ <s id="43">Vậy nếu có 1000 nhạc công?</s>
+ <s id="44">1000000?</s>
+ <s id="45">Khi số lượng tăng, xác suất dần tiến tới 30%.</s>
+ <s id="46">Dù không chắc chắn, nhưng với một chút may mắn, ta vẫn có cơ hội.</s>
+ <s id="47">Chào mọi người, nếu bạn thích câu đố này, thử giải hai câu này nữa.</s>
+</text>

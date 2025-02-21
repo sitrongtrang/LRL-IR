@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Trông như một tập hợp các số được sắp xếp theo thứ tự nhưng lại là một kho báu toán học.</s>
+ <s id="2">Những nhà toán học Ấn Độ gọi nó là Nấc thang lên đỉnh Tu Di.</s>
+ <s id="3">Ở Iran, nó có tên Tam giác Khayyam</s>
+ <s id="4">Và ở Trung Quốc, là Tam giác Dương Huy.</s>
+ <s id="5">Ở hầu hết các nước phương Tây, nó được biết đến với tên Tam giác Pascal, đặt theo tên nhà toán học người Pháp, Bryce Pascal, nghe có vẻ hơi bất công vì rõ ràng khám phá của ông muộn hơn những người khác nhưng ông vẫn có nhiều đóng góp.</s>
+ <s id="6">Vậy điều gì khiến nó hấp dẫn các nhà toán học trên thế giới đến vậy?</s>
+ <s id="7">Nói ngắn gọn, nó chứa đầy quy luật và bí ẩn.</s>
+ <s id="8">Trước nhất là quy tắc tạo thành.</s>
+ <s id="9">Bắt đầu với số một, hãy tưởng tượng những số không vô hình ở hai bên.</s>
+ <s id="10">Cộng chúng lại theo cặp, sẽ tạo thành dòng tiếp theo.</s>
+ <s id="11">Hãy lặp lại việc này.</s>
+ <s id="12">Cứ tiếp tục như vậy, bạn có được một tam giác như thế này, dù thực tế, Tam giác Pascal có thể đến vô tận.</s>
+ <s id="13">Mỗi dòng ứng với các hệ số trong khai triển nhị thức có dạng (x+y)^n, trong đó n là số dòng, và bắt đầu tính từ số không.</s>
+ <s id="14">Do đó, nếu cho n=2 và khai triển nó, bạn sẽ được: (x^2) + 2xy + (y^2).</s>
+ <s id="15">Hệ số, hay số đứng trước biến, trùng với các con số của dòng tương ứng trong Tam giác Pascal.</s>
+ <s id="16">Bạn sẽ thấy điều tương tự với n=3, được khai triển thành thế này.</s>
+ <s id="17">Dùng tam giác này, ta có thể tra các hệ số này nhanh chóng và dễ dàng.</s>
+ <s id="18">Và hơn thế nữa.</s>
+ <s id="19">Ví dụ, tính tổng các số trên mỗi dòng ta được dãy lũy thừa cơ số 2.</s>
+ <s id="20">Hoặc trên một dòng, coi mỗi số là một phần của khai triển trong hệ thập phân.</s>
+ <s id="21">Nói cách khác, dòng hai được biểu diễn: (1x1)+(2x10)+(1x100).</s>
+ <s id="22">Bạn sẽ có 121, tức 11^2.</s>
+ <s id="23">Hãy xem điều gì xảy ra khi làm tương tự với dòng sáu.</s>
+ <s id="24">Tổng là 1.771.561, tức 11^6,</s>
+ <p id="p25">
+  <s id="25.1">và tiếp tục như vậy.</s>
+  <s id="25.2">Nó cũng có các ứng dụng trong hình học.</s>
+ </p>
+ <s id="26">Hãy nhìn vào các đường chéo.</s>
+ <s id="27">Hai đường đầu tiên không có gì thú vị: toàn số một, và các số nguyên dương, hay còn được gọi là số tự nhiên.</s>
+ <s id="28">Nhưng các số trên đường chéo tiếp theo được gọi là số tam giác vì bạn có thể lấy các điểm đó, xếp chúng thành các tam giác đều.</s>
+ <s id="29">Đường chéo kế tiếp chứa số tứ diện vì đơn giản, bạn có thể xếp chúng thành một tứ diện.</s>
+ <s id="30">Hoặc tô tất cả các số lẻ.</s>
+ <s id="31">Có vẻ như chẳng có gì đặc biệt nếu tam giác này quá nhỏ nhưng nếu thêm vào hàng ngàn dòng, bạn sẽ có một hệ chiết hình gọi là Tam giác Sierpinski.</s>
+ <s id="32">Tam giác này không chỉ là một kiệt tác toán học.</s>
+ <s id="33">Nó còn khá hữu dụng, nhất là với xác suất và tính toán trong ngành toán học tổ hợp.</s>
+ <s id="34">Giả sử bạn muốn có năm người con, và muốn biết xác suất của việc có được gia đình mơ ước với ba con gái và hai con trai.</s>
+ <s id="35">Trong khai triển nhị thức, nó tương ứng với tổng số con gái và con trai, tất cả mũ năm.</s>
+ <s id="36">Hãy cùng nhìn vào dòng thứ năm, số đầu tiên ứng với năm người con gái và số cuối ứng với năm người con trai.</s>
+ <s id="37">Số đứng thứ ba chính là con số ta muốn tìm.</s>
+ <s id="38">Lấy mười chia cho tổng các xác suất trong dòng.</s>
+ <s id="39">Vậy là 10/32, hay 31.25%.</s>
+ <s id="40">Hoặc nếu bạn chọn ngẫu nhiên năm người trong một đội bóng rổ trong một nhóm 12 người, có thể lập được tất cả bao nhiêu nhóm năm người?</s>
+ <s id="41">Trong toán tổ hợp, bài toán này sẽ được biểu diễn dưới dạng tổ hợp chập 5 của 12, và có thể dùng công thức này để tính, hay bạn có thể chỉ nhìn vào số thứ sáu trên dòng 12 của tam giác và tìm được đáp án.</s>
+ <s id="42">Quy luật trong Tam giác Pascal là minh chứng cho cấu trúc đan xen một cách tinh tế của toán học.</s>
+ <s id="43">Cho tới ngày nay, nó vẫn đang tiết lộ thêm những bí mật mới.</s>
+ <s id="44">Ví dụ, các nhà toán học gần đây phát hiện ra cách để khai triển nó cho tới loại đa thức này.</s>
+ <s id="45">Ta có thể tìm thấy gì tiếp theo?</s>
+ <s id="46">Điều đó tùy thuộc vào bạn.</s>
+</text>

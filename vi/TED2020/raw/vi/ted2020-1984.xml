@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Máy tính là một công cụ đầy quyền lực để thể hiện óc sáng tạo, nhưng hầu hết, lại bị giới hạn bởi màn hình máy tính và điện thoại.</s>
+ <s id="2">Tôi muốn kể cho các bạn một câu chuyện về việc dùng sức mạnh của máy tính để di chuyển đồ vật và tương tác với chúng vượt khỏi màn hình đi vào thế giới thật</s>
+ <s id="3">Vài năm trước, tôi nhận được một cuộc gọi từ cửa hàng thời trang cao cấp Barneys New York người ta yêu cầu tôi thiết kế một tác phẩm trưng bày.</s>
+ <s id="4">Với tên gọi "Sự theo đuổi".</s>
+ <s id="5">Có 2 đôi giày, một của nam và một của nữ, chúng di chuyển chậm chạm, căng thẳng rượt đuổi xung quanh tủ kính đôi giày nam theo sau đôi giày nữ ngày một gần hơn sau đó, đôi giày nữ lại di chuyển ra xa.</s>
+ <s id="6">Mỗi đôi giày đều có nam châm đính kèm, và dưới bàn cũng có các nam châm làm chúng di chuyển.</s>
+ <s id="7">Bạn tôi, Andy Cavatora đang lắp ráp một cây đàn hạc rô bốt cho tour diễn Biophilia của Bjork và tôi gắn vào đó hệ thống điện tử và phần mềm điều khiển chuyển động làm cho chuỗi đàn hạc di chuyển và chơi nhạc.</s>
+ <s id="8">Mỗi chiếc đàn hạc có 4 con lắc, mỗi con lắc có 11 dây, chúng dao động quanh trục và luân phiên chơi các nốt khác nhau, chuỗi đàn hạc kết thành một mạng lưới để có thể chơi đúng nốt, đúng nhịp</s>
+ <s id="9">Tôi đã tổ chức một buổi triển lãm hóa học tương tác ở Bảo tàng Khoa học và Công Nghiệp Chicago, tại đây, mọi người sử dụng các vật thể vật lý để tách các nguyên tố hóa học trong bảng tuần hoàn và kết hợp chúng với nhau tạo ra phản ứng hóa học.</s>
+ <s id="10">Bảo tàng nhận thấy người ta dành nhiều thời gian cho buổi triển lãm và một nhà nghiên cứu từ trung tâm giáo dục khoa học ở Úc đã quyết định nghiên cứu và cố gắng hình dung điều đã diễn ra.</s>
+ <s id="11">Cô nhận thấy rằng các vật thể mà con người sử dụng giúp họ tìm ra cách ứng dụng buổi biểu diễn, và giúp mọi người cùng học hỏi.</s>
+ <s id="12">Nghĩ mà xem, thật là có ý nghĩa khi, việc sử dụng các vật thể chuyên dụng có thể giúp con người sử dụng giao diện dễ dàng hơn.</s>
+ <s id="13">Đôi tay lẫn trí tuệ của chúng ta được tối ưu hóa để nghĩ và tương tác với các vật thể hữu hình.</s>
+ <s id="14">Bạn thấy cái nào sử dụng dễ dàng hơn, một bàn phím hiện hữu hay một bàn phím ảo giống như trên điện thoại?</s>
+ <s id="15">Nhưng thứ gây ấn tượng với tôi trong các dự án này là chúng thực sự được xây dựng từ con số 0, từ mức độ của thiết bị điện tử các bản mạch in cùng tất cả các cơ chế làm nên phầm mềm.</s>
+ <s id="16">Tôi muốn tạo ra thứ gì đó cho phép chúng ta điều khiển máy tính để di chuyển các vật thể và tạo ra sự tương tác xung quanh ý tưởng đó mà không phải thiết kế lại từ đầu, mỗi một lần như thế</s>
+ <s id="17">Vì thế, lần đầu tôi thử sức với nó là ở phòng thí nghiệm MIT Media với giáo sư Hiroshi Ishii chúng tôi thiết lập một chuỗi gồm 512 nam châm điện tập hợp lại, chúng có thể di chuyển các vật thể trên bề mặt của chúng.</s>
+ <s id="18">Nhưng vấn đề là giá của những nam châm này lên tới hơn 10.000 đô.</s>
+ <s id="19">Từng cái có kích thước khá nhỏ, nhưng khi tập hợp lại, chúng lại rất nặng đến nỗi cái bàn bị lún xuống.</s>
+ <s id="20">Vì thế, tôi muốn thiết kế cái gì đó cho phép ta tương tác trên bất kì mặt bàn nào.</s>
+ <s id="21">Để triển khai ý tưởng này, tôi đã xây dựng một đội rô bốt nhỏ, được trang bị bánh xe đặc biệt.</s>
+ <s id="22">cho phép chúng di chuyển dễ dàng theo mọi phương hướng, và khi ghép những con rô bốt này lại với máy chiếu video chúng ta có các công cụ vật lý tương tác với thông tin kỹ thuật số.</s>
+ <s id="23">Đây là một ví dụ</s>
+ <s id="24">Đây là một ứng dụng chỉnh sửa video tất cả các điều khiển thao tác là hiện hữu.</s>
+ <s id="25">Nếu muốn tinh chỉnh màu sắc, chỉ cần nhập vào đó chế độ màu, để lấy 3 đĩa số, hay nếu muốn điều chỉnh âm thanh, chúng ta có 2 đĩa số này.</s>
+ <s id="26">kênh trái và phải đang được đồng bộ, nếu muốn, chúng ta có thể ghi đè lên bằng xoay cả hai cùng một lúc.</s>
+ <s id="27">Ý tưởng là đạt được tốc độ và hiệu quả khi sử dụng các đĩa quay vật lý đi cùng với sự linh động và đa năng của hệ thống được thiết kế trong phần mềm.</s>
+ <s id="28">Đây là một ứng dụng cho bản đồ ứng phó thiên tai.</s>
+ <s id="29">Ta có các vật thể hữu hình đại diện cho cảnh sát, lính cứu hỏa và cứu hộ, và một điều phối có thể gắp lấy chúng và đặt vào bản đồ để chỉ ra nơi chúng phải đến, sau đó, định vị nó trên bản đồ đồng bộ hóa với vị trí trong thực tế.</s>
+ <s id="30">Đây là ứng dụng nói chuyện bằng video.</s>
+ <s id="31">cho phép ta truyền tải nhiều cảm xúc chỉ với vài thao tác đơn giản lên vật thể vật lý.</s>
+ <s id="32">Với giao diện này, ta mở ra một loạt các khả năng giữa trò chơi truyền thống với trò chơi hiện đại, trong đó, khả năng tương tác vật lý mở ra những cách chơi khác nhau.</s>
+ <s id="33">Một trong những lĩnh vực mà tôi yêu thích nhất khi sử dụng nền tảng này là áp dụng nó vào các nan đề mà chỉ riêng máy tính hay con người thì khó lòng giải quyết</s>
+ <s id="34">Một ví dụ là xoắn protein.</s>
+ <s id="35">Ở đây, chúng ta có giao diện có thể gắn tay nắm vào một protein, ta có thể cầm vào tay nắm này để di chuyển và gấp chúng theo các cách khác nhau.</s>
+ <s id="36">Và nếu di chuyển chúng không phù hợp với mô hình phân tử cơ bản, ta sẽ thấy được sự phản hồi vật lí, mà cụ thể là phản lực từ tay cầm</s>
+ <s id="37">Cảm nhận được điều đang diễn ra bên trong mô hình phân tử là một cấp độ tương tác hoàn toàn khác.</s>
+ <s id="38">Chúng ta chỉ mới bắt đầu khám phá những tiềm năng khi sử dụng phần mềm để điều khiển chuyển động của các đối tượng xung quanh ta.</s>
+ <s id="39">Có lẽ đây là máy tính của tương lai,</s>
+ <s id="40">Không có màn hình cảm ứng.</s>
+ <s id="41">Không có công nghệ thấy hữu hình.</s>
+ <s id="42">Nhưng khi muốn trò chuyện bằng video chơi một trò chơi, hay trình chiếu bài nói chuyện tiếp theo trên TED, các vật thể trên bàn trở nên sống động.</s>
+ <s id="43">Xin cảm ơn.</s>
+ <s id="44">(Tiếng vổ tay)</s>
+</text>

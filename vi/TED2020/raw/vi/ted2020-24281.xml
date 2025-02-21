@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Trước khi làm đảo lộn ngành vật lý, Albert Einstein trẻ tuổi được cho rằng đã thể hiện thiên tư của mình bằng việc đưa ra một câu đố phức tạp với danh sách manh mối này.</s>
+ <s id="2">Bạn có thể cưỡng lại việc giải câu đố do một trong những người thông minh nhất lịch sử tạo ra không?</s>
+ <s id="3">Hãy thử xem nhé!</s>
+ <s id="4">Loài cá hiếm nhất thế giới đã bị đánh cắp khỏi công viên thủy cung của thành phố.</s>
+ <s id="5">Cảnh sát đã lần theo dấu vết tới một con phố có 5 ngôi nhà giống hệt nhau.</s>
+ <s id="6">Nhưng họ không thể lục soát tất cả cùng một lúc, và nếu họ chọn sai, kẻ trộm sẽ biết rằng cảnh sát đã tìm ra dấu vết của hắn.</s>
+ <s id="7">Việc phá án phụ thuộc vào bạn, thám tử xuất sắc nhất thành phố.</s>
+ <s id="8">Khi bạn tới hiện trường, cảnh sát nói cho bạn những gì họ biết.</s>
+ <s id="9">Thứ nhất: chủ của mỗi căn nhà đều mang quốc tịch khác nhau, uống loại đồ uống khác nhau, và hút loại xì gà khác nhau.</s>
+ <s id="10">Thứ hai: bức tường bên trong mỗi nhà đều được sơn màu khác nhau.</s>
+ <s id="11">Thứ ba: mỗi nhà đều nuôi một con vật khác nhau, trong đó có con cá.</s>
+ <s id="12">Sau vài giờ điều tra, bạn tìm được một số manh mối.</s>
+ <s id="13">Trông có vẻ nhiều thông tin đấy, nhưng có một phương pháp lô-gic rõ ràng để giải đáp.</s>
+ <s id="14">Giải câu đố này cũng giống rất nhiều với chơi sudoku, vậy bạn cần phải sắp xếp thông tin vào các cột như thế này.</s>
+ <s id="15">Hãy dừng video ở hình tiếp theo lại để xem xét manh mối và giải đố.</s>
+ <s id="16">Câu trả lời trong 3 2 1 Đầu tiên, hãy điền thông tin thứ 8 và 9 vào bảng.</s>
+ <s id="17">Ngay lập tức, bạn nhận ra rằng: vì người Na Uy sống ở cuối phố, nên chỉ có một căn nhà ở cạnh anh ta, và đó chắc chắn là căn nhà có tường xanh nước biển ở gợi ý số 14.</s>
+ <s id="18">Manh mối 5 cho biết người chủ nhà tường xanh lá cây uống cafe.</s>
+ <s id="19">Đó không thể là nhà ở giữa vì ta đã biết người chủ uống sữa, nhưng cũng không thể là nhà thứ 2 vì ta đã biết nó có tường màu xanh biển.</s>
+ <s id="20">Và vì gợi ý số 4 cho biết nhà tường xanh lá ở ngay bên trái của nhà tường trắng, nên nó không thể là nhà đầu tiên hay nhà thứ 5 được.</s>
+ <s id="21">Vị trí duy nhất cho nhà có tường xanh lá với người chủ thích uống cafe là nhà thứ 4, vậy có nghĩa là nhà trắng sẽ ở số 5.</s>
+ <s id="22">Gợi ý số 1 cho bạn biết quốc tịch và màu tường.</s>
+ <s id="23">Vì còn duy nhất cột số mà thiếu cả hai thông tin này đứng ở trung tâm, nên đó chắc chắn là nhà tường đỏ của người Anh.</s>
+ <s id="24">Giờ chỉ còn màu vàng là chưa được xếp vào bảng nên đó phải là của nhà đầu tiên, nơi có người hút xì gà Dunhill.</s>
+ <s id="25">Gợi ý số 11 nói rằng người chủ nuôi ngựa sống ngay bên cạnh, nghĩa là chỉ còn anh ta ở nhà số 2.</s>
+ <s id="26">Bước tiếp theo là đoán xem người Na Uy ở nhà đầu tiên uống gì.</s>
+ <s id="27">Không thể là trà, gợi ý 3 đã nói đó là đồ uống của người Đan Mạch.</s>
+ <s id="28">Và theo manh mối 12, cũng không thể là root beer vì người đó hút Bluemaster, và vì bạn đã điền sữa và cafe rồi, nên chỉ còn lại nước thôi.</s>
+ <s id="29">Từ manh mối số 15, bạn biết rằng, hàng xóm của người Na Uy ở nhà số 2 hút xì gà Blends.</s>
+ <s id="30">Cột còn lại duy nhất chưa có tên xì gà và đồ uống là cột thứ 5, đó hẳn là người được nhắc tới trong gợi ý 12.</s>
+ <s id="31">Vậy còn nhà số 2 chưa có đồ uống nên chắc chắn người Đan Mạch uống trà sống ở đó.</s>
+ <s id="32">Chỉ còn nhà thứ 4 còn thiếu quốc tịch và tên xì gà nên đó là nơi ở của người Đức hút xì gà Prince.</s>
+ <s id="33">Sau khi loại trừ, bạn có thể kết luận người Anh hút loại Pall Mall và người Thụy Điển ở nhà số 5, trong khi manh mối 2 và 6 chỉ ra rằng tương ứng, hai người này nuôi chó và chim.</s>
+ <s id="34">Gợi ý số 10 cho bạn biết người nuôi mèo sống cạnh người Đan Mạch hút Blend, tức là nhà số 1.</s>
+ <s id="35">Giờ chỉ còn một vị trí trống trên bảng và bạn biết rõ người Đức ở nhà xanh lá là thủ phạm.</s>
+ <s id="36">Bạn và cảnh sát xông vào nhà, bắt tên trộm và tìm được con cá.</s>
+ <s id="37">Mặc dù lời giải thích đó rõ ràng nhưng khi giải đố, bạn thường sẽ gặp phải khởi đầu sai và đi vào ngõ cụt.</s>
+ <s id="38">Một mẹo là sử dụng phương pháp loại trừ và nhiều lần thử sai để tìm ra đáp án đúng và bạn càng giải nhiều câu đố, thì trực giác của bạn sẽ tốt hơn khi đã có đủ thông tin để suy luận.</s>
+ <s id="39">Vậy có đúng Einstein đã viết ra câu đố này thời còn trẻ?</s>
+ <s id="40">Có thể là không.</s>
+ <s id="41">Chẳng có bằng chứng nào cho thấy điều đó, và một vài nhãn hiệu được nhắc tới mới xuất hiện gần đây.</s>
+ <s id="42">Nhưng lập luận ở đây cũng không khác mấy so với cách mà bạn giải phương trình với nhiều biến số, kể cả những phương trình diễn tả bản chất của vũ trụ.</s>
+</text>

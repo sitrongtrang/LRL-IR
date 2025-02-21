@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Năm ngoái tại TED Tôi đề nghị các bạn cho tôi dữ liệu để đưa những thứ đó lên web, trên cơ sở là nếu mọi người đưa dữ liệu lên web, dữ liệu của chính phủ, của khoa học, cộng đồng bất cứ thứ gì, sẽ có người khác dùng nó để tạo ra những điều tuyệt diệu, bằng cách mà họ không bao giờ có thể tưởng tượng.</s>
+ <s id="2">Bởi vậy, hôm nay tôi trở lại để cho các bạn xem vài thứ, để chứng minh với bạn rằng, thật sự là có một phong trào về dữ liệu mở đang được diễn ra ngay bây giờ trên khắp thế giới.</s>
+ <s id="3">Lời kêu gọi "dữ liệu thô ngay bây giờ",</s>
+ <s id="4">mà tôi khuyến khích mọi người trong khán phòng này tạo ra, đã được biết đến trên khắp thế giới.</s>
+ <s id="5">Hãy xem đoạn video.</s>
+ <p id="p6">
+  <s id="6.1">Một câu chuyện cổ điển, câu chuyện đầu tiên mà nhiều người đã chọn vào tháng 3, chính xác là 10 tháng 3, ngay sau TED, Paul Clarke, trong chính phủ U.K viết blog, "Oh, Tôi vừa có một số dữ liệu thô.</s>
+  <s id="6.2">Nó đây này, nó về tai nạn xe đạp."</s>
+ </p>
+ <s id="7">Times Online mất 2 ngày để tạo ra một bản đồ, bản đồ tổng hợp, chúng ta gọi nó là mash-ups (tổng hợp nhiều thông tin) một mash-up với giao diện người cho phép bạn vào đó và xem xét và tìm kiếm xem liệu lộ trình xe đạp của bạn tới công sở có bị ảnh hưởng hay không?</s>
+ <s id="8">Có rất nhiều dữ liệu khác khảo sát về giao thông, cũng được đưa ra bởi chính phủ Anh, và bởi vì họ tạo ra nó dựa trên những dữ liệu liên kết tiêu chuẩn nên người dùng có thể tạo ra bản đồ bằng cách click chuột.</s>
+ <s id="9">Những dữ liệu đó tạo ra ảnh hưởng gì không?</s>
+ <p id="p10">
+  <s id="10.1">Hãy quay trở lại năm 2008.</s>
+  <s id="10.2">Nhìn vào Zanesville, Ohio.</s>
+ </p>
+ <s id="11">Đây là bản đồ một luật sư làm, đặt tại nhà máy nước để biết trong những hộ ở đây, những hộ nào đã có đường nước dẫn tới?</s>
+ <s id="12">Và anh ấy, từ một nguồn dữ liệu khác, có thông tin về những hộ nào là của người da trắng.</s>
+ <s id="13">Thế là, anh ấy cảm thấy có một sự liên quan bất thường, giữa những ngôi nhà của người da trắng và những ngôi nhà có nước, và vị thẩm phán cũng cảm thấy không hài lòng.</s>
+ <s id="14">Với khoản tiền lên đến 10.9 triệu dollars.</s>
+ <s id="15">Đó là sức mạnh của việc lấy một phần dữ liệu này, rồi một phần dữ liệu khác, ghép chúng lại, và trình diễn kết quả.</s>
+ <s id="16">Bây giờ hãy nhìn qua những dữ liệu từ Anh.</s>
+ <s id="17">Nó là dữ liệu của chính phủ, một trang hoàn toàn độc lập, Tiền của tôi đã đi đâu, (Where Does My Money Go)</s>
+ <s id="18">cho phép mọi người truy cập và tra cứu trong đó.</s>
+ <s id="19">Bạn có thể tra cứu theo từng loại chi tiêu hoặc là tìm hiểu tất cả những khu vực khác nhau, và so sánh chúng.</s>
+ <s id="20">Vậy là, đó là những gì xảy ra ở UK, với dữ liệu của chính phủ UK.</s>
+ <s id="21">Vâng, bạn hoàn toàn có thể làm điều đó tại đây.</s>
+ <s id="22">Đây là trang web cho phép xem xét về số tiền phục hồi kinh tế tại California.</s>
+ <s id="23">Lấy một ví dụ bất kỳ, như tại Long Beach, California, bạn có thể đến và xem xét những khoản nào họ đã và đang chi cho những mục đích khác nhau ví dụ như năng lượng.</s>
+ <s id="24">Thực tế, có một biểu đồ về số lượng tập dữ liệu trong kho data.gov và data.gov.uk.</s>
+ <s id="25">Và tôi hào hứng được xem sự cạnh tranh giữ nước Anh với màu xanh, và nước Mỹ với màu đỏ.</s>
+ <s id="26">Bạn có thể sử dụng công cụ này thế nào?</s>
+ <s id="27">Ví dụ, nếu bạn có rất nhiều dữ kiện về nơi chốn bạn có thể lấy nó, từ mã vùng, giống như là zip code cộng 4, cho một nhóm hộ dân, bạn có thể viết bài, in một bài về một chủ đề rất cụ thể về các trạm xe bus, về thứ gần kề với bạn.</s>
+ <s id="28">Và với quy mô lớn hơn, đây là một mash-up của những dữ liệu được công bố về cuộc bỏ phiếu ở Afghanistan.</s>
+ <s id="29">Nó cho phép bạn đặt ra những tiêu chí cho những thứ bạn muốn xem xét.</s>
+ <s id="30">Vòng tròn màu đỏ là những điểm bỏ phiếu, được lọc ra theo tiêu chí bạn chọn.</s>
+ <s id="31">Và sau đó bạn có thể chọn những thứ khác trên bản đồ để quan sát những yếu tố khác như là mức độ ảnh hưởng.</s>
+ <s id="32">Vậy đó là dữ liệu từ chính phủ.</s>
+ <s id="33">Tôi cũng muốn nói về dữ liệu tạo ra bởi cộng đồng</s>
+ <s id="34">đó là bản đồ wiki, là bản đồ mở.</s>
+ <s id="35">Rạp hát Terrace, tôi đã xác định nó trên bản đồ bởi vì nó không có ở đó trước hội nghị TED năm ngoái.</s>
+ <s id="36">Tôi không phải là người duy nhất bổ sung vào bản đồ mở.</s>
+ <s id="37">Mỗi ánh chớp trong minh họa này được tạo ra bởi ITO World cho thấy những bổ sung trong năm 2009 đối với bản đồ mở đường phố.</s>
+ <s id="38">Bây giờ hãy xem thế giới trong năm nay.</s>
+ <p id="p39">
+  <s id="39.1">Mỗi ánh chớp là một lần chỉnh sửa.</s>
+  <s id="39.2">Một người nào đó ở một nơi nào đấy xem bản đồ mở, và nhận thấy rằng có thể làm cho nó tốt hơn.</s>
+ </p>
+ <s id="40">Bạn có thể thấy châu Âu sáng rực rỡ với những thay đổi.</s>
+ <s id="41">Ở một vài nơi, lại không có nhiều những thay đổi.</s>
+ <s id="42">Bây giờ hãy tập trung vào Haiti.</s>
+ <s id="43">Bản đồ của Port au-Prince ở phía cuối cùng của năm 2009 không đầy đủ các chi tiết, không được tốt như bản đồ của California.</s>
+ <s id="44">May mắn là ngay sau trận động đất, GeoEye, một công ty thương mại, công bố hình ảnh từ vệ tinh với bản quyền cho phép những cộng đồng mã nguồn mở sử dụng nó.</s>
+ <s id="45">Đây là khoảng thời gian tháng 1, người ta đang chỉnh sửa, đó là vụ động đất.</s>
+ <s id="46">Chỉ sau trận động đất, ngay lập tức mọi người trên khắp thế giới, những người muốn giúp đỡ đối chiều với hình ảnh, xây dựng nên bản đồ, xây dựng rất nhanh chóng.</s>
+ <s id="47">Chúng ta đang tập trung vào Port au-Prince.</s>
+ <s id="48">Màu xanh dương là trại tị nạn mà những người tình nguyện thấy được từ trên không.</s>
+ <s id="49">Vậy, bây giờ chúng ta có, một bản đồ thực sự hiển thị vị trí những trại tị nạn, nhanh chóng trở thành bản đồ tốt nhất để dùng nếu bạn đang hoạt động từ thiện ở Port au-Prince.</s>
+ <s id="50">Chứng kiến sự thật rằng tại đây máy Garmin (GPS) được sử dụng bởi đội cứu hộ.</s>
+ <s id="51">Và Haiti, có một bản đồ hiển thị ở phía bên trái, những bệnh viện, chính xác là bệnh viện trên tàu.</s>
+ <p id="p52">
+  <s id="52.1">Đây là bản đồ thời gian thực hiển thị những con đường bị chặn những tòa nhà đổ nát, trại tị nạn.</s>
+  <s id="52.2">Nó hiển thị thứ mà bạn cần.</s>
+ </p>
+ <s id="53">Vậy, nếu bạn đã tham gia vào những chuyện đó, Tôi chỉ muốn nói bất cứ điều gì bạn đang làm, dù cho bạn đang lập biểu đồ từ dữ liệu thô ngay bây giờ,</s>
+ <s id="54">hay bạn đang đăng dữ liệu chính phủ, khoa học online, Tôi muốn nhân cơ hội này để bày tỏ lời cám ơn chân thành, và chúng ta mới chỉ bắt đầu thôi.</s>
+ <s id="55">(Vỗ tay)</s>
+</text>

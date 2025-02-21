@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Tôi mong muốn sau ngày hôm nay, các bạn sẽ nhớ đến ý tưởng lớn này, đó là toàn bộ dữ liệu chúng ta tiếp nhận lớn hơn tổng các thành phần, và thay vì nghĩ đến việc quá tải thông tin, tôi muốn các bạn nghĩ đến cách làm sao chúng ta có thể sử dụng thông tin để các mẫu xuất hiện và chúng ta có thể thấy các xu hướng vô hình.</s>
+ <s id="2">Các bạn đang thấy ở đây một biểu đồ tỉ lệ tử vong điển hình sắp xếp theo độ tuổi.</s>
+ <s id="3">Công cụ tôi đang sử dụng là một thử nghiệm nho nhỏ.</s>
+ <s id="4">Nó có tên Pivot, và với Pivot tôi có thể chọn để lọc một nguyên nhân tử vong cụ thể, ví dụ như tai nạn.</s>
+ <s id="5">Và ngay bây giờ, tôi đã thấy một mẫu khác xuất hiện.</s>
+ <s id="6">Đó là vì, trong vùng ở giữa đây mọi người ở trạng thái năng động nhất và đằng này, họ đang ở trạng thái yếu ớt nhất.</s>
+ <s id="7">Chúng ta có thể quay lại và tiếp đó, tái tổ chức dữ liệu theo nguyên nhân tử vong, thấy rằng các bệnh về hệ tuần hoàn và ung thư là các nghi phạm phổ biến nhưng không phải ai cũng mắc.</s>
+ <s id="8">Nếu chúng ta tiếp tục và lọc theo độ tuổi, ví dụ từ 40 trở xống, chúng ta thấy rằng các tai nạn là nguyên do lớn nhất khiến mọi người lo lắng.</s>
+ <s id="9">Và nếu nghĩ rộng ra thì nó đặc biệt phổ biến với nam giới.</s>
+ <s id="10">Thế nên các bạn biết được khi xem xét thông tin và dữ liệu bằng cách này, giống như ta đang bơi trong một trình đồ họa thông tin sống động.</s>
+ <s id="11">Và nếu có thể tối ưu hóa các dữ liệu thô thì tại sao không tối ưu hóa luôn cả nội dung nữa?</s>
+ <s id="12">Ở đây chúng ta có tất cả các môn thể thao được minh họa từng được sản xuất.</s>
+ <s id="13">Tất cả ở đây, trên web.</s>
+ <s id="14">Sau buổi diễn thuyết này, các bạn có thể về phòng và thử nó.</s>
+ <s id="15">Với Pivot, bạn có thể đào sâu vào 1 thập kỷ.</s>
+ <s id="16">Hoặc một năm nào đó.</s>
+ <s id="17">Các bạn có thể nhảy thẳng vào một vấn đề cụ thể.</s>
+ <s id="18">Khi nhìn vào cái này, tôi thấy các vận động viên xuất hiện trong vấn đề này, các môn thể thao.</s>
+ <s id="19">Tôi rất hâm mộ anh Lance Armstrong, nên tôi sẽ click vào đó, nó sẽ hiện ra mọi thông tin liên quan đến anh.</s>
+ <s id="20">(Vỗ tay) Nào, nếu tôi muốn xem qua các mục này, có thể tôi nghĩ, "Uhm, thử xem về đua xe đạp cái nào."</s>
+ <s id="21">và tôi có thể quay lại, mở rộng nó.</s>
+ <s id="22">Và bây giờ tôi thấy Greg Lemond.</s>
+ <s id="23">Và bạn có ý tưởng khi bạn duyệt thông tin theo cách này, có thể thu hẹp hoặc mở rộng, trở vào, trở ra, không phải bạn đang tìm kiếm, cũng không phải đang duyệt.</s>
+ <s id="24">Nó khác hơn một chút.</s>
+ <s id="25">Nó nằm ở giữa và chúng tôi nghĩ nó thay đổi cách thức sử dụng thông tin.</s>
+ <s id="26">Nên tôi muốn ngoại suy về ý tưởng này một chút hơi điên khùng một chút.</s>
+ <s id="27">Chúng tôi đã lấy từng trang Wikipedia và giản lược nó thành 1 bản tóm tắt.</s>
+ <s id="28">Một bản tóm tắt chỉ gồm đoạn tóm lược nhỏ và một biểu tượng để chỉ vùng đề tài của nó.</s>
+ <s id="29">Tôi sẽ chỉ chiếu 500 trang Wikipedia phổ biến nhất ở đây.</s>
+ <s id="30">Nhưng kể cả trong tầm nhìn giới hạn này, chúng ta có thể làm nhiều thứ.</s>
+ <s id="31">Ngay bây giờ, chúng ta biết được các vùng đề tài nào là phổ biến nhất trên Wiki.</s>
+ <s id="32">Tôi sẽ chọn chủ đề chính phủ.</s>
+ <s id="33">Sau khi chọn chủ đề này, bây giờ tôi có thể thấy các bảng xếp loại Wiki trao đổi thường xuyên với nó nhất là mục Người Của Năm của tạp chí Time.</s>
+ <s id="34">Điều này rất quan trọng vì đây là kiến thức sâu mà không một trang Wiki nào đề cập.</s>
+ <s id="35">Chỉ có thể thấy được các kiến thức chuyên sâu đó khi bạn quay lại và bao quát tất cả.</s>
+ <s id="36">Nhìn vào một trong các tóm tắt cụ thể này, tôi có thể đọc kỹ hơn về nội dung của Người của năm do tạp chí Time bình chọn, lôi hết mọi thông tin liên quan lên.</s>
+ <p id="p37">
+  <s id="37.1">Nhìn vào những người này, có thể thấy đa phần là quan chức chính phủ.</s>
+  <s id="37.2">Một số vị làm việc trong các ngành khoa học tự nhiên.</s>
+  <s id="37.3">Khiêm tốn hơn là vài người từ lĩnh vực kinh doanh.</s>
+  <s id="37.4">Có cả xếp của tôi nữa kìa.</s>
+  <s id="37.5">Một người thì từ lĩnh vực âm nhạc.</s>
+ </p>
+ <s id="38">Và thật thú vị Bono cũng là diễn giả đạt giải thưởng TED.</s>
+ <s id="39">Chúng ta có thể nhảy vào, điểm mặt các diễn giả đạt giải thưởng TED.</s>
+ <s id="40">Các bạn thấy đó, chúng ta đang duyệt web lần đầu tiên như thể nó thực sự là web, không phải hết trang này sang trang khác, mà lấy thông tin ở cấp độ cao hơn.</s>
+ <s id="41">Tôi muốn cho các bạn xem một thứ nữa nó có thể khiến bạn ngạc nhiên đôi chút.</s>
+ <s id="42">Tôi sẽ chiếu trang web của tờ New York Times ở đây.</s>
+ <s id="43">Pivot, ứng dụng này -- Tôi không muốn gọi nó là một trình duyệt vì nó không hẳn thế, nhưng các bạn có thể xem các trang web bằng nó và chúng tôi mang đến công nghệ có thể phóng đại hoặc thu nhỏ tới từng trang web như thế này.</s>
+ <s id="44">Nên tôi có thể quay lại, click vào một khu vực cụ thể.</s>
+ <s id="45">Nào, lý do đặc tính này quan trọng là vì nhờ xem các trang web theo cách này tôi có thể xem toàn bộ lịch sử duyệt web theo cách tương tự.</s>
+ <s id="46">Thế nên tôi có thể xem mình đã làm gì trong suốt một khung thời gian nhất định.</s>
+ <s id="47">Đây là trạng thái của toàn bộ phần demo tôi vừa trình chiếu.</s>
+ <s id="48">Và tôi có thể xem lại một số thứ vừa xem hôm nay.</s>
+ <p id="p49">
+  <s id="49.1">Và nếu muốn quay lại xem mọi thứ tôi có thể xem lại lịch sử duyệt web bằng lịch sử tìm kiếm của mình.</s>
+  <s id="49.2">Đây, tôi đã tìm kiếm một số thứ cây nhà lá vườn, tìm kiếm Bing, đằng này là tìm kiếm Live Labs Pivot.</s>
+ </p>
+ <s id="50">Và từ những lịch sử đó, tôi có thể vào trang web đó và dùng lại chúng.</s>
+ <s id="51">Đó là một phép ẩn dụ được dùng đi dùng lại rất nhiều lần, và trong mỗi trường hợp, nó khiến toàn bộ dữ liệu lớn hơn tổng các thành phần.</s>
+ <s id="52">Nên trong thế giới này, chúng tôi nghĩ đến dữ liệu đã mắc phải lời nguyền.</s>
+ <s id="53">Chúng ta nói về lời nguyền quá tải thông tin.</s>
+ <s id="54">Chúng ta than thở như bị chết đuối trong dữ liệu.</s>
+ <s id="55">Nếu chúng ta có thể đảo ngược tình thế, đảo ngược tình trạng web hiện nay, thay vì thói quen xem từ trang này sang trang khác, chúng ta làm quen với khả năng đi từ nhiều thứ này đến nhiều thứ khác, và do đó có thể nhìn ra các mẫu trước đây là vô hình hoặc tiềm ẩn?</s>
+ <s id="56">Nếu chúng ta có thể, thì thay vì giãy giụa trong cái bẫy dữ liệu, chúng ta sẽ có thể lấy thông tin một cách dễ dàng.</s>
+ <s id="57">Và thay vì chỉ xử lý thông tin. chúng ta còn có thể tìm kiếm niềm vui với kiến thức.</s>
+ <s id="58">Và nếu có được kiến thức thì có thể chúng ta sẽ tìm thấy sự thông thái của mình.</s>
+ <s id="59">Xin cảm ơn quý vị đã chú ý lắng nghe.</s>
+ <s id="60">(Vỗ tay)</s>
+</text>

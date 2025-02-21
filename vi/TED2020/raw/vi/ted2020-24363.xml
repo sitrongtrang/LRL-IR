@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Trong thế giới đen tối này, nhóm kháng cự của bạn là hy vọng cuối cùng của nhân loại.</s>
+ <s id="2">Không may, cả nhóm đã bị bắt bởi những kẻ thống trị tàn bạo và bị giải tới đấu trường để thành thú giải trí chết người của bọn họ.</s>
+ <s id="3">Trước khi các bạn bị ném vào hầm tối, bạn để ý thấy rất nhiều hành lang được đánh số, dẫn ra bên ngoài.</s>
+ <s id="4">Nhưng tất cả mọi lối thoát đều được chặn bởi những hàng rào điện với một bàn phím số.</s>
+ <s id="5">Các bạn cũng biết được là một người trong các bạn sẽ được thử thoát ra bằng cách vượt qua được một thử thách trong khi những người còn lại sẽ làm mồi cho lũ kỳ nhông đột biến sáng hôm sau.</s>
+ <s id="6">Với khả năng phân tích logic hoàn hảo, Zara là lựa chọn hiển nhiên.</s>
+ <s id="7">Bạn đưa cho cô ấy một máy phát âm thanh được giấu kín để tất cả được nghe cùng.</s>
+ <s id="8">Khi Zara bắt đầu lên đường, bạn nghe thấy tiếng bước chân của cô ấy vọng ra từ một hành lang rồi biến mất.</s>
+ <p id="p9">
+  <s id="9.1">Một giọng nói yêu cầu cô phải nhập mật mã.</s>
+  <s id="9.2">Mật mã bao gồm ba số nguyên, dương, sắp xếp theo thứ tự tăng dần, với số thứ hai lớn hơn hoặc bằng số thứ nhất, và số thứ ba lớn hơn hoặc bằng số thứ hai.</s>
+ </p>
+ <s id="10">Zara được phép yêu cầu ba manh mối, nhưng nếu như cô đoán sai, hoặc nói bất kì điều gì, cô sẽ bị tống lại xuống hầm.</s>
+ <s id="11">Manh mối đầu tiên là tích của ba số của mật mã là 36.</s>
+ <s id="12">Khi Zara yêu cầu manh mối thứ hai, giọng nói nói cho cô tổng của ba số đó bằng với số của hành lang mà cô bước vào.</s>
+ <s id="13">Có một khoảng im lặng dài.</s>
+ <s id="14">Bạn chắc rằng Zara nhớ số của hành lang mà cô đã bước vào, nhưng bạn không thể biết được nó là bao nhiêu, và Zara thì không được tiết lộ điều gì cả.</s>
+ <s id="15">Nếu Zara có thể nhập mã lúc này, cô có thể, nhưng, cô lại yêu manh mối thứ ba, và giọng nói cho cô biết là số lớn nhất chỉ xuất hiện một lần trong mật mã đấy.</s>
+ <s id="16">Một lúc sau, âm thanh của hàng rào điện dừng lại trong mấy giây, và bạn phát hiện ra rằng Zara đã trốn thoát.</s>
+ <s id="17">Không may, máy phát âm thanh của cô lúc này đã ngoài vùng phủ sóng, nên đó là tất cả những thông tin bạn biết được.</s>
+ <s id="18">Bạn có giải được mã không?</s>
+ <s id="19">Tạm dừng màn hình kế tiếp trong khi bạn giải mã nhé.</s>
+ <s id="20">3 2 1 Bạn đang lo vì bạn không biết được số hành lang mà Zara đã bước vào, nhưng bạn quyết định sẽ bắt đầu từ đầu.</s>
+ <s id="21">Từ manh mối thứ nhất, bạn tìm ra tất cả tám dãy số có tích bằng 36.</s>
+ <s id="22">Một dãy số này là đúng, nhưng là cái nào?</s>
+ <s id="23">Giờ đến phần khó hơn.</s>
+ <s id="24">Dù bạn không biết là bạn đang tìm con số nào, bạn vẫn tìm tổng của từng dãy số.</s>
+ <s id="25">Và bạn đã hiểu ra.</s>
+ <s id="26">Sáu trong tám dãy số có tổng khác nhau, và nếu như hành lang là một trong sáu số này, Zara đã có thể biết mật mã ngay lúc ấy mà không cần phải có manh mối thứ ba.</s>
+ <s id="27">Nhưng vì cô đã hỏi manh mối thứ ba, hành lang chắc chắn sẽ là số xuất hiện hai lần trong tám dãy số: mười ba.</s>
+ <s id="28">Nhưng trong hai dãy số có tổng bằng 13, dãy số nào mới là mật mã: 1,6,6, hay là 2,2,9?</s>
+ <s id="29">Và manh mối thứ ba có thể giải được vấn đề này.</s>
+ <s id="30">Manh mối thứ ba nói rằng số lớn nhất chỉ xuất hiện một lần, 2,2,9 ắt phải là mật mã.</s>
+ <s id="31">Khi màn đêm buông xuống, bạn và những người còn lại trốn thoát qua hành lang số 13 và gặp lại Zara ở bên ngoài.</s>
+ <s id="32">Bạn đã giải thoát được bản thân nhờ toán học và logic.</s>
+ <s id="33">Giờ đã đến lúc bạn giải phóng cả thế giới.</s>
+</text>

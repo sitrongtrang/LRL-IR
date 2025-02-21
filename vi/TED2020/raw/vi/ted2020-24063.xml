@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Đó là một buổi đêm như bao buổi đêm khác, trừ việc tôi đang phải leo lên cái đỉnh núi vô vọng này, như Romeo trong buổi hò hẹn thứ hai.</s>
+ <s id="2">(ugh) Tôi đã ở đó vì người phụ nữ ấy.</s>
+ <s id="3">Với đôi mắt lạ kỳ tựa những số ảo và những đường cong kéo dài tới vô tận.</s>
+ <s id="4">Nói rằng nàng muốn về nhà.</s>
+ <s id="5">Nói rằng chỉ tôi có thể giúp.</s>
+ <s id="6">Nói rằng tiền công rất hậu hĩ.</s>
+ <s id="7">Đâu có nói gì tới việc phải leo...</s>
+ <s id="8">Có tiếng hỏi: "Ai ở đó?"</s>
+ <s id="9">Manny Brot: "Manny Brot, thám tử tư."</s>
+ <s id="10">Giọng nói kia: "Anh làm gì ở đây?"</s>
+ <s id="11">"Một con số xinh đẹp nhờ tôi tới đây để tìm lại một vật thể bị đánh cắp."</s>
+ <s id="12">Giọng nói: "Vậy sao, để vào hang, anh phải trả lời cho tôi ba câu đố."</s>
+ <s id="13">Lại một tên cuồng đố vui, mà tại sao lúc nào cũng là ba câu vậy chứ?</s>
+ <s id="14">"Phải một quả trứng không?"</s>
+ <p id="p15">
+  <s id="15.1">"Không.</s>
+  <s id="15.2">Sao lại là trứng?"</s>
+ </p>
+ <s id="16">"Thì thường là trứng mà."</s>
+ <s id="17">"Vật gì tôi có thể cầm, nhưng lại không có diện tích?"</s>
+ <s id="18">"Vậy thì trứng dodo hả?"</s>
+ <s id="19">"Không phải là trứng!"</s>
+ <s id="20">Tôi lấy ra khối đá suýt đập vào đầu tôi lúc nãy và suy nghĩ thật kỹ lưỡng.</s>
+ <s id="21">Cục u to đùng sưng vù trên đầu đã nói rõ rằng nó có diện tích xác định, thậm chí còn khá đáng kể.</s>
+ <s id="22">Nhưng nếu tôi lấy ra một miếng tam giác ngay chỗ này thì sao?</s>
+ <s id="23">Đứa ngốc nào cũng nhận ra, miếng tam giác này có diện tích bằng một phần tư hình tam giác ban đầu.</s>
+ <s id="24">Tôi làm điều tương tự với mỗi hình tam giác nhỏ hơn.</s>
+ <s id="25">Lại một lần nữa, một phần tư phần diện tích còn lại - mất đi.</s>
+ <s id="26">Và cứ như thế.</s>
+ <s id="27">Sau vô hạn số lần lấy ra như thế, tôi đã có được một hình tam giác với diện tích bằng không.</s>
+ <s id="28">Một hình phẳng giới hạn không có diện tích.</s>
+ <s id="29">Giờ thì, tôi không thường làm chính mình ngạc nhiên, nhưng chính đôi tay này đã tạo ra thứ gì đó thiệt điên rồ, và mới mẻ.</s>
+ <s id="30">"Tốt lắm. (ahem) Giờ thì, tìm cho tôi một hình phẳng với diện tích hữu hạn, nhưng lại có chu vi vô hạn."</s>
+ <s id="31">"Phải xác minh vấn đề này đã.</s>
+ <p id="p32">
+  <s id="32.1">Nếu tôi cắt khung của hình đó ở một điểm, trải nó ra, và đặt nó xuống sàn..."</s>
+  <s id="32.2">"Thì nó sẽ kéo dài tới..."</s>
+  <s id="32.3">"Chờ tới khi nào tôi nói xong, sau đó thì ông có thể nói.</s>
+ </p>
+ <s id="33">Thì nó sẽ kéo dài vĩnh viễn."</s>
+ <s id="34">"Anh nói xong chưa?"</s>
+ <s id="35">"Rồi."</s>
+ <s id="36">"Vậy thì chỉ ra cho tôi hình phẳng đó."</s>
+ <p id="p37">
+  <s id="37.1">Mmm...</s>
+  <s id="37.2">Tôi chưa bao giờ bế tắc như vậy từ đợt thất bại thảm hại trước khối Rubik năm '58.</s>
+ </p>
+ <s id="38">Mọi hình phẳng tôi biết đều có chu vi.</s>
+ <p id="p39">
+  <s id="39.1">Hình tròn: 2πr.</s>
+  <s id="39.2">Tam giác: tổng các cạnh.</s>
+ </p>
+ <s id="40">Gì đây nhỉ?</s>
+ <s id="41">Một góc nhìn.</s>
+ <s id="42">Một góc nhìn từ thiên đường.</s>
+ <s id="43">Chuyện gì sẽ xảy ra nếu tôi "nhéo" mỗi cạnh, như thế này.</s>
+ <s id="44">Ra một khoảng bằng một phần ba, chỉ thế thôi.</s>
+ <s id="45">Và làm thế một lần nữa, và một lần nữa, và một lần nữa.</s>
+ <s id="46">Mỗi lần như vậy, chu vi lại tăng thêm một phần ba, bởi vì ở những chỗ khi trước chỉ có ba đoạn thẳng, thì giờ lại có bốn.</s>
+ <s id="47">Còn về phần diện tích, mỗi lần kéo lại tạo thêm nhiều tam giác, đúng.</s>
+ <s id="48">Nhưng những tam giác đó sẽ càng lúc càng nhỏ dần và nhỏ dần.</s>
+ <s id="49">Diện tích của nó đang hội tụ, tiệm cận một con số xác đinh, trong khi chu vi sẽ luôn đạt tới một số lớn hơn, bành trướng tới vô hạn như một chú hề càn rỡ trong buổi sinh nhật.</s>
+ <s id="50">Và sau vô hạn số lần kéo, ta-dah, chúng ta có đây: Diện tích hữu hạn, chu vi vô hạn.</s>
+ <s id="51">Và đó chính là thành quả của tôi.</s>
+ <p id="p52">
+  <s id="52.1">"Oh, anh được đấy (ahem).</s>
+  <s id="52.2">Câu đố thứ ba: Cho tôi thấy một bức tranh mà khi tôi phóng to dưới kính hiển vi, tôi vẫn sẽ tiếp tục nhìn thấy hình ảnh ban đầu, cho dù tôi có phóng to nó tới đâu đi nữa."</s>
+ </p>
+ <s id="53">"Ông thật là một tên lùn kỳ lạ."</s>
+ <s id="54">"Cảm ơn."</s>
+ <s id="55">Tôi đã cạn ý tưởng, nên tôi kiếm tìm nàng thơ của mình, Dora đầy phức cảm.</s>
+ <s id="56">Giọng nói: "Nàng ta là ai?"</s>
+ <s id="57">Và sau đó tôi nhận ra.</s>
+ <s id="58">"Cô ấy làm mọi trái tim tan vỡ, là người tình phân dạng của tôi.</s>
+ <s id="59">Bức này được chứ?"</s>
+ <s id="60">"Hẳn rồi, quá ổn."</s>
+ <s id="61">(chớp giật) Ở trong rất tối, và mới đầu tôi đã nghĩ cái hang này trống không, nhưng rồi tôi nhận ra: cái hộp.</s>
+ <s id="62">Nàng đã xỏ tôi như một hình tam giác.</s>
+ <s id="63">Nàng nói với tôi rằng nàng muốn về nhà.</s>
+ <s id="64">(chớp giật) Nhưng điều nàng thật sự muốn là đưa nhà nàng về đây.</s>
+ <s id="65">Những khối phân dạng phát tán khắp nơi.</s>
+ <s id="66">Giống y hệt nhau, cho dù bạn nhìn sâu đến đâu, y như bức họa của Dora vậy.</s>
+ <s id="67">Một số có chu vi vô hạn, số khác là những vật thể không có diện tích, thể tích, tất cả đều được tạo ra bằng việc lặp lại một hành động vô hạn lần.</s>
+ <s id="68">Vậy, bạn muốn biết khối phân dạng là gì?</s>
+ <s id="69">Nhóc, chúng là vật liệu làm nên những giấc mơ.</s>
+ <s id="70">(nhạc nền)</s>
+</text>

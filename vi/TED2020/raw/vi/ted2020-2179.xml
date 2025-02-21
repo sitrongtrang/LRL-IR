@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Cách đây vài năm, tôi tình cờ phát hiện ra một bài tập thiết kế đơn giản giúp hiểu và giải quyết những vấn đề phức tạp, cũng như những bài tập thiết kế khác, lúc đầu, trông có vẻ dễ, nhưng khi xem xét kỹ lưỡng, lại hé lộ những sự thật bất ngờ về cách chúng ta hợp tác và tìm hiểu về mọi thứ.</s>
+ <s id="2">Bài tập này có 3 phần và bắt đầu bằng thứ mà tất cả chúng ta đều biết: Làm bánh mì nướng.</s>
+ <s id="3">Bài tập bắt đầu với một tờ giấy trắng và một cây bút vẽ không được dùng từ ngữ, vẽ cách làm bánh mì nướng.</s>
+ <s id="4">Hầu hết mọi người đều vẽ thế này.</s>
+ <s id="5">Họ vẽ ổ bánh mì được cắt thành từng lát, và được bỏ vào lò nướng.</s>
+ <s id="6">Chờ một lúc sau,</s>
+ <p id="p7">
+  <s id="7.1">lát bánh mì nhảy ra thật tuyệt vời!</s>
+  <s id="7.2">Sau 2 phút, ta có bánh mì nướng và gương mặt hạnh phúc.</s>
+ </p>
+ <p id="p8">
+  <s id="8.1">Sau nhiều năm, tôi đã sưu tầm được hàng trăm bức vẽ bánh mì.</s>
+  <s id="8.2">Vài bức vẽ rất tuyệt vì quá trình làm bánh được trình bày rất dễ hiểu.</s>
+ </p>
+ <s id="9">Có vài bức không được tốt lắm.</s>
+ <s id="10">Thực ra là khác tệ, vì bạn không biết họ đang cố nói điều gì.</s>
+ <s id="11">(Tiếng cười) Nếu xem xét kỹ lưỡng, có vài bức chỉ mô tả vài khía cạnh của quá trình làm bánh mì nướng,</s>
+ <s id="12">Vài bức chỉ nói về bánh mì, và quá trình biến đổi của bánh mì.</s>
+ <s id="13">Những bức khác chỉ nói về lò nướng, những kỹ sư thì thích vẽ cơ chế hoạt động.</s>
+ <s id="14">(Cười) Có những bức thì toàn vẽ người,</s>
+ <s id="15">mô tả trải nghiệm mà người ta có được.</s>
+ <p id="p16">
+  <s id="16.1">Có những bức mô tả chuỗi cung ứng của quá trình làm bánh.</s>
+  <s id="16.2">Bắt đầu ở cửa hàng bán bánh,</s>
+ </p>
+ <s id="17">đi qua mạng lưới cung ứng quay lại cánh đồng lúa mì, và thậm chí quay trở lại thời "vụ nổ Big Bang"</s>
+ <s id="18">Hơi điên rồ nhỉ.</s>
+ <s id="19">Rõ ràng là dù rất khác nhau, những bức vẽ này đều có một điểm chung, không biết ai có nhận ra?</s>
+ <p id="p20">
+  <s id="20.1">Bạn có thấy không?</s>
+  <s id="20.2">Điểm chung đó là gì?</s>
+ </p>
+ <s id="21">Hầu hết các bức vẽ đều có điểm nút và đường liên kết.</s>
+ <s id="22">Điểm nút đại diện cho những vật hữu hình, như là lò nướng và con người, và liên kết đại diện cho mối quan hệ giữa các điểm nút.</s>
+ <s id="23">Sự kết hợp của đường liên kết và các điểm nút đã tạo ra một mô hình hệ thống hoàn chỉnh và minh hoạ trực quang mô hình suy nghĩ của ta về cách mọi thứ hoạt động.</s>
+ <s id="24">Giá trị của những thứ này là đây.</s>
+ <s id="25">Điều thú vị là cách nó thể hiện những quan điểm khác nhau.</s>
+ <s id="26">Ví dụ, người Mỹ nướng bánh mì bằng lò nướng.</s>
+ <s id="27">Quá rõ ràng.</s>
+ <p id="p28">
+  <s id="28.1">Trong khi đó, nhiều người châu Âu dùng chảo chiên bánh mì.</s>
+  <s id="28.2">Dĩ nhiên rồi.</s>
+  <s id="28.3">Và nhiều sinh viên nướng bánh mì bằng lửa.</s>
+ </p>
+ <p id="p29">
+  <s id="29.1">Tôi không thực sự hiểu điều này.</s>
+  <s id="29.2">Rất nhiều sinh viên MBA làm thế.</s>
+ </p>
+ <s id="30">Chúng ta có thể đo mức độ phức tạp bằng cách đếm các điểm nút, Trung bình, có khoảng từ 4 đến 8 điểm nút.</s>
+ <p id="p31">
+  <s id="31.1">Ít hơn số đó, bản vẽ có vẻ tầm thường, nhưng rất dễ hiểu.</s>
+  <s id="31.2">Nếu nhiều hơn 13 điểm nút, bản vẽ tạo ra cảm giác lạc đường.</s>
+ </p>
+ <s id="32">Quá phức tạp.</s>
+ <s id="33">Vậy số điểm nút phù hợp là từ 5 đến 13.</s>
+ <s id="34">Nếu muốn truyền tải một thông điệp bằng hình ảnh, hãy sử dụng từ 5 đến 13 điểm nút trong sơ đồ khối.</s>
+ <s id="35">Mặc dù có thể vẽ không khéo, điều quan trọng là bằng trực giác, ta biết chia nhỏ những thứ phức tạp thành những thứ đơn giản hơn và kết nối chúng lại với nhau.</s>
+ <s id="36">Và điều đó mang chúng ta đến phần 2 của bài tập này: làm bánh mì nướng như thế nào. nhưng bây giờ, ta dùng giấy ghi chú hoặc dùng thẻ.</s>
+ <s id="37">Chuyện gì xảy ra khi đó?</s>
+ <s id="38">Với những cái thẻ, hầu hết mọi người vẽ những điểm nút... rõ ràng hơn, chi tiết hơn, và logic hơn.</s>
+ <p id="p39">
+  <s id="39.1">Bạn có thể thấy quá trình phân tích được diễn ra từng bước.</s>
+  <s id="39.2">Và khi xây dựng mô hình, họ di chuyển những điểm nút sắp xếp chúng lại giống như chơi xếp hình.</s>
+ </p>
+ <s id="40">Bây giờ, dù có vẻ bình thường, nó thực ra lại rất quan trọng.</s>
+ <s id="41">Việc lặp lại quá trình đưa ra ý tưởng, suy nghĩ và phân tích là cách duy nhất để ta hiểu vấn đề một cách rõ ràng.</s>
+ <s id="42">Đó là điều cốt lõi của quá trình thiết kế.</s>
+ <s id="43">Các nhà lý thuyết hệ thống nói rằng việc dễ dàng thay đổi cách trình bày liên quan đến mong muốn cải tiến mô hình của chúng ta.</s>
+ <s id="44">Vì vậy, hệ thống sử dụng giấy ghi chú không chỉ dễ thay đổi hơn mà còn tạo ra nhiều điểm nút hơn so với những bức vẽ trên giấy.</s>
+ <s id="45">Bức tranh trở nên phong phú hơn.</s>
+ <p id="p46">
+  <s id="46.1">Và điều đó dẫn tới phần 3 của bài tập này: Làm bánh mì nướng như thế nào.</s>
+  <s id="46.2">Nhưng lần này, là làm việc nhóm.</s>
+ </p>
+ <s id="47">Khi đó, chuyện gì sẽ xảy ra?</s>
+ <s id="48">Đây là những gì đã xảy ra.</s>
+ <s id="49">Bắt đầu bằng hỗn loạn, sau đó, rất hỗn loạn, rồi ngày càng hỗn loạn hơn, Nhưng khi tinh lọc lại mô hình, những điểm nút tốt sẽ nổi bật lên, sau mỗi lần lặp lại, mô hình trở nên rõ ràng hơn, bởi vì người ta xây dựng chúng dựa trên ý tưởng của những người khác.</s>
+ <p id="p50">
+  <s id="50.1">Kết quả thu được là một mô hình hệ thống thống nhất kết hợp từ nhiều ý tưởng cá nhân đa dạng.</s>
+  <s id="50.2">Vì vậy, đó là kết quả hoàn toàn khác so với cái thường diễn ra trong cuộc họp.</s>
+ </p>
+ <p id="p51">
+  <s id="51.1">Phải không?</s>
+  <s id="51.2">Những bức vẽ này có thể chứa từ 20 điểm nút trở lên, nhưng những người tham gia không thấy lạc lối bởi vì chính họ đã tham gia xây dựng mô hình này.</s>
+ </p>
+ <s id="52">Điều thực sự thú vị là các nhóm được trộn lẫn, thêm các tầng lớp để sắp xếp chúng.</s>
+ <s id="53">Ví dụ, để giải quyết mâu thuẫn, họ thêm vào mô hình nhánh và mô hình song song.</s>
+ <s id="54">À, nhân tiện, nếu làm việc hoàn toàn trong im lặng, họ sẽ làm tốt hơn, và nhanh hơn nhiều.</s>
+ <s id="55">Rất là thú vị -- Nói chuyện làm cản trở công việc.</s>
+ <s id="56">Vì vậy, có vài bài học rút ra từ vấn đề này.</s>
+ <s id="57">Đầu tiên, vẽ giúp ta hiểu tình huống như hệ thống với các điểm nút và mối liên hệ của chúng với nhau.</s>
+ <s id="58">Những thẻ di chuyển được giúp tạo ra mô hình hệ thống tốt hơn, bởi vì ta dễ dàng thay đổi hơn.</s>
+ <s id="59">Cuối cùng, làm việc nhóm tạo ra mô hình hoàn thiện nhất, vì chúng ta tổng hợp lại từ nhiều ý tưởng khác nhau.</s>
+ <s id="60">Điều đó thật thú vị.</s>
+ <s id="61">Làm việc cùng nhau trong một tình huống thuận lợi, mô hình của nhóm tốt hơn mô hình của các cá nhân đơn lẻ.</s>
+ <p id="p62">
+  <s id="62.1">Cách tiếp cận này rất hiệu quả cho việc vẽ cách làm bánh mì nướng.</s>
+  <s id="62.2">Nhưng nếu muốn vẽ những gì liên quan tới công việc hay cấp thiết hơn, như tầm nhìn chiến lược của công ty hoặc trải nghiệm khách hàng, hoặc chủ đề tồn tại lâu dài thì sao?</s>
+ </p>
+ <s id="63">Có một cuộc cách mạng về hình ảnh diễn ra khi nhiều tổ chức trình bày các vấn đề khó khăn bằng cách cùng nhau vẽ ra chúng.</s>
+ <s id="64">Tôi tin rằng, những người nhìn mọi thứ giống như điểm nút và liên kết có nhiều thuận lợi hơn.</s>
+ <s id="65">Và quá trình thực hành rất đơn giản.</s>
+ <p id="p66">
+  <s id="66.1">Bạn bắt đầu với câu hỏi, tập hợp các điểm nút, tinh lọc chúng, và lặp lại điều đó.</s>
+  <s id="66.2">Cứ tinh lọc, tinh lọc, rồi tinh lọc, và cuối cùng mô hình ra đời.</s>
+  <s id="66.3">Nhóm của bạn hiểu rõ vấn đề, và trả lời được câu hỏi.</s>
+ </p>
+ <s id="67">Công việc tượng hình đơn giản, lặp lại nhiều lần thu được những kết quả tuyệt vời.</s>
+ <s id="68">Điều quan trọng cần biết là trao đổi thông tin là phần quan trọng không chỉ đối với mô hình,</s>
+ <s id="69">những cấu trúc tượng hình này có thể phát triển lên tới hàng trăm, thậm chí, hàng ngàn điểm nút.</s>
+ <s id="70">Ví dụ như Rodale,</s>
+ <s id="71">một nhà xuất bản lớn.</s>
+ <s id="72">Năm nọ, họ thua lỗ rất nhiều tiền, và nhóm quản trị có 3 ngày để hình dung ra toàn bộ vấn đề.</s>
+ <s id="73">Điều thú vị là sau khi mô tả mọi thứ bằng hình ảnh, từ hệ thống này đến hệ thống khác, họ tìm ra nguồn thu 50 triệu đô, và được khách hàng đánh giá mức A thay vì mức D.</s>
+ <p id="p74">
+  <s id="74.1">Tại sao ư?</s>
+  <s id="74.2">Bởi vì sự đồng thuận của nhóm quản trị.</s>
+ </p>
+ <p id="p75">
+  <s id="75.1">Tôi có một nhiệm vụ là giúp các tổ chức giải quyết các vấn đề khó khăn bằng cách hợp tác hình ảnh.</s>
+  <s id="75.2">Và trên trang web drawtoast.com của mình, tôi đã sưu tập được rất nhiều kết quả tốt.</s>
+ </p>
+ <s id="76">Ở đó, bạn có thể học cách tổ chức hội thảo, học thêm về ngôn ngữ hình ảnh, cấu trúc liên kết, điểm nút mà bạn có thể dùng giải quyết các vấn đề phổ biến, và tải về các ví dụ mẫu để mở mang kiến thức về các vấn đề gai góc gặp phải trong cơ quan.</s>
+ <s id="77">Bài tập thiết kế vẽ bánh mì tưởng chừng như đơn giản nhưng giúp ta hiểu rõ vấn đề, tham gia tích cực, đạt được sự đồng thuận.</s>
+ <s id="78">Vì vậy, lần tới, khi đối mặt với một vấn đề thú vị, hãy nhớ đến quá trình thiết kế này.</s>
+ <s id="79">Làm cho ý tưởng của bạn hữu hình, rõ ràng và logic.</s>
+ <p id="p80">
+  <s id="80.1">Rất đơn giản, thú vị và hữu dụng.</s>
+  <s id="80.2">Và tôi tin rằng đó là một ý tưởng đáng được tôn vinh.</s>
+ </p>
+ <s id="81">Xin cám ơn.</s>
+ <s id="82">(tiếng vỗ tay)</s>
+</text>

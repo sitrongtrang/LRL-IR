@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Khi còn là một cậu bé, tôi rất mê ô-tô.</s>
+ <s id="2">Năm tôi 18 tuổi, người bạn thân nhất của tôi ra đi trong một tai nạn xe hơi.</s>
+ <s id="3">Như thế này đây.</s>
+ <s id="4">Và rồi tôi quyết định rằng tôi sẽ dành cuộc đời mình để cứu sống cả triệu người mỗi năm.</s>
+ <s id="5">Hiện giờ tôi vẫn chưa thành công đâu, nên đây chỉ là báo cáo tiến trình công việc mà thôi, nhưng hôm nay tôi tới đây để kể cho các bạn về ô tô tự lái.</s>
+ <p id="p6">
+  <s id="6.1">Lần đầu tôi biết tới khái niệm này là ở cuộc thi Thử Thách DARPA.</s>
+  <s id="6.2">Ở cuộc thi này chính phủ Mỹ treo giải thưởng cho người nào dựng được một chiếc xe có thể tự lái qua sa mạc.</s>
+ </p>
+ <s id="7">Và dù có cả trăm đội dự thi, những chiếc xe đều chẳng ra làm sao cả.</s>
+ <s id="8">Và thế là chúng tôi, ở Đại Học Stanford, quyết định sẽ xây dựng một chiếc xe tự động.</s>
+ <s id="9">Chúng tôi phát triển phần cứng và phần mềm.</s>
+ <s id="10">Chúng tôi khiến chiếc xe 'học' từ chúng tôi và rồi thả nó chạy tự do trên sa mạc.</s>
+ <s id="11">Và điều không thể tưởng tượng được đã xảy ra: nó trở thành chiếc xe đầu tiên quay lại được từ Thử Thách DAPRA -- và Stanford thắng được 2 triệu đô-la.</s>
+ <s id="12">Nhưng tôi vẫn chưa cứu được bất kì mạng người nào hết.</s>
+ <s id="13">Từ đó, chúng tôi tập trung nghiên cứu xây dựng ô tô tự lái có thể tự động lái đi đâu cũng được -- bất kì đường nào ở California.</s>
+ <s id="14">Chúng tôi đã lái 140,000 dặm rồi.</s>
+ <s id="15">Ô tô của chúng tôi có thiết bị cảm ứng, nhờ vào đó chúng, thật là kì diệu, có thể nhìn thấy mọi thứ xung quanh chúng và tự quyết định về mọi mặt của việc lái xe.</s>
+ <s id="16">Đó là cơ chế lái xe hoàn hảo.</s>
+ <s id="17">Chúng tôi đã lái trong các thành phố như là San Francisco đây.</s>
+ <s id="18">Chúng tôi đã lái từ San Francisco đến Los Angeles, qua đường cao tốc số 1.</s>
+ <s id="19">Chúng tôi chạm trán người chạy bộ thể dục, đường cao tốc đông nghẹt, trạm thu phí cầu đường, và chẳng có lấy một người sau vô lăng; cái xe cứ tự động lái vậy thôi.</s>
+ <s id="20">Trên thực tế nó đã lái cả 140,000 dặm, mà thậm không có ai để ý hết.</s>
+ <s id="21">Đường núi, ngày hay đêm, và cả con đường Lombard ngoằn ngoèo này ở San Francisco nữa.</s>
+ <s id="22">(Tiếng cười) Đôi khi ô tô của chúng tôi hăng tới mức chúng còn làm vài tiểu xảo nho nhỏ nữa.</s>
+ <s id="23">(Video) Tiếng người: Ôi lạy chúa tôi.</s>
+ <s id="24">Cái gì đây?</s>
+ <s id="25">Một người khác: Nó đang tự lái kìa.</s>
+ <s id="26">Sebastian Thrun: Giờ đây tôi không thể khiến bạn tôi, Harold, sống lại được nữa. nhưng tôi có thể làm gì đó cho tất cả những người đã khuất.</s>
+ <s id="27">Các bạn có biết là tai nạn liên quan đến lái xe là lí do tử vong hàng đầu cho thanh thiếu niên?</s>
+ <s id="28">Và bạn có nhận ra rằng hầu hết các tai nạn này đều cho lỗi ở người chứ không phải lỗi máy móc, và vì thế có thể dùng máy móc để ngăn chặn?</s>
+ <s id="29">Bạn có nhận ra rằng ta có thể tăng sức chứa của các đường cao tốc lên gấp hai hay ba lần nếu ta không còn phải phụ thuộc vào sự chính xác chủ quan của người lái để đi đúng làn đường vạch sẵn -- bằng cách cải thiện năng lực định hướng và nhờ vậy lái xe gần nhau hơn một chút trên các làn đường hẹp hơn một chút và dẹp hết mọi sự tắc đường trên đường cao tốc?</s>
+ <s id="30">Bạn có nhận ra rằng bạn, khán giả TED trung bình tiêu hết 52 phút mỗi ngày vào giao thông, phí phạm thời gian khi di chuyển hàng ngày?</s>
+ <s id="31">Bạn có thể lấy lại khoảng thời gian này đấy.</s>
+ <s id="32">Tổng cộng lại đó là 4 tỉ giờ đồng hồ bị lãng phí trong nước ta mà thôi.</s>
+ <s id="33">Và đó là 2.4 tỉ gallon xăng dầu bị phí phạm.</s>
+ <s id="34">Giờ đây tôi nghĩ là chúng ta có một viễn cảnh, một công nghệ mới và tôi thật sự trông chờ thời điểm khi mà thế hệ con cháu ta nhìn lại và nói rằng thật đáng buồn cười khi mà có lúc con người phải lái xe hơi.</s>
+ <s id="35">Xin cám ơn các bạn.</s>
+ <s id="36">(Vỗ tay)</s>
+</text>

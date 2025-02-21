@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Đoạn nhạc này làm bạn cảm thấy thế nào?</s>
+ <s id="2">Bạn có thấy nó hay không?</s>
+ <s id="3">Nó có sáng tạo không?</s>
+ <s id="4">Bây giờ, bạn có đổi ý không nếu bạn được biết tác giả chính là chú robot này?</s>
+ <s id="5">Tin hay không là tuỳ bạn, nhưng con người đã vật lộn với câu hỏi về tính sáng tạo nhân tạo, cùng với câu hỏi về trí tuệ nhân tạo, suốt hơn 170 năm.</s>
+ <s id="6">Năm 1843, quý bà Ada Lovelace, một nhà toán học người Anh được xem như là lập trình viên đầu tiên trên thế giới, chỉ ra rằng một chiếc máy không thể có trí tuệ giống con người một khi nó chỉ làm những việc mà con người đã lập trình sẵn.</s>
+ <s id="7">Theo Lovelace, một cỗ máy phải có thể tạo ra những ý tưởng độc đáo thì mới được công nhận là thông minh.</s>
+ <s id="8">Bài kiểm tra Lovelace, được chính thức hoá năm 2001, đã đưa ra một cách để kiểm nghiệm ý kiến này.</s>
+ <s id="9">Một cái máy có thể vượt qua bài kiểm tra nếu nó có thể tạo ra một kết quả mà những người lập trình nó không thể giải thích dựa trên đoạn mã gốc.</s>
+ <s id="10">Bài kiểm tra Lovelace được tạo nên như một thí nghiệm tưởng tượng, hơn là một thí nghiệm khoa học khách quan.</s>
+ <s id="11">Nhưng nó vẫn có thể được lấy làm tiền đề.</s>
+ <s id="12">Thoạt nhìn thì việc một cái máy tạo ra âm nhạc chất lượng cao và độc đáo theo cách này có vẻ bất khả thi.</s>
+ <s id="13">Chúng ta có thể nghĩ ra một thuật toán vô cùng phức tạp sử dụng những bộ tạo giá trị ngẫu nhiên, các hàm số hỗn độn và logic mơ hồ để tạo nên một chuỗi các nốt nhạc mà chúng ta không thể theo dõi được.</s>
+ <s id="14">Mặc dù việc này có thể mang lại vô số giai điệu độc đáo chưa từng nghe đến, chỉ một phần rất nhỏ trong số đó mới đáng để nghe.</s>
+ <s id="15">Bởi máy tính không thể phân biệt giữa giai điệu hay và dở.</s>
+ <s id="16">Nhưng sẽ thế nào nếu chúng ta xem xét lại và cố làm theo một quá trình tự nhiên tạo điều kiện cho sự sáng tạo hình thành?</s>
+ <s id="17">Chúng ta tình cờ biết đến ít nhất một quá trình mà đã dẫn đến những kết quả độc đáo, quý giá và tốt đẹp, đó là sự tiến hoá</s>
+ <s id="18">Và những thuật toán dựa trên sự tiến hoá, hay trên di truyền học phỏng theo sự tiến hoá về mặt sinh học, là một hướng đi triển vọng để giúp máy móc tạo nên các sản phẩm độc đáo và có giá trị nghệ thuật cao.</s>
+ <s id="19">Vậy làm sao sự tiến hoá có thể làm máy móc sáng tạo trong âm nhạc?</s>
+ <s id="20">Thay vì là những sinh vật, ta có thể bắt đầu với một số nhịp nhạc, và một thuật toán cơ bản để bắt chước quá trình sinh sản và biến dị đột biến bằng cách đổi chỗ một số đoạn, ghép những đoạn còn lại với nhau, và thay thế một vài nốt ngẫu nhiên.</s>
+ <s id="21">Giờ ta đã có một thế hệ mới các nhịp nhạc, ta có thể áp dụng sự chọn lọc sử dụng một phép toán gọi là hàm mục tiêu.</s>
+ <s id="22">Cũng như quá trình chọn lọc tự nhiên chịu sức ép của môi trường bên ngoài, hàm mục tiêu của chúng ta có thể được định bởi một giai điệu từ bên ngoài được chọn bởi các nhạc công hay những người yêu âm nhạc để tiêu biểu cho giai điệu tuyệt vời nhất.</s>
+ <s id="23">Thuật toán sau đó sẽ so sánh giữa nhịp nhạc của chúng ta và giai điệu tuyệt vời đó, và chỉ lựa chọn những nhịp giống với nó nhất.</s>
+ <s id="24">Một khi những đoạn không tương đồng nhất bị bỏ đi thuật toán một lần nữa áp dụng sự biến dị và tái tổ hợp với những gì còn lại, chọn những đoạn giống hoặc phù hợp nhất, một lần nữa từ một thế hệ mới, và lặp lại cho nhiều thế hệ.</s>
+ <s id="25">Cả một quá trình để đưa ta đến đó gắn liền với rất nhiều sự ngẫu nhiên và phức tạp nên kết quả của nó có thể vượt qua bài kiểm tra Lovelace.</s>
+ <s id="26">Quan trọng hơn, nhờ vào sự có mặt của khiếu thẩm mỹ con người trong quá trình, mà về mặt lý thuyết, ta sẽ tạo nên những giai điệu mà chúng ta cho là hay.</s>
+ <s id="27">Nhưng việc này có làm vừa lòng chúng ta về cái gì thực sự sáng tạo?</s>
+ <s id="28">Đã đủ chưa khi chỉ cần tạo ra cái gì độc đáo và hay hay sự sáng tạo cần có chủ ý và nhận thức về cái gì đang được tạo ra?</s>
+ <s id="29">Có lẽ sự sáng tạo trong trường hợp này thực ra xuất phát từ các lập trình viên, ngay cả khi họ cũng không hiểu quá trình đó.</s>
+ <s id="30">Vậy thì cái gì là tính sáng tạo của con người?</s>
+ <s id="31">Có phải nó là cái gì hơn cả một hệ thống các neurons liên kết với nhau được tạo nên bởi các quá trình sinh học có quy tắc và những trải nghiệm ngẫu nhiên đã quyết định cuộc sống chúng ta?</s>
+ <s id="32">Trật tự và hỗn loạn, máy móc và con người</s>
+ <s id="33">Đây là những động cơ ở trung tâm của những sáng kiến về sự sáng tạo của máy móc mà hiện đang tạo nên âm nhạc, tác phẩm điêu khắc, hội hoạ, thi ca, ...</s>
+ <s id="34">Chúng ta vẫn không thể chắc chắn có công bằng hay không khi gọi sự tạo thành theo cách này là sáng tạo.</s>
+ <s id="35">Song nếu một tác phẩm nghệ thuật có thể làm bạn khóc hoặc cuốn hút bạn, hoặc làm cho bạn nổi da gà, Thì ai, hay cái gì đã tạo nên nó có thực sự quan trọng?</s>
+</text>

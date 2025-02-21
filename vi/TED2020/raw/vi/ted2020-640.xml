@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Tôi là Jonathan Zittrain, và tôi có vài cái nghiên cứu gần đây không khả quan cho lắm</s>
+ <s id="2">mà tôi nghĩ, sáng nay tôi sẽ cố gắng lạc quan hơn và cho các bạn lí do để hi vọng vào tương lai của internet dựa sự hiện diện của nó.</s>
+ <s id="3">Ngày nay, dường như người ta không hi vọng nhiều như trước.</s>
+ <s id="4">Người ta bớt tốt bụng còn niềm tin thì ngày càng vơi dần</s>
+ <s id="5">Ý tôi là...Tôi không biết nữa Một ví dụ đơn giản, ta có thể làm khảo sát ở đây.</s>
+ <s id="6">Bao nhiêu người đã từng đi quá giang?</s>
+ <p id="p7">
+  <s id="7.1">Biết mà..</s>
+  <s id="7.2">Bao nhiêu người đã đi quá giang trong 10 năm trở lại đây?</s>
+ </p>
+ <s id="8">Được rồi Vậy thì điều gì đã thay đổi?</s>
+ <s id="9">Không phải do phương tiện công cộng xịn hơn đâu</s>
+ <s id="10">Nên, đó là một lí do để nghĩ rằng có thể mình đang nghĩ sai hướng</s>
+ <s id="11">Nhưng tôi muốn đưa ra 3 ví dụ để chỉ ra rằng xu thế hiện nay thật ra đang đi theo chiều hướng khác... ...với sự hỗ trợ của Internet.</s>
+ <s id="12">Ví dụ thứ nhất: bản chất của Internet</s>
+ <s id="13">Đây là 3 người sáng lập Internet</s>
+ <s id="14">Vốn dĩ họ là bạn cùng lớp học cùng trường trung học ở ngoại ô Los Angeles..</s>
+ <p id="p15">
+  <s id="15.1">vào những năm 1960.</s>
+  <s id="15.2">Các bạn có câu lạc bộ tiếng Pháp hay câu lạc bộ tranh luận gì gì</s>
+ </p>
+ <s id="16">còn họ có CLB "Tạo mạng lưới toàn cầu" Có vẻ nó hoạt động khá là ổn.</s>
+ <s id="17">Tấm hình ở đây được chụp vào dịp kỉ niệm 25 năm xuất bản tạp chí Newsweeks trên Internet.</s>
+ <s id="18">Và bạn có thể nói rằng, nhìn họ chẳng khác gì những tên ngốc.</s>
+ <s id="19">Họ có một hạn chế rất lớn và sự tự do cũng rộng không kém khi cố gắng hình dung ra một mạng lưới toàn cầu.</s>
+ <s id="20">Hạn chế của họ là tài chính.</s>
+ <p id="p21">
+  <s id="21.1">Không có một số vốn cụ thể nào để đầu tư cho một mạng lưới vật lý.</s>
+  <s id="21.2">Bạn sẽ cần xe tải, nhân viên và một trung tâm để vận chuyển hàng hóa thâu đêm.</s>
+ </p>
+ <s id="22">Họ chẳng có gì cả.</s>
+ <s id="23">Nhưng họ lại có một sự tự do đáng kinh ngạc đó là không có áp lực phải kiếm tiền từ nó.</s>
+ <s id="24">Internet không và chưa bao giờ có một kế hoạch kinh doanh cụ thế.</s>
+ <s id="25">Không có CEO, không công ty riêng rẽ nào mang trách nhiệm xây dựng nó.</s>
+ <s id="26">Mà thay vào đó là những con người tập hợp lại với nhau để làm điều gì đó vì sở thích hơn là vì họ bị bắt phải làm thế hay vì họ hi vọng sẽ kiếm thật nhiều tiền từ nó.</s>
+ <s id="27">Đặc thù đó dẫn đến một mô hình mạng, một kết cấu hoàn toàn không giống với những mạng kĩ thuật số trước đó hay trở về sau.</s>
+ <s id="28">Một điều kì lạ là trong thực tế mọi người không rõ liệu Internet có thể vận hành được hay không</s>
+ <s id="29">Cuối năm 1992, ai cũng biết IBM phát biểu rằng "Không thể xây dựng một mạng lưới công ty bằng cách sử dụng Internet Protocol."</s>
+ <s id="30">Thậm chí hiện nay, những kĩ sư Internet cũng cho rằng tất cả đều là những dự án thí điểm</s>
+ <p id="p31">
+  <s id="31.1">và chẳng đi đến kết luận nào cả.</s>
+  <s id="31.2">Đó là lí do mà linh vật của công nghệ Internet, nếu có thì mọi người cho nên là con ong nghệ.</s>
+ </p>
+ <s id="32">Vì tỉ lệ lông so với độ sải cánh của chúng quá lớn để chúng bay được.</s>
+ <s id="33">Tuy nhiên bằng một cách bí ẩn nào đó mà loài ong vẫn có thể bay.</s>
+ <s id="34">Tôi rất vui khi nói rằng, nhờ khoản tài trợ to lớn của chính phủ, khoảng 3 năm về trước mà ta cuối cùng cũng tìm ra cách con ong nó bay.</s>
+ <s id="35">Phức tạp lắm chứ tưởng, nhưng hóa ra chỉ là do chúng đập cánh rất lẹ mà thôi.</s>
+ <s id="36">Vậy thì cấu hình kiến trúc kì quái này là cái gì mà lại có thể giúp Mạng trở nên độc nhất và khác biệt?</s>
+ <s id="37">Để di chuyển dữ liệu từ nơi này đến nơi khác ...nhắc lại, không phải giống với chuyển phát hàng hóa.</s>
+ <s id="38">Mà là như một đám đông khiêng bạn lên</s>
+ <s id="39">Thử tưởng tượng, bạn là một phần của một mạng lưới nơi mà, có thể là ở một sự kiện thể thao và bạn đang ngồi trong hàng như thế này, và đột nhiên ai đó yêu cầu một ly bia, và quầy bia được đặt ở lối đi.</s>
+ <s id="40">Và trọng trách của những người ngồi cạnh là phải chuyền ly bia đi, chịu mạo hiểm chính cái quần tây của mình, để đưa nó đến tay người đó.</s>
+ <s id="41">Không ai trả tiền để bạn làm việc đó cả</s>
+ <s id="42">Chỉ là nghĩa vụ của một người ngồi cạnh</s>
+ <s id="43">Ở khía cạnh nào đó, đó chính là cách các gói dữ liệu truyền đi trong Internet đôi khi chỉ trong vòng 25 đến 30 bước nhảy, ...với sự hỗ trợ của các yếu tố trung gian đưa dữ liệu đi khắp nơi mà không có bất kì hợp đồng cụ thể hay nghĩa vụ pháp lý nào đối với người gửi hay là người nhận.</s>
+ <s id="44">Tất nhiên, khi được một đám đông khiêng đi thì khó mà biết được đích đến</s>
+ <s id="45">Phải tin tưởng nhiều lắm đấy, nhưng không phải kiểu như "Vui lòng đưa tôi tới Pensacola".</s>
+ <s id="46">Vì vậy Internet cần sự định hướng.</s>
+ <s id="47">Hóa ra, không có một tấm bản đồ tổng quan về Internet.</s>
+ <s id="48">Mà thay vào đó, một lần nữa, giống như chúng ta đang ngồi trong rạp hát nhưng chỉ thấy giữa sương mù ...những người ngồi cạnh ta lúc đó.</s>
+ <s id="49">Vậy làm sao ta xác định ai đang ở đâu?</s>
+ <s id="50">Chúng ta quay sang người bên phải, nói với người đó thứ chúng ta thấy bên trái, và ngược lại.</s>
+ <p id="p51">
+  <s id="51.1">Họ cứ vô thức lặp lại hành động đó.</s>
+  <s id="51.2">Và trước khi bạn nhận ra, bạn đã biết sơ về vị trí của mọi vật.</s>
+ </p>
+ <s id="52">Đây chính là cách định tuyến Internet hoạt động.</s>
+ <s id="53">Đây là một hệ thống dựa trên lòng tốt và niềm tin, khiến nó trở nên rất mong manh, dễ vỡ.</s>
+ <s id="54">Trong vài ví dụ hiếm hoi nhưng nổi bật, chỉ cần một lời nói dối từ một cá nhân trong cái tổ ong này, có thể dẫn tới rắc rối thật sự.</s>
+ <s id="55">Ví dụ, năm ngoái, chính phủ Pakistan yêu cầu những nhà cung cấp Internet ở đó ngăn không cho người dân dùng YouTube.</s>
+ <s id="56">Có một video chính phủ không thích nên họ muốn đảm bảo nó đã bị khóa.</s>
+ <p id="p57">
+  <s id="57.1">Đây là chuyện xảy ra như cơm bữa.</s>
+  <s id="57.2">Chính phủ các nước hay cố gắng ngăn chặn, lọc và kiểm duyệt nội dung trên Internet.</s>
+ </p>
+ <s id="58">Có một loại tên ở Pakistan là ISP chọn cách là thực hiện ngăn chặn các thuê bao của nó bằng một cách khá lạ đời.</s>
+ <p id="p59">
+  <s id="59.1">Nó quảng cáo -- theo cách mà bạn có thể bị hỏi, nếu đã tham gia Internet, để xác nhận cái gì đang ở gần bạn.</s>
+  <s id="59.2">Nó quảng cáo rằng gần đó, hóa ra nó vừa chợt nhận ra nó chính là Youtube</s>
+ </p>
+ <s id="60">Nó nói: "Đúng vậy, tôi là YouTube đây".</s>
+ <s id="61">Có nghĩa là các gói dữ liệu từ những người đăng ký trên YouTube bị chặn ở ISP, vì họ nghĩ chúng đã tồn tại rồi, và ISP ném chúng đi mà không mở ra vì mục đích của họ là chặn nó.</s>
+ <s id="62">Nhưng không chỉ dừng lại ở đó.</s>
+ <s id="63">Mọi người thấy đấy, thông báo đó được đưa ra chỉ bằng một click, và gây tiếng vang, cũng chỉ bằng một click.</s>
+ <s id="64">Và hóa ra, như những gì bạn thấy sau khi sự kiện này kết thúc, bạn đang có một khoảng thời gian tuyệt vời lướt YouTube.</s>
+ <s id="65">Và khoảnh khắc tiếp theo, bạn nhận được một thông báo giả.</s>
+ <s id="66">Và chỉ trong vòng 2 phút, nó đã lan đi khắp nơi và YouTube khắp nơi trên thế giới bị khóa.</s>
+ <s id="67">Nếu bạn đang ngồi ở Oxford, Anh và cố truy cập Youtube Gói dữ liệu bạn định truyền tới Pakistan sẽ một đi không trở lại.</s>
+ <s id="68">Hãy nghĩ về điều đó.</s>
+ <s id="69">Một trong những trang web phổ biến nhất thế giới, được điều hành bởi công ty quyền lực nhất, và chẳng có gì mà YouTube hay Google có đặc quyền can thiệp vào nó.</s>
+ <s id="70">Tuy nhiên, bằng cách nào đó trong vòng 2 tiếng đồng hồ, rắc rối đã được giải quyết.</s>
+ <s id="71">Nó đã xảy ra như thế nào?</s>
+ <s id="72">Ta chuyển sang một manh mối lớn: NANOG,</s>
+ <s id="73">Cơ quan điều hành mạng Bắc Mỹ, Một nhóm người mà trong một ngày đẹp trời, bước vào một căn phòng không có cửa sổ, tại bàn làm việc của họ ngồi đọc email và tin nhắn theo một tỉ lệ font nhất định, như thế này và nói chuyện về mạng.</s>
+ <s id="74">Một số người là nhân viên tầm trung từ những nhà cung cấp mạng trên thế giới</s>
+ <s id="75">Và đây là thông điệp từ một trong số họ "Có vẻ như chúng ta có một vụ trực tiếp.</s>
+ <p id="p76">
+  <s id="76.1">Có một vụ cướp Youtube!</s>
+  <s id="76.2">Không hề xuyên tạc.</s>
+  <s id="76.3">Đây không chỉ là sự thiếu căn cứ của kỹ sư Youtube.</s>
+ </p>
+ <s id="77">Tôi hứa đấy Có chuyện gì đó đang xảy ra ở Pakistan".</s>
+ <s id="78">Và họ tập hợp lại để tìm ra vấn đề và giải quyết nó.</s>
+ <s id="79">Nó giống như khi nhà bị cháy.</s>
+ <s id="80">Tin xấu là không có đội chữa cháy.</s>
+ <s id="81">Tin tốt là những người ngẫu nhiên từ đâu đến dập lửa giúp và rời đi mà chẳng cần đền đáp hay ca ngợi.</s>
+ <s id="82">Tôi đã cố nghĩ đến một hình mẫu chính xác để miêu tả kiểu ngẫu nhiên làm việc tốt này bởi những người lạ khó hiểu.</s>
+ <s id="83">Bạn biết đấy, chỉ cần một tiếng kêu cứu, mọi người sẽ sẵn sàng ra tay giúp đỡ.</s>
+ <s id="84">Hóa ra, hình mẫu này có ở khắp mọi nơi, chỉ cần bạn tìm kiếm nó.</s>
+ <s id="85">Ví dụ thứ hai: Wikipedia.</s>
+ <p id="p86">
+  <s id="86.1">Nếu một ông tên Jimbo đứng trước mặt bạn vào năm 2001 và nói "Tôi có một ý tưởng tuyệt vời!</s>
+  <s id="86.2">Hãy bắt đầu với 7 bài báo mà ai cũng có thể sửa mọi thứ, mọi lúc Và ta sẽ có một bách khoa thư thật đỉnh!</s>
+ </p>
+ <p id="p87">
+  <s id="87.1">Ha?"</s>
+  <s id="87.2">Đúng vậy.</s>
+  <s id="87.3">Ý tưởng ngớ ngẩn nhất của mọi thời đại.</s>
+ </p>
+ <s id="88">Thực tế, Wikipedia là một ý tưởng hết sức ngu ngốc mà ngay cả Jumbo cũng chưa bao giờ nghĩ đến.</s>
+ <s id="89">Ý tưởng của Jumbo là về Nupedia.</s>
+ <p id="p90">
+  <s id="90.1">Nó hoàn toàn truyền thống.</s>
+  <s id="90.2">Ông ấy sẽ trả tiền vì cảm thấy mình đang làm một việc tốt, tiền sẽ vào túi mọi người và họ sẽ viết những bài báo.</s>
+ </p>
+ <s id="91">Wiki được giới thiệu để mọi người đều có thể góp ý, chỉnh sửa -- gần như là một sự vô dụng</s>
+ <s id="92">một lỗ hổng đằng sau Và cuối cùng lỗ hổng to ra bao trùm toàn bộ dự án</s>
+ <s id="93">Và ngày nay, Wikipedia đã trở nên cực kỳ phổ biến, tới nỗi mà bạn có thể thấy nó trong thực đơn của một nhà hàng Trung Quốc.</s>
+ <s id="94">Tôi không bịa đâu.</s>
+ <s id="95">Tôi có một giả thuyết mà tôi sẽ giải thích sau.</s>
+ <s id="96">Không cần nói nhiều, bây giờ tôi chỉ muốn một phần Wikipedia chiên với pimento.</s>
+ <s id="97">Nhưng hiện nay, Wikipedia không hoạt động một cách tự phát</s>
+ <p id="p98">
+  <s id="98.1">Vậy nó hoạt động như thế nào?</s>
+  <s id="98.2">Hóa ra có một căn phòng kín, không có cửa sổ, nói một cách ẩn dụ là như vậy.</s>
+ </p>
+ <p id="p99">
+  <s id="99.1">Có một nhóm người vào một ngày nắng đẹp như thế, chỉ muốn ở trong phòng và kiểm tra thông báo của người quản lý.</s>
+  <s id="99.2">Bản chất của wiki là ai cũng có thể chỉnh sửa.</s>
+ </p>
+ <s id="100">Và bạn vừa mang rắc rối đến cho nó.</s>
+ <s id="101">Nó gợi nhớ đến những mô tả của lịch sử như "lại thêm một điều vớ vẩn nữa", phải không nào?</s>
+ <s id="102">Thứ nhất: "Chỉnh sửa bởi Andyvphil"</s>
+ <s id="103">Xin lỗi Andyvphil nếu bạn có mặt ở đây.</s>
+ <s id="104">Tôi đang nói khách quan nhé.</s>
+ <s id="105">"Anon tấn công tôi để trở lại"</s>
+ <s id="106">Phần ưa thích của tôi đây "Một câu chuyện dài"</s>
+ <s id="107">Số người muốn tìm ra vấn đề của trang này và mong muốn khắc phục nó nhiều hơn là những tồn tại trong trang.</s>
+ <s id="108">Và đó là điều giúp Wikipedia thành công.</s>
+ <s id="109">Lúc nào Wikipedia cứ như chỉ còn 45 phút trước bờ vực hủy diệt ấy.</s>
+ <p id="p110">
+  <s id="110.1">Đúng không?</s>
+  <s id="110.2">Có rất nhiều chương trình rác làm chậm nó, biến các bài viết thành quảng cáo đồng hồ Rolex hết</s>
+ </p>
+ <s id="111">Chính ranh gới mỏng manh nhưng tuyệt vời này khiến nó tiếp tục hoạt động.</s>
+ <s id="112">Không phải vì nó là một công việc, không phải vì nó là sự nghiệp, mà vì nó là tiếng gọi.</s>
+ <s id="113">Một điều gì đó họ cảm thấy buộc phải làm vì họ quan tâm tới nó.</s>
+ <s id="114">Họ thậm chí còn tập hợp lại thành các nhóm như là Ban chống bạo lực -- "Văn minh, Trưởng thành, Trách nhiệm" -- để làm sạch các trang web.</s>
+ <s id="115">Chắc chắn các bạn sẽ thắc mắc, nếu có một hội nghị-- Tôi không rõ, một hội nghị lớn và cực nổi tiếng như là Star Trek, vào ngày cuối tuần thì ai sẽ trông cửa hàng đây?</s>
+ <s id="116">Nên những gì chúng ta thấy -- những gì chúng ta thấy từ hiện tượng này chính là cái mà kỹ sư giao thông điên rồ quá cố Hans Monderman đã khám phá ra ở Hà Lan, và tại đây, Nam Kensington, đôi khi nếu bạn bỏ đi những luật lệ bên ngoài biển báo và những thứ khác, thực ra bạn có thể chấm dứt một môi trường an toàn nơi mà mọi người có thể được thể hiện khả năng và một nơi mà con người đối tốt với nhau hơn</s>
+ <s id="117">Họ nhận ra rằng phải nhận trách nhiệm</s>
+ <p id="p118">
+  <s id="118.1">với việc họ làm.</s>
+  <s id="118.2">Và Wikipedia đã nắm bắt điều này.</s>
+ </p>
+ <s id="119">Vài người có thể còn nhớ Chiến Binh Vì Sao Nhí , một thiếu niên tội nghiệp tự quay phim với một cây gậy chơi golf tự vệ, diễn như thể nó là một thanh kiếm ánh sáng.</s>
+ <s id="120">Bộ phim, dù ban đầu không có sự cho phép của anh ta hay tri thức gì đã tìm được chỗ đứng trên Internet</s>
+ <s id="121">Một video được mọi người truyền tay nhau.</s>
+ <s id="122">Cực kì nổi tiếng, hoàn toàn làm mất thể diện anh ta</s>
+ <s id="123">Giờ nó đã lên bách khoa toàn thư và tất cả những gì Wiki phải làm là một bài viết về Chiến Binh Vì sao Nhí</s>
+ <s id="124">Mỗi bài viết có một trang thảo luận tương ứng Và mỗi trang như thế lại có cực kì nhiều lời tranh luận giữa những người dùng Wiki xoay quanh việc anh ta có dùng tên thật trên bài báo không</s>
+ <s id="125">Các bạn có thể thấy đầy cả hai bên</s>
+ <s id="126">còn đây chỉ là một ảnh chụp một phần thôi</s>
+ <s id="127">Sau cùng họ đã quyết định-- không phải bởi tất cả mọi người rằng không thêm tên thật của anh ta cho dù phần lớn các bài báo cáo đều làm điều này.</s>
+ <s id="128">Họ đã không nghĩ đây là điều nên làm</s>
+ <s id="129">Đây là hành động nhân từ</s>
+ <s id="130">Và đến hôm nay, cái trang cho Chiến binh Vì sao Nhí đã có một cảnh báo lớn ngay trên tiêu đề rằng bạn không được đề tên anh ấy trên trang.</s>
+ <s id="131">Nếu làm thế, nó sẽ bị xóa ngay lập tức, bởi những người không đồng ý với quyết định ban đầu, nhưng lại tôn trọng thành quả và hành động để giữ nó lại vì họ tin vào cái gì đó lớn hơn quan điểm của mình.</s>
+ <s id="132">Là luật sư, tôi phải nói rằng mấy người này đang "phát minh" luật lệ tiền lệ pháp và những thứ đại loại thế</s>
+ <p id="p133">
+  <s id="133.1">khi họ tiến hành thông qua.</s>
+  <s id="133.2">Đó không chỉ là hạn chế với Wikipedia.</s>
+ </p>
+ <s id="134">Chúng ta thấy nó trên các blog ở khắp nơi.</s>
+ <s id="135">Ý tôi là, đây là ảnh bìa của tờ Business Week năm 2005.</s>
+ <s id="136">Blog mà sẽ thay đổi sự nghiệp của bạn luôn</s>
+ <p id="p137">
+  <s id="137.1">Tôi biết nghe rất ngớ ngẩn.</s>
+  <s id="137.2">Chắc chắn là như vậy.</s>
+ </p>
+ <s id="138">Họ bắt đầu bằng tất cả thể loại dự án rất buồn cười.</s>
+ <s id="139">Cái blog ngớ ngẩn mà tôi thích đây Catsthatlooklikehitler.com.</s>
+ <s id="140">Bạn chỉ cần gửi hình của chú mèo nhà bạn nếu nhìn nó giống Hitler.</s>
+ <p id="p141">
+  <s id="141.1">Tôi biết.</s>
+  <s id="141.2">Số 4, giống như là, bạn có thể hình dung ra cảnh về nhà với con mèo đó mỗi ngày không?</s>
+ </p>
+ <s id="142">Nhưng sau đó, bạn có thể thấy sự bất thường tương tự xảy đến với người.</s>
+ <s id="143">Đây là một blog về vẽ chân dung kì cục</s>
+ <s id="144">Nó đề rằng: "Đồng cỏ thôn quê với rào phân cách đường sắt.</s>
+ <s id="145">Có phải xác con vật phía sau cô ấy không?"</s>
+ <p id="p146">
+  <s id="146.1">Bạn sẽ phản ứng kiểu, "Bạn biết không?</s>
+  <s id="146.2">Có xác một con vật</s>
+ </p>
+ <p id="p147">
+  <s id="147.1">sau lưng cô ấy thật đấy!"</s>
+  <s id="147.2">Và cứ thế cứ thế tiếp tục.</s>
+ </p>
+ <p id="p148">
+  <s id="148.1">Nhưng sau đó bạn sẽ gặp điều này.</s>
+  <s id="148.2">Hình ảnh đã bị xóa theo yêu cầu của người sở hữu.</s>
+ </p>
+ <p id="p149">
+  <s id="149.1">Chỉ thế thôi.</s>
+  <s id="149.2">Ảnh bị xóa theo ý của người sở hữu.</s>
+ </p>
+ <s id="150">Vậy nghĩa là có ai đó đã chỉ trích ở đây, viết cho anh chàng gàn dở nào đó quản lý trang web, không phải một lời đe dọa hợp pháp hay đề nghị thanh toán, mà chỉ nói: "Này, đó có phiền không?"</s>
+ <s id="151">Người kia nói, "Không sao."</s>
+ <s id="152">Tôi tin là chúng ta có thể xây dựng những mô hình trực tuyến để đáp ứng những yêu cầu như thế Làm thế sẽ dễ dàng hơn để ta có thể thấy những dữ liệu mà chúng ta gặp trực tuyến chỉ bằng những cái nhấp chuột, dán, sao chép và di chuyển nhưng lại có thể diễn tả cảm xúc của con người, những nỗ lực và ảnh hưởng, và có thể có những giây phút đầy nhân văn nơi chúng ta quyết định ta muốn hành xử thế nào.</s>
+ <s id="153">Thậm chí tôi còn nghĩ ta có thể ra thế giới thực</s>
+ <s id="154">Chúng ta có thể kết thúc, vì ta đến với một nơi có nhiều sự kiểm soát hơn -- mọi nơi đều có cái để quay phim bạn, sau đó có lẽ đăng lên mạng-- để có được một cái cặp tóc nhỏ có viết: "Bạn biết không, tôi không muốn thế"</s>
+ <p id="p155">
+  <s id="155.1">Và sau đó sẽ có công nghệ mà người chụp ảnh sẽ biết về nó sau.</s>
+  <s id="155.2">Người này sẽ yêu cầu liên lạc trước khi đi đến nơi nào đó lớn hơn nếu như bạn không phiền.</s>
+ </p>
+ <s id="156">Và người chụp tấm hình đó có thể quyết định về việc làm cách nào và liệu có nên tôn trọng nó hay không.</s>
+ <s id="157">Trong thực tế, chúng ta thấy những điều như vậy diễn ra ở Pakistan</s>
+ <s id="158">Ngày nay ta có đủ phương tiện cần thiết để xây dựng một hệ thống như thế này đây, nên mọi người có thể báo cáo các bộ lọc khi họ gặp phải nó.</s>
+ <p id="p159">
+  <s id="159.1">Sẽ không còn những câu kiểu "Tôi không biết.</s>
+  <s id="159.2">Tôi không làm được.</s>
+  <s id="159.3">Tôi nghĩ mình sẽ tiến lên" mà đột nhiên nó trở thành ý thức tập thể về những gì đã bị ngăn chặn và kiểm duyệt ở trên mạng trực tuyến</s>
+ </p>
+ <s id="160">Thật vậy, nói về công nghệ mô phỏng cuộc sống, mô phỏng công nghệ cao, hay có thể là một cách khác.</s>
+ <s id="161">Một nhà nghiên cứu của NYU đã dùng những con robot các-tông nhỏ với một khuôn mặt cười, một động cơ kéo con robot đi, một lá cờ gắn trên lưng nó ghi một địa điểm muốn đến</s>
+ <s id="162">Rằng: 'Bạn có thể giúp tôi đến đó không?"</s>
+ <s id="163">Nó được đặt trên những con phố ở Manhattan.</s>
+ <s id="164">Ngày nay, ta quyên góp gì cũng được mà.</s>
+ <s id="165">Đây là biểu đồ đường đi của hơn 43 người đang giúp kéo con robot mù đường này đi và giúp nó di chuyển, từ góc này, một góc Quảng trường Công viên Washington đến góc khác.</s>
+ <s id="166">Điều này dẫn đến ví dụ thứ 3: Đi nhờ.</s>
+ <s id="167">Tôi không chắc đi nhờ có hết hay chưa.</s>
+ <p id="p168">
+  <s id="168.1">Vì sao?</s>
+  <s id="168.2">Cói một cái gọi là Mục đi chung xe trên Craiglist.</s>
+ </p>
+ <s id="169">Nếu nó được gọi là mục quá giang Craglist, nó sẽ vắng tanh như chùa bà đanh</s>
+ <s id="170">Nhưng nó là mục tin quá giang, về cơ bản đều giống nhau.</s>
+ <s id="171">Sao chúng ta mọi người lại sử dụng nó?</s>
+ <p id="p172">
+  <s id="172.1">Tôi không biết.</s>
+  <s id="172.2">Có lẽ họ nghĩ những kẻ sát nhân chưa có kế hoạch trước chăng?</s>
+ </p>
+ <p id="p173">
+  <s id="173.1">Không.</s>
+  <s id="173.2">Tôi nghĩ câu trả lời thật sự là một khi bạn điều chỉnh nó, một khi bạn đã thoát ra khỏi những kỳ vọng trước đây từ những thất bại ngày ấy nhưng giờ, dù lí do là gì, nó cũng mờ đi ít nhiều bạn vẫn có thể nhen nhóm lại lòng tốt và sự sẻ chia của con người mà một số thứ tương tự trên Craiglist đã thể hiện.</s>
+ </p>
+ <s id="174">Và bạn có thể làm nó nổi bật lên thành một thứ như-- Phải, là CouchSurfing.org</s>
+ <s id="175">CouchSurfing: ý tưởng của một người để cuối cùng có thể tập hợp mọi người, những ai đang có ý định đi xa và được ngủ trên ghế bành nhà người lạ miễn phí, cùng với những người xa nhà khác hay cũng muốn mời những người không quen biết ngủ trọ nhà mình miễn phí.</s>
+ <s id="176">Đó quả là một ý tưởng xuất sắc.</s>
+ <s id="177">Đó chính là cách mà con ong bay.</s>
+ <s id="178">Tuyệt vời biết bao khi có rất nhiều cơ hội ở trọ cho mọi người.</s>
+ <s id="179">Nếu bạn đang băn khoăn thì không có cái chết nào liên quan đến CouchSurfing.</s>
+ <s id="180">Mặc dù, để chắc chắn, hệ thống uy tín ngày nay hoạt động để bạn ghi lại những trải nghiệm khi ở nhờ, thể nào cũng có một vài lựa chọn thiên vị ở đây cho coi</s>
+ <s id="181">Vậy, thông điệp và quan điểm của tôi là Internet không chỉ là một đống thông tin</s>
+ <s id="182">Đó không phải một danh từ.</s>
+ <s id="183">Nó là động từ Khi bạn tiếp tục dùng nó, nếu bạn lắng nghe và quan sát đủ kĩ, đủ gần, bạn sẽ nhận ra rằng chính thông tin đó, đang muốn truyền đạt gì đó với bạn</s>
+ <s id="184">Những gì nó mách bảo bạn, chúng tôi đều đã nghe ngày trước Demosthenes đã nói với chúng tôi,</s>
+ <s id="185">rằng: "Hãy tiến lên"</s>
+ <s id="186">Cảm ơn rất nhiều</s>
+</text>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">OK, hôm nay chúng ta sẽ bàn về "mol".</s>
+ <s id="2">Tôi biết các bạn đang nghĩ: "Tôi biết mol là cái gì, đó là một sinh vật nhỏ có lông, hay đào lỗ trên mặt đất và phá hủy các khu vườn."</s>
+ <s id="3">Và một số bạn có thể nghĩ rằng đó là một sự nốt ruồi trên khuôn mặt của dì bạn với cọng lông nhỏ nhô ra</s>
+ <s id="4">Vâng, nhưng trong trường hợp này, một mol là một khái niệm mà chúng ta sử dụng trong hóa học để đếm các phân tử, nguyên tử, hay là về bất cứ thứ gì rất rất nhỏ.</s>
+ <s id="5">Bạn đã bao giờ tự hỏi có tất cả bao nhiêu nguyên tử trong vũ trụ chưa?</s>
+ <p id="p6">
+  <s id="6.1">Hoặc trong cơ thể của bạn?</s>
+  <s id="6.2">Hoặc ngay cả trong một hạt cát?</s>
+ </p>
+ <s id="7">Các nhà khoa học muốn trả lời câu hỏi đó, nhưng làm thế nào làm bạn có thể đếm một cái gì đó nhỏ như nguyên tử?</s>
+ <s id="8">Vâng, năm 1811, đã có một ý tưởng rằng nếu bạn có những lượng khí bằng nhau, ở cùng nhiệt độ và áp suất, chúng sẽ chứa một số lượng nguyên tử bằng nhau.</s>
+ <s id="9">Tên người đó là Lorenzo Romano Amedeo Carlo Avogadro.</s>
+ <s id="10">Không biết ông ấy đã mất bao lâu để kí một tấm thiếp.</s>
+ <s id="11">Thật không may cho Avogadro, hầu hết các nhà khoa học đã không chấp nhận ý tưởng về các nguyên tử, và không có cách nào để chứng minh rằng ông đã đúng.</s>
+ <s id="12">Không có sự khác biệt rõ ràng giữa nguyên tử và phân tử.</s>
+ <s id="13">Hầu hết các nhà khoa học nhìn kết quả của Avogadro hoàn toàn là giả thuyết, và không suy nghĩ nhiều đến nó.</s>
+ <p id="p14">
+  <s id="14.1">Nhưng hóa ra ông đã đúng!</s>
+  <s id="14.2">Cuối năm 1860, thuyết của Avogadro được chứng minh là đúng, và thuyết của ông đã giúp đặt nền tảng cho thuyết nguyên tử.</s>
+  <s id="14.3">Thật không may, Avogadro qua đời vào năm 1856.</s>
+ </p>
+ <p id="p15">
+  <s id="15.1">Bây giờ vấn đề là số lượng hạt trong các mẫu thậm chí nhỏ nhất cũng rất to lớn.</s>
+  <s id="15.2">Ví dụ, Nếu bạn có một quả bóng chứ bất kỳ khí nào bên trong ở 0 độ C, và ở áp suất một atmotphe, thì bạn có chính xác sáu nhân mười mũ hai mươi ba phân tử khí.</s>
+ </p>
+ <s id="16">6*(10^23) Có nghĩa là, bạn có số 6 với 23 số 0 phân tử khí trong quả bóng.</s>
+ <s id="17">Hoặc theo khoa học ký hiệu, 6,02 lần 10 mũ 23.</s>
+ <s id="18">Ví dụ này là một chút sai lầm, bởi vì khí chiếm rất nhiều không gian do động năng cao của khí và làm bạn nghĩ rằng nguyên tử thực sự lớn hơn sự thật.</s>
+ <s id="19">Thay vào đó, hãy nghĩ đến các phân tử nước.</s>
+ <s id="20">Nếu bạn đổ 18.01 gram nước vào ly, đó là 18.01 ml, giống như ba và một nửa muỗng cà phê nước, bạn sẽ có 602 nhân 10 mũ 21 phân tử nước.</s>
+ <s id="21">Kể từ khi Lorenzo Romano... - uh, thôi - Avogadro là người đầu tiên đến với ý tưởng này, các nhà khoa học đặt tên số 6.02 lần 10 mũ 23 theo tên ông ấy.</s>
+ <s id="22">Nó chỉ đơn giản là được biết đến là số Avogadro.</s>
+ <p id="p23">
+  <s id="23.1">Bây giờ, quay trở lại mol.</s>
+  <s id="23.2">Không phài con chuột chũi.</s>
+ </p>
+ <p id="p24">
+  <s id="24.1">Mol này cơ.</s>
+  <s id="24.2">Vâng, con số này còn có cái tên thứ hai.</s>
+ </p>
+ <p id="p25">
+  <s id="25.1">Mol.</s>
+  <s id="25.2">Các nhà hóa học sử dụng thuật ngữ mol để chỉ lượng có 602 nhân 10 mũ 21.</s>
+ </p>
+ <s id="26">Nó được biết đến như là lượng mol.</s>
+ <s id="27">Nguyên tử và phân tử rất nhỏ, các nhà hóa học đã đóng gói chúng thành các nhóm gọi là mol</s>
+ <s id="28">Các Mol thì khá khó khăn cho các sinh viên để hiểu được nó bởi rất khó để hình dung kích thước của một mol. hoặc 602 nhân 10 mũ 21.</s>
+ <s id="29">Nó quá lớn để bọc bộ não của chúng ta xung quanh.</s>
+ <s id="30">Còn nhớ 18.01 ml nước của chúng ta chứ?</s>
+ <s id="31">Vâng, đó là một mol nước.</s>
+ <s id="32">Nhưng nó thực sự là bao nhiêu?</s>
+ <s id="33">Chính xác thì 602 nhân 10 mũ 21 trông như thế nào?</s>
+ <s id="34">Có lẽ điều này sẽ giúp được.</s>
+ <s id="35">Thay các phân tử nước bằng bánh donut.</s>
+ <s id="36">Nếu bạn đã có một mol donut, chúng sẽ bao trùm toàn bộ trái đất tới độ sâu 8 km, đó là khoảng 5 dặm.</s>
+ <s id="37">Bạn thực sự cần rất nhiều cà phê cho chừng đó đấy.</s>
+ <s id="38">Nếu bạn đã có một mol quả bóng rổ, bạn có thể tạo ra một hành tinh mới bằng kích thước của trái đất.</s>
+ <s id="39">Nếu bạn nhận được một mol đồng xu ngày bạn sinh ra và tiêu một triệu đô la mỗi giây cho đến ngày bạn qua đời ở tuổi 100, bạn vẫn sẽ có nhiều hơn 99,99 % số tiền trong ngân hàng.</s>
+ <p id="p40">
+  <s id="40.1">Ok.</s>
+  <s id="40.2">Bây giờ chúng ta đã có vài ý tưởng về một mol lớn chừng nào.</s>
+ </p>
+ <s id="41">Vậy làm thế nào để chúng ta sử dụng nó?</s>
+ <s id="42">Bạn có thể ngạc nhiên khi biết rằng các nhà hóa học sử dụng nó theo cùng một cách bạn sử dụng pound để mua nho, thịt deli, hoặc trứng.</s>
+ <s id="43">Khi bạn đi đến cửa hàng tạp hóa, bạn không đi đến quầy deli và hỏi mua 43 lát xúc xích Ý, bạn mua xúc xích bằng pound.</s>
+ <s id="44">Khi bạn mua trứng bạn, bạn mua một tá trứng.</s>
+ <s id="45">Khi chúng ta nghe từ tá, chúng ta nghĩ đến số 12.</s>
+ <s id="46">Chúng ta cũng biết rằng một cặp là hai cái, một tá của thợ làm bánh là 13, mười hai tá là 144, và một ram giấy là - ai biết không?</s>
+ <s id="47">Một ram là 500.</s>
+ <s id="48">Vâng, một mol thực sự là điều tương tự.</s>
+ <p id="p49">
+  <s id="49.1">Với một nhà hóa học, một mol gợi lên số 6.02 lần 10 mũ 23. chứ không phải là một động vật nhỏ đầy lông.</s>
+  <s id="49.2">Sự khác biệt duy nhất là các đơn vị khác quen thuộc hơn với chúng ta.</s>
+ </p>
+ <s id="50">Như vậy, bạn đã có nó - câu chuyện về mol,</s>
+</text>

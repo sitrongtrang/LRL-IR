@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Trí thông minh-- nó là gì vậy?</s>
+ <s id="2">Nếu chúng ta nhìn lại lịch sử xem trí thông minh được nhìn nhận thế nào, ta có thể tham khảo câu nói nổi tiếng của Edsger Dijsktra: "Hỏi rằng liệu máy có thể suy nghĩ được hay không cũng thú vị như hỏi liệu một chiếc tàu ngầm có bơi được hay không."</s>
+ <s id="3">Khi Edsger Dijstra viết câu này, ông viết như một lời chỉ trích những người đi tiên phong trong khoa điện toán,</s>
+ <p id="p4">
+  <s id="4.1">như Alan Turing.</s>
+  <s id="4.2">Tuy nhiên, nếu nhìn lại và nghĩ xem đâu là phát kiến có sức mạnh cho phép ta tạo nên chiếc máy có thể bơi, chiếc máy có thể bay, sẽ nhận ra rằng chỉ khi ta hiểu được về cơ chế của việc bơi và sự bay thì mới có thể làm ra những máy móc đó.</s>
+ </p>
+ <s id="5">Vì vậy, một vài năm trước, Tôi đã thực hiện một chương trình nghiên cứu cơ chế vật lý cơ bản làm nền tảng cho trí thông minh.</s>
+ <s id="6">Ta hãy lùi một bước.</s>
+ <s id="7">Bắt đầu một thí nghiệm về tư duy.</s>
+ <s id="8">Giả sử quý vị thuộc một chủng người ngoài hành tinh không biết gì về sinh học Trái đất, về khoa thần kinh, hay trí thông minh Trái Đât, nhưng có chiếc kính viễn vọng rất tuyệt giúp quan sát Trái Đất, và đời quý vị rất dài nên có thể quan sát</s>
+ <p id="p9">
+  <s id="9.1">hàng triệu, thậm chí hàng tỉ năm.</s>
+  <s id="9.2">Và thấy được một hiệu ứng kì lạ.</s>
+ </p>
+ <s id="10">quý vị sẽ thấy rằng, qua hàng thiên nhiên kỉ, trái đất đã liên tục va chạm với những thiên thạch cho đến một thời điểm tại đó, ứng những năm của chúng ta, khoảng 2000 năm sau CN thời điểm những thiên thạch đang bay theo hướng sắp va vào trái đất hẳn sẽ va vào trái Đất thì chợt bị làm chệch hướng</s>
+ <p id="p11">
+  <s id="11.1">hoặc nổ tung trước khi va.</s>
+  <s id="11.2">Tất nhiên, là một người Trái Đất, chúng ta hiểu lí do có thể</s>
+ </p>
+ <p id="p12">
+  <s id="12.1">do chúng ta cố bảo vệ chính mình.</s>
+  <s id="12.2">Chúng ta đang cố gắng ngăn chặn cuộc va chạm.</s>
+ </p>
+ <s id="13">Nhưng nếu quý vị là một người ngoài hành tinh không hiểu về chuyện này, không có bất kì khái niệm gì về trí thông minh Trái Đất, quý vị sẽ buộc phải tiếp nhận một giả thuyết vật lí giải thích cách sao vào thời điểm nào đó, những thiên thạch lẽ ra phá hủy bề mặt của một hành tinh lại dừng lại cách bí ẩn.</s>
+ <s id="14">Và tôi cho rằng đây cũng chính là nhu cầu tìm hiểu về bản chất vật lý của trí thông minh.</s>
+ <s id="15">Vì vậy trong chương trình này được thực hiện cách đây vài năm, Tôi đã xem xét nhiều vấn đề có tính liên nghành khoa học phối hợp nhiều khoa học khác nhau, và tôi thấy chúng đều chỉ ra một cơ chế chung duy nhất</s>
+ <p id="p16">
+  <s id="16.1">của sự thông minh.</s>
+  <s id="16.2">Ví dụ, trong khoa học vũ trụ, có nhiều bằng chứng chứng minh vũ trụ của chúng ta dường như là một sự hòa hợp hoàn hảo cho sự phát triển của trí thông minh, và, đặc biệt, cho sự phát triển của trạng thái phổ quát làm gia tăng tối đa sự đang dạng có thể của tương lai.</s>
+ </p>
+ <s id="17">Trong lĩnh vực trò chơi, ví dụ như trong game Go-- mọi người đều nhớ vào năm 1997 khi Deep Blue của IBM đánh bại Garry Kasparov trong môn cờ vua-- ít người nhận thức được trong vòng 10 năm qua, trò chơi Go, được cho là một game có nhiều thử thách hơn vì nó có nhiều yếu tố chi tiết hơn, nó cũng đã chinh phục những game thủ máy tính với cùng một lí do: công nghệ tốt nhất cho máy tính chơi Go hiện nay là công nghệ làm gia tăng tối đa những giải pháp tương lai trong quá trình chơi.</s>
+ <s id="18">Cuối cùng, trong lập trình hoạt động của robot, vừa qua có nhiều kỹ thuật đa dạng đã tận dụng ưu thế của năng lực robot để tối đa tự do hành động trong tương lai để hoàn thành các thao tác phức hợp.</s>
+ <s id="19">Lấy tất cả những tuyến đoạn khác nhau này gộp chúng lại với nhau, tôi tự hỏi từ nhiều năm về trước có một cơ chế nào cho trí thông minh làm thừa số chung cho những chuỗi khác nhau này?</s>
+ <s id="20">Có chăng một phương trình cho trí thông minh?</s>
+ <p id="p21">
+  <s id="21.1">Tôi tin, câu trả lời là Có.</s>
+  <s id="21.2">["F = T ∇ Sτ"] Cái ta thấy đây có thể là cái tương đương gần nhất với một E = mc² một công thức cho trí thông minh mà tôi đã thấy.</s>
+ </p>
+ <s id="22">Cái ta thấy ở đây là một trình bày tương xứng cho thấy trí thông minh là một lực, F, hành động để tối đa hóa tự do hành động tương lai</s>
+ <s id="23">nó hành động để tối đa hóa tự do hành động tương lai, hoặc giữ cho các lựa chọn được để ngỏ, với một cường độ T, với sự đa dạng của các tương lai có thể đạt tới, S trong một ngưỡng thời gian tương lai nào đó, tau.</s>
+ <s id="24">Tóm lại, trí thông minh không thích bị mắc kẹt.</s>
+ <s id="25">Trí thông minh cố gắng tối đa hóa tự do hành động tương lai và giữ các lựa chọn để ngỏ.</s>
+ <s id="26">Như vậy, với phương trình này, câu hỏi tiếp theo là, ta dùng nó để làm gì?</s>
+ <s id="27">Nó dự báo được đến đâu?</s>
+ <s id="28">Nó có dự báo được sự thông minh ở tầm con người không?</s>
+ <s id="29">Nó có dự báo được trí thông minh của máy không?</s>
+ <s id="30">Tôi sẽ cho quý vị xem một video ta sẽ thấy những ứng dụng kỳ diệu của phương trình này.</s>
+ <s id="31">(Video) Thuyết minh: Nghiên cứu gần đây trong vũ trụ học cho chúng ta thấy rằng các vũ trụ tạo ra nhiều hỗn loạn, hoặc "entropy", trong đời của nó thường có nhiều điều kiện thuận lợi hơn cho sự tồn tại của trí thông minh giống như của chúng ta.</s>
+ <s id="32">Điều gì xảy ra nếu mối liên hệ vũ trụ hiện thấy này giữa entropy và trí thông minh ẩn chứa một mối liên hệ sâu sắc hơn?</s>
+ <s id="33">Điều gì xảy ra nếu hành vi thông minh không chỉ tương quan, với sự tạo ra entropy dài hạn, mà trên thực tế nảy sinh trực tiếp từ chính nó?</s>
+ <s id="34">Để tìm cho ra, ta phải phát triển một máy cài phần mềm đặt tên là Entropica, được thiết kế để tối đa hóa việc tạo ra entropy dài hạn của bất kỳ hệ thống nào mà nó dự vào.</s>
+ <s id="35">Kỳ lạ thay, Entropica có khả năng vượt qua phép thử trí thông minh của loài vật và chơi trò chơi do người sáng chế, thậm chí máy kiếm được tiền trên thị trường chứng khoán, mà không cần được hướng dẫn phải làm thế nào.</s>
+ <s id="36">Đây là vài ví dụ về hoạt động của Entropica.</s>
+ <s id="37">Giống như một người đứng thẳng không ngã, đây ta xem máy Entropica tự động dùng một chiếc xe đi thăng bằng trên cây sào.</s>
+ <s id="38">Đây là một việc xuất sắc vì chúng ta không đề ra cho Entropica một mục tiêu.</s>
+ <s id="39">Nó tự quyết định lấy sẽ giữ thăng bằng trên thanh gỗ.</s>
+ <s id="40">Khả năng giữ thăng bằng này có một ứng dụng cho khoa chế tạo robot hình người. và công nghệ trợ giúp con người.</s>
+ <s id="41">Hệt như một số động vật có thể dùng các vật thể trong môi trường làm công cụ để vươn ra trong một không gian hẹp đây ta thấy máy Entropica, vẫn dựa vào tài trí của mình, có khả năng di chuyển một đĩa lớn tượng trưng cho một con vật dịch chuyển đó khiến cho một đĩa nhỏ, tượng trưng cho một công cụ, vươn ra trong không gian giới hạn nắm lấy cái đĩa thứ ba và thả chiếc đĩa thứ ba từ vị trí cố định ban đầu của nó.</s>
+ <s id="42">Khả năng sử dụng công cụ này có ứng dụng cho công nghệ chế tạo và nông nghiệp thông minh.</s>
+ <s id="43">Thêm nữa, giống như một số con vật có thể hợp tác với nhau để kéo các đầu dây cùng một lúc để có thức ăn, ở đây ta thấy Entropica có thể làm được một mô hình công việc đại loại như vậy.</s>
+ <s id="44">Khả năng hợp tác này có ứng dụng lý thú cho quy hoạch kinh tế và nhiều lĩnh vực khác.</s>
+ <s id="45">Entropica được ứng dụng rộng rãi trong nhiều linh vực khác nhau.</s>
+ <s id="46">Ví dụ, ở đây ta thấy nó chơi thành công trò chơi của quả ping pông, thể hiện tiềm năng của nó trong game.</s>
+ <s id="47">Ở đây ta lại thấy Entropica có khả năng phối hợp nhiều liên hệ mới trong mạng xã hội khi quan hệ bạn bè đang dễ bị quên lãng nó đã thành công trong việc giữ cho mạng liên lạc được duy trì.</s>
+ <s id="48">Khả năng phối hợp mạng lưới này cũng có ứng dụng trong y tế, cơ khí chế tạo và tình báo.</s>
+ <s id="49">Ở đây ta thấy Entropica có năng lực dẫn đường cho một hạm đội tàu, nhận rõ đường và đi thành công qua kênh đào Panama mở rộng hành trình ra biển Đại tây dương sang Thái bình dương.</s>
+ <s id="50">Tương tự như vậy, Entropica có thể ứng dụng rộng rãi cho các nhiệm vụ trong điều khiển học quân sự, hậu cần và vận tải.</s>
+ <s id="51">Cuối cùng ta thấy Entropica tự khám phá và điều hành chiến lược mua khi rẻ, bán khi đắt trên thị trường chứng khoán mô phỏng, làm tài sản tăng trưởng thành công theo cấp số nhân dưới sự quản lý.</s>
+ <s id="52">Khả năng quản lý rủi ro này được ứng dụng rộng rãi trong tài chính và bảo hiểm.</s>
+ <s id="53">Cái quý vị vừa thấy những đa dạng trong thông minh con người những hành vi tri nhận như khả năng sử dụng công cụ, khả năng đứng thẳng đi thăng bằng khả năng hợp tác xã hội đều tuân theo một phương trình duy nhất phương trình đó hướng dẫn toàn bộ hệ thống tối đa hóa tự do hành động tương lai.</s>
+ <s id="54">Đến đây ta gặp một sự trớ trêu.</s>
+ <s id="55">Đưa ta trở về điểm ban đầu lúc bắt đầu sử dụng khái niệm robot, vở kịch "RUR," luôn có một khái niệm rằng nếu ta phát triển một trí thông minh nhân tạo, thì có thể xảy ra cuộc nổi loạn về điều khiển học.</s>
+ <s id="56">Máy sẽ nổi lên chống lại con người.</s>
+ <s id="57">Một hậu quả lớn của việc này là mấy thập kỷ vừa qua, có thể chúng ta đã có toàn bộ khái niệm về cuộc nổi loạn điều khiển học theo chiều ngược lại.</s>
+ <s id="58">Vấn đề không phải là máy trước tiên trở nên thông minh rồi thành tự cao tự đại và muốn thống trị thế giới.</s>
+ <s id="59">Vấn đề chính là ngược lại, chính sự khao khát kiểm soát mọi khả năng của tương lai mới là điều quan trọng hơn sự thông minh ấy, sự thông minh phổ quát ấy, trên thực tế có thể nảy sinh trực tiếp từ việc nắm quyền kiểm soát chứ không phải là ngược lại.</s>
+ <s id="60">Một kết quả quan trọng khác là tìm kiếm mục đích.</s>
+ <s id="61">Tôi thường tự hỏi, năng lực tìm kiếm mục đích thể hiện trong khung này như thế nào?</s>
+ <s id="62">Câu trả lời là, khả năng tìm kiếm mục đích sẽ trực tiếp đi từ đây trong ý nghĩa sau đây: giống như ta đi qua một đường hầm, một cổ chai trong không gian lộ trình tương lai, để đạt được những mục tiêu khác nhau đa dạng về sau, hoặc tỉ như quý vị đầu tư trên thị trường chứng khoán tài chính, ta chấp nhận giảm tính thanh khoản ngắn hạn, để tăng của cải dài hạn cho mình, sự tìm kiếm mục đích nảy sinh trực tiếp từ định hướng dài hạn tới tăng tự do hành động tương lai.</s>
+ <s id="63">Điểm cuối cùng, Richard Feynman, một nhà vật lý nổi tiếng, đã viết rằng nếu văn minh loài người bị hủy diệt và bạn chỉ còn cơ hội để lại một lời nhắn duy nhất cho con cháu mình hòng giúp chúng xây dựng lại nền văn minh, thì lời nhắn ấy là tất cả những thứ quanh ta được làm nên bởi các nguyên tố nhỏ bé nguyên tố đó hấp dẫn nhau khi chúng ở xa nhau nhưng lại đẩy nhau khi chúng ở gần nhau.</s>
+ <s id="64">Còn phát biểu tương tự của tôi gửi cho thế hệ sau để giúp họ xây nên trí thông minh nhân tạo hoặc giúp họ hiểu được trí thông minh con người sẽ như sau: Trí thông minh nên được xem như một quá trình vật chất nhằm tối đa hóa tự do hành động tương lai và tránh những ràng buộc trong tương lai của nó.</s>
+ <s id="65">Cảm ơn quý vị rất nhiều.</s>
+ <s id="66">(Vỗ tay)</s>
+</text>

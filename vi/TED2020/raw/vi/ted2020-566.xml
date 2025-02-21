@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Đây là một phát minh làm thay đổi thế giới.</s>
+ <s id="2">Đầu báo khói có lẽ đã cứu mạng sống của hàng trăm ngàn người khắp nơi trên thế giới.</s>
+ <s id="3">Nhưng đầu báo khói không ngăn ngừa hỏa hoạn.</s>
+ <s id="4">Hàng năm ở Mỹ, hơn 20.000 chết hoặc bị thương trong 350.000 vụ cháy nhà.</s>
+ <s id="5">Và một trong những nguyên nhân chính của tất cả những vụ cháy này xuất phát từ điện.</s>
+ <s id="6">Liệu chúng ta có thể ngăn ngừa những vụ cháy do điện trước khi nó xảy ra không?</s>
+ <s id="7">Vâng, một vài người bạn cùng tôi đã tìm ra cách.</s>
+ <s id="8">Vậy dòng điện gây ra cháy như thế nào?</s>
+ <s id="9">Thực tế là những nguyên nhân chính bắt nguồn từ các thiết bị điện có lỗi kĩ thuật hoặc bị lạm dụng.</s>
+ <s id="10">Phát minh của chúng tôi đã nghiên cứu tất cả những vấn đề này.</s>
+ <s id="11">Thế còn những bộ ngắt mạch?</s>
+ <s id="12">Thomas Edison đã phát minh ra bộ ngắt mạch năm 1879.</s>
+ <p id="p13">
+  <s id="13.1">Công nghệ này già 130 tuổi.</s>
+  <s id="13.2">Và đây chính là vấn đề.</s>
+  <s id="13.3">Vì hơn 80% tất cả vụ cháy nổ do điện đều bắt nguồn từ ngưỡng an toàn của bộ ngắt mạch.</s>
+ </p>
+ <s id="14">Ừm...</s>
+ <p id="p15">
+  <s id="15.1">Nên chúng tôi đã cân nhắc tất cả vấn đề trên.</s>
+  <s id="15.2">Và chúng tôi nhận thấy rằng những chính những thiết bị điện phải được nối trực tiếp với ổ cắm điện.</s>
+ </p>
+ <p id="p16">
+  <s id="16.1">Bất kì dụng cụ, thiết bị điện hay dây nối nào đều phải có khả năng báo cho ổ điện biết rằng, "Này, ổ điện, Tôi đang tải nặng điện quá.</s>
+  <s id="16.2">Tắt tôi lại ngay, trước khi tôi phát cháy."</s>
+ </p>
+ <s id="17">Và ổ điện cần đủ tinh vi để thực hiện được yêu cầu đó.</s>
+ <p id="p18">
+  <s id="18.1">Chúng tôi đã làm như sau.</s>
+  <s id="18.2">Chúng tôi đặt một bộ phát kĩ thuật số giá 10 cent, một thẻ dữ liệu vào thiết bị cắm.</s>
+ </p>
+ <s id="19">Rồi chúng tôi đặt một bộ đọc dữ liệu không dây, giá cả phải chăng vào bên trong ổ cắm để chúng có thể kết nối với nhau.</s>
+ <s id="20">Bây giờ, mọi hệ thống điện tại nhà đều trở thành một mạng lưới thông minh.</s>
+ <s id="21">Những thông số vận hành của thiết bị được cài vào ổ cắm.</s>
+ <s id="22">Nếu dòng điện bị quá tải, thì ổ điện thông minh sẽ tự động mở, và ngăn chặn một sự cố nổ.</s>
+ <s id="23">Chúng tôi gọi công nghệ này là EFCI, Sự cản lỗi mạch điện.</s>
+ <p id="p24">
+  <s id="24.1">Còn hai ý nữa.</s>
+  <s id="24.2">Hàng năm ở nước Mỹ, gần 2,500 trẻ em phải nhập viện cấp cứu vì chấn thương do giật và bỏng liên quan đến tiếp xúc điện.</s>
+  <s id="24.3">Và điều này thật đáng tiếc.</s>
+ </p>
+ <s id="25">Một ổ cắm điện thông minh sẽ phòng chống thương tích vì điện năng luôn ở trạng thái tắt, cho đến khi nhận biết một đầu cắm thông minh.</s>
+ <p id="p26">
+  <s id="26.1">Thật đơn giản.</s>
+  <s id="26.2">Giờ đây, bên cạnh việc bảo vệ mạng sống của con người, có lẽ lợi ích lớn nhất của ổ cắm điện thông minh là khả năng tiết kiệm năng lượng của nó.</s>
+ </p>
+ <s id="27">Phát minh này sẽ giảm thiểu lượng tiêu thụ năng lượng trên toàn cầu nhờ cơ chế điều khiển từ xa và tự động hóa hoạt động của từng ổ cắm ở từng hộ gia đình và doanh nghiệp.</s>
+ <s id="28">Giờ đây bạn có thể lựa chọn cách cắt giảm hóa đơn tiền điện khi cho tự động phân tán những tải điện nặng. cũng như cơ chế máy điều hòa không khí và máy sưởi.</s>
+ <s id="29">Khách sạn và doanh nghiệp có thể đóng cửa những phòng không sử dụng từ khu vực trung tâm hoặc bằng cả điện thoại di động.</s>
+ <s id="30">Có 10 tỉ ổ cắm điện chỉ ở riêng Bắc Mỹ.</s>
+ <s id="31">Khả năng tiết kiệm năng lượng là rất đáng kể.</s>
+ <s id="32">Cho đến nay chúng tôi đã đăng ký 414 giấy chứng nhận bản quyền.</s>
+ <p id="p33">
+  <s id="33.1">Trong số đó, 186 đơn đã được ký.</s>
+  <s id="33.2">228 đơn đang chờ kết quả.</s>
+ </p>
+ <s id="34">Và tôi cũng vui mừng thông báo rằng chỉ trong ba tuần vừa qua chúng tôi đã được quốc tế công nhận lần đầu tiên, Giải thưởng Sáng tạo CES 2009.</s>
+ <s id="35">Cuối cùng, thay lời kết luận, năng lượng thông minh có thể bảo vệ hàng ngàn người khắp địa cầu, bảo vệ chục ngàn người khỏi thương tật, và cắt giảm chục tỉ đô la mất mát do tổn thất tài sản, hàng năm, trong khi giảm đáng kể năng lượng tiêu thụ toàn cầu.</s>
+ <s id="36">Trên tinh thần của Hội thảo TED năm nay, chúng tôi nghĩ rằng đây là một phát minh hữu ích và làm thay đổi thế giới.</s>
+ <s id="37">Và tôi muốn cảm ơn Chris đã cho chúng tôi cơ hội được tiết lộ công nghệ này với các bạn và sắp tới là với thể giới.</s>
+ <s id="38">Xin cảm ơn.</s>
+ <s id="39">(Tiếng vỗ tay)</s>
+</text>

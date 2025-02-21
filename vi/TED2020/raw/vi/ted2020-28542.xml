@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Công việc thực tập tại phòng thí nghiệm của Giáo sư Ramsey thật tuyệt.</s>
+ <s id="2">Cho đến khi, giáo sư vô tình bước vào cổng thời gian.</s>
+ <s id="3">Bạn chỉ có vài phút để nhảy qua cổng và cứu ông trước khi nó đóng lại và khiến ông mắc kẹt trong quá khứ.</s>
+ <s id="4">Một khi bạn bước qua, cổng sẽ đóng lại, và cách duy nhất để quay lại là tạo ra một cổng mới dùng các hạt thời gian ở phòng thí nghiệm.</s>
+ <s id="5">Các hạt được kích hoạt sẽ kết nối với hạt khác thông qua liên đới hạt tachyon đỏ hoặc xanh dương.</s>
+ <s id="6">Kích hoạt càng nhiều hạt sẽ tạo ra càng nhiều kết nối.</s>
+ <s id="7">Mỗi tam giác đỏ hoặc xanh được tạo sẽ mở ra một cổng xuyên thời gian đưa bạn trở về hiện tại.</s>
+ <s id="8">Nhưng màu sắc của mỗi kết nối xuất hiện ngẫu nhiên, và không có cách nào để chọn hay đổi màu.</s>
+ <s id="9">Và một vấn đề nữa: mỗi hạt mang theo tạo ra sự mất ổn định thời gian, làm tăng khả năng sập cổng khi bạn bước qua.</s>
+ <s id="10">Nên mang theo càng ít hạt càng tốt.</s>
+ <s id="11">Cổng sắp đóng lại.</s>
+ <s id="12">Cần mang ít nhất bao nhiêu hạt để tạo ra một cổng tam giác đỏ hoặc xanh, và trở về hiện tại?</s>
+ <s id="13">Dừng video nếu bạn muốn tự tìm ra câu trả lời!</s>
+ <s id="14">Câu trả lời trong: 3 2 1 Câu hỏi này rộng đến mức có cả một nhánh toán học gọi là Lý thuyết Ramsey được phát triển từ nó.</s>
+ <s id="15">Lý thuyết này hướng tới một vài vấn đề hóc búa nổi tiếng.</s>
+ <s id="16">Không hề đơn giản, nhưng có thể giải quyết nếu tiếp cận vấn đề một cách có hệ thống.</s>
+ <s id="17">Tưởng tượng bạn mang theo ba hạt.</s>
+ <p id="p18">
+  <s id="18.1">Liệu như thế có đủ?</s>
+  <s id="18.2">Không ví dụ, bạn nhận được hai kết nối xanh và một kết nối đỏ, bạn sẽ mắc kẹt vĩnh viễn.</s>
+ </p>
+ <p id="p19">
+  <s id="19.1">Vậy liệu bốn hạt có đủ?</s>
+  <s id="19.2">Cũng không có rất nhiều cách kết hợp không tạo được tam giác xanh hoặc đỏ.</s>
+ </p>
+ <s id="20">Vậy còn năm?</s>
+ <s id="21">Hóa ra có một cách kết hợp không tạo được tam giác xanh hoặc đỏ.</s>
+ <s id="22">Những tam giác nhỏ không được tính vì không có hạt ở mọi đỉnh.</s>
+ <s id="23">Tuy nhiên, sáu hạt luôn tạo ra một tam giác xanh hoặc đỏ.</s>
+ <s id="24">Đây là cách ta có thể chứng minh mà không cần tính toán mọi trường hợp.</s>
+ <s id="25">Tưởng tượng bạn kích hoạt hạt thứ sáu, và hãy xem làm thế nào nó kết nối với năm hạt còn lại.</s>
+ <s id="26">Có thể là một trong sáu cách sau: với năm kết nối đỏ, năm kết nối xanh và một vài sự kết hợp của cả hai màu.</s>
+ <s id="27">Lưu ý với mỗi trường hợp, có ít nhất ba kết nối cùng màu đến từ hạt thứ sáu này.</s>
+ <s id="28">Hãy cùng xem xét những hạt ở đầu kia của ba kết nối cùng màu này.</s>
+ <s id="29">Nếu những kết nối này màu xanh, thì bất kì kết nối xanh nào được tạo ra giữa ba hạt ở đầu bên kia</s>
+ <p id="p30">
+  <s id="30.1">đều cho ta một tam giác xanh.</s>
+  <s id="30.2">Chỉ gặp rắc rối ở một trường hợp duy nhất khi tất cả các kết nối đều màu đỏ.</s>
+ </p>
+ <s id="31">Nhưng ba kết nối đỏ sẽ cho ta một tam giác đỏ.</s>
+ <s id="32">Dù chuyện gì xảy ra, ta vẫn sẽ có một tam giác đỏ hoặc xanh, và mở được cổng về nhà.</s>
+ <s id="33">Mặt khác, nếu ba kết nối đầu có màu đỏ, thay vì xanh, lập luận tương tự vẫn đúng khi các màu bị đổi ngược.</s>
+ <s id="34">Nói cách khác, dù kết nối có màu gì đi nữa, sáu hạt vẫn luôn tạo thành một tam giác xanh hoặc đỏ,</s>
+ <p id="p35">
+  <s id="35.1">mở ra một cánh cổng dẫn về nhà.</s>
+  <s id="35.2">Thế nên, bạn chộp lấy sáu hạt và nhảy qua cổng.</s>
+ </p>
+ <s id="36">Bạn từng hi vọng đợt thực tập sẽ đem lại những trải nghiệm quý báu.</s>
+ <s id="37">Hóa ra, chẳng cần chờ đợi lâu.</s>
+</text>

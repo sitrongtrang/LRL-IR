@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <p id="p1">
+  <s id="1.1">Khi xem một bộ phim hoặc một vở kịch chúng ta biết rằng các diễn viên chắc hẳn đã học thuộc lời thoại trong kịch bản - - cái cho họ biết khi nào nên nói câu gì.</s>
+  <s id="1.2">Một bản nhạc cũng hoạt động dựa trên nguyên tắc đó.</s>
+  <s id="1.3">Cơ bản là, một bản nhạc cho nhạc công biết khi nào phải chơi nốt gì.</s>
+ </p>
+ <s id="2">Nói hoa mỹ một chút,</s>
+ <s id="3">là có sự khác biệt lớn giữa Beethoven và Justin Bieber, nhưng cả hai nghệ sĩ đều sử dụng cùng một chất liệu để tạo ra âm nhạc của riêng họ:</s>
+ <p id="p4">
+  <s id="4.1">đó là nốt nhạc.</s>
+  <s id="4.2">Và dù cho sản phẩm cuối cùng nghe có vẻ phức tạp, những nguyên tắc ẩn sau những nốt nhạc thực ra lại khá rõ ràng.</s>
+  <s id="4.3">Chúng ta hãy cùng xem qua những nguyên tố cấu thành hệ thống nốt nhạc</s>
+ </p>
+ <s id="5">và cách chúng tương tác với nhau để tạo thành một tác phẩm nghệ thuật nhé.</s>
+ <p id="p6">
+  <s id="6.1">Âm nhạc được viết trên 5 dòng kẻ ngang song song với nhau.</s>
+  <s id="6.2">5 dòng kẻ này được gọi là một khuông nhạc, một khuông nhạc hoạt động trên 2 trục:</s>
+ </p>
+ <s id="7">trên-dưới và trái-phải.</s>
+ <s id="8">Trục trên-dưới cho nhạc công biết cao độ của một nốt - tức là nốt gì, và trục trái-phải cho nhạc công biết nhịp điệu của nốt đó</s>
+ <p id="p9">
+  <s id="9.1">nghĩa là thời điểm chơi nốt đó.</s>
+  <s id="9.2">Cùng bắt đầu với cao độ nhé Chúng ta sẽ sử dụng một cây đàn piano nhưng hệ thống này có thể làm việc với bất cứ nhạc cụ nào mà bạn nghĩ ra.</s>
+ </p>
+ <s id="10">Trong truyền thống âm nhạc phương Tây,</s>
+ <s id="11">cao độ được đặt tên theo 7 kí tự trong bảng chữ cái, A, B, C (La - Si - Do)</s>
+ <p id="p12">
+  <s id="12.1">D, E, F và G.</s>
+  <s id="12.2">(Re - Mi - Fa và Sol) Sau đó, 7 kí tự này lặp lại xoay vòng: A, B, C, D, E, F, G, A, B, C, D, E, F, G, và vân vân.</s>
+ </p>
+ <p id="p13">
+  <s id="13.1">Nhưng làm cách nào mà những cao độ này được đặt tên?</s>
+  <s id="13.2">Ví dụ, nếu bạn chơi một nốt Fa trên đàn piano sau đó lại chơi một nốt Fa khác cao hơn hoặc thấp hơn nốt đó,</s>
+ </p>
+ <s id="14">bạn sẽ thấy rằng hai nốt này tương tự nhau</s>
+ <p id="p15">
+  <s id="15.1">so với nốt Si.</s>
+  <s id="15.2">Quay trở lại với khuông nhạc, mỗi dòng kẻ và mỗi khoảng cách giữa hai dòng kẻ (khe nhạc) minh họa từng cao độ riêng biệt.</s>
+  <s id="15.3">Nếu chúng ta viết một nốt nhạc lên một trong những dòng kẻ này,</s>
+ </p>
+ <p id="p16">
+  <s id="16.1">nghĩa là chúng ta sẽ bảo nhạc công chơi ở cao độ nào đó.</s>
+  <s id="16.2">Một nốt được đặt ở vị trí càng cao trên khuông nhạc,</s>
+ </p>
+ <p id="p17">
+  <s id="17.1">thì cao độ của nó sẽ càng lớn.</s>
+  <s id="17.2">Nhưng rõ ràng là có rất nhiều cao độ nhiều hơn 9 cao độ mà những dòng kẻ và khoảng cách này có thể minh họa.</s>
+ </p>
+ <s id="18">Ví dụ, một cây piano lớn, có thể chơi được 88 nốt khác nhau.</s>
+ <s id="19">Vậy làm sao chúng ta có thể thể hiện 88 nốt trên một khuông nhạc duy nhất?</s>
+ <s id="20">Chúng ta sẽ dùng khóa nhạc - một kí hiệu có vẻ kì quái, được đặt ở đầu khuông nhạc,</s>
+ <s id="21">có chức năng như một điểm chuẩn,</s>
+ <p id="p22">
+  <s id="22.1">cho bạn biết rằng một dòng kẻ hoặc khe nhạc nào đó tương ứng với một nốt cụ thể trên nhạc cụ của bạn.</s>
+  <s id="22.2">Nếu muốn chơi những nốt nhạc không nằm trên khuông nhạc, chúng ta sẽ ăn gian bằng cách vẽ thêm những dòng kẻ gọi là dòng kẻ phụ và viết nốt nhạc lên đó.</s>
+ </p>
+ <p id="p23">
+  <s id="23.1">Nếu phải vẽ quá nhiều dòng kẻ phụ và chúng trở nên rối rắm, thì chúng ta phải đổi sang một loại khóa nhạc khác.</s>
+  <s id="23.2">Về việc cho một nhạc công biết thời điểm thích hợp để chơi một nốt,</s>
+ </p>
+ <s id="24">có hai yếu tố chính quyết định điều này: đó là nhịp và phách.</s>
+ <p id="p25">
+  <s id="25.1">Phách trong một bản nhạc, thì khá nhàm chán.</s>
+  <s id="25.2">Âm thanh của phách là thế này... (tiếng tích tắc)</s>
+ </p>
+ <s id="26">Để ý rằng, âm thanh này không đổi, nó chỉ đều đều vang lên.</s>
+ <s id="27">Nó có thể chậm</s>
+ <p id="p28">
+  <s id="28.1">hoặc nhanh hoặc bất cứ kiểu nào bạn thích.</s>
+  <s id="28.2">Mấu chốt là, giống như kim giây trên đồng hồ</s>
+ </p>
+ <s id="29">chia một phút thành 60 giây, mỗi giây có thời lượng giống nhau,</s>
+ <p id="p30">
+  <s id="30.1">phách chia một bản nhạc thành nhiều phần nhỏ có thời lượng bằng nhau: Phách Với một nền phách vững chắc chúng ta có thể thêm nhịp điệu vào cao độ, và đó là khi âm nhạc hình thành.</s>
+  <s id="30.2">Đây là một nốt đen.</s>
+ </p>
+ <p id="p31">
+  <s id="31.1">Nó là đơn vị cơ bản nhất của nhịp, và có giá trị một phách.</s>
+  <s id="31.2">Đây là một nốt trắng, có giá trị hai phách.</s>
+ </p>
+ <s id="32">Nốt tròn này có giá trị bốn phách,</s>
+ <s id="33">và nốt nhỏ này là nốt đơn có giá trị nửa phách.</s>
+ <s id="34">"Hay lắm," - bạn nói - "Vậy thì sao?"</s>
+ <s id="35">Có lẽ bạn đã để ý thấy trên khuông nhạc, có những đường kẻ nhỏ chia khuông nhạc thành nhiều phần.</s>
+ <s id="36">Chúng được gọi là vạch nhịp</s>
+ <p id="p37">
+  <s id="37.1">và chúng ta gọi mỗi phần đó là 1 ô nhịp.</s>
+  <s id="37.2">Ở đầu bản nhạc, giống như khóa nhạc,</s>
+ </p>
+ <s id="38">có một thứ gọi là số chỉ nhịp, cho nhạc công biết có bao nhiêu phách trong một ô nhịp.</s>
+ <p id="p39">
+  <s id="39.1">Số này cho biết có 2 phách trong mỗi ô nhịp, và số này cho biết có 3 phách, con số này cho biết có 4 phách, vân vân.</s>
+  <s id="39.2">Con số nằm dưới cho chúng ta biết</s>
+ </p>
+ <p id="p40">
+  <s id="40.1">hình nốt nào sẽ được sử dụng làm đơn vị cơ bản cho mỗi phách.</s>
+  <s id="40.2">Số 1 tương ứng với nốt tròn, số 2 tương ứng với nốt trắng,</s>
+ </p>
+ <s id="41">Số 4 tương ứng với nốt đen, và số 8 tương ứng với nốt đơn, vân vân.</s>
+ <s id="42">Vậy số chỉ nhịp này cho chúng ta biết có 4 nốt đen trong mỗi ô nhịp, 1, 2, 3, 4: 1, 2, 3, 4</s>
+ <p id="p43">
+  <s id="43.1">vân vân...</s>
+  <s id="43.2">Nhưng như tôi đã nói ở trên, nếu chúng ta chỉ bám vào phách thì bản nhạc sẽ trở nên rất nhàm chán vậy nên chúng ta sẽ thay một số nốt đen bằng những nốt khác</s>
+ </p>
+ <s id="44">Có thể thấy rằng, cho dù số nốt nhạc trong mỗi ô nhịp có sự thay đổi, tổng số phách trong mỗi ô nhịp không thay đổi.</s>
+ <p id="p45">
+  <s id="45.1">Vậy, tác phẩm âm nhạc của chúng ta nghe sẽ như thế nào?</s>
+  <s id="45.2">(Nhạc) Nghe cũng được đấy chứ, phải không nào?</s>
+ </p>
+ <p id="p46">
+  <s id="46.1">Nhưng có vẻ hơi đơn điệu nhỉ?</s>
+  <s id="46.2">Vậy hãy thêm vào một nhạc cụ khác với cao độ và nhịp điệu riêng biệt</s>
+ </p>
+ <p id="p47">
+  <s id="47.1">Và bây giờ, nghe giống như âm nhạc rồi đấy.</s>
+  <s id="47.2">Chắc chắn là, phải tốn thời gian luyện tập mới có thể đọc bản nhạc nhanh chóng</s>
+ </p>
+ <s id="48">và chơi những gì chúng ta đọc được trên nhạc cụ của mình,</s>
+ <s id="49">tuy nhiên, với một chút thời gian và công sức,</s>
+ <s id="50">bạn có thể trở thành Beethoven hoặc Justin Bieber tiếp theo.</s>
+</text>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Sáu nghìn dặm đường, 600 dặm đường ngầm, 400 dặm đường xe đạp và nửa dặm xe điện, nếu bạn đã từng đến đảo Roosevelt.</s>
+ <s id="2">Đây là những con số tạo nên cơ sở hạ tầng của New York.</s>
+ <s id="3">Đây là thống kê cơ sở hạ tầng.</s>
+ <s id="4">Những con số tìm thấy trong báo cáo của cơ quan thành phố.</s>
+ <p id="p5">
+  <s id="5.1">Ví dụ, Sở Giao thông vận tải sẽ cho biết có bao nhiêu dặm đường được bảo trì.</s>
+  <s id="5.2">Cơ quan giao thông đô thị khoe về số dặm đường ngầm.</s>
+ </p>
+ <s id="6">Hầu hết các cơ quan thành phố cho ta thống kê.</s>
+ <s id="7">Báo cáo năm nay</s>
+ <s id="8">từ Uỷ ban taxi và xe Limousine, cho ta biết có khoảng 13,500 taxi ở thành phố New York.</s>
+ <s id="9">Khá thú vị, đúng không?</s>
+ <s id="10">Nhưng bạn có từng nghĩ những con số này đến từ đâu?</s>
+ <s id="11">Bởi vì để có những con số này, ai đó ở cơ quan thành phố phải dừng và nói, hmm, đây là con số mà ai đó rất muốn biết.</s>
+ <s id="12">Đây là một con số mà công dân muốn biết.</s>
+ <s id="13">Vì thế, họ tìm lại những dữ liệu gốc, họ đếm, họ cộng, họ tính toán, và họ đưa ra những báo cáo, và những báo cáo đó sẽ chứa những con số thế này.</s>
+ <s id="14">Vấn đề là làm thế nào để họ biết tất cả các câu hỏi?</s>
+ <s id="15">Chúng ta có rất nhiều câu hỏi.</s>
+ <p id="p16">
+  <s id="16.1">Trên thực tế, theo cách nào đó chúng ta có vô số câu hỏi về thành phố của chính mình.</s>
+  <s id="16.2">Những cơ quan không bao giờ có thể theo kịp.</s>
+ </p>
+ <s id="17">Vì thế, mô thức này không hiệu quả, tôi nghĩ những nhà chính sách nhận ra, bởi vì vào năm 2012, Mayor Bloomberg đã thông qua điều luật mà ông ấy gọi là điều luật về dữ liệu mở tham vọng và toàn diện nhất cả nước.</s>
+ <s id="18">Ở nhiều phương diện, ông đã đúng.</s>
+ <s id="19">Trong hai năm qua, thành phố đưa ra 1,000 tập dữ liệu trên cổng dữ liệu mở, và điều đấy khá là tuyệt vời.</s>
+ <s id="20">Bạn đi và nhìn những dữ liệu thế này, thay vì chỉ đếm số lượng xe taxi, ta có thể bắt đầu hỏi nhiều thứ khác nhau.</s>
+ <s id="21">Vì vậy tôi muốn hỏi.</s>
+ <s id="22">Khi nào là giờ cao điểm ở New York?</s>
+ <p id="p23">
+  <s id="23.1">Vấn đề này khá phiền phức.</s>
+  <s id="23.2">Khi nào mới đúng là giờ cao điểm?</s>
+ </p>
+ <s id="24">Và tôi tự ngẫm, những chiếc taxi không chỉ là con số, mà còn là những máy ghi dữ liệu GPS di chuyển trong thành phố ghi lại mỗi và mọi chặng đường của chúng.</s>
+ <s id="25">Dữ liệu có ở đây, và tôi nhìn vào dữ liệu đó, và phác hoạ tốc độ trung bình của những chiếc taxi ở New York trong ngày.</s>
+ <s id="26">Bạn có thể thấy từ nửa đêm đến khoảng 5:18 sáng, tốc độ tăng, và tại thời điểm đấy, mọi thứ quay ngược lại, chúng càng ngày càng chậm lại đến khoảng 8:35 sáng, khi chúng dừng hẳn ở khoảng 11,5 dặm mỗi giờ.</s>
+ <s id="27">Một chiếc xe taxi trung bình đi 11,5 dặm mỗi giờ trên phố và hoá ra là nó không thay đổi trong suốt cả ngày.</s>
+ <s id="28">(Cười) Vì thế tôi tự nhủ, không có giờ cao điểm ở New York.</s>
+ <s id="29">Chỉ có một ngày chen lấn mà thôi.</s>
+ <p id="p30">
+  <s id="30.1">Có lý.</s>
+  <s id="30.2">Và điều này quan trọng vì một số lý do.</s>
+ </p>
+ <s id="31">Nếu bạn là một nhà hoạch định giao thông, điều này có thể rất thú vị.</s>
+ <s id="32">Nhưng nếu bạn muốn đến một nơi thật nhanh, giờ bạn biết phải đặt báo thức lúc 4:45 sáng và sẵn sàng.</s>
+ <s id="33">New York đúng không?</s>
+ <s id="34">Nhưng có câu chuyện sau những dữ liệu này.</s>
+ <s id="35">Hóa ra dữ liệu không có sẵn.</s>
+ <p id="p36">
+  <s id="36.1">Thật ra có một thứ gọi là yêu cầu quyền tự do thông tin pháp luật, hay là yêu cầu FOIL.</s>
+  <s id="36.2">Đây là một tờ đơn tìm thấy trên web của Uỷ ban taxi và xe Limousine.</s>
+ </p>
+ <s id="37">Để truy cập dữ liệu này, bạn cần lấy được tờ đơn này, điền vào và họ sẽ thông báo bạn, và một anh chàng tên Chris Whong đã làm chính xác như thế.</s>
+ <s id="38">Chris đi đến và họ bảo anh ta, "Chỉ cần mang một ổ cứng mới đến văn phòng của chúng tôi, để ở đây trong vòng 5 tiếng, chúng tôi sẽ chép dữ liệu và bạn đến lấy về."</s>
+ <s id="39">Và dữ liệu này đến từ đấy.</s>
+ <s id="40">Chris là kiểu người muốn công khai mọi dữ liệu, và vì thế, mọi người đều có thể sử dụng nó và đấy là lý do có biểu đồ này.</s>
+ <p id="p41">
+  <s id="41.1">Và sự tồn tại của nó thật tuyệt vời.</s>
+  <s id="41.2">Những người ghi GPS - vô cùng tuyệt.</s>
+ </p>
+ <s id="42">Nhưng thực tế có những công dân mang theo những ổ cứng thu thập dữ liệu từ cơ quan để công khai chúng - nó đã là của chung, bạn có thể tiếp cận chúng, nhưng nó là chung, không công khai.</s>
+ <p id="p43">
+  <s id="43.1">Và ta có thể làm tốt hơn thế.</s>
+  <s id="43.2">Dân chúng không cần phải đi khắp nơi với những chiếc ổ cứng</s>
+ </p>
+ <s id="44">Giờ thì, không phải mẫu dữ liệu nào phù hợp yêu cầu FOIL.</s>
+ <s id="45">Đây là bản đồ những nút giao nguy hiểm nhất ở thành phố New York mà tôi đã làm. dựa trên số vụ tai nạn xe đạp.</s>
+ <s id="46">Những vùng màu đỏ là vùng nguy hiểm.</s>
+ <s id="47">Và đầu tiên là phía đông của Manhattan, đặc biệt là vùng thấp hơn, số tai nạn xe đạp xảy ra cao hơn.</s>
+ <s id="48">Điều này hợp lý vì có nhiều xe đạp phóng xuống cầu ở đây.</s>
+ <s id="49">Còn một địa điểm nữa rất đáng nghiên cứu.</s>
+ <p id="p50">
+  <s id="50.1">Khu Williamsburg.</s>
+  <s id="50.2">Khu Roosevelt Avenue ở Queens.</s>
+ </p>
+ <s id="51">Và đây chính xác là dữ liệu cần cho Vision Zero.</s>
+ <s id="52">Đây chính xác là thứ chúng ta đang tìm kiếm.</s>
+ <s id="53">Nhưng lại có một câu chuyện ẩn sau nó.</s>
+ <s id="54">Dữ liệu này không chỉ thế mà biến mất.</s>
+ <s id="55">Bao nhiêu thính giả ngồi đây biết đến logo này ạ?</s>
+ <s id="56">Vâng, tôi thấy vài cái lắc đầu.</s>
+ <s id="57">Các bạn có bao giờ cố gắng sao và chép dữ liệu từ một bản PDF và cắt nghĩa nó?</s>
+ <s id="58">Nhiều người lắc đầu hơn rồi.</s>
+ <s id="59">Nhiều người thà sao chép hơn là biết về cái logo này.</s>
+ <p id="p60">
+  <s id="60.1">Tôi thích.</s>
+  <s id="60.2">Chuyện là, dữ liệu các bạn vừa thấy thực ra là từ một file PDF.</s>
+ </p>
+ <s id="61">Thực tế, hàng trăm trăm trang PDF ra đời từ chính Cục cảnh sát Hoa Kỳ, để tiếp cận với nó, bạn sẽ phải chép hoặc dán trong hàng trăm và hàng trăm giờ hoặc bạn có thể là John Krauss.</s>
+ <p id="p62">
+  <s id="62.1">John Krauss đại khái là, tôi sẽ không sao chép lại dữ liệu này.</s>
+  <s id="62.2">Tôi sẽ viết một chương trình.</s>
+ </p>
+ <s id="63">Nó tên là Ban hỗ trợ sự cố về dữ liệu của Cục cảnh sát Hoa Kỳ ban này sẽ đăng nhập trang web của NYPD, và tải về các tệp PDF.</s>
+ <s id="64">Công việc mỗi ngày là tìm kiếm và tải về bất cứ tệp PDF nào xuất hiện sau đó, ban này sẽ chạy chương trình xuất thông tin và trả dữ liệu về dạng văn bản, dữ liệu này sẽ được đăng lên mạng, và ta có thể vẽ bản đồ bằng cách này.</s>
+ <s id="65">Thực tế những dữ liệu mà chúng ta tiếp cận - Mỗi vụ tai nạn, nhân tiện đây, là một hàng trong bảng này.</s>
+ <s id="66">Bạn có thể tưởng tượng số lượng tệp PDF nhiều thế nào.</s>
+ <s id="67">Việc mà chúng ta được tiếp cận với nguồn dữ liệu đó là một điều tuyệt vời, nhưng đừng xuất nó ra dưới định dạng PDF, vì sau đó dân chúng sẽ viết chương trình xuất file PDF.</s>
+ <s id="68">Điều này lãng phí thời gian, chúng ta hay cả thành phố có thể làm tốt hơn thế.</s>
+ <s id="69">Và bây giờ, đáng mừng là thị trưởng thành phố, ông Blasio vừa mới phát hành những dữ liệu này khoảng vài tháng trước, và vì vậy chúng ta mới có thể tham khảo nó, nhưng vẫn còn rất nhiều thông tin bị chôn vùi dưới dạng PDF</s>
+ <s id="70">Ví dụ, dữ liệu về tội phạm mới chỉ có dưới dạng PDF.</s>
+ <s id="71">và không chỉ có thế, còn có ngân sách thành phố chúng ta.</s>
+ <s id="72">Ngân sách thành phố hiện tại chỉ đọc được ở dạng PDF.</s>
+ <s id="73">Và không chỉ có mỗi chúng ta không thể phân tích được - mà cả những nhà lập pháp người mà ủng hộ cho bản ngân sách cũng chỉ có được bản PDF của nó thôi.</s>
+ <s id="74">Vì thế những nhà lập pháp không thể phân tích bản ngân sách mà họ bầu cử.</s>
+ <s id="75">Và tôi nghĩ rằng thành phố chúng ta cũng chỉ làm tốt hơn một chút thôi.</s>
+ <s id="76">Giờ có rất nhiều dữ liệu không còn ở dạng PDF.</s>
+ <s id="77">Đây là mẫu bản đồ mà tôi đã vẽ, và đây là những đường thuỷ bẩn nhất tại thành phố New York.</s>
+ <s id="78">Vậy tôi đã đo độ bẩn này như thế nào?</s>
+ <s id="79">Thực ra thì cách này khá là kì lạ, nhưng mà tôi đã nhìn vào mức độ nhiễm trực khuẩn ruột, chính là đo lượng phân có trong mỗi đường thuỷ này</s>
+ <s id="80">Vòng tròn càng lớn, mức độ bẩn càng cao, các vòng tròn to là vùng nước bẩn vòng tròn bé là vùng nước sạch hơn.</s>
+ <s id="81">Thứ các bạn thấy là đường thuỷ nội địa</s>
+ <s id="82">Đây là toàn bộ dữ liệu mẫu của thành phố trong vòng 5 năm tới.</s>
+ <s id="83">Và thường thì các đường thuỷ nội địa sẽ bẩn hơn.</s>
+ <s id="84">Điều này dễ hiểu, đúng không?</s>
+ <p id="p85">
+  <s id="85.1">Vòng tròn to hơn là bẩn.</s>
+  <s id="85.2">Tôi cũng học được vài điều.</s>
+ </p>
+ <s id="86">Thứ nhất: Không bao giờ bơi ở bất cứ nơi nào có chữ "lạch" hay "kênh".</s>
+ <s id="87">Nhưng thứ hai: tôi cũng tìm ra đường thuỷ bẩn nhất thành phố New York, bằng chính phương pháp này, bằng cách này.</s>
+ <s id="88">Ở con lạch Coney Island, may mắn không phải Coney Island các bạn hay bơi.</s>
+ <s id="89">Mà là ở bờ bên kia.</s>
+ <s id="90">Nhưng con lạch này, 94% các mẫu thử được lấy trong vòng 5 năm nay có mức nhiễm khuẩn cao đến mức con người không được phép bơi tại đây theo điều luật của bang.</s>
+ <s id="91">Và đây không phải là thứ bạn sẽ được thấy trong báo cáo của thành phố, đúng chứ?</s>
+ <s id="92">Điều này sẽ không được đăng trên trang nhất của nyc.gov.</s>
+ <s id="93">Chúng ta sẽ không biết, nhưng thật ra có được dữ liệu này là điều vô cùng tuyệt diệu.</s>
+ <s id="94">Nhưng phải nhắc lại lần nữa, chuyện đó không dễ chút nào, vì đó không phải dữ liệu mở trong cổng thông tin.</s>
+ <p id="p95">
+  <s id="95.1">Nếu bạn định truy cập, bạn sẽ chỉ tìm thấy vài mẩu thông tin trong vòng một năm hay vài tháng.</s>
+  <s id="95.2">Những thông tin này là từ web của Cục bảo vệ Môi trường.</s>
+ </p>
+ <s id="96">Và mỗi link này là một bảng excel, mỗi trang excel cũng khác nhau.</s>
+ <s id="97">Mỗi đầu đề cũng khác: bạn sao, chép, sắp xếp lại.</s>
+ <p id="p98">
+  <s id="98.1">Khi đó, bạn có thể vẽ bản đồ và điều này thật tuyệt, nhưng lần nữa, ta có thể làm tốt hơn cho thành phố, ta có thể chuẩn hoá mọi thứ.</s>
+  <s id="98.2">Và chúng ta đạt được điều này, bởi đã có một trang do Socrata tạo</s>
+ </p>
+ <p id="p99">
+  <s id="99.1">có tên là Cổng thông tin mở NYC.</s>
+  <s id="99.2">Đây là nơi đăng tải 1100 bộ dữ liệu mà</s>
+ </p>
+ <p id="p100">
+  <s id="100.1">không gặp những vấn đề tôi đã đề cập, và thật đáng mừng là con số đang tăng lên.</s>
+  <s id="100.2">Bạn có thể tải về tài liệu ở bất cứ định dạng nào, CSV hay PDF hay Excel.</s>
+ </p>
+ <s id="101">Bạn có thể tải bất kì tệp nào bạn muốn theo cách đó.</s>
+ <s id="102">Vấn đề là, mỗi lần như thế, bạn sẽ thấy mỗi nguồn mã hoá những địa chỉ khác nhau.</s>
+ <s id="103">Một địa chỉ gồm tên phố, ngã giao nhau, đường phố, khu phố, địa chỉ, toà nhà, địa chỉ toà nhà.</s>
+ <s id="104">Một lần nữa, bạn mất thời gian, kể cả khi đã có cổng thông tin này, để chuẩn hoá những trường địa chỉ.</s>
+ <s id="105">Và việc này thật hao phí thời gian.</s>
+ <s id="106">Thành phố chúng ta có thể làm tốt hơn.</s>
+ <s id="107">Chúng ta có thể tiêu chuẩn hóa địa chỉ, và nếu có thể, ta sẽ có nhiều bản đồ hơn nữa.</s>
+ <s id="108">Đây là bản đồ vòi chữa cháy ở thành phố New York. nhưng không chỉ có vòi chữa cháy thôi đâu.</s>
+ <s id="109">Đây là top 250 tổng số vòi chữa cháy liên quan đến vé phạt đỗ xe.</s>
+ <s id="110">(Cười) Tôi học được vài điều từ bản đồ này, tôi thực sự rất thích.</s>
+ <s id="111">Thứ nhất, đừng đỗ xe ở mạn trên phía Đông.</s>
+ <p id="p112">
+  <s id="112.1">Tốt nhất là đừng.</s>
+  <s id="112.2">Dù bạn đỗ xe ở đâu thì cũng bị nhận vé phạt thôi.</s>
+ </p>
+ <s id="113">Thứ hai, tôi đã tìm ra 2 vùng có tổng vòi nước máy lớn nhất New York, chúng đều ở Lower East Side, và 2 điểm này đã và đang mang lại hơn 55,000 đô la mỗi năm từ những vé đỗ xe.</s>
+ <s id="114">Khi biết tới điều này, tôi cảm thấy khá lạ vì vậy tôi đã tìm hiểu thêm và hoá ra vấn đề ở vòi nước máy và một thứ nữa gọi là vỉa hè, đây là một khu đi bộ khoảng 8 bước chân và bên cạnh là chỗ để xe.</s>
+ <s id="115">Rồi xe đi tới, và vòi nước máy - "Nó ở tít đằng kia, đỗ ở đây là ổn", và thực sự có cả vạch kẻ khéo léo để đỗ xe.</s>
+ <p id="p116">
+  <s id="116.1">Họ sẽ đỗ xe ở đó, và NYPD không đồng ý với lựa chọn này và sẽ phạt họ.</s>
+  <s id="116.2">Không chỉ có tôi nhận được thẻ phạt này đâu.</s>
+ </p>
+ <s id="117">Đây là chiếc xe Google Street View</s>
+ <s id="118">cũng nhận một vé phạt như thế.</s>
+ <s id="119">Tôi đã chia sẻ trên blog của mình, trang I Quant NY, và Sở Giao Thông đã hồi âm, họ nói rằng, "Dù chúng tôi chưa nhận được bất cứ phàn nàn nào về địa điểm này, nhưng DOT sẽ điều chỉnh lại vạch kẻ đường, cũng như tiến hành những thay đổi hợp lí."</s>
+ <s id="120">Và tôi tự ngẫm rằng, câu trả lời điển hình của chính phủ, tốt thôi, cuộc sống của tôi vẫn tiếp diễn.</s>
+ <s id="121">Nhưng vài tuần sau, điều phi thường đã xảy ra.</s>
+ <s id="122">Họ đã sơn lại vạch đỗ xe, trong phút chốc, tôi nghĩ mình thấy được tương lai của thông tin mở, chỉ với việc nghĩ đến điều đã xảy ra ở đây.</s>
+ <s id="123">Trong 5 năm, điểm này đã bị thu phí và chuyện cũng rối thêm, sau đó người dân phát hiện điều gì đó, họ báo lại với thành phố, chỉ trong vài tuần vấn đề đã được giải quyết.</s>
+ <p id="p124">
+  <s id="124.1">Thật ngạc nhiên.</s>
+  <s id="124.2">Có nhiều người canh chừng như khuyển canh nhà vậy.</s>
+ </p>
+ <p id="p125">
+  <s id="125.1">Chuyện không phải vậy.</s>
+  <s id="125.2">Chuyện liên quan việc trở thành một cộng sự.</s>
+ </p>
+ <s id="126">Ta có thể khiến người dân trở thành những cộng sự có ích cho chính phủ. chuyện đó không hề khó.</s>
+ <s id="127">Tất cả những gì ta cần là một vài thay đổi.</s>
+ <s id="128">Nếu bạn đang yêu cầu lưu trữ, nếu bạn thấy dữ liệu của mình được yêu cầu nhiều lần, hãy công khai nó, đó là dấu hiệu dữ liệu cần được công khai.</s>
+ <s id="129">Nếu bạn làm trong cơ quan chính phủ định công khai một bản PDF, hãy thông qua đạo luật yêu cầu người đăng phải ghi rõ dữ liệu gốc, vì dữ liệu đó được dẫn nguồn từ đâu đó.</s>
+ <p id="p130">
+  <s id="130.1">Tôi không biết từ đâu, nhưng chắc sẽ có nguồn gốc, bạn có thể công khai nó dưới dạng PDF.</s>
+  <s id="130.2">Hãy công nhận và chia sẻ tiêu chuẩn cho dữ liệu mở.</s>
+ </p>
+ <s id="131">Hãy bắt đầu bằng địa chỉ tại thành phố New York.</s>
+ <s id="132">Bắt đầu bằng việc chuẩn hoá địa chỉ.</s>
+ <s id="133">Bởi New York tiên phong trong dữ liệu mở.</s>
+ <s id="134">Bất luận thế nào, ta là người đi đầu với thông tin mở,</s>
+ <p id="p135">
+  <s id="135.1">nếu ta bình thường hoá mọi thứ, và đặt tiêu chuẩn dữ liệu mở, những người khác sẽ hưởng ứng theo.</s>
+  <s id="135.2">Bang và thậm chí chính phủ sẽ tán đồng.</s>
+  <s id="135.3">Những quốc gia khác sẽ tuân theo, và ta không còn xa thời điểm bạn có thể viết một chương trình và thông tin bản đồ của 100 quốc gia.</s>
+  <s id="135.4">Đây không phải khoa học viễn tưởng.</s>
+ </p>
+ <p id="p136">
+  <s id="136.1">Chúng ta thực sự tiến gần hơn.</s>
+  <s id="136.2">Đồng thời, ta đang trao quyền cho ai?</s>
+ </p>
+ <s id="137">Đó không phải là vì John Krauss hay Chris Whong.</s>
+ <p id="p138">
+  <s id="138.1">Có hàng trăm buổi gặp mặt đang diễn ra ở thành phố New York, những buổi meetup tích cực.</s>
+  <s id="138.2">Hàng ngàn người đang tham dự.</s>
+ </p>
+ <s id="139">Họ tới dự sau khi tan làm hay vào các ngày cuối tuần, và họ tham gia để thấy những thông tin mở và làm cho thành phố trở nên tốt đẹp hơn.</s>
+ <s id="140">Những tổ chức như BetaNYC, tuần trước công khai một thứ gọi là citygram.nyc cho phép bạn góp vào 311 lời phàn nàn xuất phát từ nơi ở, nơi làm việc của bạn.</s>
+ <s id="141">Bạn điền địa chỉ vào, nhận những lời phàn nàn từ địa phương.</s>
+ <s id="142">Không phải chỉ có cộng đồng công nghệ mới dùng cách này.</s>
+ <s id="143">Những người quy hoạch đô thị như học sinh tôi từng dạy ở Pratt cũng dùng.</s>
+ <s id="144">Đó là chủ trương chính sách, dành cho mọi người, dành cho công dân có hoàn cảnh khác nhau.</s>
+ <s id="145">Và với vài sự thay đổi nhỏ đang tăng dần, ta có thể mở khoá những đam mê và năng lực của người dân để trang bị cho nền thông tin mở, làm thành phố tươi đẹp hơn, cho dù đó chỉ là một tập dữ liệu, hay là một điểm đỗ xe đi chăng nữa.</s>
+ <s id="146">Cảm ơn.</s>
+ <s id="147">(Vỗ tay)</s>
+</text>

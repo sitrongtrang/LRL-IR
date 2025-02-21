@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Đây là vở kịch mang tên "Bán/Mua/Hẹn hò"</s>
+ <s id="2">Vở đầu tay kể từ ''Bridge and Tunel,'' ở nhà hát Broadway, và vở này - tôi -- cảm ơn -- Tôi trích một đoạn dành cho các bạn, nào chúng ta bắt đầu</s>
+ <p id="p3">
+  <s id="3.1">Được rồi.</s>
+  <s id="3.2">Cả lớp, hãy thật chắc chắn rằng tắt hết các thiết bị điện tử trước khi chúng ta bắt đầu.</s>
+ </p>
+ <s id="4">Nào cả lớp, hi vọng mọi người nhận ra điều tôi nhắc đến --?</s>
+ <s id="5">Rất tốt, thông báo từ điện thoại cầm tay.</s>
+ <p id="p6">
+  <s id="6.1">Phải không?</s>
+  <s id="6.2">Hay còn gọi là điện thoại di động.</s>
+ </p>
+ <s id="7">Các bạn nhớ chứ, mọi người trong thời đại đó đều có thiết bị điện tử bên ngoài, đúng rồi, giống như cái này, và họ thường mang nó theo mình và một trong những nỗi sợ lớn nhất là nỗi xấu hổ tột cùng khi chuông điện thoại reo không đúng lúc.</s>
+ <p id="p8">
+  <s id="8.1">Đúng không?</s>
+  <s id="8.2">Điều vặt vãnh về thời kỳ đó dành cho các bạn.</s>
+ </p>
+ <s id="9">(Cười) Vậy nội dung bài học hôm nay là hôm nay tôi sẽ trình bày nhiều bài của BERT từ thời điểm lịch sử đó, đúng vậy, hãy bắt đầu vào khoảng năm 2016.</s>
+ <s id="10">Và hãy nhớ, đây là năm đầu tiên của chương trình BERT.</s>
+ <s id="11">Vậy là chúng ta vừa sơ lượt vài phần của nó.</s>
+ <s id="12">Hãy nhớ, tôi sẽ đóng nhiều vai khác nhau, tuổi tác khác nhau, và cả các chủng tộc, dân tộc thiểu số, như các bạn sẽ nhớ từ Bài 1.</s>
+ <s id="13">Và -- (Cười) -- và cả chuỗi giới tính, tôi cũng sẽ đóng vai nam nữa.</s>
+ <s id="14">Lúc đó là hệ nhị phân.</s>
+ <s id="15">(Cười) Hơn nữa, đừng quên, chúng ta đang đọc cuốn sách chủ đề tuần sau tập trung vào giới tính.</s>
+ <s id="16">Bây giờ, tôi biết một trong số các bạn đã yêu cầu cuốn sách dưới dạng viên thuốc.</s>
+ <s id="17">Tôi biết mọi người vẫn tin tưởng việc đọc giúp nhớ lâu hơn, nhưng vì chúng ta đang cố gắng trải nghiệm việc cha ông đã làm, hãy thử cân nhắc việc đọc sách bằng mắt thật sự, được chứ?</s>
+ <s id="18">Và đồng thời, có bao nhiêu người thay đổi cảm xúc?</s>
+ <p id="p19">
+  <s id="19.1">Được rồi.</s>
+  <s id="19.2">Xin hãy tắt nó.</s>
+ </p>
+ <p id="p20">
+  <s id="20.1">Được chứ?</s>
+  <s id="20.2">Tôi biết là khó khăn, nhưng tôi muốn các bạn có thể cảm nhận toàn bộ những cung bậc cảm xúc tự nhiên.</s>
+ </p>
+ <s id="21">Phần này là cần thiết cho chương trình học.</s>
+ <s id="22">Đúng không, Macy?</s>
+ <p id="p23">
+  <s id="23.1">Được rồi.</s>
+  <s id="23.2">Tôi hiểu.</s>
+  <s id="23.3">Nếu em không muốn -- Được, ồ, chúng ta có thể bàn bạc sau giờ học.</s>
+ </p>
+ <s id="24">Được rồi, chúng ta sẽ bàn mối quan tâm của em.</s>
+ <p id="p25">
+  <s id="25.1">Thư giãn đi nào.</s>
+  <s id="25.2">Không có ai chết và bị phân hủy cả.</s>
+ </p>
+ <p id="p26">
+  <s id="26.1">Được rồi.</s>
+  <s id="26.2">Sau giờ học.</s>
+  <s id="26.3">Được chứ?</s>
+ </p>
+ <p id="p27">
+  <s id="27.1">Sau giờ học.</s>
+  <s id="27.2">Hãy bắt đầu thôi nào..</s>
+ </p>
+ <s id="28">Môn học đầu tiên là đóng vai một giúp việc trong gia đình trung lưu.</s>
+ <s id="29">Hãy nhớ, những điều đầu tiên trong nhận dạng đầy đủ của những người này được bảo vệ, để họ có thể tự do nói về đề tài, mà có nhiều người cho là cấm kỵ.</s>
+ <s id="30">Được rồi, các cháu ta đã sẵn sàng rồi.</s>
+ <s id="31">Không đâu, cháu yêu, ta nói ta đã sẵn sàng rồi.</s>
+ <s id="32">Ta chết cóng mất.</s>
+ <s id="33">Phòng thu này giống như kho thịt lạnh vậy.</s>
+ <s id="34">Đáng lẽ ta nên mặc một cái áo shmata.</s>
+ <s id="35">Họ đầu tư thiết bị đắt tiền mà lại không thể chi trả cho máy sưởi.</s>
+ <p id="p36">
+  <s id="36.1">Cháu kia đang nói gì vậy?</s>
+  <s id="36.2">Ta không thể nghe thấy đâu!</s>
+ </p>
+ <s id="37">Ta không thể nghe thấy cháu qua cửa kính!</s>
+ <s id="38">Đây, ta nghe được rồi.</s>
+ <s id="39">Ồ, cháu có nghe thấy ta không?</s>
+ <s id="40">Từ đầu đến giờ.</s>
+ <s id="41">Oh, vâng, ta thấy hơi lạnh.</s>
+ <s id="42">Vâng, những cái máy này tỏa hơi lạnh, công nghệ mới.</s>
+ <p id="p43">
+  <s id="43.1">Được rồi.</s>
+  <s id="43.2">Giờ hãy nhắc ta lần nữa, các cháu đang thu âm không chỉ giọng nói mà còn cảm xúc và trí nhớ của ta, phải không?</s>
+ </p>
+ <p id="p44">
+  <s id="44.1">Được rồi.</s>
+  <s id="44.2">Vâng, BERT, vâng, ta đã đọc về nó.</s>
+ </p>
+ <s id="45">Công nghệ Công hưởng Đồng cảm Sinh học.</s>
+ <s id="46">Được, được, mọi người có thể cảm nhận được trải nghiệm và trí nhớ của ta chứ?</s>
+ <p id="p47">
+  <s id="47.1">Okay.</s>
+  <s id="47.2">Được rồi, ta sẵn sàng.</s>
+ </p>
+ <s id="48">Ta chỉ nghĩ là các cháu đang định kiểm tra trí nhớ của ta.</s>
+ <s id="49">Ta đã định nói rằng mấy người đã muộn, nó đã trở thành tin xấu rồi.</s>
+ <s id="50">Không, không, tiếp đi nào.</s>
+ <s id="51">Oh, đó là câu hỏi đầu tiên sao?</s>
+ <s id="52">Ta nghĩ sao về mại dâm ư?</s>
+ <s id="53">Cháu không dụ tôi đấy chứ, chàng trai?</s>
+ <s id="54">Ta vừa nghe về những cuộc tình lệch tuổi, nhưng cậu thì sao, tầm 20 hả?</s>
+ <s id="55">18? 18 tuổi.</s>
+ <s id="56">Ta nghĩ những viên kẹo trong túi của ta còn hơn 18 năm nữa.</s>
+ <p id="p57">
+  <s id="57.1">(Cười) Ta chỉ đùa cháu thôi.</s>
+  <s id="57.2">Không, không có vấn đề gì với câu hỏi cả.</s>
+ </p>
+ <p id="p58">
+  <s id="58.1">Chắc rồi.</s>
+  <s id="58.2">Về vấn đề mại dâm -- oh, người làm tình, người làm tình.</s>
+ </p>
+ <s id="59">Không, chỉ là trong thời của ta, họ gọi nó là mại dâm, không phải làm tình.</s>
+ <s id="60">Oh, vì nó chứa nội dung khiêu dâm ư?</s>
+ <s id="61">Okay.</s>
+ <s id="62">Không, ồ, ta đoán khi ta còn bé, bọn ta thậm chí còn không đặt tên cho nó luôn cơ.</s>
+ <s id="63">Bọn ta gọi đó là tạp chí đen, ta cho là vậy, hay phim đen.</s>
+ <s id="64">Ồ, nó không giống thứ cháu thấy trên Internet.</s>
+ <s id="65">Không, ồ, ta không ngại chia sẻ đâu.</s>
+ <s id="66">Chồng cũ và ta đã từng là một cặp rất lãng mạn.</s>
+ <s id="67">Đầy dịu dàng, các cháu hiểu mà.</s>
+ <s id="68">Ồ, khi già đi, ta nghĩ chồng mình sẽ một lúc nào đó có thể trợ lực bằng vài loại thuốc dành cho đàn ông, nhưng ông ấy đã không có hứng thú với chúng, nên ta đã nghĩ rằng sao không thử xem phim người lớn trên mạng?</s>
+ <s id="69">Chỉ vì cảm hứng thôi, các cháu hiểu mà.</s>
+ <s id="70">Ồ, lúc đó, cả hai chúng tôi đều mù máy tính, nên thường lệ, khi cần trợ giúp về Internet; bọn ta chỉ cần gọi cho con cái, cháu chắt, nhưng rõ ràng, trong tình huống này, đó không phải một lựa chọn, nên ta đã nghĩ, mình sẽ phải tự tìm hiểu thôi.</s>
+ <s id="71">Nó khó khăn thế nào ư?</s>
+ <s id="72">Chỉ tìm những từ khóa và nhìn thôi -- Ồ đúng rồi, chàng trai.</s>
+ <s id="73">Cháu không thể tưởng tượng điều ta thấy đâu.</s>
+ <s id="74">Ồ, trước tiên, ta đã cố tìm, cháu biết đấy, những đôi tình nhân, những đôi bình thường làm tình, nhưng, có quá nhiều người cùng một lúc.</s>
+ <s id="75">Cháu không thể phân biệt cơ thể của người nào với người nào đâu.</s>
+ <s id="76">Thậm chí cách họ đặt máy quay vừa khung hình, ta không thể kể cho cháu được.</s>
+ <s id="77">Nhưng một điều họ không ghi hình là cảnh làm tình.</s>
+ <s id="78">Có nhiều cảnh về vài thứ linh tinh, nhưng họ cắt phần làm tình đi, cháu biết đấy, những phần thú vị.</s>
+ <s id="79">Cháu có nghĩ đó là cảnh cực khoái không?</s>
+ <s id="80">Giống như, những môn thể thao mạo hiểm.</s>
+ <s id="81">Đầy nhẫn nại, nhưng không hề nhẹ nhàng.</s>
+ <s id="82">Nên dù sao thì không cần nói, đó là 19.95 đô mà ta không thể lấy lại, nhưng nó chỉ thể hiện trên thẻ tín dụng là ''dịch vụ giải trí,'' nên chồng ta chả sành sỏi hơn tí nào, và sau mọi việc, ồ, cháu có thể nói rằng ông ấy không cần thêm cảm hứng gì cả.</s>
+ <s id="83">Rồi, nhân vật tiếp theo là một phụ nữ trẻ -- (Vỗ tay) -- Nhân vật kế tiếp là người phụ nữ trẻ tên Bella, một sinh viên được phỏng vấn vào năm 2016 trong phần giới thiệu vào lớp học Khiêu dâm Nữ quyền như một phần trong chuyên ngành của cô về tình dục tại trường đại học ở Bay Area.</s>
+ <s id="84">(Cười) Vâng, tôi chỉ muốn ghi lại, như các bạn ghi âm tôi, như một bản ghi âm vội, hay bất kỳ thứ gì.</s>
+ <s id="85">Chỉ là toàn bộ trải nghiệm đều thật sự đáng ngạc nhiên, và tôi muốn ghi lại cho, đại loại như Instagram và Tumblr.</s>
+ <s id="86">Xin chào mọi người, tôi đây, Bella, và tôi như thể đang được phỏng vấn lúc này vì điều này, đại khái là, Công nghệ Cộng hưởng Đồng cảm Sinh học đầy lý thú, mà cơ bản ở chỗ họ ghi âm, như các bạn có thể thấy đấy từ đây, như điện cực, sự cấu thành chuỗi protein thần kinh trong hồi hải mã của tôi, hay tương tự.</s>
+ <s id="87">Rồi họ có thể tái cấu tạo chúng như trí nhớ của chính tôi, như những trải nghiệm thực, cho nên người khác có thể thật sự cảm nhận được cảm giác của tôi lúc này.</s>
+ <p id="p88">
+  <s id="88.1">Okay.</s>
+  <s id="88.2">Okay.</s>
+ </p>
+ <s id="89">Xin chào, người BERT tương lai đang cùng tôi.</s>
+ <s id="90">Đây như thể cảm giác của một tân sinh viên, và cơn đau đầu các bạn đang cảm nhận thông qua tôi là dư âm của loại thạch rau câu tôi ăn đêm qua ở tiệc múa cột dành cho người bênh vực nữ quyền 2 tuần 1 lần mà tôi đồng tổ chức vào thứ tư hàng tuần.</s>
+ <s id="91">Nó gọi là ''Don't Get All Pole-emical'' -- (Cười) -- và ở sảnh Beekman, và, gì nữa, giống như, cũng có loại thạch dành cho người ăn chay, và, ồ, okay, vâng, tôi cũng nên tập trung vào câu hỏi của các bạn.</s>
+ <s id="92">Về bản ghi âm của bạn, tôi, chuyên ngành về tình dục học nhưng ngành phụ lại là truyền thông đại chúng tập trung vào kênh Youtube danh tiếng.</s>
+ <s id="93">(Cười) Vâng, dĩ nhiên, tôi tự cho mình là, rõ ràng, giống một người bảo vệ nữ quyền.</s>
+ <s id="94">Tên tôi được đặt theo Bella Abzug, một người bảo vệ nữ quyền nổi tiếng trong lịch sử. và, tôi cũng thấy thật quan trọng khi đại diện cho phụ nữ những người bảo vệ nữ quyền về mặt tích cực trong tình dục.</s>
+ <s id="95">Tiêu cực tình dục là gì?</s>
+ <p id="p96">
+  <s id="96.1">Ồ, tôi đoán tôi sẽ hỏi lại, các bạn nghĩ sao về tiêu cực tình dục?</s>
+  <s id="96.2">(Cười) Bởi vì những thuật ngữ chúng ta dùng cực kỳ quan trọng, vì chúng ta gọi đó là làm tình vì nó giúp người ta hiểu rằng, đó là công việc, và các bạn biết đấy, cũng giống như nhà cung cấp dịch vụ chăm sóc sức khỏe và nhà cung cấp bảo hiểm, chúng ta nghĩ về họ như những người cung cấp dịch vụ chăm sóc tình dục.</s>
+ </p>
+ <s id="97">Vâng, nhưng bản thân tôi không nghĩ là việc cung cấp trực tiếp dịch vụ chăm sóc tình dục, là một nhu cầu mà đối với tôi, đó là sự ủng hộ.</s>
+ <s id="98">Tôi ủng hộ quyền lợi của những phụ nữ khác trong việc xung phong lựa chọn nó, nếu họ thấy thích.</s>
+ <s id="99">Nhưng tôi thấy mình có xu hướng bảo vệ quyền lợi của những người trong nghề, sự tự do và các quyền lợi hợp pháp.</s>
+ <s id="100">Về cơ bản, tôi đang lên kế hoạch trở thành một luật sư.</s>
+ <p id="p101">
+  <s id="101.1">Đúng rồi, cả lớp.</s>
+  <s id="101.2">(Cười) (Vỗ tay) Cho nên hai phần tiếp theo cũng vào khoảng 2016.</s>
+ </p>
+ <s id="102">Một nhân vật là một người phụ nữ Ai-len trong một quan hệ đặc biệt đáng quan tâm về vấn đề này, nhưng trước hết sẽ là một phụ nữ Tây Ấn, người cho mình là một hướng dẫn viên được thu âm tại một buổi diễu hành về quyền của những người làm tình dục.</s>
+ <s id="103">Cô được phỏng vấn trong lúc diễu hành với chiếc mũ vũ hội rộng vành và ăn mặc thiếu vải.</s>
+ <s id="104">Được rồi, các bạn muốn tôi bắt đầu bài nói.</s>
+ <s id="105">Vâng, tôi đã bảo, các bạn có thể để dây dợ ở nơi nào bạn muốn miễn là không có trở ngại.</s>
+ <s id="106">Vâng, không, nhưng, nói lại cái tên nào -- BERT hả?</s>
+ <p id="p107">
+  <s id="107.1">BERT.</s>
+  <s id="107.2">Vâng, tôi đang nói, bạn biết đấy, tôi nghĩ lúc nào tôi cũng có tôi luôn có ít nhất một khách hàng có tên đó, nên sẽ không phải lần đầu BERT "đến" với tôi.</s>
+ </p>
+ <s id="108">Ồ, xin lỗi nhé, nhưng các bạn phải quen với thói quen này nếu bạn định phỏng vấn tôi.</s>
+ <p id="p109">
+  <s id="109.1">Được chứ?</s>
+  <s id="109.2">Các bạn có thể nói rằng.</s>
+ </p>
+ <p id="p110">
+  <s id="110.1">No justice, no piece!</s>
+  <s id="110.2">(Không công lý, không hưởng thụ) No justice, no piece!</s>
+ </p>
+ <p id="p111">
+  <s id="111.1">Nhưng bạn thấy tấm biển?</s>
+  <s id="111.2">Bạn hiểu nó?</s>
+  <s id="111.3">P.I.E.C.E. Không công lý thì đừng có mơ.</s>
+ </p>
+ <s id="112">Các bạn hiểu chứ?</s>
+ <s id="113">Được rồi, vậy đây là phần tôi đang kể các bạn rằng khi tôi mới đến đất nước này, tôi đã làm mọi việc tôi tìm được.</s>
+ <s id="114">Tôi làm bảo mẫu; người coi sóc nhà cửa cho tất cả những cụ già khác nhau, rồi tôi nói, trẻ em, nếu tôi phải chạm vào lưng một người da trắng khác, tôi có thể được trả nhiều tiền hơn so với việc đó, các bạn hiểu chứ?</s>
+ <s id="115">Pshh, các bạn biết khó khăn ra sao khi làm người giúp việc nhà?</s>
+ <s id="116">Vài người, họ khá nặng cân.</s>
+ <s id="117">Các bạn phải đỡ họ dậy và lật họ lại.</s>
+ <s id="118">Còn giờ, tôi để họ đỡ tôi dậy và lật tôi lại, các bạn hiểu chứ?</s>
+ <s id="119">Ồ, các bạn phải có khiếu hài hước, đó là điều tôi nghĩ.</s>
+ <s id="120">Không, nhìn xem nào, lắng nghe, bạn hãy thử chỉ ra một người không hề ghét phần việc của mình.</s>
+ <s id="121">Ý tôi là có nhiều điều tôi ghét việc này, nhưng tiền không phải một vấn đề, và tôi sẽ kể các bạn nghe, miễn là cơ hội lớn cho tôi kiếm tiền, tôi tính trở thành cô người Jamaica chính hiệu nếu họ muốn.</s>
+ <p id="p122">
+  <s id="122.1">Không, tôi thậm chí không sống ở Jamaica.</s>
+  <s id="122.2">Đó là cách họ tiếp thị tôi.</s>
+ </p>
+ <s id="123">Gia đình tôi đến từ Trinidad và quần đảo Virgin.</s>
+ <s id="124">Họ không biết tôi làm gì, nhưng các bạn biết không?</s>
+ <s id="125">Con tôi, chúng biết học phí của chúng được trả, chúng có sách vở và máy tính, và nhờ đó, tôi biết chúng có tương lai.</s>
+ <s id="126">Tôi không định nói công việc của tôi, dễ hiểu là, tôi không định kể các bạn nghe cảm giác của mình -- gì cơ, tự do?</s>
+ <s id="127">Nhưng tôi sẽ nói với các bạn rằng tôi thấy mình được đền đáp.</s>
+ <p id="p128">
+  <s id="128.1">Đúng vậy.</s>
+  <s id="128.2">(Vỗ tay) Cảm ơn, dễ thương quá, và cho tôi một tách trà nào, và ít rượu whiskey thôi.</s>
+ </p>
+ <p id="p129">
+  <s id="129.1">Hoàn hảo, thật tuyệt vời.</s>
+  <s id="129.2">Chỉ một giọt nữa thôi.</s>
+ </p>
+ <p id="p130">
+  <s id="130.1">Một xíu.</s>
+  <s id="130.2">Hoàn hảo.</s>
+  <s id="130.3">Tên cậu là gì?</s>
+  <s id="130.4">Peter?</s>
+  <s id="130.5">Đúng chứ, là Peter hả?</s>
+ </p>
+ <p id="p131">
+  <s id="131.1">Được rồi.</s>
+  <s id="131.2">Đây là phần đặc biệt của tôi, rồi, nó kết thúc cả hai, đầu tiên ở tu viện, và tiếp theo là mại dâm.</s>
+ </p>
+ <p id="p132">
+  <s id="132.1">Được rồi.</s>
+  <s id="132.2">(Cười) Một phụ nữ tại một đại học ở Dublin này, cô ấy viết thư cho tôi.</s>
+ </p>
+ <s id="133">Cô ấy bảo, Maureen Fitzroy là hiện thân của tách biệt giữa trinh tiết và mại dâm.</s>
+ <p id="p134">
+  <s id="134.1">Đúng chứ?</s>
+  <s id="134.2">(Cười) Nghe không giống bạn cần vào bệnh viện chứ?</s>
+ </p>
+ <s id="135">Tôi đã gặp phải sự tách biệt khủng khiếp đó.</s>
+ <s id="136">Phải không.</s>
+ <p id="p137">
+  <s id="137.1">Rồi.</s>
+  <s id="137.2">Ồ, dù sao thì với tôi, khi còn bé, chuyện bắt đầu với bố tôi.</s>
+ </p>
+ <s id="138">Ý tôi là, nửa thời gian, khi ông nói với chúng tôi, chỉ là kể rằng chúng tôi là những đứa ngốc vô dụng và không có đạo đức.</s>
+ <s id="139">Và dĩ nhiên tôi cũng chẳng làm gì tổn hại đến bản thân.</s>
+ <s id="140">Vào năm 16 tuổi, tôi đã bắt đầu gây rắc rối với gã lớn tuổi này, và ông ấy muốn giữ bí mật cho cả hai, và tôi đã làm theo, và khi bị phát hiện, bố đã gửi tôi vào tu viện.</s>
+ <s id="141">Ồ không, gã lớn tuổi đó, ông ta vẫn đến tu viện tìm tôi.</s>
+ <s id="142">Vâng, ông để lại những lời nhắn. chui qua cái lỗ gạch cuối cửa hàng từ thiện để gặp nhau.</s>
+ <s id="143">Và gã nói gã đã bỏ vợ, và tôi đã tin gã cho đến khi tôi mang thai.</s>
+ <s id="144">Tôi tin, Peter, và để lại cho hắn tờ giấy nói rõ chuyện đó tại nơi dành cho cả hai, và tôi đã không nghe tin gì về hắn nữa.</s>
+ <s id="145">Không, tôi chấp nhận nuôi con để sống một cách chính đáng, và rồi họ không cho tôi quay lại tu viện.</s>
+ <s id="146">Không, chị tôi, Virginia đưa tôi 5 bảng để bắt xe về Dublin. và đó là lí do vì sao tôi ở đây.</s>
+ <s id="147">Ngạc nhiên thật đấy, tôi lại say đắm một gã già hơn tôi rất nhiều, và luôn miệng nói rằng tôi vui vì gã không uống rượu, tôi đã cưới gã tồi đó.</s>
+ <s id="148">Ông ta không uống rượu, nhưng ông ta có vấn đề heroin, và -- Phải rồi, và trước khi tôi biết, lão là người tống tôi vào con đường mại dâm, người chồng tôi đó.</s>
+ <s id="149">Gã bắt tôi nuôi cả hai.</s>
+ <s id="150">Tôi mới 18 tuổi.</s>
+ <s id="151">Vâng, chuyện không như phim Pretty Woman, tôi biết rõ mà.</s>
+ <s id="152">Các bạn biết Julia Roberts, nếu cô ấy phải ngủ với người đàn ông dúi vào túi mình vài bảng, tôi không nghĩ cô ấy sẽ thực hiện bộ phim này.</s>
+ <s id="153">Vâng, trong đoạn ghi âm của các bạn, tôi phản đối ý kiến hợp pháp hóa.</s>
+ <s id="154">Tôi không quan tâm điều các cô gái trẻ này nói.</s>
+ <s id="155">Bạn biết không, sống như vậy, bạn sẽ chỉ mất phương hướng, và bạn biết không, tôi đã 63 tuổi rồi.</s>
+ <s id="156">Tôi vẫn đang tìm hiểu về bản thân mình.</s>
+ <s id="157">Các bạn biết đấy, tôi chưa hề là vợ ai hoặc một nữ tu, hoặc thậm chí một gái bán hoa, không hề.</s>
+ <s id="158">Chưa có ai hỏi tôi muốn làm nghề gì.</s>
+ <s id="159">Họ chỉ bảo tôi làm, và nếu bạn hợp pháp hóa nó, bạn sẽ nói với các cô gái ấy rằng, "Cứ tiếp tục lạc lối trong cuộc đời." và rất nhiều trong số họ đã làm thứ họ được bảo.</s>
+ <s id="160">Được rồi, bốn ý kiến từ bốn -- (Vỗ tay) -- bốn nhân vật khác nhau, phải không?</s>
+ <s id="161">Một phụ nữ nói về tình dục là tự nhiên nhưng ngành công nghiệp tình dục có vẻ vận hành như một cỗ máy.</s>
+ <s id="162">Và người phụ nữ thứ hai nghĩ tình dục làm tăng sức mạnh, giải phóng và đề cao nữ quyền, mặc dù, bản thân cô cũng không hứng thú lắm trong chuyện này.</s>
+ <s id="163">Người phụ nữ thứ ba, thực ra được gọi là nhân viên tình dục, lại không đồng tình rằng điều này là tự do nhưng cô ấy muốn có quyền để thúc đẩy kinh tế, và rồi chúng ta nghe người thứ tư không chỉ nói về mại dâm mà còn lên án vai trò của phụ nữ nói chung cái đã ngăn cản họ' tìm ra bản thân mình.</s>
+ <s id="164">Một điều đa phần mọi người không biết là tuổi trung bình của cô gái có nguy cơ bị lôi kéo vào ngành công nghiệp mại dâm là 12 hoặc 13.</s>
+ <s id="165">Và cũng nghĩ đến độ tuổi khi mọi cô gái trong xã hội lần đầu xem hình ảnh bán dâm của phụ nữ còn khá sớm, đúng không?</s>
+ <s id="166">Đây là con búp bê Barbie đúng không?</s>
+ <s id="167">Lúc đầu, tôi nghĩ nó là công cụ giáo dục để ngăn chặn chứng biếng ăn -- (Cười) -- nhưng thực ra cô búp bê này được coi là tượng trưng toàn diện cho phái nữ, và những cô gái trẻ thường bắt đầu ăn kiêng.</s>
+ <p id="p168">
+  <s id="168.1">Nhớ cái này không?</s>
+  <s id="168.2">Nó là chứng giảm lượng thức ăn có mục đích ở tuổi lên 6, và định nghĩa bản thân qua độ hấp dẫn vào thời điểm đó.</s>
+  <s id="168.3">Đúng không nhỉ?</s>
+ </p>
+ <s id="169">Đúng phải không?</s>
+ <s id="170">Đúng vậy, Bradley, ý kiến hay lắm.</s>
+ <s id="171">Có một thị trường lợi nhuận trong xã hội giúp thuyết phục mọi người họ phải nhìn theo một hướng định sẵn mới có thể quan hệ tình dục, phải không?</s>
+ <s id="172">Nhưng đặc biệt những cô gái được mong đợi trở nên quyến rũ trong khi phải tránh việc bị xét là "gái điếm" vì vẻ gợi tình.</s>
+ <p id="p173">
+  <s id="173.1">Phải không?</s>
+  <s id="173.2">Có một số lời mà chúng ta đã nghe qua.</s>
+ </p>
+ <s id="174">Đúng vậy.</s>
+ <p id="p175">
+  <s id="175.1">Valerie, phải không?</s>
+  <s id="175.2">Được rồi, tốt lắm.</s>
+ </p>
+ <s id="176">Tất nhiên, đàn ông cũng quan hệ tình dục, nhưng bạn nhớ từ bài đọc, những kẻ gợi dục nam gọi là gì?</s>
+ <s id="177">Tốt lắm, họ sẽ được gọi là đàn ông.</s>
+ <s id="178">(Cười) (Vỗ tay) Thật là khó sống trong thế giới như thế này đúng không?</s>
+ <s id="179">Mặc dù đây cũng không hẳn là tin xấu.</s>
+ <s id="180">Hầu hết phụ nữ những năm đầu 2000 cho rằng họ được truyền sức mạnh, và đàn ông thường cảm thấy họ cũng cải thiện hơn trong lĩnh vực này, và thực tế, hầu hết mọi người sẽ nhận thức được những vấn đề như nạn buôn bán người, ví dụ vậy, nhưng họ sẽ thấy nó khá tách biệt khỏi ngành giải trí người lớn.</s>
+ <s id="181">Chúng ta sẽ nói ngắn gọn thôi, cả lớp -- chúng ta không có thời gian -- chúng ta sẽ dành ít thời gian nghe người này về chủ đề ngay trên sân khấu.</s>
+ <s id="182">Nhân vật tiếp theo này được phỏng vấn ngay trong đêm tiệc độc thân.</s>
+ <s id="183">Này anh bạn, anh có thể nói nhỏ được không?</s>
+ <s id="184">Tôi đang nói chuyện với BERT.</s>
+ <s id="185">Ồ, tên của anh không phải là BERT à.</s>
+ <s id="186">BERT là tên của, ồ, đúng rồi.</s>
+ <p id="p187">
+  <s id="187.1">Không, không, không hẳn, không hề ổn.</s>
+  <s id="187.2">Tôi hoàn toàn tỉnh táo, nên tôi muốn được giúp.</s>
+ </p>
+ <s id="188">À, và tôi hoàn toàn tin vào những lí tưởng, như những thứ thế này.</s>
+ <s id="189">(Cười) Và thực tế, tôi đang đi Toms.</s>
+ <s id="190">Vâng, Toms ... đôi giày, như, bạn mua một đôi rồi một đứa trẻ ở châu Phi nhận được nước sạch.</s>
+ <p id="p191">
+  <s id="191.1">Vâng.</s>
+  <s id="191.2">Hoàn toàn đúng.</s>
+ </p>
+ <s id="192">Nhưng câu hỏi là gì nhỉ?</s>
+ <p id="p193">
+  <s id="193.1">Xin lỗi anh.</s>
+  <s id="193.2">Tất nhiên tôi tin vào nữ quyền.</s>
+  <s id="193.3">Tôi đang cưới một phụ nữ.</s>
+ </p>
+ <s id="194">(Cười) Không, nhưng ý tôi, đại loại, là vì tôi ở bãi đỗ xe của câu lạc bộ thoát y không có nghĩa tôi, là kẻ phân biệt giới tính hay đại loại vậy.</s>
+ <s id="195">Vợ chưa cưới của tôi hoàn toàn tuyệt vời, cô ấy là người phụ nữ mạnh mẽ, thông minh, về mọi thứ.</s>
+ <p id="p196">
+  <s id="196.1">Cô ấy biết tôi ở đây.</s>
+  <s id="196.2">Cô ấy cũng có thể đang ở câu lạc bộ thoát y, như, đùa thôi, như tôi hiện giờ này.</s>
+ </p>
+ <s id="197">Tôi nói với phù rể của tôi rằng anh ấy khiến tôi ngạc nhiên, và anh ấy nghĩ điều đó thật nực cười, nhưng lại không có nghĩa gì cả.</s>
+ <s id="198">À, chúng tôi học chung trường kinh doanh.</s>
+ <s id="199">Trường Wharton.</s>
+ <s id="200">(Cười) Này anh bạn, anh có thể -- Nhưng đây cũng là tiệc độc thân của tôi, và tôi có thể tổ chức ở bãi đỗ xe với Anderson Cooper nếu tôi muốn.</s>
+ <s id="201">Đúng rồi, tôi sẽ gặp lại anh ở đây.</s>
+ <s id="202">Okay, về Anderson, thì, đầu tiên, đang thoát y, nhưng rồi tất cả những thứ khác tôi đang nói đến, mại dâm và những thứ kiểu như, không còn là vấn đề giống nhau.</s>
+ <s id="203">Các bạn cứ gọi nó là công nghiệp tình dục hay đại loại vậy, nhưng như thể, nếu cô gái muốn trở thành một vũ công hấp dẫn và cô ấy 18, thì cô ấy có quyền.</s>
+ <s id="204">Wow, tôi nghe điều các bạn đang nói gì, nhưng tôi cảm thấy như thể mọi người chỉ muốn biến tất cả đàn ông thành kẻ săn mồi, chúng tôi chỉ tự động tìm đến ổ mại dâm hoặc gì đó.</s>
+ <s id="205">Khi tôi tuyên thệ, các bạn biết đấy, lúc gia nhập hội nam sinh.</s>
+ <s id="206">Những người anh em mà tôi thân thiết, họ rất giống tôi.</s>
+ <s id="207">Chúng tôi chỉ là những người bình thường, giống như có một lời đồn là bạn phải là một gã trai đểu cáng và đặt anh em trước gái gú, kiểu vậy.</s>
+ <s id="208">Và thực chất, anh em đặt trước gái gú không giống như các bạn nghe thấy.</s>
+ <s id="209">Điều này thật giống câu nói đùa rằng các bạn quan tâm những anh em của mình và các bạn phải ưu tiên cho họ.</s>
+ <s id="210">Các bạn cũng không thể trách truyền thông.</s>
+ <s id="211">Ý tôi là nếu bạn đi xem "Ba chàng ngự lâm phần 2", và các bạn nghĩ nó đưa những chỉ dẫn về cuộc đời thì tôi không biết phải nói gì nữa.</s>
+ <p id="p212">
+  <s id="212.1">Các bạn chắc chưa xem "Hồ sơ điệp viên Bourne" rồi bay xe qua cái thuyền đế bằng ở Venice.</s>
+  <s id="212.2">(Cười) Okay, các bạn là trẻ con hay đại loại, tất nhiên đó sẽ là chuyện khác, nhưng -- Được rồi, tôi nhớ một thứ tương tự.</s>
+ </p>
+ <s id="213">Khi ấy tôi đang ở vườn trẻ chơi GTA, ừ, Grand Theft Auto?</s>
+ <p id="p214">
+  <s id="214.1">Này, cậu đến từ Canada à?</s>
+  <s id="214.2">(Cười) Sao cũng được, với Grand Theft Auto, các bạn sẽ đóng vai một thanh niên đi bộ xung quanh gì đó, và cơ bản càng giết được nhiều cảnh sát, các bạn sẽ càng có nhiều điểm, và những thứ như thế.</s>
+ </p>
+ <s id="215">Nhưng các bạn cũng có thể tìm gái mại dâm và làm "vài thứ" với họ, nhưng các bạn có thể giết họ và lấy lại tiền.</s>
+ <s id="216">Tôi nhớ có một đứa trẻ đã chạy ô tô qua một vài gái đứng đường vài lần và giành được điểm.</s>
+ <s id="217">Lúc đó tôi nghĩ chắc mình mới 10 tuổi.</s>
+ <s id="218">Thực tế khá là tồi tệ.</s>
+ <p id="p219">
+  <s id="219.1">Tôi không nghĩ tôi đã nói những gì.</s>
+  <s id="219.2">Tôi sẽ kết thúc tại đây và về nhà.</s>
+ </p>
+ <p id="p220">
+  <s id="220.1">Được rồi cả lớp, vậy đàn ông là những người đã trải qua một mối quan hệ liên quan vấn đề này.</s>
+  <s id="220.2">(Cười) Nhân vật tiếp theo tự miêu tả mình là một ma cô đã hối hận và cải tạo trở thành một diễn giả, người định hướng cuộc sống và nhà vật lí trị liệu, nếu các bạn muốn biết thêm về anh ấy, các bạn sẽ phải đến buổi biểu diễn.</s>
+ </p>
+ <s id="221">Cảm ơn rất nhiều, các bạn khán giả đáng yêu của TED.</s>
+ <s id="222">Hẹn gặp các bạn trong "Bán/Mua/ Hẹn hò"</s>
+ <s id="223">(Vỗ tay)</s>
+</text>

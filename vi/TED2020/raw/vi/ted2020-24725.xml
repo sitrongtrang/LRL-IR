@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Có tới 200 triệu ca lâm sàng nhiễm kí sinh trùng sốt rét (falciparum malaria) gây nên cái chết của nửa triệu người ở Châu Phi hằng năm.</s>
+ <s id="2">Tôi muốn trình bày với các bạn về vắc-xin sốt rét.</s>
+ <s id="3">Những vắc-xin sốt rét được tạo ra cho đến nay vẫn chưa đủ hữu hiệu.</s>
+ <s id="4">Tại sao ư?</s>
+ <s id="5">Chúng ta đã nghiên cứu về nó trong hơn 100 năm</s>
+ <s id="6">Khi đó, công nghệ vẫn còn hạn chế.</s>
+ <s id="7">Chúng ta mới chỉ thấy được phần rất nhỏ của kí sinh trùng.</s>
+ <s id="8">Ngày nay, công nghệ không ngừng được cải tiến với những hình ảnh và những nền tảng -omic tiên tiến như -- nghiên cứu về các gen, phiên mã gen, mã gen protein có gốc -omic.</s>
+ <s id="9">Những công cụ này cho ta cái nhìn rõ hơn về sự phức tạp của kí sinh trùng.</s>
+ <s id="10">Tuy nhiên, mặc dù có những công cụ này, phương pháp tạo ra vắc-xin vẫn tụt lại phía sau.</s>
+ <s id="11">Để tạo ra vắc-xin hữu hiệu, ta phải trở lại những khái niệm cơ bản để hiểu làm thế nào cơ thể con người có thể thể xử lí sự phức tạp này.</s>
+ <s id="12">Những người thường xuyên bị nhiễm sốt rét học cách sống chung với nó ra sao.</s>
+ <s id="13">Họ bị nhiễm nhưng không mắc bệnh.</s>
+ <s id="14">Công thức được mã hóa trong các kháng thể.</s>
+ <s id="15">Nhóm của tôi quay lại với sự phức tạp của kí sinh trùng, thí nghiệm trên bệnh phẩm của những người châu Phi khỏi bệnh sốt rét để trả lời câu hỏi: "Phản ứng thành công của kháng thể sẽ trông như thế nào?"</s>
+ <s id="16">Chúng tôi tìm được hơn 200 protein ở ký sinh trùng, rất nhiều trong số chúng không được vắc-xin sốt rét phát hiện.</s>
+ <s id="17">Cộng đồng nghiên cứu có thể đã bỏ qua những phần quan trọng.</s>
+ <s id="18">Cho tới gần đây, khi đã xác định một protein có thể hữu ích, họ đã kiểm nghiệm xem liệu nó có quan trọng với vắc-xin hay không, bằng cách tiến hành một nghiên cứu thuần tập,</s>
+ <p id="p19">
+  <s id="19.1">với khoảng 300 người tham gia ở một ngôi làng ở châu Phi.</s>
+  <s id="19.2">Mẫu bệnh phẩm của họ được xét nghiệm để tìm xem liệu các kháng thể cho protein có thể dự đoán ai bị nhiễm bệnh còn ai thì không.</s>
+ </p>
+ <s id="20">30 năm qua, những nghiên cứu này đã kiểm tra một lượng nhỏ các protein trong một số ít mẫu bệnh phẩm có liên quan và thường ở những địa điểm riêng lẻ.</s>
+ <s id="21">Những kết quả này không còn phù hợp.</s>
+ <s id="22">Nhóm của tôi cơ bản đã phủ định 30 năm nghiên cứu kiểu này bằng một nghiên cứu thú vị, được tiến hành chỉ trong ba tháng.</s>
+ <s id="23">Chúng tôi đã thu thập 10.000 mẫu bệnh phẩm trong hứng khởi từ 15 địa điểm thuộc bảy nước châu Phi, mở rộng thời gian, độ tuổi và độ thay đổi của biến số của các bệnh nhân mắc sốt rét ở châu Phi.</s>
+ <s id="24">Chúng tôi áp dụng kiến thức -omics, để ưu tiên protein của ký sinh trùng tổng hợp chúng trong phòng thí nghiệm và nói ngắn gọn, tái tạo kí sinh trùng sốt rét lên một con chip.</s>
+ <s id="25">Chúng tôi đã thực hiện ở châu Phi và vô cùng tự hào về nó.</s>
+ <s id="26">(Vỗ tay) Con chip ấy chỉ là một miếng thủy tinh nhỏ nhưng trao cho ta quyền năng không tưởng.</s>
+ <s id="27">Chúng tôi đồng thời thu thập dữ liệu trên hơn 100 phản ứng tạo kháng thể.</s>
+ <s id="28">Chúng tôi tìm kiếm điều gì ?</s>
+ <s id="29">Công thức đằng sau một phản ứng tạo kháng thể để có thể dự đoán liệu yếu tố nào sẽ tạo nên một vắc-xin hiệu quả.</s>
+ <s id="30">Chúng tôi cũng cố gắng tìm ra chính xác tác động của kháng thể lên kí sinh trùng.</s>
+ <s id="31">Làm sao chúng tiêu diệt được kí sinh trùng?</s>
+ <s id="32">Có phải chúng tấn công từ nhiều hướng?</s>
+ <p id="p33">
+  <s id="33.1">Hay phối hợp tấn công?</s>
+  <s id="33.2">Cần bao nhiêu kháng thể?</s>
+ </p>
+ <s id="34">Nghiên cứu của chúng tôi chỉ ra rằng chút ít kháng thể sẽ không đủ.</s>
+ <s id="35">Có thể cần tới nồng độ kháng thể cao hơn để chống lại nhiều loại protein kí sinh trùng.</s>
+ <s id="36">Chúng tôi cũng biết được rằng kháng thể tiêu diệt kí sinh trùng bằng nhiều cách và nghiên cứu riêng lẻ từng cách có thể không phản ánh rõ thực tế.</s>
+ <s id="37">Như giờ ta có thể thấy kí sinh trùng ở định nghĩa lớn hơn, đồng đội và tôi bị thu hút để hiểu làm thế nào cơ thể chúng ta đối phó được với sự phức tạp này.</s>
+ <s id="38">Chúng tôi tin rằng điều này có thể đưa đến những đột phá cần thiết để tạo nên thời đại chống lại sốt rét thông qua tiêm chủng.</s>
+ <p id="p39">
+  <s id="39.1">Xin cám ơn.</s>
+  <s id="39.2">(Vỗ tay)</s>
+ </p>
+ <s id="40">(Hoan hô) (Vỗ tay) Shoham Arad: Vậy ta tiến gần vắc-xin sốt rét tới đâu rồi?</s>
+ <s id="41">Fath Osier: Chúng tôi chỉ mới bắt đầu quá trình cố tìm hiểu xem cần đưa gì vào vắc-xin trước khi thực sự tạo ra nó.</s>
+ <s id="42">Vậy nên, ta thực ra chưa tạo được vắc-xin nhưng gần như là tìm ra.</s>
+ <s id="43">SA: Và chúng ta hy vọng.</s>
+ <s id="44">FO: Ta tràn đầy hi vọng về điều đó.</s>
+ <s id="45">SA: Hãy kể với tôi về SMART, tổ chức đó là gì và tại sao nó lại quan trọng với bạn?</s>
+ <s id="46">FO: SMART viết tắt cho Quan hệ đối tác nghiên cứu kháng nguyên sốt rét Nam-Nam.</s>
+ <s id="47">Nam-Nam ý chỉ chúng tôi ở châu Phi tìm kiếm sự cộng tác thay vì hướng về Mĩ hay châu Âu, mà ít khi nhìn về sức mạnh nội tại của châu Phi.</s>
+ <s id="48">Vì vậy ở SMART, ngoài mục đích phát triển vắc-xin sốt rét, chúng tôi còn đào tạo những nhà khoa học người châu Phi vì gánh nặng bệnh tật ở đây khá cao và bạn cần người để không người khai mở những giới hạn trong nền khoa học ở châu Phi.</s>
+ <s id="49">SA: Vâng, đúng rồi.</s>
+ <s id="50">(Vỗ tay) Ok, một câu hỏi cuối.</s>
+ <s id="51">Tôi biết bạn đang đề cập một chút đến vấn đề này nhưng vắc-xin sốt rét sẽ thực sự tạo nên thay đổi chứ?</s>
+ <s id="52">FO: Chúng ta có thể cứu nửa triệu người mỗi năm.</s>
+ <s id="53">200 trăm triệu ca bệnh.</s>
+ <s id="54">Người ta ước tính châu Phi tiêu tốn 12 tỷ đô la mỗi năm cho bệnh sốt rét.</s>
+ <s id="55">Vì vậy, đây là vấn đề về kinh tế.</s>
+ <s id="56">Châu Phi sẽ trở lại thịnh vượng.</s>
+ <p id="p57">
+  <s id="57.1">SA: Cám ơn, Faith.</s>
+  <s id="57.2">Xin cám ơn rất nhiều.</s>
+ </p>
+ <s id="58">(Vỗ tay)</s>
+</text>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Nếu bạn sắp xếp toàn bộ nội dung của " Moby Dick", được xuất bản năm 1851, thành một hình chữ nhật khổng lồ, bạn sẽ nhận ra vài điểm khác thường, như những từ này, dường như tiên đoán được vụ ám sát Martin Luther King, hay manh mối dẫn tới cái chết của Công nương Diana năm 1997.</s>
+ <s id="2">Vậy, Herman Melville có phải là một nhà tiên tri bí ẩn không?</s>
+ <s id="3">Câu trả lời là không, và chúng ta biết điều đó nhờ có định lí toán học gọi là Thuyết Ramsey.</s>
+ <s id="4">Đó chính là lí do chúng ta nhận thấy những khối hình học trên bầu trời đêm Đó là tại sao ta biết mà không cần kiểm tra rằng có ít nhất hai người ở London có chính xác cùng số tóc trên đầu, và nó cũng giải thích tại sao mẫu có nghĩa luôn được tìm thấy thậm chí ở lời nhạc của Vanilla Ice.</s>
+ <s id="5">Vậy Thuyết Ramsey là gì?</s>
+ <s id="6">Nói đơn giản, nó khẳng định rằng đủ yếu tố trong một tập hợp hoặc cấu trúc, một số mẫu thú vị nhất định trong đó chắc chắn sẽ xuất hiện.</s>
+ <s id="7">Ví dụ đơn giản, cùng tìm hiểu bài toán bữa tiệc, một minh họa cổ điển của thuyết Ramsey.</s>
+ <s id="8">Giả sử có ít nhất sáu người tại một bữa tiệc.</s>
+ <s id="9">Đáng ngạc nhiên, chúng ta có thể chắc chắn một nhóm nào đó ba người hoặc đều biết nhau, hoặc chưa từng gặp nhau trước đây, dù ta không biết gì về họ.</s>
+ <s id="10">Chúng ta có thể chứng minh bằng việc vạch ra hết tất cả các khả năng.</s>
+ <s id="11">Mỗi chấm đại diện một người, dòng nối cho biết cặp đó biết nhau.</s>
+ <s id="12">Mỗi cặp chỉ có hai trường hợp: Hoặc biết nhau hoặc không.</s>
+ <s id="13">Có rất nhiều khả năng, Nhưng mỗi khả năng đều có tính chất chúng ta đang tìm.</s>
+ <s id="14">Sáu là số khách nhỏ nhất đảm bảo cho trường hợp này, thứ chúng ta biểu diễn như thế này.</s>
+ <s id="15">Thuyết Ramsey đảm bảo rằng có một số nhỏ nhất như thế tồn tại trong những mẫu cụ thể, nhưng không dễ để tìm ra nó.</s>
+ <s id="16">Trong trường hợp này, khi lượng khách tăng lên Sự kết hợp vượt khỏi tầm kiểm soát.</s>
+ <s id="17">Ví dụ, giả sử bạn muốn tìm quy mô nhỏ nhất của một buổi tiệc mà có một nhóm năm người đều biết nhau hoặc không.</s>
+ <s id="18">Mặc dù năm là số nhỏ, nhưng câu trả lời lại là không thể tìm được bằng một nghiên cứu toàn diện như thế này.</s>
+ <s id="19">Bởi vì số lượng không giới hạn của các khả năng.</s>
+ <s id="20">Một bữa tiệc có 48 khách có 2^(1128) cấu hình có thể xảy ra, nhiều hơn cả số nguyên tử trong Vũ trụ.</s>
+ <s id="21">Mặc dù có máy tính trợ giúp, điều tốt nhất mà chúng ta trả lời được cho câu hỏi này là khoảng giữa 43 và 49 vị khách.</s>
+ <s id="22">Điều này chỉ ra rằng những mẫu cụ thể với những khả năng dường như thuộc thiên văn có thể xuất hiện từ một tập hợp khá nhỏ.</s>
+ <s id="23">Và với tập hợp lớn hơn, khả năng gần như vô hạn.</s>
+ <s id="24">Cứ bốn ngôi sao bất kì mà không ba sao nào nằm trên một đường thẳng sẽ tạo nên một hình tứ giác.</s>
+ <s id="25">Mở rộng với hàng ngàn ngôi sao ta có thể thấy trên trời, và sẽ không ngạc nhiên nếu ta có thể tìm được kiểu hình dáng quen thuộc, và thậm chí cả loài vật nếu để ý.</s>
+ <s id="26">Vậy cơ hội của một văn bản tiết lộ lời tiên tri là bao nhiêu?</s>
+ <s id="27">Ừm, khi bạn bao gồm cả số chữ cái, sự đa dạng của các từ có khả năng liên quan và tất cả kiểu viết tắt và cách đọc gần đúng, nó khá là cao đấy.</s>
+ <s id="28">Bạn có thể tự mình thử.</s>
+ <s id="29">Chọn một đoạn văn ưa thích, sắp xếp các chữ cái theo kiểu ô lưới, và cùng xem bạn thấy gì.</s>
+ <s id="30">Nhà toán học T. S. Motzkin đã từng nhận xét rằng, "Trong khi sự bất quy tắc nhìn chung thì nhiều hơn, nhưng hoàn toàn bất quy tắc là không thể."</s>
+ <s id="31">Kích thước rộng lớn của vũ trụ đảm bảo một số nhân tố ngẫu nhiên của nó sẽ rơi vào những trật tự nhất định, và vì chúng ta tiến hóa để nhận biết mẫu và chọn ra những kí hiệu từ tiếng ồn, ta thường bị thu hút bởi việc tìm ý nghĩa dù chúng có thế chẳng phải.</s>
+ <s id="32">Vì vậy khi chúng ta có thể bị kinh sợ bởi những thông điệp bí ẩn từ sách, đến mẩu bánh mì, đến bầu trời đêm, nguồn gốc thật của nó thì thường là do trí tưởng tượng của chúng ta.</s>
+</text>

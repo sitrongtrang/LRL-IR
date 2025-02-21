@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Bạn tìm ra căn hầm bí mật của Leornardo Da Vinci, bị khóa bởi một loạt các mã số.</s>
+ <s id="2">May thay, bản đồ kho báu của bạn có ba mã số 1210, 3211000, và... hmmm.</s>
+ <s id="3">Số cuối cùng dường như bị thiếu.</s>
+ <s id="4">Có vẻ như bạn sẽ tự mình tìm ra nó.</s>
+ <s id="5">Bạn nhận ra hai số đầu có điểm chung: chúng đều được gọi là các số tự truyện.</s>
+ <s id="6">Đây là một loại số đặc biệt có kết cấu tự mô tả</s>
+ <s id="7">Mỗi chữ số của số tự truyện cho biết số lần chữ số tương ứng với vị trí đó được lặp lại.</s>
+ <s id="8">Chữ số đầu tiên cho biết số lượng các chữ số 0, Chữ số thứ hai cho biết số lượng các chữ số 1, Chữ số thứ ba cho biết số lượng các chữ số 2, và như thế cho đến hết.</s>
+ <s id="9">Ổ khóa cuối cùng gồm mười chữ số, và chỉ mở khi số tự truyện có chính xác mười chữ số.</s>
+ <s id="10">Đó là gì?</s>
+ <s id="11">Dừng ở đây nếu bạn muốn tự tìm ra đáp án!</s>
+ <s id="12">Trả lời trong: 3 2 1 Nếu đoán đại một con số, bạn sẽ mãi không tìm ra đáp án.</s>
+ <s id="13">Vậy hãy cùng phân tích các số tự truyện mà ta có để tìm điểm chung, từ đó, suy ra đáp án.</s>
+ <s id="14">Bằng cách cộng tất cả các chữ số của 1210 với nhau, chúng ta sẽ được 4 là tổng các chữ số.</s>
+ <s id="15">Điều này là hợp lí vì mỗi chữ số riêng lẻ cho ta biết số lần cụ thể mà các chữ số xuất hiện.</s>
+ <s id="16">Vậy nên các chữ số có trong số tự truyện mười chữ số đó phải có tổng là 10</s>
+ <s id="17">Điều này cũng cho ta biết một điểm quan trọng khác: một số thì không thể có quá nhiều chữ số lớn.</s>
+ <s id="18">Ví dụ, nếu bao gồm 6 và 7, thì một chữ số sẽ phải xuất hiện sáu lần, và một chữ số khác phải xuất hiện bảy lần tạo ra một số có hơn mười chữ số.</s>
+ <s id="19">Ta có thể kết luận rằng không thể có nhiều hơn một chữ số lớn hơn 5 trong toàn bộ dãy số.</s>
+ <s id="20">Vậy trong 6, 7, 8 và 9, chỉ có thể có một chữ số.</s>
+ <s id="21">Và sẽ có các chữ số 0 ở các vị trí tương ứng với các chữ số không sử dụng.</s>
+ <s id="22">Giờ, ta biết rằng số này phải chứa ít nhất ba chữ số 0 cũng có nghĩa là chữ số đầu phải từ 3 trở lên.</s>
+ <s id="23">Bây giờ, khi chữ số đầu đếm số chữ số 0 có trong dãy số, mỗi chữ số sau nó sẽ đếm số lần xuất hiện của một chữ số khác 0.</s>
+ <s id="24">Nếu cộng tất cả các chữ số sau chữ số đầu tiên và nhớ rằng, số 0 sẽ không được tính trong tổng, ta biết được có bao nhiêu chữ số khác 0 xuất hiện trong dãy số, bao gồm cả chữ số đầu.</s>
+ <s id="25">Ví dụ, nếu thử với mã số đầu tiên, ta được 2 cộng 1 bằng 3 chữ số.</s>
+ <s id="26">Nếu trừ đi một, ta sẽ có số lượng các chữ số khác 0 sau chữ số đầu tiên là 2, như trong ví dụ.</s>
+ <s id="27">Tại sao phải làm tất cả những điều đó?</s>
+ <s id="28">Vì giờ ta đã biết vài điều quan trọng: tổng các chữ số khác 0 xuất hiện sau chữ số đầu tiên bằng tổng của các chữ số này trừ đi 1.</s>
+ <s id="29">Và làm thế nào để phân bố khi biết tổng lớn hơn 1 đơn vị so với tổng các số nguyên dương khác 0?</s>
+ <s id="30">Cách duy nhất là một trong các số hạng phải là 2, và những số còn lại là 1.</s>
+ <s id="31">Vậy có bao nhiêu số 1?</s>
+ <s id="32">Hóa ra chỉ có thể có hai số 1 thêm nữa thì sẽ phải có thêm các chữ số bổ sung như 3 hoặc 4 để đếm chúng.</s>
+ <s id="33">Giờ, ta có chữ số đầu là 3 hoặc lớn hơn để đếm số lượng các chữ số 0 trong dãy số, chữ số 2 để đếm số lượng chữ số 1, và có hai chữ số 1: một chữ số 1 để đếm số chữ số 2 và chữ số 1 còn lại để đếm chữ số đầu tiên.</s>
+ <s id="34">Nói tới đây, cũng là lúc ta tìm ra chữ số đầu tiên.</s>
+ <s id="35">Biết rằng 2+1+1 có kết quả là 4, ta có thể lấy 10 trừ đi 4 để có được 6.</s>
+ <s id="36">Bây giờ, vấn đề là đặt chúng vào vị trí nào: sáu chữ số 0 hai chữ số 1 một chữ số 2 không chữ số 3 không chữ số 4 không chữ số 5 một chữ số 6 không chữ số 7 không chữ số 8 và không chữ số 9.</s>
+ <s id="37">Cửa hầm được mở và bạn tìm thấy...</s>
+ <s id="38">cuốn tự truyện bị thất lạc từ lâu của Da Vinci.</s>
+</text>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Vài tuần trước, một người bạn của tôi đã đưa cái xe đồ chơi này cho đứa con trai tám tuổi của anh ấy.</s>
+ <s id="2">Nhưng thay vì đi vào cửa hàng và mua chiếc xe đồ chơi như thông thường, anh ấy đã lên trang web này và tải về một tập tin, sau đó in nó bằng chiếc máy in này.</s>
+ <s id="3">Ý tưởng có thể chế tạo các đồ vật một cách số hóa bằng việc sử dụng các máy này được tờ tạp chí The Economist định nghĩa như là Cuộc cách mạng công nghiệp thứ ba.</s>
+ <s id="4">Tôi cho rằng có một cuộc cách mạng khác đang diễn ra và đó là cái phải làm với phần cứng nguồn mở và sự hoạt động của nhà sản xuất bởi vì cái máy in mà bạn tôi từng sử dụng để in đồ chơi thật sự là mã nguồn mở.</s>
+ <s id="5">Như vậy, khi truy cập vào cùng một trang web, bạn có thể tải được tất cả tập tin mà bạn cần để làm cái máy in này: các tập tin chế tạo, phần cứng, phần mềm, toàn bộ hướng dẫn đều có sẵn ở đó.</s>
+ <s id="6">Và đây cũng là một bộ phận trong cộng đồng lớn này nơi mà hàng ngàn người trên khắp thế giới đang cùng tạo ra những loại máy in này, nhiều sự đổi mới đang diễn ra bởi vì tất cả ở đó đều là mã nguồn mở.</s>
+ <s id="7">Bạn không cần sự cho phép của bất kì ai để tạo ra một thứ gì đó tuyệt vời.</s>
+ <s id="8">Và không gian đó giống như một chiếc máy tính cá nhân ở năm 1976, như Apples với các công ty khác đang cạnh tranh, và chúng ta sẽ thấy trong vài năm tới, sẽ có một Apple của phân khúc thị trường này ra đời.</s>
+ <s id="9">Và ở đây cũng có một điều thú vị khác.</s>
+ <s id="10">Như đã nói, điện tử là mã nguồn mở, bởi vì bên trong máy in này có một thứ mà tôi thật sự gắn bó: những bảng mạch Arduino, bộ mạch chủ điều khiển máy in này, là một dự án mà tôi đã và đang làm việc suốt 7 năm qua.</s>
+ <s id="11">Nó là một dự án mã nguồn mở.</s>
+ <s id="12">Tôi đã làm việc với những người bạn mà tôi có ở đây.</s>
+ <s id="13">Chúng tôi có 5 người, hai người Mỹ, hai người Ý và một người Tây Ban Nha - (cười) Bạn biết đó, đây là một dự án toàn cầu. (cười) Vì vậy chúng tôi cùng nhau đến một học viện thiết kế có tên gọi là Viện Thiết kế tương tác Ivrea, nơi dạy thiết kế tương tác, với ý tưởng rằng bạn có thể thiết kế từ một hình thù đơn giản của một vật thể và có thể phát triển nó theo cách mà bạn tương tác với mọi thứ.</s>
+ <s id="14">Khi bạn thiết kế một vật với nhiệm vụ tương tác với con người, nếu bạn làm mô hình tạo bọt cho một cái điện thoại di động, nó không có ý nghĩa gì.</s>
+ <s id="15">Bạn cần có một thứ thật sự tương tác với con người.</s>
+ <s id="16">Vì thế, chúng tôi làm việc trên Arduino và rất nhiều dự án khác để tạo ra nền tảng mà nó sẽ dễ dàng cho sinh viên chúng ta sử dụng, để sinh viên có thể tạo ra những thứ hoạt động được nhưng họ không có 5 năm để trở thành một kĩ sư điện tử.</s>
+ <p id="p17">
+  <s id="17.1">Chúng tôi chỉ có một tháng.</s>
+  <s id="17.2">Làm sao tôi có thể làm một thứ gì đó mà thậm chí một đứa trẻ có thể sử dụng?</s>
+ </p>
+ <s id="18">Và thật sự, với Arduino, chúng ta có những đứa trẻ như Sylvia mà bạn thấy ở đây thật sự tạo nên những dự án với Arduino.</s>
+ <s id="19">Một đứa trẻ 11 tuổi đứng trước tôi và cho tôi thấy những thứ chúng tạo ra cho Arduino thật sự đáng sợ khi nhìn thấy khả năng của những đứa trẻ khi bạn trao cho chúng công cụ.</s>
+ <p id="p20">
+  <s id="20.1">Hãy xem chuyện gì xảy ra khi bạn tạo một công cụ mà mọi người có thể lấy nó và xây dựng cái gì đó một cách nhanh chóng.</s>
+  <s id="20.2">Một trong những ví dụ mà tôi thích để phần nào khởi động cuộc nói chuyện này là ví dụ về máy cho mèo ăn.</s>
+ </p>
+ <s id="21">Người đàn ông làm dự án này có hai chú mèo.</s>
+ <s id="22">Một con bị bệnh và con còn lại thì khỏe mạnh, nên anh ấy phải chắc rằng chúng ăn thức ăn riêng.</s>
+ <s id="23">Vì thế anh ấy tạo thiết bị nhận ra con mèo từ con chip gắn bên trong trên cổ con mèo, mở cánh cửa và con mèo có thể ăn thức ăn.</s>
+ <p id="p24">
+  <s id="24.1">Nó được làm từ việc tái chế một máy nghe CD cũ mà bạn có thể lấy từ một chiếc máy tính cũ, kéo, một số đèn LEDs nhấp nhánh, và nhanh chóng bạn có một dụng cụ không ngờ.</s>
+  <s id="24.2">Bạn tạo một thứ mà bạn không thể tìm thấy trên thị trường.</s>
+ </p>
+ <s id="25">Và tôi cũng thích cụm từ này:</s>
+ <s id="26">Nếu bạn có ý tưởng, bạn chỉ việc thực hiện nó.</s>
+ <s id="27">Nó cũng giống như phác thảo trên giấy được hoàn thành với các mạch điện tử.</s>
+ <s id="28">Một trong những yếu tố mà tôi nghĩ rằng nó quan trọng đối với công việc của chúng tôi là phần cứng, trên đỉnh là được sản xuất tại Italy với sự yêu thương - như là bạn có thể thấy từ phía sau của bảng mạch này có ghi nó là nguồn mở, vì thế bạn có thể phát hành các tập tin thiết kế cho các mạch online, và bạn có thể tải nó về và có thể sử dụng nó để làm một cái gì đó, hoặc để điều chỉnh, để học.</s>
+ <s id="29">Bạn biết không, khi tôi học về cách nhìn mã của những người khác, hay nhìn vào bản mạch của người khác trên tạp chí.</s>
+ <s id="30">Và đó là cách tốt nhất để học, bằng việc quan sát công việc của người khác.</s>
+ <s id="31">Những thành phần khác của dự án đều mở, phần cứng được phát hành với chứng chỉ Tài sản sáng tạo công cộng.</s>
+ <s id="32">Vì thế, bạn biết không, tôi thích ý tưởng này khi phần cứng trở thành một bức tranh văn hóa mà bạn có thể chia sẻ và xây dựng, giống như một bài hát hay một bài thơ</s>
+ <s id="33">Hay, phần mềm GPL, nó cũng</s>
+ <s id="34">Tài liệu tham khảo và phương pháp luật dạy học thực tế cũng là mã nguồn mở</s>
+ <s id="35">Chỉ có tên là được bảo vệ để chúng ta chắc rằng chúng ta có thể nói với mọi người cái gì đúng là Arduino và cái gì không phải.</s>
+ <s id="36">Bây giờ, bản thân Arnduino được làm từ rất nhiều thành phần mã nguồn mở khác nhau mà có thể rất khó để sử dụng riêng lẻ cho một đứa trẻ 12 tuổi, vì thế Arduino gói mọi thứ với nhau trong một tổng hợp về các kĩ thuật mã nguồn mở nơi bạn cố gắng đưa cho người sử dụng những trải nghiệm tốt nhất để hoàn thành công việc một cách nhanh chóng.</s>
+ <p id="p37">
+  <s id="37.1">Vì thế bạn có một số trường hợp như thế này, nơi mà một số người ở Chile quyết định làm cái bảng riêng để tổ chức nhà xưởng và để tiết kiệm tiền.</s>
+  <s id="37.2">Hoặc cũng có những công ty tự sản xuất những phiên bản khác nhau của Arduido để phù hợp với từng thị trường, và số lượng phiên bản có thể lên đến 150 hoặc tương đương hiện nay.</s>
+ </p>
+ <s id="38">Đây là một phiên bản tạo ra bởi công ty Adafruit điều hành bới người phụ nữ tên Limor Fried, được biết tới với tên Ladyada, là một trong những vị anh hùng của cuộc trào lưu công nghệ mở và công cuộc chế tạo.</s>
+ <s id="39">Ý tưởng bắt đầu khi bạn có gì đó, đại loại một cộng đồng thích tự chế tạo bộ hút gió turbin bằng những nguyên vật liệu có sẵn, hợp tác thực hiện trên mạng và ở bất kì nơi nơi nào.</s>
+ <s id="40">Có một cuốn tạp chí có tên là Make đã tập hợp tất cả những người như vậy thành một cộng đồng và nó là một dự án kĩ thuật được giải thích bằng một ngôn ngữ đơn giản và đẹp từ cách sắp từ ngữ.</s>
+ <s id="41">Hoặc bạn biết những trang websites ví dụ như Instructables nơi mọi người chia sẻ với người khác cách làm bất cứ thứ gì.</s>
+ <s id="42">Và đây là về những dự án Arduino, trang thông tin chỉ hiện trên màn hình máy tính nhưng ở đây bạn có thể học rất hiệu quả cách làm bánh và cả những thứ khác nữa.</s>
+ <s id="43">Nào hãy nhìn qua một vài dự án.</s>
+ <s id="44">Đây là một chiếc máy bay bay theo chiều thẳng đứng.</s>
+ <s id="45">Nó là mô hình chiếc máy bay nhỏ.</s>
+ <s id="46">Theo cách hiểu nào đó, bạn sẽ nghĩ nó là đồ chơi, nhưng không phải đâu.</s>
+ <s id="47">Nó đã từng là công nghệ sử dụng trong quân đội một vài năm trước, và giờ nó phổ biến rộng rãi, dễ sử dụng và có thể mua trực tuyến.</s>
+ <s id="48">DIY Drones là một cộng đồng; họ chế tạo ra một thứ gọi là ArduCopter.</s>
+ <s id="49">Nhưng sau đó lại có người thành công bố một dự án công nghệ có tên Matternet, nơi họ phát hiện ra bạn có thể sử dụng chiếc máy bay đó chuyển đồ từ làng này sang làng khác tại châu Phi, và chính cái đặc trưng dễ tra cứu, là một nguồn mở, dễ thâm nhập đã cho phép họ tạo dựng nên công ty của mình nhanh đến vậy.</s>
+ <p id="p50">
+  <s id="50.1">Hoặc ví dụ một dự án khác.</s>
+  <s id="50.2">Matt Richardson: Tôi đang thấy chán ngán khi phải nghe về một người hết lần này đến lần khác trên TV, vậy nên tôi quyết định làm một thứ gì đó.</s>
+ </p>
+ <p id="p51">
+  <s id="51.1">Dự án Arduino này cái tôi vẫn gọi là Enough Already (Đã quá đủ), có thể tắt tiếng TV bất cứ khi nào những người đã xuất hiện quá nhiều lại được nhắc đến.</s>
+  <s id="51.2">(Tiếng cười) Tôi sẽ chỉ cho bạn cách tôi làm.</s>
+  <s id="51.3">(Tiếng vỗ tay) MB: Hãy xem này.</s>
+ </p>
+ <p id="p52">
+  <s id="52.1">MR: Những nhà sản xuất của chúng tôi đã có cuộc phỏng vấn với Kim Kardashian hôm nay đẻ tìm hiểu cô ấy sẽ mặc gì cho - MB: Thế nào?</s>
+  <s id="52.2">(TIếng cười) MR: Nó làm khá tốt khi tránh cho người xem phải nghe những chi tiết về đám cưới của Kim Kardashian.</s>
+ </p>
+ <p id="p53">
+  <s id="53.1">MB: Được rồi.</s>
+  <s id="53.2">Bạn biết đấy, nói lại một lần nữa, những thứ thú vị ở đây là về việc Matt tìm ra một bộ phận giúp Arduino xử lí tín hiệu vô tuyến, anh ấy đã tìm ra các mã code được viết bởi một khác mà tạo ra tín hiệu hồng ngoại cho TV, tập hợp chúng lại với nhau và tạo ra dự án tuyệt vời này.</s>
+ </p>
+ <s id="54">Arduino được sử dụng tại những nơi làm việc như Large Hadron Collider.</s>
+ <s id="55">Những quả bóng Arduino có thể thu thập dữ liệu và đo được cả thông số.</s>
+ <p id="p56">
+  <s id="56.1">Hoặc nó còn được dùng cho cả - (Tiếng nhạc) Đó là mặt phát nhạc được tạo ra bởi một sinh viên đến từ Ý và giờ cậu ấy đang biến nó thành một sản phầm.</s>
+  <s id="56.2">Vì nó được thực hiện bởi một sinh viên nên dự án trở thành một sản phẩm.</s>
+ </p>
+ <s id="57">Hoặc nó có thể được dùng để tạo ra mọt thiết bị hỗ trợ.</s>
+ <p id="p58">
+  <s id="58.1">Đây là chiếc găng tay có thể hiểu ngôn ngũ kí hiệu và biến đổi những cử chỉ của bạn thành âm thanh và diễn đạt chúng qua chữ viết.</s>
+  <s id="58.2">Và một lần nữa, nó được làm từ những chi tiết khác nhau mà bạn có thể tìm thấy trên các trang web bán những linh kiện của Arduino, và bạn có thể kết hợp chúng để tạo nên một dự án.</s>
+ </p>
+ <s id="59">Và đây là một dự án của ITP từ Đại học New York, nơi họ gặp cậu bé tàn tật không thể chơi PS3 vậy nên họ chế tạo thiết bị này để giúp cậu bé chơi bóng chày mặc cho những giới hạn trong cử động.</s>
+ <s id="60">Hoặc bạn có thể tìm thấy những dụ án nghệ thuật.</s>
+ <s id="61">Đây là txtBomber.</s>
+ <s id="62">Bạn có thể gửi tin nhắn qua thiết bị này và sau đó bạn lăn nó trên tường và những cuộn dây này sẽ đè vào loạt nút bấm trên các lọ xịt vậy nên bạn chỉ cần di nó trên tường và viết tất cả những thông điệp chính trị.</s>
+ <s id="63">Vậy đó (Tiếng vỗ tay) Chúng tôi có một chậu cây cảnh ở đây.</s>
+ <p id="p64">
+  <s id="64.1">Nó được gọi là Botanicalls vì có một quả bóng Arduino bộ phát Wifi gắn trong cây, và nó sẽ đo lường sức khỏe của cây và tạo ra một tài khoản Twitter nơi bạn có thể thực sự tương tác với chậu cây này (Tiếng cười) Bạn biết đấy, cái cây này sẽ bắt đầu "nói": " Ở đây nóng thật đấy" hay nhiều thứ khác, như "Tôi cần uống nước ngay bây giờ."</s>
+  <s id="64.2">(Tiếng cười) Nó sẽ tạo nên những "cá tính" cho cây của bạn.</s>
+ </p>
+ <p id="p65">
+  <s id="65.1">Hoặc bạn có thể nghe những tiếng đạp nhẹ của em bé trong bụng mẹ.</s>
+  <s id="65.2">(Tiếng cười) Đây là một cậu bé 14 tuổi tại Chi lê, người đã phát minh ra một hệ thống mà phát hiện được động đất và đăng nó lên Twitter.</s>
+ </p>
+ <s id="66">Cậu có 280 000 người theo dõi trên tài khoản.</s>
+ <p id="p67">
+  <s id="67.1">Cậu mới 14 tuổi và trông chờ một dự án chính phủ mỗi năm.</s>
+  <s id="67.2">(Tiếng vỗ tay) Một dự án khác mà trong đó bằng việc phân tích những đăng tải trên Twitter của một gia đình, bạn có thể biết họ đang ở đâu, y hệt trong phim Harry Potter vậy.</s>
+ </p>
+ <s id="68">Vậy nên bạn có thể tìm thấy mọi thứ về dự án này trên các mạng.</s>
+ <p id="p69">
+  <s id="69.1">Một người khác đã làm chiếc ghế mà kêu lên mỗi khi có ai đó "xì bom".</s>
+  <s id="69.2">(Tiếng cười) Một điều thú vị là vào 2009 Gizmodo đã định nghĩa rằng dự án này biến Twitter trở nên có ý nghĩa vậy nên quả có nhiều thứ đã thay đổi.</s>
+  <s id="69.3">(Tiếng cười) Đó là một dự án nghiêm túc.</s>
+ </p>
+ <p id="p70">
+  <s id="70.1">Khi thảm họa Fukushima bắt đầu, một nhóm người tại Nhật đã nhận ra những thông tin mà chính phủ cung cấp không thực sự dễ tiếp cận và đáng tin tưởng, vậy nên họ đã tạo ra cái bảng Geiger, thêm Arduino, và thêm hệ thông giao diện mạng.</s>
+  <s id="70.2">Họ đã làm 100 cái và đưa chúng cho mọi người khắp cả nước và quan trọng dữ liệu mà họ thu thập được đăng tải trên trang Web Cosmo một trang Web khác họ xây dựng vậy nên bạn có thể cập nhật những tin tức hiện thời đáng tin cậy thuộc lĩnh vực này, và đó là những thông tin khách quan.</s>
+ </p>
+ <s id="71">Hoặc chiếc máy ở đây, nó là một công cuộc tự chế sinh học, và một trong những bước bạn cần để xử lý DNA và một lần nữa, nó hoàn toàn dễ tiếp cận từ những bước đầu tiên.</s>
+ <s id="72">Hoặc nếu bạn có học sinh đến từ những quốc gia đang phát triển những mô hình của công cụ khoa học mà phải tốn rất nhiều tiền để thực hiện.</s>
+ <s id="73">Thực chất họ chỉ làm một mình mà không cần nhiều đến Arduino và các linh kiện.</s>
+ <s id="74">Đây là máy dò pH.</s>
+ <p id="p75">
+  <s id="75.1">Bạn biết bọn trẻ này chứ?</s>
+  <s id="75.2">Chúng đến từ Tây Ban Nha.</s>
+ </p>
+ <p id="p76">
+  <s id="76.1">Chúng học lập trình và chế tạo rô bốt khi chúng mới chừng 11 tuổi và sau đó bắt đầu sử dụng Arduino để chế tạo rô bốt biết chơi bóng đá.</s>
+  <s id="76.2">Chúng trở thành nhà vô định thế giới bằng cách tạo ra những con rô bốt dựa trên Arduino.</s>
+ </p>
+ <s id="77">Và khi chúng tôi phải thwucj hiện những con rô bốt giáo dục, chúng tôi đã đến tìm chúng và nói rằng: "Cháu thiết kế nó vì cháu biết chính xác phải cần những gì để tạo ra những con rô bốt tuyệt vời chơi đùa với lũ trẻ."</s>
+ <p id="p78">
+  <s id="78.1">Không phải tôi.</s>
+  <s id="78.2">Tôi đã là một ông già rồi.</s>
+ </p>
+ <p id="p79">
+  <s id="79.1">Tôi còn gì để hứng thú nữa?</s>
+  <s id="79.2">(Tiếng cười) Nhưng có chứ - với những giá trị giáo dục.</s>
+  <s id="79.3">(Tiếng cười) Có những tập đoàn như Google đang sử dụng công nghệ để tạo ra những bảng tính như điện thoại, máy tính bảng và cả thế giới thực.</s>
+ </p>
+ <s id="80">Accessory Development Kit (bộ phát triển truy cập) của Google là một nguồn mở và xây dựng dựa trên Arduino để đối chọi với Apple được giữ kín, thỏa thuận không được tiết lộ, cống hiến hoàn toàn cho Apple.</s>
+ <s id="81">Có một mê cung khổng lồ và Joey đang ngồi trong đó, và cái mê cung di chuyển khi bạn nghiêng máy tính bảng.</s>
+ <s id="82">Tôi đến từ Ý, và thiết kế rất quan trọng ở Ý nhưng cũng rất lạc hậu.</s>
+ <s id="83">Chúng tôi đã làm việc trong một xưởng thiết kế có tên Habits (thói quen), ở Milan, để tạo ra chiếc gương này, nó cũng hoàn toàn là nguồn mở.</s>
+ <s id="84">Nó cũng giống như loa của iPod.</s>
+ <s id="85">Ý tưởng là những phần cứng, phần mềm, bản thiết kế, sợi, tất cả mọi thứ về dự án này đều là nguồn mở và bạn có thể tự chế tạo cho riêng mình.</s>
+ <s id="86">Vậy nên chúng tôi muốn những nhà thiết kế hãy xem và học cách làm những thiết bị tuyệt vời, học cách tạo ra những sản phẩm mang tính tương tác bằng viếc bắt đầu với những thứ thiết thực.</s>
+ <s id="87">Nhưng khi bạn có ý tưởng rồi, bận biết đấy, điều gì sẽ đến với những ý tưởng đó?</s>
+ <s id="88">Phải có tới hàng nghìn ý tưởng mà tôi - Nó mất bảy tiếng để tôi làm tất cả bài diễn thuyết..</s>
+ <s id="89">Nhưng tôi sẽ không dành hết 7 tiếng đó.</s>
+ <p id="p90">
+  <s id="90.1">Cảm ơn các bạn.</s>
+  <s id="90.2">Nhưng hãy bắt đầu bằng một ví dụ: Một nhóm người mở một công ty tên Pebble, sản xuất đồng hồ mà có thể giao tiếp qua Bluetooth với điện thoại di động và hiện thị thông tin.</s>
+  <s id="90.3">Và họ lấy nguyên mẫu từ màn hình cũ LCD của điện thoại Nokia và Arduino.</s>
+ </p>
+ <s id="91">Và sau đó, khi họ có một dự án, họ sẽ đến Kickstarter và xin 100 000 đô để sản xuất một vài chiếc đi bán.</s>
+ <s id="92">Họ kiếm được 10 triệu đô.</s>
+ <s id="93">Họ được tài trợ hoàn toàn để khởi nghiệp, nhưng họ không cần làm vậy, sử dụng VC hay bất cứ thứ gì nhằm tạo hứng thú cho mọi người với dự án tuyệt vời của họ.</s>
+ <p id="p94">
+  <s id="94.1">Dự án cuối cùng tôi muốn cho các bạn xem là cái này: Nó được gọi là ArduSat.</s>
+  <s id="94.2">Gần đây nó đã có trên Kickstarter, Vậy nên nếu bạn muốn đóng góp, thì xin mời.</s>
+ </p>
+ <p id="p95">
+  <s id="95.1">Nó là một vệ tinh ngoài vũ trụ, có thể là nguồn khó tiếp cận nhất mà bạn tưởng tượng và chứa Arduino kết nối với rất nhiều phần tử nhạy.</s>
+  <s id="95.2">Vậy nếu bạn biết dùng Arduino, bạn thực sự có thể đăng tải những thí nghiệm lên vệ tinh này và chạy nó.</s>
+ </p>
+ <s id="96">Hãy tưởng tượng, bạn là học sinh trung học sở hữu vệ tinh đó trong một tuần và thực hiện thí nghiệm vũ trụ như vậy.</s>
+ <p id="p97">
+  <s id="97.1">Như tôi đã nói, có rất nhiều ví dụ và tôi sẽ dừng lại ở đây.</s>
+  <s id="97.2">Tôi chỉ muốn cảm ơn cộng đồng Arduino quá sức tuyệt vời và hằng ngày tạo ra thật nhiều dự án.</s>
+ </p>
+ <p id="p98">
+  <s id="98.1">Cảm ơn các bạn.</s>
+  <s id="98.2">(Tiếng vỗ tay) (Tiếng vỗ tay) Và cảm ơn cộng đồng [Arduino].</s>
+ </p>
+ <s id="99">Chris Anderson: Massimo, anh có nói với tôi sớm nay rằng anh không biết hề biết rằng mọi chuyện sẽ xảy ra như vậy.</s>
+ <s id="100">MB: Không hề.</s>
+ <s id="101">CA: Ý tôi là anh cảm thấy thế nào khi anh đọc về những thứ này và những thành quả mình đạt được?</s>
+ <p id="p102">
+  <s id="102.1">MB: Đó là thành quả của rất nhiều người.</s>
+  <s id="102.2">Cộng đồng chúng tôi cho phép mọi người tạo ra những thứ tuyệt vời và tôi thấy vô cùng sung sướng.</s>
+ </p>
+ <s id="103">Nó tưởng như quá khó để diễn tả.</s>
+ <p id="p104">
+  <s id="104.1">Mỗi sáng, khi thức giấc tôi nhìn vào những thứ như Google Alerts gửi tôi và nó thật tuyệt vời.</s>
+  <s id="104.2">Nó chạm tới mọi lĩnh vực mà bạn có thể tưởng tượng.</s>
+ </p>
+ <p id="p105">
+  <s id="105.1">CA: Cảm ơn bạn rất nhiều.</s>
+  <s id="105.2">(Tiếng vỗ tay) (Tiếng vỗ tay)</s>
+ </p>
+</text>

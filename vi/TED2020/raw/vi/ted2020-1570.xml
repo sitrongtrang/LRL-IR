@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Đây là ông nội tôi, Salman Schocken, ông sinh ra trong một gia đình nghèo khó và thất học, phải nuôi 6 đứa con, ở tuổi 14, ông đã phải bỏ học để giúp gia đình kiếm miếng cơm.</s>
+ <s id="2">Ông đã không bao giờ quay lại trường học.</s>
+ <s id="3">Thay vào đó, ông bắt tay xây dựng một đế chế rực rỡ các cửa hàng bách hóa.</s>
+ <s id="4">Salman là người cực kì cầu toàn, và mỗi cửa hàng của ông là một viên ngọc quý của kiến trúc Bauhaus.</s>
+ <s id="5">Ông cũng là người có khả năng tự học tuyệt vời, cũng như bao việc khác, ông tự học với một phong cách cừ khôi.</s>
+ <s id="6">Ông đã kết thân với những trí thức chưa có tên tuổi như Martin Buber và Shai Agnon và cả Franz Kafka, và ông trả lương hàng tháng cho họ để họ có thể yên tâm viết lách.</s>
+ <s id="7">Và vào những năm cuối thập kỷ 30, Salman đã đoán được những điều sẽ xảy ra.</s>
+ <s id="8">Ông rời khỏi Đức, cùng với gia đình, bỏ mọi thứ sau lưng.</s>
+ <s id="9">Những cửa hàng của ông bị tịch thu, ông dành phần đời còn lại của mình để say mê theo đuổi lĩnh vực nghệ thuật và văn hóa.</s>
+ <s id="10">Người bỏ học này đã ra đi ở tuổi 82, nhà tri thức đáng nể, đồng sáng lập và là CEO đầu tiên của Đại Học Do Thái tại Jerusalem, và sáng lập Schocken Books, nhà xuất bản danh giá sau này được mua lại bởi Random House.</s>
+ <s id="11">Đó chính là sức mạnh của việc tự học.</s>
+ <s id="12">Và đây là cha mẹ tôi.</s>
+ <s id="13">Họ cũng không được hưởng nền giáo dục đại học.</s>
+ <s id="14">Họ quá bận bịu xây dựng gia đình và đất nước.</s>
+ <s id="15">Và dù vậy, cũng giống như ông Salman, suốt đời họ là những người tự học kiên trì, và nhà chúng tôi chất đầy hàng ngàn cuốn sách, băng đĩa và tác phẩm nghệ thuật.</s>
+ <p id="p16">
+  <s id="16.1">Tôi nhớ như in điều bố nói với tôi rằng khi nào tất cả mọi người trong xóm đều có tivi, thì chúng tôi sẽ mua một cái đài F.M.</s>
+  <s id="16.2">(Cười) Và đây là tôi, Tôi muốn nói đó là bàn tính đầu tiên của tôi, nhưng thực ra là thứ mà cha tôi nghĩ là vật thay thế hoàn hảo cho một chiếc Ipad.</s>
+  <s id="16.3">(Cười) Vậy một điều tôi đã học được ở nhà mình là quan niệm rằng những nhà giáo dục không nhất thiết phải dạy học.</s>
+ </p>
+ <s id="17">Thay vào đó, họ có thể tạo ra môi trường và cung cấp tài liệu để thúc đẩy khả năng tự học vốn có của bạn.</s>
+ <s id="18">Tự học, tự khám phá, tự tăng cường khả năng của bản thân: đây là những chuẩn mực của một nền giáo dục tuyệt vời.</s>
+ <s id="19">Bởi vậy tôi muốn chia sẻ với các bạn một câu chuyện về khoá tự học và nâng cao kỹ năng máy tính mà tôi đã tạo ra, cùng với người đồng nghiệp tuyệt vời Noam Nisan.</s>
+ <s id="20">Như các bạn có thể thấy trong những bức ảnh, Noam và tôi đã sớm có sự hứng thú với những nguyên lý cơ bản, qua năm tháng, hiểu biết của chúng tôi về khoa học và công nghệ trở nên sâu sắc hơn, sự hứng thú từ trước đối với những nguyên lý cơ bản trở nên mãnh liệt hơn.</s>
+ <s id="21">Không có gì ngạc nhiên khi khoảng 12 năm về trước, lúc Noam và tôi là những giáo sư về khoa học máy tính, cả hai chúng tôi thất vọng trước cùng một hiện tượng.</s>
+ <s id="22">Vì máy tính trở nên ngày càng phức tạp, các học trò của chúng tôi chỉ còn thấy cây mà không thấy rừng, và quả nhiên, thật khó để kết nối với tâm hồn của máy móc nếu bạn tương tác với các hộp đen P.C hay Mac đã bị che đậy bởi hàng tá các lớp phần mềm độc quyền.</s>
+ <s id="23">Thế nên Noam và tôi nghĩ nếu muốn các sinh viên hiểu cách thức máy tính hoạt động, và hiểu nó một cách thấu đáo, thì có lẽ cách tốt nhất là cho họ xây dựng một máy tính hoàn chỉnh, chạy được, thông dụng và hữu dụng cùng với phần mềm và phần cứng, từ khởi đầu, từ những nguyên lý cơ bản.</s>
+ <s id="24">Vậy chúng tôi cần một điểm khởi đầu, Noam và tôi quyết định chọn chi tiết đầu tiên, nói thế nào nhỉ, đó là phần đơn giản nhất có thể, đó chính là NAND.</s>
+ <s id="25">Nó chẳng hơn gì một cổng logic tầm thường với bốn đầu vào-ra.</s>
+ <s id="26">Chúng tôi bắt đầu bằng cách nói với sinh viên rằng Thượng đế cho ta NAND- (Cười)- và bảo ta xây dựng một chiếc máy vi tính, và khi ta hỏi làm thế nào, Ngài nói, "Từng bước một."</s>
+ <s id="27">Rồi tiếp sau lời khuyên này, chúng tôi bắt đầu với thiết bị NAND vô cùng tầm thường này, chúng tôi dẫn dắt sinh viên qua những chặng đường khó khăn của những dự án mà ở đó họ đã tạo ra những bộ vi mạch, bảng mạch, một bộ máy, một máy ảo, một hệ thống điều hành cơ bản và một bộ giải mã ngôn ngữ đơn giản như Java mà chúng ta gọi là "JACK."</s>
+ <s id="28">Các sinh viên ăn mừng thành công bằng cách sử dụng JACK để viết những game hấp dẫn như Pong, Snake và Tetris.</s>
+ <s id="29">Bạn có thể hình dung sự thú vị của trò Tetris mà bạn đã viết với ngôn ngữ JACK và sau đó chuyển thành ngôn ngữ của máy qua một trình biên dịch cũng do bạn viết, rồi sau đó nhìn thấy kết quả chạy trên một chiếc máy chính bạn làm ra với không hơn một vài ngàn cổng NAND.</s>
+ <s id="30">Đó là một chiến thắng huy hoàng của việc khởi sự từ những nguyên tắc cơ bản thành một hệ thống phức tạp và hữu dụng tuyệt vời.</s>
+ <s id="31">Noam và tôi đã làm việc 5 năm để chuẩn bị cho công việc này và tạo ra những công cụ và đặt nền móng cơ bản cho phép sinh viên thực hiện trong một học kỳ.</s>
+ <s id="32">và đây là một nhóm tuyệt vời đã đã giúp chúng tôi thực hiện điều đó.</s>
+ <s id="33">Cái hay ở đây là cách chia cấu trúc của máy tính ra thành nhiều phần tự vận hành, mỗi phần có thể được chuyên biệt hóa, được thiết lập và kiểm tra riêng rẽ và độc lập với các phần khác.</s>
+ <s id="34">Và từ ngày đầu tiên, Noam và tôi quyết định đặt tất cả những chi tiết này trong mã nguồn mở trên mạng.</s>
+ <s id="35">Vì thế các chi tiết về chip, API, nội dung dự án, các công cụ phần mềm, phần cứng ảo, CPU ảo, rất nhiều hình ảnh, tài liệu-- chúng tôi đặt mọi thứ trên trang Web và mời cả thế giới ghé thăm, lấy bất cứ thứ gì họ cần, và làm bất cứ điều gì họ muốn.</s>
+ <s id="36">Và tiếp đó một số điều kỳ diệu đã xảy ra.</s>
+ <s id="37">Cả thế giới đã đến.</s>
+ <s id="38">Và chỉ trong một thời gian ngắn, hàng ngàn người đã cùng xây dựng cỗ máy với chúng tôi.</s>
+ <s id="39">Và NAND2Tetris trở thành một trong những khóa học mở, trực tuyến, khổng lồ đầu tiên, mặc dù bảy năm về trước chúng tôi không biết cái mà chúng tôi làm lúc đó chính là MOOC Khóa học Online Rộng Khắp.</s>
+ <s id="40">Chúng tôi chỉ quan sát cách thức các khóa tự học tự hình thành từ những cơ sở của chúng tôi.</s>
+ <s id="41">Ví dụ, Pramode C.E., một kỹ sư từ Kerala, Ấn Độ, đã lập các nhóm những người tự học tham gia xây dựng máy tính của chúng tôi với hướng dẫn của ông ấy.</s>
+ <s id="42">và Parag Shah, một kỹ sư khác, từ Mumbai, đã tách những dự án của chúng tôi thành những phần nhỏ hơn, những phần dễ quản lý hơn mà ông ấy đang dùng trong chương trình thực nghiệm tự học vi tính.</s>
+ <s id="43">Những người bị cuốn hút vào những khóa học này thường thích làm "hacker."</s>
+ <s id="44">Họ muốn tìm hiểu cách thức mọi thứ hoạt động, và họ muốn làm việc theo nhóm, như câu lạc bộ các hacker này ở Washington, D.C., họ dùng nguồn thông tin, thiết bị của chúng tôi để mở các khóa học cộng đồng.</s>
+ <s id="45">Và vì những nguồn này dồi dào và là nguồn mở, nhiều người lấy chúng theo mục đích rất khác nhau và khó đoán.</s>
+ <s id="46">Ví dụ, Yu Fangmin từ Quảng Châu, đã sử dụng công nghệ FGPA để tham gia xây dựng máy tính của chúng tôi và hướng dẫn người khác làm theo qua 1 video clip, và Ben Craddock đã phát triển một game rất hay cho thấy cấu trúc bộ CPU của chúng tôi là một mê cung 3D rất phức tạp, mà Ben đã dùng công cụ mô phỏng 3D Minecraft để thực hiện.</s>
+ <s id="47">Cộng đồng Minecraft đã rất tức giận với dự án này, và Ben trở thành nổi tiếng trên truyền thông ngay lập tức.</s>
+ <s id="48">Và thêm nữa, đối với 1 vài người việc sử dụng đường gian khổ NAND2Tetris này, theo cách nói của bạn, có thể trở thành dịp đổi đời.</s>
+ <s id="49">Hãy xem trường hợp Dan Rounds, nhạc sỹ và nhà toán học từ East Lansing, Michigan.</s>
+ <s id="50">Vài tuần trước, Dan đã đăng 1 bài tuyệt vời trên web của chúng tôi, và tôi xin đọc cho các bạn nghe.</s>
+ <s id="51">Đây là lời của Dan.</s>
+ <p id="p52">
+  <s id="52.1">"Tôi chọn khóa học này bởi vì sự hiểu biết về máy tính là rất quan trọng đối với tôi, thật sự nó giống như học chữ và số vậy, và tôi đã làm được.</s>
+  <s id="52.2">Tôi chưa từng chăm chỉ làm gì cả, chưa bao giờ bị thử thách tới mức độ này.</s>
+ </p>
+ <s id="53">Nhưng với những gì bây giờ tôi cảm thấy làm được, tôi chắc chắn sẽ làm lại lần nữa.</s>
+ <s id="54">Đối với những ai quan tâm NAND2Tetris, nó là 1 chặng đường khó khăn, nhưng bạn sẽ được biến đổi 1 cách sâu sắc."</s>
+ <s id="55">Vậy nên, Dan chứng tỏ rằng nhiều người tự học theo khóa học này trên mạng, bằng chính sức lực của họ, với sáng tạo của họ, và khóa học thật tuyệt vời vì những người này không hề quan tâm đến bằng cấp.</s>
+ <s id="56">Họ học chỉ vì sự ham thích.</s>
+ <s id="57">Họ có 1 niềm đam mê, khao khát học hỏi.</s>
+ <s id="58">Và với tinh thần đó, tôi xin nói vài điều về bằng cấp ở các đại học truyền thống.</s>
+ <s id="59">Tôi phát ốm vì nó.</s>
+ <s id="60">Chúng ta bị ám ảnh bởi bằng cấp vì chúng ta bị ám ảnh bởi đống dữ liệu, và bằng cấp đã lấy đi niềm vui vì kỳ thi luôn là mối đe dọa, và một phần rất lớn trong nền giáo dục đang cảm thấy thất bại.</s>
+ <p id="p61">
+  <s id="61.1">Sự dũng cảm, theo Churchill, là khả năng đi từ thất bại này đến thất bại khác mà không đánh mất sự hào hứng.</s>
+  <s id="61.2">(Cười) Và James Bonds nói rằng sai lầm là cánh cổng của khám phá.</s>
+ </p>
+ <s id="62">Và chúng ta không biết khoan dung đối với sai lầm, và chúng ta tôn thờ bằng cấp.</s>
+ <s id="63">Xét ví dụ này, chúng tôi lấy điểm tốt B và điểm xấu A của bạn rồi chúng tôi tính ra được 3,4 điểm, sau đó đem dán số điểm đó lên trán của bạn và kết luận bạn là ai.</s>
+ <s id="64">Theo tôi, chúng ta đã đi quá xa với trò vô nghĩa này, và bằng cấp chính là xuống cấp.</s>
+ <s id="65">Như vậy, tôi xin nói vài điều về việc nâng cấp, và xin chia sẻ với bạn điều tai nghe mắt thấy từ dự án hiện tại của tôi đó là điều rất khác với dự đoán, nhưng nó nói lên chính xác tính chất của việc tự học, và việc học qua hành động, việc tự khám phá và xây dựng cộng đồng, và dự án này sẽ làm việc trong chương trình toán phổ thông, bắt đầu từ môn toán cho tuổi nhỏ nhất, và chúng tôi thực hiện trên máy tính bảng vì chúng tôi nghĩ rằng toán, cũng như những thứ khác, nên được dạy bằng cách chạm tay vào.</s>
+ <p id="p66">
+  <s id="66.1">Đây là điều chúng tôi làm.</s>
+  <s id="66.2">Cơ bản, chúng tôi phát triển nhiều ứng dụng di động, mỗi ứng dụng đó giải thích một khái niệm của toán học.</s>
+ </p>
+ <s id="67">Ví dụ về tính diện tích.</s>
+ <s id="68">Khi bạn làm việc với khái niệm như khái niệm diện tích -- bạn cũng chuẩn bị một bộ các công cụ để một đứa trẻ có thể đụng chạm vào và qua đó học được.</s>
+ <s id="69">Vậy nếu diện tích là thứ chúng ta quan tâm, thì một việc cần làm là xếp gạch vào bề mặt của hình đó và đếm xem có bao nhiêu viên gạch cần có để lấp đầy hết hình.</s>
+ <s id="70">Bài tập nhỏ này cho bạn sự thấu hiểu đầu tiên về khái niệm diện tích.</s>
+ <s id="71">Tiếp theo, còn về diện tích của hình này thì sao?</s>
+ <s id="72">Nếu bạn xếp gạch lên nó, thì có vẻ không ổn lắm.</s>
+ <p id="p73">
+  <s id="73.1">Thay vào đó, bạn có thể trải nghiệm với những công cụ khác qua vài bước được hướng dẫn và vài lần làm sai, và đến 1 lúc nào đó bạn sẽ khám phá ra rằng bạn sẽ giải quyết được bài toán khi làm theo một cách thức đã thử.</s>
+  <s id="73.2">Bạn có thể cắt hình ra, có thể xếp lại các phần, có thể dán chúng lại với nhau và rồi tiếp tục xếp gạch như bài trước.</s>
+ </p>
+ <s id="74">(Vỗ tay) Vậy sự thay đổi đặc biệt này không làm thay đổi diện tích hình gốc, một đứa trẻ 6 tuổi chơi trò này sẽ tìm ra một thuật toán thông minh để tính diện tích của mọi hình bình hành Dù cách nào đi nữa thì chúng ta cũng không bỏ qua các giáo viên.</s>
+ <s id="75">Chúng tôi nghĩ giáo viên nên được trao quyền chứ không phải bị thay thế.</s>
+ <s id="76">Còn về diện tích của tam giác thì sao?</s>
+ <s id="77">Sau một số phép thử được chỉ dẫn và làm sai, đứa trẻ sẽ phát hiện ra, với sự giúp đỡ hoặc tự bản thân, chính mình có thể gấp đôi hình ban đầu và tìm kết quả, rồi biến đổi nó, và dán nó vào hình ban đầu và tiếp tục với cái chúng ta làm lúc nãy: cắt, xếp lại, đặt lên - ôi - đặt lên và dán, rồi xếp gạch vào.</s>
+ <s id="78">Sự biến đổi hình dạng này tạo ra diện tích gấp đôi của hình ban đầu, và vì thế chúng ta học được diện tích của hình tam giác đó bằng diện tích của hình chữ nhật này chia hai.</s>
+ <s id="79">Nhưng chúng ta phát hiện ra điều đó bằng sự tự khám phá.</s>
+ <s id="80">Vậy, qua việc học hình học một cách hữu dụng, đứa trẻ được đối mặt với một số phép toán khó như là phép rút gọn, đó là nghệ thuật của việc chuyển một bài toán khó thành một bài dễ, hay phép tổng quát hóa, đó là cốt lõi của bất kỳ môn học nào, hoặc hiện tượng có tính bất biến dù cho có thay đổi hình dạng.</s>
+ <s id="81">Tất cả những thứ đó là điều mà một đứa trẻ có thể học được bằng cách sử dụng các ứng dụng di động.</s>
+ <s id="82">Hiện tại, chúng tôi đang theo đuổi chương trình này: Trước hết, chúng tôi chẻ nhỏ chương trình toán phổ thông thành nhiều ứng dụng.</s>
+ <s id="83">Vì chúng tôi không có thể tự làm điều đó, chúng tôi phát triển một công cụ xây dựng dễ sử dụng mà bất kỳ người tham gia nào, phụ huynh hay ai khác quan tâm đến việc dạy toán, có thể dùng công cụ này để viết những ứng dụng tương tự trên máy tính bảng mà không cần lập trình.</s>
+ <s id="84">Cuối cùng, chúng tôi đang cùng nhau lập một hệ thống tự thích nghi đó là hệ thống kết nối nhiều người học với nhiều ứng dụng phù hợp cách học và sự tiến bộ của mỗi người.</s>
+ <s id="85">Mạnh thường quân dự án này là đồng nghiệp Shmulik London của tôi, bạn thấy đấy, trông rất giống Salman, ông nội của tôi, đã làm cách đây chừng 90 năm, cái hay ở đây là biết thu hút quanh bạn những người tài giỏi, vì cuối cùng, tất cả là cho mọi người.</s>
+ <s id="86">Cách đây vài năm, khi đôi đang đi tản bộ ở Tel Aviv tôi thấy một bức graffiti trên tường, tôi thấy nó rất hấp dẫn mà tôi thường nói với sinh viên về nó, tôi xin thử nói với quí vị.</s>
+ <s id="87">Tôi không biết nhiều vị ở đây quen dùng nghĩa nào cho từ "mensch."</s>
+ <s id="88">Nghĩa của nó là làm người và làm điều đúng đắn.</s>
+ <s id="89">Với nghĩa đó, điều mà bức graffiti muốn diễn đạt là "Công nghệ cao, công nghệ làm người.</s>
+ <p id="p90">
+  <s id="90.1">Quan trọng nhất là tạo ra công nghệ làm người."</s>
+  <s id="90.2">(Cười) Cảm ơn.</s>
+  <s id="90.3">(Vỗ tay) (Vỗ tay)</s>
+ </p>
+</text>

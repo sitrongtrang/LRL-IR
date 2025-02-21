@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Việc phát hiện phiến đá của người ngoài hành tinh trên hành tinh RH-1729 đã khiến các nhà khoa học trên thế giới chạy đua tìm lời giải.</s>
+ <s id="2">Đội kỹ sư của bạn đã phát triển một máy thăm dò để nghiên cứu nó.</s>
+ <s id="3">Cỗ máy là tập hợp của 27 mô-đun khối vuông có khả năng thực hiện tất cả thử nghiệm cần để phân tích phiến đá.</s>
+ <s id="4">Các mô-đun có thể tự lắp ghép thành một khối lập phương lớn 3x3x3, với mỗi đơn vị mô-đun nằm ngẫu nhiên trong khối lập phương, theo vị trí ngẫu nhiên.</s>
+ <s id="5">Nó cũng có thể tự phân rã rồi tái ghép theo bất kỳ hướng nào.</s>
+ <s id="6">Giờ đến công việc của bạn.</s>
+ <s id="7">Cỗ máy cần một lớp bảo vệ đặc biệt ứng với từng loại môi trường khắc nghiệt mà nó phải bay qua.</s>
+ <s id="8">Lớp màu đỏ bảo vệ nó khỏi cái lạnh của không gian sâu thẳm, lớp màu tím bảo vệ khỏi nhiệt độ cực cao khi băng qua bầu khí quyển RH-1729, và màu xanh lá bảo vệ khỏi những cơn bão điện từ ở hành tinh khác.</s>
+ <s id="9">Bạn có thể phủ từng mặt của cả 27 mô-đun theo bất cứ cách nào bạn muốn, nhưng mỗi mặt chỉ có thể áp dụng một lớp phủ màu duy nhất.</s>
+ <s id="10">Bạn cần nghĩ ra cách phủ màu cho cỗ máy sao cho các khối có thể tái lắp ghép để chỉ hiện lớp phủ màu đỏ, sau đó là tím, cuối cùng là xanh lá.</s>
+ <s id="11">Bạn sẽ làm thế nào để phủ sơn cho cả 27 khối lập phương để cỗ máy có thể hoàn thành chuyến đi?</s>
+ <p id="p12">
+  <s id="12.1">Dừng video tại đây nếu muốn tự tìm đáp án. &lt;i&gt;1.</s>
+  <s id="12.2">Có thể sơn 27 khối màu xanh, đỏ, tím&lt;/i&gt; &lt;i&gt;2.</s>
+  <s id="12.3">Mỗi mặt chỉ được sơn một màu&lt;/i&gt; &lt;i&gt;3.</s>
+ </p>
+ <s id="13">27 khối đã sơn phải ghép lại thành&lt;/i&gt; &lt;i&gt;khối 3x3x3 với mặt ngoài toàn đỏ ,xanh, tím&lt;/i&gt; Bạn có thể bắt đầu bằng việc sơn bên ngoài cỗ máy bằng màu đỏ, nếu nghĩ mình sẽ cần nó thường xuyên.</s>
+ <s id="14">Sau đó, tách nó thành 27 mảnh, và nhìn xem bạn có gì đây.</s>
+ <s id="15">Có tám khối góc có ba mặt màu đỏ, mười hai khối cạnh có hai mặt đỏ, sáu khối chỉ có một mặt đỏ, và một khối tâm duy nhất không màu.</s>
+ <s id="16">Tới đây, bạn đã phủ hết thảy 54 mặt đỏ, nên cần làm điều tương tự với màu xanh lá và màu tím.</s>
+ <s id="17">Khi hoàn tất, bạn sẽ có 54 mặt đỏ 54 mặt xanh lá, và 54 mặt tím.</s>
+ <s id="18">Tất cả là 162 mặt, bằng chính xác số mặt mà cỗ máy có.</s>
+ <s id="19">Không có mặt nào bị lãng phí ở đây.</s>
+ <s id="20">Để làm việc này, chỉ có thể áp dụng tính đối xứng bậc cao.</s>
+ <s id="21">Bạn có thể dùng nó để giải quyết vấn đề.</s>
+ <s id="22">Hãy nhìn khối trung tâm.</s>
+ <s id="23">Bạn nên sơn nó ba mặt xanh và ba mặt tím, để có thể dùng như một khối góc, và không có mặt nào bị lãng phí.</s>
+ <s id="24">Sẽ cần những khối tâm không mang cả màu tím hay xanh lá.</s>
+ <s id="25">Nên bạn lấy hai khối góc có ba mặt đỏ và sơn ba mặt trống của một khối bằng màu tím, và ba mặt trống của khối còn lại bằng màu xanh lá.</s>
+ <s id="26">Tiếp với sáu khối chỉ có một mặt đỏ.</s>
+ <s id="27">Mỗi khối còn năm mặt chưa được phủ.</s>
+ <s id="28">Bạn chia chúng thành hai nhóm.</s>
+ <s id="29">Nhóm đầu tiên, bạn sơn ba mặt xanh lá và hai mặt tím; Nhóm thứ hai, bạn sơn ba mặt tím và hai mặt xanh lá.</s>
+ <s id="30">Sử dụng tính đối xứng, bạn lặp lại quá trình với những khối còn lại.</s>
+ <s id="31">Việc này giúp bạn có sáu khối với một mặt xanh lá, sáu khối với một mặt đỏ, sáu khối với một mặt tím.</s>
+ <s id="32">Tính tổng những mặt đã sơn, bạn sẽ thấy tám khối góc ứng với mỗi màu, sáu khối cạnh cho mỗi màu, sáu khối mặt ứng cho mỗi màu, và một khối trung tâm.</s>
+ <s id="33">Điều đó nghĩa là bạn chỉ cần thêm sáu khối cạnh màu tím và xanh lá.</s>
+ <s id="34">Và còn đúng sáu khối như thế.</s>
+ <s id="35">Mỗi khối, bạn sơn hai mặt xanh và hai mặt tím.</s>
+ <s id="36">Giờ, bạn có một cỗ máy được sơn phết hoàn hảo để hoàn tất chuyến đi.</s>
+ <s id="37">Nó tự tái sắp xếp thành đỏ khi di chuyển trong không gian, tím khi thâm nhập bầu khí quyển của RH-1729, và xanh lá khi bay qua những cơn bão điện từ.</s>
+ <s id="38">Khi tới được phiến đá, bạn nhận ra mình đã đạt tới mong ước hàng thế kỉ của con người: Giao tiếp với người ngoài hành tinh.</s>
+</text>

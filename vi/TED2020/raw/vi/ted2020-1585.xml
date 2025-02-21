@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Tôi có một tin buồn và một tin vui và tôi cũng có một nhiệm vụ đặt ra.</s>
+ <s id="2">Tin buồn là chúng ta ai cũng đều bị ốm</s>
+ <p id="p3">
+  <s id="3.1">Tôi ốm.</s>
+  <s id="3.2">Bạn ốm.</s>
+ </p>
+ <p id="p4">
+  <s id="4.1">Ai trong chúng ta cũng ốm.</s>
+  <s id="4.2">Vậy thì câu hỏi đặt ra là Chúng ta ốm ở mức nào?</s>
+  <s id="4.3">Có chết người không?</s>
+ </p>
+ <s id="5">Liệu có qua khỏi không?</s>
+ <s id="6">Chúng ta có chữa được?</s>
+ <s id="7">Chừng nào chúng ta còn là con người thì chúng ta còn bị ốm.</s>
+ <s id="8">Và vì vậy chúng luôn đi tìm lí do tại sao chúng ta bị ốm.</s>
+ <s id="9">Từ lâu ta đổ lỗi do Chúa Phải không?</s>
+ <s id="10">Nào là Chúa Trời nổi giận với mình hoặc đang muốn thử thách mình, Hoặc là nói đúng hơn Chúa đang trừng phạt hay phán xét mình.</s>
+ <s id="11">Và khi chúng ta đi kiếm tìm lời giải, cuối cùng chúng ta đã tìm được thứ gì đó gần với khoa học hơn, đó là những giả thuyết vì sao chúng ta bị ốm, và khi ta có những giả thuyết về lý do ốm thì ta cũng tìm cách chữa trị.</s>
+ <p id="p12">
+  <s id="12.1">Đây là Avicenna.</s>
+  <s id="12.2">Ông đã viết cuốn sách từ 1000 năm trước có tên "Quy tắc y khoa" và những quy tắc ông đưa ra cho việc thử thuốc cũng giống những quy tắc ta áp dụng ngày nay, ví dụ như bệnh nào thuốc nấy, thuốc phải nguyên chất và cuối cùng ta phải thử nghiệm với con người.</s>
+  <s id="12.3">Nếu chúng ta sắp xếp những chủ đề này của một câu chuyện hoặc một giả thuyết về thử nghiệm loài người, chúng ta sẽ có những kết quả như ý, cả khi ta không có công nghệ tối tân.</s>
+ </p>
+ <p id="p13">
+  <s id="13.1">Đây là Carlos Finlay.</s>
+  <s id="13.2">Ông đã đặt ra một giả thuyết mới mẻ vượt bậc so với thời của mình, vào cuối những năm 1800.</s>
+ </p>
+ <s id="14">Ông cho rằng bệnh sốt vàng không truyền qua quần áo bẩn</s>
+ <s id="15">mà là do muỗi.</s>
+ <p id="p16">
+  <s id="16.1">Nhiều người cười nhạo ông.</s>
+  <s id="16.2">Trong suốt 20 năm ông bị gọi là "người muỗi".</s>
+  <s id="16.3">Nhưng rồi ông đã tiến hành một cuộc thí nghiệm ở người.</s>
+  <s id="16.4">Ông đặt ra giả thuyết này và tiến hành thí nghiệm với người.</s>
+ </p>
+ <s id="17">Ông đã tuyển tình nguyện viên đến ở Cuba để sống trong những túp lều và tình nguyện mắc bệnh sốt vàng.</s>
+ <s id="18">Một vài người ở trong những túp lều có các bộ quần áo bẩn còn một vài ở trong những túp lều đầy muỗi đã tiếp xúc với bệnh sốt vàng.</s>
+ <s id="19">Kết quả cho thấy không phải thứ bụi bị coi là vật truyền nhiễm trên quần áo là thủ phạm gây ra bệnh sốt vàng.</s>
+ <s id="20">Phải đến khi làm thí nghiệm trên người ta mới khám phá được điều này.</s>
+ <s id="21">Và đây chính là thứ những người đó mong đợi.</s>
+ <p id="p22">
+  <s id="22.1">Đây là thứ nhìn có vẻ như chứa bệnh sốt vàng ở Cuba khi đó.</s>
+  <s id="22.2">Bạn phải chịu đựng trong túp lều, dưới cái nắng nóng, một mình và có thể sẽ chết.</s>
+ </p>
+ <s id="23">Nhưng người ta lại tình nguyện tham gia.</s>
+ <p id="p24">
+  <s id="24.1">Và đây không chỉ là một ví dụ tuyệt vời của hình thức thí nghiệm khoa học về mặt lý thuyết.</s>
+  <s id="24.2">Họ đã làm điều tuyệt vời này.</s>
+ </p>
+ <s id="25">Họ đã kí vào văn bản này và nó được gọi là "Bản thỏa thuận có hiểu biết".</s>
+ <p id="p26">
+  <s id="26.1">Thỏa thuận có hiểu biết là một ý tưởng chúng ta có thể vô cùng tự hào.</s>
+  <s id="26.2">Đó là thứ phân biệt chúng ta với Quốc xã ở Nuremberg (Đức), giúp tăng cường thử nghiệm y khoa.</s>
+  <s id="26.3">Ý tưởng của Bản thỏa thuận này là đồng ý tham gia một nghiên cứu mà không hiểu gì thì không gọi là thỏa thuận.</s>
+ </p>
+ <s id="27">Bản thỏa thuận giúp bảo vệ chúng ta khỏi tổn hại, khỏi những kẻ buôn lậu, và khỏi những người cố gắng lường gạt chúng ta tham gia một nghiên cứu lâm sàng mà chúng ta không hiểu gì hoặc không đồng ý.</s>
+ <p id="p28">
+  <s id="28.1">Khi xâu chuỗi các giả thuyết, tiến hành thí nghiệm ở người và bản thỏa thuận có hiểu biết, chúng ta được cái gọi là "nghiên cứu lâm sàng", và đó là cách chúng ta thực hiện phần lớn công việc y khoa.</s>
+  <s id="28.2">Vấn đề không phải ở chỗ bạn ở phía Bắc, Nam, Đông hay Tây.</s>
+ </p>
+ <s id="29">Các nghiên cứu lâm sàng tạo cơ sở cho cách chúng ta nghiên cứu, vậy nên nếu chúng ta định nghiên cứu loại thuốc mới, chúng ta thử nghiệm ở người, lấy máu, tiến hành thí nghiệm, và chúng ta có được sử đồng thuận cho nghiên cứu đó để đảm bảo rằng chúng ta không lường gạt người khác tham gia.</s>
+ <s id="30">Nhưng thế giới đang làm thay đổi nghiên cứu lâm sàng vốn đã tồn tại cả chục năm, nếu không cũng phải 50 đến 100 năm.</s>
+ <s id="31">Bây giờ chúng ta có thể thu thập dữ liệu về bộ gen của chúng ta, nhưng, như trước đó chúng ta từng biết, bộ gen chúng ta không sắp xếp theo trình tự nào.</s>
+ <s id="32">Chúng ta có thể thu thập thông tin về môi trường của chúng ta.</s>
+ <s id="33">Quan trọng hơn, chúng ta có thể thu thập thông tin về những lựa chọn của chúng ta, vì hóa ra thứ chúng ta nghĩ là sức khỏe của mình lại chỉ giống sự tương tác của các bộ phận cơ thể, của gen, của những sự lựa chọn và của môi trường của chúng ta.</s>
+ <p id="p34">
+  <s id="34.1">Và các phương pháp lâm sàng hiện có của chúng ta không thực sự hiệu quả trong việc nghiên cứu những điều đó vì chúng dựa trên ý tưởng về sự tương tác giữa người với người.</s>
+  <s id="34.2">Bạn tương tác với bác sĩ của mình rồi tham gia vào nghiên cứu.</s>
+ </p>
+ <p id="p35">
+  <s id="35.1">Đây là ông tôi.</s>
+  <s id="35.2">Thực ra tôi chưa bao giờ gặp ông, nhưng ông đang ôm mẹ tôi, và tôi mang gen của ông trong mình.</s>
+ </p>
+ <p id="p36">
+  <s id="36.1">Tôi mang những gì tinh túy nhất của ông.</s>
+  <s id="36.2">Ông nghiện thuốc lá giống như hầu hết mọi người thời ông.</s>
+  <s id="36.3">Còn đây là con trai tôi.</s>
+ </p>
+ <s id="37">Gen của ông tôi cũng chạy trong người con trai tôi, và những gì tinh túy nhất trong con người tôi sẽ ảnh hưởng đến sức khỏe của nó.</s>
+ <s id="38">Công nghệ giữa hai bức ảnh này hoàn toàn khác nhau, nhưng phương pháp nghiên cứu lâm sàng không thực sự thay đổi nhiều trong khoảng thời gian đó.</s>
+ <s id="39">Chúng ta chỉ có những số liệu tốt hơn.</s>
+ <s id="40">Bản thỏa thuận có hiểu biết được thực hiện đáng kể sau Chiến tranh Thế giới thứ 2 - khoảng thời gian bức ảnh này được chụp.</s>
+ <p id="p41">
+  <s id="41.1">Vậy là đã 70 năm trôi qua, và cách chúng ta thu đạt thỏa thuận có hiểu biết, công cụ bảo vệ chúng ta khỏi bị hại, bây giờ lại tạo ra các "hầm chứa".</s>
+  <s id="41.2">Những dữ liệu chúng ta thu thập cho bệnh ung thư tuyến tiền liệt hoặc các thí nghiệm bệnh tâm thần lại được đưa vào các "hầm chứa" mà chúng chỉ được sử dụng để nghiên cứu về ung thư tuyến tiền liệt hoặc bệnh tâm thần.</s>
+ </p>
+ <s id="42">Chúng không được kết nối hay hợp nhất với nhau.</s>
+ <s id="43">Những người không được ủy nhiệm thì không được sử dụng.</s>
+ <s id="44">Vậy nên một bác sĩ không thể tiếp cận với những dữ liệu đó nếu không nộp các giấy tờ cần thiết.</s>
+ <s id="45">Một nhà khoa học máy tính không thể tiếp cận với những dữ liệu đó nếu không nộp các giấy tờ cần thiết.</s>
+ <p id="p46">
+  <s id="46.1">Các nhà khoa học máy tính không đủ kiên nhẫn.</s>
+  <s id="46.2">Họ không nộp giấy tờ gì hết.</s>
+ </p>
+ <p id="p47">
+  <s id="47.1">Điều này thật đáng buồn.</s>
+  <s id="47.2">Đây là những công cụ chúng ta tạo ra để bảo vệ chúng ta khỏi tổn hại, nhưng hiện tại chúng lại ngăn việc chúng ta sáng tạo.</s>
+ </p>
+ <s id="48">Và đó không phải mục tiêu của chúng ta, không phải điều chúng ta muốn, đúng không?</s>
+ <s id="49">Đó là tác dụng phụ của thứ chúng ta tạo ra nhằm phục vụ cho lợi ích chính bản thân mình.</s>
+ <s id="50">Và nếu có ai nghĩ về điều đó, điều đáng buồn là Facebook sẽ không bao giờ giúp thay đổi thứ gì quan trọng bằng thuật giải quảng cáo cùng quy mô nhỏ như một thí nghiệm lâm sàng ở giai đoạn III.</s>
+ <s id="51">Chúng ta không thể sử dụng những thông tin từ các cuộc thí nghiệm trong quá khứ rồi tập hợp lại để tạo thành các mẫu có ý nghĩa về mặt thống kê được.</s>
+ <p id="p52">
+  <s id="52.1">Điều đó thật nhàm chán đúng không? 45% đàn ông mắc bệnh ung thư.</s>
+  <s id="52.2">38% phụ nữ mắc bệnh ung thư.</s>
+ </p>
+ <s id="53">Cứ bốn người đàn ông thì có một người chết vì ung thư.</s>
+ <s id="54">Cứ năm người phụ nữ thì có một người chết vì ung thư, chí ít là ở nước Mĩ.</s>
+ <p id="p55">
+  <s id="55.1">Và trong số bốn loại thuốc chúng tôi kê cho bạn khi bạn bị ung thư đều không hiệu quả.</s>
+  <s id="55.2">Đó là với cá nhân tôi thôi.</s>
+ </p>
+ <s id="56">Chị tôi sống sót khỏi bệnh ung thư.</s>
+ <s id="57">Mẹ vợ tôi tôi sống sót khỏi bệnh ung thư.</s>
+ <p id="p58">
+  <s id="58.1">Bị ung thư thật chán.</s>
+  <s id="58.2">Khi bị ung thư thì bạn sẽ không có nhiều sự riêng tư trong bệnh viện.</s>
+  <s id="58.3">Phần lớn thời gian bạn đều phải khỏa thân.</s>
+ </p>
+ <s id="59">Những người bạn không biết đi vào, nhìn bạn, cười nhạo và châm chọc bạn, và khi tôi nói với những người sống sót khỏi bệnh ung thư rằng công cụ này chúng tôi tạo ra để bảo vệ họ thực ra đang cản trở việc sử dụng dữ liệu của họ, đặc biệt là khi chỉ có 3 đến 4% người bị ung thư đăng ký tham gia nghiên cứu lâm sàng, phản ứng của họ không phải là "Cảm ơn Trời đất vì đã bảo vệ sự riêng tư của con".</s>
+ <s id="60">Thay vì đó là sự tức giận vì chúng tôi có dữ liệu mà không sử dụng được.</s>
+ <s id="61">Đó quả là một điều đáng tiếc.</s>
+ <s id="62">Chi phí cho máu và kho máu rất lớn.</s>
+ <s id="63">Hàng năm ở Mỹ bệnh ung thư tiêu tốn mất 226 triệu đô la.</s>
+ <s id="64">Mỗi ngày ở Mỹ có 1500 người chết.</s>
+ <s id="65">Và tình hình đang ngày càng tồi tệ hơn.</s>
+ <s id="66">Tin vui là chúng tôi đã thay đổi được một số thứ, và điều quan trọng nhất đã thay đổi đó là chúng ta có thể tự kiểm tra chúng ta bằng những cách mà trước kia chỉ có thể thực hiện trong cơ sở y tế.</s>
+ <s id="67">Nhiều người coi đó là ống xả kĩ thuật số.</s>
+ <s id="68">Tôi thì thích coi nó là những hạt bụi bay sau con tôi.</s>
+ <p id="p69">
+  <s id="69.1">Chúng ta có thể quay lại và chộp những hạt bụi đó, và từ đó chúng ta có thể biết thêm nhiều điều về sức khỏe của chúng ta,vậy nên nếu những lựa chọn là một phần của sức khỏe của chúng ta, những gì chúng ta ăn thực là một phần quan trọng của sức khỏe chúng ta.</s>
+  <s id="69.2">Vậy nên có một điều bạn có thể làm vô cùng đơn giản là chụp ảnh thức ăn của bạn, và nếu số lượng người làm vậy đủ lớn, chúng ta có thể biết thêm nhiều về tác động của thực phẩm với sức khỏe của chúng ta.</s>
+ </p>
+ <p id="p70">
+  <s id="70.1">Một điều thú vị bắt nguồn từ ý tưởng này - đó là một ứng dụng cho điện thoại iPhone có tên "The Eatery"- đó là chúng ta nghĩ bánh pizza chúng ta ăn tốt cho sức khỏe hơn pizza của những người khác.</s>
+  <s id="70.2">Và đó có vẻ chỉ là một kết quả không đáng kể, nhưng đó là loại nghiên cứu từng khiến cho hệ thống y tế phải mất nhiều năm và hàng trăm nghìn đô-la mới thực hiện xong.</s>
+ </p>
+ <s id="71">Nghiên cứu này được thực hiện trong 5 năm tháng bởi một công ty khởi nghiệp với quy mô chỉ có vài người.</s>
+ <s id="72">Tôi không quan tâm về mặt tài chính của nghiên cứu này.</s>
+ <s id="73">Nhưng quan trọng hơn, chúng ta nghiên cứu được về kiểu gen của chúng ta, và mặc dù kiểu gen của chúng ta không sắp xếp theo trật tự nào, chúng cũng cho ta những manh mối nhất định.</s>
+ <p id="p74">
+  <s id="74.1">Tôi có thể cho mọi người thấy những manh mối của tôi.</s>
+  <s id="74.2">Đó chỉ là chuỗi axit nucleic A, T, C, G.</s>
+ </p>
+ <p id="p75">
+  <s id="75.1">Đây là phần diễn giải.</s>
+  <s id="75.2">Như mọi người có thể thấy Tôi có 32% nguy cơ bị ung thư tuyến tiền liệt, 22% nguy cơ bị bệnh vảy nến và 14% nguy cơ bị bệnh Alzheimer.</s>
+ </p>
+ <s id="76">Điều đó có nghĩa, nếu bạn mà là nhà di truyền học thì bạn sẽ kinh sợ, và nói "Trời ơi, anh bảo mọi người anh mang apolipoprotein E4 allele.</s>
+ <p id="p77">
+  <s id="77.1">Anh bị làm sao vậy? ".</s>
+  <s id="77.2">Có đúng không?</s>
+  <s id="77.3">Khi nhận được những kết quả này, tôi đã nói chuyện với các bác sĩ, và họ bảo tôi không được nói cho ai khác biết, và tôi đã trả lời: "Điều đó có giúp ai cứu được tôi khi tôi bị bệnh không?</s>
+ </p>
+ <p id="p78">
+  <s id="78.1">".</s>
+  <s id="78.2">Không ai có thể trả lời tôi là "có".</s>
+ </p>
+ <s id="79">Tôi sống trong một thế giới web nơi bạn chia sẻ những gì tốt đẹp chứ không phải những điều tồi tệ.</s>
+ <p id="p80">
+  <s id="80.1">Thế là tôi bỏ những kết quả này vào trong những chiếc bàn của mình, và tôi thậm chí còn thấy khó chịu hơn nhiều.</s>
+  <s id="80.2">Thế là tôi đến gặp bác sĩ và nói "Tôi muốn thử máu.</s>
+ </p>
+ <p id="p81">
+  <s id="81.1">Cho tôi xin lại dữ liệu".</s>
+  <s id="81.2">Đây là lần thử máu mới nhất của tôi.</s>
+ </p>
+ <s id="82">Mọi người có thể thấy tôi có lượng cholesterol cao.</s>
+ <p id="p83">
+  <s id="83.1">Tôi có lượng cholesterol đặc biệt cao và tôi có một vài chỉ số gan xấu, nhưng nguyên nhân là do chúng tôi có một bữa tiệc tối với rất nhiều rượu ngon vào đêm trước khi chúng tôi tiến hành xét nghiệm.</s>
+  <s id="83.2">Những hãy nhìn xem thông tin này khó tính toán thế nào.</s>
+ </p>
+ <s id="84">Đây giống như bức ảnh ông tôi bế mẹ tôi từ một góc nhìn dữ liệu, và tôi phải vào hệ thống để lấy ra.</s>
+ <s id="85">Vậy nên điều mà tôi đề nghị chúng ta làm ở đây là chúng ta quay lại đằng sau và chộp lấy những hạt bụi, là chúng ta đi vào trong các bộ phận cơ thể và chộp lấy kiểu gen, là chúng ta vào cơ sở y tế và lấy những bản hồ sơ của chúng ta, và chúng ta sử dụng chúng để cùng tạo ra một thứ gì đó phổ biến.</s>
+ <p id="p86">
+  <s id="86.1">Và đã có nhiều buổi nói chuyện về sự phổ biến, đúng chứ, ở đây, ở đó, mọi nơi, đúng chứ.</s>
+  <s id="86.2">Sự phổ biến không gì hơn là một điều tốt đẹp của cộng đồng mà trong đó có cả những điều tốt đẹp của riêng chúng ta.</s>
+ </p>
+ <p id="p87">
+  <s id="87.1">Chúng ta tình nguyện làm việc đó, và chúng ta thực hiện nó thông qua những công cụ pháp lí cá nhân.</s>
+  <s id="87.2">Chúng ta thực hiện điều đó bằng công nghệ cá nhân.</s>
+ </p>
+ <p id="p88">
+  <s id="88.1">Đúng.</s>
+  <s id="88.2">Đó là tất cả về tính phổ biến.</s>
+  <s id="88.3">Đó là cái mà chúng ta tạo nên cùng nhau vì ta nghĩ rằng nó quan trọng.</s>
+ </p>
+ <p id="p89">
+  <s id="89.1">Và điểm phổ biến của dữ liệu là một điều gì đó rất đặc trưng, vì chúng ta tạo ra nó từ dữ liệu của riêng ta.</s>
+  <s id="89.2">Và cho dù nhiều người thích sự riêng tư về việc quản lí dữ liệu của họ, và ám ảnh về sự riêng tư, thì ít ra một vài người trong chúng ta thật sự thích sự chia sẻ nhưng là một cách quản lí và điều đáng ghi nhớ về kĩ thuật phổ biến là bạn không cần những số liệu phần trăm to lớn nếu kích thước mẫu của bạn đủ lớn để tạo nên một điều gì đó hoàn mĩ.</s>
+ </p>
+ <s id="90">Không nhiều những lập trình viên viết phần mềm miễn phí, nhưng chúng ta có máy chủ Apache.</s>
+ <p id="p91">
+  <s id="91.1">Không nhiều người đọc những bài viết trên Wikipedia, nhưng chúng vẫn có tác dụng.</s>
+  <s id="91.2">Cho nên khi nào có những người còn yêu thích việc chia sẻ, như một cách để quản lí, chúng ta vẫn có thể tìm được thông tin.</s>
+ </p>
+ <s id="92">Và trong sinh học, số lượng đó còn khả quan hơn</s>
+ <s id="93">Vanderbilt đã tiến hành một cuộc khảo sát mọi người, chúng tôi muốn lấy mẫu sinh học, mẫu máu và chia sẻ nó trong ngân hàng sinh học. và chỉ 5% người thoái thác việc đó.</s>
+ <p id="p94">
+  <s id="94.1">Tôi đến từ Tennessee.</s>
+  <s id="94.2">Đó không phải là một bang lạc quan về khoa học của Hoa Kì.</s>
+  <s id="94.3">(Tiếng cười) Nhưng chỉ có 5% người không tham gia.</s>
+ </p>
+ <s id="95">Cho nên mọi người đều yêu thích chia sẻ, nếu bạn cho họ một cơ hội và một sự lựa chọn.</s>
+ <s id="96">và lí do tôi gắn bó với việc này, bên cạnh khía cạnh gia đình, là vì tôi dành nhiều thời gian cùng với các nhà toán học, và họ luôn có thể tìm đến những nơi có rất nhiều dữ liệu vì họ có thể dùng có để tìm những tín hiệu từ sự hỗn loạn.</s>
+ <s id="97">và những điều mà họ tìm ra, chúng không nhất thiết phải là những nguyên lí có kết nối, nhưng toán học, trong hôm nay và trong thời đại, như một tập hợp khổng lồ của những dụng cụ mà chúng ta để lại chúng trên sàn nhà, không phải nắm chặt nó, như khi chúng ta dùng cưa tay.</s>
+ <s id="98">Nếu ta có thật nhiều những kiểu gen được chia sẻ, và thật nhiều những kết quả được chia sẻ, và nhiều sự lựa chọn trong cuộc sống được chia sẻ, và nhiều nữa những thông tin về môi trường, chúng ta có thể bắt đầu vẽ nên sự tương quan giữa những biến thể tinh tế trong con người, những sự lựa chọn của chúng ta và sức khoẻ của chúng ta khi đưa ra những lựa chọn đó, và chúng ta có một nguồn mở để làm tất cả những điều này.</s>
+ <s id="99">Sage Bionetworks là một tập đoàn phi lợi nhuận đã tạo nên một hệ thống toán học khổng lồ vẫn đang chờ dữ liệu, nhưng vẫn chưa có gì cả.</s>
+ <p id="p100">
+  <s id="100.1">Đó là những gì tôi làm.</s>
+  <s id="100.2">Tôi đã thực sự bắt đầu những gì chúng ta nghĩ là nghiên cứu lâm sàng hoàn toàn kỹ thuật số, hoàn toàn tự xây dựng, không giới hạn trong phạm vi, hợp tác toàn cầu, đã được phê duyệt về đạo đức, đầu tiên trên thế giới mà bạn sẽ là người đóng góp dữ liệu.</s>
+ </p>
+ <s id="101">Nên nếu bạn quay lại đằng sau và chộp lấy những hạt bụi, nếu bạn tiến vào cơ thể mình và chộp lấy kiểu gen của bạn, nếu bạn đi vào hệ thống y khoa và bằng cách nào đó phát đi ghi nhận y khoa của bạn, bạn thực sự có thể nhận được sự thoả thuận có hiểu biết trên mạng vì sự cống hiến cho tính phổ biến phải là tự nguyện và nó phải được thừa nhận --- và bạn thật sự có thể đăng tải thông tin của bạn và gửi nó đến các nhà toán học, người người nghiên cứu loại dữ liệu này, và mục tiêu là có được 100,000 trong năm đầu tiên và 1 triệu trong 5 năm đầu tiên để chúng tôi có được một tập hợp có ý nghĩa về mặt thống kê mà bạn có thể dùng để tiến hành những mẫu nghiên cứu nhỏ hơn và chia sẻ nó lần nữa, để từ đó bạn có thể dùng nó để tìm ra những mối tương quan tinh tế giữa các biến thể làm chúng ta độc đáo và kiểu sức khoẻ mà chúng ta cần để tiến lên cùng xã hội.</s>
+ <s id="102">Và tôi đã dành rất nhiều thời gian xung quanh những sự phổ biến khác.</s>
+ <p id="p103">
+  <s id="103.1">Tôi đã tìm hiểu những trang web.</s>
+  <s id="103.2">Tôi tìm hiểu thế giới sơ khai của sự phổ biến, và có bốn điều mà tất cả chúng đều có, đó là chúng thật sự đơn giản.</s>
+ </p>
+ <s id="104">Và nếu bạn đã từng tìm hiểu những trang web và đăng kí tham gia vào nghiên cứu này, bạn sẽ không thấy điều gì phức tạp cả.</s>
+ <p id="p105">
+  <s id="105.1">Nhưng nó không phải là sự đơn điệu.</s>
+  <s id="105.2">Những điều này là vô tình, bởi vì bạn luôn có thể cho chúng sức mạnh và kiểm soát hệ thống, nhưng sẽ rất khó để vứt bỏ những thứ bạn mang đến ngay từ đầu và đơn giản không có nghĩa là đơn điệu, và không mạnh mẽ không có nghĩa là yếu đuối.</s>
+ </p>
+ <s id="106">Đó là sức mạnh của hệ thống.</s>
+ <s id="107">Và "mở" không có nghĩa là sẽ không có chi phí.</s>
+ <s id="108">Những hệ thống kín, một tập đoàn, tạo ra rất nhiều tiền trên một trang web mở, và đó là một trong những lí do vì sao việc tạo những trang web mở được duy trì là vì những tập đoàn luôn có được lợi ích từ sự mở rộng của hệ thống.</s>
+ <s id="109">Và vậy nên những điều này là một phần của nghiên cứu lâm sàng mà chúng tôi đã tạo nên, thực tế bạn có thể tham gia, điều bạn cần là đủ 14 tuổi, sẵn sàng kí một thoả thuận rằng bạn sẽ không là một thằng khốn, cơ bản là vậy, và bạn được nhận.</s>
+ <s id="110">Bạn có thể bắt đầu phân tích dữ liệu.</s>
+ <p id="p111">
+  <s id="111.1">Bạn thật sự phải giải quyết CAPTCHA nữa.</s>
+  <s id="111.2">(Tiếng cười) Và nếu bạn mong muốn xây dựng mô hình tập đoàn dựa vào nó, được thôi.</s>
+  <s id="111.3">Tất cả đều được chấp thuận, nên nếu bạn không thích những điều đó, bạn có thể không tham gia.</s>
+ </p>
+ <s id="112">Nó khá giống những quy tắc được thiết kế của sự phổ biến mà chúng tôi đang cố gắng mang đến cho dữ liệu sức khoẻ.</s>
+ <p id="p113">
+  <s id="113.1">Và một điều nữa về những hệ thống này là chúng chỉ bao gồm một số lượng nhỏ những người "không hiểu vì sao" làm việc cùng nhau để tạo nên nó.</s>
+  <s id="113.2">Nó không có nhiều người như vậy để giúp Wikipedia là Wikipedia, hoặc để nó luôn là Wikipedia.</s>
+ </p>
+ <s id="114">Và chúng tôi không vô tâm trong vấn đề sức khoẻ, thế nên tôi ghét từ "bệnh nhân."</s>
+ <s id="115">Tôi không thích trở thành bệnh nhân một khi hệ thống hư hại và dịch vụ chăm sóc sức khoẻ cũng bị phá hỏng.</s>
+ <s id="116">Tôi không nói về khía cạnh chính trị của dịch vụ chăm sóc sức khoẻ, tôi đang nói về cách chúng ta tiếp cận nó một cách khoa học.</s>
+ <p id="p117">
+  <s id="117.1">Nên tôi không muốn là một bệnh nhân.</s>
+  <s id="117.2">Và thử thách tôi dành cho các bạn là không trở thành một bệnh nhân.</s>
+  <s id="117.3">Nên tôi muốn các bạn thật sự cố gắng, khi các bạn trở về nhà, lấy dữ liệu của các bạn.</s>
+ </p>
+ <s id="118">Bạn sẽ bị sốc, thất vọng và tôi cá là rất giận dữ, vì thật khó để lấy được chúng.</s>
+ <s id="119">Nhưng đó là một thử thách mà tôi muốn các bạn chấp nhận, và có thể các bạn sẽ chia sẻ nó.</s>
+ <p id="p120">
+  <s id="120.1">Có thể là không Nếu không có ai trong gia đình bạn đang bệnh, có thể bạn sẽ không vô tâm.</s>
+  <s id="120.2">Nhưng nếu có, hoặc chính bạn đã từng bệnh, có thể bạn sẽ như thế.</s>
+ </p>
+ <s id="121">Chúng tôi sẽ có thể tiến hành một thí nghiệm trong vài tháng tới, mà nhờ đó chúng tôi có thể biết chính xác có bao nhiêu người vô tâm trong xã hội.</s>
+ <p id="p122">
+  <s id="122.1">Đây là mạng lưới Athena Breast Health.</s>
+  <s id="122.2">Đó là một cuộc khảo sát trong 150,000 phụ nữ ở California, và họ sẽ trả lại tất cả dữ liệu cho người tham gia khảo sát dưới dạng toán học, chỉ cần một cú đúp chuột để xem cuộc khảo sát mà chúng tôi đã thực hiện cùng chúng.</s>
+  <s id="122.3">Nên chúng tôi sẽ biết chính xác có bao nhiêu người có khả năng vô tâm.</s>
+ </p>
+ <s id="123">Để kết thúc, điều tốt đẹp nhất tôi học được từ khi tôi bỏ việc gần một năm trước để làm điều này, chính là thực tế không cần có thật nhiều người trong chúng ta để tạo nên những kết quả đáng kinh ngạc.</s>
+ <s id="124">Bạn chỉ cần không hợp lí, và rủi ro mà chúng tôi đang phải đối diện củng không phải rủi ro của 14 người bị bệnh sốt vàng.</s>
+ <p id="p125">
+  <s id="125.1">Đúng chứ ?</s>
+  <s id="125.2">Đó là sự tường trần, số hoá, một cách công cộng.</s>
+  <s id="125.3">Nên bạn sẽ biết nhiều hơn về tôi và sức khoẻ của tôi hơn là tôi biết về bạn.</s>
+ </p>
+ <p id="p126">
+  <s id="126.1">Đó chính là sự bất đối xứng.</s>
+  <s id="126.2">Trần truồng và một mình có thể rất đáng sợ.</s>
+ </p>
+ <s id="127">Nhưng trần truồng trong một nhóm, một cách tự nguyện cũng khá đẹp đẽ.</s>
+ <s id="128">Nên không cần tất cả chúng ta.</s>
+ <s id="129">Chỉ một vài người trong chúng ta mà thôi.</s>
+ <p id="p130">
+  <s id="130.1">Cảm ơn.</s>
+  <s id="130.2">(Tiếng vỗ tay)</s>
+ </p>
+</text>

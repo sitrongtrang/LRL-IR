@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Chúng ta nhìn xung quanh các phương tiện thông tin, các tin tức từ Irắc, Afghanistan, Sierra Leone, và các xung đột này có vẻ không thể hiểu nổi đối với chúng ta.</s>
+ <s id="2">Và đó chính là cảm giác của tôi khi mới bắt đầu dự án này.</s>
+ <p id="p3">
+  <s id="3.1">Nhưng là một nhà vật lý, tôi nghĩ rằng, nếu bạn đưa cho tôi một số dữ liệu, thì có lẽ tôi có thể hiểu được vấn đề này.</s>
+  <s id="3.2">Bạn biết đấy, chúng tôi thử làm một việc như thế.</s>
+ </p>
+ <s id="4">Vì vậy là một người New Zealand ngây thơ, tôi nghĩ, chúng tôi sẽ đến Lầu Năm Góc.</s>
+ <s id="5">Bạn có thể cho tôi biết một chút thông tin được không?</s>
+ <p id="p6">
+  <s id="6.1">(Tiếng cười) Không.</s>
+  <s id="6.2">Vì vậy tôi đã phải nghĩ phức tạp hơn một chút.</s>
+ </p>
+ <s id="7">Và một tối khi tôi đang xem tin tức ở Oxford.</s>
+ <s id="8">Và tôi đang xem kênh ưa thích của mình.</s>
+ <s id="9">Tôi nhìn thấy có vài thông tin ở đó.</s>
+ <s id="10">Có dữ liệu trong mạch tin tức mà chúng ta nghe.</s>
+ <s id="11">Trong tất cả các tiếng ồn xung quanh chúng ta thật ra có chứa thông tin.</s>
+ <s id="12">Vì vậy điều mà tôi bắt đầu suy nghĩ là, có lẽ có cái gì tương tự như tình báo nguồn mở ở đây.</s>
+ <s id="13">Nếu chúng ta có thể tập hợp đủ các luồng tin tức này lại với nhau có lẽ chúng ta có thể bắt đầu hiểu về chiến tranh.</s>
+ <p id="p14">
+  <s id="14.1">Đó chính là điều mà tôi đã làm.</s>
+  <s id="14.2">Chúng tôi bắt đầu lập ra một nhóm, một các nhà khoa học từ nhiều lĩnh vực, một nhóm các nhà kinh tế, các nhà toán học.</s>
+ </p>
+ <s id="15">Chúng tôi đã tập hợp những người này lại và bắt đầu cố giải quyết vấn đề này.</s>
+ <s id="16">Chúng tôi đã thực hiện trong ba bước.</s>
+ <p id="p17">
+  <s id="17.1">Bước đầu tiên chúng tôi làm là thu thập thông tin.</s>
+  <s id="17.2">Chúng tôi đã thu thập ở 130 nguồn tin khác nhau -- từ các bản báo cáo của NGO cho đến các tờ báo và tin tức truyền hình cáp.</s>
+ </p>
+ <s id="18">Chúng tôi thu được dữ liệu thô này và sàng lọc nó ra.</s>
+ <s id="19">Chúng tôi rút tỉa ra những mẫu tin quan trọng để xây dựng một cơ sở dữ liệu.</s>
+ <s id="20">Cơ sở dữ liệu đó có chứa thời gian của các cuộc tấn công địa điểm, qui mô và những vũ khí được sử dụng.</s>
+ <s id="21">Tất cả đều nằm trong các luồng tin tức mà chúng ta tiếp thu hàng ngày, chúng ta đơn giản là phải biết cách để bắt lấy nó ra.</s>
+ <s id="22">Và khi chúng tôi có được điều này thì chúng tôi đã có thể bắt đầu làm được một vài thứ rất tuyệt.</s>
+ <s id="23">Điều gì sẽ xảy ra nếu chúng ta xem xét sự phân bố của qui mô của các cuộc tấn công?</s>
+ <s id="24">Điều đó sẽ nói với chúng ta cái gì?</s>
+ <p id="p25">
+  <s id="25.1">Vì vậy chúng tôi bắt như sau.</s>
+  <s id="25.2">Và bạn có thể nhìn thấy ở đây trên trục nằm ngang bạn có số người bị giết trong một cuộc tấn công hay qui mô của cuộc tấn công đó.</s>
+ </p>
+ <s id="26">Và trên trục đứng, bạn có được số lượng các cuộc tấn công.</s>
+ <s id="27">Vì vậy, chúng tôi đã vẽ đồ thị mẫu cho điều này.</s>
+ <s id="28">Bạn nhìn thấy một loại phân bố ngẫu nhiên -- có lẽ là 67 cuộc tấn công, 1 người bị giết, hay 47 cuộc tấn công là nơi có 7 người bị giết.</s>
+ <s id="29">Chúng tôi đã làm điều y hệt này cho I-rắc.</s>
+ <s id="30">Và chúng tôi không biết là sẽ tìm thấy ở I-rắc là gì.</s>
+ <s id="31">Hóa ra, điều mà chúng tôi đã tìm thấy rất đáng ngạc nhiên.</s>
+ <s id="32">Bạn lấy tất cả các cuộc xung đột, tất cả sự lộn xộn, tất cả các tiếng ồn, và từ trong đó là một sự phân bố toán học chính xác về cách tấn công được sắp đặt trong cuộc xung đột này.</s>
+ <s id="33">Điều này đã làm chúng tôi kinh ngạc.</s>
+ <s id="34">Tại sao một cuộc xung đột như I-rắc lại có điều này là dấu hiệu cơ bản của nó?</s>
+ <s id="35">Tại sao lại có trật tự trong chiến tranh?</s>
+ <s id="36">Chúng tôi thật sự không hiểu được điều đó.</s>
+ <s id="37">Chúng tôi đã nghĩ có lẽ I-rắc có gì đó đặc biệt.</s>
+ <s id="38">Vì vậy chúng tôi đã xem xét thêm vài cuộc xung đột nữa.</s>
+ <s id="39">Chúng tôi xem xét Colombia, Afghanistan, và chúng tôi xem xét cả Senegal.</s>
+ <s id="40">Và một mô hình tương tự xuất hiện trong mỗi xung đột.</s>
+ <s id="41">Điều này tưởng như không xảy ra.</s>
+ <s id="42">Đây là những cuộc chiến tranh khác nhau, với những mâu thuẫn tôn giáo khác nhau, những mâu thuẫn chính trị khác nhau, và những vấn đề kinh tế xã hội khác nhau.</s>
+ <s id="43">Vậy mà những mô hình cơ bản ẩn dưới những vấn đề này lại giống nhau.</s>
+ <s id="44">Vì vậy chúng tôi đã đi rộng hơn một chút</s>
+ <s id="45">Chúng tôi xem xét tất cả các thông tin trên toàn thế giới mà chúng tôi có thể tìm được.</s>
+ <s id="46">Từ Peru cho đến Indonesia, chúng tôi lại nghiên cứu cái mô hình tương tự này một lần nữa.</s>
+ <s id="47">Và chúng tôi nhận thấy rằng không chỉ các sự phân bố đó là những đường thẳng này, mà độ dốc của những đường này, chúng dồn lại quanh giá trị của Alpha bằng 2.5</s>
+ <s id="48">Và chúng tôi có thể đưa ra một phương trình để dự đoán xác xuất của một cuộc tấn công.</s>
+ <s id="49">Điều mà chúng tôi đang nói đến ở đây là xác xuất của một cuộc tấn công giết chết một số X người nào đó ở một đất nước như I-rắc, bằng một hằng số nhân với kích thước của cuộc tấn công đó lũy thừa âm Alpha.</s>
+ <s id="50">Và Alpha âm chính là độ dốc của cái đường mà tôi đã cho bạn thấy trước đó.</s>
+ <s id="51">Vậy thì sao?</s>
+ <p id="p52">
+  <s id="52.1">Đây là dữ liệu, số liệu thống kê.</s>
+  <s id="52.2">Nó nói với chúng ta cái gì về các cuộc xung đột này?</s>
+ </p>
+ <s id="53">Đó là một thách thức mà chúng tôi những nhà vật lý phải đối mặt</s>
+ <s id="54">Chúng tôi giải thích điều này như thế nào?</s>
+ <s id="55">Và điều mà chúng tôi thực sự tìm thấy là con số Alpha đó nếu chúng tôi thực sự nghĩ về nó, chính là cấu trúc tổ chức của cuộc nổi loạn.</s>
+ <s id="56">Alpha là sự phân bố của kích thước của các cuộc tấn công, cũng chính là sự phân bố sức mạnh của nhóm đang thực hiện các cuộc tấn công đó.</s>
+ <p id="p57">
+  <s id="57.1">Vì vậy chúng tôi xem xét đến quy trình của động lực nhóm -- sự hòa hợp và chia rẻ.</s>
+  <s id="57.2">Các nhóm tập hợp.</s>
+  <s id="57.3">Rồi các nhóm tan rã.</s>
+ </p>
+ <s id="58">Và chúng tôi bắt đầu nghiên cứu các số liệu liên quan đến điều này.</s>
+ <p id="p59">
+  <s id="59.1">Liệu chúng ta có thể mô phỏng nó không?</s>
+  <s id="59.2">Liệu chúng ta có thể tạo ra kiểu các mô hình giống như chúng ta đang thấy ở những nơi như ở I-rắc hay không?</s>
+ </p>
+ <s id="60">Hóa ra chúng tôi phần nào đã làm được như vậy.</s>
+ <s id="61">Chúng tôi chạy những mô phỏng này.</s>
+ <s id="62">Chúng tôi có thể tái tạo việc sử dụng phương pháp động lực nhóm để giải thích các mô hình mà chúng ta thấy xung quanh các cuộc xung đột trên toàn thế giới.</s>
+ <s id="63">Vậy điều gì đang diễn ra?</s>
+ <s id="64">Tại sao những cuộc xung đột có vẻ bề ngoài khác nhau này lại có những mẫu hình giống nhau?</s>
+ <s id="65">Bây giờ tôi nghĩ điều đang diễn ra chính là các lực lượng nổi dậy, họ phát triển theo thời gian.</s>
+ <p id="p66">
+  <s id="66.1">Họ thích nghi.</s>
+  <s id="66.2">Và hóa ra chỉ có một cách duy nhất để chiến đấu với một kẻ thù mạnh hơn nhiều.</s>
+ </p>
+ <s id="67">Và là một lực lượng nổi dậy, nếu bạn không tìm thấy phương pháp đó thì bạn không tồn tại được.</s>
+ <s id="68">Vì vậy các lực lượng nổi dậy đang hoạt động, các cuộc xung đột đang diễn ra, nó sẽ trông giống thế này.</s>
+ <s id="69">Đây chính là điều mà chúng tôi nghĩ là đang diễn ra.</s>
+ <s id="70">Nhìn về phía trước, chúng ta sẽ thay đổi nó như thế nào?</s>
+ <s id="71">Chúng ta sẽ kết thúc một cuộc chiến như ở I-rắc như thế nào?</s>
+ <s id="72">Nó trông giống cái gì?</s>
+ <p id="p73">
+  <s id="73.1">Alpha là cấu trúc.</s>
+  <s id="73.2">Nó đạt được trạng thái ổn định ở 2.5.</s>
+ </p>
+ <s id="74">Khi các cuộc chiến tiếp tục thì chúng trông giống như thế này.</s>
+ <s id="75">Chúng ta phải thay đổi điều đó.</s>
+ <p id="p76">
+  <s id="76.1">Chúng ta có thể đẩy nó lên.</s>
+  <s id="76.2">Các lực lưỡng trở nên rời rạc hơn.</s>
+  <s id="76.3">Có nhiều nhóm hơn, nhưng chúng cũng yếu hơn.</s>
+ </p>
+ <p id="p77">
+  <s id="77.1">Hay chúng ta có thể đẩy nó xuống.</s>
+  <s id="77.2">Các lực lượng đó mạnh mẽ hơn.</s>
+  <s id="77.3">Có ít nhóm hơn.</s>
+  <s id="77.4">Nhưng có lẽ bạn có thể ngồi xuống và nói chuyện với họ.</s>
+ </p>
+ <s id="78">Vì vậy đồ thị ở đây, tôi sẽ cho các bạn thấy bây giờ.</s>
+ <p id="p79">
+  <s id="79.1">Chưa một ai nhìn thấy điều này bao giờ.</s>
+  <s id="79.2">Đây là thứ gì đó mà chúng tôi đã tiếp nhận được vào tuần trước.</s>
+ </p>
+ <s id="80">Và chúng tôi nhìn thấy quá trình tiến hóa của Alpha qua thời gian.</s>
+ <p id="p81">
+  <s id="81.1">Chúng tôi nhìn thấy nó bắt đầu.</s>
+  <s id="81.2">Và chúng tôi nhìn nó lớn lên đến trạng thái ổn định của các cuộc chiến trên thế giới.</s>
+ </p>
+ <s id="82">Và nó giữ tại mức đó qua sự xâm lược của Falusia cho đến những vụ ném bom Samarra trong các cuộc bầu cử ở I-rắc năm 2006.</s>
+ <p id="p83">
+  <s id="83.1">Và hệ thống này trở nên rối tung.</s>
+  <s id="83.2">Nó di chuyển lên trên đến trạng thái rời rạc.</s>
+ </p>
+ <s id="84">Đây chính là lúc sự gia tăng quân số xảy ra.</s>
+ <s id="85">Và tùy theo người mà bạn hỏi, sự gia tăng quân số đúng ra phải đẩy nó lên cao hơn.</s>
+ <s id="86">Nó xảy ra hoàn toàn ngược lại.</s>
+ <s id="87">Các nhóm trở nên mạnh hơn.</s>
+ <s id="88">Họ trở nên cường tráng hơn.</s>
+ <s id="89">Và vì vậy tôi nghĩ, đúng rồi, tuyệt vời, nó sẽ tiếp tục đi xuống.</s>
+ <p id="p90">
+  <s id="90.1">Chúng ta có thể nói chuyện với họ.</s>
+  <s id="90.2">Chúng ta có thể có cách giải quyết.</s>
+ </p>
+ <p id="p91">
+  <s id="91.1">Nó lại xảy ra ngược lại.</s>
+  <s id="91.2">Nó lại tiến lên.</s>
+  <s id="91.3">Các nhóm trở nên rời rạc hơn.</s>
+ </p>
+ <s id="92">Và điều này nói với tôi một trong 2 điều.</s>
+ <p id="p93">
+  <s id="93.1">Hoặc chúng tôi quay lại nơi chúng tôi xuất phát, và gia tăng quân số không có tác dụng gì.</s>
+  <s id="93.2">Hoặc cuối cùng các nhóm này bị tan rã đến mức độ má chúng ta có thể lui quân ra.</s>
+ </p>
+ <s id="94">Tôi không biết câu trả lời đối với việc này là gì.</s>
+ <s id="95">Nhưng tôi biết rằng chúng ta bây giờ nên nghiên cứu cấu trúc của sự nổi loạn này để trả lời cho câu hỏi đó.</s>
+ <s id="96">Cảm ơn các bạn.</s>
+ <s id="97">(Vỗ tay)</s>
+</text>

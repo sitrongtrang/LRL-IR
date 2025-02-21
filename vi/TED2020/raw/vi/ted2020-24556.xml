@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Mùa hè năm 1997, tàu vũ trụ Pathfinder của NASA hạ cánh trên bề mặt sao Hỏa, và bắt đầu truyền đi những hình ảnh đầy ấn tượng về Trái Đất.</s>
+ <s id="2">Nhưng sau vài ngày, con tàu gặp phải một sự cố nghiêm trọng.</s>
+ <s id="3">Việc truyền tín hiệu bị ngừng lại.</s>
+ <s id="4">Pathfinder đã trì hoãn công việc của chính mình: nó vẫn hoạt động nhưng không thể thực hiện công việc quan trọng nhất.</s>
+ <s id="5">Vậy điều gì đã xảy ra?</s>
+ <s id="6">Hóa ra con tàu bị lỗi ở bộ lập lịch biểu.</s>
+ <s id="7">Mọi hệ thống vận hành đều có một thiết bị được gọi là bộ lập lịch biểu giúp CPU biết được thời gian dành cho mỗi công việc là bao lâu và sau đó, chuyển sang công việc gì.</s>
+ <s id="8">Thực hiện đúng, máy tính sẽ hoạt động dễ dàng giữa nhiều công việc, cho ta cảm giác chúng làm mọi việc cùng một lúc.</s>
+ <s id="9">Tuy nhiên, ta đều biết chuyện gì sẽ xảy ra khi có sự cố.</s>
+ <s id="10">Và điều này dường như cho con người chúng ta chút an ủi</s>
+ <s id="11">rằng ngay cả máy tính cũng có lúc "ngập đầu" trong công việc.</s>
+ <s id="12">Nghiên cứu về quá trình lập biểu trong khoa học máy tính có thể cho ta một vài bài học trong "cuộc chiến" với thời gian.</s>
+ <s id="13">Một trong những bài học đầu tiên là thời gian bạn dành để ưu tiên công việc chính là thời gian bạn không làm việc gì.</s>
+ <s id="14">Chẳng hạn như khi kiểm tra email, bạn lướt qua mọi thư đến, rồi chọn cái nào quan trọng nhất.</s>
+ <s id="15">Trả lời xong thư đó, bạn lặp lại quy trình trên.</s>
+ <s id="16">Nghe có vẻ hợp lý, nhưng cách làm này có vấn đề.</s>
+ <s id="17">Nó được biết đến với tên gọi thuật toán bậc hai thời gian.</s>
+ <s id="18">Với hộp thư có số lượng gấp đôi, việc lướt qua mail mất gấp đôi thời gian và bạn phải trả lời lượng mail gấp đôi!</s>
+ <s id="19">Nghĩa là lượng công việc gấp lên bốn lần.</s>
+ <s id="20">Các lập trình viên của hệ thống máy tính Linux đã gặp phải vấn đề tương tự vào năm 2003.</s>
+ <s id="21">Linux xếp thứ hạng mỗi công việc theo mức độ quan trọng, và đôi khi dành nhiều thời gian để sắp xếp hơn là thực hiện.</s>
+ <p id="p22">
+  <s id="22.1">Giải pháp của các lập trình viên là thay thế hệ thống xếp hạng này bằng một số lượng hữu hạn nhóm ưu tiên.</s>
+  <s id="22.2">Hệ thống sẽ không quá tỉ mỉ trong việc lựa chọn nhiệm vụ tiếp theo mà dành nhiều thời gian hơn để thực hiện nhiệm vụ.</s>
+ </p>
+ <s id="23">Vì thế, với email, việc cố gắng trả lời thư quan trọng nhất trước chỉ khiến bạn thêm mệt mỏi .</s>
+ <s id="24">Với hộp thư có số lượng gấp 3 lần thông thường, thời gian bạn cần để trả lời hết sẽ gấp lên đến 9.</s>
+ <s id="25">Tốt nhất, bạn nên trả lời theo thứ tự thời gian, hoặc thậm chí ngẫu nhiên!</s>
+ <s id="26">Đôi khi, không làm mọi việc theo thứ tự hoàn hảo lại chính là chìa khóa giúp bạn hoàn thành công việc.</s>
+ <s id="27">Một bài học khác rút ra từ cách lập biểu của máy tính liên quan đến một vấn đề phổ biến trong cuộc sống hiện đại: sự gián đoạn.</s>
+ <s id="28">Khi máy tính chuyển từ nhiệm vụ này sang nhiệm vụ khác, quá trình chuyển ngữ cảnh sẽ diễn ra, máy tính ghi nhớ vị trí của nó ở một nhiệm vụ, chuyển dữ liệu cũ ra khỏi bộ nhớ và chuyển dữ liệu mới vào.</s>
+ <s id="29">Mỗi hành động này đều có cái giá của nó.</s>
+ <s id="30">Bài học ở đây là cần thỏa hiệp giữa hiệu quả công việc và sự phản ứng nhanh nhạy.</s>
+ <s id="31">Để hoàn thành công việc, bạn cần hạn chế chuyển đổi ngữ cảnh.</s>
+ <s id="32">Nhưng để phản ứng nhanh, bạn cần phản hồi bất kì khi nào có sự thay đổi.</s>
+ <s id="33">Hai nguyên tắc này về cơ bàn là đối lập nhau.</s>
+ <s id="34">Hiểu được sự đối lập này sẽ giúp chúng ta quyết định mình muốn đạt được sự thỏa hiệp ở mức độ nào.</s>
+ <s id="35">Cách giải quyết hiển nhiên là hạn chế sự gián đoạn trong công việc,</s>
+ <s id="36">nhưng giải pháp ít hiển nhiên hơn là nhóm các gián đoạn lại với nhau.</s>
+ <s id="37">Nếu email hoặc các loại thông báo bạn nhận được không yêu cầu phản hồi gấp hơn mỗi tiếng một lần, thì đó chính là tần suất bạn nên kiểm tra hộp thư.</s>
+ <p id="p38">
+  <s id="38.1">Không hơn.</s>
+  <s id="38.2">Trong khoa học máy tính, ý tưởng này có tên là điều tiết gián đoạn.</s>
+ </p>
+ <p id="p39">
+  <s id="39.1">thay vì giải quyết từng gián đoạn ngay khi chúng xảy ra.</s>
+  <s id="39.2">Chuột bị di chuyển?</s>
+ </p>
+ <s id="40">Một phím được bấm?</s>
+ <p id="p41">
+  <s id="41.1">Thêm file được tải về?</s>
+  <s id="41.2">Hệ thống tập hợp những gián đoạn này dựa trên thời gian mỗi gián đoạn có thể chờ để được giải quyết.</s>
+ </p>
+ <s id="42">Vào năm 2013, điều tiết gián đoạn đã giúp cải thiện đáng kể tuổi thọ pin của laptop.</s>
+ <s id="43">Vì hạn chế gián đoạn cho phép hệ thống kiểm tra mọi hoạt động ở cùng một lúc, rồi nhanh chóng quay trở lại trạng thái ít tiêu thụ điện năng.</s>
+ <s id="44">Chúng ta có thể học phương pháp này từ máy tính.</s>
+ <s id="45">Áp dụng phương pháp tương tự cho phép con người lấy lại sự tập trung, và trả lại một điều khá hiếm hoi trong cuộc sống hiện đại: sự nghỉ ngơi.</s>
+</text>

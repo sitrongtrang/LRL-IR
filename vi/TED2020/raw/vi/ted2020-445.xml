@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Làm sao để chúng ta có thể nghiên cứu các nhóm virus xung quanh mình cũng như thuốc đặc trị?</s>
+ <s id="2">Làm sao để chúng ta có thể gói gọn kiến thức đã có về virus vào trong một quyển sổ tay chẩn đoán đơn giản?</s>
+ <s id="3">Tôi muốn đưa mọi thứ ta biết hiện nay về việc phát hiện virus và loại các loại các virus vào trong 1 con chip nhỏ.</s>
+ <s id="4">Khi chúng tôi bắt đầu nghĩ về dự án này-- cách thức làm một phân tích chẩn đoán đơn giản để xác định đồng thời các tác nhân gây bệnh-- thì có một số vấn đề phát sinh.</s>
+ <s id="5">Trước hết, những con virus rất phức tạp, và chúng thay đổi rất nhanh.</s>
+ <s id="6">Đây là 1 virus picorna.</s>
+ <s id="7">Virus picorna -- chúng gây ra bệnh cảm thông thường và bại liệt hay những thứ tương tự.</s>
+ <s id="8">Bạn đang nhìn vào lớp vỏ ngoài của virus, và màu vàng là phần của virus thay đổi rất nhanh, và những phần xanh thay đổi không nhanh.</s>
+ <s id="9">Khi người ta nghĩ về việc chế tạo chất phát hiện virus, thì vấn đề tiến hóa quá nhanh của virus là điều gây khó khăn, vì làm sao xác định được thứ luôn đổi?</s>
+ <s id="10">Nhưng sự tiến hoá luôn ở trạng thái cân bằng: nơi nào bạn có sự thay đổi nhanh chóng thì cũng có thứ cần phải duy trì-- điều này hầu như không bao giờ thay đổi.</s>
+ <s id="11">Chúng tôi đã quan sát mẫu này một cách kĩ lưỡng hơn, và sau đây là dữ liệu.</s>
+ <s id="12">Đây là vài thứ bạn có thể làm trên máy tính bàn.</s>
+ <s id="13">Tôi lấy một đám virus picorna, như virus cảm lạnh, bại liệt và bệnh tương tự, và tôi chia chúng ra thành nhiều phần.</s>
+ <s id="14">Và lấy ra mẫu đầu tiên, được gọi là coxsackievirus, và chia chúng vào những ô nhỏ.</s>
+ <s id="15">Tôi sẽ tô xanh những ô nào có trong bộ gen của virus loại này chứa một chuỗi đồng nhất với virus loại kia. với loại virus bệnh kia.</s>
+ <s id="16">Những chuỗi trên đây-- chúng thậm chí không mã hóa cho protein-- lại hầu như đồng nhất tuyệt đối với nhau, do đó tôi có thể sử dụng dãy này như một vật làm dấu để phát hiện dải quang phổ rộng của virus, mà không cần phải làm gì đó quá đặc biệt.</s>
+ <s id="17">Trên đây là ví dụ về sự đa dạng: chính là nơi mà chúng phát biến đổi mạnh mẽ.</s>
+ <s id="18">Dưới đây bạn có thể thấy sự phát triển diễn ra chậm lại: sự kém đa dạng.</s>
+ <s id="19">Trong lúc đó, virus gây liệt cấp tính ở loài ong-- bạn sẽ biêt nó tệ thế nào nếu bạn là một con ong-- virus này hầu như không có điểm chung với coxsackievirus, nhưng tôi cam đoan với bạn rằng chuỗi gen vẫn hầu như nguyên vẹn giữa những virus ở phía bên phải màn hình ở cùng vùng với nhau bên phải, phía trên.</s>
+ <s id="20">Vì thế chúng ta có thể tóm gọn những vùng đồng nhất này thông qua sự phát triển, cách thức tiến hóa của virus chỉ với việc chọn các phân tử DNA hoặc RNA trong các vùng này để tương ứng với con chip như thể hợp chất phát hiện virus.</s>
+ <s id="21">Đó là những gì chúng tôi đã làm nhưng làm sao làm được điều đó?</s>
+ <s id="22">Một thời gian dài từ khi còn ở lớp cao học, tôi đã tốn thời gian làm chip DNA-- tức là in mẫu DNA trên kính.</s>
+ <s id="23">Đó là thứ bạn thấy: Những chấm muối nhỏ là những DNA được đính lên mặt kính và tôi có thể đặt hàng ngàn DNA lên con chip thủy tinh và dùng chúng như hợp chất phát hiện virus.</s>
+ <s id="24">Chúng tôi đem con chip tới Hewlett-Packard dùng kính hiển vi nguyên tử để quan sát và đây là những gì bạn thấy Bạn có thể thực sự thấy được các sợi của DNA nằm trên tấm kính.</s>
+ <s id="25">Và những gì chúng ta đang làm chỉ là in DNA lên kính, những thứ nhỏ bé này sẽ là chỉ điểm cho tác nhân gây bệnh.</s>
+ <s id="26">Tôi tạo ra vài con robot ở phòng thí nghiệm để chế tạo chip, Và tôi là một người rất thích truyền bá công nghệ.</s>
+ <p id="p27">
+  <s id="27.1">Nếu bạn có đủ tiền để mua một chiếc Camry, bạn cũng có thể tạo ra một trong số chúng.</s>
+  <s id="27.2">Chúng tôi đã viết một bản hướng dẫn kỹ càng, hoàn toàn miễn phí, trên website, với những phần về cơ bản đã được làm sẵn.</s>
+ </p>
+ <s id="28">Bạn có thể tạo ra một cái máy sắp xếp DNA ngay trong gara.</s>
+ <s id="29">Đây là phần chứa công tắc dừng trong mọi trường hợp khẩn cấp.</s>
+ <s id="30">( cười ) Mọi thiết bị quan trọng đều phải có một nút bấm thật to màu đỏ.</s>
+ <s id="31">Nhưng nó hơi to quá.</s>
+ <s id="32">Bạn có thể thực sự tạo ra chip DNA trong gara của mình và giải mã vài chương trình gen khá nhanh.</s>
+ <p id="p33">
+  <s id="33.1">Nó khá là thú vị. ( cười ) Và đó là những gì chúng tôi đã làm và đây thực sự là một dự án độc đáo.</s>
+  <s id="33.2">Chúng tôi bắt đầu làm con chip virus hô hấp</s>
+ </p>
+ <s id="34">Tôi đã nói về điều đó -- bạn biết đấy, lúc bạn bước vào phòng khám và không được chẩn đoán?</s>
+ <s id="35">Đặt những virus hô hấp cơ bản trên người vào một con chip và đưa virus herpes vào để thêm phần thú vị -- Tại sao không chứ?</s>
+ <s id="36">Việc đầu tiên bạn làm như một nhà khoa học là đảm bảo chip hoạt động.</s>
+ <s id="37">Và những gì chúng tôi đã làm là, lấy các tế bào nuôi cấy mô lây nhiễm chúng bằng các virus khác nhau, sau đó lấy những thứ đó đi và dán nhãn huỳnh quang lên các axit nucleic, thành phần gen sẽ thoát ra các tế bào nuôi cấy mô- hầu hết là thành phần virus- và đặt chúng vào mảng để thấy nơi chúng bám vào.</s>
+ <s id="38">Nếu chuỗi DNA khớp, chúng sẽ dính vào nhau Và bạn có thể nhìn thấy các điểm.</s>
+ <s id="39">Trong các điểm sáng chắc chắn chứa virus.</s>
+ <s id="40">Đây là hình ảnh của một con chip, Các điểm đỏ, thực chất là dấu hiệu của virus.</s>
+ <s id="41">Mỗi điểm đại diện cho một họ các dòng virus hoặc các loài virus.</s>
+ <s id="42">Thật khó để nhìn mọi thứ bằng cách đấy, do đó tôi sẽ mã hóa chúng như mã vạch, được nhóm theo dòng, bạn sẽ thấy được kết quả theo một cách hết sức trực quan.</s>
+ <s id="43">Việc chúng tôi làm là lấy tế bào đã cấy mô và lây nhiễm chúng với virus adeno, bạn có thể thấy vạch vàng cạnh virus adeno.</s>
+ <s id="44">Và tương tự, chúng tôi lây nhiễm chúng với parainfluenza-3 virus quai bị và bạn sẽ thấy một vạch nhỏ.</s>
+ <s id="45">Sau đó chúng tôi tiến hành với virus hô hấp hợp bào.</s>
+ <s id="46">Đó là tai họa ở khắp các trung tâm nhà trẻ nó cơ bản giống như chất nhầy trong mũi.</s>
+ <s id="47">( cười ) Bạn có thể thấy mã vạch này là cùng một họ, tuy nhiên nó khác xa parainfluenza-3, thứ có thể khiến bạn cảm lạnh rất nặng.</s>
+ <s id="48">Chúng tôi tìm ra vân tay virus</s>
+ <s id="49">Polio và Rhino: chúng là một gia đình, rất thân thiết</s>
+ <p id="p50">
+  <s id="50.1">Rhino là bệnh cảm, polio thì ai cũng đã rõ.</s>
+  <s id="50.2">Và bạn có thể thấy các dấu hiệu khác biệt.</s>
+ </p>
+ <s id="51">Và Kaposi's sarcoma kết hợp với virus herpes cho ra một dấu hiệu tích cực dưới đây.</s>
+ <s id="52">Và nó không phải đường sọc hay thứ gì báo với tôi có virus loại nào ở đây; mà chính mã vạch với số lượng lớn là thứ đại diện cho toàn bộ.</s>
+ <s id="53">Tôi có thể quan sát một con virus rhino đây là hình phóng to mã vạch virus rhino nhưng các loại virus rhino khác thì sao?</s>
+ <s id="54">Làm sao tôi biết mình đang có loại nào?</s>
+ <s id="55">Có 102 chủng loại cảm lạnh được biết đến, Và chỉ 102 vì họ đã chán tập hợp chúng Mỗi năm có thêm một chủng mới</s>
+ <s id="56">Và đây là 4 virus rhino khác nhau và có thể thấy bằng mắt thường mà không ghép mẫu lên máy tính thuật toán phần mềm nhận diện Bạn có thể phân biệt các mã vạch</s>
+ <s id="57">Nó không cần thiết Vì tôi biết chuỗi gen virus Tôi làm con chip rõ ràng là để có thể phân biệt chúng, nhưng còn các nhóm virus rhino mà ta chưa bao giờ thấy bộ gen sắp xếp ra sao?</s>
+ <s id="58">Không rõ về chuỗi, chúng tôi đưa chúng ra.</s>
+ <p id="p59">
+  <s id="59.1">Và đây là 4 loại virus rhino mà chúng tôi chưa bao giờ biết đến.</s>
+  <s id="59.2">Chưa ai nhận diện trình tự gen của chúng và bạn cũng có thể thấy các mẫu độc nhất và phân biệt được.</s>
+ </p>
+ <s id="60">Bạn có thể tưởng tượng việc xây dựng vài thư viện, thật hoặc ảo, về "vân tay" của hầu hết các loại virus.</s>
+ <s id="61">Nhưng điều đó, mặt khác, quá đơn giản bạn biết mà đúng không?</s>
+ <s id="62">Bạn có các tế bào cấy mô với cả loạt virus.</s>
+ <s id="63">Còn về người thật thì sao?</s>
+ <s id="64">Bạn biết không thể kiểm soát con người.</s>
+ <s id="65">Bạn không biết một người sẽ ho những cái gì vào một cái chén, và điều đó có lẽ thật sự phức tạp, phải không?</s>
+ <s id="66">Nó có thể chứa nhiều vi khuẩn, có thể có nhiều hơn 1 con virus và chắc chắn có chất liệu gen từ vật chủ.</s>
+ <s id="67">Vậy phải làm thế nào?</s>
+ <s id="68">Làm sao để tạo ra 1 gen chứa sẵn virus đó?</s>
+ <s id="69">Điều đó thực ra khá đơn giản.</s>
+ <s id="70">Tôi đang tiến hành rửa mũi.</s>
+ <s id="71">Và ý tưởng ở đây là tiêm nhiễm thực nghiệm virus lên cơ thể người.</s>
+ <s id="72">Đó là những gì đã được ủy ban xét duyệt thông qua và họ được trả tiền cho việc đó.</s>
+ <s id="73">Và về cơ bản, chúng tôi đã tiêm nhiễm thực nghiệm trên người virus cảm thường.</s>
+ <s id="74">Hay thậm chí tốt hơn, hãy cùng đưa người ra phòng cấp cứu việc lây nhiếm qua đường hô hấp, dễ lan rộng ra cộng đồng và chưa xác định.</s>
+ <s id="75">Bạn sẽ không biết cái gì vừa đi qua cửa.</s>
+ <s id="76">Do đó, trước tiên, hãy cùng bắt đầu với mẫu gen chứa sẵn virus, trên một cơ thể người khỏe mạnh.</s>
+ <s id="77">Họ phun virus lên trên mũi, hãy xem có chuyện gì.</s>
+ <s id="78">Ngày 0: không có gì bất thường xảy ra.</s>
+ <p id="p79">
+  <s id="79.1">Họ sạch sẽ và khỏe mạnh.</s>
+  <s id="79.2">Thật ngạc nhiên!</s>
+ </p>
+ <s id="80">Thực sự chúng tôi nghĩ mũi có đầy virus ngay cả khi bạn khỏe.</s>
+ <p id="p81">
+  <s id="81.1">Khá sạch.</s>
+  <s id="81.2">Nếu khỏe, bạn cũng khá khỏe đấy.</s>
+ </p>
+ <s id="82">Ngày 2: chúng tôi có một mẫu virus rhino ở trạng thái khỏe mạnh, rất giống mẫu trong phòng thí nghiệm khi tiến hành cấy mô.</s>
+ <s id="83">Nó thú vị nhưng khó hiểu đúng không</s>
+ <p id="p84">
+  <s id="84.1">Chúng tôi để tất cả virus vào mũi cậu bé ( Cười ) Ý tôi là chúng tôi muốn nó hoạt động.</s>
+  <s id="84.2">Và quả thật cậu bé đã bị cảm lạnh.</s>
+ </p>
+ <s id="85">Vậy những người cách xa đường phố thì sao?</s>
+ <s id="86">Hai cá thể vô danh này có mã ID đại diện</s>
+ <s id="87">Chúng đều có virus rhino, những mẫu chúng tôi chưa từng thấy trong phòng lab.</s>
+ <s id="88">Chúng tôi giải mã các phần của virus; chúng giờ là những con virus rhino mới hiện nay chưa ai thấy.</s>
+ <s id="89">Hãy nhớ, chuỗi gen bảo tồn khi tiến hóa chúng ta dùng trong mảng giúp ta phát hiện các virus lạ, thậm chí chưa rõ đặc điểm vì chúng ta đã lựa chọn dấu hiệu được bảo tồn suốt chiều dài tiến hóa.</s>
+ <p id="p90">
+  <s id="90.1">Đây là một anh chàng khác.</s>
+  <s id="90.2">Bạn có thể tự mình chẩn đoán ở đây.</s>
+ </p>
+ <s id="91">Những khối khác biệt này đại diện các virus khác nhau của họ virus quai bị, hãy đi xuống các khối và quan sát vị trí của các dấu hiệu.</s>
+ <s id="92">Không có bệnh nào của chó ở đây, điều đó có vẻ tốt đấy.</s>
+ <s id="93">( Cười ) Nhưng lúc bạn tới khối thứ 9, bạn sẽ nhận ra virus hợp bào hô hấp.</s>
+ <p id="p94">
+  <s id="94.1">Có thể chúng có thế hệ sau nữa.</s>
+  <s id="94.2">Và sau đó, bạn cũng có thể thấy, thành viên liên quan trong họ: RSVB.</s>
+ </p>
+ <s id="95">Điều đó thật tuyệt.</s>
+ <s id="96">Đây là một cá thể khác, được lấy mẫu vào hai ngày riêng biệt bằng việc quay lại phòng khám vào ngày khác</s>
+ <s id="97">Mẫu này có chứa parainfluenza-1, bạn có thể thấy, ở đây có một ít vết sọc của virus Sendal : parainfluenza chuột</s>
+ <s id="98">Mối quan hệ di truyền rất gần gũi Chúng tôi làm con chip</s>
+ <s id="99">Chúng tôi đã làm một con chip chứa các loại virus được biết từ trước tới nay.</s>
+ <p id="p100">
+  <s id="100.1">Tại sao không?</s>
+  <s id="100.2">Virus trên cây, côn trùng, virus ở biển.</s>
+ </p>
+ <s id="101">Mọi thứ chúng tôi lấy được ở ngân hàng gen, kho chứa quốc gia về các chuỗi gen.</s>
+ <s id="102">Chúng ta dùng chíp để làm gì</s>
+ <s id="103">Đầu tiên cần chíp lớn cỡ này cần ít kiến thức tin học Chúng tôi tạo ra máy tự chuẩn đoán</s>
+ <p id="p104">
+  <s id="104.1">Và ý tưởng ở đây là chúng ta chỉ việc sử dụng các mẫu ảo, vì ta không bao giờ có mọi mẫu virus-- Đó là điều thực sự không tưởng.</s>
+  <s id="104.2">Nhưng lại nhận được mô hình ảo và so sánh chúng với kết quả quan sát, phức tạp đánh giá mức độ tương tự virus rhino và virus khác</s>
+ </p>
+ <s id="105">Và nó trông thế này đây</s>
+ <s id="106">Ví dụ bạn dùng một tế bào cấy mô thứ bị u nhú lây nhiễm Sẽ có thiết bị thông tin Và thuật toán phát hiện là u nhú 18</s>
+ <s id="107">Các tế bào cấy mô đã nhiễm mãn tính</s>
+ <s id="108">Hãy thử việc khó hơn Để máy nơi khám</s>
+ <s id="109">khi có bệnh nhân, và bệnh viện không biết phải làm gì</s>
+ <s id="110">Vì họ không chuẩn đoán được, họ gọi điện Ý tưởng này sẽ được làm ở Bayrena</s>
+ <s id="111">Và 3 tuần trước, tình huống này đã diễn ra.</s>
+ <s id="112">Chúng tôi gặp một cô gái khỏe mạnh 28 tuổi, chưa từng đi đâu xa, không thuốc lá, không rượu bia.</s>
+ <s id="113">Có bệnh án 10 ngày sốt cao, đổ mồ hôi đêm, có máu trong đờm, cô ấy ho ra máu, chấn thương cơ bắp.</s>
+ <s id="114">Cô ấy đến phòng khám và được phát thuốc kháng sinh sau đó trở về nhà.</s>
+ <p id="p115">
+  <s id="115.1">Cô ấy trở lại sau mười ngày bị sốt, đúng không nhỉ?</s>
+  <s id="115.2">Và cô ấy vẫn còn sốt. và cô ấy thiếu oxy, cô ấy không có nhiều oxy dự trữ trong phổi.</s>
+ </p>
+ <s id="116">Họ đã chụp cắt lớp.</s>
+ <s id="117">Một lá phối bình thường ở chỗ này thì màu phải đen hoặc tối.</s>
+ <s id="118">Toàn bộ đây lại màu trắng, rất không tốt.</s>
+ <s id="119">Cấu trúc đám cây và chồi này chỉ ra rằng chỗ đó đã bị viêm; có vẻ như ở đây đã có sự lây nhiễm.</s>
+ <s id="120">Và sau đó bệnh nhân đã được điều trị với thuốc kháng sinh doxycycline, và cephalosporin đời ba, Tới ngày thứ ba nó không còn hữu hiệu nữa: việc điều trị đã thất bại nghiêm trọng.</s>
+ <s id="121">Họ phải luồn ống vào khí quản để giúp cô gái hô hấp Và bắt đầu thông khí cho cô ấy.</s>
+ <s id="122">Cô gái đã không thể tự thở được nữa.</s>
+ <p id="p123">
+  <s id="123.1">Tiếp theo phải làm gì?</s>
+  <s id="123.2">Không ai biết được.</s>
+ </p>
+ <s id="124">Họ đã thay đổi thuốc kháng sinh cho cô ấy, Tamiflu</s>
+ <s id="125">Không rõ tại sao họ nghĩ cô gái bị cúm, nhưng họ đã đổi sang dùng Tamiflu.</s>
+ <s id="126">Và đến ngày thứ sáu về cơ bản họ đã bỏ cuộc</s>
+ <s id="127">Bạn buộc phải tiến hành sinh thiết phổi khi mà bạn không còn lựa chọn nào khác.</s>
+ <s id="128">Tỉ lệ tử vong khi sử dụng cách này là 8%, và về cơ bản, bạn học được điều gì từ đây?</s>
+ <s id="129">Bạn đang thấy sinh thiết phổi của cô gái.</s>
+ <s id="130">Bạn không thể rút ra được gì nhiều từ đây.</s>
+ <s id="131">Những gì bạn có thể nói là có nhiều vết sưng tấy: viêm phế quản.</s>
+ <s id="132">Nó không được tiết lộ: Đó là báo cáo của chuyên gia bệnh lí học.</s>
+ <s id="133">Vậy họ đã thử nghiệm cô gái với mục đích gì?</s>
+ <s id="134">Có thí nghiệm riêng, và họ đã kiểm tra cô ấy với hơn 70 xét nghiệm, với tất cả các loại vi khuẩn, nấm cũng như virus thử nghiệm bạn có thể thấy những thứ đã có từ trước: SARS, metapneumovirus, HIV, RSV-- tất cả chúng .</s>
+ <s id="135">Kết quả âm tính và việc này mất 100.000$</s>
+ <s id="136">ý tôi là họ giành số tiền lớn cho cô gái</s>
+ <s id="137">Đến ngày thứ tám họ gọi chúng tôi</s>
+ <s id="138">Họ cho chung tôi hút khí quản Một ít chất lỏng từ họng từ cái ống ở đó và đưa cho chúng tôi</s>
+ <p id="p139">
+  <s id="139.1">Chúng tôi đặt lên con chip, thấy được gì?</s>
+  <s id="139.2">Kết quả, chúng tôi thấy parainfluenza-4.</s>
+ </p>
+ <s id="140">Parainfluenza-4 là cái quái gì chứ?</s>
+ <p id="p141">
+  <s id="141.1">Không ai kiểm tra parainfluenza-4.</s>
+  <s id="141.2">Chẳng ai để ý gì về nó cả.</s>
+ </p>
+ <s id="142">Thực tế, nó thậm chí không được giải mã nhiều.</s>
+ <s id="143">Chỉ có một phần nhỏ của nó được giải mã.</s>
+ <s id="144">Hầu như không có nghiên cứu nào về nó.</s>
+ <s id="145">Thậm chí chưa có ai từng để ý về nó, vì không ai có manh mối nào về việc nó có thể gây ra suy hô hấp.</s>
+ <p id="p146">
+  <s id="146.1">Đó là lí do?</s>
+  <s id="146.2">Chỉ toàn lí thuyết.</s>
+  <s id="146.3">Chẳng hề có dữ liệu nào-- không có bất cứ dữ liệu nào xác minh việc nó gây ra chứng bệnh nặng nhẹ ra sao.</s>
+ </p>
+ <s id="147">giờ thì chúng ta có một trường hợp về tình trạng suy giảm sức khỏe của một người</s>
+ <s id="148">OK, đó là một tình huống.</s>
+ <s id="149">Tôi sẽ nói với bạn một điều vào 2 phút cuối điều này chưa được công bố-- nó sẽ được thông báo vào ngày mai và nó là một tình huống thú vị về cách bạn có thể dùng con chip để tìm kiếm thứ mới và mở ra cánh cửa mới.</s>
+ <p id="p150">
+  <s id="150.1">Ung thư tuyến tiền liệt.</s>
+  <s id="150.2">Tôi sẽ không đưa nhiều con số thống kê cho các bạn về căn bệnh này.</s>
+  <s id="150.3">Hầu hết các bạn đã có những hiểu biết về nó: bệnh ung thư gây tử vong nhiều thứ ba ở Mỹ.</s>
+ </p>
+ <s id="151">Rất nhiều các yếu tố rủi ro, nhưng có một nhân tố gen dễ gây ra ung thư tuyến tiền liệt.</s>
+ <s id="152">Chiếm 10% nguyên nhân gây bệnh này có những người rất dễ mắc phải bệnh này.</s>
+ <s id="153">Và gen đầu tiên được vẽ trên bản đồ trong nghiên cứu về quần thể về bệnh này, ở giai đoạn đầu của bệnh, là một gen được gọi là RNASEL.</s>
+ <p id="p154">
+  <s id="154.1">Đó là cái gì?</s>
+  <s id="154.2">Chính là một loại enzym kháng virus.</s>
+ </p>
+ <p id="p155">
+  <s id="155.1">Chúng ta ngồi quanh đây và suy ngẫm. "</s>
+  <s id="155.2">Tại sao người có đột biến gen-- một lỗi trong hệ thống enzym kháng virus lại bị ung thư tuyến tiền liệt?</s>
+ </p>
+ <s id="156">Điều đó thật vô lí-- trừ phi, có thể có một con virus?"</s>
+ <s id="157">Và chúng tôi đưa các khối u ra ngoài và bây giờ đã có hơn 100 khối u trong danh sách hội thẩm.</s>
+ <s id="158">Và chúng tôi biết cái nào mắc lỗi trong RNASEL và cái nào không.</s>
+ <s id="159">Tôi đang chỉ cho các bạn thấy các tín hiệu từ con chip ở đây, và đang cho các bạn quan sát các khối oligo nucleotit của virus retro.</s>
+ <s id="160">Và cái tôi muốn nói với các bạn từ dấu hiệu là những người có đột biến trong enzym kháng virus này, và có một khối u, sẽ có 40% trường hợp-- thường có một tín hiệu báo trước sự xuất hiện của virus retro mới.</s>
+ <p id="p161">
+  <s id="161.1">OK, khá là lộn xộn.</s>
+  <s id="161.2">Vậy nó là cái gì?</s>
+ </p>
+ <s id="162">Nhân bản virus.</s>
+ <s id="163">Đầu tiên có một dự đoán Nó giống virus ở chuột Kết quả không cho ta biết nhiều</s>
+ <s id="164">vậy chúng ta nhân bản toàn bộ.</s>
+ <s id="165">Và gen virus mà các bạn đang thấy đây?</s>
+ <s id="166">Nó là một con virus retro gamma cổ điển, nhưng nó hoàn toàn mới; chưa ai từng thấy nó.</s>
+ <s id="167">Họ hàng gần nhất của nó, thực tế, từ những con chuột, và chúng tôi gọi đó là virus retro xenotropic, bởi vì nó lây nhiễm loài khác nhiều hơn loài chuột.</s>
+ <s id="168">Và đây là một mô hình cây về gen để thấy liên kết của nó với các virus khác.</s>
+ <s id="169">Chúng tôi hiện nay đã tiến hành dự án này cho nhiều bệnh nhân, và chúng tôi có thể nói rằng tất cả đều lây nhiễm độc lập.</s>
+ <s id="170">Họ đều có cùng virus, tuy nhiên, họ đủ khác nhau để có lý do tin rằng kết quả thu được hoàn toàn độc lập.</s>
+ <p id="p171">
+  <s id="171.1">Có thật nó ở trong mô?</s>
+  <s id="171.2">Tôi sẽ trả lời: Có.</s>
+ </p>
+ <s id="172">Chúng ta lấy các lát nhỏ của những sinh thiết từ mô của khối u và sử dụng vật liệu gen để định vị virus, và chúng tôi tìm được các tế bào ở đây với những con virus bên trong.</s>
+ <s id="173">Nhưng người này thực sự có chứa virus.</s>
+ <s id="174">Virus gây ra ung thư tuyến tiền liệt?</s>
+ <p id="p175">
+  <s id="175.1">Không có điều nào tôi đang nói ở đây ngụ ý điều đó cả.</s>
+  <s id="175.2">Tôi cũng không rõ nữa.</s>
+ </p>
+ <s id="176">Đó có phải là cầu nối của sự phát sinh?</s>
+ <p id="p177">
+  <s id="177.1">Tôi không biết nữa.</s>
+  <s id="177.2">Đây là trường hợp đàn ông dễ bị virus tấn công hơn bình thường không?</s>
+ </p>
+ <p id="p178">
+  <s id="178.1">Có thể.</s>
+  <s id="178.2">Và có thể nó chẳng có liên hệ gì tới bệnh ung thư cả.</s>
+ </p>
+ <s id="179">Song đó là hướng đi.</s>
+ <s id="180">Chúng tôi có sự kết hợp chặt chẽ giữa sự có mặt của virus này với một chứng đột biến gen liên quan tới bệnh ung thư.</s>
+ <s id="181">Chúng ta đang ở đó.</s>
+ <s id="182">Và tôi lo ngại rằng, nó gợi mở ra nhiều câu hỏi hơn là câu trả lời, đó là "nghề" của khoa học, bạn biết mà.</s>
+ <s id="183">Nó được mọi người trong phòng lab làm ra-- tôi không thể công nhận hầu hết những điều này</s>
+ <s id="184">Tôi và Don đã cộng tác</s>
+ <s id="185">Đây là chàng trai đã bắt đầu dự án trong phòng thí nghiệm của tôi, và cũng là người làm vụ tuyến tiền liệt.</s>
+ <p id="p186">
+  <s id="186.1">Cảm ơn các bạn rất nhiều.</s>
+  <s id="186.2">(Vỗ tay)</s>
+ </p>
+</text>

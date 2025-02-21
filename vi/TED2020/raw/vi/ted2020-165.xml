@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Vậy, những chú robot đang ở đâu rồi?</s>
+ <s id="2">Cách đây 40 năm người ta từng nói rằng chúng sẽ sớm ra đời.</s>
+ <s id="3">Chẳng bao lâu nữa chúng sẽ làm mọi việc cho chúng ta:</s>
+ <s id="4">chúng sẽ nấu nướng, giặt giũ, mua đồ, đi chợ, xây dựng.</s>
+ <p id="p5">
+  <s id="5.1">Nhưng tới nay thì vẫn chưa có.</s>
+  <s id="5.2">Trong khi chúng ta phải dùng người di dân bất hợp pháp để làm các việc đó, chúng ta lại không có con robot nào.</s>
+ </p>
+ <s id="6">Vậy chúng ta có thể làm gì, nói gì về việc này?</s>
+ <s id="7">Tôi muốn đưa ra một vài cách nhìn khác về việc làm thế nào chúng ta có thể nhìn nhận việc này khác đi một chút.</s>
+ <p id="p8">
+  <s id="8.1">Đây là bức ảnh x quang của một con bọ cánh cứng và một cái đồng hồ Thụy Sĩ từ năm 88.</s>
+  <s id="8.2">Bạn thấy đấy - những gì đúng trước đây cũng đúng với ngày nay.</s>
+ </p>
+ <s id="9">Cho đến nay chúng ta vẫn có thể làm đúng mấy thứ này,</s>
+ <s id="10">ta có thể làm các mạch điện máy tính chuẩn xác, nhưng ta không thể kết hợp chúng thành một cái gì đó có thể thực sự hoạt động và thích nghi được như các hệ thống này.</s>
+ <s id="11">Ta hãy cùng xem xét nó dưới một cách nhìn khác.</s>
+ <s id="12">Hãy mời nhà thiết kế cừ nhất, nguyên mẫu của tất cả các nhà thiết kế:</s>
+ <s id="13">hãy xem sự tiến hóa có thể làm được những gì.</s>
+ <s id="14">Nói ngắn gọn - chúng ta tạo ra một món súp cơ bản gồm các thành phần robot như: các thanh vật liệu, mô tơ, và các tế bào thần kinh.</s>
+ <s id="15">Lắp ráp lại với nhau và đặt nó dưới sự chọn lọc tự nhiên, dưới sự biến đổi, và thưởng cho nó nếu nó có thể tiến lên được.</s>
+ <s id="16">Một nhiệm vụ rất đơn giản, thật thú vị chờ đợi xem chuyện gì xảy ra.</s>
+ <p id="p17">
+  <s id="17.1">Các bạn thấy đấy, có nhiều loại máy móc khác nhau từ đó ra.</s>
+  <s id="17.2">Chúng đều chuyển động loanh quanh,</s>
+ </p>
+ <p id="p18">
+  <s id="18.1">chúng bò các kiểu khác nhau, và bạn có thể nhìn thấy ở bên phải, rằng chúng tôi thực tế đã làm một vài loại, và chúng hoạt động thực sự.</s>
+  <s id="18.2">Chúng không phải là những người máy hoàn hảo, nhưng chúng tiến triển đúng như chúng tôi muốn: tiến lên phía trước.</s>
+  <s id="18.3">Vậy là đã hoàn thành phần việc trên máy tính, nhưng chúng tôi còn thực hiện trên những cỗ máy thật.</s>
+ </p>
+ <s id="19">Đây là một người máy thực sự mà chúng tôi đã cấy một số não bộ, biết cạnh tranh, tức có tiến hóa, vào chiếc máy.</s>
+ <s id="20">Nó tựa như buổi trình diễn mô tô: chúng đều được điều khiển cỗ máy, và được thưởng cho việc đưa cỗ máy đi nhanh hay đi xa đến cỡ nào.</s>
+ <s id="21">Bạn có thể thấy những con robot này chưa sẵn sàng để thay đổi thế giới, nhưng chúng dần dần học cách đi về phía trước và chúng làm việc này một cách tự động.</s>
+ <s id="22">Trong hai ví dụ này, chúng tôi cơ bản có các cỗ máy học đi trong mô phỏng, và cả những cỗ máy học cách đi ngoài đời thật.</s>
+ <s id="23">Nhưng tôi muốn chỉ ra một cách tiếp cận khác, và đó là con robot này, nó có bốn chân,</s>
+ <s id="24">có 8 mô tơ, 4 cái ở đầu gối và 4 cái ở hông.</s>
+ <s id="25">Nó có hai bộ phận cảm ứng độ nghiêng giúp xác định nó đang nghiêng hướng nào.</s>
+ <s id="26">Nhưng nó không hề biết nó trông thế nào.</s>
+ <s id="27">Các bạn thấy nó có 4 chân, nó không biết nó là một con rắn hay là cái cây, nó không biết tí gì về hình dạng của nó, nhưng nó sẽ cố gắng để tìm ra điều đó sớm thôi.</s>
+ <s id="28">Trước tiên, nó thực hiện một số chuyển động ngẫu nhiên, sau đó nó cố xác định xem hình dạng nó thế nào -</s>
+ <p id="p29">
+  <s id="29.1">và bạn thấy có rất nhiều thứ đi qua "não" nó, nhiều mô hình tự rút ra để giải thích mối quan hệ giữa thực tế và cảm biến - sau đó thử làm hành động thứ hai để tạo sự khác biệt lớn nhất giữa các dự đoán của các mô hình khác nhau này, giống như nhà khoa học trong phòng nghiên cứu.</s>
+  <s id="29.2">Sau đó nó cố giải thích và lược bớt các mô hình tự rút ra đó.</s>
+ </p>
+ <s id="30">Đây là chu trình cuối cùng, bạn có thể thấy nó gần như nhận biết được hình dạng của nó, và khi nó đã tự mô hình hóa nó có thể sử dụng cái đó để rút ra khuôn thức chuyển động.</s>
+ <s id="31">Và các bạn đang thấy một cặp người máy - với một kiểu chuyển động.</s>
+ <s id="32">Chúng tôi hi vọng rằng nó sẽ đi kiểu ghê rợn giống như nhện vậy, nhưng nó lại đi kiểu khập khiễng như thế này.</s>
+ <s id="33">Nhưng khi bạn nhìn nó, bạn phải nhớ rằng cái máy này không được tập đi về phía trước, cũng như không có mô hình của chính nó.</s>
+ <s id="34">Nó tự nhận ra hình dạng của mình và xác định cách tiến lên phía trước, sau đó nó thử nghiệm.</s>
+ <s id="35">(Vỗ tay) Giờ chúng ta sẽ tiếp tục tới một ý tưởng khác.</s>
+ <p id="p36">
+  <s id="36.1">Đó là những gì xảy ra khi bạn có một cặp - khi bạn có một cặp -- Thôi nào, thôi nào -- (Tiếng cười) - chúng không thích nhau.</s>
+  <s id="36.2">Vậy nên...</s>
+  <s id="36.3">Có một con robot khác.</s>
+ </p>
+ <s id="37">Đó là những gì xảy ra khi các con robot được thưởng công vì đã làm gì đó.</s>
+ <s id="38">Điều gì xảy ra nếu bạn không thưởng chúng cái gì đó, bạn chỉ ném nó vào?</s>
+ <s id="39">Chúng ta có các khối lập phương này, giống như sơ đồ ở đây.</s>
+ <p id="p40">
+  <s id="40.1">Khối lập phương có thể xoay, lật các cạnh chúng ta cho 1000 khối lập phương này vào một nồi súp - đây là mô phỏng - và không thưởng cho chúng gì cả, ta chỉ để cho chúng trôi nổi.</s>
+  <s id="40.2">Ta tiếp năng lượng vào đây và xem điều gì xảy ra sau một vài biến đổi.</s>
+ </p>
+ <s id="41">Trước tiên, không có gì xảy ra, chúng chỉ lật qua lật lại.</s>
+ <s id="42">Nhưng sau một lúc, bạn có thể thấy các hộp màu xanh dương ở bên phải bắt đầu giành quyền kiểm soát.</s>
+ <p id="p43">
+  <s id="43.1">Chúng bắt đầu tự lặp lại.</s>
+  <s id="43.2">Do đó, khi không có sự thưởng công, phần thưởng bên trong thực chất là sự tự nhân bản.</s>
+ </p>
+ <s id="44">Và chúng tôi thực tế đã xây dựng một vài cái đó, và đây là một phần của con robot lớn hơn được tạo ra từ các khối này,</s>
+ <s id="45">đây là một đoạn băng chạy nhanh, nơi bạn có thể thấy con robot thực sự đang tiến hành quá trình tự tái tạo.</s>
+ <s id="46">Vậy khi bạn cung cấp thêm nguyên liệu cho nó - ở đây là các khối - và thêm năng lượng, nó có thể tạo ra một con robot khác.</s>
+ <s id="47">Tất nhiên đây là một cái máy còn rất thô sơ, nhưng chúng tôi đang làm một phiên bản kích cỡ siêu nhỏ, hi vọng những khối này sẽ nhỏ như bột nêm.</s>
+ <p id="p48">
+  <s id="48.1">Vậy chúng ta học được gì?</s>
+  <s id="48.2">Những robot này dĩ nhiên bản thân chúng không hữu ích lắm, nhưng chúng có lẽ dạy chúng ta một chút về cách làm sao ta có thể chế tạo robot tốt hơn, và về cách con người và động vật tự tạo ra những khuôn mẫu và học hỏi.</s>
+ </p>
+ <s id="49">Một trong các điều tôi nghĩ là quan trọng đó là chúng ta cần tránh xa với ý tưởng thiết kế các máy bằng tay, mà phải để nó tiến hóa và học, giống như trẻ con, và có lẽ đó là cách thức mà chúng ta có thể tiến lên.</s>
+ <p id="p50">
+  <s id="50.1">Cảm ơn các bạn.</s>
+  <s id="50.2">(Vỗ tay)</s>
+ </p>
+</text>

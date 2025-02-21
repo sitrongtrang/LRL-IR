@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <p id="p1">
+  <s id="1.1">Tôi làm hai việc.</s>
+  <s id="1.2">Tôi thiết kế máy tính di động và tôi nghiên cứu não bộ.</s>
+ </p>
+ <s id="2">Và buổi nói chuyện hôm nay là về bộ não và, ê, ngoài kia có một fan của não kìa.</s>
+ <s id="3">(Cười) Tôi sẽ, nếu chiếu được slide đầu tiên lên đây, và bạn sẽ thấy tựa bài nói và hai chỗ mà tôi làm việc.</s>
+ <p id="p4">
+  <s id="4.1">Thế thì tôi định bàn về tại sao ta không có một lý thuyết tốt về não bộ.</s>
+  <s id="4.2">Vì sao phát triển một lý thuyết như vậy quan trọng và ta có thể làm được gì.</s>
+ </p>
+ <s id="5">Tôi sẽ thử giải thích trong vòng 20 phút tới.</s>
+ <p id="p6">
+  <s id="6.1">Tôi có 2 chỗ làm.</s>
+  <s id="6.2">Hầu hết các bạn biết tôi từ những ngày ở Palm và Handspring,</s>
+ </p>
+ <s id="7">nhưng tôi cũng điều hành một viện nghiên cứu phi lợi nhuận gọi là Viện Khoa học Thần kinh Redwood ở Menlo Park,</s>
+ <s id="8">và chúng tôi nghiên cứu khoa học thần kinh lý thuyết, và bọn tôi nghiên cứu cách vỏ não (neocortex) hoạt động.</s>
+ <s id="9">Tôi sẽ nói về cái đó.</s>
+ <p id="p10">
+  <s id="10.1">Tôi có một slide về cuộc sống kia của tôi, cuộc đời máy tính, đó là slide này.</s>
+  <s id="10.2">Đây là vài sản phẩm mà tôi đã làm trong 20 năm qua,</s>
+ </p>
+ <s id="11">bắt đầu từ chiếc laptop nguyên thủy nhất cho đến những máy tablet đầu tiên và cứ thế, gần đây nhất là máy điện thoại Treo, và chúng tôi cứ tiếp tục làm chuyện này.</s>
+ <s id="12">Và tôi làm điều này bởi vì tôi thực sự tin rằng tính toán di động là tương lai của tính toán cá nhân, và tôi cố làm cho thế giới tốt hơn một chút bằng việc thực hiện những thứ này.</s>
+ <s id="13">Nhưng phải thú nhận rằng chuyện này là tình cờ thôi.</s>
+ <s id="14">Thật ra tôi đâu có muốn làm bất kì sản phẩm nào</s>
+ <s id="15">và khi bắt đầu sự nghiệp tôi đã quyết định là sẽ không theo đuổi công nghiệp máy tính.</s>
+ <s id="16">Và trước khi tôi kể về chuyện đó, tôi chỉ phải nói với bạn tấm hình nhỏ kia là một bức graffiti tôi lấy trên mạng hôm trước.</s>
+ <s id="17">Tôi đang ngắm bức graffiti, dòng chữ nhỏ về ngôn ngữ nhập liệu</s>
+ <s id="18">và tôi thấy một website ngợi khen những giáo viên muốn làm những thứ này, bạn biết đó, viết mã trên đầu bảng đen, và họ đã thêm graffiti vô đó, và tôi xin lỗi về chuyện đó.</s>
+ <p id="p19">
+  <s id="19.1">(Cười) Chuyện xảy ra là, khi tôi còn trẻ và mới tốt nghiệp trường kĩ sư, ở Cornell năm 79, tôi quyết định là đi làm cho Intel.</s>
+  <s id="19.2">Tôi làm trong ngành công nghiệp máy tính, và sau ba tháng,</s>
+ </p>
+ <s id="20">tôi xiêu lòng với một thứ khác, và tôi nói, "Mình chọn nghề sai rồi," và tôi trở nên yêu bộ não.</s>
+ <s id="21">Đây không phải là não thật.</s>
+ <s id="22">Đây là bức tranh của não, vẽ theo nét.</s>
+ <s id="23">Nhưng tôi không còn nhớ chính xác nó xảy ra thế nào nữa, nhưng tôi có một hồi ức rất mạnh trong tâm trí.</s>
+ <s id="24">Vào tháng 9 năm 1979, tờ Scientific America có ra một số với một chủ đề duy nhất về bộ não.</s>
+ <p id="p25">
+  <s id="25.1">Và nó rất hay.</s>
+  <s id="25.2">Đó là một trong những số hay nhất từ trước tới giờ.</s>
+ </p>
+ <s id="26">Và họ đã bàn về neuron và sự phát triển, về bệnh tật, về tầm nhìn và mọi thứ mà bạn muốn biết về bộ não.</s>
+ <p id="p27">
+  <s id="27.1">Rất là ấn tượng.</s>
+  <s id="27.2">Người ta thường hay có ấn tượng là chúng ta đã biết rất nhiều về não.</s>
+ </p>
+ <s id="28">Nhưng bài báo cuối của số đó do Francis Crick, người nổi tiếng nhờ DNA, viết.</s>
+ <s id="29">Tôi nghĩ hôm này là ngày kỉ niệm 50 năm khám phá ra DNA.</s>
+ <s id="30">Và ông ấy đã viết một câu chuyện nói đơn giản rằng, à, thật ra thì hay đó, nhưng bạn biết gì không, là chúng ta không biết một chút gì về bộ não và không ai có ý niệm gì về cách nó hoạt động, vậy thì đừng có tin những gì người khác nói với bạn.</s>
+ <p id="p31">
+  <s id="31.1">Đây là câu trích trong bài viết đó.</s>
+  <s id="31.2">Ông ấy nói, "Cái đang thiếu rõ ràng nhất," ông ấy là đúng là một quý ông Anh quốc đích thực nên mới nói, "Cái đang thiếu rõ ràng nhất là một cơ cấu khái quát của các ý tưởng để diễn giải các cách tiếp cận khác nhau."</s>
+  <s id="31.3">Tôi nghĩ rằng dùng từ "cơ cấu" là rất hay.</s>
+ </p>
+ <s id="32">Ông ấy không nói là chúng ta thậm chí còn không có một lý thuyết.</s>
+ <s id="33">Ông nói là chúng ta thậm chí còn không biết bắt đầu nghĩ về nó như thế nào --</s>
+ <s id="34">chúng ta còn chưa có một cơ cấu.</s>
+ <s id="35">Ta đang ở trong những ngày của tiền mô thức (pre-paradigm) nếu nói theo Thomas Kuhn.</s>
+ <s id="36">Và tôi phải lòng với chuyện này, và tự nói với mình rằng nhìn xem</s>
+ <s id="37">ta đã có tất cả các kiến thức này về não.</s>
+ <p id="p38">
+  <s id="38.1">Còn có thể khó như thế nào nữa?</s>
+  <s id="38.2">Và đây là thứ mà tôi có thể làm cả đời.</s>
+  <s id="38.3">Tôi cảm thấy rằng mình có thể tạo sự khác biệt,</s>
+ </p>
+ <s id="39">và tôi cố rời bỏ máy tính để theo đuổi bộ não.</s>
+ <s id="40">Đầu tiên tôi đến MIT, lab về trí tuệ nhân tạo ở đó,</s>
+ <s id="41">và tôi nói là tôi cũng muốn tạo các máy móc thông minh, nhưng cách tôi muốn làm là tìm hiểu cách bộ não hoạt động trước.</s>
+ <s id="42">Và họ nói là, ồ, anh không cần làm vậy đâu.</s>
+ <s id="43">Chúng ta chỉ lập trình máy tính, đó là mọi thứ cần làm.</s>
+ <s id="44">Và tôi nói, không, các anh phải tìm hiểu về não.</s>
+ <s id="45">Họ nói là, ồ, anh biết không,</s>
+ <p id="p46">
+  <s id="46.1">anh sai rồi.</s>
+  <s id="46.2">Và tôi nói, không, các anh mới sai, và tôi đã không được nhận.</s>
+ </p>
+ <p id="p47">
+  <s id="47.1">(Cười) Nhưng tôi hơi thất vọng -- còn trẻ mà, nhưng tôi quay lại lần nữa vào vài năm sau và lần này thì ở California, tôi tới Berkeley.</s>
+  <s id="47.2">Và tôi nói là tôi sẽ đi theo hướng sinh học.</s>
+ </p>
+ <s id="48">Thế là tôi được nhận vào chương trình tiến sĩ ngành lý sinh, tôi xem như ổn.</s>
+ <s id="49">Giờ tôi học về não, và tôi nói, được rồi, tôi muốn nghiên cứu lý thuyết.</s>
+ <s id="50">Và họ nói, không được, anh không nghiên cứu lý thuyết về não được.</s>
+ <p id="p51">
+  <s id="51.1">Đó không phải thứ anh cần làm.</s>
+  <s id="51.2">Anh không được tài trợ đâu.</s>
+ </p>
+ <s id="52">Nếu là nghiên cứu sinh, anh không thể làm chuyện đó.</s>
+ <s id="53">Thế là tôi nói, trời ơi.</s>
+ <p id="p54">
+  <s id="54.1">Tôi rất buồn phiền.</s>
+  <s id="54.2">Tôi nói là nhưng tôi có thể tạo ra sự khác biệt cho ngành này.</s>
+ </p>
+ <s id="55">Thế là tôi quay trở lại ngành máy tính và tự nói là mình sẽ phải làm ở đây một thời gian, làm cái gì đó.</s>
+ <s id="56">Đó là lúc tôi thiết kế tất cả những sản phẩm máy tính đó.</s>
+ <s id="57">(Cười) Tôi nói là tôi muốn làm chuyện này 4 năm thôi, kiếm chút tiền, cứ như là đang có gia đình, rồi tôi sẽ trưởng thành hơn, và biết đâu ngành khoa học thần kinh sẽ trưởng thành hơn một chút.</s>
+ <p id="p58">
+  <s id="58.1">Chà, mất hơn 4 năm đó.</s>
+  <s id="58.2">Khoảng chừng 16 năm.</s>
+ </p>
+ <s id="59">Nhưng giờ tôi đang làm chuyện đó, và tôi sẽ nói cho các bạn về nó.</s>
+ <s id="60">Thế thì tại sao chúng ta nên có một lý thuyết về não tốt?</s>
+ <s id="61">Ồ, có nhiều lý do người ta làm khoa học.</s>
+ <s id="62">Lý do cơ bản nhất là người ta muốn hiểu biết.</s>
+ <s id="63">Chúng ta tò mò, và chúng ta bước ra ngoài để tìm hiểu?</s>
+ <s id="64">Tại sao chúng ta lại nghiên cứu về kiến?</s>
+ <p id="p65">
+  <s id="65.1">Ồ, vì nó thú vị.</s>
+  <s id="65.2">Có thể ta sẽ biết được cái gì đó hữu dụng về nó, nhưng nó thú vị và quyến rũ.</s>
+ </p>
+ <s id="66">Nhưng đôi khi, một ngành khoa học có những thuộc tính khác làm cho nó rất là thú vị.</s>
+ <s id="67">Đôi khi một ngành khoa học chỉ ra điều gì đó về bản thân chúng ta, nó nói chúng ta là ai.</s>
+ <s id="68">Thỉnh thoảng có chuyện như thuyết tiến hóa nói thế này hay Copernicus nói thế kia để giúp ta hiểu được chúng ta là ai.</s>
+ <p id="p69">
+  <s id="69.1">Suy cho cùng, chúng ta chính là bộ não.</s>
+  <s id="69.2">Não tôi đang nói chuyện với não bạn.</s>
+ </p>
+ <p id="p70">
+  <s id="70.1">Cơ thể chỉ là đi kèm mà thôi, nhưng não tôi đang nói chuyện với não bạn.</s>
+  <s id="70.2">Và nếu ta muốn hiểu được ta là ai và ta cảm xúc và nhận thức thế nào,</s>
+ </p>
+ <p id="p71">
+  <s id="71.1">ta sẽ thật sự hiểu được bộ não là gì.</s>
+  <s id="71.2">Còn một chuyện khác là đôi khi khoa học</s>
+ </p>
+ <s id="72">dẫn đến những lợi ích lớn cho xã hội, công nghệ, hay là việc kinh doanh, thứ gì cũng được.</s>
+ <s id="73">Và đây cũng là một lợi ích bởi vì khi ta hiểu được cách não hoạt động, ta sẽ có thể tạo nên các máy móc thông minh, và tôi nghĩ là điều đó rất tốt cho mọi thứ,</s>
+ <s id="74">và nó sẽ có lợi ích cực lớn cho xã hội như là một công nghệ cơ bản.</s>
+ <s id="75">Thế thì tại sao chúng không có một lý thuyết tốt cho bộ não?</s>
+ <s id="76">Và con người đã nghiên cứu nó trong 100 năm qua.</s>
+ <s id="77">Trước tiên hãy xem khoa học thông thường trông như thế nào.</s>
+ <s id="78">Đây là khoa học thông thường.</s>
+ <s id="79">Khoa học thông thường là một sự cân bằng khéo léo giữa lý thuyết và thực nghiệm.</s>
+ <p id="p80">
+  <s id="80.1">Và khi người làm lý thuyết nói, ồ, tôi nghĩ nó diễn ra thế này, và người làm thực nghiệm nói, không, anh sai rồi.</s>
+  <s id="80.2">Và nó cứ qua lại như vậy, bạn thấy không?</s>
+ </p>
+ <s id="81">Cách này phù hợp cho vật lý, cho địa lý.</s>
+ <p id="p82">
+  <s id="82.1">Nhưng nếu đó là khoa học thông thường, còn khoa học thần kinh thì như thế nào?</s>
+  <s id="82.2">Khoa học thần kình như thế này.</s>
+ </p>
+ <s id="83">Chúng ta có một núi dữ liệu, bao gồm giải phẫu học, sinh lý học và hành vi.</s>
+ <s id="84">Bạn không thể tưởng tượng bao nhiêu chi tiết có được về bộ não.</s>
+ <s id="85">Có 28.000 người đến dự hội nghị về khoa học thần kinh năm nay, và mỗi người đều làm nghiên cứu về não.</s>
+ <s id="86">Rất nhiều dữ liệu.</s>
+ <s id="87">Nhưng không có lý thuyết.</s>
+ <s id="88">Và lý thuyết chưa hề có vai trò chủ đạo nào trong khoa học thần kinh.</s>
+ <s id="89">Thật đáng xấu hổ.</s>
+ <s id="90">Nhưng tại sao lại như vậy?</s>
+ <p id="p91">
+  <s id="91.1">Nếu bạn hỏi một nhà thần kinh học, tại sao lại như thế?</s>
+  <s id="91.2">Trước tiên họ sẽ thú thật là vậy.</s>
+ </p>
+ <s id="92">Nhưng rồi họ sẽ nói, ồ, có nhiều lý do chúng tôi không có được một lý thuyết về não tốt.</s>
+ <s id="93">Vài người sẽ nói, ồ, chúng tôi chưa có đủ dữ liệu, cần có thêm thông tin, còn rất nhiều thứ chưa biết.</s>
+ <s id="94">Vậy thì tôi mới nói với bạn rằng có quá nhiều dữ liệu được tạo ra.</s>
+ <s id="95">Chúng ta có quá nhiều thông tin; chúng ta không biết bắt đầu tổ chức thế nào.</s>
+ <s id="96">Vậy thì có nhiều hơn lợi ích chỗ nào?</s>
+ <s id="97">Có thể chúng ta sẽ may mắn khám phá ra điều gì đó kỳ diệu, nhưng tôi không nghĩ vậy.</s>
+ <s id="98">Đây thật sự là triệu chứng của việc chúng ta không có một lý thuyết.</s>
+ <s id="99">Chúng ta không cần thêm dữ liệu -- mà cần một lý thuyết tốt về dữ liệu đó.</s>
+ <s id="100">Đôi khi người ta còn nói là bộ não quá phức tạp, cần thêm 50 năm nữa.</s>
+ <p id="p101">
+  <s id="101.1">Tôi thậm chí còn nghĩ là Chris đã nói cái gì giống vậy ngày hôm qua.</s>
+  <s id="101.2">Tôi không chắc anh đã nói gì, Chris, nhưng kiểu như là, ồ, nó là thứ phức tạp nhất của vũ trụ.</s>
+ </p>
+ <p id="p102">
+  <s id="102.1">Điều đó không đúng.</s>
+  <s id="102.2">Bạn còn phức tạp hơn não của bạn.</s>
+ </p>
+ <p id="p103">
+  <s id="103.1">Bạn sở hữu một bộ não mà.</s>
+  <s id="103.2">Và mặc dù bộ não nhìn rất phức tạp,</s>
+ </p>
+ <s id="104">mọi thứ còn phức tạp cho đến lúc nào bạn hiểu chúng.</s>
+ <p id="p105">
+  <s id="105.1">Luôn luôn là như vậy.</s>
+  <s id="105.2">Vậy thì tất cả những gì ta có thể nói</s>
+ </p>
+ <s id="106">là lớp vỏ não của tôi, phần não mà tôi quan tâm đến, có 30 tỉ tế bào.</s>
+ <s id="107">Nhưng bạn biết gì không?</s>
+ <p id="p108">
+  <s id="108.1">Điều này rất phổ biến.</s>
+  <s id="108.2">Sự thật là nó cứ như được lặp đi lặp lại nhiều lần vậy.</s>
+ </p>
+ <p id="p109">
+  <s id="109.1">Nó không phức tạp như nhìn thế đâu.</s>
+  <s id="109.2">Đó không phải là vấn đề.</s>
+ </p>
+ <s id="110">Có người nói là bộ não không thể hiểu được bộ não.</s>
+ <s id="111">Như là công án thiền.</s>
+ <p id="p112">
+  <s id="112.1">Bạn biết đấy-- (Cười) Nghe hay đây, nhưng tại sao?</s>
+  <s id="112.2">Ý tôi là mục đích là gì?</s>
+ </p>
+ <p id="p113">
+  <s id="113.1">Nó chỉ là một mớ tế bào.</s>
+  <s id="113.2">Bạn hiểu được lá gan của mình.</s>
+ </p>
+ <s id="114">Nó cũng có nhiều tế bào phải không?</s>
+ <s id="115">Nên bạn biết đó, tôi không nghĩ có gì phức tạp cả.</s>
+ <s id="116">Và cuối cùng, có những người nói là Tôi không cảm thấy như là một mớ tế bào.</s>
+ <p id="p117">
+  <s id="117.1">Tôi tỉnh táo.</s>
+  <s id="117.2">Tôi có kinh nghiệm, tôi sống trong thế giới.</s>
+ </p>
+ <s id="118">Tôi không thể là một mớ tế bào đâu.</s>
+ <s id="119">Ồ, bạn biết không, người ta đã thường tin rằng có một năng lực tinh thần để ta tồn tại, và giờ thì ta biết chuyện đó hoàn toàn không đúng.</s>
+ <s id="120">Và thật ra không có bằng chứng gì ngoài việc người ta chỉ không tin rằng tế bào có thể hoạt động theo cách của nó.</s>
+ <s id="121">Thế thì nếu ai đó đã rơi vào bẫy của thuyết nhị nguyên siêu hình, những người giỏi lắm đấy, nhưng ta có thể bác bỏ mọi thứ đó.</s>
+ <s id="122">(Cười) Không, tôi sắp nói cho bạn là có một thứ khác, và nó rất là cơ bản, nó là thế này: có một lý do khác tại sao chúng ta không có một lý thuyết về não tốt, đó là vì chúng ta có một sự thừa nhận rất vững chắc bằng trực giác nhưng lại không chính xác đã ngăn cản chũng ta thấy được câu trả lời.</s>
+ <s id="123">Có một thứ mà ta tin tưởng nhưng rõ ràng là sai lầm.</s>
+ <s id="124">Bây giờ, có cả một lịch sử về nó trong khoa học và trước khi tôi nói nó là gì, tôi sẽ nói một chút về lịch sử của nó.</s>
+ <s id="125">Bạn hãy nhìn về các cuộc cách mạng khoa học khác, và trong trường hợp này, tôi nói về hệ mặt trời, đó là Copernicus, thuyết tiến hóa Darwin, về đĩa kiến tạo, đó là Wegener.</s>
+ <s id="126">Chúng có nhiều điểm chung với khoa học não bộ.</s>
+ <s id="127">Đầu tiên là chúng có nhiều dữ liệu chưa giải thích.</s>
+ <p id="p128">
+  <s id="128.1">Rất là nhiều.</s>
+  <s id="128.2">Nhưng nó trở nên dễ quản lý hơn khi đã có một lý thuyết.</s>
+ </p>
+ <s id="129">Những trí tuệ xuất sắc nhất đã chịu thua, những người sáng láng nhất.</s>
+ <p id="p130">
+  <s id="130.1">Chúng ta giờ không thông minh hơn họ ngày xưa đâu.</s>
+  <s id="130.2">Nó chỉ là rất khó để suy nghĩ về những thứ đó, nhưng một khi bạn đã nghĩ rồi, khá dễ để hiểu được nó.</s>
+ </p>
+ <s id="131">Các con gái tôi hiểu ba lý thuyết này về mặt cơ bản trước khi chúng vào mẫu giáo.</s>
+ <s id="132">Và không có gì khó cả, bạn biết đấy, đây trái táo, đây là trái cam, trái đất thì hình cầu, đại loại như vậy.</s>
+ <s id="133">Cuối cùng, còn một điều nữa là câu trả lời luôn nằm sẵn, nhưng ta dường như lờ nó đi chính vì cái điều rõ ràng đó.</s>
+ <s id="134">Đó chính là niềm tin trực giác vững chắc nhưng sai lầm.</s>
+ <p id="p135">
+  <s id="135.1">Đối với hệ mặt trời, ý tưởng trái đất xoay vòng và bề mặt trái đất có vận tốc như là một ngàn dặm một giờ, và trái đất đi trong hệ mặt trời khoảng một triệu dặm một giờ.</s>
+  <s id="135.2">Điên rồ quá.</s>
+  <s id="135.3">Ai cũng biết là trái đất không có dịch chuyển.</s>
+ </p>
+ <p id="p136">
+  <s id="136.1">Bạn có cảm thấy là mình đang đi một ngàn dặm một giờ không?</s>
+  <s id="136.2">Dĩ nhiên là không.</s>
+ </p>
+ <p id="p137">
+  <s id="137.1">Bạn biết là nếu có ai từng nói là trái đất đang quay trong không gian và nó rất là lớn, người ta sẽ nhốt bạn lại, ngày xưa họ làm vậy đó.</s>
+  <s id="137.2">(Cười)</s>
+ </p>
+ <p id="p138">
+  <s id="138.1">Vật thì nó rất trực giác và rõ ràng.</s>
+  <s id="138.2">Thế còn thuyết tiến hóa thì sao?</s>
+ </p>
+ <p id="p139">
+  <s id="139.1">Cũng vậy thôi.</s>
+  <s id="139.2">Chúng ta đã dạy trẻ con là Kinh thánh nói rằng,</s>
+ </p>
+ <p id="p140">
+  <s id="140.1">Chúa tạo ra mọi giống loài, mèo là mèo, chó là chó, người là người, cây cỏ là cây cỏ, chúng không hề thay đổi.</s>
+  <s id="140.2">Noah đưa chúng lên tàu theo trật tự đó, đại loại thế.</s>
+ </p>
+ <s id="141">Và bạn biết chứ, sự thật là nếu bạn tin vào thuyết tiến hóa, chúng ta đều có chung ông tổ,</s>
+ <s id="142">có cùng một tổ tiên với cái cây ngoài hành lang.</s>
+ <p id="p143">
+  <s id="143.1">Đó là điều mà thuyết tiến hóa dạy ta.</s>
+  <s id="143.2">Và đó là sự thật.</s>
+ </p>
+ <p id="p144">
+  <s id="144.1">Không thể tin được.</s>
+  <s id="144.2">Đĩa kiến tạo thì cũng vậy thôi.</s>
+ </p>
+ <p id="p145">
+  <s id="145.1">Tất cả núi non và đại lục đều nổi trên bề mặt của địa cầu.</s>
+  <s id="145.2">Thấy không, nó không có nghĩa gì hết.</s>
+ </p>
+ <s id="146">Nó là sự thừa nhận trực giác nhưng không chính xác, đã khiến chúng ta không hiểu được bộ não?</s>
+ <s id="147">Giờ tôi sắp nói với bạn, và nó trông đương nhiên đến mức là chính xác,</s>
+ <p id="p148">
+  <s id="148.1">và là điểm cốt yếu, phải không?</s>
+  <s id="148.2">Thế thì tôi sẽ phản biện rằng tại sao bạn đã sai về các thừa nhận khác.</s>
+ </p>
+ <s id="149">Cái trực giác và đương nhiên là bằng cách nào đó trí thông minh được định nghĩa bằng hành vi, rằng chúng ta thông minh là vì cách chúng ta làm việc và cư xử một cách thông minh, tôi sẽ nói với bạn như vậy là sai.</s>
+ <s id="150">Trí thông minh được định nghĩa bằng khả năng tiên đoán.</s>
+ <s id="151">Và tôi sẽ chỉ cho bạn trong mấy slide sắp tới, cho bạn một ví dụ điều đó nghĩa là gì.</s>
+ <s id="152">Đây là một hệ thống.</s>
+ <s id="153">Các kĩ sư thích quan sát các hệ thống thế này.</s>
+ <p id="p154">
+  <s id="154.1">Khoa học gia cũng vậy.</s>
+  <s id="154.2">Họ nói rằng chúng ta có một thứ trong cái hộp, chúng ta có dữ liệu và kết quả.</s>
+ </p>
+ <s id="155">Người làm trí tuệ nhân tạo nói vật trong hộp là một máy tính đã được lập trình vì nó tương đương với một bộ não, ta sẽ cấp cho nó vài dữ liệu</s>
+ <s id="156">bắt nó làm gì đó, có được hành vi nào đó.</s>
+ <p id="p157">
+  <s id="157.1">Và Alan Turing định nghĩa bài test Turing, về cơ bản nói rằng, chúng ta biết được thứ gì đó thông minh nếu nó cư xử như con người.</s>
+  <s id="157.2">Đó là thước đo sự thông minh, và nó đã tồn tại trong đầu chúng ta rất lâu.</s>
+ </p>
+ <s id="158">Nhưng trong thực tế tôi gọi nó là trí thông mình thật.</s>
+ <s id="159">Trí thông minh thật được tạo nên từ những thứ khác.</s>
+ <p id="p160">
+  <s id="160.1">Chúng ta trải nghiệm thế giới qua một chuỗi các mẫu hình, và ta lưu chúng lại, và nhớ lại chúng.</s>
+  <s id="160.2">Khi nhớ lại, ta so sánh chúng với thực tế</s>
+ </p>
+ <s id="161">và chúng ta luôn tiên đoán.</s>
+ <p id="p162">
+  <s id="162.1">Đó là thước đo vĩnh viễn.</s>
+  <s id="162.2">Một thước đo của chúng ta để nói là chúng ta có hiểu thế giới không.</s>
+  <s id="162.3">Tôi có đang dự đoán không?</s>
+ </p>
+ <p id="p163">
+  <s id="163.1">Cứ như thế.</s>
+  <s id="163.2">Bạn đang thông minh ngay lúc này, nhưng bạn không làm gì cả.</s>
+  <s id="163.3">Có thể bạn đang gãi, hoặc đang móc mũi,</s>
+ </p>
+ <s id="164">Tôi không biết, nhưng bạn không làm gì hết lúc này,</s>
+ <s id="165">nhưng bạn vẫn thông minh, bạn hiểu tôi đang nói gì.</s>
+ <p id="p166">
+  <s id="166.1">Chính vì bạn thông minh và biết tiếng Anh, bạn biết cái từ ở cuối của cái -- (Yên lặng) câu này.</s>
+  <s id="166.2">Từ đó đến với bạn, và bạn luôn luôn tiên đoán.</s>
+ </p>
+ <p id="p167">
+  <s id="167.1">Thế thì cái tôi đang nói là khả năng tiên đoán vĩnh viễn là kết quả trong vỏ não.</s>
+  <s id="167.2">Và bằng cách nào đó, sự tiên đoán dẫn tới ứng xử thông minh.</s>
+ </p>
+ <p id="p168">
+  <s id="168.1">Cách nó làm là thế này.</s>
+  <s id="168.2">Hãy thử với một bộ não không thông minh.</s>
+  <s id="168.3">Tôi sẽ lý luận với bộ não không thông minh, lấy một bộ não xưa cũ,</s>
+ </p>
+ <p id="p169">
+  <s id="169.1">không phải của loài có vú, lấy của bò sát vậy, chẳng hạn như cá sấu.</s>
+  <s id="169.2">Ta có một con cá sấu.</s>
+ </p>
+ <s id="170">Con cá sấu có vài cơ quan cảm thụ rất phức tạp.</s>
+ <p id="p171">
+  <s id="171.1">Nó có mắt tốt và tai và cơ quan cảm giác, miệng và mũi.</s>
+  <s id="171.2">Nó có hành xử rất phức tạp.</s>
+ </p>
+ <p id="p172">
+  <s id="172.1">Nó có thể chạy và trốn.</s>
+  <s id="172.2">Nó biết sợ và biết cảm xúc.</s>
+ </p>
+ <p id="p173">
+  <s id="173.1">Nó có thể ăn thịt bạn.</s>
+  <s id="173.2">Nó có thể tấn công.</s>
+  <s id="173.3">Làm được mọi thứ.</s>
+ </p>
+ <s id="174">Nhưng ta không xem con cá sấu thông minh lắm, không như con người.</s>
+ <s id="175">Nhưng hành xử của nó đã phức tạp rồi.</s>
+ <s id="176">Thế thì trong quá trình tiến hóa, cái gì đã xảy ra?</s>
+ <s id="177">Đầu tiên là với loài có vú, ta bắt đầu phát triển cái gọi là vỏ não.</s>
+ <s id="178">Tôi sẽ đại diện vỏ não bằng cái hộp chui ra khỏi phần đầu của não cũ.</s>
+ <s id="179">Võ nào là một lớp mới nằm trên não của bạn.</s>
+ <s id="180">Nếu bạn chưa biết, nó là thứ nhăn nheo ở trên đầu bạn, nó nhăn bởi vì bị nhét vô mà không vừa.</s>
+ <p id="p181">
+  <s id="181.1">(Cười) Không thật ra nó là vậy.</s>
+  <s id="181.2">Nó có cỡ một tấm khăn ăn.</s>
+  <s id="181.3">Và nó không vừa nên bị nhăn.</s>
+ </p>
+ <s id="182">Giờ hãy nhìn xem tôi vẽ.</s>
+ <p id="p183">
+  <s id="183.1">Bộ não cũ vấn đó.</s>
+  <s id="183.2">Bạn vẫn có não của con cá sấu.</s>
+ </p>
+ <s id="184">Đúng vậy.</s>
+ <p id="p185">
+  <s id="185.1">Đó là não dành cho cảm xúc.</s>
+  <s id="185.2">Đó dành cho những phản ứng bản năng của bạn.</s>
+ </p>
+ <s id="186">Và bên trên nó, ta có hệ thống bộ nhớ được gọi là vỏ não.</s>
+ <s id="187">Và hệ thống bộ nhớ nằm bên trên phần cảm nhận của não.</s>
+ <s id="188">Và khi các dữ liệu cảm nhận đến với bộ não cũ, nó cũng đến vỏ não.</s>
+ <s id="189">Và vỏ não chỉ ghi nhớ lại.</s>
+ <s id="190">Nó ngồi đó và nói là, việc của mình là nhớ hết những gì diễn ra. mình đã ở đâu, gặp ai, nghe thấy gì, cứ như vậy.</s>
+ <p id="p191">
+  <s id="191.1">Và trong tương lai, khi nó thấy thứ gì tương tự lần nữa, trong một môi trường tương tự, hay đúng là môi trường cũ, nó sẽ gợi lại.</s>
+  <s id="191.2">Nó bắt đầu gợi lại.</s>
+  <s id="191.3">À, tôi đã từng ở đây.</s>
+  <s id="191.4">Và anh cũng ở đây khi trước, có chuyện này đã xảy ra.</s>
+ </p>
+ <s id="192">Nó cho phép bạn tiên đoán tương lai.</s>
+ <s id="193">Nó cho phép bạn, theo đúng nghĩa đen là đưa lại tín hiệu vào não bạn, nó cho phép bạn thấy được cái gì sắp xảy ra, sẽ cho bạn nghe được từ "câu" trước khi tôi nói ra.</s>
+ <s id="194">Và nó gửi thông tin đến bộ não cũ để cho bạn có thể quyết định thông minh hơn.</s>
+ <s id="195">Đây là slide quan trọng nhất của buổi nói chuyện, nên tôi dừng ở đây lâu một chút.</s>
+ <p id="p196">
+  <s id="196.1">Vậy thì bạn luôn có thể nói là, ồ, tôi có thể tiên đoán sự vật.</s>
+  <s id="196.2">Nếu bạn là một con chuột đi trong mê cung, bạn sẽ học được mê cung, lần kế tiếp bạn đến mê cung, bạn sẽ cư xử y hệt,</s>
+ </p>
+ <s id="197">nhưng đột nhiên, bạn sẽ thông minh hơn vì bạn sẽ nói, à, tôi nhận ra mê cung này, tôi biết đi thế nào, tôi đã từng ở đây, tôi có thể thấy được tương lai.</s>
+ <s id="198">Đó là cái xảy ra cho con người và cũng đúng cho mọi loài có vú,</s>
+ <s id="199">nó đúng cho các loài có vú, và ở con người, nó tệ hơn nhiều.</s>
+ <p id="p200">
+  <s id="200.1">Ở con người, chúng ta thật ra phát triển phần trước của vỏ não.</s>
+  <s id="200.2">Và tự nhiên đã có một mẹo.</s>
+ </p>
+ <s id="201">Nó chép lại phần sau, là phần cảm giác, và đưa lên phía trước.</s>
+ <s id="202">Nên chỉ độc nhất con người có cơ chế hệt như vậy ở phía trước, nhưng ta dùng nó để điều khiển chuyển động (motor control)</s>
+ <s id="203">Nên ta có thể tạo các chuyển động phức tạp.</s>
+ <p id="p204">
+  <s id="204.1">Tôi không có thời gian để nói về mọi thứ, nhưng nếu bạn muốn hiểu cách não hoạt động, bạn phải hiểu cách phần đầu của vỏ não của động vật có vú hoạt động, cách chúng ta lưu lại mẫu hình và tiên đoán.</s>
+  <s id="204.2">Vậy để tôi cho bạn vài ví dụ về tiên đoán.</s>
+ </p>
+ <p id="p205">
+  <s id="205.1">Tôi đã nói từ "câu".</s>
+  <s id="205.2">Trong âm nhạc,</s>
+ </p>
+ <p id="p206">
+  <s id="206.1">nếu bạn đã nghe một bài hát trước kia, nếu đã nghe Jill hát những bài đó, khi cô ấy hát, nốt kế tiếp sẽ bật lên trong đầu bạn -- bạn mong đợi nó.</s>
+  <s id="206.2">Nếu nó là một album,</s>
+ </p>
+ <s id="207">thì hết một album, bài kế tiếp bật lên trong đầu bạn.</s>
+ <p id="p208">
+  <s id="208.1">Và những chuyện này luôn xảy ra.</s>
+  <s id="208.2">Bạn làm ra các dự đoán.</s>
+ </p>
+ <s id="209">Tôi có cái gọi là thí nghiệm trong đầu "cửa bị sửa" (thought experiment).</s>
+ <s id="210">Thí nghiệm này nói là, bạn có một cái cửa ở nhà, khi bạn đang ở đây, tôi đổi nó đi, tôi có người ở nhà bạn ngay lúc này, dịch cái cửa sang chỗ khác, họ lấy tay cầm và dịch nó đi 2 inch.</s>
+ <s id="211">Và khi tối nay bạn về nhà, bạn đưa tay lên, với tới tay cầm và bạn sẽ nhận thấy là nó không đúng chỗ, bạn sẽ nói, chà, có gì xảy ra đây.</s>
+ <s id="212">Chắc mất chừng một giây để hiểu được, nhưng có gì đó đã xảy ra.</s>
+ <p id="p213">
+  <s id="213.1">Giờ tôi có thế đổi tay cầm theo cách khác.</s>
+  <s id="213.2">Làm cho nó lớn lên hay nhỏ đi, đổi từ bằng đồng sang bằng bạc, Tôi có thể chuyển nó thành cái cần.</s>
+  <s id="213.3">Có thể đổi cửa, sơn màu lên, Có thể đặt cửa sổ.</s>
+  <s id="213.4">Tôi có thể đổi hàng ngàn thứ với cái cửa của bạn,</s>
+ </p>
+ <s id="214">và chỉ trong 2 giây bạn mở cửa, bạn sẽ nhận ra có gì đó thay đổi.</s>
+ <p id="p215">
+  <s id="215.1">Giờ thì, cách tiếp cận kĩ thuật, cách tiếp cận thông minh nhân tạo với vấn đề này, là tạo nên một cơ sơ dữ liệu cửa.</s>
+  <s id="215.2">Nó có tất cả các thuộc tính của cái cửa.</s>
+ </p>
+ <p id="p216">
+  <s id="216.1">Và bạn sẽ đến bên cái cửa, bạn biết đó, hãy kiểm tra mỗi lần một thứ.</s>
+  <s id="216.2">Cửa, cửa, cửa, bạn biết chứ, màu sắc, bạn biết tôi muốn nói gì.</s>
+ </p>
+ <s id="217">Chúng ta không làm chuyện đó.</s>
+ <p id="p218">
+  <s id="218.1">Não của bạn không làm chuyện đó.</s>
+  <s id="218.2">Cái não làm là luôn tiên đoán ngay lập tức cái gì sắp xảy ra trong môi trường của bạn.</s>
+ </p>
+ <s id="219">Nếu tôi để tay lên ban, tôi mong là nó sẽ ngừng lại.</s>
+ <s id="220">Khi tôi đi mỗi bước, nếu tôi lỡ khoảng 1/8 inch, tôi biết là có gì đã thay đổi.</s>
+ <s id="221">Bạn liên tục dự đoán về môi trường của mình.</s>
+ <s id="222">Tôi sẽ nói về tầm nhìn một chút.</s>
+ <s id="223">Đây là hình của một người phụ nữ.</s>
+ <s id="224">Và khi bạn nhìn con người, mắt bạn sẽ chuyên động 2 đến 3 lần trong một giây.</s>
+ <p id="p225">
+  <s id="225.1">Bạn không ý thức được chuyện này, nhưng mắt bạn luôn dịch chuyển.</s>
+  <s id="225.2">Khi bạn nhìn mặt ai đó,</s>
+ </p>
+ <s id="226">một cách đặc trưng, bạn sẽ đi từ mắt sang mắt rồi mũi rồi miệng.</s>
+ <s id="227">Nếu bạn chuyển từ mắt sang mắt, mà có cái gì đó ở đó như là một cái mũi, bạn thấy cái mũi thay vì phải là con mắt, bạn sẽ thốt lên, chết rồi --</s>
+ <s id="228">(Cười) Người này có gì đó kì quặc.</s>
+ <s id="229">Đó là vì bạn đang tiên đoán.</s>
+ <p id="p230">
+  <s id="230.1">Nó không phải là bạn nhìn qua rồi nói, tôi thấy gì đây?</s>
+  <s id="230.2">Mũi hả, cũng ok.</s>
+  <s id="230.3">Không, bạn mong đợi cái bạn sắp thấy.</s>
+ </p>
+ <s id="231">(Cười)</s>
+ <s id="232">Trong mỗi khoảng khắc.</s>
+ <s id="233">Và cuối cùng, hãy nghĩ về cách ta kiểm tra trí thông minh.</s>
+ <p id="p234">
+  <s id="234.1">Ta kiểm tra nó bằng sự tiên đoán.</s>
+  <s id="234.2">Từ kế tiếp ở đây là gì?</s>
+ </p>
+ <p id="p235">
+  <s id="235.1">Cái này ứng với cái này cũng như cái này với cái kia.</s>
+  <s id="235.2">Số kế tiếp là gì trong câu này?</s>
+ </p>
+ <p id="p236">
+  <s id="236.1">Đây là ba hình hiển thị của một đối tượng.</s>
+  <s id="236.2">Thế thì cái thứ tư là gì?</s>
+ </p>
+ <p id="p237">
+  <s id="237.1">Đó là cách chúng ta kiểm tra nó.</s>
+  <s id="237.2">Toàn là về tiên đoán.</s>
+ </p>
+ <s id="238">Vậy thì công thức cho lý thuyết não là gì?</s>
+ <s id="239">Đầu tiên, chúng ta phải có cơ cấu đúng.</s>
+ <p id="p240">
+  <s id="240.1">Và đó là cơ cấu bộ nhớ, không phải là cơ cấu hành xử hay tính toán.</s>
+  <s id="240.2">Đó là cơ cấu bộ nhớ.</s>
+  <s id="240.3">Làm thế nào mà bạn lưu và gợi lại các chuỗi hay mẫu hình này?</s>
+ </p>
+ <p id="p241">
+  <s id="241.1">Đó là mẫu không và thời gian.</s>
+  <s id="241.2">Rồi thì trong cơ cấu đó, bạn dùng một nhóm các nhà lý thuyết.</s>
+ </p>
+ <p id="p242">
+  <s id="242.1">Nhà sinh học thường không phải là nhà lý thuyết giỏi.</s>
+  <s id="242.2">Không phải luôn là vậy, nhưng thường hay vậy, không có một lịch sử hay về lý thuyết trong sinh học.</s>
+ </p>
+ <s id="243">Cho nên tôi thấy những người tốt nhất là nhà vật lý, kĩ sư và toán học, nhưng người hay nghĩ theo thuật toán.</s>
+ <s id="244">Rồi thì họ phải học về giải phẫu học, về sinh lý học.</s>
+ <s id="245">Bạn phải làm cho các lý thuyết này thật thực tế theo nghĩa giải phẫu học.</s>
+ <p id="p246">
+  <s id="246.1">Ai mà đứng lên nói với bạn lý thuyết về não mà không nói được chính xác nó hoạt động trong não thế nào và cách nó kết nối trong não, thì đó không phải là lý thuyết.</s>
+  <s id="246.2">Và đó là việc chúng tôi đang là ở viện khoa học thần kinh Redwood.</s>
+ </p>
+ <p id="p247">
+  <s id="247.1">Tôi rất muốn có thêm thời gian để nói rằng chúng tôi đang tiến những bước tuyệt vời, và mong rằng sẽ có dịp quay lại sân khấu này, chắc sẽ có dịp khác không lâu để kể với các bạn.</s>
+  <s id="247.2">Tôi rất là háo hức.</s>
+ </p>
+ <s id="248">Sẽ không mất đến 50 năm đâu.</s>
+ <s id="249">Thế thì lý thuyết về não nó như thế nào?</s>
+ <s id="250">Trước hết, nó sẽ là lý thuyết về bộ nhớ.</s>
+ <s id="251">Hầu như không như bộ nhớ máy tính đâu.</s>
+ <p id="p252">
+  <s id="252.1">Nó rất là khác.</s>
+  <s id="252.2">Và nó là bộ nhớ của các khuôn mẫu</s>
+ </p>
+ <s id="253">nhiều chiều, như những thứ đi từ mắt của bạn.</s>
+ <p id="p254">
+  <s id="254.1">Nó cũng là bộ nhớ của các chuỗi.</s>
+  <s id="254.2">Bạn không thể học hay gợi lại cái gì ở ngoài một chuỗi.</s>
+ </p>
+ <s id="255">Một bài hát phải được nghe theo trình tự thời gian, và được chơi lại theo trình tự thời gian.</s>
+ <p id="p256">
+  <s id="256.1">Và các chuỗi này được gọi lại một cách liên đới tự động, nên nếu tôi thấy gì đó, tôi nghe gì đó, nó gợi cho tôi về nó, và tự động trở lại.</s>
+  <s id="256.2">Đó là quá trình trở lại tự động.</s>
+ </p>
+ <s id="257">Và tiên đoán dữ liệu tương lại là kết quả mong muốn.</s>
+ <s id="258">Và khi tôi nói, lý thuyết phải chính xác về mặt sinh học, nó phải có thể kiểm chứng, và bạn phải biết cách xây dựng nó.</s>
+ <s id="259">Nếu bạn không xây dựng nó, bạn không hiểu nó.</s>
+ <p id="p260">
+  <s id="260.1">Thế thì, thêm một slide nữa nhé.</s>
+  <s id="260.2">Vậy kết quả của việc này là gì?</s>
+ </p>
+ <s id="261">Có phải ta sẽ thật sự tạo nên các máy thông minh?</s>
+ <s id="262">Đương nhiên vậy.</s>
+ <s id="263">Và nó sẽ khác với cái mọi người nghĩ.</s>
+ <s id="264">Không nghi ngờ gì nó sẽ xảy ra, theo suy nghĩ của tôi.</s>
+ <s id="265">Đâu tiên, chúng tôi sẽ tạo nó từ silicon.</s>
+ <s id="266">Cùng một kĩ thuật mà chúng tôi dùng để tạo bộ nhớ silicon của máy tính, ta có thể dùng được ở đây.</s>
+ <s id="267">Nhưng chúng là loại bộ nhớ rất khác.</s>
+ <s id="268">Và chúng tôi sẽ gắn các bộ nhớ này vào các cảm biến, và các cảm biến sẽ cảm nhận dữ liệu của thế giới thật, những thứ này sẽ học về môi trường của chúng.</s>
+ <s id="269">Nhiều phần những thứ đầu tiên bạn thấy sẽ không phải là robot.</s>
+ <s id="270">Không phải là robot vô dụng và người ta có thể tạo được robot.</s>
+ <p id="p271">
+  <s id="271.1">Nhưng robot là phần khó nhất.</s>
+  <s id="271.2">Đó là não cũ, là cái khó nhất.</s>
+ </p>
+ <s id="272">Bộ não mới thật ra dễ hơn não cũ.</s>
+ <s id="273">Nên việc đầu tiên chúng tôi làm là những thứ không đòi hỏi nhiều về robot.</s>
+ <s id="274">Nên bạn sẽ không thấy C-3PO đâu.</s>
+ <s id="275">Bạn sẽ thấy nhiều thứ như xe hơi thông minh thật sự hiểu được giao thông và lái xe là gì và đã học được rằng những xe chớp đèn trong hơn nửa phút chắc là sẽ không quẹo đâu, những thứ như vậy đó.</s>
+ <s id="276">(Cười) Ta cũng có thể tạo ra các hệ thống an ninh thông minh.</s>
+ <p id="p277">
+  <s id="277.1">Ở bất kì nơi nào mà ta đơn giản là dùng bộ não, nhưng không động chân động tay.</s>
+  <s id="277.2">Đó là những thứ sẽ xảy ra trước.</s>
+ </p>
+ <s id="278">Nhưng cuối cùng, thế giới chính là giới hạn.</s>
+ <s id="279">Tôi không biết nó sẽ trở nên thế nào.</s>
+ <s id="280">Tôi biết nhiều người đã đầu tư vào bộ vi xử lý</s>
+ <s id="281">và nếu bạn nói chuyện với họ, họ đã biết rằng cái họ làm rất quan trọng, nhưng họ thật ra đã không biết cái gì sẽ xảy ra.</s>
+ <s id="282">Họ không chờ đợi điện thoại di động, internet hay những thứ khác.</s>
+ <p id="p283">
+  <s id="283.1">Họ chỉ biết là, ờ, phải tạo nên máy tính và bộ điều khiển tín hiệu giao thông.</s>
+  <s id="283.2">Nhưng rồi nó sẽ phát triển lớn lắm.</s>
+ </p>
+ <s id="284">Cũng hệt như vậy, đây là khoa học về não vào bộ nhớ</s>
+ <s id="285">sẽ trở thành công nghệ cơ bản, và sẽ dẫn đến nhưng thay đổi không thể tin được trong 100 năm nữa.</s>
+ <s id="286">Và tôi háo hức nhất về cách chúng ta sẽ dùng chúng trong khoa học.</s>
+ <s id="287">Tôi nghĩ là hết giờ rồi, tôi xong rồi và xin dừng bài nói ở đây.</s>
+</text>

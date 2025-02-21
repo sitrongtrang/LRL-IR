@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+ <s id="1">Tại sao những trạm xăng luôn ở kề bên nhau</s>
+ <s id="2">Và đôi khi lái xe cả dặm mà chẳng tìm được quán cafe nào để rồi thấy ba bốn cái một lúc ở một góc đường</s>
+ <s id="3">Tại sao những tiệm tạp hóa, sửa xe và cả những nhà hàng hay tụ họp với nhau thành một khu thay vì rải đều trên một địa bàn dân cư</s>
+ <s id="4">Trong khi có khá nhiều các lý do ảnh hưởng đến quyết định đặt địa điểm kinh doanh của bạn hiện tượng kể trên có thể giải thích bằng một câu chuyện đơn giản Hotelling's Model of Spatial Competition (Mô hình Ganh đua vị trí của Hotelling)</s>
+ <s id="5">Hãy tưởng tượng bạn bán kem trên bờ biển</s>
+ <s id="6">Bãi biển của bạn dài một dặm không ai cạnh tranh với bạn</s>
+ <s id="7">Bạn sẽ để xe kem ở đâu để bán được nhiều kem nhất?</s>
+ <s id="8">Ngay chính giữa.</s>
+ <s id="9">Đi bộ nửa dặm có thể vẫn quá xa đối với một số người ở hai đầu của bãi nhưng dù sao xe kem của bạn đã bán được nhiều người nhất có thể</s>
+ <s id="10">Một ngày, khi bạn bắt đầu anh họ Teddy của bạn cũng ở đó với xe kem riêng của anh ấy</s>
+ <s id="11">Thực tế, anh ta bán loại kem giống hệt bạn</s>
+ <s id="12">Bạn đồng ý chia bãi làm hai</s>
+ <s id="13">Và để đảm bảo các khách hàng không phải đi bộ quá xa Bạn đặt xe kem 1/4 dặm về phía nam trung tâm bãi ngay chính giữa lãnh thổ của bạn</s>
+ <s id="14">Teddy đặt 1/4 dặm về phía bắc của trung tâm bãi ngay chính giữa lãnh thổ của Teddy</s>
+ <s id="15">Với thỏa thuận này, mọi người ở phía nam của bạn sẽ mua kem của bạn</s>
+ <s id="16">Những người bắc Teddy sẽ mua từ anh ấy và một nửa số người còn lại ở giữa sẽ đi đến xe kem gần hơn</s>
+ <s id="17">Không ai phải đi hơn 1/4 dặm và mỗi xe bán cho một nửa số người trên bãi biển</s>
+ <s id="18">Trong lý thuyết trò chơi (Game theory), đây là giải pháp tối ưu cho xã hội</s>
+ <s id="19">Nó giảm đến mức thấp nhất quãng đường tối đa khách hàng phải đi để đến một xe kem</s>
+ <s id="20">Ngày tiếp theo, khi bạn đến Teedy lại đặt xe ngay chính giữa bãi</s>
+ <s id="21">Bạn thì về lại vị trí cũ 1/4 dặm phía nam điểm giữa và có được 25% lượng khách, những người phía nam bạn</s>
+ <s id="22">Teddy vẫn có được toàn bộ khách phía bắc anh ấy nhưng bây giờ còn giành nửa 25% ở giữa hai người</s>
+ <s id="23">Ngày thứ ba của chiến tranh kem bạn đến sớm và đặt xe ngay giữa lãnh thổ phía bắc của Teddy nghĩ rằng mình sẽ giành được 75% người tắm biển phía nam làm cho ông anh họ chỉ bán được 25% số người còn lại về phái bắc</s>
+ <s id="24">Teddy đến, anh ấy đặt xe ngay cạnh bạn về phía nam lấy đi toàn bộ khách hàng phía nam và để cho bạn số ít khách về phia bắc</s>
+ <s id="25">Không chịu thua, bạn dời xe 10 bước phía nam Teddy để đoạt lại khách hàng</s>
+ <s id="26">Giờ nghỉ trưa, Teddy dời 10 bước về phía nam bạn và lần nữa. giành lại toàn bộ khách hàng về phía đầu kia của bãi</s>
+ <s id="27">Suốt ngày hôm đó cả hai xe cứ lần lượt dời về phía nam để tiếp cận phần đa số người mua cho đến khi cả hai ở ngay chính giữa bãi tựa lưng vào nhau, bán cho 50% khách phía mình</s>
+ <s id="28">Lúc này, bạn và ông anh họ đối thủ cạnh tranh đã đạt trạng thái Cân bằng Nash (Nash Equilibrium) của lý thuyết trò chơi khi mà không ai còn có thể cải thiện kết quả của họ nữa nếu chệch đi chiến lược hiện tại</s>
+ <s id="29">Chiến lược ban đầu của bạn khi mỗi người 1/4 dặm từ giữa bãi không bền vững, bởi vì nó không phải cân bằng Nash</s>
+ <s id="30">Cả hai đều không thể dời về phía người kia để bán được nhiều kem hơn nữa</s>
+ <s id="31">Khi mà cả hai đã đều ở chình giữa bãi bạn không thể dời vị trí để gần hơn những khách hàng ở xa mà không làm giảm đi những khách hàng hiện tại</s>
+ <s id="32">Tuy nhiên, bạn cũng đã đánh mất giải pháp tối ưu cho xã hội khi mà khách hàng ở hai đầu phải đi xa hơn cần thiết để tận hưởng que kem mát lạnh</s>
+ <s id="33">Giờ về những chuỗi cửa hàng thức ăn nhanh thời trang, điện thoại di động ở trung tâm mua sắm</s>
+ <s id="34">Có lẽ sẽ tốt cho khách hàng hơn nếu chúng được rải đều trong cộng đồng nhưng điều đó là không thể trong sự cạnh tranh ráo riết từ đối thủ</s>
+ <s id="35">Thực tế, khách hàng đến từ nhiều hướng và doanh nghiệp thì tự do cạnh tranh với chiến lược marketing tạo sự khác biệt của dòng sản phẩm, hay giảm giá nhưng trong cốt lõi doanh nghiệp thường thích ở càng gần đối thủ càng tốt.</s>
+</text>
