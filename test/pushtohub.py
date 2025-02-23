@@ -4,8 +4,8 @@ from datasets import Dataset, DatasetInfo, concatenate_datasets
 import pandas as pd
 
 # Path to your JSON files
-json_folder = "dq_khm_culture"
-dataset_name = "IR4LRL/khmer-cultural-query-document"
+json_folder = "dq_vi_economic"
+dataset_name = "IR4LRL/vietnamese-economic-query-document"
 batch_size = 1000
 
 data_in_batch = []

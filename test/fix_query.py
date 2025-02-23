@@ -11,11 +11,15 @@ for filename in os.listdir(folder_path):
         with open(file_path, 'r', encoding='utf-8') as file:
             data = json.load(file)
         
-        title = data["title"].lower()
-        query = data["query"]
-
         if "query" in data:
-            data["query"] = re.sub(rf'\b{re.escape(title)}\b', "", query)
+            title = data["title"]
+            data["query"] = re.sub(rf'\b{re.escape(title)}\b', "", data["query"], flags=re.IGNORECASE).strip()
+
+            title = title.replace('–', '-')
+            data["query"] = re.sub(rf'\b{re.escape(title)}\b', "", data["query"], flags=re.IGNORECASE).strip()
+
+            title = re.sub(r'\(.*?\)', '', title).strip()
+            data["query"] = re.sub(rf'\b{re.escape(title)}\b', "", data["query"], flags=re.IGNORECASE).strip()
         
         with open(file_path, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
