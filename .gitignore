@@ -4,3 +4,4 @@ components/__pycache__/
 data_storage
 .env
 *.pyc
+sentence_transformer_multilingual_padded_uniform

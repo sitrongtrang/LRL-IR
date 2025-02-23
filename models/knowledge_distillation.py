@@ -1,3 +1,4 @@
+import csv
 from pandas import read_csv
 import torch
 from torch import nn, Tensor
@@ -18,7 +19,7 @@ class KnowledgeDistillation:
         # student_language_processing: LanguageProcessing,
         student_model_language: str,
         teacher_model_language: str,
-        teacher_model: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        teacher_model: str = "sentence-transformers/distiluse-base-multilingual-cased-v2",
         distribution: str = "padded_uniform", 
         device: str = "cpu",
         batch_size: int = 32,
@@ -62,6 +63,8 @@ class KnowledgeDistillation:
 
         self.teacher: SentenceTransformer = SentenceTransformer(teacher_model, device=self.device, token=os.getenv("HUGGINGFACE_TOKEN"))
         self.student: SentenceTransformer = SentenceTransformer(teacher_model, device=self.device, token=os.getenv("HUGGINGFACE_TOKEN"))
+        self.teacher.max_seq_length = 512
+        self.student.max_seq_length = 512
         for param in self.teacher.parameters():
             param.requires_grad = False
     
@@ -75,53 +78,68 @@ class KnowledgeDistillation:
     def train_loop(self, source_sentence: str, target_sentence: str):
         self.optimizer.zero_grad()    
 
-        source_sentence = self.teacher.tokenizer.tokenize(source_sentence)
-        target_sentence = self.teacher.tokenizer.tokenize(target_sentence)
+        teacher_tokenizer = self.teacher.tokenizer
+        student_tokenizer = self.student.tokenizer
+
+        source_tokens = source_sentence.split(' ')
+        target_tokens = target_sentence.split(' ')
+
         if "padded" in self.distribution:
-            source_sentence, target_sentence = pad_sentences(source_sentence, target_sentence, self.teacher.tokenizer.pad_token)
+            source_tokens, target_tokens = pad_sentences(source_tokens, target_tokens, self.teacher.tokenizer.pad_token)
             
         if self.distribution == "tf-idf":
-            # source_dist = tf_idf_dist(source_sentence)
-            pass
+            source_sentence_list = []
+            target_sentence_list = []
+            with open('test_bitext.csv', newline='', encoding='utf-8') as csvfile:
+                reader = csv.DictReader(csvfile)
+                for row in reader:
+                    source_sentence_list.append(row['source'])
+                    target_sentence_list.append(row['target'])
+            source_dist = tf_idf_dist(source_tokens, source_sentence, source_sentence_list)
+            target_dist = tf_idf_dist(target_tokens, target_sentence, target_sentence_list)
         elif "uniform" in self.distribution:
-            source_dist = uniform_dist(source_sentence)
-            target_dist = uniform_dist(target_sentence)
+            source_dist = uniform_dist(source_tokens)
+            target_dist = uniform_dist(target_tokens)
 
         source_dist = l1_normalize(source_dist)
         target_dist = l1_normalize(target_dist)  
 
-        source_sentence = self.teacher.tokenizer.convert_tokens_to_string(source_sentence)
-        target_sentence = self.teacher.tokenizer.convert_tokens_to_string(target_sentence)
+        print(source_dist)
+
+        encoded_input = teacher_tokenizer(source_tokens,
+                                  is_split_into_words=True,
+                                  return_tensors='pt',
+                                  padding=False)
+        encoded_input = {key: val.to(self.device) for key, val in encoded_input.items()}
 
         with torch.no_grad():
-            teacher_embeddings: Tensor = self.teacher.encode(
-                source_sentence, 
-                output_value='token_embeddings', 
-                convert_to_tensor=True, 
-                device=self.device
-            )[1:-1, :]
-        
-        student_embeddings_source: Tensor = self.student.encode(
-            source_sentence, 
-            output_value='token_embeddings', 
-            convert_to_tensor=True, 
-            device=self.device
-        )[1:-1, :]
-        
-        student_embeddings_target: Tensor = self.student.encode(
-            target_sentence, 
-            output_value='token_embeddings', 
-            convert_to_tensor=True, 
-            device=self.device
-        )[1:-1, : ]
+            teacher_output = self.teacher(**encoded_input)
+            # Get the token-level embeddings from the last hidden state
+            source_embeddings = teacher_output.last_hidden_state
+            # source_embeddings: Tensor = self.teacher.encode(
+            #     source_tokens, 
+            #     output_value='sentence_embedding', 
+            #     convert_to_tensor=True, 
+            #     device=self.device
+            # )
 
-        cost_source: Tensor = compute_cosine_cost_matrix(teacher_embeddings, student_embeddings_source)
-        _, source_loss = self.ot_solver(source_dist, source_dist, cost_source)
-
-        cost_target: Tensor = compute_cosine_cost_matrix(teacher_embeddings, student_embeddings_target) 
-        _, target_loss = self.ot_solver(source_dist, target_dist, cost_target)
+        target_ids = self.student.tokenizer.convert_tokens_to_ids(target_tokens)
+        target_ids = torch.tensor([target_ids], device=self.device)
+        attention_mask = [1 if token != self.teacher.tokenizer.pad_token else 0 for token in target_tokens]
+        attention_mask = torch.tensor([attention_mask], device=self.device)
+        encoded = {
+            'input_ids': target_ids,
+            'attention_mask': attention_mask
+        }
         
-        loss: Tensor = source_loss + target_loss
+        target_embeddings: Tensor = self.student.forward(encoded)['token_embeddings'].squeeze(0)
+
+        print(target_embeddings)
+
+        cost: Tensor = compute_cosine_cost_matrix(source_embeddings, target_embeddings)
+        plan, loss = self.ot_solver(source_dist, source_dist, cost)
+
+        print(cost)
         
         loss.backward()
         self.optimizer.step()
@@ -142,12 +160,13 @@ class KnowledgeDistillation:
             bitext_data = list(zip(df["source"], df["target"]))
             for source_sentence, target_sentence in bitext_data:
                 self.train_loop(source_sentence, target_sentence)
+                break
 
-        self.student.save(f"sentence_transformer_multilingual")
+        self.student.save(f"sentence_transformer_multilingual_" + self.distribution)
         check_point = {
-            'student_sentence_transformer_save_path': f"sentence_transformer_multilingual"
+            'student_sentence_transformer_save_path': f"sentence_transformer_multilingual_" + self.distribution
 
         }
-        torch.save(check_point, f"sentence_transformer_multilingual" + '/model.pth')
+        torch.save(check_point, f"sentence_transformer_multilingual_"  + self.distribution + '/model.pth')
 
-        return f"sentence_transformer_multilingual"
+        return f"sentence_transformer_multilingual_" + self.distribution
