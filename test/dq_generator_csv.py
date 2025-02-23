@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import json
 import pandas as pd
 
-path = "output.csv"
+path = "2002.csv"
 df = pd.read_csv(path)
 
 def get_first_sentence(text):
@@ -33,7 +33,7 @@ def get_wikipedia_links(page_title, language_code="en"):
 
 for index, row in df.iterrows():
     id = int(row['id'])
-    print(id)
+    if (index+1) % 10 == 0: print(f"{index+1} index so far")
     
     url = row['url']
     title = row['title']
@@ -60,6 +60,6 @@ for index, row in df.iterrows():
                 "non_relevence" : non_relevence
             }
     
-    with open('dq_test/' + str(id) + '.json', 'w', encoding='utf-8') as f:
+    with open('dq_vi_economic/' + str(id) + '.json', 'w', encoding='utf-8') as f:
         json.dump(art_save, f, indent=2, ensure_ascii=False)
     

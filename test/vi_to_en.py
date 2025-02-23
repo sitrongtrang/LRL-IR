@@ -13,9 +13,8 @@ def get_english_wikipedia_url(vi_url):
                 return link.get('href')
     return ""
 
-ori_df = pd.read_csv('output.csv')
+ori_df = pd.read_csv('2002.csv')
 df = ori_df.copy()
 df = df.drop(columns=['text'])
 df['en_url'] = df['url'].apply(get_english_wikipedia_url)
-# df.loc[0, 'en_url'] = get_english_wikipedia_url(df.loc[0, 'url'])
-df.to_csv('output_en.csv', index=False)
+df.to_csv('2002_en.csv', index=False)

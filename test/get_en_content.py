@@ -17,10 +17,8 @@ def get_wiki_text(url):
     except:
         return None
 
-ori_df = pd.read_csv('output_en.csv')
+ori_df = pd.read_csv('2002_en.csv')
 df = ori_df.copy()
 df = df.drop(columns=['url'])
-df['wiki_text'] = df['en_url'].apply(get_wiki_text)
-# df.loc[0, 'text'] = get_wiki_text(df.loc[0, 'en_url'])
-# df.loc[1, 'text'] = get_wiki_text(df.loc[1, 'en_url'])
-df.to_csv('output_en_text.csv', index=False)
+df['text'] = df['en_url'].apply(get_wiki_text)
+df.to_csv('2002_en_text.csv', index=False)
