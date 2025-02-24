@@ -77,10 +77,7 @@ class KnowledgeDistillation:
 
     def train_loop(self, source_sentence: str, target_sentence: str):
         self.optimizer.zero_grad()    
-
-        teacher_tokenizer = self.teacher.tokenizer
-        student_tokenizer = self.student.tokenizer
-
+        
         source_tokens = source_sentence.split(' ')
         target_tokens = target_sentence.split(' ')
 
@@ -104,35 +101,28 @@ class KnowledgeDistillation:
         source_dist = l1_normalize(source_dist)
         target_dist = l1_normalize(target_dist)  
 
-        print(source_dist)
-
-        encoded_input = teacher_tokenizer(source_tokens,
-                                  is_split_into_words=True,
-                                  return_tensors='pt',
-                                  padding=False)
-        encoded_input = {key: val.to(self.device) for key, val in encoded_input.items()}
-
-        with torch.no_grad():
-            teacher_output = self.teacher(**encoded_input)
-            # Get the token-level embeddings from the last hidden state
-            source_embeddings = teacher_output.last_hidden_state
-            # source_embeddings: Tensor = self.teacher.encode(
-            #     source_tokens, 
-            #     output_value='sentence_embedding', 
-            #     convert_to_tensor=True, 
-            #     device=self.device
-            # )
+        source_ids = self.student.tokenizer.convert_tokens_to_ids(source_tokens)
+        source_ids = torch.tensor([source_ids], device=self.device)
+        attention_mask = [1 if token != self.teacher.tokenizer.pad_token else 0 for token in source_tokens]
+        attention_mask = torch.tensor([attention_mask], device=self.device)
+        source_encoded = {
+            'input_ids': source_ids,
+            'attention_mask': attention_mask
+        }
 
         target_ids = self.student.tokenizer.convert_tokens_to_ids(target_tokens)
         target_ids = torch.tensor([target_ids], device=self.device)
         attention_mask = [1 if token != self.teacher.tokenizer.pad_token else 0 for token in target_tokens]
         attention_mask = torch.tensor([attention_mask], device=self.device)
-        encoded = {
+        target_encoded = {
             'input_ids': target_ids,
             'attention_mask': attention_mask
         }
+
+        with torch.no_grad():
+            source_embeddings: Tensor = self.student.forward(source_encoded)['token_embeddings'].squeeze(0)
         
-        target_embeddings: Tensor = self.student.forward(encoded)['token_embeddings'].squeeze(0)
+        target_embeddings: Tensor = self.student.forward(target_encoded)['token_embeddings'].squeeze(0)
 
         print(target_embeddings)
 
