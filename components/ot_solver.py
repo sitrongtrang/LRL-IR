@@ -118,17 +118,17 @@ class OTSolver(nn.Module):
         """
         m = len(mu)
         n = len(nu)
-        a = torch.ones([m,], requires_grad=True)
-        b = torch.ones([n,], requires_grad=True)
+        a = torch.ones([m,], requires_grad=True, device=self.device)
+        b = torch.ones([n,], requires_grad=True, device=self.device)
 
-        Gamma = torch.ones((m, n), requires_grad=True)/m*n
+        Gamma = torch.ones((m, n), requires_grad=True, device=self.device)/m*n
         G = torch.exp(-(C/self.beta))
 
         for _ in range(self.max_iter):
             Q = G * Gamma
             if not self.use_path:
-                a = torch.ones([m,], requires_grad=True)
-                b = torch.ones([n,], requires_grad=True)
+                a = torch.ones([m,], requires_grad=True, device=self.device)
+                b = torch.ones([n,], requires_grad=True, device=self.device)
             
             for i in range(self.L):
                 a = mu/torch.matmul(Q, b)

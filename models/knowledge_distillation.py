@@ -73,11 +73,11 @@ class KnowledgeDistillation:
 
         self.optimizer = torch.optim.AdamW(self.student.parameters(), lr=self.learning_rate)
 
-        self.ot_solver: OTSolver = OTSolver()
+        self.ot_solver: OTSolver = OTSolver(self.device)
 
     def train_loop(self, source_sentence: str, target_sentence: str):
         self.optimizer.zero_grad()    
-        
+
         source_tokens = source_sentence.split(' ')
         target_tokens = target_sentence.split(' ')
 
@@ -92,11 +92,11 @@ class KnowledgeDistillation:
                 for row in reader:
                     source_sentence_list.append(row['source'])
                     target_sentence_list.append(row['target'])
-            source_dist = tf_idf_dist(source_tokens, source_sentence, source_sentence_list)
-            target_dist = tf_idf_dist(target_tokens, target_sentence, target_sentence_list)
+            source_dist = tf_idf_dist(source_tokens, source_sentence, source_sentence_list, self.device)
+            target_dist = tf_idf_dist(target_tokens, target_sentence, target_sentence_list, self.device)
         elif "uniform" in self.distribution:
-            source_dist = uniform_dist(source_tokens)
-            target_dist = uniform_dist(target_tokens)
+            source_dist = uniform_dist(source_tokens, self.device)
+            target_dist = uniform_dist(target_tokens, self.device)
 
         source_dist = l1_normalize(source_dist)
         target_dist = l1_normalize(target_dist)  
@@ -127,7 +127,7 @@ class KnowledgeDistillation:
         print(target_embeddings)
 
         cost: Tensor = compute_cosine_cost_matrix(source_embeddings, target_embeddings)
-        plan, loss = self.ot_solver(source_dist, source_dist, cost)
+        plan, loss = self.ot_solver(source_dist, target_dist, cost)
 
         print(cost)
         
@@ -150,7 +150,6 @@ class KnowledgeDistillation:
             bitext_data = list(zip(df["source"], df["target"]))
             for source_sentence, target_sentence in bitext_data:
                 self.train_loop(source_sentence, target_sentence)
-                break
 
         self.student.save(f"sentence_transformer_multilingual_" + self.distribution)
         check_point = {

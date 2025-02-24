@@ -122,6 +122,8 @@ def bm25(query, doc, doc_list, avgdl, k1=1.5, b=0.75, delta=1.0):
     return score
 
 def compute_cosine_cost_matrix(source_emb: Tensor, target_emb: Tensor) -> Tensor:
+    source_emb = l1_normalize(source_emb)
+    target_emb = l1_normalize(target_emb)
     cosine_sim = torch.mm(source_emb, target_emb.t())
     cosine_dist = 1 - cosine_sim
     return cosine_dist
@@ -153,8 +155,8 @@ def l1_normalize(tensor):
     normalized = tensor / sum_val if sum_val > 0 else tensor
     return normalized.requires_grad_(tensor.requires_grad)
 
-def tf_idf_dist(tokens, doc, doc_list):
-    return torch.tensor([tf_idf(token, doc, doc_list) for token in tokens], requires_grad=True)
+def tf_idf_dist(tokens, doc, doc_list, device='cpu'):
+    return torch.tensor([tf_idf(token, doc, doc_list) for token in tokens], requires_grad=True, device=device)
 
-def uniform_dist(sentence):
-    return torch.ones(len(sentence), requires_grad=True)
+def uniform_dist(sentence, device='cpu'):
+    return torch.ones(len(sentence), requires_grad=True, device=device)
