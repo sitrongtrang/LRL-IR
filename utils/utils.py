@@ -150,10 +150,10 @@ def pad_sentences(source: list[str], target: list[str], pad_token: str) -> tuple
 def tf_idf(term, doc, doc_list):
     return term_frequency(term, doc) * inverse_doc_frequency(term, doc_list)
 
-def l1_normalize(tensor):
-    sum_val = tensor.sum()
-    normalized = tensor / sum_val if sum_val > 0 else tensor
-    return normalized.requires_grad_(tensor.requires_grad)
+def l1_normalize(tensor: Tensor):
+    sum_val = tensor.sum().to(tensor.device)
+    normalized = tensor / sum_val if sum_val != 0 else tensor
+    return normalized.to(tensor.device).requires_grad_(tensor.requires_grad)
 
 def tf_idf_dist(tokens, doc, doc_list, device='cpu'):
     return torch.tensor([tf_idf(token, doc, doc_list) for token in tokens], requires_grad=True, device=device)

@@ -76,6 +76,7 @@ class KnowledgeDistillation:
         self.ot_solver: OTSolver = OTSolver(self.device)
 
     def train_loop(self, source_sentence: str, target_sentence: str):
+        print(source_sentence)
         self.optimizer.zero_grad()    
 
         source_tokens = source_sentence.split(' ')
@@ -101,7 +102,7 @@ class KnowledgeDistillation:
         source_dist = l1_normalize(source_dist)
         target_dist = l1_normalize(target_dist)  
 
-        source_ids = self.student.tokenizer.convert_tokens_to_ids(source_tokens)
+        source_ids = self.teacher.tokenizer.convert_tokens_to_ids(source_tokens)
         source_ids = torch.tensor([source_ids], device=self.device)
         attention_mask = [1 if token != self.teacher.tokenizer.pad_token else 0 for token in source_tokens]
         attention_mask = torch.tensor([attention_mask], device=self.device)
@@ -112,7 +113,7 @@ class KnowledgeDistillation:
 
         target_ids = self.student.tokenizer.convert_tokens_to_ids(target_tokens)
         target_ids = torch.tensor([target_ids], device=self.device)
-        attention_mask = [1 if token != self.teacher.tokenizer.pad_token else 0 for token in target_tokens]
+        attention_mask = [1 if token != self.student.tokenizer.pad_token else 0 for token in target_tokens]
         attention_mask = torch.tensor([attention_mask], device=self.device)
         target_encoded = {
             'input_ids': target_ids,
@@ -120,7 +121,7 @@ class KnowledgeDistillation:
         }
 
         with torch.no_grad():
-            source_embeddings: Tensor = self.student.forward(source_encoded)['token_embeddings'].squeeze(0)
+            source_embeddings: Tensor = self.teacher.forward(source_encoded)['token_embeddings'].squeeze(0)
         
         target_embeddings: Tensor = self.student.forward(target_encoded)['token_embeddings'].squeeze(0)
 
@@ -129,7 +130,7 @@ class KnowledgeDistillation:
         cost: Tensor = compute_cosine_cost_matrix(source_embeddings, target_embeddings)
         plan, loss = self.ot_solver(source_dist, target_dist, cost)
 
-        print(cost)
+        print(plan)
         
         loss.backward()
         self.optimizer.step()
