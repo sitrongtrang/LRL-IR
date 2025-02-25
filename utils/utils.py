@@ -122,8 +122,8 @@ def bm25(query, doc, doc_list, avgdl, k1=1.5, b=0.75, delta=1.0):
     return score
 
 def compute_cosine_cost_matrix(source_emb: Tensor, target_emb: Tensor) -> Tensor:
-    source_emb = l1_normalize(source_emb)
-    target_emb = l1_normalize(target_emb)
+    source_emb = torch.nn.functional.normalize(source_emb, p=2, dim=1)
+    target_emb = torch.nn.functional.normalize(target_emb, p=2, dim=1)
     cosine_sim = torch.mm(source_emb, target_emb.t())
     cosine_dist = 1 - cosine_sim
     return cosine_dist

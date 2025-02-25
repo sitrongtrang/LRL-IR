@@ -125,12 +125,10 @@ class KnowledgeDistillation:
         
         target_embeddings: Tensor = self.student.forward(target_encoded)['token_embeddings'].squeeze(0)
 
-        print(target_embeddings)
-
         cost: Tensor = compute_cosine_cost_matrix(source_embeddings, target_embeddings)
         plan, loss = self.ot_solver(source_dist, target_dist, cost)
 
-        print(plan)
+        print(cost, plan)
         
         loss.backward()
         self.optimizer.step()
