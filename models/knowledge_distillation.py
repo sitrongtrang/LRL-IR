@@ -19,7 +19,8 @@ class KnowledgeDistillation:
         # student_language_processing: LanguageProcessing,
         student_model_language: str,
         teacher_model_language: str,
-        teacher_model: str = "sentence-transformers/distiluse-base-multilingual-cased-v2",
+        teacher_model: str = "distiluse-base-multilingual-cased-v2",
+        student_model: str = "xlm-roberta-base",
         distribution: str = "padded_uniform", 
         device: str = "cpu",
         batch_size: int = 32,
@@ -62,7 +63,7 @@ class KnowledgeDistillation:
         self.epsilon: float = epsilon
 
         self.teacher: SentenceTransformer = SentenceTransformer(teacher_model, device=self.device, token=os.getenv("HUGGINGFACE_TOKEN"))
-        self.student: SentenceTransformer = SentenceTransformer(teacher_model, device=self.device, token=os.getenv("HUGGINGFACE_TOKEN"))
+        self.student: SentenceTransformer = SentenceTransformer(student_model, device=self.device, token=os.getenv("HUGGINGFACE_TOKEN"))
         self.teacher.max_seq_length = 512
         self.student.max_seq_length = 512
         for param in self.teacher.parameters():
@@ -75,15 +76,12 @@ class KnowledgeDistillation:
 
         self.ot_solver: OTSolver = OTSolver(self.device)
 
-    def train_loop(self, source_sentence: str, target_sentence: str):
-        print(source_sentence)
-        self.optimizer.zero_grad()    
-
+    def optical(self, source_sentence: str, target_sentence: str):
         source_tokens = source_sentence.split(' ')
         target_tokens = target_sentence.split(' ')
 
         if "padded" in self.distribution:
-            source_tokens, target_tokens = pad_sentences(source_tokens, target_tokens, self.teacher.tokenizer.pad_token)
+            source_tokens, target_tokens = pad_sentences(source_tokens, target_tokens, self.teacher.tokenizer.pad_token, self.student.tokenizer.pad_token)
             
         if self.distribution == "tf-idf":
             source_sentence_list = []
@@ -128,8 +126,13 @@ class KnowledgeDistillation:
         cost: Tensor = compute_cosine_cost_matrix(source_embeddings, target_embeddings)
         plan, loss = self.ot_solver(source_dist, target_dist, cost)
 
-        print(cost, plan)
-        
+        return plan, loss
+
+    def train_loop(self, source_sentence: str, target_sentence: str):
+        print(source_sentence)
+        self.optimizer.zero_grad()    
+        plan, loss = self.optical(source_sentence, target_sentence)
+        print(plan)
         loss.backward()
         self.optimizer.step()
 

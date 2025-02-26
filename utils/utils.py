@@ -128,7 +128,7 @@ def compute_cosine_cost_matrix(source_emb: Tensor, target_emb: Tensor) -> Tensor
     cosine_dist = 1 - cosine_sim
     return cosine_dist
 
-def pad_sentences(source: list[str], target: list[str], pad_token: str) -> tuple[list[str], list[str], dict]:
+def pad_sentences(source: list[str], target: list[str], source_pad_token: str, target_pad_token: str) -> tuple[list[str], list[str], dict]:
     """
     Pad the shorter sentence with mask tokens to match the length of the longer sentence.
     
@@ -142,8 +142,8 @@ def pad_sentences(source: list[str], target: list[str], pad_token: str) -> tuple
     """
     max_len = max(len(source), len(target))
     
-    padded_source = source + [pad_token] * (max_len - len(source))
-    padded_target = target + [pad_token] * (max_len - len(target))
+    padded_source = source + [source_pad_token] * (max_len - len(source))
+    padded_target = target + [target_pad_token] * (max_len - len(target))
     
     return padded_source, padded_target
 

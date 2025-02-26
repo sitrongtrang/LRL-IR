@@ -1,3 +1,4 @@
+import heapq
 import os
 from dotenv import load_dotenv
 import numpy as np
@@ -5,6 +6,11 @@ from sentence_transformers import SentenceTransformer
 from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
+import torch
+
+from components.ot_solver import OTSolver
+from models.knowledge_distillation import KnowledgeDistillation
+from utils.utils import compute_cosine_cost_matrix, l1_normalize, pad_sentences, uniform_dist
 
 load_dotenv()
 
@@ -12,56 +18,50 @@ load_dotenv()
 teacher_model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2", "cpu", token=os.getenv("HUGGINGFACE_TOKEN"))
 student_model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2", "cpu", token=os.getenv("HUGGINGFACE_TOKEN"))
 
-sentence1 = "The knight defended the castle from the enemy"
-sentence2 = "El caballero defendio el castillo del enemigo"
+source_sentence = "These headless bodies can live for about a day, but they don't do much."
+target_sentence = "Cơ thể không có đầu kia có thể sống được trong một ngày, nhưng chúng không thể hoạt động được nhiều."
 
-# Tokenize the sentence (naive tokenization, you can use a tokenizer from Hugging Face)
-tokens1 = teacher_model.tokenizer.tokenize(sentence1)
-tokens2 = student_model.tokenizer.tokenize(sentence2)
+source_tokens = source_sentence.split(' ')
+target_tokens = target_sentence.split(' ')
 
-# Compute embeddings
-sentence_embedding1 = teacher_model.encode(sentence1, convert_to_numpy=True, output_value='sentence_embedding')
-sentence_embedding2 = student_model.encode(sentence2, convert_to_numpy=True, output_value='sentence_embedding')
-
-token_embeddings1 = teacher_model.encode(sentence1, convert_to_numpy=True, output_value='token_embeddings')
-token_embeddings2 = teacher_model.encode(sentence1, convert_to_numpy=True, output_value='token_embeddings')
-
-# Reduce dimensionality
-dim_reducer_sentence = PCA(n_components=2)
-sentence_embeddings_2d = dim_reducer_sentence.fit_transform(
-    np.vstack([sentence_embedding1, sentence_embedding2])
-)
-
-dim_reducer_tokens = TSNE(n_components=2, perplexity=5, random_state=42)
-token_embeddings1_2d = dim_reducer_tokens.fit_transform(token_embeddings1)
-token_embeddings2_2d = dim_reducer_tokens.fit_transform(token_embeddings2)
-
-# ---- PLOT 1: Sentence-Level Embeddings ----
-plt.figure(figsize=(6, 6))
-plt.scatter(sentence_embeddings_2d[0, 0], sentence_embeddings_2d[0, 1], color="blue", label="Model 1")
-plt.scatter(sentence_embeddings_2d[1, 0], sentence_embeddings_2d[1, 1], color="red", label="Model 2")
-plt.text(sentence_embeddings_2d[0, 0], sentence_embeddings_2d[0, 1], "Sentence", fontsize=10, color="blue")
-plt.text(sentence_embeddings_2d[1, 0], sentence_embeddings_2d[1, 1], "Sentence", fontsize=10, color="red")
-plt.xlabel("Component 1")
-plt.ylabel("Component 2")
-plt.title("Sentence Embedding Comparison")
-plt.legend()
-plt.savefig("sentence_embeddings.png")
-plt.show()
-
-# ---- PLOT 2: Token-Level Embeddings ----
-plt.figure(figsize=(8, 6))
-for i, token in enumerate(tokens1):
-    plt.scatter(token_embeddings1_2d[i, 0], token_embeddings1_2d[i, 1], color="blue", label="Model 1" if i == 0 else "")
-    plt.text(token_embeddings1_2d[i, 0], token_embeddings1_2d[i, 1], token, fontsize=9, color="blue")
+source_tokens, target_tokens = pad_sentences(source_tokens, target_tokens, teacher_model.tokenizer.pad_token)
     
-for i, token in enumerate(tokens2):
-    plt.scatter(token_embeddings2_2d[i, 0], token_embeddings2_2d[i, 1], color="red", label="Model 2" if i == 0 else "")
-    plt.text(token_embeddings2_2d[i, 0], token_embeddings2_2d[i, 1], token, fontsize=9, color="red")
+source_dist = uniform_dist(source_tokens, 'cpu')
+target_dist = uniform_dist(target_tokens, 'cpu')
 
-plt.xlabel("Component 1")
-plt.ylabel("Component 2")
-plt.title("Token Embedding Comparison")
-plt.legend()
-plt.savefig("token_embeddings.png")
-plt.show()
+source_dist = l1_normalize(source_dist)
+target_dist = l1_normalize(target_dist)  
+
+source_ids = teacher_model.tokenizer.convert_tokens_to_ids(source_tokens)
+source_ids = torch.tensor([source_ids], device='cpu')
+attention_mask = [1 if token != teacher_model.tokenizer.pad_token else 0 for token in source_tokens]
+attention_mask = torch.tensor([attention_mask], device='cpu')
+source_encoded = {
+    'input_ids': source_ids,
+    'attention_mask': attention_mask
+}
+
+target_ids = student_model.tokenizer.convert_tokens_to_ids(target_tokens)
+target_ids = torch.tensor([target_ids], device='cpu')
+attention_mask = [1 if token != student_model.tokenizer.pad_token else 0 for token in target_tokens]
+attention_mask = torch.tensor([attention_mask], device='cpu')
+target_encoded = {
+    'input_ids': target_ids,
+    'attention_mask': attention_mask
+}
+
+with torch.no_grad():
+    source_embeddings = teacher_model.forward(source_encoded)['token_embeddings'].squeeze(0)
+
+target_embeddings = student_model.forward(target_encoded)['token_embeddings'].squeeze(0)
+
+ot_solver = OTSolver('cpu')
+cost = compute_cosine_cost_matrix(source_embeddings, target_embeddings)
+plan, loss = ot_solver(source_dist, target_dist, cost)
+
+for i, token in enumerate(source_tokens):
+    temp = plan[i].tolist()
+    largest_values = heapq.nlargest(3, temp)
+    mapped_indices = [temp.index(value) for value in largest_values]
+    mapped_tokens = [target_tokens[j] for j in mapped_indices]
+    print(token, mapped_tokens)
