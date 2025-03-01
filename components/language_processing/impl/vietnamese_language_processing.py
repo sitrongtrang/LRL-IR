@@ -13,7 +13,7 @@ class VietnameseLanguageProcessing(LanguageProcessing):
             tokenizer: Callable[[str], list[str]] | None = None,
             encoder: Callable[[str | list[str]], list[int]] | None = None
     ):
-        # self._pre_trained_tokenizer_model = AutoTokenizer.from_pretrained("vinai/phobert-base-v2") if \
+        # self._pre_trained_tokenizer_model = AutoTokenizer.from_pretrained("vinai/phobert-base-v2", token=os.getenv("HUGGINGFACE_TOKEN")) if \
         #     pre_trained_tokenizer_model is None else pre_trained_tokenizer_model
         # self._text_preprocessing = self._load_text_preprocessing()
         # self._tokenizer = self._pre_trained_tokenizer_model.tokenize if tokenizer is None else tokenizer
@@ -21,11 +21,10 @@ class VietnameseLanguageProcessing(LanguageProcessing):
         pass
     
     def _load_text_preprocessing(self):
-        # if os.path.isdir("/vncorenlp/models") == False or os.path.exists('/vncorenlp/VnCoreNLP-1.2.jar') == False:
-        #     os.makedirs("/vncorenlp", exist_ok=True)
-        #     py_vncorenlp.download_model("/vncorenlp")
-        # return py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir="/vncorenlp").word_segment
-        pass
+        if os.path.isdir("/vncorenlp/models") == False or os.path.exists('/vncorenlp/VnCoreNLP-1.2.jar') == False:
+            os.makedirs("/vncorenlp", exist_ok=True)
+            py_vncorenlp.download_model("/vncorenlp")
+        return py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir="/vncorenlp").word_segment
     
     def text_preprocessing(self, text):
         return self._text_preprocessing(text)

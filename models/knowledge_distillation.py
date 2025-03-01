@@ -1,5 +1,6 @@
 import csv
 from pandas import read_csv
+import py_vncorenlp
 import torch
 from torch import nn, Tensor
 from sentence_transformers import SentenceTransformer
@@ -19,7 +20,7 @@ class KnowledgeDistillation:
         # student_language_processing: LanguageProcessing,
         student_model_language: str,
         teacher_model_language: str,
-        teacher_model: str = "distiluse-base-multilingual-cased-v2",
+        teacher_model: str = "paraphrase-distilroberta-base-v2",
         student_model: str = "xlm-roberta-base",
         distribution: str = "padded_uniform", 
         device: str = "cpu",
@@ -78,7 +79,9 @@ class KnowledgeDistillation:
 
     def optical(self, source_sentence: str, target_sentence: str):
         source_tokens = source_sentence.split(' ')
-        target_tokens = target_sentence.split(' ')
+        # target_tokens = target_sentence.split(' ')
+        rdrsegmenter = py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir='/absolute/path/to/vncorenlp')
+        target_tokens = rdrsegmenter.word_segment(target_sentence)
 
         if "padded" in self.distribution:
             source_tokens, target_tokens = pad_sentences(source_tokens, target_tokens, self.teacher.tokenizer.pad_token, self.student.tokenizer.pad_token)
