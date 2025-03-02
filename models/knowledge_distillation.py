@@ -55,6 +55,8 @@ class KnowledgeDistillation:
         self.student_model_language: str = student_model_language
         # self.bitext_data: ParallelDataset = ParallelDataset(self.parallel_dir, teacher_language_processing, student_language_processing)
         
+        self.vi_language_processing = VietnameseLanguageProcessing()
+
         self.distribution = distribution
 
         self.device: str = device
@@ -79,9 +81,7 @@ class KnowledgeDistillation:
 
     def optical(self, source_sentence: str, target_sentence: str):
         source_tokens = source_sentence.split(' ')
-        # target_tokens = target_sentence.split(' ')
-        rdrsegmenter = py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir='/absolute/path/to/vncorenlp')
-        target_tokens = rdrsegmenter.word_segment(target_sentence)
+        target_tokens = self.vi_language_processing.text_preprocessing(target_sentence)
 
         if "padded" in self.distribution:
             source_tokens, target_tokens = pad_sentences(source_tokens, target_tokens, self.teacher.tokenizer.pad_token, self.student.tokenizer.pad_token)

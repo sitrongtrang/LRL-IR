@@ -7,6 +7,14 @@ import py_vncorenlp
 
 
 class VietnameseLanguageProcessing(LanguageProcessing):
+    _instance = None
+    _word_segment = None
+    
+    def __new__(cls, *args, **kwargs):
+        if cls._instance is None:
+            cls._instance = super(VietnameseLanguageProcessing, cls).__new__(cls)
+        return cls._instance
+    
     def __init__(
             self, 
             pre_trained_tokenizer_model: PreTrainedTokenizer | PreTrainedTokenizerFast | None = None,
@@ -15,16 +23,35 @@ class VietnameseLanguageProcessing(LanguageProcessing):
     ):
         # self._pre_trained_tokenizer_model = AutoTokenizer.from_pretrained("vinai/phobert-base-v2", token=os.getenv("HUGGINGFACE_TOKEN")) if \
         #     pre_trained_tokenizer_model is None else pre_trained_tokenizer_model
-        # self._text_preprocessing = self._load_text_preprocessing()
+        if self._word_segment is None:
+            self._text_preprocessing = self._load_text_preprocessing()
         # self._tokenizer = self._pre_trained_tokenizer_model.tokenize if tokenizer is None else tokenizer
         # self._encoder = self._pre_trained_tokenizer_model.encode if encoder is None else encoder
-        pass
     
     def _load_text_preprocessing(self):
         if os.path.isdir("/vncorenlp/models") == False or os.path.exists('/vncorenlp/VnCoreNLP-1.2.jar') == False:
             os.makedirs("/vncorenlp", exist_ok=True)
             py_vncorenlp.download_model("/vncorenlp")
-        return py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir="/vncorenlp").word_segment
+
+        if VietnameseLanguageProcessing._word_segment is None:
+            try:
+                import py_vncorenlp
+                VietnameseLanguageProcessing._word_segment = py_vncorenlp.VnCoreNLP(
+                    annotators=["wseg"], 
+                    save_dir="/vncorenlp"
+                ).word_segment
+            except ValueError as e:
+                if "VM is already running" in str(e):
+                    import py_vncorenlp
+                    from jnius import autoclass
+                    VietnameseLanguageProcessing._word_segment = py_vncorenlp.VnCoreNLP(
+                        annotators=["wseg"], 
+                        save_dir="/vncorenlp",
+                        skip_jvm_check=True 
+                    ).word_segment
+                else:
+                    raise e
+        return VietnameseLanguageProcessing._word_segment
     
     def text_preprocessing(self, text):
         return self._text_preprocessing(text)
