@@ -31,20 +31,23 @@ class VietnameseLanguageProcessing(LanguageProcessing):
     def _load_text_preprocessing(self):
         if os.path.isdir("/vncorenlp/models") == False or os.path.exists('/vncorenlp/VnCoreNLP-1.2.jar') == False:
             os.makedirs("/vncorenlp", exist_ok=True)
-            py_vncorenlp.download_model("/vncorenlp")
+            from py_vncorenlp import download_model
+            download_model("/vncorenlp")
 
         if VietnameseLanguageProcessing._word_segment is None:
             try:
                 import py_vncorenlp
-                VietnameseLanguageProcessing._word_segment = py_vncorenlp.VnCoreNLP(
+                from py_vncorenlp import VnCoreNLP
+                VietnameseLanguageProcessing._word_segment = VnCoreNLP(
                     annotators=["wseg"], 
                     save_dir="/vncorenlp"
                 ).word_segment
             except ValueError as e:
                 if "VM is already running" in str(e):
                     import py_vncorenlp
+                    from py_vncorenlp import VnCoreNLP
                     from jnius import autoclass
-                    VietnameseLanguageProcessing._word_segment = py_vncorenlp.VnCoreNLP(
+                    VietnameseLanguageProcessing._word_segment = VnCoreNLP(
                         annotators=["wseg"], 
                         save_dir="/vncorenlp",
                         skip_jvm_check=True 
