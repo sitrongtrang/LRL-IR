@@ -5,6 +5,8 @@ import pandas as pd
 from torch.utils.data import Dataset
 from ..language_processing.language_processing import LanguageProcessing
 from ..language_processing.impl.vietnamese_language_processing import VietnameseLanguageProcessing
+from ..language_processing.impl.khmer_language_processing import KhmerLanguageProcessing
+from ..language_processing.impl.english_language_processing import EnglishLanguageProcessing
 
 class DocumentDataset(Dataset):
     def __init__(

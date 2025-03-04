@@ -12,14 +12,26 @@ import os
 
 load_dotenv()
 
+def get_language_processor(language: str) -> LanguageProcessing:
+    languages = {
+        "en": EnglishLanguageProcessing,
+        "vi": VietnameseLanguageProcessing,
+        "km": KhmerLanguageProcessing
+    }
+
+    language_class = languages.get(language.lower())
+    
+    if language_class:
+        return language_class()
+    else:
+        raise ValueError(f"Unsupported language: {language}")
+
 class KnowledgeDistillation:
     def __init__(
         self, 
         # parallel_dir: str,
-        # teacher_language_processing: LanguageProcessing,
-        # student_language_processing: LanguageProcessing,
-        student_model_language: str,
         teacher_model_language: str,
+        student_model_language: str,
         teacher_model: str = "paraphrase-distilroberta-base-v2",
         student_model: str = "xlm-roberta-base",
         distribution: str = "padded_uniform", 
@@ -32,8 +44,6 @@ class KnowledgeDistillation:
         """
         Args:
             parallel_dir (str): Path to the folder containing CSV files with parallel sentences.
-            teacher_language_processing (LanguageProcessing): Language processing for teacher model
-            student_language_processing (LanguageProcessing): Language processing for student model
             teacher_model_language (str): The language used in the monolingual training phase.
             student_model_language (str): The language to be learned by the student model.
             teacher_model (str): The base model for the teacher
@@ -55,7 +65,8 @@ class KnowledgeDistillation:
         self.student_model_language: str = student_model_language
         # self.bitext_data: ParallelDataset = ParallelDataset(self.parallel_dir, teacher_language_processing, student_language_processing)
         
-        self.vi_language_processing = VietnameseLanguageProcessing()
+        self.teacher_language_processing = get_language_processor(teacher_model_language)
+        self.student_language_processing = get_language_processor(student_model_language)
 
         self.distribution = distribution
 
@@ -80,8 +91,8 @@ class KnowledgeDistillation:
         self.ot_solver: OTSolver = OTSolver(self.device)
 
     def optical(self, source_sentence: str, target_sentence: str):
-        source_tokens = source_sentence.split(' ')
-        target_tokens = self.vi_language_processing.text_preprocessing(target_sentence)
+        source_tokens = self.teacher_language_processing.text_preprocessing(source_sentence)
+        target_tokens = self.student_language_processing.text_preprocessing(target_sentence)
 
         if "padded" in self.distribution:
             source_tokens, target_tokens = pad_sentences(source_tokens, target_tokens, self.teacher.tokenizer.pad_token, self.student.tokenizer.pad_token)
@@ -154,6 +165,10 @@ class KnowledgeDistillation:
             df = read_csv("test_bitext.csv")
             bitext_data = list(zip(df["source"], df["target"]))
             for source_sentence, target_sentence in bitext_data:
+                if source_sentence[-1] == '.':
+                    source_sentence = source_sentence[:-1]
+                if target_sentence[-1] == '.':
+                    target_sentence = target_sentence[:-1]
                 self.train_loop(source_sentence, target_sentence)
 
         self.student.save(f"sentence_transformer_multilingual_" + self.distribution)

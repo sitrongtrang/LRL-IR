@@ -8,6 +8,7 @@ from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 import torch
 
+from components.language_processing.impl.vietnamese_language_processing import VietnameseLanguageProcessing
 from components.ot_solver import OTSolver
 from models.knowledge_distillation import KnowledgeDistillation
 from utils.utils import compute_cosine_cost_matrix, l1_normalize, pad_sentences, uniform_dist
@@ -16,13 +17,16 @@ load_dotenv()
 
 
 teacher_model = SentenceTransformer("paraphrase-distilroberta-base-v2", "cpu", token=os.getenv("HUGGINGFACE_TOKEN"))
-student_model = SentenceTransformer("sentence_transformer_multilingual_padded_uniform", "cpu", token=os.getenv("HUGGINGFACE_TOKEN"))
+student_model = SentenceTransformer("C:/Users/Tarim/Downloads/LRL-IR/sentence_transformer_multilingual_padded_uniform", "cpu", token=os.getenv("HUGGINGFACE_TOKEN"))
 
-source_sentence = "These headless bodies can live for about a day, but they don't do much."
-target_sentence = "Cơ thể không có đầu kia có thể sống được trong một ngày, nhưng chúng không thể hoạt động được nhiều."
+vi_language_processing = VietnameseLanguageProcessing()
+
+source_sentence = "Thank you so much"
+target_sentence = "Cảm ơn rất nhiều"
 
 source_tokens = source_sentence.split(' ')
-target_tokens = target_sentence.split(' ')
+target_tokens = vi_language_processing.text_preprocessing(target_sentence)
+print(target_tokens)
 
 source_tokens, target_tokens = pad_sentences(source_tokens, target_tokens, teacher_model.tokenizer.pad_token, student_model.tokenizer.pad_token)
     
@@ -62,14 +66,19 @@ ot_solver = OTSolver('cpu')
 cost = compute_cosine_cost_matrix(source_token_embeddings, target_token_embeddings)
 plan, loss = ot_solver(source_dist, target_dist, cost)
 
+print(source_token_embeddings, target_token_embeddings)
+print("\ncost: ", cost)
+print("\nplan: ", plan)
+print("\nloss: ", loss)
+
 for i, token in enumerate(source_tokens):
     temp = plan[i].tolist()
-    largest_values = heapq.nlargest(3, temp)
+    largest_values = heapq.nlargest(1, temp)
     mapped_indices = [temp.index(value) for value in largest_values]
     mapped_tokens = [target_tokens[j] for j in mapped_indices]
     print(token, mapped_tokens)
 
-# dist = compute_cosine_cost_matrix(source_sentence_embedding, target_sentence_embedding)
-# print(dist)
+dist = compute_cosine_cost_matrix(source_sentence_embedding, target_sentence_embedding)
+print(dist)
 
-print(source_sentence_embedding, target_sentence_embedding)
+

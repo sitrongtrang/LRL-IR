@@ -95,10 +95,8 @@ def monolingual_retrive(
 
 def knowledge_distillation(
     # parallel_dir,
-    # teacher_language_processing,
-    # student_language_processing,
-    student_model_language,
     teacher_model_language,
+    student_model_language,
     teacher_model="distiluse-base-multilingual-cased-v2",
     student_model="xlm-roberta-base",
     distribution="padded_uniform",
@@ -113,10 +111,8 @@ def knowledge_distillation(
     
     trainer = KnowledgeDistillation(
         # parallel_dir==parallel_dir,
-        # teacher_language_processing=teacher_language_processing,
-        # student_language_processing=student_language_processing,
-        student_model_language=student_model_language,
         teacher_model_language=teacher_model_language,
+        student_model_language=student_model_language,
         teacher_model = teacher_model,
         student_model = student_model,
         distribution = distribution,

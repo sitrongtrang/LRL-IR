@@ -57,7 +57,10 @@ class VietnameseLanguageProcessing(LanguageProcessing):
         return VietnameseLanguageProcessing._word_segment
     
     def text_preprocessing(self, text):
-        return self._text_preprocessing(text)
+        tokenized_text = self._text_preprocessing(text)
+        tokenized_text = [tokenized_sent.split(' ') for tokenized_sent in tokenized_text]
+        if len(tokenized_text) == 1:
+            return tokenized_text[0]
         
     def pre_trained_tokenizer_model(self):
         return self._pre_trained_tokenizer_model
