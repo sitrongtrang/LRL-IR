@@ -6,6 +6,14 @@ from typing import Callable
 from ...language_processing.language_processing import LanguageProcessing
 
 class KhmerLanguageProcessing(LanguageProcessing):
+    _instance = None
+    _word_segment = None
+
+    def __new__(cls, *args, **kwargs):
+        if cls._instance is None:
+            cls._instance = super(KhmerLanguageProcessing, cls).__new__(cls)
+        return cls._instance
+
     def __init__(
             self, 
             pre_trained_tokenizer_model: PreTrainedTokenizer | PreTrainedTokenizerFast | None = None,
