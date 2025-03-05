@@ -1,3 +1,4 @@
+import re
 from typing import Callable
 from transformers import AutoTokenizer, PreTrainedTokenizer, PreTrainedTokenizerFast
 from ...language_processing.language_processing import LanguageProcessing
@@ -27,8 +28,7 @@ class EnglishLanguageProcessing(LanguageProcessing):
     
     def _load_text_preprocessing(self):
         def split_english_sentences(text):
-            tokens = text.split(' ')
-            return tokens
+            return re.findall(r'\w+|[^\w\s]', text)
 
         return split_english_sentences
     

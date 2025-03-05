@@ -17,7 +17,7 @@ load_dotenv()
 
 
 teacher_model = SentenceTransformer("paraphrase-distilroberta-base-v2", "cpu", token=os.getenv("HUGGINGFACE_TOKEN"))
-student_model = SentenceTransformer("C:/Users/Tarim/Downloads/LRL-IR/sentence_transformer_multilingual_padded_uniform", "cpu", token=os.getenv("HUGGINGFACE_TOKEN"))
+student_model = SentenceTransformer("sentence_transformer_multilingual_padded_uniform", "cpu", token=os.getenv("HUGGINGFACE_TOKEN"))
 
 vi_language_processing = VietnameseLanguageProcessing()
 

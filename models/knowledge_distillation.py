@@ -94,9 +94,11 @@ class KnowledgeDistillation:
         source_tokens = self.teacher_language_processing.text_preprocessing(source_sentence)
         target_tokens = self.student_language_processing.text_preprocessing(target_sentence)
 
+        print(source_tokens, target_tokens)
+
         if "padded" in self.distribution:
             source_tokens, target_tokens = pad_sentences(source_tokens, target_tokens, self.teacher.tokenizer.pad_token, self.student.tokenizer.pad_token)
-            
+
         if self.distribution == "tf-idf":
             source_sentence_list = []
             target_sentence_list = []
@@ -165,10 +167,6 @@ class KnowledgeDistillation:
             df = read_csv("test_bitext.csv")
             bitext_data = list(zip(df["source"], df["target"]))
             for source_sentence, target_sentence in bitext_data:
-                if source_sentence[-1] == '.':
-                    source_sentence = source_sentence[:-1]
-                if target_sentence[-1] == '.':
-                    target_sentence = target_sentence[:-1]
                 self.train_loop(source_sentence, target_sentence)
 
         self.student.save(f"sentence_transformer_multilingual_" + self.distribution)
