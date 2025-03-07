@@ -32,7 +32,7 @@ class KnowledgeDistillation:
         # parallel_dir: str,
         teacher_model_language: str,
         student_model_language: str,
-        teacher_model: str = "paraphrase-distilroberta-base-v2",
+        teacher_model: str = "distiluse-base-multilingual-cased-v2",
         student_model: str = "xlm-roberta-base",
         distribution: str = "padded_uniform", 
         device: str = "cpu",
@@ -94,7 +94,18 @@ class KnowledgeDistillation:
         source_tokens = self.teacher_language_processing.text_preprocessing(source_sentence)
         target_tokens = self.student_language_processing.text_preprocessing(target_sentence)
 
-        print(source_tokens, target_tokens)
+        print(target_tokens)
+
+        new_source_tokens = [token for token in source_tokens if token not in self.teacher.tokenizer.get_vocab()]
+        if new_source_tokens:
+            self.teacher.tokenizer.add_tokens(new_source_tokens)
+            self.teacher[0].auto_model.resize_token_embeddings(len(self.teacher.tokenizer))
+
+        new_target_tokens = [token for token in target_tokens if token not in self.student.tokenizer.get_vocab()]
+        if new_target_tokens:
+            self.student.tokenizer.add_tokens(new_target_tokens)
+            self.student[0].auto_model.resize_token_embeddings(len(self.student.tokenizer))
+
 
         if "padded" in self.distribution:
             source_tokens, target_tokens = pad_sentences(source_tokens, target_tokens, self.teacher.tokenizer.pad_token, self.student.tokenizer.pad_token)
@@ -164,7 +175,7 @@ class KnowledgeDistillation:
             # for source_sentence, target_sentence in self.bitext_data:
             #     self.train_loop(source_sentence, target_sentence)
 
-            df = read_csv("test_bitext.csv")
+            df = read_csv("C:/Users/Tarim/Downloads/LRL-IR/test_bitext.csv")
             bitext_data = list(zip(df["source"], df["target"]))
             for source_sentence, target_sentence in bitext_data:
                 self.train_loop(source_sentence, target_sentence)

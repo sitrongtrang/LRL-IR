@@ -1,5 +1,6 @@
 import torch
 from torch import Tensor
+import torch.nn.functional as F
 import numpy as np
 
 
@@ -121,12 +122,12 @@ def bm25(query, doc, doc_list, avgdl, k1=1.5, b=0.75, delta=1.0):
 
     return score
 
-def compute_cosine_cost_matrix(source_emb: Tensor, target_emb: Tensor) -> Tensor:
-    source_emb = torch.nn.functional.normalize(source_emb, p=2, dim=1)
-    target_emb = torch.nn.functional.normalize(target_emb, p=2, dim=1)
-    cosine_sim = torch.mm(source_emb, target_emb.t())
-    cosine_dist = 1 - cosine_sim
-    return cosine_dist
+def compute_cosine_cost_matrix(source_embeddings: Tensor, target_embeddings: Tensor) -> Tensor:
+    cosine_sim = torch.matmul(source_embeddings, target_embeddings.T)
+    cosine_sim = F.normalize(cosine_sim, p=2, dim=-1)
+    cost_matrix = 1 - cosine_sim 
+
+    return cost_matrix
 
 def pad_sentences(source: list[str], target: list[str], source_pad_token: str, target_pad_token: str) -> tuple[list[str], list[str], dict]:
     """
