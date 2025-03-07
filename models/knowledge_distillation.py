@@ -175,7 +175,7 @@ class KnowledgeDistillation:
             # for source_sentence, target_sentence in self.bitext_data:
             #     self.train_loop(source_sentence, target_sentence)
 
-            df = read_csv("C:/Users/Tarim/Downloads/LRL-IR/test_bitext.csv")
+            df = read_csv("test_bitext.csv")
             bitext_data = list(zip(df["source"], df["target"]))
             for source_sentence, target_sentence in bitext_data:
                 self.train_loop(source_sentence, target_sentence)
