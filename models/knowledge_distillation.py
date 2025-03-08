@@ -8,6 +8,7 @@ from components.ot_solver import OTSolver
 from components.dataset.document_dataset import *
 from utils.utils import compute_cosine_cost_matrix, pad_sentences, tf_idf_dist, uniform_dist, l1_normalize
 from dotenv import load_dotenv
+from collections import defaultdict
 import os
 
 load_dotenv()
@@ -100,12 +101,16 @@ class KnowledgeDistillation:
         if new_source_tokens:
             self.teacher.tokenizer.add_tokens(new_source_tokens)
             self.teacher[0].auto_model.resize_token_embeddings(len(self.teacher.tokenizer))
+            self.optimizer.state = defaultdict(dict)
 
         new_target_tokens = [token for token in target_tokens if token not in self.student.tokenizer.get_vocab()]
         if new_target_tokens:
             self.student.tokenizer.add_tokens(new_target_tokens)
             self.student[0].auto_model.resize_token_embeddings(len(self.student.tokenizer))
+            self.optimizer.state = defaultdict(dict)
 
+        optimizer = torch.optim.AdamW(self.student.parameters(), lr=self.learning_rate)
+        self.optimizer.zero_grad()
 
         if "padded" in self.distribution:
             source_tokens, target_tokens = pad_sentences(source_tokens, target_tokens, self.teacher.tokenizer.pad_token, self.student.tokenizer.pad_token)
@@ -156,8 +161,8 @@ class KnowledgeDistillation:
         return plan, loss
 
     def train_loop(self, source_sentence: str, target_sentence: str):
-        print(source_sentence)
-        self.optimizer.zero_grad()    
+        print(source_sentence)   
+        self.optimizer.zero_grad() 
         plan, loss = self.optical(source_sentence, target_sentence)
         print(plan)
         loss.backward()
