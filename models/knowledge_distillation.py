@@ -109,7 +109,6 @@ class KnowledgeDistillation:
             self.student[0].auto_model.resize_token_embeddings(len(self.student.tokenizer))
             self.optimizer.state = defaultdict(dict)
 
-        optimizer = torch.optim.AdamW(self.student.parameters(), lr=self.learning_rate)
         self.optimizer.zero_grad()
 
         if "padded" in self.distribution:
@@ -162,7 +161,7 @@ class KnowledgeDistillation:
 
     def train_loop(self, source_sentence: str, target_sentence: str):
         print(source_sentence)   
-        self.optimizer.zero_grad() 
+        # self.optimizer.zero_grad() 
         plan, loss = self.optical(source_sentence, target_sentence)
         print(plan)
         loss.backward()
