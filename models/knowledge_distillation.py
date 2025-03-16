@@ -1,4 +1,5 @@
 import csv
+import heapq
 from pandas import read_csv
 import py_vncorenlp
 import torch
@@ -150,13 +151,19 @@ class KnowledgeDistillation:
         cost: Tensor = compute_cosine_cost_matrix(source_embeddings, target_embeddings)
         plan, loss = self.ot_solver(source_dist, target_dist, cost)
 
+        for i, token in enumerate(source_tokens):
+            temp = plan[i].tolist()
+            largest_values = heapq.nlargest(1, temp)
+            mapped_indices = [temp.index(value) for value in largest_values]
+            mapped_tokens = [target_tokens[j] for j in mapped_indices]
+            print(token, mapped_tokens, largest_values)
+
         return plan, loss
 
     def train_loop(self, source_sentence: str, target_sentence: str):
         print(source_sentence)   
         # self.optimizer.zero_grad() 
         plan, loss = self.optical(source_sentence, target_sentence)
-        print(plan)
         loss.backward()
         self.optimizer.step()
 

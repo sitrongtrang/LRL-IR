@@ -15,6 +15,27 @@ load_dotenv()
 
 roberta_base_model: dict = {"vi": "vinai/phobert-base-v2", "en": "bert-base-uncased"}
 
+class BERTWeighted(nn.Module):
+    def __init__(self, pretrained_model_name='bert-base_uncased'):
+        super(BERTWeighted, self).__init__()
+        self.bert = AutoModel.from_pretrained(pretrained_model_name)
+        self.linear = nn.Linear(self.bert.config.hidden_size, 1)
+        
+    def forward(self, input_ids, attention_mask):
+        outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask)
+        embeddings = outputs.last_hidden_state
+        word_weights = self.linear(embeddings).squeeze(-1)
+        word_weights = word_weights.masked_fill(attention_mask == 0, float('-inf'))
+        batch_size, seq_len = attention_mask.shape
+        for i in range(batch_size):
+            mask_indices = attention_mask[i].nonzero(as_tuple=True)[0]
+            first_pos = mask_indices[0]
+            last_pos = mask_indices[-1]
+            word_weights[i, first_pos] = float('-inf')
+            word_weights[i, last_pos] = float('-inf')
+        word_weights = torch.nn.functional.softmax(word_weights, dim=-1)
+        return word_weights
+
 def get_language_processor(language: str) -> LanguageProcessing:
     languages = {
         "en": EnglishLanguageProcessing,
@@ -191,26 +212,6 @@ def uniform_dist(sentence, device='cpu'):
 def roberta_dist(tokens, language, device='cpu'):
     base_model = roberta_base_model[language]
     tokenizer = AutoTokenizer.from_pretrained(base_model, token=os.getenv("HUGGINGFACE_TOKEN"))
-    class BERTWeighted(nn.Module):
-        def __init__(self, pretrained_model_name=base_model):
-            super(BERTWeighted, self).__init__()
-            self.bert = AutoModel.from_pretrained(pretrained_model_name)
-            self.linear = nn.Linear(self.bert.config.hidden_size, 1)
-            
-        def forward(self, input_ids, attention_mask):
-            outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask)
-            embeddings = outputs.last_hidden_state
-            word_weights = self.linear(embeddings).squeeze(-1)
-            word_weights = word_weights.masked_fill(attention_mask == 0, float('-inf'))
-            batch_size, seq_len = attention_mask.shape
-            for i in range(batch_size):
-                mask_indices = attention_mask[i].nonzero(as_tuple=True)[0]
-                first_pos = mask_indices[0]
-                last_pos = mask_indices[-1]
-                word_weights[i, first_pos] = float('-inf')
-                word_weights[i, last_pos] = float('-inf')
-            word_weights = torch.nn.functional.softmax(word_weights, dim=-1)
-            return word_weights
         
     model = BERTWeighted(base_model)
     model.load_state_dict(torch.load(os.getenv("PROJECT_DIR") + "roberta_weighted/" + language + "_roberta_token_weight.pth", map_location=torch.device(device)))
@@ -235,4 +236,4 @@ def roberta_dist(tokens, language, device='cpu'):
         # print("\n" + "-"*50 + "\n")
         if (predicted_sum != 1):
             diff = 1 - predicted_sum
-    return [weight + diff/len(result) for weight in result]
+    return torch.tensor([float(weight + diff/len(result)) for weight in result], requires_grad=True, device=device)
