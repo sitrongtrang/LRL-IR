@@ -1,7 +1,33 @@
+import os
 import torch
-from torch import Tensor
+from torch import nn, Tensor
 import torch.nn.functional as F
+from transformers import AutoTokenizer, AutoModel, Trainer, TrainingArguments
 import numpy as np
+
+from components.language_processing.impl.english_language_processing import EnglishLanguageProcessing
+from components.language_processing.impl.khmer_language_processing import KhmerLanguageProcessing
+from components.language_processing.impl.vietnamese_language_processing import VietnameseLanguageProcessing
+from components.language_processing.language_processing import LanguageProcessing
+
+from dotenv import load_dotenv
+load_dotenv()
+
+roberta_base_model: dict = {"vi": "vinai/phobert-base-v2", "en": "bert-base-uncased"}
+
+def get_language_processor(language: str) -> LanguageProcessing:
+    languages = {
+        "en": EnglishLanguageProcessing,
+        "vi": VietnameseLanguageProcessing,
+        "km": KhmerLanguageProcessing
+    }
+
+    language_class = languages.get(language.lower())
+    
+    if language_class:
+        return language_class()
+    else:
+        raise ValueError(f"Unsupported language: {language}")
 
 
 def pos_neg_samples_gen_first_round(
@@ -161,3 +187,52 @@ def tf_idf_dist(tokens, doc, doc_list, device='cpu'):
 
 def uniform_dist(sentence, device='cpu'):
     return torch.ones(len(sentence), requires_grad=True, device=device)
+
+def roberta_dist(tokens, language, device='cpu'):
+    base_model = roberta_base_model[language]
+    tokenizer = AutoTokenizer.from_pretrained(base_model, token=os.getenv("HUGGINGFACE_TOKEN"))
+    class BERTWeighted(nn.Module):
+        def __init__(self, pretrained_model_name=base_model):
+            super(BERTWeighted, self).__init__()
+            self.bert = AutoModel.from_pretrained(pretrained_model_name)
+            self.linear = nn.Linear(self.bert.config.hidden_size, 1)
+            
+        def forward(self, input_ids, attention_mask):
+            outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask)
+            embeddings = outputs.last_hidden_state
+            word_weights = self.linear(embeddings).squeeze(-1)
+            word_weights = word_weights.masked_fill(attention_mask == 0, float('-inf'))
+            batch_size, seq_len = attention_mask.shape
+            for i in range(batch_size):
+                mask_indices = attention_mask[i].nonzero(as_tuple=True)[0]
+                first_pos = mask_indices[0]
+                last_pos = mask_indices[-1]
+                word_weights[i, first_pos] = float('-inf')
+                word_weights[i, last_pos] = float('-inf')
+            word_weights = torch.nn.functional.softmax(word_weights, dim=-1)
+            return word_weights
+        
+    model = BERTWeighted(base_model)
+    model.load_state_dict(torch.load(os.getenv("PROJECT_DIR") + "roberta_weighted/" + language + "_roberta_token_weight.pth", map_location=torch.device(device)))
+    model.to(device)
+    model.eval()
+        
+    inputs = tokenizer(tokens, truncation=True, padding='max_length', max_length=128, return_tensors="pt", is_split_into_words=True)
+    inputs = inputs.to(device)
+
+    with torch.no_grad():
+        word_weights = model(inputs["input_ids"], inputs["attention_mask"])
+
+        tokens = tokenizer.convert_ids_to_tokens(inputs['input_ids'][0])
+        predicted_sum = 0
+        result = []
+        for token, weight in zip(tokens, word_weights[0].cpu().numpy()):
+            if token not in tokenizer.all_special_tokens:
+                # print(f"Token: {token}, Prediction: {weight}")
+                result.append(weight)
+                predicted_sum += weight
+        # print(f"Sum of Predicted Weights: {predicted_sum}")
+        # print("\n" + "-"*50 + "\n")
+        if (predicted_sum != 1):
+            diff = 1 - predicted_sum
+    return [weight + diff/len(result) for weight in result]

@@ -6,35 +6,22 @@ from torch import nn, Tensor
 from sentence_transformers import SentenceTransformer
 from components.ot_solver import OTSolver
 from components.dataset.document_dataset import *
-from utils.utils import compute_cosine_cost_matrix, pad_sentences, tf_idf_dist, uniform_dist, l1_normalize
+from utils.utils import compute_cosine_cost_matrix, pad_sentences, tf_idf_dist, uniform_dist, l1_normalize, get_language_processor, roberta_dist
 from dotenv import load_dotenv
 from collections import defaultdict
 import os
 
 load_dotenv()
 
-def get_language_processor(language: str) -> LanguageProcessing:
-    languages = {
-        "en": EnglishLanguageProcessing,
-        "vi": VietnameseLanguageProcessing,
-        "km": KhmerLanguageProcessing
-    }
-
-    language_class = languages.get(language.lower())
-    
-    if language_class:
-        return language_class()
-    else:
-        raise ValueError(f"Unsupported language: {language}")
-
 class KnowledgeDistillation:
     def __init__(
         self, 
-        # parallel_dir: str,
         teacher_model_language: str,
         student_model_language: str,
         teacher_model: str = "distiluse-base-multilingual-cased-v2",
         student_model: str = "xlm-roberta-base",
+        bitext_data: str = os.getenv("PROJECT_DIR") + "bitext.csv",
+        save_dir: str = os.getenv("PROJECT_DIR"),
         distribution: str = "padded_uniform", 
         device: str = "cpu",
         batch_size: int = 32,
@@ -44,10 +31,12 @@ class KnowledgeDistillation:
     ) -> None:
         """
         Args:
-            parallel_dir (str): Path to the folder containing CSV files with parallel sentences.
             teacher_model_language (str): The language used in the monolingual training phase.
             student_model_language (str): The language to be learned by the student model.
             teacher_model (str): The base model for the teacher
+
+            bitext_data (str): Path to the CSV file with parallel sentences.
+            save_dir (str): The folder to save the trained model
 
             distribution (str): The distribution for tokens in the sentences
 
@@ -61,13 +50,14 @@ class KnowledgeDistillation:
 
             epsilon (float): Regularization parameter for optimal transport
         """
-        # self.parallel_dir: str = parallel_dir
         self.teacher_model_language: str = teacher_model_language
         self.student_model_language: str = student_model_language
-        # self.bitext_data: ParallelDataset = ParallelDataset(self.parallel_dir, teacher_language_processing, student_language_processing)
         
         self.teacher_language_processing = get_language_processor(teacher_model_language)
         self.student_language_processing = get_language_processor(student_model_language)
+
+        self.bitext_data: str = bitext_data
+        self.save_dir: str = save_dir
 
         self.distribution = distribution
 
@@ -117,13 +107,16 @@ class KnowledgeDistillation:
         if self.distribution == "tf-idf":
             source_sentence_list = []
             target_sentence_list = []
-            with open('test_bitext.csv', newline='', encoding='utf-8') as csvfile:
+            with open(self.parallel_dir, newline='', encoding='utf-8') as csvfile:
                 reader = csv.DictReader(csvfile)
                 for row in reader:
                     source_sentence_list.append(row['source'])
                     target_sentence_list.append(row['target'])
             source_dist = tf_idf_dist(source_tokens, source_sentence, source_sentence_list, self.device)
             target_dist = tf_idf_dist(target_tokens, target_sentence, target_sentence_list, self.device)
+        elif self.distribution == "roberta":
+            source_dist = roberta_dist(source_tokens, self.teacher_model_language, self.device)
+            target_dist = roberta_dist(target_tokens, self.student_model_language, self.device)
         elif "uniform" in self.distribution:
             source_dist = uniform_dist(source_tokens, self.device)
             target_dist = uniform_dist(target_tokens, self.device)
@@ -176,19 +169,16 @@ class KnowledgeDistillation:
         """
         print("Start training")
         for epoch in range(self.epochs):
-            # for source_sentence, target_sentence in self.bitext_data:
-            #     self.train_loop(source_sentence, target_sentence)
-
-            df = read_csv("test_bitext.csv")
+            df = read_csv(self.bitext_data)
             bitext_data = list(zip(df["source"], df["target"]))
             for source_sentence, target_sentence in bitext_data:
                 self.train_loop(source_sentence, target_sentence)
 
-        self.student.save(f"sentence_transformer_multilingual_" + self.distribution)
+        self.student.save(self.save_dir + f"sentence_transformer_multilingual_" + self.distribution)
         check_point = {
-            'student_sentence_transformer_save_path': f"sentence_transformer_multilingual_" + self.distribution
+            'student_sentence_transformer_save_path': self.save_dir + f"sentence_transformer_multilingual_" + self.distribution
 
         }
-        torch.save(check_point, f"sentence_transformer_multilingual_"  + self.distribution + '/model.pth')
+        torch.save(check_point, self.save_dir + f"sentence_transformer_multilingual_"  + self.distribution + '/model.pth')
 
-        return f"sentence_transformer_multilingual_" + self.distribution
+        return self.save_dir + f"sentence_transformer_multilingual_" + self.distribution
