@@ -209,15 +209,20 @@ def tf_idf_dist(tokens, doc, doc_list, device='cpu'):
 def uniform_dist(sentence, device='cpu'):
     return torch.ones(len(sentence), requires_grad=True, device=device)
 
-def roberta_dist(tokens, language, device='cpu'):
+def load_roberta(language, device='cpu'):
+    """Load tokenizer and model once and return them."""
     base_model = roberta_base_model[language]
     tokenizer = AutoTokenizer.from_pretrained(base_model, token=os.getenv("HUGGINGFACE_TOKEN"))
-        
+
     model = BERTWeighted(base_model)
-    model.load_state_dict(torch.load(os.getenv("PROJECT_DIR") + "roberta_weighted/" + language + "_roberta_token_weight.pth", map_location=torch.device(device)))
+    model.load_state_dict(torch.load(os.getenv("PROJECT_DIR") + "roberta_weighted/" + language + "_roberta_token_weight.pth",
+                                     map_location=torch.device(device)))
     model.to(device)
     model.eval()
-        
+    
+    return tokenizer, model
+
+def roberta_dist(tokens, tokenizer, model, device='cpu'):      
     inputs = tokenizer(tokens, truncation=True, padding='max_length', max_length=128, return_tensors="pt", is_split_into_words=True)
     inputs = inputs.to(device)
 

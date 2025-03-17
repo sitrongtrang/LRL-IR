@@ -7,7 +7,7 @@ from torch import nn, Tensor
 from sentence_transformers import SentenceTransformer
 from components.ot_solver import OTSolver
 from components.dataset.document_dataset import *
-from utils.utils import compute_cosine_cost_matrix, pad_sentences, tf_idf_dist, uniform_dist, l1_normalize, get_language_processor, roberta_dist
+from utils.utils import compute_cosine_cost_matrix, load_roberta, pad_sentences, tf_idf_dist, uniform_dist, l1_normalize, get_language_processor, roberta_dist
 from dotenv import load_dotenv
 from collections import defaultdict
 import os
@@ -116,8 +116,8 @@ class KnowledgeDistillation:
             source_dist = tf_idf_dist(source_tokens, source_sentence, source_sentence_list, self.device)
             target_dist = tf_idf_dist(target_tokens, target_sentence, target_sentence_list, self.device)
         elif self.distribution == "roberta":
-            source_dist = roberta_dist(source_tokens, self.teacher_model_language, self.device)
-            target_dist = roberta_dist(target_tokens, self.student_model_language, self.device)
+            source_dist = roberta_dist(source_tokens, self.teacher_tokenizer, self.teacher_roberta_model, self.device)
+            target_dist = roberta_dist(target_tokens, self.student_tokenizer, self.student_roberta_model, self.device)
         elif "uniform" in self.distribution:
             source_dist = uniform_dist(source_tokens, self.device)
             target_dist = uniform_dist(target_tokens, self.device)
@@ -178,8 +178,14 @@ class KnowledgeDistillation:
         for epoch in range(self.epochs):
             df = read_csv(self.bitext_data)
             bitext_data = list(zip(df["source"], df["target"]))
+            if self.distribution == "roberta":
+                self.teacher_tokenizer, self.teacher_roberta_model = load_roberta(self.teacher_model_language, self.device)
+                self.student_tokenizer, self.student_roberta_model = load_roberta(self.student_model_language, self.device)
             for source_sentence, target_sentence in bitext_data:
-                self.train_loop(source_sentence, target_sentence)
+                try:
+                    self.train_loop(source_sentence, target_sentence)
+                except:
+                    pass
 
         self.student.save(self.save_dir + f"sentence_transformer_multilingual_" + self.distribution)
         check_point = {

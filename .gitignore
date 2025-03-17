@@ -5,4 +5,5 @@ data_storage
 .env
 *.pyc
 sentence_transformer_multilingual_padded_uniform
+roberta_weighted
 data
