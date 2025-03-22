@@ -8,6 +8,7 @@ sys.path.append(project_root)
 import torch
 from models import MonolingualRetrivalTrainer, MonoLingualRetrival, KnowledgeDistillation
 from components import LanguageProcessing
+from utils.utils import get_language_processor
 
 
 def monolingual_train(
@@ -34,7 +35,7 @@ def monolingual_train(
         pretrained_model_name_or_path=pretrained_model_name_or_path,
         do_mlm_fine_tune=do_mlm_fine_tune in ('True', 'true', '1'),
         language=language,
-        language_processing=LanguageProcessing(language),
+        language_processing=get_language_processor(language),
         chunk_length_limit=int(chunk_length_limit),
         device=device,
         batch_size=int(batch_size),
@@ -71,7 +72,7 @@ def monolingual_retrive(
         processed_doc_store_dir=processed_doc_store_dir,
         custom_sentence_transformer_pretrained_or_save_path=custom_sentence_transformer_pretrained_or_save_path,
         language=language,
-        language_processing=LanguageProcessing(language),
+        language_processing=get_language_processor(language),
         original_query_doc_count=int(original_query_doc_count),
         extended_query_doc_count=int(extended_query_doc_count),
         chunk_length_limit=int(chunk_length_limit),
