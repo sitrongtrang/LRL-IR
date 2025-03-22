@@ -40,6 +40,8 @@ class DocumentDataset(Dataset):
                 content = row['text']
                 document_id = row['id']
                 url = row['url']
+                if (idx % 10 == 0):
+                    print(title)
                 title_preprocessed: list[str] = self.language_processing.text_preprocessing(title)
                 content_preprocessed: list[str] = self.language_processing.text_preprocessing(content)
                 title_tokenized: list[str] = reduce(lambda prev, curr: prev + self.language_processing.tokenizer(curr), title_preprocessed, [])
