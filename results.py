@@ -23,11 +23,8 @@ student_model = SentenceTransformer("distiluse-base-multilingual-cased-v2", "cpu
 vi_language_processing = VietnameseLanguageProcessing()
 en_language_processing = EnglishLanguageProcessing()
 
-# source_sentence = "Today I want to talk to you about ethnic conflict and civil war"
-# target_sentence = "Hôm nay, tôi muốn nói chuyện với các bạn về vấn đề xung đột sắc tộc và nội chiến"
-
-source_sentence = "Thank you so much"
-target_sentence = "Cảm ơn rất nhiều"
+source_sentence = "Trung quốc bắt đầu cải cách nền kinh tế vào năm 1978 dưới sự lãnh đạo của Đặng Tiểu Bình"
+target_sentence = "China began reforming the economy in 1978 under the leadership of Deng Xiaoping"
 
 source_tokens = en_language_processing.text_preprocessing(source_sentence)
 target_tokens = vi_language_processing.text_preprocessing(target_sentence)
@@ -82,8 +79,7 @@ ot_solver = OTSolver('cpu')
 cost = compute_cosine_cost_matrix(source_token_embeddings, target_token_embeddings)
 plan, loss = ot_solver(source_dist, target_dist, cost)
 
-print(source_token_embeddings, target_token_embeddings)
-# print("\ncost: ", cost)
+print("\ncost: ", cost)
 print("\nplan: ", plan)
 print("\nloss: ", loss)
 
@@ -176,5 +172,5 @@ def visualize_embeddings(en_tokens, vi_tokens, en_embeddings, vi_embeddings, per
     # Return the figure
     plt.show()
 
-# visualize_embeddings(source_tokens, target_tokens, source_token_embeddings, target_token_embeddings)
+visualize_embeddings(source_tokens, target_tokens, source_token_embeddings, target_token_embeddings)
 

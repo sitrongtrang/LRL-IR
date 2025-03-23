@@ -2,6 +2,7 @@ import re
 from typing import Callable
 from transformers import AutoTokenizer, PreTrainedTokenizer, PreTrainedTokenizerFast
 from ...language_processing.language_processing import LanguageProcessing
+import os
 
 
 class EnglishLanguageProcessing(LanguageProcessing):
@@ -19,12 +20,12 @@ class EnglishLanguageProcessing(LanguageProcessing):
             tokenizer: Callable[[str], list[str]] | None = None,
             encoder: Callable[[str | list[str]], list[int]] | None = None
     ):
-        # self._pre_trained_tokenizer_model = AutoTokenizer.from_pretrained("vinai/phobert-base-v2", token=os.getenv("HUGGINGFACE_TOKEN")) if \
-        #     pre_trained_tokenizer_model is None else pre_trained_tokenizer_model
+        self._pre_trained_tokenizer_model = AutoTokenizer.from_pretrained("bert-base-uncased", token=os.getenv("HUGGINGFACE_TOKEN")) if \
+            pre_trained_tokenizer_model is None else pre_trained_tokenizer_model
         if self._word_segment is None:
             self._text_preprocessing = self._load_text_preprocessing()
-        # self._tokenizer = self._pre_trained_tokenizer_model.tokenize if tokenizer is None else tokenizer
-        # self._encoder = self._pre_trained_tokenizer_model.encode if encoder is None else encoder
+        self._tokenizer = self._pre_trained_tokenizer_model.tokenize if tokenizer is None else tokenizer
+        self._encoder = self._pre_trained_tokenizer_model.encode if encoder is None else encoder
     
     def _load_text_preprocessing(self):
         def split_english_sentences(text):

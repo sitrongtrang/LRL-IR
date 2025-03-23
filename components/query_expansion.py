@@ -212,6 +212,7 @@ class QueryExpansion:
 
         expansion_term_with_prob_from_title_relevant_set = self._perform_em_algorithm(
             observation_sequence_title, "RELEVANT_SET_TITLE", tokenized_query)
+        print("DONE")
         expansion_term_with_prob_from_content_relevant_set = self._perform_em_algorithm(
             observation_sequence_content, "RELEVANT_SET_CONTENT", tokenized_query)
 
@@ -263,8 +264,9 @@ class QueryExpansion:
                         expansion_term, source)
                     prob_expansion_term_represents_source: float = self.prob_expansion_term_represents_source.get(
                         expansion_term_source_pair, 1.0 / float(len(self.collection_set)))
-                    accumulate_likelihood_of_collection_set += indicator * \
-                        log(prob_expansion_term_represents_source)
+                    if (prob_expansion_term_represents_source != 0): 
+                        accumulate_likelihood_of_collection_set += indicator * \
+                          log(prob_expansion_term_represents_source)
                 accumulate_likelihood_of_source += prob_term_belongs_to_source * \
                     (prob_of_selecting_source +
                      accumulate_likelihood_of_collection_set)
@@ -286,7 +288,7 @@ class QueryExpansion:
         }
         for source_to_maximize in self.prob_of_selecting_source.keys():
             updated_prob_of_selecting_source[source_to_maximize] = self._maximize_prob_of_selecting_source(
-                source_to_maximize, observation_sequence)
+                source_to_maximize, observation_sequence)  
             for expansion_term_to_maximize in self.collection_set:
                 key_pair = (expansion_term_to_maximize, source_to_maximize)
                 updated_prob_expansion_term_represents_source[key_pair] = self._maximize_prob_expansion_term_represents_source(
@@ -421,7 +423,7 @@ class QueryExpansion:
                 expansion_term, source_to_estimate)
             accumulate_prob_for_numerator *= (self.prob_expansion_term_represents_source.get(
                 expansion_term_source_to_estimate_pair, 1.0 / float(len(self.collection_set)))) ** indicator
-            
+        
         numerator = self.prob_of_selecting_source[source_to_estimate] * \
             accumulate_prob_for_numerator
 
@@ -431,8 +433,9 @@ class QueryExpansion:
                 indicator = 1 if term_to_estimate == expansion_term else 0
                 expansion_term_source_pair: tuple[str, SourceForExpansion] = (
                     expansion_term, source)
-                accumulate_prob_for_denominator *= (self.prob_expansion_term_represents_source.get(
-                    expansion_term_source_pair, 1.0 / float(len(self.collection_set)))) ** indicator
+                temp = (self.prob_expansion_term_represents_source.get(expansion_term_source_pair, 1.0 / float(len(self.collection_set))))
+                if temp != 0: 
+                  accumulate_prob_for_denominator *= (temp ** indicator)
             denominator += self.prob_of_selecting_source[source] * \
                 accumulate_prob_for_denominator
 
