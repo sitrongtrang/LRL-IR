@@ -18,13 +18,13 @@ load_dotenv()
 
 
 teacher_model = SentenceTransformer("distiluse-base-multilingual-cased-v2", "cpu", token=os.getenv("HUGGINGFACE_TOKEN"))
-student_model = SentenceTransformer("distiluse-base-multilingual-cased-v2", "cpu", token=os.getenv("HUGGINGFACE_TOKEN"))
+student_model = SentenceTransformer(os.getenv("PROJECT_DIR") + "sentence_transformer_multilingual_padded_uniform", "cpu", token=os.getenv("HUGGINGFACE_TOKEN"))
 
 vi_language_processing = VietnameseLanguageProcessing()
 en_language_processing = EnglishLanguageProcessing()
 
-source_sentence = "Trung quốc bắt đầu cải cách nền kinh tế vào năm 1978 dưới sự lãnh đạo của Đặng Tiểu Bình"
-target_sentence = "China began reforming the economy in 1978 under the leadership of Deng Xiaoping"
+source_sentence = "Dong was a currency of the Republic of Vietnam (South Vietnam) from 1953 to May 2, 1978"
+target_sentence = "Đồng đã từng là tiền tệ của Việt Nam Cộng hòa (Nam Việt Nam) từ năm 1953 đến ngày 2 tháng 5 năm 1978"
 
 source_tokens = en_language_processing.text_preprocessing(source_sentence)
 target_tokens = vi_language_processing.text_preprocessing(target_sentence)
@@ -79,15 +79,16 @@ ot_solver = OTSolver('cpu')
 cost = compute_cosine_cost_matrix(source_token_embeddings, target_token_embeddings)
 plan, loss = ot_solver(source_dist, target_dist, cost)
 
-print("\ncost: ", cost)
-print("\nplan: ", plan)
-print("\nloss: ", loss)
+# print("\ncost: ", cost)
+# print("\nplan: ", plan)
+# print("\nloss: ", loss)
 
 for i, token in enumerate(source_tokens):
     temp = plan[i].tolist()
     largest_values = heapq.nlargest(1, temp)
     mapped_indices = [temp.index(value) for value in largest_values]
     mapped_tokens = [target_tokens[j] for j in mapped_indices]
+    # if (token == "Vietnam"): print(source_token_embeddings[i], target_token_embeddings[mapped_indices[0]])
     print(token, mapped_tokens)
 
 dist = compute_cosine_cost_matrix(source_sentence_embedding, target_sentence_embedding)
@@ -127,7 +128,7 @@ def visualize_embeddings(en_tokens, vi_tokens, en_embeddings, vi_embeddings, per
     
     # Apply t-SNE to reduce dimensions to 2D
     print(f"Running t-SNE on {combined_embeddings.shape[0]} embeddings of dimension {combined_embeddings.shape[1]}...")
-    tsne = TSNE(n_components=2, perplexity=perplexity, n_iter=n_iter, random_state=random_state)
+    tsne = TSNE(n_components=2, perplexity=perplexity, n_iter=n_iter, random_state=random_state, metric="cosine")
     reduced_embeddings = tsne.fit_transform(combined_embeddings)
     
     # Split the reduced embeddings back into English and Vietnamese
@@ -172,5 +173,5 @@ def visualize_embeddings(en_tokens, vi_tokens, en_embeddings, vi_embeddings, per
     # Return the figure
     plt.show()
 
-visualize_embeddings(source_tokens, target_tokens, source_token_embeddings, target_token_embeddings)
+# visualize_embeddings(source_tokens, target_tokens, source_token_embeddings, target_token_embeddings)
 

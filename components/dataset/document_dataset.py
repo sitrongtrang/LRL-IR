@@ -65,6 +65,8 @@ class DocumentDataset(Dataset):
         return self.document_count
 
     def __getitem__(self, idx: int) -> tuple[list[str], list[str], list[str], list[str], str, str, str]:
+        if idx >= self.document_count:
+            raise StopIteration
         json_file_path = os.path.join(
             self.processed_doc_store_dir, f"{idx}.json")
         with open(json_file_path, 'r') as json_file:

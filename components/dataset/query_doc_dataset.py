@@ -51,5 +51,7 @@ class QueryDocDataset(Dataset):
         return len(self.qd_pairs)
 
     def __getitem__(self, idx: int) -> tuple[list[str], list[str], str]:
+        if idx >= len(self.qd_pairs):
+            raise StopIteration
         preprocessed_query, query_tokenized, document_id = self.qd_pairs[idx]
         return preprocessed_query, query_tokenized, document_id
