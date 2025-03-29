@@ -1,4 +1,5 @@
 from functools import reduce
+import os
 import torch
 from torch import nn, Tensor
 from torch.optim import Adam
@@ -154,8 +155,8 @@ class MonolingualRetrivalTrainer:
                 print(f"Batch {batch_count + 1} completed.")
                 print(f"Loss: {loss.item()}")
 
-        sentence_transformer_save_path: str = f"/sentence_transformer_finetune/{self.language}"
-        custom_sentence_transformer_save_path: str = f"/custom_sentence_transformer_trained/{self.language}"
+        sentence_transformer_save_path: str = os.getenv("PROJECT_DIR") + f"/sentence_transformer_finetune/{self.language}"
+        custom_sentence_transformer_save_path: str = os.getenv("PROJECT_DIR") + f"/custom_sentence_transformer_trained/{self.language}"
 
         self.custom_sentence_transformer.document_sentence_transformer.save(sentence_transformer_save_path)
         check_point = {

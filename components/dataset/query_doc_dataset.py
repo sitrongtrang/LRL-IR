@@ -34,15 +34,12 @@ class QueryDocDataset(Dataset):
                 document_id = row['id']
                 preprocessed_query: list[str] = self.language_processing.text_preprocessing(query)
                 query_tokenized: list[str] = reduce(lambda prev, curr: prev + self.language_processing.tokenizer(curr), preprocessed_query, [])
-                if len(preprocessed_query) < 128:
-                    padding_length = 128 - len(preprocessed_query)
-                    preprocessed_query.extend([""] * padding_length)
-                preprocessed_query = preprocessed_query[:128]
                 pad_token = "[PAD]"
                 if len(query_tokenized) < 128:
                     padding_length = 128 - len(query_tokenized)
                     query_tokenized.extend([pad_token] * padding_length)
                 query_tokenized = query_tokenized[:128]
+                
                 qd_pairs.append((preprocessed_query, query_tokenized, document_id))
         
         return qd_pairs
