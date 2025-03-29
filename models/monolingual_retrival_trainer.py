@@ -149,6 +149,7 @@ class MonolingualRetrivalTrainer:
             print(f"Epoch {epoch + 1}/{self.epochs}:")
             print("-----------------------------")
             for batch_count, sample_batch in enumerate(query_doc_dataloader):
+                print(f"Batch {batch_count + 1} started.")
                 loss = self._run_training_sample_batch(sample_batch)
                 print(f"Batch {batch_count + 1} completed.")
                 print(f"Loss: {loss.item()}")
@@ -184,33 +185,43 @@ class MonolingualRetrivalTrainer:
         sample_count: int = len(sample_batch[0])
         final_loss: Tensor = 0.0
         for i in range(sample_count):
+            print(f"Processing sample {i} in batch...")
             query_preprossed: list[str] = sample_batch[0][i]
             tokenized_query: list[str] = sample_batch[1][i]
             document_id: str = sample_batch[2][i]
-            extended_query: list[str] = tokenized_query + self.query_expansion.get_expansion_term(tokenized_query)
+            query_segmented: str = ""
+            for part in query_preprossed:
+              query_segmented += part
+            print(f"Sample {i} in batch: data loaded...")
+            # extended_query: list[str] = tokenized_query + self.query_expansion.get_expansion_term(tokenized_query)
             original_query_doc_ranking: list[tuple[str, float]] = self.lexical_matching.get_documents_ranking(tokenized_query)
-            extended_query_doc_ranking: list[tuple[str, float]] = self.lexical_matching.get_documents_ranking(extended_query)
+            print(f"Sample {i} in batch: lexical matching completed...")
+            # extended_query_doc_ranking: list[tuple[str, float]] = self.lexical_matching.get_documents_ranking(extended_query)
             original_query_relevant_doc_list: list[tuple[str, float]] = pos_neg_samples_gen_first_round(
                 document_id, original_query_doc_ranking, FIRST_ROUND_NEGATIVE_SAMPLE_COUNT)
-            extended_query_relevant_doc_list: list[tuple[str, float]] = pos_neg_samples_gen_first_round(
-                document_id, extended_query_doc_ranking, FIRST_ROUND_NEGATIVE_SAMPLE_COUNT)
-            combine_lexical_relevant_doc_list: list[tuple[str, float]] = combine_doc_list(
-                original_query_relevant_doc_list, extended_query_relevant_doc_list)
+            print(f"Sample {i} in batch: positive/negative pair generated...")
+            # extended_query_relevant_doc_list: list[tuple[str, float]] = pos_neg_samples_gen_first_round(
+            #     document_id, extended_query_doc_ranking, FIRST_ROUND_NEGATIVE_SAMPLE_COUNT)
+            # combine_lexical_relevant_doc_list: list[tuple[str, float]] = combine_doc_list(
+            #     original_query_relevant_doc_list, extended_query_relevant_doc_list)
 
             lexical_relevant_doc_chunk_list: list[list[str]] = [self.chunk_seperator.get_chunks_of_document(pair[0]) 
-                                                                for pair in combine_lexical_relevant_doc_list]
-            lexical_similarity_score_list: list[float] = [pair[1] for pair in combine_lexical_relevant_doc_list]
+                                                                for pair in original_query_relevant_doc_list]
+            print(f"Sample {i} in batch: chunk list created...")                                                  
+            lexical_similarity_score_list: list[float] = [pair[1] for pair in original_query_relevant_doc_list]
 
             self.custom_sentence_transformer.train()
+            print(f"Sample {i} in batch: Sentence Trandformer started #1...")
 
-            first_round_label_list: list[float] = [(1.0 if pair[0] == document_id else 0.0) for pair in combine_lexical_relevant_doc_list]
+            first_round_label_list: list[float] = [(1.0 if pair[0] == document_id else 0.0) for pair in original_query_relevant_doc_list]
             first_round_output, _ = self._run_training_custom_sentence_transformer_round(
-                query_preprossed,
+                query_segmented,
                 first_round_label_list, 
                 lexical_relevant_doc_chunk_list, 
                 lexical_similarity_score_list
             )
 
+            print(f"Sample {i} in batch: Sentence Trandformer started #2...")
             (second_round_doc_chunk_list, 
              second_round_label_list, 
              second_round_lexical_similarity_score_list) = pos_neg_samples_gen_later_round(
@@ -220,11 +231,12 @@ class MonolingualRetrivalTrainer:
                  lexical_relevant_doc_chunk_list, 
                  SECOND_ROUND_NEGATIVE_SAMPLE_COUNT)
             second_round_output, _ = self._run_training_custom_sentence_transformer_round(
-                query_preprossed,
+                query_segmented,
                 second_round_label_list, 
                 second_round_doc_chunk_list, 
                 second_round_lexical_similarity_score_list)
 
+            print(f"Sample {i} in batch: Sentence Trandformer started #3...")
             (third_round_doc_chunk_list, 
              third_round_label_list, 
              third_round_lexical_similarity_score_list) = pos_neg_samples_gen_later_round(
@@ -233,7 +245,7 @@ class MonolingualRetrivalTrainer:
                     second_round_doc_chunk_list, 
                     THIRD_ROUND_NEGATIVE_SAMPLE_COUNT)
             _, third_round_loss = self._run_training_custom_sentence_transformer_round(
-                query_preprossed,
+                query_segmented,
                 third_round_label_list, 
                 third_round_doc_chunk_list, 
                 third_round_lexical_similarity_score_list)

@@ -91,7 +91,7 @@ def pos_neg_samples_gen_later_round(
 
     # Get top-k label-0 streams
     neg_output: Tensor = previous_round_output[neg_label_indices]
-    topk_values, topk_indices = torch.topk(neg_output, negative_samples_limit)
+    topk_values, topk_indices = torch.topk(neg_output, min(negative_samples_limit, len(neg_label_indices)))
 
     # Map topk_indices back to original indices
     topk_original_indices = [neg_label_indices[i] for i in topk_indices]
