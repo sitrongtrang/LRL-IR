@@ -190,7 +190,10 @@ class QueryExpansion:
                 break
             previous_likelihood = current_likelihood
             self._estimation_step(observation_sequence)
+            if source == "RELEVANT_SET_CONTENT": print("Finish estimation step")
             self._maximization_step(observation_sequence)
+            if source == "RELEVANT_SET_CONTENT": print("Finish maximization step")
+            if source == "RELEVANT_SET_CONTENT": print(current_likelihood)
 
         expansion_prob_dict: dict[tuple[str, SourceForExpansion], float] = {
             k: v for k, v in self.prob_expansion_term_represents_source.items() if k[1] == source and k[0] not in tokenized_query}
@@ -215,7 +218,7 @@ class QueryExpansion:
         print("DONE")
         expansion_term_with_prob_from_content_relevant_set = self._perform_em_algorithm(
             observation_sequence_content, "RELEVANT_SET_CONTENT", tokenized_query)
-
+        print("DONE 2")
         combined_expansion_terms: list[tuple[str, float]] = []
         term_prob_dict: dict[str, float] = {}
 
@@ -286,9 +289,11 @@ class QueryExpansion:
         updated_prob_of_selecting_source: dict[SourceForExpansion, float] = {}
         updated_prob_expansion_term_represents_source: dict[tuple[str, SourceForExpansion], float] = {
         }
+        print(len(self.prob_of_selecting_source))
         for source_to_maximize in self.prob_of_selecting_source.keys():
             updated_prob_of_selecting_source[source_to_maximize] = self._maximize_prob_of_selecting_source(
                 source_to_maximize, observation_sequence)  
+            print(len(self.collection))
             for expansion_term_to_maximize in self.collection_set:
                 key_pair = (expansion_term_to_maximize, source_to_maximize)
                 updated_prob_expansion_term_represents_source[key_pair] = self._maximize_prob_expansion_term_represents_source(
