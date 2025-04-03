@@ -287,6 +287,7 @@ class QueryExpansion:
             term_source_to_maximize_pair: tuple[str, SourceForExpansion] = (term, source_to_maximize)
             numerator += self.prob_term_belongs_to_source.get(term_source_to_maximize_pair, 0.25)
         
+        # The denominator is just the sum of all the numerators so no need for calculation of denominator
         return source_to_maximize, numerator
 
     def _maximize_prob_expansion_term_represents_source(
@@ -312,7 +313,7 @@ class QueryExpansion:
         """
         # Quick check - if term isn't in observation sequence, can be more efficient
         if expansion_term_to_maximize not in observation_sequence:
-            return 0.0
+            return expansion_term_to_maximize, 0.0
         
         term_source_to_maximize_pair: tuple[str, SourceForExpansion] = (expansion_term_to_maximize, source_to_maximize)
         numerator: float = self.prob_term_belongs_to_source.get(term_source_to_maximize_pair, 0.5)
@@ -337,7 +338,7 @@ class QueryExpansion:
                 futures = []
 
                 # Create all pairs for processing
-                pairs: list[tuple[str, SourceForExpansion]] = [(term, source) for source in self.source.keys()]
+                pairs: list[tuple[str, SourceForExpansion]] = [(term, source) for source in self.sources.keys()]
                 for term, source in pairs:
                     futures.append(executor.submit(self._estimate_prob_term_belongs_to_source, term, source))
 

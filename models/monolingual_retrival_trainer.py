@@ -18,6 +18,12 @@ FIRST_ROUND_NEGATIVE_SAMPLE_COUNT = 35
 SECOND_ROUND_NEGATIVE_SAMPLE_COUNT = 20
 THIRD_ROUND_NEGATIVE_SAMPLE_COUNT = 15
 
+def custom_collate_fn(batch):
+    queries = [item[0] for item in batch]  # List of preprocessed queries
+    documents = [item[1] for item in batch]  # List of tokenized queries
+    scores = [item[2] for item in batch]  # List of document id
+    
+    return queries, documents, scores
 
 class ContrastiveLoss(nn.Module):
     """
@@ -143,7 +149,7 @@ class MonolingualRetrivalTrainer:
             has an attribute of class `SentenceTransformer`, which have different way to load the model,\
             we save it as a dictionary of two keys represents two part of `CustomSentenceTransformer`.
         """
-        query_doc_dataloader = DataLoader(self.query_doc_dataset, batch_size=32, shuffle=True)
+        query_doc_dataloader = DataLoader(self.query_doc_dataset, batch_size=32, shuffle=True, collate_fn=custom_collate_fn)
         print("Training started...")
         for epoch in range(self.epochs):
             print("-----------------------------")
@@ -194,17 +200,17 @@ class MonolingualRetrivalTrainer:
             for part in query_preprossed:
               query_segmented += part
             print(f"Sample {i} in batch: data loaded...")
-            # extended_query: list[str] = tokenized_query + self.query_expansion.get_expansion_term(tokenized_query)
+            extended_query: list[str] = tokenized_query + self.query_expansion.get_expansion_term(tokenized_query)
             original_query_doc_ranking: list[tuple[str, float]] = self.lexical_matching.get_documents_ranking(tokenized_query)
             print(f"Sample {i} in batch: lexical matching completed...")
-            # extended_query_doc_ranking: list[tuple[str, float]] = self.lexical_matching.get_documents_ranking(extended_query)
+            extended_query_doc_ranking: list[tuple[str, float]] = self.lexical_matching.get_documents_ranking(extended_query)
             original_query_relevant_doc_list: list[tuple[str, float]] = pos_neg_samples_gen_first_round(
                 document_id, original_query_doc_ranking, FIRST_ROUND_NEGATIVE_SAMPLE_COUNT)
             print(f"Sample {i} in batch: positive/negative pair generated...")
-            # extended_query_relevant_doc_list: list[tuple[str, float]] = pos_neg_samples_gen_first_round(
-            #     document_id, extended_query_doc_ranking, FIRST_ROUND_NEGATIVE_SAMPLE_COUNT)
-            # combine_lexical_relevant_doc_list: list[tuple[str, float]] = combine_doc_list(
-            #     original_query_relevant_doc_list, extended_query_relevant_doc_list)
+            extended_query_relevant_doc_list: list[tuple[str, float]] = pos_neg_samples_gen_first_round(
+                document_id, extended_query_doc_ranking, FIRST_ROUND_NEGATIVE_SAMPLE_COUNT)
+            combine_lexical_relevant_doc_list: list[tuple[str, float]] = combine_doc_list(
+                original_query_relevant_doc_list, extended_query_relevant_doc_list)
 
             lexical_relevant_doc_chunk_list: list[list[str]] = [self.chunk_seperator.get_chunks_of_document(pair[0]) 
                                                                 for pair in original_query_relevant_doc_list]
