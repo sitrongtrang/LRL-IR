@@ -1,10 +1,11 @@
-import concurrent
+import concurrent.futures
+import numpy as np
 from numpy import float64, argsort
 from rank_bm25 import BM25Plus
-from typing import TypeAlias, Literal
-from .dataset import DocumentDataset
-from functools import reduce
+from typing import TypeAlias, Literal, Dict, List, Set, Tuple
+from functools import lru_cache
 from math import log, inf
+import threading
 
 SourceForExpansion: TypeAlias = Literal[
     'COLLECTION_SET_TITLE',
@@ -13,130 +14,83 @@ SourceForExpansion: TypeAlias = Literal[
     'RELEVANT_SET_CONTENT'
 ]
 
-class QueryExpansion:
-    # Too high will affect the speed, especially if the document is long
-    # The paper uses this number in experiment
+class OptimizedQueryExpansion:
     LIMIT_K_DOCS_FOR_RELEVANT_SET = 10
-
-    # The paper also uses this number in experiment
     NUMBER_OF_EXPANSION_TERM = 30
-
     THRESHOLD_FOR_EM_ALGO = 0.000001
     
-    def __init__(self, document_dataset: DocumentDataset) -> None:
-        """
-        Args:
-            document_dataset: An object of DocumentDataset class, represent a document dataset use to expand the query
-        """
-        self.document_dataset: DocumentDataset = document_dataset
-        self.sources: dict[SourceForExpansion, list[list[str]]] = {
+    def __init__(self, document_dataset) -> None:
+        """Initialize with the same parameters as the original class"""
+        self.document_dataset = document_dataset
+        self.sources = {
             'COLLECTION_SET_TITLE': [],
             'COLLECTION_SET_CONTENT': [],
             'RELEVANT_SET_TITLE': [],
             'RELEVANT_SET_CONTENT': []
         }
         self.sources['COLLECTION_SET_TITLE'], self.sources['COLLECTION_SET_CONTENT'] = self._get_tokenize_document()
-        self.collection_set: set[str] = self._get_collection_set()
-        self.bm25plus: BM25Plus = self._load_bm25plus()
-
-        # At first, this dict is empty, so we need to use .get() method with default value when retrieving prob,
-        # so that if key does not exist yet, default value will be return.
-        # Default value will be 1.0 / float(len(self.collection_set)), which mean it follow the uniform distribution.
-        self.prob_expansion_term_represents_source: dict[tuple[str, SourceForExpansion], float] = {}
-
-        self.prob_of_selecting_source: dict[SourceForExpansion, float] = {
-            # Initialize all 4 probs equally. Maximization step will update these probs later.
+        
+        # Perform collection set calculation once and store as a list for faster access
+        self.collection_set = self._get_collection_set()
+        self.collection_set_list = list(self.collection_set)
+        self.collection_set_size = len(self.collection_set)
+        
+        # Create term to index mapping for faster lookups
+        self.term_to_index = {term: idx for idx, term in enumerate(self.collection_set_list)}
+        
+        # Default probability value
+        self.default_prob = 1.0 / float(self.collection_set_size)
+        
+        self.bm25plus = self._load_bm25plus()
+        
+        # Use dictionaries with better access patterns
+        self.prob_expansion_term_represents_source = {}
+        self.prob_of_selecting_source = {
             'COLLECTION_SET_TITLE': 0.25,
             'COLLECTION_SET_CONTENT': 0.25,
             'RELEVANT_SET_TITLE': 0.25,
             'RELEVANT_SET_CONTENT': 0.25
         }
-
-        # Like above, this dict is also empty and required to be treated similarly
-        self.prob_term_belongs_to_source: dict[tuple[str, SourceForExpansion], float] = {}
-
-    def _get_tokenize_document(self) -> tuple[list[list[str]], list[list[str]]]:
-        """
-        Get the list of tokenized title and content of all documents in the dataset.
+        self.prob_term_belongs_to_source = {}
         
-        Returns:
-            tuple[list[list[str]],list[list[str]]]: Tuple contains list of tokenized titles and list of tokenized contents.\
-            The index is correspond to each other, which mean tokenize_title_lst[i] is the title of the document whose content is tokenize_content_lst[i].
-        """
-        tokenize_title_lst: list[list[str]] = []
-        tokenize_content_lst: list[list[str]] = []
+        # Cache for frequently accessed calculations
+        self._term_source_cache = {}
+        self._lock = threading.Lock()
+
+    def _get_tokenize_document(self):
+        """Keep original implementation"""
+        tokenize_title_lst = []
+        tokenize_content_lst = []
         for _, _, tokenize_title, tokenize_content, _, _, _ in self.document_dataset:
             tokenize_title_lst.append(tokenize_title)
             tokenize_content_lst.append(tokenize_content)
         return tokenize_title_lst, tokenize_content_lst
 
-    def _get_collection_set(self) -> set[str]:
-        """
-        Get all terms from the collection set. This will get term set from two collection set (title and content),
-        then combine to from the final term set.
-
-        Returns:
-            set[str]: The set contain all terms from collection set.
-        """
-        collection_set: set[str] = self._get_term_set_of_source("COLLECTION_SET_TITLE")
-        collection_set.update(self._get_term_set_of_source("COLLECTION_SET_CONTENT"))
+    def _get_collection_set(self) -> set:
+        """Optimized to do only necessary operations"""
+        collection_set = set()
+        # Directly collect all terms from both sources
+        for doc in self.sources['COLLECTION_SET_TITLE']:
+            collection_set.update(doc)
+        for doc in self.sources['COLLECTION_SET_CONTENT']:
+            collection_set.update(doc)
         return collection_set
 
-    def _get_term_set_of_source(self, source: SourceForExpansion) -> set[str]:
-        """
-        Get all terms from the specify source.
-
-        Args:
-            source (SourceForExpansion): Name of the source that needs to get terms
-
-        Returns:
-            set[str]: The set contain all terms extract from all document in the specify source.
-        """
-        term_set: set[str] = set()
-        for sequence in self.sources[source]:
-            for term in sequence:
-                term_set.add(term)
-        return term_set
-    
     def _load_bm25plus(self) -> BM25Plus:
-        """
-        Load BM25Plus instance initialized with documents from the document dataset.
-
-        Returns:
-            BM25Plus: BM25Plus instance initialized with documents from the document dataset
-        """
-        tokenized_document_corpus: list[list[str]] = []
+        """Keep original implementation"""
+        tokenized_document_corpus = []
         for i in range(len(self.sources['COLLECTION_SET_TITLE'])):
-            tokenize_title: list[str] = self.sources['COLLECTION_SET_TITLE'][i]
-            tokenize_content: list[str] = self.sources['COLLECTION_SET_CONTENT'][i]
-            tokenize_document: list[str] = tokenize_title + tokenize_content
+            tokenize_document = self.sources['COLLECTION_SET_TITLE'][i] + self.sources['COLLECTION_SET_CONTENT'][i]
             tokenized_document_corpus.append(tokenize_document)
-        bm25plus = BM25Plus(tokenized_document_corpus)
-        return bm25plus
+        return BM25Plus(tokenized_document_corpus)
 
     def get_expansion_term(self, tokenized_query: list[str]) -> list[str]:
-        """
-        Get the list of tokenized expansion terms for the input query.
-        This is also the only public method for this class, the only method you need.
-
-        Args:
-            tokenized_query (list[str]): Query which has been tokenized with the same tokenizer used for the documents
-
-        Returns:
-            list[str]: The list of tokenized expansion terms
-        """
+        """Main public method - same interface as original"""
         self._retrive(tokenized_query)
         return self._expand(tokenized_query)
 
     def _retrive(self, tokenized_query: list[str]) -> None:
-        """
-        Get the list of the top highest lexical similarity documents for a query and add these documents to relevant set.
-        This method will also call helper method to clear out the relevant set of the previous query, 
-        and reset all probabiblities before processing current query.
-
-        Args:
-            tokenized_query (list[str]): Query which has been tokenized with the same tokenizer used for the documents
-        """
+        """Keep original implementation"""
         self._clear_previous_result()
 
         matching_scores = self.bm25plus.get_scores(tokenized_query)
@@ -149,9 +103,7 @@ class QueryExpansion:
                 self.sources['COLLECTION_SET_CONTENT'][index])
 
     def _clear_previous_result(self) -> None:
-        """
-        Helper method to clear out the relevant set of the previous query, and reset all probabiblities.
-        """
+        """Keep original implementation"""
         self.sources['RELEVANT_SET_TITLE'].clear()
         self.sources['RELEVANT_SET_CONTENT'].clear()
         self.prob_of_selecting_source = {
@@ -162,374 +114,317 @@ class QueryExpansion:
         }
         self.prob_expansion_term_represents_source.clear()
         self.prob_term_belongs_to_source.clear()
+        self._term_source_cache.clear()
 
-    def _perform_em_algorithm(
-        self, 
-        observation_sequence: set[str], 
-        source: SourceForExpansion, 
-        tokenized_query: list[str]
-        ) -> list[tuple[str, float]]:
-        """
-        Perform the Expectation-Maximization (EM) algorithm to estimate the probabilities of expansion terms.
-        Args:
-            observation_sequence (set[str]): A set of observed terms.
-            source (SourceForExpansion): The source from which expansion terms are derived.
-            tokenized_query (list[str]): The original query tokenized into a list of terms.
-        Returns:
-            list[tuple[str,float]]: A list of tuples where each tuple contains an expansion term and its corresponding probability, sorted in descending order of probability.
-        """
-        previous_likelihood: float = -inf
-        current_likelihood: float = +inf
+    def _get_term_set_of_source(self, source: SourceForExpansion) -> set:
+        """Optimized term set collection"""
+        # Use caching for repeated calls
+        if source in self._term_source_cache:
+            return self._term_source_cache[source]
+            
+        term_set = set()
+        for sequence in self.sources[source]:
+            term_set.update(sequence)
+            
+        self._term_source_cache[source] = term_set
+        return term_set
+
+    def _log_likelihood(self, observation_sequence: set) -> float:
+        """Optimized log likelihood calculation"""
+        # Pre-calculate probabilities to avoid redundant lookups
+        source_probs = {source: self.prob_of_selecting_source[source] for source in self.sources.keys()}
+        
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            futures = []
+            for term in observation_sequence:
+                futures.append(executor.submit(self._compute_term_likelihood, term, source_probs))
+            
+            likelihoods = [future.result() for future in concurrent.futures.as_completed(futures)]
+        
+        return sum(likelihoods)
+    
+    def _compute_term_likelihood(self, term, source_probs):
+        """Helper function to compute likelihood for a single term"""
+        accumulate_likelihood = 0.0
+        
+        # Only check if term is in collection set once
+        if term not in self.collection_set:
+            return 0.0
+            
+        for source, prob_source in source_probs.items():
+            term_source_pair = (term, source)
+            prob_term_belongs = self.prob_term_belongs_to_source.get(term_source_pair, 0.25)
+            
+            # Only compute if probability is significant
+            if prob_term_belongs > 0:
+                # Only need to check for the current term, not the entire collection set
+                expansion_term_source_pair = (term, source)
+                prob_expansion = self.prob_expansion_term_represents_source.get(
+                    expansion_term_source_pair, self.default_prob)
+                
+                if prob_expansion > 0:
+                    log_prob = log(prob_expansion)
+                    source_likelihood = prob_term_belongs * (prob_source + log_prob)
+                    accumulate_likelihood += source_likelihood
+        
+        return accumulate_likelihood
+
+    def _maximization_step(self, observation_sequence: set) -> None:
+        """Optimized maximization step"""
+        # Calculate source probabilities in parallel
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            source_futures = {
+                executor.submit(self._maximize_prob_of_selecting_source, source, observation_sequence): source
+                for source in self.prob_of_selecting_source.keys()
+            }
+            
+            updated_prob_of_selecting_source = {}
+            for future in concurrent.futures.as_completed(source_futures):
+                source = source_futures[future]
+                updated_prob_of_selecting_source[source] = future.result()
+        
+        # Update source probabilities
+        self.prob_of_selecting_source = updated_prob_of_selecting_source
+        
+        # Precompute values needed for term-source probability calculation
+        term_set = list(observation_sequence)
+        sources = list(self.prob_of_selecting_source.keys())
+        
+        # Process in batches to reduce overhead
+        batch_size = 100  # Adjust based on your system
+        all_pairs = []
+        
+        for source in sources:
+            for term in self.collection_set:
+                all_pairs.append((term, source))
+        
+        # Process batches in parallel
+        updated_prob_expansion_term_represents_source = {}
+        
+        for i in range(0, len(all_pairs), batch_size):
+            batch = all_pairs[i:i+batch_size]
+            
+            with concurrent.futures.ThreadPoolExecutor() as executor:
+                batch_results = executor.map(
+                    lambda pair: (
+                        pair,
+                        self._maximize_prob_expansion_term_represents_source(pair[1], pair[0], observation_sequence)
+                    ),
+                    batch
+                )
+                
+                for (term, source), prob in batch_results:
+                    if prob > 0:  # Only store non-zero probabilities
+                        updated_prob_expansion_term_represents_source[(term, source)] = prob
+            
+            if i % 1000 == 0 and i > 0:
+                print(f"Processed {i}/{len(all_pairs)} term-source pairs")
+        
+        # Update term-source probabilities
+        self.prob_expansion_term_represents_source = updated_prob_expansion_term_represents_source
+
+    def _maximize_prob_of_selecting_source(self, source_to_maximize, observation_sequence):
+        """Optimized source probability calculation"""
+        numerator = 0.0
+        denominator = 0.0
+        
+        # Group calculations for efficiency 
+        for term in observation_sequence:
+            term_source_pair = (term, source_to_maximize)
+            prob = self.prob_term_belongs_to_source.get(term_source_pair, 0.25)
+            numerator += prob
+            
+            # Calculate denominator efficiently
+            term_total = 0.0
+            for source in self.sources.keys():
+                term_source = (term, source)
+                term_total += self.prob_term_belongs_to_source.get(term_source, 0.25)
+            
+            denominator += term_total
+        
+        return numerator / max(denominator, 1e-10)  # Avoid division by zero
+
+    def _maximize_prob_expansion_term_represents_source(self, source_to_maximize, expansion_term_to_maximize, observation_sequence):
+        """Optimized expansion term probability calculation"""
+        # Quick check - if term isn't in observation sequence, can be more efficient
+        if expansion_term_to_maximize not in observation_sequence:
+            # Check if we need this term at all
+            # If not in top N terms by current probability, skip it
+            current_prob = self.prob_expansion_term_represents_source.get(
+                (expansion_term_to_maximize, source_to_maximize), 0.0)
+            if current_prob == 0.0:
+                return 0.0
+        
+        numerator = 0.0
+        denominator = 0.0
+        
+        # Create a counter for the expansion term in the observation sequence
+        term_count = 1 if expansion_term_to_maximize in observation_sequence else 0
+        
+        if term_count > 0:
+            # This is much faster than iterating through each term
+            term_pair = (expansion_term_to_maximize, source_to_maximize)
+            prob = self.prob_term_belongs_to_source.get(term_pair, 0.5)
+            numerator = term_count * prob
+            
+            # For denominator, sum over all terms that are in observation_sequence
+            relation_prob = 0.0
+            for term in observation_sequence:
+                term_pair = (term, source_to_maximize)
+                relation_prob += self.prob_term_belongs_to_source.get(term_pair, 0.5)
+            
+            denominator = relation_prob
+        
+        # Prevent division by zero
+        return numerator / max(denominator, 1e-10) if denominator > 0 else 0.0
+
+    def _estimation_step(self, observation_sequence: set) -> None:
+        """Optimized expectation step"""
+        updated_prob_term_belongs_to_source = {}
+        
+        # Process in parallel with optimized batching
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            futures = []
+            
+            # Create all pairs for processing
+            pairs = [(term, source) 
+                    for term in observation_sequence 
+                    for source in self.prob_of_selecting_source.keys()]
+            
+            # Process pairs in chunks to reduce overhead
+            chunk_size = min(100, max(1, len(pairs) // executor._max_workers))
+            for i in range(0, len(pairs), chunk_size):
+                chunk = pairs[i:i+chunk_size]
+                futures.append(executor.submit(self._process_term_source_batch, chunk))
+            
+            # Collect results
+            for future in concurrent.futures.as_completed(futures):
+                batch_results = future.result()
+                updated_prob_term_belongs_to_source.update(batch_results)
+        
+        self.prob_term_belongs_to_source = updated_prob_term_belongs_to_source
+
+    def _process_term_source_batch(self, pairs):
+        """Process a batch of term-source pairs"""
+        result = {}
+        for term, source in pairs:
+            prob = self._estimate_prob_term_belongs_to_source(term, source)
+            if prob > 0:  # Only store non-zero probabilities
+                result[(term, source)] = prob
+        return result
+
+    def _estimate_prob_term_belongs_to_source(self, term_to_estimate, source_to_estimate):
+        """Optimized probability estimation"""
+        # Short-circuit if term is not in collection set
+        if term_to_estimate not in self.collection_set:
+            return 0.0
+            
+        numerator = 0.0
+        denominator = 0.0
+        
+        # Directly use probability for the term if it exists
+        expansion_term_source_pair = (term_to_estimate, source_to_estimate)
+        prob = self.prob_expansion_term_represents_source.get(
+            expansion_term_source_pair, self.default_prob)
+        
+        # Only calculate if probability is significant
+        if prob > 0:
+            numerator = self.prob_of_selecting_source[source_to_estimate] * prob
+            
+            # Calculate denominator more efficiently
+            for source in self.sources.keys():
+                expansion_term_source = (term_to_estimate, source)
+                source_prob = self.prob_expansion_term_represents_source.get(
+                    expansion_term_source, self.default_prob)
+                if source_prob > 0:
+                    denominator += self.prob_of_selecting_source[source] * source_prob
+        
+        # Prevent division by zero
+        return numerator / max(denominator, 1e-10) if denominator > 0 else 0.0
+
+    def _perform_em_algorithm(self, observation_sequence: set, source: SourceForExpansion, tokenized_query: list[str]) -> list:
+        """Optimize EM algorithm implementation"""
+        previous_likelihood = -inf
+        current_likelihood = 0
+        iteration = 0
+        max_iterations = 30  # Add a cap on iterations to prevent infinite loops
+        
+        # Initialize with reasonable default values where possible
+        self._precompute_default_probabilities(observation_sequence, source)
+        
         while True:
+            iteration += 1
             current_likelihood = self._log_likelihood(observation_sequence)
-            if current_likelihood <= (previous_likelihood + self.THRESHOLD_FOR_EM_ALGO):
+            
+            # Convergence check
+            if (current_likelihood <= previous_likelihood + self.THRESHOLD_FOR_EM_ALGO or 
+                iteration >= max_iterations):
                 break
+                
             previous_likelihood = current_likelihood
+            
+            print(f"Starting iteration {iteration} for source {source}")
             self._estimation_step(observation_sequence)
-            if source == "RELEVANT_SET_CONTENT": print("Finish estimation step")
+            if source == "RELEVANT_SET_CONTENT": 
+                print("Finish estimation step")
+            
             self._maximization_step(observation_sequence)
-            if source == "RELEVANT_SET_CONTENT": print("Finish maximization step")
-            if source == "RELEVANT_SET_CONTENT": print(current_likelihood)
+            if source == "RELEVANT_SET_CONTENT": 
+                print("Finish maximization step")
+                print(f"Current likelihood: {current_likelihood}")
 
-        expansion_prob_dict: dict[tuple[str, SourceForExpansion], float] = {
-            k: v for k, v in self.prob_expansion_term_represents_source.items() if k[1] == source and k[0] not in tokenized_query}
-        sorted_expansion_prob: list[tuple[tuple[str, SourceForExpansion], float]] = sorted(
-            expansion_prob_dict.items(), key=lambda item: item[1], reverse=True)
-        return [(term[0][0], term[1]) for term in sorted_expansion_prob[:self.NUMBER_OF_EXPANSION_TERM]]
+        # Extract top terms efficiently
+        return self._extract_top_terms(source, tokenized_query)
+
+    def _precompute_default_probabilities(self, observation_sequence, source):
+        """Precompute some default probabilities to speed up first iterations"""
+        # For terms in observation sequence, set slightly higher initial probabilities
+        for term in observation_sequence:
+            if term in self.collection_set:
+                self.prob_expansion_term_represents_source[(term, source)] = self.default_prob * 2
+
+    def _extract_top_terms(self, source, tokenized_query):
+        """Extract top terms more efficiently"""
+        # Only consider terms not in the query
+        query_set = set(tokenized_query)
+        
+        # Filter and sort in one pass
+        expansion_items = [
+            (term, prob) for (term, src), prob in self.prob_expansion_term_represents_source.items() 
+            if src == source and term not in query_set
+        ]
+        
+        # Sort once
+        expansion_items.sort(key=lambda x: x[1], reverse=True)
+        
+        # Return top N items
+        return [(term, prob) for term, prob in expansion_items[:self.NUMBER_OF_EXPANSION_TERM]]
 
     def _expand(self, tokenized_query: list[str]) -> list[str]:
-        """
-        Get the list of tokenized expansion terms by performing EM algorithm for each observation sequence:
-        relevant set (title) and relevant set (content), then combining their expansion term list to form final list.
+        """Keep the original expand implementation but optimize internal calls"""
+        observation_sequence_title = self._get_term_set_of_source("RELEVANT_SET_TITLE")
+        observation_sequence_content = self._get_term_set_of_source("RELEVANT_SET_CONTENT")
 
-        Returns:
-            list[str]: Final list of tokenized expansion terms
-        """
-
-        observation_sequence_title: set[str] = self._get_term_set_of_source("RELEVANT_SET_TITLE")
-        observation_sequence_content: set[str] = self._get_term_set_of_source("RELEVANT_SET_CONTENT")
-
+        print("Starting EM algorithm for title set")
         expansion_term_with_prob_from_title_relevant_set = self._perform_em_algorithm(
             observation_sequence_title, "RELEVANT_SET_TITLE", tokenized_query)
-        print("DONE")
+        print("DONE with title set")
+        
+        print("Starting EM algorithm for content set")
         expansion_term_with_prob_from_content_relevant_set = self._perform_em_algorithm(
             observation_sequence_content, "RELEVANT_SET_CONTENT", tokenized_query)
-        print("DONE 2")
-        combined_expansion_terms: list[tuple[str, float]] = []
-        term_prob_dict: dict[str, float] = {}
-
+        print("DONE with content set")
+        
+        # Efficiently combine results
+        term_prob_dict = {}
         for term, prob in expansion_term_with_prob_from_title_relevant_set:
-            if term not in term_prob_dict or prob > term_prob_dict[term]:
-                term_prob_dict[term] = prob
+            term_prob_dict[term] = prob
 
         for term, prob in expansion_term_with_prob_from_content_relevant_set:
             if term not in term_prob_dict or prob > term_prob_dict[term]:
                 term_prob_dict[term] = prob
 
-        combined_expansion_terms = list(term_prob_dict.items())
-
-        sorted_expansion_term_final_prob = sorted(
-            combined_expansion_terms, key=lambda item: item[1], reverse=True)
-
-        expansion_term_final: list[str] = [
-            term[0] for term in sorted_expansion_term_final_prob[:self.NUMBER_OF_EXPANSION_TERM]]
+        # Sort once and return
+        sorted_terms = sorted(term_prob_dict.items(), key=lambda item: item[1], reverse=True)
+        expansion_term_final = [term for term, _ in sorted_terms[:self.NUMBER_OF_EXPANSION_TERM]]
         return expansion_term_final
-
-    def _log_likelihood(self, observation_sequence: set[str]) -> float:
-        """
-        Calculate the log likelihood value for the observation sequence.
-
-        Args:
-            observation_sequence (set[str]): The term set of the source that is considered to be observation sequence.\
-            For ease of understanding, this term set is all the words from relevant set (title) or relevant set (content),
-            depends on which relevant set you are calculating.
-
-        Returns:
-            float: The log likelihood value calculated
-        """
-        # likelihood: float = 0.0
-        # for term in observation_sequence:
-        #     accumulate_likelihood_of_source: float = 0.0
-        #     for source in self.sources.keys():
-        #         term_source_pair: tuple[str,
-        #                                 SourceForExpansion] = (term, source)
-        #         prob_term_belongs_to_source: float = self.prob_term_belongs_to_source.get(
-        #             term_source_pair, 0.25)
-        #         prob_of_selecting_source: float = self.prob_of_selecting_source[source]
-        #         accumulate_likelihood_of_collection_set: float = 0.0
-        #         for expansion_term in self.collection_set:
-        #             indicator = 1 if term == expansion_term else 0
-        #             if indicator == 0: continue
-        #             expansion_term_source_pair: tuple[str, SourceForExpansion] = (
-        #                 expansion_term, source)
-        #             prob_expansion_term_represents_source: float = self.prob_expansion_term_represents_source.get(
-        #                 expansion_term_source_pair, 1.0 / float(len(self.collection_set)))
-        #             if (prob_expansion_term_represents_source != 0): 
-        #                 accumulate_likelihood_of_collection_set += indicator * \
-        #                   log(prob_expansion_term_represents_source)
-        #         accumulate_likelihood_of_source += prob_term_belongs_to_source * \
-        #             (prob_of_selecting_source +
-        #              accumulate_likelihood_of_collection_set)
-        #     likelihood += accumulate_likelihood_of_source
-        # return likelihood
-
-        # Multithreaded version
-        def compute_accumulate_likelihood_of_source(term):
-            accumulate_likelihood_of_source: float = 0.0
-            for source in self.sources.keys():
-                term_source_pair: tuple[str, SourceForExpansion] = (term, source)
-                prob_term_belongs_to_source: float = self.prob_term_belongs_to_source.get(term_source_pair, 0.25)
-                prob_of_selecting_source: float = self.prob_of_selecting_source[source]
-
-                accumulate_likelihood_of_collection_set: float = 0.0
-                for expansion_term in self.collection_set:
-                    indicator = 1 if term == expansion_term else 0
-                    if indicator == 0: continue
-
-                    expansion_term_source_pair: tuple[str, SourceForExpansion] = (expansion_term, source)
-                    prob_expansion_term_represents_source: float = self.prob_expansion_term_represents_source.get(
-                        expansion_term_source_pair, 1.0 / float(len(self.collection_set)))
-                    if prob_expansion_term_represents_source > 0: 
-                        accumulate_likelihood_of_collection_set += indicator * \
-                          log(prob_expansion_term_represents_source)
-                        
-                accumulate_likelihood_of_source += prob_term_belongs_to_source * \
-                    (prob_of_selecting_source + accumulate_likelihood_of_collection_set)
-                
-            return accumulate_likelihood_of_source
-        
-        with concurrent.futures.ThreadPoolExecutor() as executor:
-            likelihoods = list(executor.map(compute_accumulate_likelihood_of_source, observation_sequence))
-
-        return sum(likelihoods)
-
-    def _maximization_step(self, observation_sequence: set[str]) -> None:
-        """
-        Maximization step in EM algorithm. This will calculate new probability of selecting a source and
-        probability an expansion term represents a source, and then save them.
-
-        Args:
-            observation_sequence (set[str]): The term set of the source that is considered to be observation sequence.\ 
-            For ease of understanding, this term set is all the words from relevant set (title) or relevant set (content),
-            depends on which relevant set you are calculating.
-        """
-        updated_prob_of_selecting_source: dict[SourceForExpansion, float] = {}
-        updated_prob_expansion_term_represents_source: dict[tuple[str, SourceForExpansion], float] = {}
-        # for source_to_maximize in self.prob_of_selecting_source.keys():
-        #     updated_prob_of_selecting_source[source_to_maximize] = self._maximize_prob_of_selecting_source(
-        #         source_to_maximize, observation_sequence)  
-        #     i = 0
-        #     for expansion_term_to_maximize in self.collection_set:
-        #         key_pair = (expansion_term_to_maximize, source_to_maximize)
-        #         updated_prob_expansion_term_represents_source[key_pair] = self._maximize_prob_expansion_term_represents_source(
-        #             source_to_maximize, expansion_term_to_maximize, observation_sequence)
-        #         if i % 100 == 0: print()
-        #         i += 1
-        
-        # Multithreaded version
-        def calculate_source_prob(source_to_maximize):
-            prob = self._maximize_prob_of_selecting_source(source_to_maximize, observation_sequence)
-            return source_to_maximize, prob
-
-        with concurrent.futures.ThreadPoolExecutor() as executor:
-            futures = {executor.submit(calculate_source_prob, source): source 
-                      for source in self.prob_of_selecting_source.keys()}
-            
-            for future in concurrent.futures.as_completed(futures):
-                source, prob = future.result()
-                updated_prob_of_selecting_source[source] = prob
-
-        def process_term_source_batch(batch_data):
-            results = {}
-            for expansion_term_to_maximize, source_to_maximize in batch_data:
-                key_pair = (expansion_term_to_maximize, source_to_maximize)
-                prob = self._maximize_prob_expansion_term_represents_source(
-                    source_to_maximize, expansion_term_to_maximize, observation_sequence)
-                results[key_pair] = prob
-            return results
-
-        # Create batches of term-source pairs
-        batch_size = 100
-        all_pairs = []
-        for source_to_maximize in self.prob_of_selecting_source.keys():
-            for expansion_term_to_maximize in self.collection_set:
-                all_pairs.append((expansion_term_to_maximize, source_to_maximize))
-        
-        batches = [all_pairs[i:i+batch_size] for i in range(0, len(all_pairs), batch_size)]
-        
-        # Process batches in parallel
-        with concurrent.futures.ThreadPoolExecutor() as executor:
-            batch_results = list(executor.map(process_term_source_batch, batches))
-            
-        # Combine all batch results
-        for result_dict in batch_results:
-            updated_prob_expansion_term_represents_source.update(result_dict)
-
-        self.prob_of_selecting_source = updated_prob_of_selecting_source
-        self.prob_expansion_term_represents_source = updated_prob_expansion_term_represents_source
-
-    def _maximize_prob_of_selecting_source(
-            self,
-            source_to_maximize: SourceForExpansion,
-            observation_sequence: set[str]
-    ) -> float:
-        """
-        Calculate the new probability of selecting a source.
-
-        Args:
-            source_to_maximize (SourceForExpansion): Name of the source you want to calculate new probability
-
-            observation_sequence (set[str]): The term set of the source that is considered to be observation sequence.\
-            For ease of understanding, this term set is all the words from relevant set (title) or relevant set (content),
-            depends on which relevant set you are calculating.
-
-        Returns:
-            float: The new probability calculated.
-        """
-        numerator: float = 0.0
-        denominator: float = 0.0
-
-        for term in observation_sequence:
-            term_source_to_maximize_pair: tuple[str, SourceForExpansion] = (term, source_to_maximize)
-            numerator += self.prob_term_belongs_to_source.get(term_source_to_maximize_pair, 0.25)
-
-            relation_prob_term_all_source: float = 0.0
-            for source in self.sources.keys():
-                term_source_pair: tuple[str, SourceForExpansion] = (term, source)
-                relation_prob_term_all_source += self.prob_term_belongs_to_source.get(term_source_pair, 0.25)
-            denominator += relation_prob_term_all_source
-
-        return numerator / denominator
-
-    def _maximize_prob_expansion_term_represents_source(
-            self,
-            source_to_maximize: SourceForExpansion,
-            expansion_term_to_maximize: str,
-            observation_sequence: set[str]
-    ) -> float:
-        """
-        Calculate the new probability an expansion term represents a source.
-
-        Args:
-            source_to_maximize (SourceForExpansion): Name of the source you want to calculate new probability
-
-            expansion_term_to_maximize (str): The term you want to calculate new probability
-
-            observation_sequence (set[str]): The term set of the source that is considered to be observation sequence.\ 
-            For ease of understanding, this term set is all the words from relevant set (title) or relevant set (content),
-            depends on which relevant set you are calculating.
-
-        Returns:
-            float: The new probability calculated.
-        """
-        numerator: float = 0.0
-        denominator: float = 0.0
-
-        for term in observation_sequence:
-            indicator = 1 if term == expansion_term_to_maximize else 0
-            # term_source_to_maximize_pair: tuple[str, SourceForExpansion] = (
-            #     term, source_to_maximize)
-            term_source_to_maximize_pair: tuple[str, SourceForExpansion] = (
-                expansion_term_to_maximize, source_to_maximize)
-            numerator += indicator * \
-                self.prob_term_belongs_to_source.get(term_source_to_maximize_pair, 0.5) 
-
-            relation_prob_term_whole_collection_set: float = 0.0
-            for expansion_term in self.collection_set:
-                expansion_term_indicator = 1 if term == expansion_term else 0
-                # term_source_to_maximize_pair: tuple[str, SourceForExpansion] = (
-                #     term, source_to_maximize)
-                if expansion_term_indicator == 0: continue
-                term_source_to_maximize_pair: tuple[str, SourceForExpansion] = (
-                    expansion_term, source_to_maximize)
-                relation_prob_term_whole_collection_set += expansion_term_indicator * \
-                    self.prob_term_belongs_to_source.get(term_source_to_maximize_pair, 0.5)
-                
-            denominator += relation_prob_term_whole_collection_set
-
-        return numerator / denominator
-
-    def _estimation_step(self, observation_sequence: set[str]) -> None:
-        """
-        Expectation step in EM algorithm. This will calculate new probability that a term belongs to a source, 
-        and then save it
-
-        Args:
-            observation_sequence (set[str]): The term set of the source that is considered to be observation sequence.\ 
-            For ease of understanding, this term set is all the words from relevant set (title) or relevant set (content),
-            depends on which relevant set you are calculating.
-        """
-        updated_prob_term_belongs_to_source: dict[tuple[str, SourceForExpansion], float] = {}
-        # for term_to_estimate in observation_sequence:
-        #     for source_to_estimate in self.prob_of_selecting_source.keys():
-        #         key_pair: tuple[str, SourceForExpansion] = (
-        #             term_to_estimate, source_to_estimate)
-        #         updated_prob_term_belongs_to_source[key_pair] = self._estimate_prob_term_belongs_to_source(
-        #             term_to_estimate, source_to_estimate)
-
-        # Multithreaded version
-        def process_term_source_pair(args):
-            term_to_estimate, source_to_estimate = args
-            key_pair = (term_to_estimate, source_to_estimate)
-            prob = self._estimate_prob_term_belongs_to_source(term_to_estimate, source_to_estimate)
-            return key_pair, prob
-        
-        pairs = [(term, source) 
-                for term in observation_sequence 
-                for source in self.prob_of_selecting_source.keys()]
-        
-        with concurrent.futures.ThreadPoolExecutor() as executor:
-            results = executor.map(process_term_source_pair, pairs)
-            
-        for key_pair, prob in results:
-            updated_prob_term_belongs_to_source[key_pair] = prob
-
-        self.prob_term_belongs_to_source = updated_prob_term_belongs_to_source
-
-    def _estimate_prob_term_belongs_to_source(
-            self,
-            term_to_estimate: str,
-            source_to_estimate: SourceForExpansion
-    ) -> float:
-        """
-        Calculate new probability that a term belongs to a source.
-
-        Args:
-            term_to_estimate (str): The term you want to calculate new probability
-
-            source_to_estimate (SourceForExpansion): Name of the source you want to calculate new probability
-
-        Returns:
-            float: The new probability calculated.
-        """
-        numerator: float = 0.0
-        denominator: float = 0.0
-
-        accumulate_prob_for_numerator: float = 1.0
-        for expansion_term in self.collection_set:
-            indicator = 1 if term_to_estimate == expansion_term else 0
-            if indicator == 0: continue
-            expansion_term_source_to_estimate_pair: tuple[str, SourceForExpansion] = (
-                expansion_term, source_to_estimate)
-            accumulate_prob_for_numerator *= (self.prob_expansion_term_represents_source.get(
-                expansion_term_source_to_estimate_pair, 1.0 / float(len(self.collection_set)))) ** indicator
-        
-        numerator = self.prob_of_selecting_source[source_to_estimate] * \
-            accumulate_prob_for_numerator
-
-        for source in self.prob_of_selecting_source.keys():
-            accumulate_prob_for_denominator: float = 1.0
-            for expansion_term in self.collection_set:
-                indicator = 1 if term_to_estimate == expansion_term else 0
-                if indicator == 0: continue
-                expansion_term_source_pair: tuple[str, SourceForExpansion] = (
-                    expansion_term, source)
-                temp = (self.prob_expansion_term_represents_source.get(
-                    expansion_term_source_pair, 1.0 / float(len(self.collection_set))))
-                if temp != 0: 
-                  accumulate_prob_for_denominator *= (temp ** indicator)
-                  
-            denominator += self.prob_of_selecting_source[source] * \
-                accumulate_prob_for_denominator
-
-        return numerator / denominator
