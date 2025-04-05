@@ -213,14 +213,14 @@ class MonolingualRetrivalTrainer:
                 original_query_relevant_doc_list, extended_query_relevant_doc_list)
 
             lexical_relevant_doc_chunk_list: list[list[str]] = [self.chunk_seperator.get_chunks_of_document(pair[0]) 
-                                                                for pair in original_query_relevant_doc_list]
+                                                                for pair in combine_lexical_relevant_doc_list]
             print(f"Sample {i} in batch: chunk list created...")                                                  
-            lexical_similarity_score_list: list[float] = [pair[1] for pair in original_query_relevant_doc_list]
+            lexical_similarity_score_list: list[float] = [pair[1] for pair in combine_lexical_relevant_doc_list]
 
             self.custom_sentence_transformer.train()
             print(f"Sample {i} in batch: Sentence Trandformer started #1...")
 
-            first_round_label_list: list[float] = [(1.0 if pair[0] == document_id else 0.0) for pair in original_query_relevant_doc_list]
+            first_round_label_list: list[float] = [(1.0 if pair[0] == document_id else 0.0) for pair in combine_lexical_relevant_doc_list]
             first_round_output, _ = self._run_training_custom_sentence_transformer_round(
                 query_segmented,
                 first_round_label_list, 

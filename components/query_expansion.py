@@ -333,8 +333,8 @@ class QueryExpansion:
         updated_prob_term_belongs_to_source: dict[tuple[str, SourceForExpansion], float] = {}
         
         # Process in parallel with optimized batching
-        with concurrent.futures.ThreadPoolExecutor() as executor:
-            for term in observation_sequence:
+        for term in observation_sequence:
+            with concurrent.futures.ThreadPoolExecutor() as executor:
                 futures = []
 
                 # Create all pairs for processing
@@ -413,14 +413,8 @@ class QueryExpansion:
             previous_likelihood = current_likelihood
             
             print(f"Starting iteration {iteration} for source {source}")
-            self._estimation_step(observation_sequence)
-            if source == "RELEVANT_SET_CONTENT": 
-                print("Finish estimation step")
-            
+            self._estimation_step(observation_sequence)     
             self._maximization_step(observation_sequence)
-            if source == "RELEVANT_SET_CONTENT": 
-                print("Finish maximization step")
-                print(f"Current likelihood: {current_likelihood}")
 
         expansion_prob_dict: dict[tuple[str, SourceForExpansion], float] = {
             k: v for k, v in self.prob_expansion_term_represents_source.items() if k[1] == source and k[0] not in tokenized_query}

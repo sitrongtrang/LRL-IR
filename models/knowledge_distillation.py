@@ -105,16 +105,9 @@ class KnowledgeDistillation:
         if "padded" in self.distribution:
             source_tokens, target_tokens = pad_sentences(source_tokens, target_tokens, self.teacher.tokenizer.pad_token, self.student.tokenizer.pad_token)
 
-        if self.distribution == "tf-idf":
-            source_sentence_list = []
-            target_sentence_list = []
-            with open(self.parallel_dir, newline='', encoding='utf-8') as csvfile:
-                reader = csv.DictReader(csvfile)
-                for row in reader:
-                    source_sentence_list.append(row['source'])
-                    target_sentence_list.append(row['target'])
-            source_dist = tf_idf_dist(source_tokens, source_sentence, source_sentence_list, self.device)
-            target_dist = tf_idf_dist(target_tokens, target_sentence, target_sentence_list, self.device)
+        if self.distribution == "tf_idf":
+            source_dist = tf_idf_dist(source_tokens, source_sentence, self.source_sentence_list, self.device)
+            target_dist = tf_idf_dist(target_tokens, target_sentence, self.target_sentence_list, self.device)
         elif self.distribution == "roberta":
             source_dist = roberta_dist(source_tokens, self.teacher_tokenizer, self.teacher_roberta_model, self.device)
             target_dist = roberta_dist(target_tokens, self.student_tokenizer, self.student_roberta_model, self.device)
@@ -150,7 +143,7 @@ class KnowledgeDistillation:
 
         cost: Tensor = compute_cosine_cost_matrix(source_embeddings, target_embeddings)
         plan, loss = self.ot_solver(source_dist, target_dist, cost)
-
+        
         for i, token in enumerate(source_tokens):
             temp = plan[i].tolist()
             largest_values = heapq.nlargest(1, temp)
@@ -160,8 +153,7 @@ class KnowledgeDistillation:
 
         return plan, loss
 
-    def train_loop(self, source_sentence: str, target_sentence: str):
-        print(source_sentence)   
+    def train_loop(self, source_sentence: str, target_sentence: str):  
         # self.optimizer.zero_grad() 
         plan, loss = self.optical(source_sentence, target_sentence)
         loss.backward()
@@ -181,11 +173,12 @@ class KnowledgeDistillation:
             if self.distribution == "roberta":
                 self.teacher_tokenizer, self.teacher_roberta_model = load_roberta(self.teacher_model_language, self.device)
                 self.student_tokenizer, self.student_roberta_model = load_roberta(self.student_model_language, self.device)
+            elif self.distribution == "tf_idf":
+                self.source_sentence_list = [source_sentence for source_sentence, _ in bitext_data]
+                self.target_sentence_list = [target_sentence for _, target_sentence in bitext_data]
             for source_sentence, target_sentence in bitext_data:
-                try:
-                    self.train_loop(source_sentence, target_sentence)
-                except:
-                    pass
+                self.train_loop(source_sentence, target_sentence)
+
 
         self.student.save(self.save_dir + f"sentence_transformer_multilingual_" + self.distribution)
         check_point = {

@@ -204,7 +204,7 @@ def l1_normalize(tensor: Tensor):
     return normalized.to(tensor.device).requires_grad_(tensor.requires_grad)
 
 def tf_idf_dist(tokens, doc, doc_list, device='cpu'):
-    return torch.tensor([tf_idf(token, doc, doc_list) for token in tokens], requires_grad=True, device=device)
+    return torch.tensor([tf_idf(token, doc, doc_list) for token in tokens], requires_grad=True, device=device, dtype=torch.float32)
 
 def uniform_dist(sentence, device='cpu'):
     return torch.ones(len(sentence), requires_grad=True, device=device)
