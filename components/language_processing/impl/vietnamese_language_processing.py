@@ -59,7 +59,7 @@ class VietnameseLanguageProcessing(LanguageProcessing):
     def text_preprocessing(self, text):
         tokenized_text = self._text_preprocessing(text)
         tokenized_text = [tokenized_sent.split(' ') for tokenized_sent in tokenized_text]
-        return [token for tokenized_sent in tokenized_text for token in tokenized_sent]
+        return [token.replace("_", " ") for tokenized_sent in tokenized_text for token in tokenized_sent]
         # return tokenized_text
 
         
