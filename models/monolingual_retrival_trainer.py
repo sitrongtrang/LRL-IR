@@ -161,8 +161,8 @@ class MonolingualRetrivalTrainer:
                 print(f"Batch {batch_count + 1} completed.")
                 print(f"Loss: {loss.item()}")
 
-        sentence_transformer_save_path: str = os.getenv("PROJECT_DIR") + f"/sentence_transformer_finetune/{self.language}"
-        custom_sentence_transformer_save_path: str = os.getenv("PROJECT_DIR") + f"/custom_sentence_transformer_trained/{self.language}"
+        sentence_transformer_save_path: str = os.getenv("PROJECT_DIR") + f"sentence_transformer_finetune/{self.language}"
+        custom_sentence_transformer_save_path: str = os.getenv("PROJECT_DIR") + f"custom_sentence_transformer_trained/{self.language}"
 
         self.custom_sentence_transformer.document_sentence_transformer.save(sentence_transformer_save_path)
         check_point = {
@@ -221,6 +221,7 @@ class MonolingualRetrivalTrainer:
             print(f"Sample {i} in batch: Sentence Trandformer started #1...")
 
             first_round_label_list: list[float] = [(1.0 if pair[0] == document_id else 0.0) for pair in combine_lexical_relevant_doc_list]
+            print(f"Sample {i} in batch: Custom Sentence Trandformer round #1...")
             first_round_output, _ = self._run_training_custom_sentence_transformer_round(
                 query_segmented,
                 first_round_label_list, 
@@ -237,6 +238,7 @@ class MonolingualRetrivalTrainer:
                  lexical_similarity_score_list, 
                  lexical_relevant_doc_chunk_list, 
                  SECOND_ROUND_NEGATIVE_SAMPLE_COUNT)
+            print(f"Sample {i} in batch: Custom Sentence Trandformer round #2...")
             second_round_output, _ = self._run_training_custom_sentence_transformer_round(
                 query_segmented,
                 second_round_label_list, 
@@ -251,6 +253,7 @@ class MonolingualRetrivalTrainer:
                     second_round_lexical_similarity_score_list, 
                     second_round_doc_chunk_list, 
                     THIRD_ROUND_NEGATIVE_SAMPLE_COUNT)
+            print(f"Sample {i} in batch: Custom Sentence Trandformer round #3...")
             _, third_round_loss = self._run_training_custom_sentence_transformer_round(
                 query_segmented,
                 third_round_label_list, 
