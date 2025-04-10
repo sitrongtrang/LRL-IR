@@ -2,6 +2,9 @@ import torch
 from torch import nn, Tensor
 from sentence_transformers import SentenceTransformer
 from torch.nn.functional import cosine_similarity, relu
+from typing import List
+import concurrent.futures
+from functools import partial
 
 
 class CustomSentenceTransformer(nn.Module):
@@ -11,121 +14,188 @@ class CustomSentenceTransformer(nn.Module):
             device: str = "cpu",
             batch_size: int = 32,
             is_multilingual_retrival: bool = False,
-            pretrained_model_name_or_path_for_query: str = ""
+            pretrained_model_name_or_path_for_query: str = "",
+            max_workers: int = 35,  # Threads for document stream processing
+            encoding_workers: int = 2  # Threads for batch encoding
     ):
         """
         Args:
-            pretrained_model_name_or_path (str): This param will be pass to the initailization of \
-            SentenceTransformer instance to indicate which model that SentenceTransformer should use.\
-            If it is a filepath on disc, it loads the model from that path.\
-            If it is not a path, it first tries to download a pre-trained SentenceTransformer model.\
-            If that fails, tries to construct a model from the Hugging Face Hub with that name.
-
-            device (str): Device (like "cuda", "cpu", "mps", "npu") that indicate where the SentenceTransformer model \
-            and all other computations of this class itself run.
-
-            batch_size (int): Determine how many sentence chunks should be encode at once.
-
-            is_multilingual_retrival (bool): Indicator variable representing that we are using this class in multilingual mode.\
-            This mode will required `pretrained_model_name_or_path_for_query` to be passed, because we will need the second model \
-            to processes the query which is in another language to the documents.
-
-            pretrained_model_name_or_path_for_query (str): Similar to `pretrained_model_name_or_path`,\
-            but the SentenceTransformer instance that is initialize with this is only used to encode the query.
+            pretrained_model_name_or_path (str): Pretrained model path for SentenceTransformer.
+            device (str): Device for computation (e.g., "cuda", "cpu").
+            batch_size (int): Batch size for encoding.
+            is_multilingual_retrival (bool): Whether to use separate models for query and documents.
+            pretrained_model_name_or_path_for_query (str): Pretrained model path for query encoding.
+            max_workers (int): Maximum threads for processing document streams.
+            encoding_workers (int): Maximum threads for batch encoding.
         """
         super(CustomSentenceTransformer, self).__init__()
 
-        self.document_sentence_transformer: SentenceTransformer = SentenceTransformer(
+        self.document_sentence_transformer = SentenceTransformer(
             pretrained_model_name_or_path, device=device)
-        self.query_sentence_transformer: SentenceTransformer = self.document_sentence_transformer \
+        self.query_sentence_transformer = self.document_sentence_transformer \
             if not is_multilingual_retrival \
             else SentenceTransformer(pretrained_model_name_or_path_for_query, device=device)
-        self.device: str = device
-        self.batch_size: int = batch_size
+        
+        self.device = device
+        self.batch_size = batch_size
+        self.max_workers = max_workers
+        self.encoding_workers = encoding_workers
 
         self.linear_sigmoid_stack = nn.Sequential(
             nn.Linear(in_features=2, out_features=1, bias=True),
             nn.Sigmoid()
         ).to(device=device)
 
-    def _process_sentence_stream(self, preprocessed_query: str, sentence_stream: list[str]) -> float:
+    def _encode_batch(self, sentences: List[str], model=None):
         """
-        Calculating the semantic similarity score of the query and all chunks from a single document only.
-
+        Encode a batch of sentences.
+        
         Args:
-            preprocessed_query (str): The query comes from users.
-
-            sentence_stream (list[str]): The list of all chunks that comes from only one document.
-
+            sentences (List[str]): The sentences to encode
+            model: The model to use (query or document model)
+            
         Returns:
-            float: The semantic similarity score between the query and the document.
+            Tensor: Embeddings for the sentences
         """
-        total_semantic_similarity: float = 1.0
+        if not sentences:
+            return torch.tensor([], device=self.device)
+            
+        if model is None:
+            model = self.document_sentence_transformer
+            
+        return model.encode(sentences, convert_to_tensor=True, device=self.device)
 
-        query_embedding: Tensor = self.query_sentence_transformer.encode(
-            preprocessed_query, convert_to_tensor=True, device=self.device)
+    def _process_document_batch(self, batch_data):
+        """
+        Process a single batch from a document.
+        
+        Args:
+            batch_data: Tuple of (batch of sentences, query_embedding)
+            
+        Returns:
+            Tensor: Similarities for this batch
+        """
+        batch, query_embedding = batch_data
+        
+        if not batch:
+            return torch.tensor([0.0], device=self.device)
+            
+        # Encode the batch
+        sentence_embeddings = self._encode_batch(batch)
+        
+        if sentence_embeddings.numel() == 0:
+            return torch.tensor([0.0], device=self.device)
+            
+        # Calculate similarities
+        similarities = cosine_similarity(
+            sentence_embeddings, query_embedding.unsqueeze(0)).squeeze()
+        similarities = relu(similarities)
+        return similarities
 
-        batch: list[str] = []
-
-        for sentence in sentence_stream:
-            batch.append(sentence)
-
-            if len(batch) == self.batch_size:
-                encoded_batch: Tensor = self.document_sentence_transformer.encode(
-                    batch, convert_to_tensor=True, device=self.device)
-
-                similarities: Tensor = cosine_similarity(
-                    encoded_batch, query_embedding.unsqueeze(0)).squeeze()
-                similarities = relu(similarities)
-                one_minus_similarities: Tensor = 1 - similarities
-                total_semantic_similarity *= one_minus_similarities.prod().item()
-
-                batch = []
-
-        # Process any remaining sentences in the final, smaller batch
-        if batch:
-            encoded_batch = self.document_sentence_transformer.encode(
-                batch, convert_to_tensor=True, device=self.device)
-            similarities = cosine_similarity(
-                encoded_batch, query_embedding.unsqueeze(0)).squeeze()
-            similarities = relu(similarities)
-            one_minus_similarities = 1 - similarities
-            total_semantic_similarity *= one_minus_similarities.prod().item()
-
-        total_semantic_similarity = 1 - total_semantic_similarity
+    def _process_document_stream_multithreaded(self, query_embedding: Tensor, sentence_stream: List[str]) -> float:
+        """
+        Process a document stream with multithreaded batch processing.
+        
+        Args:
+            query_embedding (Tensor): The query embedding
+            sentence_stream (List[str]): Sentences in the document
+            
+        Returns:
+            float: Semantic similarity score
+        """
+        if not sentence_stream:
+            return 0.0
+            
+        # Prepare batches
+        batches = []
+        for i in range(0, len(sentence_stream), self.batch_size):
+            batch = sentence_stream[i:i + self.batch_size]
+            batches.append((batch, query_embedding))
+        
+        # Process batches in parallel
+        all_similarities = []
+        
+        with concurrent.futures.ThreadPoolExecutor(max_workers=self.encoding_workers) as executor:
+            # Submit all batches for processing
+            futures = [executor.submit(self._process_document_batch, batch_data) 
+                      for batch_data in batches]
+            
+            # Collect results
+            for future in concurrent.futures.as_completed(futures):
+                try:
+                    similarities = future.result()
+                    if similarities.numel() > 0:
+                        if similarities.dim() == 0:  # Single value
+                            all_similarities.append(similarities.unsqueeze(0))
+                        else:
+                            all_similarities.append(similarities)
+                except Exception as e:
+                    print(f"Error in batch processing: {e}")
+        
+        # If no valid similarities were found
+        if not all_similarities:
+            return 0.0
+            
+        # Combine all similarities
+        combined_similarities = torch.cat(all_similarities)
+        
+        # Calculate final similarity score
+        one_minus_similarities = 1 - combined_similarities
+        total_semantic_similarity = 1 - torch.prod(one_minus_similarities).item()
+        
         return total_semantic_similarity
 
-    def forward(self, preprocessed_query: str, lexical_or_topic_similarities: list[float], sentence_streams: list[list[str]]) -> Tensor:
+    def forward(self, preprocessed_query: str, lexical_or_topic_similarities: List[float], sentence_streams: List[List[str]]) -> Tensor:
         """
-        Calculating the combined similarity score between the query and each documents from the input.
-
+        Calculate combined similarity scores using multithreading at both document and batch levels.
+        
         Args:
-            preprocessed_query (str): The query comes from users.
-
-            lexical_or_topic_similarities (list[float]): The list holds the lexical (for monolingual) or topic (for multiligual)\
-            similarity scores between the query and the correspond document from the input.
-
-            sentence_streams (list[list[str]]): This list represents the input documents. Each element in this list is the\
-            chunk list seperated from a single document that is considered relating to the query by lexical similarity or topic.
-
+            preprocessed_query (str): User query
+            lexical_or_topic_similarities (List[float]): Lexical or topic similarity scores
+            sentence_streams (List[List[str]]): List of document streams
+            
         Returns:
-            Tensor: The tensor holds the combined similarity score between the query and each documents from the input
+            Tensor: Combined similarity scores
         """
-        all_semantic_similarities: list[float] = []
-        for sentence_stream in sentence_streams:
-            stream_similarity: float = self._process_sentence_stream(
-                preprocessed_query, sentence_stream)
-            all_semantic_similarities.append(stream_similarity)
-
-        all_semantic_similarities_tensor: Tensor = torch.tensor(
+        # Encode query once
+        query_embedding = self.query_sentence_transformer.encode(
+            preprocessed_query, convert_to_tensor=True, device=self.device)
+        
+        # Use multithreading to process document streams in parallel
+        all_semantic_similarities = []
+        
+        # Create a partial function with the query_embedding already set
+        process_func = partial(self._process_document_stream_multithreaded, query_embedding)
+        
+        # Process streams in parallel using ThreadPoolExecutor
+        with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_workers) as executor:
+            # Submit all tasks
+            future_to_stream = {
+                executor.submit(process_func, stream): i 
+                for i, stream in enumerate(sentence_streams)
+            }
+            
+            # Collect results in order
+            all_semantic_similarities = [None] * len(sentence_streams)
+            for future in concurrent.futures.as_completed(future_to_stream):
+                stream_index = future_to_stream[future]
+                try:
+                    similarity = future.result()
+                    all_semantic_similarities[stream_index] = similarity
+                except Exception as e:
+                    print(f"Error processing stream {stream_index}: {e}")
+                    all_semantic_similarities[stream_index] = 0.0
+        
+        # Convert to tensors
+        all_semantic_similarities_tensor = torch.tensor(
             all_semantic_similarities, device=self.device)
-
-        lexical_or_topic_similarities_tensor: Tensor = torch.tensor(
+        lexical_or_topic_similarities_tensor = torch.tensor(
             lexical_or_topic_similarities, device=self.device)
-
-        combined_similarities_tensor: Tensor = torch.stack(
+        
+        # Combine similarities
+        combined_similarities_tensor = torch.stack(
             (all_semantic_similarities_tensor, lexical_or_topic_similarities_tensor), dim=1)
-
-        output: Tensor = self.linear_sigmoid_stack(
-            combined_similarities_tensor)
+        
+        # Apply linear layer and sigmoid
+        output = self.linear_sigmoid_stack(combined_similarities_tensor)
         return output.squeeze()
