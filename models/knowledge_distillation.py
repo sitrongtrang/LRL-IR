@@ -83,8 +83,8 @@ class KnowledgeDistillation:
         self.ot_solver: OTSolver = OTSolver(self.device)
 
     def optical(self, source_sentence: str, target_sentence: str):
-        source_tokens = self.teacher_language_processing.text_preprocessing(source_sentence)
-        target_tokens = self.student_language_processing.text_preprocessing(target_sentence)
+        source_tokens = self.teacher_language_processing.tokenizer(source_sentence)
+        target_tokens = self.student_language_processing.tokenizer(target_sentence)
 
         print(target_tokens)
 

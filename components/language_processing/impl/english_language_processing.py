@@ -35,7 +35,6 @@ class EnglishLanguageProcessing(LanguageProcessing):
     
     def text_preprocessing(self, text):
         return self._text_preprocessing(text)
-
         
     def pre_trained_tokenizer_model(self):
         return self._pre_trained_tokenizer_model

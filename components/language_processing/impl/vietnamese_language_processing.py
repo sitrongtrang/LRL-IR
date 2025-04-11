@@ -57,17 +57,15 @@ class VietnameseLanguageProcessing(LanguageProcessing):
         return VietnameseLanguageProcessing._word_segment
     
     def text_preprocessing(self, text):
-        tokenized_text = self._text_preprocessing(text)
-        # tokenized_text = [tokenized_sent.split(' ') for tokenized_sent in tokenized_text]
-        # return [token.replace("_", " ") for tokenized_sent in tokenized_text for token in tokenized_sent]
-        return tokenized_text
-
+        return self._text_preprocessing(text)
         
     def pre_trained_tokenizer_model(self):
         return self._pre_trained_tokenizer_model
     
     def tokenizer(self, text: str):
-        return self._tokenizer(text)
+        tokenized_text = self._text_preprocessing(text)
+        tokenized_text = [tokenized_sent.split(' ') for tokenized_sent in tokenized_text]
+        return [token.replace("_", " ") for tokenized_sent in tokenized_text for token in tokenized_sent]
     
     def encoder(self, text: str | list[str]):
         return self._encoder(text)
