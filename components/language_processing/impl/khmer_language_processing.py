@@ -20,7 +20,7 @@ class KhmerLanguageProcessing(LanguageProcessing):
             tokenizer: Callable[[str], list[str]] | None = None,
             encoder: Callable[[str | list[str]], list[int]] | None = None
     ):
-        self._pre_trained_tokenizer_model = AutoTokenizer.from_pretrained("FacebookAI/xlm-roberta-base", added_tokens_decoder=None) if \
+        self._pre_trained_tokenizer_model = AutoTokenizer.from_pretrained("FacebookAI/xlm-roberta-base") if \
             pre_trained_tokenizer_model is None else pre_trained_tokenizer_model
         self._text_preprocessing = self._load_text_preprocessing()
         self._tokenizer = self._pre_trained_tokenizer_model.tokenize if tokenizer is None else tokenizer
