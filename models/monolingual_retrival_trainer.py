@@ -4,7 +4,7 @@ import torch
 from torch import nn, Tensor
 from torch.optim import Adam
 from torch.utils.data import DataLoader
-from components import LanguageProcessing, VietnameseLanguageProcessing
+from components import LanguageProcessing
 from components import DocumentDataset
 from components import QueryDocDataset
 from components import QueryExpansion
@@ -12,7 +12,7 @@ from components import LexicalMatching
 from components import ChunkSeperator
 from components import CustomSentenceTransformer
 from components import FineTuneLanguageModel
-from utils.utils import pos_neg_samples_gen_first_round, pos_neg_samples_gen_later_round, combine_doc_list
+from utils.utils import pos_neg_samples_gen_first_round, pos_neg_samples_gen_later_round, combine_doc_list, get_language_processor
 
 FIRST_ROUND_NEGATIVE_SAMPLE_COUNT = 35
 SECOND_ROUND_NEGATIVE_SAMPLE_COUNT = 20
@@ -58,8 +58,7 @@ class MonolingualRetrivalTrainer:
         qd_dir: str,
         pretrained_model_name_or_path: str,
         do_mlm_fine_tune: bool = True,
-        language: str = 'vie',
-        language_processing: LanguageProcessing = VietnameseLanguageProcessing(),
+        language: str = 'vi',
         chunk_length_limit: int = 128,
         device: str = "cpu",
         batch_size: int = 32,
@@ -102,16 +101,15 @@ class MonolingualRetrivalTrainer:
         """
         super().__init__()
         self.language = language
+        language_processing = get_language_processor(language)
         self.document_dataset: DocumentDataset = DocumentDataset(
             document_dir,
             processed_doc_store_dir,
             language,
-            language_processing
         )
         self.query_doc_dataset = QueryDocDataset(
             qd_dir,
             language,
-            language_processing
         )
         self.query_expansion: QueryExpansion = QueryExpansion(
             self.document_dataset)

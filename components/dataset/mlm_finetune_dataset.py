@@ -2,7 +2,6 @@ from torch.utils.data import Dataset
 from transformers import BatchEncoding
 from .document_dataset import DocumentDataset
 from ..language_processing.language_processing import LanguageProcessing
-from ..language_processing.impl.vietnamese_language_processing import VietnameseLanguageProcessing
 from transformers import PreTrainedTokenizer, PreTrainedTokenizerFast
 
 

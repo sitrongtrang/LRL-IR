@@ -4,20 +4,17 @@ import json
 import pandas as pd
 from torch.utils.data import Dataset
 from ..language_processing.language_processing import LanguageProcessing
-from ..language_processing.impl.vietnamese_language_processing import VietnameseLanguageProcessing
-from ..language_processing.impl.khmer_language_processing import KhmerLanguageProcessing
-from ..language_processing.impl.english_language_processing import EnglishLanguageProcessing
+from utils.utils import get_language_processor
 
 class DocumentDataset(Dataset):
     def __init__(
             self,
             parquet_file_dir: str,
             processed_doc_store_dir: str,
-            language: str = 'vie',
-            language_processing: LanguageProcessing = VietnameseLanguageProcessing()
+            language: str = 'vi'
     ):
         self.language: str = language
-        self.language_processing: LanguageProcessing = language_processing
+        self.language_processing: LanguageProcessing = get_language_processor(language)
         self.parquet_file_dir: str = parquet_file_dir
         self.processed_doc_store_dir: str = processed_doc_store_dir
         self.document_count: int = self._load_documents()

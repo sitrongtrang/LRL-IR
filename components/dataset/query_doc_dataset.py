@@ -3,17 +3,16 @@ import os
 from torch.utils.data import Dataset
 import pandas as pd
 from ..language_processing.language_processing import LanguageProcessing
-from ..language_processing.impl.vietnamese_language_processing import VietnameseLanguageProcessing
+from utils.utils import get_language_processor
 
 class QueryDocDataset(Dataset):
     def __init__(
             self,
             qd_dir: str,
-            language: str = 'vie',
-            language_processing: LanguageProcessing = VietnameseLanguageProcessing()
+            language: str = 'vi',
     ):
         self.language: str = language
-        self.language_processing: LanguageProcessing = language_processing
+        self.language_processing: LanguageProcessing = get_language_processor(language)
         self.qd_dir: str = qd_dir
         self.qd_pairs = self._load_qd_pairs()
 

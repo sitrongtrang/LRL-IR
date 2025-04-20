@@ -2,12 +2,12 @@ from functools import reduce
 import torch
 from torch import nn, Tensor
 from components import DocumentDataset
-from components import LanguageProcessing, VietnameseLanguageProcessing
+from components import LanguageProcessing
 from components import QueryExpansion
 from components import LexicalMatching
 from components import ChunkSeperator
 from components import CustomSentenceTransformer
-from utils.utils import combine_doc_list
+from utils.utils import combine_doc_list, get_language_processor
 
 
 class MonoLingualRetrival(nn.Module):
@@ -22,8 +22,7 @@ class MonoLingualRetrival(nn.Module):
         document_dir: str,
         processed_doc_store_dir: str,
         custom_sentence_transformer_pretrained_or_save_path: str,
-        language: str = 'vie',
-        language_processing: LanguageProcessing = VietnameseLanguageProcessing(),
+        language: str = 'vi',
         original_query_doc_count: int = 30,
         extended_query_doc_count: int = 30,
         chunk_length_limit: int = 128,
@@ -72,11 +71,11 @@ class MonoLingualRetrival(nn.Module):
         """
         super().__init__()
         self.language = language
+        language_processing = get_language_processor(language)
         self.document_dataset: DocumentDataset = DocumentDataset(
             document_dir,
             processed_doc_store_dir,
             language,
-            language_processing
         )
         self.query_expansion: QueryExpansion = QueryExpansion(
             self.document_dataset)
@@ -91,7 +90,7 @@ class MonoLingualRetrival(nn.Module):
         # `document_sentence_transformer` and `query_sentence_transformer` are the same instance
         # and will have with the same model's parameters.
         checkpoint = torch.load(
-            custom_sentence_transformer_pretrained_or_save_path)
+            custom_sentence_transformer_pretrained_or_save_path, map_location=torch.device(device))
         self.custom_sentence_transformer = CustomSentenceTransformer(
             checkpoint['sentence_transformer_save_path'],
             device=device,
