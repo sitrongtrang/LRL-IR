@@ -23,7 +23,7 @@ def monolingual_train(
     batch_size='32',
     margin='1.0',
     learning_rate='1e-5',
-    epochs='4'
+    epochs='4',
 ):
     if device == 'cuda' and not torch.cuda.is_available():
         raise RuntimeError("Your device does not have GPU!")
@@ -61,7 +61,9 @@ def monolingual_retrive(
     relevant_threshold='0.1',
     relevant_default_lowerbound='0.25',
     device='cpu',
-    batch_size='32'
+    batch_size='32',
+    manual_query = 'True',
+    query_dir = ""
 ):
     if device == 'cuda' and not torch.cuda.is_available():
         raise RuntimeError("Your device does not have GPU!")
@@ -80,17 +82,29 @@ def monolingual_retrive(
         batch_size=int(batch_size)
     )
 
-    while True:
-        query = input('Please input your query: ')
-        if not query:
-            break
-        query.strip()
-        if not query:
-            break
-        print(f"Your query: {query}")
-        print("Related documents:")
-        result = model(query)
-        print(result)
+    if manual_query in ('True', 'true', '1'):
+        while True:
+            query = input('Please input your query: ')
+            if not query:
+                break
+            query.strip()
+            if not query:
+                break
+            print(f"Your query: {query}")
+            print("Related documents:")
+            result = model(query)
+            print(result)
+    else:
+        with open(query_dir, 'r', encoding='utf-8') as f:
+            for line in f:
+                query = line.strip()
+                if not query:
+                    continue  
+                print(f"Your query: {query}")
+                print("Related documents:")
+                result = model(query)
+                print(result)
+
 
 def knowledge_distillation(
     teacher_model_language,
