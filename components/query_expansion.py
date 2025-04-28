@@ -412,7 +412,7 @@ class QueryExpansion:
                 
             previous_likelihood = current_likelihood
             
-            print(f"Starting iteration {iteration} for source {source}")
+            # print(f"Starting iteration {iteration} for source {source}")
             self._estimation_step(observation_sequence)     
             self._maximization_step(observation_sequence)
 
@@ -433,15 +433,15 @@ class QueryExpansion:
         observation_sequence_title: set[str] = self._get_term_set_of_source("RELEVANT_SET_TITLE")
         observation_sequence_content: set[str] = self._get_term_set_of_source("RELEVANT_SET_CONTENT")
 
-        print("Starting EM algorithm for title set")
+        # print("Starting EM algorithm for title set")
         expansion_term_with_prob_from_title_relevant_set = self._perform_em_algorithm(
             observation_sequence_title, "RELEVANT_SET_TITLE", tokenized_query)
-        print("DONE with title set")
+        # print("DONE with title set")
         
-        print("Starting EM algorithm for content set")
+        # print("Starting EM algorithm for content set")
         expansion_term_with_prob_from_content_relevant_set = self._perform_em_algorithm(
             observation_sequence_content, "RELEVANT_SET_CONTENT", tokenized_query)
-        print("DONE with content set")
+        # print("DONE with content set")
         
         combined_expansion_terms: list[tuple[str, float]] = []
         term_prob_dict: dict[str, float] = {}

@@ -1,3 +1,4 @@
+import csv
 import sys
 import os
 
@@ -8,7 +9,7 @@ sys.path.append(project_root)
 import torch
 from models import MonolingualRetrivalTrainer, MonoLingualRetrival, KnowledgeDistillation
 from components import LanguageProcessing
-from utils.utils import get_language_processor
+from utils.utils import get_language_processor, mean_reciprocal_rank
 
 
 def monolingual_train(
@@ -63,7 +64,8 @@ def monolingual_retrive(
     device='cpu',
     batch_size='32',
     manual_query = 'True',
-    query_dir = ""
+    query_dir = "",
+    evaluate = 'False',
 ):
     if device == 'cuda' and not torch.cuda.is_available():
         raise RuntimeError("Your device does not have GPU!")
@@ -95,15 +97,32 @@ def monolingual_retrive(
             result = model(query)
             print(result)
     else:
+
+        queries = []
+        retrieved_docs_by_queries = []
+        true_positives = []
+
         with open(query_dir, 'r', encoding='utf-8') as f:
-            for line in f:
-                query = line.strip()
+            reader = csv.reader(f)
+            next(reader, None)
+            for row in reader:
+                if not row or len(row) < 2: 
+                    continue
+                query, doc_id = row
+                query = query.strip()
+                queries.append(query)
+                true_positives.append(int(doc_id))
                 if not query:
-                    continue  
+                    continue
                 print(f"Your query: {query}")
                 print("Related documents:")
                 result = model(query)
+                retrieved_docs_by_queries.append(result[0])
                 print(result)
+
+        if evaluate in ('True', 'true', '1'):
+            mrr = mean_reciprocal_rank(queries, retrieved_docs_by_queries, true_positives)
+            print("Mean reciprocal rank is: " + mrr)
 
 
 def knowledge_distillation(

@@ -242,3 +242,57 @@ def roberta_dist(tokens, tokenizer, model, device='cpu'):
         if (predicted_sum != 1):
             diff = 1 - predicted_sum
     return torch.tensor([float(weight + diff/len(result)) for weight in result], requires_grad=True, device=device)
+
+def is_relevant(query, document):
+    pass
+
+def average_precision(query, retrieved_docs):
+    num_relevant = 0
+    precision_sum = 0.0
+
+    for rank, doc in enumerate(retrieved_docs, start=1):
+        if is_relevant(query, doc):
+            num_relevant += 1
+            precision = num_relevant / rank
+            precision_sum += precision
+
+    if num_relevant == 0:
+        return 0.0
+
+    return precision_sum / num_relevant
+
+def mean_average_precision(queries, retrieved_docs_by_queries):
+    sum_average_precision = 0.0
+    for i, query in enumerate(queries):
+        sum_average_precision += average_precision(query, retrieved_docs_by_queries[i])
+    
+    return sum_average_precision / len(queries)
+
+def precision_at_k(query, retrieved_docs, k=10):
+    top_k = retrieved_docs[:k]
+    relevant_count = sum(1 for doc in top_k if is_relevant(query, doc))
+    return relevant_count / k
+
+def mean_precision_at_k(queries, retrieved_docs_by_queries, k=10):
+    sum_precision_scores = 0
+    for i, query in enumerate(queries):
+        sum_precision_scores += precision_at_k(query, retrieved_docs_by_queries[i], k)
+
+    return sum_precision_scores / len(queries) 
+
+def recall_at_k(query, retrieved_docs, known_positive, k=10):
+    top_k = retrieved_docs[:k]
+    return 1.0 if known_positive in top_k else 0.0
+
+def reciprocal_rank(query, retrieved_docs, known_positive):
+    for idx, doc in enumerate(retrieved_docs, start=1):
+        if doc == known_positive:
+            return 1.0 / idx
+    return 0.0
+
+def mean_reciprocal_rank(queries, retrieved_docs_by_queries, known_positives):
+    sum_reciprocal_rank = 0
+    for i, query in enumerate(queries):
+        sum_reciprocal_rank += reciprocal_rank(query, retrieved_docs_by_queries[i], known_positives[i])
+    
+    return sum_reciprocal_rank / len(queries)
