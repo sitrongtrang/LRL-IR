@@ -122,7 +122,7 @@ def monolingual_retrive(
 
         if evaluate in ('True', 'true', '1'):
             mrr = mean_reciprocal_rank(queries, retrieved_docs_by_queries, true_positives)
-            print("Mean reciprocal rank is: " + mrr)
+            print("Mean reciprocal rank is: " + str(mrr))
 
 
 def knowledge_distillation(
