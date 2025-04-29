@@ -1,6 +1,8 @@
 import csv
+import json
 import sys
 import os
+from dotenv import load_dotenv
 
 # Add the project root directory to sys.path
 project_root = os.path.dirname(os.path.abspath(__file__))
@@ -10,6 +12,8 @@ import torch
 from models import MonolingualRetrivalTrainer, MonoLingualRetrival, KnowledgeDistillation
 from components import LanguageProcessing
 from utils.utils import get_language_processor, mean_reciprocal_rank
+
+load_dotenv()
 
 
 def monolingual_train(
@@ -121,8 +125,14 @@ def monolingual_retrive(
                 print(result)
 
         if evaluate in ('True', 'true', '1'):
-            mrr = mean_reciprocal_rank(queries, retrieved_docs_by_queries, true_positives)
-            print("Mean reciprocal rank is: " + str(mrr))
+            result_dir = os.getenv("PROJECT_DIR") + "results.csv"
+            with open(result_dir, 'w', encoding='utf-8') as out_file:
+                writer = csv.writer(out_file)
+                writer.writerow(['query', 'true_doc_id', 'retrieved_docs'])
+                for i in range(len(queries)):
+                    writer.writerow([queries[i], true_positives[i], json.dumps(retrieved_docs_by_queries[i])])
+            # mrr = mean_reciprocal_rank(queries, retrieved_docs_by_queries, true_positives)
+            # print("Mean reciprocal rank is: " + str(mrr))
 
 
 def knowledge_distillation(
