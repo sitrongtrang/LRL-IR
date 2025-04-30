@@ -144,6 +144,8 @@ class MonoLingualRetrival(nn.Module):
             lexical_similarity_score_list,
             lexical_relevant_doc_chunk_list
         )
+        if output.numel() == 0:
+            return [], []
         max_relevant = output.max()
         lower_bound = max(max_relevant - self.relevant_threshold,
                             self.relevant_default_lowerbound)
@@ -152,7 +154,9 @@ class MonoLingualRetrival(nn.Module):
         mask = (output >= lower_bound) & (output <= upper_bound)
 
         indices: list[int] = torch.nonzero(
-            mask, as_tuple=False).squeeze().tolist()
+            mask, as_tuple=False).flatten().tolist()
+        if not indices:
+            return [], []
         document_id: list[str] = [combine_lexical_relevant_doc_list[i][0]
                                 for i in indices]
         document_relevant_score: list[float] = [output[i].item() for i in indices]
